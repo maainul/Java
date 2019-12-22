@@ -2,11 +2,11 @@
 
 ## Basic Discussion
 
-[What is Java](https://github.com/maainul/JAVA-/blob/master/WhatIsJava.md)
+[What is Java](https://github.com/maainul/Java/blob/master/WhatIsJava.md)
 
-[History of Java](https://github.com/maainul/JAVA-/blob/master/HistoryOfJava.md)
+[History of Java](https://github.com/maainul/Java/blob/master/HistoryOfJava.md)
 
-[Features of Java](https://github.com/maainul/JAVA-/blob/master/FeaturesOfJava.md)
+[Features of Java](https://github.com/maainul/Java/blob/master/FeaturesOfJava.md)
 
 [C++ vs Java](https://www.javatpoint.com/cpp-vs-java)
 
@@ -28,27 +28,27 @@
 
 [Operators](https://www.javatpoint.com/operators-in-java)
 
-[Keywords](https://github.com/maainul/JAVA-/blob/master/JavaKeywords.md)
+[Keywords](https://github.com/maainul/Java/blob/master/JavaKeywords.md)
 
 ## Control Statement
 
-[Java If-else](https://github.com/maainul/JAVA-/blob/master/Inheritance.md)
+[Java If-else](https://github.com/maainul/Java/blob/master/Inheritance.md)
 
-[Java Switch](https://github.com/maainul/JAVA-/blob/master/Inheritance.md)
+[Java Switch](https://github.com/maainul/Java/blob/master/Inheritance.md)
 
-[Java For Loop](https://github.com/maainul/JAVA-/blob/master/Inheritance.md)
+[Java For Loop](https://github.com/maainul/Java/blob/master/Inheritance.md)
 
-[Java While Loop](https://github.com/maainul/JAVA-/blob/master/Inheritance.md)
+[Java While Loop](https://github.com/maainul/Java/blob/master/Inheritance.md)
 
-[Java Do While Loop](https://github.com/maainul/JAVA-/blob/master/Inheritance.md)
+[Java Do While Loop](https://github.com/maainul/Java/blob/master/Inheritance.md)
 
-[Java Break](https://github.com/maainul/JAVA-/blob/master/Inheritance.md)
+[Java Break](https://github.com/maainul/Java/blob/master/Inheritance.md)
 
-[Java Continue](https://github.com/maainul/JAVA-/blob/master/Inheritance.md)
+[Java Continue](https://github.com/maainul/Java/blob/master/Inheritance.md)
 
-[Java Comments](https://github.com/maainul/JAVA-/blob/master/Inheritance.md)
+[Java Comments](https://github.com/maainul/Java/blob/master/Inheritance.md)
 
-[Java Programs](https://github.com/maainul/JAVA-/blob/master/Inheritance.md)
+[Java Programs](https://github.com/maainul/Java/blob/master/Inheritance.md)
 
 
 ## Java Object Class
@@ -59,51 +59,51 @@
 
 [Object and Class](https://www.javatpoint.com/object-and-class-in-java)
 
-[Constructor](https://github.com/maainul/JAVA-/blob/master/ConstructorDetails.md)
+[Constructor](https://github.com/maainul/Java/blob/master/ConstructorDetails.md)
 
-[Static Keyword](https://github.com/maainul/JAVA-/blob/master/DiscussionJavaStaticKeyword.md).
+[Static Keyword](https://github.com/maainul/Java/blob/master/DiscussionJavaStaticKeyword.md).
    
-[This Keyword](https://github.com/maainul/JAVA-/blob/master/ThisKeyword.md).
+[This Keyword](https://github.com/maainul/Java/blob/master/ThisKeyword.md).
 
 ## Java Inheritance
 
-[Inheritance](https://github.com/maainul/JAVA-/blob/master/Inheritance.md)
+[Inheritance](https://github.com/maainul/Java/blob/master/Inheritance.md)
 
 ## Java Polymorphism
 
-[Polymorphism](https://github.com/maainul/JAVA-/blob/master/polymorphism.md)
+[Polymorphism](https://github.com/maainul/Java/blob/master/polymorphism.md)
 
-[Method Overloading](https://github.com/maainul/JAVA-/blob/master/polymorphism.md)
+[Method Overloading](https://github.com/maainul/Java/blob/master/polymorphism.md)
 
-[Method Overriding](https://github.com/maainul/JAVA-/blob/master/polymorphism.md)
+[Method Overriding](https://github.com/maainul/Java/blob/master/polymorphism.md)
 
-[Covariant Return Type](https://github.com/maainul/JAVA-/blob/master/Inheritance.md)
+[Covariant Return Type](https://github.com/maainul/Java/blob/master/Inheritance.md)
 
-[Super Keyword](https://github.com/maainul/JAVA-/blob/master/SuperKeyword.md). 
+[Super Keyword](https://github.com/maainul/Java/blob/master/SuperKeyword.md). 
 
-[Instance Initializer block](https://github.com/maainul/JAVA-/blob/master/Inheritance.md)
+[Instance Initializer block](https://github.com/maainul/Java/blob/master/Inheritance.md)
 
-[final keyword](https://github.com/maainul/JAVA-/blob/master/Inheritance.md)
+[final keyword](https://github.com/maainul/Java/blob/master/Inheritance.md)
 
-[Runtime Polymorphism](https://github.com/maainul/JAVA-/blob/master/Inheritance.md)
+[Runtime Polymorphism](https://github.com/maainul/Java/blob/master/Inheritance.md)
 
-[Dynamic Binding](https://github.com/maainul/JAVA-/blob/master/Inheritance.md)
+[Dynamic Binding](https://github.com/maainul/Java/blob/master/Inheritance.md)
 
-[instanceof operator](https://github.com/maainul/JAVA-/blob/master/Inheritance.md)
+[instanceof operator](https://github.com/maainul/Java/blob/master/Inheritance.md)
 
 # Java Abstraction
 
-[Abstract class](https://github.com/maainul/JAVA-/blob/master/AbstractClass.md)
+[Abstract class](https://github.com/maainul/Java/blob/master/AbstractClass.md)
 
-[Interface](https://github.com/maainul/JAVA-/blob/master/InterfaceDiscussion.md)
+[Interface](https://github.com/maainul/Java/blob/master/InterfaceDiscussion.md)
 
 [Abstract vs Interface](https://www.javatpoint.com/difference-between-abstract-class-and-interface)
 
 # Java Encapsulation
 
-[Package](https://github.com/maainul/JAVA-/blob/master/Inheritance.md)
+[Package](https://github.com/maainul/Java/blob/master/Inheritance.md)
 
-[Access Modifiers](https://github.com/maainul/JAVA-/blob/master/AccessModifiersJava.md)
+[Access Modifiers](https://github.com/maainul/Java/blob/master/AccessModifiersJava.md)
 
 [Encapsulation](https://www.javatpoint.com/encapsulation)
 
