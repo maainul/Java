@@ -12,6 +12,7 @@ public class SubstringJava {
 		// it print given first to given last.
 		// suppose (1,5) it will print 2,3,4,5 value
 		System.out.println(s2.substring(1, 5));
+		System.out.println(s3.substring(1));
 	}
 
 }
