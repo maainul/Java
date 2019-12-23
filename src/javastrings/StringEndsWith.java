@@ -1,6 +1,6 @@
 package javastrings;
 
-public class EndsWith {
+public class StringEndsWith {
 
 	public static void main(String[] args) {
 		String nameString = "What do you know about me";
