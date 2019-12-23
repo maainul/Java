@@ -1,6 +1,6 @@
 package javastrings;
 
-public class Append {
+public class StringBufferAppend {
 
 	public static void main(String[] args) {
 		StringBuffer stringBuffer = new StringBuffer("Hello");
