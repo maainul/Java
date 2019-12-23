@@ -1,6 +1,6 @@
 package javastrings;
 
-public class StartsAndEndWith {
+public class StringStartsAndEndWith {
 
 	public static void main(String[] args) {
 		String s1 = "Mainul";
@@ -9,6 +9,12 @@ public class StartsAndEndWith {
 		System.out.println(s1.startsWith("M"));
 		System.out.println(s1.endsWith("l"));
 		System.out.println(s1.endsWith("L"));
+		if(s1.endsWith("me")) {
+			System.out.println("You know me");
+		}
+		else {
+			System.out.println("You don't know me");
+		}
 	}
 
 }
