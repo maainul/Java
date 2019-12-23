@@ -1,6 +1,6 @@
 package javastrings;
 
-public class InsertMethod {
+public class StringBufferInsertMethod {
 
 	public static void main(String[] args) {
 		StringBuffer stringBuffer = new StringBuffer("Hello");
