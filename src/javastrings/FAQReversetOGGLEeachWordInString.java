@@ -9,7 +9,7 @@ class Stringtogglerr{
 			stringBuilder.reverse();
 			//System.out.println(stringBuilder.reverse());
 			String firstString=stringBuilder.substring(0,1);  
-	        String afterString=stringBuilder.substring(1);  
+	        	String afterString=stringBuilder.substring(1);  
 			reveseStringToggler +=firstString.toLowerCase()+afterString.toUpperCase()+" ";
 		}
 		return reveseStringToggler;
