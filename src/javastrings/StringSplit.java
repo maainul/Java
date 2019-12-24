@@ -4,9 +4,12 @@ public class StringSplit {
 	public static void main(String args[]) {
 		String s1="java string split method by javatpoint";  
 		String[] wordStrings = s1.split("\\s");
-		
+		String capitalizeString = "";
 		for(String wString:wordStrings) {
-			System.out.println(wString);
+			String firString = wString.substring(0,1);
+			String afterString = wString.substring(1);
+			capitalizeString+=firString.toUpperCase()+afterString.toLowerCase()+" ";
+			System.out.println(capitalizeString.trim());
 		}
 		String s2="java string split method by javatpoint";  
 		
