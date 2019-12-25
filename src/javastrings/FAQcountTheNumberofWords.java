@@ -1,17 +1,21 @@
 package javastrings;
 
-public class FAQcountTheNumberofWords {
-
-	public static void main(String[] args) {
-		int count = 0;
-		String s1 = "India Is My Country";
-		String[] s2 = s1.split("\\s");
-		for(String s:s2) {
-			System.out.println(s);
-			count++;
-		}
-		System.out.println("Number of words:"+count);
-		
-	}
-
-}
+public class FAQcountTheNumberofWords {  
+    static int wordcount(String string)  
+      {  
+        int count=0;  
+    
+          char ch[]= new char[string.length()];     
+          for(int i=0;i<string.length();i++)  
+          {  
+              ch[i]= string.charAt(i);  
+              if( ((i>0)&&(ch[i]!=' ')&&(ch[i-1]==' ')) || ((ch[0]!=' ')&&(i==0)) )  
+                  count++;  
+          }  
+          return count;  
+      }  
+    public static void main(String[] args) {  
+        String string ="    Bangladesh i Is My Country";  
+       System.out.println(wordcount(string) + " words.");   
+  }  
+} 
