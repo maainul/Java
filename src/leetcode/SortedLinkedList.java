@@ -1,3 +1,4 @@
+/*
 class Solution {
     public ListNode sortList(ListNode head) {
        ListNode current = head, nextNodeToCurrent = null;
@@ -19,3 +20,4 @@ class Solution {
         return head;
         }
     }
+*/
