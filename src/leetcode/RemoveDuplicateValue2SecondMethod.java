@@ -6,7 +6,7 @@ class Solution {
         ListNode currentNode = previousTohead;
         
         while(currentNode.next != null && currentNode.next.next != null){
-            if(currentNode.next.val == curr.next.next.val){
+            if(currentNode.next.val == currentNode.next.next.val){
                 int val = currentNode.next.val;
                 while(currentNode.next != null && currentNode.next.val == val){
                     currentNode.next = currentNode.next.next;
