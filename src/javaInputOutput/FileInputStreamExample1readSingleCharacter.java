@@ -2,7 +2,7 @@ package javaInputOutput;
 
 import java.io.FileInputStream;
 
-public class JavaFileInputStreamExample1readSingleCharacter {
+public class FileInputStreamExample1readSingleCharacter {
 
 	public static void main(String[] args) {
 		try {

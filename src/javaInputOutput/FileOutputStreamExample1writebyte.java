@@ -2,7 +2,7 @@ package javaInputOutput;
 
 import java.io.FileOutputStream;
 
-public class JavaFileOutputStreamExample1writebyte {
+public class FileOutputStreamExample1writebyte {
     public static void main(String args[]){    
         try{    
           FileOutputStream fout=new FileOutputStream("C:\\Users\\Md.Mainul hasan anik\\gitrepo\\Java\\src\\javaInputOutput\\createdfiles\\file.txt");    

@@ -3,7 +3,7 @@ package javaInputOutput;
 import java.io.FileInputStream;
 
 
-public class JavaFileInputStreamExample2readAllCharacters {
+public class FileInputStreamExample2readAllCharacters {
 
 	public static void main(String[] args) {
 		String file = "C:\\Users\\Md.Mainul hasan anik\\gitrepo\\Java\\src\\javaInputOutput\\createdfiles\\fileinput.txt";

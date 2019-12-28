@@ -2,7 +2,7 @@ package javaInputOutput;
 
 import java.io.FileOutputStream;
 
-public class JavaFileOutputStreamExample2writeString {
+public class FileOutputStreamExample2writeString {
 
 	public static void main(String[] args) {
 		try {
