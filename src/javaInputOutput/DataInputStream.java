@@ -15,7 +15,8 @@ public class DataInputStream {
           for (byte bt : ary) {  
             char k = (char) bt;  
             System.out.print(k+"-");  
-          }  
+          } 
+          dis.close();
          }catch(Exception e){System.out.println(e);}    
    } 
 }
