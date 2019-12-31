@@ -6,7 +6,7 @@ public class StringReader {
 		try {
 			
 		} catch (Exception e) {
-			// TODO: handle exception
+			System.out.println(e);
 		}
 
 	}
