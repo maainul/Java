@@ -2,7 +2,7 @@ package javaInputOutput;
 
 import java.io.CharArrayReader;
 
-public class CharArray {
+public class CharArrayReaderClass {
 
 	public static void main(String[] args) throws Exception {
 		char[] ary = {'j','a','v','a'};
