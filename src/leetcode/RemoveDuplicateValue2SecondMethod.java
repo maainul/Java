@@ -1,3 +1,4 @@
+/*
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         if(head == null || head.next == null) return head;
@@ -20,3 +21,4 @@ class Solution {
         return previousTohead.next;
     }
 }
+*/
