@@ -1,5 +1,5 @@
 package javastrings;
-
+//The given example returns total number of words in a string excluding space only. It also includes special characters.
 public class StringSplit {
 	public static void main(String args[]) {
 		String s1="java string split method by javatpoint";  
@@ -37,6 +37,7 @@ split
 method
 by
 javatpoint
+
 --------Method of split------
 java
 string

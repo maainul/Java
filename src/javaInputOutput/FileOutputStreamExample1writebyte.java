@@ -8,6 +8,9 @@ public class FileOutputStreamExample1writebyte {
           FileOutputStream fout=new FileOutputStream("C:\\Users\\Md.Mainul hasan anik\\gitrepo\\Java\\src\\javaInputOutput\\createdfiles\\file.txt");    
           fout.write(65);   
           fout.write(112);
+          String s = " I love my job.";
+          byte[] b = s.getBytes();
+          fout.write(b);
           fout.close();    
           System.out.println("success...");    
          }catch(Exception e){System.out.println(e);}    
