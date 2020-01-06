@@ -1,7 +1,7 @@
 package array;
 
 
-public class ElemRemoval {
+public class ElementRemoval {
  
      
     public static void main(String[] args) 
@@ -29,11 +29,10 @@ public class ElemRemoval {
 		}
         
 
-
         int current = input[0];
        
         System.out.println("\n\nAfter removing");
-        for (int i = 0; i < input.length; i++) {
+        for (int i = 1; i < input.length; i++) {
         	
            if (current != input[i]) {
         	   System.out.print(current+ " ");

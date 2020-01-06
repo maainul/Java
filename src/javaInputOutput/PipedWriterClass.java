@@ -33,6 +33,7 @@ public class PipedWriterClass {
   
             readerThread.start();  
             writerThread.start();  
+            write.close();
   
         } catch (Exception ex) {  
             System.out.println(ex.getMessage());  
