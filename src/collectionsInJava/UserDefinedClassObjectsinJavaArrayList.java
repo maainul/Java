@@ -36,6 +36,11 @@ public class UserDefinedClassObjectsinJavaArrayList {
 			
 			
 		}
+		// for each loop
+		System.out.println();
+		for (Student student : list) {
+			System.out.println(student.nameString+" "+student.age+" "+student.roll);
+		}
 
 	}
 
