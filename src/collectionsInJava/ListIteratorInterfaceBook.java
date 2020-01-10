@@ -28,10 +28,11 @@ public class ListIteratorInterfaceBook {
 		Boook b1 = new Boook("Packet pub","Computer craphics","textemp lee",1,8);
 		Boook b2 = new Boook("mc greehil","Computer fundamentals","lutfar rahman",2,10);
 		Boook b3 = new Boook("Packet pub","Computer craphics","textemp lee",1,8);
-		Boook b4 = new Boook("mc greehil","Computer fundamentals","lutfar rahman",2,10);
+		//Boook b4 = new Boook("mc greehil","Computer fundamentals","lutfar rahman",2,10);
 		list.add(b1);
 		list.add(b2);
 		list.add(b3);
+		
 		
 		
 		for (Boook book : list) {
