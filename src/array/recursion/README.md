@@ -1,6 +1,38 @@
 # Recursion
-
 ## Problem 1:
+
+Write a function that prints all the elements of an array of integers in order. ([RecursionPracticeQuestions-UG1, problem 2](https://researchweb.iiit.ac.in/~syed.akhtar/teaching/cpro16/lab8/problem_statements/RecursionPracticeQuestions-UG1.pdf)) <br />
+
+
+Input: <br />
+5 <br />
+69 87 45 21 47 <br />
+Output: <br />
+69 87 45 21 47 <br />
+
+## Problem 2:
+
+Write a recursive function that prints all the elements of an array of integers in order. ([RecursionPracticeQuestions-UG1, problem 2](https://researchweb.iiit.ac.in/~syed.akhtar/teaching/cpro16/lab8/problem_statements/RecursionPracticeQuestions-UG1.pdf)) <br />
+
+
+Input: <br />
+5 <br />
+69 87 45 21 47 <br />
+Output: <br />
+47 21 45 87 69 <br />
+
+## Problem 3:
+
+Write a function that prints all the elements of an array of integers in reverse order. ([RecursionPracticeQuestions-UG1, problem 2](https://researchweb.iiit.ac.in/~syed.akhtar/teaching/cpro16/lab8/problem_statements/RecursionPracticeQuestions-UG1.pdf)) <br />
+
+
+Input: <br />
+5 <br />
+69 87 45 21 47 <br />
+Output: <br />
+47 21 45 87 69 <br />
+
+## Problem 4:
 
 Write a recursive function that prints all the elements of an array of integers in reverse order. ([RecursionPracticeQuestions-UG1, problem 2](https://researchweb.iiit.ac.in/~syed.akhtar/teaching/cpro16/lab8/problem_statements/RecursionPracticeQuestions-UG1.pdf)) <br />
 
@@ -11,7 +43,7 @@ Input: <br />
 Output: <br />
 47 21 45 87 69 <br />
 
-## Problem 2: <br />
+## Problem 5: <br />
 
 
 
@@ -54,7 +86,7 @@ Output: <br />
 
 ## Problem 5: <br />
 
-Write a recursive solution to print the polynomial series for any input n:
+Write a solution to print the polynomial series for any input n:
 1 + x + x2 + ................. + xn-1 <br />
 ![alt text](https://cmabdullah.github.io/Recursion/Images/graph.png "")
 
@@ -63,6 +95,16 @@ Input: <br />
 Output: <br />
 1 + x + x^2 + x^3 + x^4 <br />
 
+## Problem 6: <br />
+
+Write a recursive solution to print the polynomial series for any input n:
+1 + x + x2 + ................. + xn-1 <br />
+![alt text](https://cmabdullah.github.io/Recursion/Images/graph.png "")
+
+Input: <br />
+5 <br />
+Output: <br />
+1 + x + x^2 + x^3 + x^4 <br />
 ## Problem 6: <br />
 
 Write a recursive solution to evaluate the previous polynomial for any given x and n.
