@@ -4,7 +4,6 @@
 Write a function that prints all the elements of an array of integers in order.<br />
 
 Input: <br />
-5 <br />
 69 87 45 21 47 <br />
 Output: <br />
 69 87 45 21 47 <br />
@@ -13,9 +12,7 @@ Output: <br />
 
 Write a recursive function that prints all the elements of an array of integers in order.<br />
 
-
 Input: <br />
-5 <br />
 69 87 45 21 47 <br />
 Output: <br />
 47 21 45 87 69 <br />
@@ -24,9 +21,7 @@ Output: <br />
 
 Write a function that prints all the elements of an array of integers in reverse order.<br />
 
-
 Input: <br />
-5 <br />
 69 87 45 21 47 <br />
 Output: <br />
 47 21 45 87 69 <br />
@@ -37,7 +32,6 @@ Write a recursive function that prints all the elements of an array of integers 
 
 
 Input: <br />
-5 <br />
 69 87 45 21 47 <br />
 Output: <br />
 47 21 45 87 69 <br />
@@ -65,19 +59,31 @@ Output:<br />
 Find the sum of the integers from 1 through n.
 
 Input:<br />
-5 7 9 11 3 <br />
+4<br />
 Output:<br />
-35 <br /> 
+10 <br /> 
 
 ## Problem 8: <br />
 
 Find the sum of the integers from 1 through n. Use recursion.
 
 Input:<br />
-5 7 9 11 3 <br />
+4 <br />
 Output:<br />
-35 <br /> 
+10 <br /> 
 
+## Problem 9: <br />
+
+Find the reverse of the integers from 1 through n. Use recursion.
+
+Input:<br />
+4 <br />
+Output:<br />
+index :4  <br />                                                                                                                   
+index :3  <br />                                                                                                                   
+index :2  <br />                                                                                                                   
+index :1  <br />                                                                                                                   
+index :0<br /> 
 
 **_Basic Mathematical Operations using Recursion_**
 
