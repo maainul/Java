@@ -1,8 +1,7 @@
 # Recursion
 ## Problem 1:
 
-Write a function that prints all the elements of an array of integers in order. ([RecursionPracticeQuestions-UG1, problem 2](https://researchweb.iiit.ac.in/~syed.akhtar/teaching/cpro16/lab8/problem_statements/RecursionPracticeQuestions-UG1.pdf)) <br />
-
+Write a function that prints all the elements of an array of integers in order.<br />
 
 Input: <br />
 5 <br />
@@ -12,7 +11,7 @@ Output: <br />
 
 ## Problem 2:
 
-Write a recursive function that prints all the elements of an array of integers in order. ([RecursionPracticeQuestions-UG1, problem 2](https://researchweb.iiit.ac.in/~syed.akhtar/teaching/cpro16/lab8/problem_statements/RecursionPracticeQuestions-UG1.pdf)) <br />
+Write a recursive function that prints all the elements of an array of integers in order.<br />
 
 
 Input: <br />
@@ -23,7 +22,7 @@ Output: <br />
 
 ## Problem 3:
 
-Write a function that prints all the elements of an array of integers in reverse order. ([RecursionPracticeQuestions-UG1, problem 2](https://researchweb.iiit.ac.in/~syed.akhtar/teaching/cpro16/lab8/problem_statements/RecursionPracticeQuestions-UG1.pdf)) <br />
+Write a function that prints all the elements of an array of integers in reverse order.<br />
 
 
 Input: <br />
@@ -34,7 +33,7 @@ Output: <br />
 
 ## Problem 4:
 
-Write a recursive function that prints all the elements of an array of integers in reverse order. ([RecursionPracticeQuestions-UG1, problem 2](https://researchweb.iiit.ac.in/~syed.akhtar/teaching/cpro16/lab8/problem_statements/RecursionPracticeQuestions-UG1.pdf)) <br />
+Write a recursive function that prints all the elements of an array of integers in reverse order.<br />
 
 
 Input: <br />
@@ -45,17 +44,39 @@ Output: <br />
 
 ## Problem 5: <br />
 
-
-
-
-Find the sum of the integers from 1 through n. Use recursion.(RecursionPracticeQuestions-UG1, problem 4)
-
+Find the sum of the array. Use Normal Array.
 
 Input:<br />
-4 <br /> 
+5 7 9 11 3 <br />
 Output:<br />
-10 <br /> 
+35 <br /> 
 
+## Problem 6: <br />
+
+Find the sum of the array. Use recursion.(RecursionPracticeQuestions-UG1, problem 4)
+
+Input:<br />
+5 7 9 11 3 <br />
+Output:<br />
+35 <br /> 
+
+## Problem 7: <br />
+
+Find the sum of the integers from 1 through n.
+
+Input:<br />
+5 7 9 11 3 <br />
+Output:<br />
+35 <br /> 
+
+## Problem 8: <br />
+
+Find the sum of the integers from 1 through n. Use recursion.
+
+Input:<br />
+5 7 9 11 3 <br />
+Output:<br />
+35 <br /> 
 
 
 **_Basic Mathematical Operations using Recursion_**
