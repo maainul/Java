@@ -87,10 +87,26 @@ index :0<br />
 
 **_Basic Mathematical Operations using Recursion_**
 
-## Problem 3:
+## Problem 10:
 
-Write a recursive program to remove all odd integers from an array. You must not use any extra array. 
 
+Write a  program to print even integers from an array.<br/>
+Input:<br/>
+2,4,5,8,10 <br />
+Output: <br />
+2 4 8 10 <br />
+
+## Problem 11:
+
+Write a  program to print even integers from an array.Usin Recursion<br/>
+
+Input:<br/>
+2,4,5,8,10 <br />
+Output: <br />
+2 4 8 10 <br />
+
+## Problem 12:
+Write a recursive program to remove all odd integers from an array. You must not use any extra array. <br />
 
 Input: <br />
 6 <br />
