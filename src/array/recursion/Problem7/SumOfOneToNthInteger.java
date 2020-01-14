@@ -1,4 +1,6 @@
 //Find the sum of the integers from 1 through n.
+// Sum of all digit : 38
+
 
 public class SumOfOneToNthInteger
 {
