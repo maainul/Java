@@ -10,8 +10,9 @@ Output:
 
 
 *******************************************************************************/
+package recursion.Problem10;
 
-public class Main
+public class PrintEvenInteger
 {
 	public static void main(String[] args) {
 	     int array[] = {2,4,5,8,10};

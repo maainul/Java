@@ -1,4 +1,5 @@
-/*
+/******************************************************************************
+
 input :  12,5,3,10
 
 Output:
@@ -6,12 +7,12 @@ Output:
  index 1 :5                                                                                                                 
  index 2 :3                                                                                                                 
  index 3 :10                                                                                                                
-Sum of all digits 30    
+Sum of all digits 30   
 
-*/
+*******************************************************************************/
+package recursion.Problem6;
 
-
-public class Main
+public class SumOfArrayUsingRecursion
 {
 	public static void main(String[] args) {
 	    int sum = 0;

@@ -1,5 +1,6 @@
 //Find the sum of the integers from 1 through n.
 // sum of integers :10
+package recursion.Problem8;
 
 public class SumOfIntegerFromOneToNthUsingRecursion
 {

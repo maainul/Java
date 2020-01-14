@@ -7,7 +7,9 @@ Output:
 120
 
 *******************************************************************************/
-public class Main{
+package recursion.Problem12;
+
+public class FactorialUsingForLoop{
 	public static void main(String[] args) {
 	   int i,fact = 1;
 	   

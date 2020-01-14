@@ -7,7 +7,9 @@ Output:
 120
 
 *******************************************************************************/
-public class Main{
+package recursion.Problem13;
+
+public class RecursiveFactorial{
 	public static void main(String[] args) {
 	   int fact = 1;
        factorial(fact,1,4);

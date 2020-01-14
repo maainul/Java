@@ -1,6 +1,7 @@
 //Find the sum of the integers from 1 through n.
 // Sum of all digit : 38
 
+package recursion.Problem7;
 
 public class SumOfOneToNthInteger
 {

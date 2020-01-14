@@ -1,76 +1,125 @@
 # Recursion
 ## Problem 1:
 
-Write a function that prints all the elements of an array of integers in order. ([RecursionPracticeQuestions-UG1, problem 2](https://researchweb.iiit.ac.in/~syed.akhtar/teaching/cpro16/lab8/problem_statements/RecursionPracticeQuestions-UG1.pdf)) <br />
-
+Write a function that prints all the elements of an array of integers in order.<br />
 
 Input: <br />
-5 <br />
 69 87 45 21 47 <br />
 Output: <br />
 69 87 45 21 47 <br />
 
 ## Problem 2:
 
-Write a recursive function that prints all the elements of an array of integers in order. ([RecursionPracticeQuestions-UG1, problem 2](https://researchweb.iiit.ac.in/~syed.akhtar/teaching/cpro16/lab8/problem_statements/RecursionPracticeQuestions-UG1.pdf)) <br />
-
+Write a recursive function that prints all the elements of an array of integers in order.<br />
 
 Input: <br />
-5 <br />
 69 87 45 21 47 <br />
 Output: <br />
 47 21 45 87 69 <br />
 
 ## Problem 3:
 
-Write a function that prints all the elements of an array of integers in reverse order. ([RecursionPracticeQuestions-UG1, problem 2](https://researchweb.iiit.ac.in/~syed.akhtar/teaching/cpro16/lab8/problem_statements/RecursionPracticeQuestions-UG1.pdf)) <br />
-
+Write a function that prints all the elements of an array of integers in reverse order.<br />
 
 Input: <br />
-5 <br />
 69 87 45 21 47 <br />
 Output: <br />
 47 21 45 87 69 <br />
 
 ## Problem 4:
 
-Write a recursive function that prints all the elements of an array of integers in reverse order. ([RecursionPracticeQuestions-UG1, problem 2](https://researchweb.iiit.ac.in/~syed.akhtar/teaching/cpro16/lab8/problem_statements/RecursionPracticeQuestions-UG1.pdf)) <br />
+Write a recursive function that prints all the elements of an array of integers in reverse order.<br />
 
 
 Input: <br />
-5 <br />
 69 87 45 21 47 <br />
 Output: <br />
 47 21 45 87 69 <br />
 
 ## Problem 5: <br />
 
-
-
-
-Find the sum of the integers from 1 through n. Use recursion.(RecursionPracticeQuestions-UG1, problem 4)
-
+Find the sum of the array. Use Normal Array.
 
 Input:<br />
-4 <br /> 
+5 7 9 11 3 <br />
+Output:<br />
+35 <br /> 
+
+## Problem 6: <br />
+
+Find the sum of the array. Use recursion.(RecursionPracticeQuestions-UG1, problem 4)
+
+Input:<br />
+5 7 9 11 3 <br />
+Output:<br />
+35 <br /> 
+
+## Problem 7: <br />
+
+Find the sum of the integers from 1 through n.
+
+Input:<br />
+4<br />
 Output:<br />
 10 <br /> 
 
+## Problem 8: <br />
 
+Find the sum of the integers from 1 through n. Use recursion.
+
+Input:<br />
+4 <br />
+Output:<br />
+10 <br /> 
+
+## Problem 9: <br />
+
+Find the reverse of the integers from 1 through n. Use recursion.
+
+Input:<br />
+4 <br />
+Output:<br />
+index :4  <br />                                                                                                                   
+index :3  <br />                                                                                                                   
+index :2  <br />                                                                                                                   
+index :1  <br />                                                                                                                   
+index :0<br /> 
 
 **_Basic Mathematical Operations using Recursion_**
 
-## Problem 3:
-
-Write a recursive program to remove all odd integers from an array. You must not use any extra array. 
+## Problem 10:
 
 
-Input: <br />
-6 <br />
-1 54 88 6 55 7 <br />
+Write a  program to print even integers from an array.<br/>
+Input:<br/>
+2,4,5,8,10 <br />
 Output: <br />
-54 88 6 <br />
+2 4 8 10 <br />
 
+## Problem 11:
+
+Write a  program to print even integers from an array.Usin Recursion<br/>
+
+Input:<br/>
+2,4,5,8,10 <br />
+Output: <br />
+2 4 8 10 <br />
+
+## Problem 12:
+Write a  program to print FACTORIAL Number.<br />
+
+Input:  <br />
+5 <br />
+Output: <br />
+120 <br />
+
+## Problem 12:
+Write a  program to print FACTORIAL Number using recursive method.<br />
+
+Input:  <br />
+5 <br />
+Output: <br />
+120 <br />
 
 
 ## Problem 4:

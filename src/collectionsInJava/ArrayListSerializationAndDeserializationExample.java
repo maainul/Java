@@ -2,7 +2,7 @@ package collectionsInJava;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.ObjectInput;
+
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
@@ -28,7 +28,8 @@ public class ArrayListSerializationAndDeserializationExample {
 			FileInputStream fis = new FileInputStream("D:\\file.txt");
 			ObjectInputStream ois = new ObjectInputStream(fis);
 			
-			ArrayList list = (ArrayList)ois.readObject();
+			@SuppressWarnings("unchecked")
+			ArrayList<String> list = (ArrayList<String>)ois.readObject();
 			System.out.println(list);
 			ois.close();
 		} catch (Exception e) {
