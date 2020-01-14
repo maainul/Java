@@ -1,4 +1,4 @@
-package array.recursion.Problem3;
+package recursion.Problem3;
 
 
 //print array using recursion method

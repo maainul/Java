@@ -1,4 +1,4 @@
-package array.recursion.Problem5;
+package recursion.Problem5;
 
 public class SumOfNInterger {
 	public static void main(String[] args) {
