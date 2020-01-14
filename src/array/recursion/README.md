@@ -106,14 +106,20 @@ Output: <br />
 2 4 8 10 <br />
 
 ## Problem 12:
-Write a recursive program to remove all odd integers from an array. You must not use any extra array. <br />
+Write a  program to print FACTORIAL Number.<br />
 
-Input: <br />
-6 <br />
-1 54 88 6 55 7 <br />
+Input:  <br />
+5 <br />
 Output: <br />
-54 88 6 <br />
+120 <br />
 
+## Problem 12:
+Write a  program to print FACTORIAL Number using recursive method.<br />
+
+Input:  <br />
+5 <br />
+Output: <br />
+120 <br />
 
 
 ## Problem 4:
