@@ -10,8 +10,9 @@
 
 // Let's see an example to retrieve and remove the highest and lowest Value.
 
-
+package collectionsInJava;
 import java.util.*;
+
 public class TreeRetrieveAndRemoveTheHeightAndLowestValue
 {
 	public static void main(String[] args) {
@@ -21,7 +22,7 @@ public class TreeRetrieveAndRemoveTheHeightAndLowestValue
 		set.add(44);
 		
 		// print all value 
-		Iterator i=set.descendingIterator();  
+		Iterator<Integer> i=set.descendingIterator();  
         while(i.hasNext())  
          {  
              System.out.println(i.next());  
@@ -32,7 +33,7 @@ public class TreeRetrieveAndRemoveTheHeightAndLowestValue
 		System.out.println("Hight Value:"+set.pollLast());
 		
 		// print all value 
-		Iterator ii=set.descendingIterator();  
+		Iterator<Integer> ii=set.descendingIterator();  
          while(ii.hasNext())  
          {  
              System.out.println(ii.next());  

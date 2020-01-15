@@ -113,7 +113,7 @@ Input:  <br />
 Output: <br />
 120 <br />
 
-## Problem 12:
+## Problem 13:
 Write a  program to print FACTORIAL Number using recursive method.<br />
 
 Input:  <br />
@@ -121,6 +121,21 @@ Input:  <br />
 Output: <br />
 120 <br />
 
+## Problem 14:
+Write a program to print fibonacci series.<br/>
+1st and 2nd fibonacci numbers are 1, 1.<br/>
+Input:<br/>
+6<br/>
+Output:<br/>
+1 1 2 3 5 8<br/>
+
+## Problem 15:
+Write a recursive program to print fibonacci series.<br/>
+1st and 2nd fibonacci numbers are 1, 1.<br/>
+Input:<br/>
+6<br/>
+Output:<br/>
+1 1 2 3 5 8<br/>
 
 ## Problem 4:
 

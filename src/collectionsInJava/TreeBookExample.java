@@ -1,6 +1,6 @@
 /******************************************************************************
 
-ava TreeSet Example: Book
+Java TreeSet Example: Book
 
 Let's see a TreeSet example where we are adding books to set and printing all the books. 
 The elements in TreeSet must be of a Comparable type. 
@@ -14,7 +14,7 @@ Output:
 233 Operating System Galvin Wiley 6
 
 *******************************************************************************/
-
+/*
 import java.util.*;
 
 class Book implements Comparable<Book>{  
@@ -57,3 +57,5 @@ public class Main {
         }  
     }  
 } 
+
+*/
