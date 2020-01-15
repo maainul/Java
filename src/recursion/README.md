@@ -137,6 +137,14 @@ Input:<br/>
 Output:<br/>
 1 1 2 3 5 8<br/>
 
+## Problem 16:
+Write a recursive program to compute nth fibonacci number. 1st and 2nd fibonacci numbers are 1, 1.<br/>
+
+Input:<br/>
+6<br/>
+Output:<br/>
+8<br/>
+
 ## Problem 4:
 
 Write a recursive program to remove all odd integers from an array. You must not use any extra array or print anything in the function. Just read input, call the recursive function, then print the array in main().
