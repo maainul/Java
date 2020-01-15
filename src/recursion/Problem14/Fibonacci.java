@@ -8,8 +8,9 @@ Output:
 1 1 2 3 5 8 
 
 *******************************************************************************/
+package recursion.Problem14;
 
-public class Main
+public class Fibonacci
 {
 	public static void main(String[] args) {
 	    int x = 1;
