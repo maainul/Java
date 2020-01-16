@@ -1,4 +1,5 @@
-package leetcode.array;
+package array;
+
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -13,21 +14,23 @@ class Merge{
 		int[] result = new int [m +n];
 		System.arraycopy(nums1, 0, result, 0, m);
 		System.arraycopy(nums2, 0, result, m, n);
+		// unsored data
 		System.out.println(Arrays.toString(result));
+		// result with sort
 		Arrays.sort(result);
 		System.out.println(Arrays.toString(result));
 	}
 	
 }
 
-public class MergeTwoArray {
+public class MergeWithScanner {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter 1st array");
 		System.out.println("Enter number of elemnts:");
 		
 		int m = s.nextInt(); 
-		System.out.println("Enter"+ m +"elemtnts");
+		System.out.println("Enter "+ m +" elemtnts");
 		
 		int nums1[] = new int[m];
 		
@@ -38,7 +41,7 @@ public class MergeTwoArray {
 		System.out.println("Enter number of elemnts:");
 		
 		int n = s.nextInt(); 
-		System.out.println("Enter"+ n +"elemtnts");
+		System.out.println("Enter "+ n +" elemtnts");
 		
 		int nums2[] = new int[n];
 		

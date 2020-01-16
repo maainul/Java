@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.linkedlist;
 /*
 public class Solution {
     public ListNode deleteDuplicates(ListNode head) {

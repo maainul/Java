@@ -1,3 +1,4 @@
+package leetcode.linkedlist;
 
 // Full solution : https://github.com/maainul/DataStructureAndAlgorithm/tree/master/src/DSsinglyLinkedList
 /*
