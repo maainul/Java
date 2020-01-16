@@ -1,4 +1,4 @@
-package array;
+package array.merge;
 
 public class MergeArrayExample2 {
 

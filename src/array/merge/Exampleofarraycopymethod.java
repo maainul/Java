@@ -1,5 +1,5 @@
 // Merge two array int to a new array.
-package array;
+package array.merge;
 
 import java.util.Arrays;
 
