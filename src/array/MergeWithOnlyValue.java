@@ -1,9 +1,9 @@
-package leetcode.array;
+package array;
 
 import java.util.Arrays;
 
 
-class Merge{
+class MergeArray{
 	public static void merge(int[] nums1, int[] nums2,int m, int n) {
 		
 		m = nums1.length;
@@ -25,7 +25,7 @@ class Merge{
 	
 }
 
-public class MergeTwoArray {
+public class MergeWithOnlyValue {
 	public static void main(String[] args) {
 		
 		int nums1[] = {2,5,7,8};
@@ -35,7 +35,7 @@ public class MergeTwoArray {
 		int n = nums2.length;
 
 
-		Merge.merge(nums1, nums2,m,n);
+		MergeArray.merge(nums1, nums2,m,n);
 		
 		
 	}
