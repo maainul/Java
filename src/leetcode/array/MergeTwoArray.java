@@ -4,35 +4,26 @@ import java.util.Arrays;
 
 
 class Merge{
-	public static void merge(int[] nums1, int[] nums2,int m, int n) {
-		
-		m = nums1.length;
-		n = nums2.length;
-		
-		System.out.println(m);
-		System.out.println(n);
-		
-		int[] result = new int [m +n];
-		
-		System.arraycopy(nums1, 0, result, 0, m);
-		System.arraycopy(nums2, 0, result, m, n);
-		
-		System.out.println(Arrays.toString(result));
-		
-		Arrays.sort(result);
-		System.out.println(Arrays.toString(result));
-	}
-	
+	public static void merge(int[] nums1, int[] nums2, int m, int n) {
+        int index=0;
+        for(int i=m;i<m+n;i++) {
+        		nums1[i]=nums2[index++];
+        		System.out.println("Num 1 :"+nums1[i]);
+        		System.out.println("num2 :"+nums2[index]);
+        }
+        Arrays.sort(nums1);
+        System.out.println(Arrays.toString(nums1));
+    }
 }
 
 public class MergeTwoArray {
 	public static void main(String[] args) {
 		
-		int nums1[] = {2,5,7,8};
-		int nums2[] = {2,4,6};
+		int nums1[] = {1,2,3,0,0,0};
+		int nums2[] = {2,5,6};
 		
-		int m = nums1.length;
-		int n = nums2.length;
+		int m = 3;
+		int n = 3;
 
 
 		Merge.merge(nums1, nums2,m,n);
