@@ -146,6 +146,15 @@ Output:<br/>
 8<br/>
 
 ## Problem 17: 
+Write a program to determine whether a given integer is prime or not.
+
+Input: <br />
+19 <br />
+
+Output: <br />
+prime <br />
+
+## Problem 18: 
 Write a recursive program to determine whether a given integer is prime or not.
 
 Input: <br />
