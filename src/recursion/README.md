@@ -162,3 +162,14 @@ Input: <br />
 
 Output: <br />
 prime <br />
+
+## Problem 19:
+
+Find GCD or HCF of two numbers<br/>
+
+Input:<br/>
+68 51<br/>
+Output:<br/>
+17<br/>
+
+
