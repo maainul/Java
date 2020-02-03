@@ -172,4 +172,33 @@ Input:<br/>
 Output:<br/>
 17<br/>
 
+## Problem 20:
+
+Find GCD or HCF of two numbers using recursion<br/>
+
+Input:<br/>
+68 51<br/>
+Output:<br/>
+17<br/>
+
+## Problem 21:
+
+Write a recursive solution to compute lcm of two integers. use this formula lcm(a,b) = (a x b) / gcd(a,b);
+
+
+Input: <br />
+23 488 <br />
+Output: <br />
+11224 <br />
+
+## Problem 22:
+
+Write a recursive solution to compute lcm of two integers. use this formula lcm(a,b) = (a x b) / gcd(a,b);
+
+
+Input: <br />
+23 488 <br />
+Output: <br />
+11224 <br />
+
 

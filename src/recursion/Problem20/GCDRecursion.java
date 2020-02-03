@@ -16,4 +16,4 @@ public class GCDRecursion {
 	    }
 	    return gcdByEuclidsAlgorithm(n2, n1 % n2);
 	}
-}
+} 
