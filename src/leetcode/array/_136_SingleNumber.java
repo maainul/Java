@@ -17,6 +17,9 @@
 	
 	Input: [4,1,2,1,2]
 	Output: 4
+	
+	
+	Approach 4: Bit Manipulation
 *****************************************************************/
 package leetcode.array;
 
@@ -25,20 +28,18 @@ public class _136_SingleNumber {
 	public static void main(String[] args) {
 		System.out.println("136. Single Number (Easy)");
 		
-		int[] nums = {1,1,5,1,2};
-		singleNumber(nums);
+		int[] nums = {2,2,1};
+		System.out.println(singleNumber(nums));
 
 	}
 
-	private static void singleNumber(int[] nums) {
-		for (int i = 0; i < nums.length; i++) {
-			for (int j = 1; j < nums.length; j++) {
-				if(nums[i] == nums[j]) {
-					System.out.println("ace");
-				}
-			}
-		}
+	private static int singleNumber(int[] nums) {
+		       int num = 0;
+		       for(int i = 0; i< nums.length; i++){
+		           num ^= nums[i];
+		       } 
+		        return num;
+		    }
 		
-	}
-
+	
 }
