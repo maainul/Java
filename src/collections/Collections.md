@@ -1,11 +1,11 @@
 # Collections in Java
 
 ```
-The Collection in Java is a framework that <b>provides an architecture 
-to store and manipulate the group of objects</b>.
+The Collection in Java is a framework that provides an architecture 
+to store and manipulate the group of objects.
 
 Java Collections can achieve all the operations that you perform on a data such as 
-<b>searching, sorting, insertion, manipulation, and deletion.</b>
+searching, sorting, insertion, manipulation, and deletion.
 
 Java Collection means a single unit of objects. 
 
@@ -25,7 +25,8 @@ It is optional.
 # What is Collection framework
 
 ```
-The Collection framework represents a unified architecture for storing and manipulating a group of objects. It has:
+The Collection framework represents a unified architecture for storing and manipulating a group of objects. 
+It has:
 
 	1. Interfaces and its implementations, i.e., classes
 	2. Algorithm
