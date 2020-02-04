@@ -3,7 +3,7 @@ package collections.Map;
 import java.util.HashMap;
 import java.util.Map;
 
-public class _2_JavaMapExampleComparingByKey {
+public class _2_MapExampleComparingByKey {
 
 	public static void main(String[] args) {
 		Map<Integer, String> map = new HashMap<Integer, String>();
