@@ -3,7 +3,7 @@ package collections.Map.HashMap;
 import java.util.HashMap;
 import java.util.Map;
 
-public class _2_HashMapExampleToReplaceElements {
+public class _3_HashMapExampleToReplaceElements {
 
 	public static void main(String[] args) {
 		HashMap<Integer, String> hashMap = new HashMap<Integer, String>();
