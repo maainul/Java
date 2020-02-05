@@ -27,7 +27,7 @@ package collections.Set.HashSet;
 
 import java.util.HashSet;
 
-public class _6_HashSetExampleStoreElement {
+public class _6_HashSetExampleStoreArrayElement {
 	public static void main(String args[]) {
 		System.out.println("136. Single Number (Easy)");
 		
