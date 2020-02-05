@@ -21,26 +21,28 @@
 
 A list can contain duplicate elements whereas Set contains unique elements only.
 
+
 **********************************************************************************/
 package collections.Set.HashSet;
 
 import java.util.HashSet;
-import java.util.Iterator;
 
-public class _2_HashSetExampleIgnoringDuplicateElements {
-
-	public static void main(String[] args) {
-		HashSet<String> set = new HashSet<String>();
-		set.add("gafur");
-		set.add("ikram");
-		set.add("nur");
-		set.add("gafur");
+public class _6_HashSetExampleStoreElement {
+	public static void main(String args[]) {
+		System.out.println("136. Single Number (Easy)");
 		
-		Iterator<String> itrIterator = set.iterator();
-		while(itrIterator.hasNext()) {
-			System.out.println(itrIterator.next());
-		}
-
+		int[] nums = {25,2,5,1,7,8,1};
+		setValue(nums);	
 	}
-
+	
+	private static void setValue(int[] nums) {
+		HashSet<Integer> set = new HashSet<Integer>();
+			for (int i = 0; i < nums.length; i++) {
+				//if(set.contains(nums[i])) {
+					//System.out.println(nums[i]);
+				//}
+				set.add(nums[i]);
+			}			
+			System.out.println(set);
+	}
 }
