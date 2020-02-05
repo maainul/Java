@@ -1,8 +1,8 @@
-package collectionsInJava;
+package collections.List.ArrayList;
 
 import java.util.ArrayList;
 
-public class ArrayListExampleofisEmptyMethod {
+public class _2_ArrayListExampleofisEmptyMethod {
 
 	public static void main(String[] args) {
 		ArrayList<String> al = new ArrayList<String>();

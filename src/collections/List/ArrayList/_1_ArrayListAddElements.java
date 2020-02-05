@@ -55,9 +55,18 @@ public class _1_ArrayListAddElements {
 			System.out.println(list.get(i));
 		}
 				
-		//5.By forEach() method.
-		//6.By forEachRemaining() method.
-		
+		// 5.By for each method.
+		System.out.println("\n----By for each method----");
+		list.forEach(a->{
+			System.out.println(a);
+		});
+				
+		// 6.By forEachRemaining() method.
+		System.out.println("\n----By forEachRemaining() method.----");
+		Iterator<String> itrIterator2 = list.iterator();
+		itrIterator2.forEachRemaining(a->{
+			System.out.println(a);
+		});
 		
 	}
 

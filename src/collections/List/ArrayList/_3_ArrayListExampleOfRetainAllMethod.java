@@ -1,10 +1,9 @@
-package collectionsInJava;
+package collections.List.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class ArrayListExampleOfRetainAllMethod {
-
+public class _3_ArrayListExampleOfRetainAllMethod {
 	public static void main(String[] args) {
 		ArrayList<String> al = new ArrayList<String>();
 		al.add("mainul");
@@ -26,5 +25,5 @@ public class ArrayListExampleOfRetainAllMethod {
 		
 	
 	}
-
+	
 }

@@ -1,8 +1,6 @@
-package collectionsInJava;
+package collections.List.ArrayList;
 
 import java.util.ArrayList;
-
-
 
 class Book{
 	String booknameString,authornameString,publisherString;
@@ -18,7 +16,7 @@ class Book{
 }
 
 
-public class ArrayListExampleBook {
+public class _8_ArrayListExampleBook {
 
 
 	public static void main(String[] args) {

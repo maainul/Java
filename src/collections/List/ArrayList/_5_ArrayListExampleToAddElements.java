@@ -1,8 +1,9 @@
-package collectionsInJava;
+package collections.List.ArrayList;
+
 
 import java.util.ArrayList;
 
-public class ArrayListExampleToAddElements {
+public class _5_ArrayListExampleToAddElements {
 
 	public static void main(String[] args) {
 		
@@ -28,10 +29,6 @@ public class ArrayListExampleToAddElements {
 	
 		ArrayList<String> al3 = new ArrayList<String>();
 		al.addAll(1, al3);
-		System.out.println("After invoking addAll(int index, collection<? extends E> c) method :"+al);
-		
-		
-		
-		 
+		System.out.println("After invoking addAll(int index, collection<? extends E> c) method :"+al); 
 	}
 }

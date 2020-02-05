@@ -1,8 +1,8 @@
-package collectionsInJava;
+package collections.List.ArrayList;
 
 import java.util.ArrayList;
 
-public class ArrayListExampleToRemoveElements {
+public class _6_ArrayListExampleToRemoveElements {
 
 	public static void main(String[] args) {
 		ArrayList<String> al = new ArrayList<String>();

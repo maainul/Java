@@ -1,5 +1,4 @@
-package collectionsInJava;
-
+package collections.List.ArrayList;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
@@ -7,7 +6,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
-public class ArrayListSerializationAndDeserializationExample {
+public class _7_ArrayListSerializationAndDeserializationExample {
 
 	public static void main(String[] args) {
 		ArrayList<String> al = new ArrayList<String>();
