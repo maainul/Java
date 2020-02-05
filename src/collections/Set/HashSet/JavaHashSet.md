@@ -23,3 +23,28 @@ It inherits the AbstractSet class and implements Set interface.
 ```
 A list can contain duplicate elements whereas Set contains unique elements only.
 ```
+# Working of HashSet in java
+## Java Set Interface
+```
+A Java Set interface represents a group of elements arranged like an array. 
+
+It does not allow duplicate elements. 
+
+When we try to pass the same element that is already available in the Set, 
+then it will not store into the Set. 
+
+It is used to model the mathematical set abstraction.
+
+```
+# Java HashSet class
+```
+A Java HashSet class represents a set of elements (objects). 
+It does not guarantee the order of elements. 
+It constructs a collection that uses a hash table for storing elements. 
+It contains unique elements. It inherits the AbstractSet class. 
+It also implements the Set interface. It uses a technique to store elements is called hashing. 
+HashSet uses HashMap internally in Java.
+
+```
+
+

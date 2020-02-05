@@ -23,6 +23,7 @@ Output: true
 
 package leetcode.array;
 
+import java.util.Arrays;
 import java.util.HashSet;
 
 public class _217_ContainsDuplicate {
@@ -30,8 +31,10 @@ public class _217_ContainsDuplicate {
 	public static void main(String[] args) {
 		System.out.println("136. Contains Duplicate (Easy)");
 		int[] nums = {1,2,3,1};
-		
+		//solution  1
 		System.out.println(solutions(nums));
+		//solution 2
+		System.out.println(solutions2(nums));
 
 	}
 
@@ -46,4 +49,15 @@ public class _217_ContainsDuplicate {
 		return false;
 		//System.out.println(set);
 	}
+	
+	private static boolean solutions2(int[] nums) {
+		Arrays.sort(nums);
+	    if (nums.length == 1)
+	    	return false;
+	      for (int i = 1; i< nums.length ; i++){
+	          if (nums[i-1] == nums[i])
+	              return true;
+	      }
+	      return false;
+	}	
 }
