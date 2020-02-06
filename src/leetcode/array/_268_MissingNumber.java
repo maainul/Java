@@ -26,7 +26,7 @@ public class _268_MissingNumber{
 
 	public static void main(String[] args) {
 		System.out.println("268. Missing Number (Easy)");
-		int[] nums = {2,1,0};
+		int[] nums = {2,1};
 		//// Java Solution 1 - Math
 		System.out.println(missingNumber(nums));
 		
