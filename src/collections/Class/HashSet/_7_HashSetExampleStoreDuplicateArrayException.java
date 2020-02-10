@@ -23,25 +23,27 @@ A list can contain duplicate elements whereas Set contains unique elements only.
 
 
 **********************************************************************************/
-package collections.Set.HashSet;
+package collections.Class.HashSet;
 
 import java.util.HashSet;
-import java.util.Iterator;
 
-public class _1_HashSetExampleToAddElements {
-
-	public static void main(String[] args) {
-		HashSet<String> set = new HashSet<String>();
-		  set.add("One");    
-          set.add("Two");    
-          set.add("Three");   
-          set.add("Four");  
-          set.add("Five");  
-		  System.out.println("Notice, the elements iterate in an unordered collection.\n");
-		  //traversing elements
-		  Iterator<String> itrIterator = set.iterator();
-		  while(itrIterator.hasNext()) {
-			System.out.println(itrIterator.next());
-		}
+public class _7_HashSetExampleStoreDuplicateArrayException {
+	public static void main(String args[]) {
+		System.out.println("136. Single Number (Easy)");
+		
+		int[] nums = {25,2,5,1,7,8,1};
+		setValue(nums);	
+	}
+	
+	private static void setValue(int[] nums) {
+		HashSet<Integer> set = new HashSet<Integer>();
+			for (int i = 0; i < nums.length; i++) {
+				if(set.contains(nums[i])) {
+					System.out.println(nums[i]);
+					System.out.println("Value "+nums[i]+" Will not store in the array..");
+				}
+				set.add(nums[i]);
+			}			
+			System.out.println(set);
 	}
 }

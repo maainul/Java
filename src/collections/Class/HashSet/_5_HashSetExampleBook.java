@@ -22,29 +22,44 @@
 A list can contain duplicate elements whereas Set contains unique elements only.
 
 **********************************************************************************/
-package collections.Set.HashSet;
+package collections.Class.HashSet;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.Iterator;
 
-public class _4_HashSetFromAnotherCollection {
+class Book{
+	int id;
+	String nameString,authorString,publisherString;
+	int quantity;
+	
+	public Book(int id, String nameString, String authorString, String publisherString, int quantity) {
+		this.id = id;
+		this.nameString = nameString;
+		this.authorString = authorString;
+		this.publisherString = publisherString;
+		this.quantity = quantity;
+	}
+}
+
+public class _5_HashSetExampleBook {
 
 	public static void main(String[] args) {
-		ArrayList<String> list = new ArrayList<String>();
-		list.add("Rabbi");
-		list.add("sattar");
-		list.add("gaffar");
-		list.add("muhaumin");
-		
-		HashSet<String> set = new HashSet<String>(list);
-		set.add("Rajjak");
-		
-		Iterator<String> iterator = set.iterator();
-		while(iterator.hasNext()) {
-			System.out.println(iterator.next());
+		 HashSet<Book> set=new HashSet<Book>();  
+		 //Creating Books  
+		 Book b1=new Book(101,"Let us C","Yashwant Kanetkar","BPB",8);  
+		 Book b2=new Book(102,"Data Communications & Networking","Forouzan","Mc Graw Hill",4);  
+		 Book b3=new Book(103,"Operating System","Galvin","Wiley",6);  	
+		 
+		 // adding nooks to hashset
+		 
+		 set.add(b1);
+		 set.add(b2);
+		 set.add(b3);
+		 
+		 for (Book b : set) {
+			 System.out.println(b.id+" "+b.nameString+" "+b.authorString+" "+b.publisherString+" "+b.quantity);  
 		}
-		
+	
+	
 	}
 
 }

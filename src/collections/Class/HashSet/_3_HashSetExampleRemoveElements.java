@@ -22,44 +22,41 @@
 A list can contain duplicate elements whereas Set contains unique elements only.
 
 **********************************************************************************/
-package collections.Set.HashSet;
+package collections.Class.HashSet;
 
 import java.util.HashSet;
+import java.util.Iterator;
 
-class Book{
-	int id;
-	String nameString,authorString,publisherString;
-	int quantity;
-	
-	public Book(int id, String nameString, String authorString, String publisherString, int quantity) {
-		this.id = id;
-		this.nameString = nameString;
-		this.authorString = authorString;
-		this.publisherString = publisherString;
-		this.quantity = quantity;
-	}
-}
-
-public class _5_HashSetExampleBook {
+public class _3_HashSetExampleRemoveElements {
 
 	public static void main(String[] args) {
-		 HashSet<Book> set=new HashSet<Book>();  
-		 //Creating Books  
-		 Book b1=new Book(101,"Let us C","Yashwant Kanetkar","BPB",8);  
-		 Book b2=new Book(102,"Data Communications & Networking","Forouzan","Mc Graw Hill",4);  
-		 Book b3=new Book(103,"Operating System","Galvin","Wiley",6);  	
-		 
-		 // adding nooks to hashset
-		 
-		 set.add(b1);
-		 set.add(b2);
-		 set.add(b3);
-		 
-		 for (Book b : set) {
-			 System.out.println(b.id+" "+b.nameString+" "+b.authorString+" "+b.publisherString+" "+b.quantity);  
+		HashSet<String> set = new HashSet<String>();
+		set.add("gafur");
+		set.add("ikram");
+		set.add("nur");
+		set.add("gafur");
+		set.remove("gafur");
+		
+		Iterator<String> itrIterator = set.iterator();
+		while(itrIterator.hasNext()) {
+			System.out.println(itrIterator.next());
 		}
-	
-	
+		// remove object
+		set.remove("gafur");
+		System.out.println(set);
+		
+		HashSet<String> set1 = new HashSet<String>();
+		set1.add("Kanon");
+		set1.add("Mamon");
+		set.addAll(set1);
+		System.out.println(set);
+		// remove all new elements // set1 elements
+		set.removeAll(set1);
+		System.out.println(set);
+		// remove all the elements of set
+		set.clear();
+		System.out.println(set);
+
 	}
 
 }
