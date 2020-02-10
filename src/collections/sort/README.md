@@ -21,7 +21,7 @@ There are two overloaded Collections.sort() methods, which are:
 
 *** Note that the above methods signature use generics
 ```
-#c Java Collections sort(List list)
+# Java Collections sort(List list)
 
 Consider an ArrayList of String:
 
