@@ -1,62 +1,60 @@
-package collections.sort;
+/**********************************************************************
 
+1. create class Main()
+2. create Fruits class
+3. assign value to the id, name,test
+4. create constructor
+5. create toStirng method
+6. create object for fruits class (4 object)
+7. store that four object in the List collections
+8. show the result.
+
+*************************************************************************/
+package collections.sort;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-
-public class Fruit implements Comparable<Object>{
+class Fruits{
 	int id;
-	String nameString;
-	String testString;
+	String nameString,testString;
 	
-	public Fruit(int id, String nameString, String testString) {
-		
+	// constructor
+	public Fruits(int id, String nameString, String testString) {
 		this.id = id;
 		this.nameString = nameString;
 		this.testString = testString;
 	}
-
+	
 	@Override
 	public String toString() {
-		return "Fruit [rollno=" + id + ", nameString=" + nameString + ", testString=" + testString + "]";
+		return "Fruits [id=" + id + ", nameString=" + nameString + ", testString=" + testString + "]";
 	}
-	
-	@Override 
-    public int compareTo(Object o) {
-        Fruit f = (Fruit) o; 
-        return this.id - f.id ;
-    }
-	
-
-	
-	
 }
-
 
 public class _2_CollectionsSortListComparator {
 
 	public static void main(String[] args) {
-		List<Fruit> fruitlist = new ArrayList<Fruit>();
-		Fruit apple = new Fruit(1,"Apple","Sweet");
-		Fruit orange = new Fruit(2,"Orange","sour");
-		Fruit banana=new Fruit(4, "Banana", "Sweet");
-		Fruit grape=new Fruit(3, "Grape", "Sweet and Sour");
+		// create four object
+		Fruits object1=new Fruits(1, "Apple", "Sweet");
+    	Fruits object2=new Fruits(2, "Orange", "Sour");
+    	Fruits object3=new Fruits(4, "Banana", "Sweet");
+    	Fruits object4=new Fruits(3, "Grape", "Sweet and Sour");
+		//call collections class
+		List<Fruits> fruitlist = new ArrayList<Fruits>();
+		// add objects to the list
+		fruitlist.add(object1);
+		fruitlist.add(object2);
+		fruitlist.add(object3);
+		fruitlist.add(object4);
+		// show the result
+		System.out.println(fruitlist);
 		
-		fruitlist.add(apple);
-		fruitlist.add(orange);
-		fruitlist.add(banana);
-		fruitlist.add(grape);
-		
-		Collections.sort(fruitlist);
-		fruitlist.forEach(fruit -> {
-		    System.out.println(fruit.getid() + " " + fruit.getnameString() + " " + 
-		      fruit.gettestString());
-		});
-			
-			
-		};
+		// error line 
+		// The method sort(List<T>) in the type Collections is not applicable for the arguments (List<Fruits>
+		// if you want to show magic you have to uncomment
+		//Collections.sort(fruitlist);
 		
 		
 	}
