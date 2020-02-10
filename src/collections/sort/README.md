@@ -1,4 +1,13 @@
+
 # Java Collections sort()
+
+```
+	1.1 Java Collections sort(List list)
+	1.2 Java Collections sort(List list, Comparator c)
+	1.3 Java Collections.reverseOrder
+	1.4 Java Collections reverseOrder() example
+	1.5 Java Collections reverseOrder(Comparator cmp) example
+```
 
 ```
 Java Collections class provides us with a very convenient method Collections.sort() 
