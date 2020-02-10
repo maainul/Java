@@ -1,4 +1,4 @@
-package collections.List.ArrayList;
+package collections.Class.ArrayList;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
