@@ -20,11 +20,12 @@ Java LinkedList class can be used as a list, stack or queue.
 Java LinkedList class extends AbstractSequentialList class and implements List and Deque interfaces.
 
 # Doubly Linked List
-```
 ![doblylinkedlist](https://user-images.githubusercontent.com/37740006/74170495-2f70aa80-4c57-11ea-940a-140b68e13b46.png)
 
+```
 In the case of a doubly linked list, we can add or remove elements from both sides.
 ```
+
 # Methods for Java LinkedList:
 ```
 add​(int index, E element): This method Inserts the specified element at the specified position in this list.
