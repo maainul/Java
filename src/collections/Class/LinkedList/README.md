@@ -13,12 +13,16 @@ Java LinkedList class is non synchronized.
 In Java LinkedList class, manipulation is fast because no shifting needs to occur.
 Java LinkedList class can be used as a list, stack or queue.
 ```
-# Hierarchy of LinkedList class
+# Hierarchy of LinkedList class:
+
+![LinkedList](https://user-images.githubusercontent.com/37740006/74170411-0f40eb80-4c57-11ea-8337-91f4facdca9f.png)
 
 Java LinkedList class extends AbstractSequentialList class and implements List and Deque interfaces.
 
 # Doubly Linked List
 ```
+![doblylinkedlist](https://user-images.githubusercontent.com/37740006/74170495-2f70aa80-4c57-11ea-940a-140b68e13b46.png)
+
 In the case of a doubly linked list, we can add or remove elements from both sides.
 ```
 # Methods for Java LinkedList:
