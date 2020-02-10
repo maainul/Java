@@ -13,7 +13,6 @@
 package collections.sort;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 class Fruits{
@@ -33,7 +32,7 @@ class Fruits{
 	}
 }
 
-public class _2_CollectionsSortListComparator {
+public class _2_CollectionsSortListWithoutComparatorError {
 
 	public static void main(String[] args) {
 		// create four object
