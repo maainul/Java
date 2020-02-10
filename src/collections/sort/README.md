@@ -1,75 +1,131 @@
 # Java Collections sort()
 
-``
+```
 Java Collections class provides us with a very convenient method Collections.sort() 
 to sort all List implementations such as LinkedList and ArrayList.
 
 There are two overloaded Collections.sort() methods, which are:
 
-sort(List list): Sorts the elements of the List in ascending order of their natural ordering.
-sort(List list, Comparator c): Sorts the elements of the list according to the order induced by the comparator.
-Note that the above methods signature use generics but I have removed them here for simplicity in reading. Let us one by one dig into how and when we can use both these methods.
+    1.sort(List list): Sorts the elements of the List in ascending order of their natural ordering.
+    2.sort(List list, Comparator c): Sorts the elements of the list according to the order induced by the comparator.
 
-Java Collections sort(List list)
+*** Note that the above methods signature use generics
+```
+#c Java Collections sort(List list)
+
 Consider an ArrayList of String:
 
+```.java
 
-List<String> fruits = new ArrayList<String>();
-fruits.add("Apple");
-fruits.add("Orange");
-fruits.add("Banana");
-fruits.add("Grape");
-Now, we will sort it using Collections.sort():
+package collections.sort;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
-Collections.sort(fruits);
-// Print the sorted list
-System.out.println(fruits);
-The output of this program will be:
+public class _1_CollectionsSortList {
 
-[Apple, Banana, Grape, Orange]
-Hence, we can see that Collections.sort() has sorted the list of String in Lexical order. And it does not return anything.
+	public static void main(String[] args) {
+		
+        List<String> fruits = new ArrayList<String>();
+			fruits.add("Apple");
+			fruits.add("Orange");
+			fruits.add("Banana");
+			fruits.add("Grape");
+		
+		// unsorted list
+		System.out.println(fruits);
+		
+		// sorting using collections
+		Collections.sort(fruits);
+		System.out.println(fruits);
+	}
 
-What if we have a list of custom objects? Of course, we can sort them as well.
-Consider a class Fruit:
-
-
-package com.journaldev.collections;
-public class Fruit{
-    private int id;
-    private String name;
-    private String taste;
-
-    Fruit(int id, String name, String taste){
-        this.id=id;
-        this.name=name;
-        this.taste=taste;
-    }
 }
-Letís create a list of Fruits:
 
+ Output :[Apple, Banana, Grape, Orange]
+```
 
-List<Fruit> fruitList=new ArrayList<Fruit>();
-Fruit apple=new Fruit(1, "Apple", "Sweet");
-Fruit orange=new Fruit(2, "Orange", "Sour");
-Fruit banana=new Fruit(4, "Banana", "Sweet");
-Fruit grape=new Fruit(3, "Grape", "Sweet and Sour");
+# What if we have a list of custom objects? Of course, we can sort them as well.
 
-fruitList.add(apple);
-fruitList.add(orange);
-fruitList.add(banana);
-fruitList.add(grape);
-In order to sort this list, if we directly use the Collections.sort(List list), it will give a Compile Time Error because there is no natural ordering defined for the Fruit objects. So, it doesnít know how to sort this list.
+```.java
+Consider a class Fruit:
+/**********************************************************************
 
-java collections sort, Java Collections.sort() method
+1. create class Main()
+2. create Fruits class
+3. assign value to the id, name,test
+4. create constructor
+5. create toStirng method
+6. create object for fruits class (4 object)
+7. store that four object in the List collections
+8. show the result.
 
-For objects to have a natural order they must implement the interface java.lang.Comparable.
+*************************************************************************/
+package collections.sort;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+class Fruits{
+	int id;
+	String nameString,testString;
+	
+	// constructor
+	public Fruits(int id, String nameString, String testString) {
+		this.id = id;
+		this.nameString = nameString;
+		this.testString = testString;
+	}
+	
+	@Override
+	public String toString() {
+		return "Fruits [id=" + id + ", nameString=" + nameString + ", testString=" + testString + "]";
+	}
+}
+
+public class _2_CollectionsSortListComparator {
+
+	public static void main(String[] args) {
+		// create four object
+		Fruits object1=new Fruits(1, "Apple", "Sweet");
+    	Fruits object2=new Fruits(2, "Orange", "Sour");
+    	Fruits object3=new Fruits(4, "Banana", "Sweet");
+    	Fruits object4=new Fruits(3, "Grape", "Sweet and Sour");
+		//call collections class
+		List<Fruits> fruitlist = new ArrayList<Fruits>();
+		// add objects to the list
+		fruitlist.add(object1);
+		fruitlist.add(object2);
+		fruitlist.add(object3);
+		fruitlist.add(object4);
+		// show the result
+		System.out.println(fruitlist);
+		
+		// error line 
+		// The method sort(List<T>) in the type Collections is not applicable for the arguments (List<Fruits>
+		Collections.sort(fruitlist);
+		
+	}
+    // NO OUTPUT
+    // ERROR
+
+}
+```
+```
+In order to sort this list, if we directly use the Collections.sort(List list), 
+it will give a Compile Time Error because there is no natural ordering defined for the Fruit objects. 
+So, it doesn‚Äôt know how to sort this list.
+
+*** For objects to have a natural order they must implement the interface java.lang.Comparable.
 
 The Comparable interface has a method compareTo(), which returns a negative, 0, a positive if the current value is less than, equal to, or greater than the value we are comparing with, respectively.
 
-Letís enhance the Fruit class to implement Comparable interface. We are defining that the natural order of sorting is based on the ìidî field of Fruit:
+```
+# Let‚Äôs enhance the Fruit class to implement Comparable interface. We are defining that the natural order of sorting is based on the ‚Äúid‚Äù field of Fruit:
 
-
+```
 package com.journaldev.collections;
 public class Fruit implements Comparable<Object>{
     private int id;
@@ -105,7 +161,7 @@ The output will be as below:
 Java Collections sort(List list, Comparator c)
 In order to define a custom logic for sorting, which is different from the natural ordering of the elements, we can implement the java.util.Comparator interface and pass an instance of it as the second argument of sort().
 
-Letís consider that we want to define the ordering based on the ìnameî field of the Fruit. We implement the Comparator, and in its compare() method, we need to write the logic for comparison:
+Let‚Äôs consider that we want to define the ordering based on the ‚Äúname‚Äù field of the Fruit. We implement the Comparator, and in its compare() method, we need to write the logic for comparison:
 
 
 package com.journaldev.collections;
@@ -144,7 +200,7 @@ Java Collections reverseOrder() example
 
 Collections.sort(fruits, Collections.reverseOrder());
 System.out.println(fruits);
-Itíll output the fruits in reverse alphabetical order:
+It‚Äôll output the fruits in reverse alphabetical order:
 
 [Orange, Grape, Banana, Apple]
 Java Collections reverseOrder(Comparator cmp) example
@@ -161,4 +217,5 @@ Output:
 3 Grape Sweet and Sour
 4 Banana Sweet
 1 Apple Sweet
-Thatís all for Java Collections sort() method and itís examples.
+That‚Äôs all for Java Collections sort() method and it‚Äôs examples.
+```
