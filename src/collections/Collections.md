@@ -32,6 +32,9 @@ It has:
 	2. Algorithm
 
 ```
+
+![collections](https://user-images.githubusercontent.com/37740006/74131835-7175fe00-4c0f-11ea-92eb-fbb4ee3e1f37.png)
+
 # Collections in Java
 Link :(https://www.journaldev.com/1260/collections-in-java-tutorial)
 
