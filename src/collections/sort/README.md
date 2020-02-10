@@ -16,7 +16,8 @@ to sort all List implementations such as LinkedList and ArrayList.
 There are two overloaded Collections.sort() methods, which are:
 
   1.sort(List list): Sorts the elements of the List in ascending order of their natural ordering.
-  2.sort(List list, Comparator c): Sorts the elements of the list according to the order induced by the comparator.
+  2.sort(List list, Comparator c): Sorts the elements of the list according to the order 
+                                   induced by the comparator.
 
 *** Note that the above methods signature use generics
 ```
@@ -113,7 +114,7 @@ public class _2_CollectionsSortListComparator {
 		System.out.println(fruitlist);
 		
 		// error line 
-		// The method sort(List<T>) in the type Collections is not applicable for the arguments (List<Fruits>
+// The method sort(List<T>) in the type Collections is not applicable for the arguments (List<Fruits>
 		Collections.sort(fruitlist);
 		
 	}
@@ -130,46 +131,103 @@ So, it doesn’t know how to sort this list.
 *** For objects to have a natural order they must implement the interface java.lang.Comparable.
 
 The Comparable interface has a method compareTo(), which returns a negative, 
-0, a positive if the current value is less than, equal to, or greater than the value we are comparing with, respectively.
+0, a positive if the current value is less than, equal to, 
+or greater than the value we are comparing with, respectively.
 
 ```
 # Let’s enhance the Fruit class to implement Comparable interface. 
 # We are defining that the natural order of sorting is based on the “id” field of Fruit:
 
-```
-package com.journaldev.collections;
-public class Fruit implements Comparable<Object>{
-    private int id;
-    private String name;
-    private String taste;
+```.java
+package collections.sort;
 
-    Fruit(int id, String name, String taste){
-        this.id=id;
-        this.name=name;
-        this.taste=taste;
-    }
-    @Override 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+
+class Fruitts implements Comparable<Object>{
+	int id;
+	String nameString,testString;
+	
+	// constructor
+	public Fruitts(int id, String nameString, String testString) {
+		
+		this.id = id;
+		this.nameString = nameString;
+		this.testString = testString;
+	}
+
+	@Override
+	public String toString() {
+		return "Fruitts [id=" + id + ", nameString=" + nameString + ", testString=" + testString + "]";
+	}
+	
+	@Override 
     public int compareTo(Object o) {
-        Fruit f = (Fruit) o; 
-        return this.id - f.id ;
+        Fruitts f = (Fruitts) o; 
+        return this.id - f.id;
     }
+
+	public String display() {
+		return id+" "+nameString+" "+testString;
+	}
+	
+	
 }
-Now that we have implemented Comparable, we can sort the list without any errors:
 
 
-Collections.sort(fruitList);
-fruitList.forEach(fruit -> {
-    System.out.println(fruit.getId() + " " + fruit.getName() + " " + 
-      fruit.getTaste());
-});
+public class _3_CollectionsSortListUsingComparator {
+
+	public static void main(String[] args) {
+		Fruitts object1=new Fruitts(1, "Apple", "Sweet");
+    	Fruitts object3=new Fruitts(4, "Banana", "Sweet");
+    	Fruitts object2=new Fruitts(2, "Orange", "Sour");
+    	Fruitts object4=new Fruitts(3, "Grape", "Sweet and Sour");
+		
+    	/*
+		 * System.out.println(object1.toString());
+		 * System.out.println(object2.toString());
+		 * System.out.println(object3.toString());
+		 * System.out.println(object4.toString());
+		 */
+    	
+    	List<Fruitts> fruitlist = new ArrayList<Fruitts>();
+    	fruitlist.add(object1);
+    	fruitlist.add(object2);
+    	fruitlist.add(object3);
+    	fruitlist.add(object4);
+    	
+        //System.out.println(fruitlist);
+    	
+    	// display value using to string method
+    	fruitlist.forEach(fruit -> {
+    		System.out.println(fruit.display());
+    	});
+    	
+    	
+    	System.out.println("\n");
+    	// We are defining that the natural order of sorting is based on the “id” field of Fruit:
+    	// display value using to string method
+    	Collections.sort(fruitlist);
+    	fruitlist.forEach(fruit -> {
+    		System.out.println(fruit.display());
+    	});
+    	
+	}
+
+}
+/****
 The output will be as below:
-
 
 1 Apple Sweet
 2 Orange Sour
 3 Grape Sweet and Sour
 4 Banana Sweet
-Java Collections sort(List list, Comparator c)
+*****/
+```
+# Java Collections sort(List list, Comparator c)
+```
 In order to define a custom logic for sorting, which is different from the natural ordering of the elements, 
 we can implement the java.util.Comparator interface and pass an instance of it as the second argument of sort().
 
