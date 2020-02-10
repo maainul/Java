@@ -31,14 +31,6 @@ class Sortbyroll implements Comparator<Student>{
 	}
 }
 
-abstract class sorts implements Comparable<Student>{
-	public int compare(Student a, Student b) {
-		return a.rollno - b.rollno;
-	}
-}
-
-
-
 public class sortAnArrayAccordingToUserDefinedCriteria {
 
 	public static void main(String[] args) {
