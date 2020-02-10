@@ -233,11 +233,13 @@ public class _3_CollectionsSortListUsingComparator {
 ```
 # Java Collections sort(List list, Comparator c)
 ```
-In order to define a custom logic for sorting, which is different from the natural ordering of the elements, 
-we can implement the java.util.Comparator interface and pass an instance of it as the second argument of sort().
+In order to define a custom logic for sorting, 
+which is different from the natural ordering of the elements, 
+we can implement the java.util.Comparator interface and 
+pass an instance of it as the second argument of sort().
 ```
-##Let’s consider that we want to define the ordering based on the “name” field of the Fruit. 
-We implement the Comparator, and in its compare() method, we need to write the logic for comparison:
+## Let’s consider that we want to define the ordering based on the “name” field of the Fruit. 
+## We implement the Comparator, and in its compare() method, we need to write the logic for comparison:
 
 
 ```.java
@@ -371,33 +373,162 @@ public class _4_CollectionsListSortComparator {
 **********************/
 ```
 # Java Collections.reverseOrder
+
+```
 By default, Collection.sort performs the sorting in ascending order. 
 If we want to sort the elements in reverse order we could use following methods:
 
 reverseOrder(): Returns a Comparator that imposes the reverse of natural ordering of elements of the collection.
+
 reverseOrder(Comparator cmp): Returns a Comparator that imposes reverse ordering of the specified comparator.
+
 Here are the examples for both these methods:
+```
+```.java
 
-Java Collections reverseOrder() example
-
-Collections.sort(fruits, Collections.reverseOrder());
-System.out.println(fruits);
-It’ll output the fruits in reverse alphabetical order:
-
-[Orange, Grape, Banana, Apple]
-Java Collections reverseOrder(Comparator cmp) example
-
-Collections.sort(fruitList, Collections.reverseOrder(new SortByName()));
-fruitList.forEach(fruit -> {
-    System.out.println(fruit.getId() + " " + fruit.getName() + " " + 
-      fruit.getTaste());
-});
-Output:
+package collections.sort;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 
+class Frruit implements Comparable<Object>{
+	int id;
+	String nameString,testString;
+	
+	// constructor
+	public Frruit(int id, String nameString, String testString) {
+		
+		this.id = id;
+		this.nameString = nameString;
+		this.testString = testString;
+	}
+
+	// use this instead of toString
+	public String display() {
+		return id+" "+nameString+" "+testString;
+	}
+
+	
+	public int compareTo(Object o) {
+		
+		return 0;
+	}
+
+}
+// class for sorting id
+class SortByIdd implements Comparator<Frruit> {
+    @Override
+    public int compare(Frruit a, Frruit b) {
+        return a.id - b.id;
+    }
+}
+
+// class for sort using name
+class SortByNamee implements Comparator<Frruit> {
+    @Override
+    public int compare(Frruit a, Frruit b) {
+        //return a.nameString().compareTo(b.nameString());
+        return a.nameString.compareTo(b.nameString);
+    }
+}
+
+public class _5_CollectionsReverseOrder {
+
+	public static void main(String[] args) {
+		Frruit object1=new Frruit(1, "Apple", "Sweet");
+		Frruit object3=new Frruit(4, "Banana", "Sweet");
+		Frruit object2=new Frruit(2, "Orange", "Sour");
+		Frruit object4=new Frruit(3, "Grape", "Sweet and Sour");
+
+    	List<Frruit> fruitlist = new ArrayList<Frruit>();
+    	fruitlist.add(object1);
+    	fruitlist.add(object2);
+    	fruitlist.add(object3);
+    	fruitlist.add(object4);
+    	
+    	   	
+    	System.out.println("*****Unsorted List objects*****");
+    	// display value using to string method
+    	fruitlist.forEach(fruit -> {
+    		System.out.println(fruit.display());
+    	});
+
+    	
+    	System.out.println("\n");
+    	// We are defining that the natural order of sorting is based on the “id” field of Fruit:
+    	// display value using to string method
+    	// sorted by id
+    	System.out.println("*****Sorted by id using class*****");
+    	Collections.sort(fruitlist, new SortByIdd());
+    	
+    	fruitlist.forEach(fruit -> {
+    		System.out.println(fruit.display());
+    	});
+    	
+    
+    	System.out.println("\n*****Sorted by id (REVERSE ORDER)*****");
+    	Collections.sort(fruitlist, Collections.reverseOrder(new SortByIdd()));
+    	fruitlist.forEach(fruit -> {
+    		System.out.println(fruit.display());
+    	});
+    	
+    	
+    	// call the class
+    	Collections.sort(fruitlist, new SortByNamee());
+    	// sorted by name
+    	System.out.println("\n*****Sorted by name*****");
+    	fruitlist.forEach(fruit -> {
+    		System.out.println(fruit.display());
+    	});
+    	
+    	
+    	
+    	System.out.println("\n*****Sorted by name REVERSE ORDER*****");
+    	Collections.sort(fruitlist, Collections.reverseOrder(new SortByNamee()));
+    	fruitlist.forEach(fruit -> {
+    		System.out.println(fruit.display());
+    	});
+    		
+	}
+
+}
+
+/**************************
+
+*****Unsorted List objects*****
+1 Apple Sweet
+2 Orange Sour
+4 Banana Sweet
+3 Grape Sweet and Sour
+
+
+*****Sorted by id using class*****
+1 Apple Sweet
+2 Orange Sour
+3 Grape Sweet and Sour
+4 Banana Sweet
+
+*****Sorted by id (REVERSE ORDER)*****
+4 Banana Sweet
+3 Grape Sweet and Sour
+2 Orange Sour
+1 Apple Sweet
+
+*****Sorted by name*****
+1 Apple Sweet
+4 Banana Sweet
+3 Grape Sweet and Sour
+2 Orange Sour
+
+*****Sorted by name REVERSE ORDER*****
 2 Orange Sour
 3 Grape Sweet and Sour
 4 Banana Sweet
 1 Apple Sweet
-That’s all for Java Collections sort() method and it’s examples.
+
+*********************************/
 ```
+## Link (https://www.journaldev.com/16094/java-collections-sort)
+
