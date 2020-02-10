@@ -32,23 +32,44 @@ It has:
 	2. Algorithm
 
 ```
+# Collections in Java
+Link :(https://www.journaldev.com/1260/collections-in-java-tutorial)
 
-# What are we going to learn in Java Collections Framework
 ```
-	1.ArrayList class
-	2.LinkedList class
-	3.List interface
-	4.HashSet class
-	5.LinkedHashSet class
-	6.TreeSet class
-	7.PriorityQueue class
-	8.Map interface
-	9.HashMap class
-	10.LinkedHashMap class
-	11.TreeMap class
-	12.Hashtable class
-	13.Sorting
-	14.Comparable interface
-	15.Comparator interface
-	16.Properties class in Java
+	1.Java Collections Interfaces
+		Collection Interface
+		Iterator Interface
+		Set Interface
+		List Interface
+		Queue Interface
+		Dequeue Interface
+		Map Interface
+		ListIterator Interface
+		SortedSet Interface
+		SortedMap Interface
+	2.Java Collections Classes
+		HashSet Class
+		TreeSet Class
+		ArrayList Class
+		LinkedList Class
+		HashMap Class
+		TreeMap Class
+		PriorityQueue Class
+		Collections class
+	3.Synchronized Wrappers
+	4.Unmodifiable wrappers
+	5.Thread Safe Collections
+	
+	6.Collections API Algorithms
+		Sorting
+		Shuffling
+		Searching
+		Composition
+		Min and Max values
+		
+	7.Java 8 Collections API Features
+	8.Java 10 Collections API Changes
+	9.Java 11 Collections API Changes
+	10.Collection classes in a Nutshell
 ```
+
