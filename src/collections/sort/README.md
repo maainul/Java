@@ -6,8 +6,8 @@ to sort all List implementations such as LinkedList and ArrayList.
 
 There are two overloaded Collections.sort() methods, which are:
 
-    1.sort(List list): Sorts the elements of the List in ascending order of their natural ordering.
-    2.sort(List list, Comparator c): Sorts the elements of the list according to the order induced by the comparator.
+  1.sort(List list): Sorts the elements of the List in ascending order of their natural ordering.
+  2.sort(List list, Comparator c): Sorts the elements of the list according to the order induced by the comparator.
 
 *** Note that the above methods signature use generics
 ```
@@ -120,10 +120,12 @@ So, it doesn’t know how to sort this list.
 
 *** For objects to have a natural order they must implement the interface java.lang.Comparable.
 
-The Comparable interface has a method compareTo(), which returns a negative, 0, a positive if the current value is less than, equal to, or greater than the value we are comparing with, respectively.
+The Comparable interface has a method compareTo(), which returns a negative, 
+0, a positive if the current value is less than, equal to, or greater than the value we are comparing with, respectively.
 
 ```
-# Let’s enhance the Fruit class to implement Comparable interface. We are defining that the natural order of sorting is based on the “id” field of Fruit:
+# Let’s enhance the Fruit class to implement Comparable interface. 
+# We are defining that the natural order of sorting is based on the “id” field of Fruit:
 
 ```
 package com.journaldev.collections;
@@ -159,9 +161,11 @@ The output will be as below:
 3 Grape Sweet and Sour
 4 Banana Sweet
 Java Collections sort(List list, Comparator c)
-In order to define a custom logic for sorting, which is different from the natural ordering of the elements, we can implement the java.util.Comparator interface and pass an instance of it as the second argument of sort().
+In order to define a custom logic for sorting, which is different from the natural ordering of the elements, 
+we can implement the java.util.Comparator interface and pass an instance of it as the second argument of sort().
 
-Let’s consider that we want to define the ordering based on the “name” field of the Fruit. We implement the Comparator, and in its compare() method, we need to write the logic for comparison:
+Let’s consider that we want to define the ordering based on the “name” field of the Fruit. 
+We implement the Comparator, and in its compare() method, we need to write the logic for comparison:
 
 
 package com.journaldev.collections;
@@ -183,14 +187,16 @@ The output will be as below:
 4 Banana Sweet
 3 Grape Sweet and Sour
 2 Orange Sour
-Instead of writing new class for Comparator, using lambda function, we can provide sorting logic at runtime as well:
+Instead of writing new class for Comparator, using lambda function, 
+we can provide sorting logic at runtime as well:
 
 
 Collections.sort(fruitList, (a, b) -> {
     return a.getName().compareTo(b.getName());
 });
 Java Collections.reverseOrder
-By default, Collection.sort performs the sorting in ascending order. If we want to sort the elements in reverse order we could use following methods:
+By default, Collection.sort performs the sorting in ascending order. 
+If we want to sort the elements in reverse order we could use following methods:
 
 reverseOrder(): Returns a Comparator that imposes the reverse of natural ordering of elements of the collection.
 reverseOrder(Comparator cmp): Returns a Comparator that imposes reverse ordering of the specified comparator.
