@@ -1,6 +1,6 @@
 package javastrings.Class.Stirng;
 
-public class StringLength {
+public class _5_StringLength {
 
 	public static void main(String[] args) {
 		String s1 = "javapoint";

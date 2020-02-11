@@ -1,6 +1,6 @@
 package javastrings.Class.Stirng;
 
-public class StringReplaceMethod {
+public class _8_StringReplace {
 
 	public static void main(String[] args) {
 		String s1 = "Java is a programming language.Java is a iceland";
@@ -9,6 +9,7 @@ public class StringReplaceMethod {
 		System.out.println(replaceString);
 		System.out.println(replaceString.replace("Kava", "Java"));
 		System.out.println(s1.replace("a", "A"));
+		
 	}
 }
 /*

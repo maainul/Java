@@ -1,6 +1,8 @@
 package javastrings.Class.Stirng;
-
-public class StringValueOf {
+// The string valueOf() method coverts given type such as int, 
+// long, float, double, boolean, char and char array into string.
+  
+public class _6_StringValueOf {
 
 	public static void main(String[] args) {
 		int value = 30;
@@ -15,3 +17,8 @@ public class StringValueOf {
 	}
 
 }
+/*
+3010
+A
+B
+*/

@@ -1,6 +1,6 @@
-package javastrings;
+package javastrings.Class.Stirng;
 
-public class UpperCase {
+public class _1_StringtoUpperCaseAndtoLowerCase {
 
 	public static void main(String[] args) {
 		String s1 = "Mainul";
@@ -11,3 +11,8 @@ public class UpperCase {
 	}
 
 }
+/*
+MAINUL
+mainul
+Mainul
+*/
