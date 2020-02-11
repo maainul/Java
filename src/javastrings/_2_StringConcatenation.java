@@ -1,6 +1,6 @@
 package javastrings;
 
-public class StringConcatenation {
+public class _2_StringConcatenation {
 
 	public static void main(String[] args) {
 		String s1 = "Mainul";
@@ -15,3 +15,11 @@ public class StringConcatenation {
 	}
 
 }
+/* Output
+ 
+ Mainul Hasan
+ MainulMainul
+ Mainul Hasan
+ 
+ 
+*/

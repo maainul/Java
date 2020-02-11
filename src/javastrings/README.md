@@ -246,5 +246,70 @@ Output:0
        -1
 ```
 
+# Chapter 4 : String Concatenation in Java
+```
+In java, string concatenation forms a new string that is the combination of multiple strings.
+There are two ways to concat string in java:
+
+  1. By + (string concatenation) operator
+  2. By concat() method
+  
+```
+# 1) String Concatenation by + (string concatenation) operator
+
+```.java
+Java string concatenation operator (+) is used to add strings. For Example:
+
+class TestStringConcatenation1{  
+ public static void main(String args[]){  
+   String s="Sachin"+" Tendulkar";  
+   System.out.println(s);//Sachin Tendulkar  
+ }  
+}  
+
+Output:Sachin Tendulkar
+```
+```
+The Java compiler transforms above code to this:
+
+String s=(new StringBuilder()).append("Sachin").append(" Tendulkar).toString();  
+In java, String concatenation is implemented through the StringBuilder (or StringBuffer) 
+class and its append method. String concatenation operator produces 
+a new string by appending the second operand onto the end of the first operand. 
+The string concatenation operator can concat not only string but primitive values also. 
+For Example:
+```
+```.java
+class TestStringConcatenation2{  
+ public static void main(String args[]){  
+   String s=50+30+"Sachin"+40+40;  
+   System.out.println(s);//80Sachin4040  
+ }  
+}  
 
 
+80Sachin4040
+
+Note: After a string literal, all the + will be treated as string concatenation operator.
+```
+# 2) String Concatenation by concat() method
+
+```
+The String concat() method concatenates the specified string to the end of current string. Syntax:
+
+public String concat(String another)  
+Let's see the example of String concat() method.
+```
+```.java
+class TestStringConcatenation3{  
+ public static void main(String args[]){  
+   String s1="Sachin ";  
+   String s2="Tendulkar";  
+   String s3=s1.concat(s2);  
+   System.out.println(s3);//Sachin Tendulkar  
+  }  
+}  
+
+Sachin Tendulkar
+
+```
