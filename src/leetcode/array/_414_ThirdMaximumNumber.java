@@ -48,6 +48,8 @@ public class _414_ThirdMaximumNumber {
 		System.out.println(thirdMax(nums));
 		
 		
+		
+		
 	}
 	public static int thirdMax(int[] nums) {
         Integer First = null;

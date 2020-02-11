@@ -39,6 +39,7 @@ public class _7_HashSetExampleStoreDuplicateArrayException {
 		HashSet<Integer> set = new HashSet<Integer>();
 			for (int i = 0; i < nums.length; i++) {
 				if(set.contains(nums[i])) {
+					// it will check whether duplicate or not
 					System.out.println(nums[i]);
 					System.out.println("Value "+nums[i]+" Will not store in the array..");
 				}
