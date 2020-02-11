@@ -38,7 +38,7 @@ But in Java, string is an object that represents a sequence of characters.
 The java.lang.String class is used to create a string object.
 ```
 # How to create a string object?
-``
+```
 There are two ways to create String object:
 
   By string literal
@@ -92,5 +92,10 @@ public class StringExample{
     System.out.println(s2);  
     System.out.println(s3);  
   }
-} 
+}
+
+
+java
+strings
+example
 ```
