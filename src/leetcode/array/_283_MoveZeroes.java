@@ -13,84 +13,76 @@ Note:
 
 You must do this in-place without making a copy of the array.
 Minimize the total number of operations.
- ********************************************************/
+
+https://www.codevscolor.com/java-move-zeros-integer-array-start/
+ 
+Algorithm :
+1. The array is given. We will scan the elements from end to first. For example , for the array {1,0,2,0,3,0},we will scan one by one element as 0,3,0,2,0 and 1.
+2. Create one variable to store the current index. At first, its value is the last index of the array.
+3. Check for each element of the array while scanning, if it is not zero, add the value to the current index of the array.
+4. After all values are completed, fill the remaining position of the array with 0.
+5. Finally, print out the array.
+
+********************************************************/
 
 package leetcode.array;
-import java.util.Arrays;
-import java.util.Collections; 
+
+
 
 public class _283_MoveZeroes 
 { 
     public static void main(String[] args) {
-    
-    int[] arr = {13, 7, 6, 45, 21, 9, 2, 100}; 
-    
-    // Note that we have Integer here instead of 
-    // int[] as Collections.reverseOrder doesn't 
-    // work for primitive types. 
-    //Integer[] nums = {13, 7, 6, 45, 21, 9, 2, 100}; 
-    
-    Integer[] nums = {13, 7, 6, 45, 21, 9, 2, 100}; 
-    System.out.println("Original Array :"+Arrays.toString(arr));	
-    asscendingOrder(arr);
-    modifiedOrder(arr);
-    descendingOrder(nums);
-	alphabeticOrder();
+    	
+    	int[] nums = {0,1,3,0};
+    	System.out.println("Original value");
+    	for (int i = 0; i < nums.length; i++) {
+			System.out.print(nums[i]+" ");
+		}
+    	System.out.println("\n\nAfter Moves Zeros");
+    	moveszero(nums);
+    	for (int i = 0; i < nums.length; i++) {
+			System.out.print(nums[i]+" ");
+		}
+    	
+    	System.out.println("\n\nBefore Moves Zeros");
+    	moveszeroBefore(nums);
+    	for (int i = 0; i < nums.length; i++) {
+			System.out.print(nums[i]+" ");
+		}
 	
 
- } 
-    
-    
-  	private static void alphabeticOrder() {
-    	String arr[] = {"practice.geeksforgeeks.org", 
-                "quiz.geeksforgeeks.org", 
-                "code.geeksforgeeks.org"
-               }; 
+ }
 
-	// Sorts arr[] in ascending order 
-	Arrays.sort(arr); 
-	System.out.printf("\nModified arr[] : \n%s\n\n",Arrays.toString(arr)); 
+	private static void moveszero(int[] nums) {
+		int index = 0;
+		for (int i = 0; i < nums.length; i++) {
+			if(nums[i] !=0) {
+				nums[index++] = nums[i];
+			}
+		}
+		
+		for (int i = index; i < nums.length; i++) {
+			nums[i] = 0;
+		}
+		
+	} 
 	
-	// Sorts arr[] in descending order 
-	Arrays.sort(arr, Collections.reverseOrder()); 
-	
-	System.out.printf("Modified arr[] : \n%s\n\n", Arrays.toString(arr)); 
+	private static void moveszeroBefore(int[] nums) {
+		int index = nums.length-1;
 		
-	}
-
-
-
-	private static void descendingOrder(Integer[] nums) {
-    	// Note that we have Integer here instead of 
-        // int[] as Collections.reverseOrder doesn't 
-        // work for primitive types. 
-        //Integer[] nums = {13, 7, 6, 45, 21, 9, 2, 100}; 
-  
-        // Sorts arr[] in descending order 
-        Arrays.sort(nums, Collections.reverseOrder()); 
-  
-        System.out.printf("\nModified arr[] :"+Arrays.toString(nums)); 
+		for (int i = nums.length-1; i >=0; i--) {
+			if(nums[i] != 0) {
+				nums[index--] = nums[i];
+			}
+		}
 		
-	}
-
-
-
-	private static void modifiedOrder(int[] arr) {
-    	// Sort subarray from index 1 to 4, i.e., 
-        // only sort subarray {7, 6, 45, 21} and 
-        // keep other elements as it is. 
-        Arrays.sort(arr, 1, 5); 
-  
-        System.out.printf("Modified array : "+Arrays.toString(arr)); 
+		/*
+		 * while(index >= 0) { nums[index--] = 0; }
+		 */
+		for (int i = index; i >=0; i--) {
+			
+				nums[index--] = 0;
+			}
+		}
 		
-	}
-
-
-
-	private static void asscendingOrder(int[] arr) {
-    	// Our arr contains 8 elements 
-        Arrays.sort(arr); 
-        System.out.println("Asscending Order:"+Arrays.toString(arr));
-        
-    }
 }
