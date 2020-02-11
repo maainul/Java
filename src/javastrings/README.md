@@ -16,6 +16,7 @@ String s="javatpoint";
 ![string_catagory](https://user-images.githubusercontent.com/37740006/74242984-13c5dc80-4d09-11ea-8e07-e567620cd803.png)
 
 # CharSequence Interface
+![charstring](https://user-images.githubusercontent.com/37740006/74243383-ddd52800-4d09-11ea-8b37-bb99b34b0523.png)
 ```
 The CharSequence interface is used to represent the sequence of characters. 
   1.String, 
