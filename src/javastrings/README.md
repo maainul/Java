@@ -368,7 +368,7 @@ if you submit any form in window based, web based or mobile application.
 ```
 ## Let's see the important methods of String class
 
-```
+
 1. String toUpperCase() and toLowerCase()</br>
 2. String trim()</br>
 3. String startsWith() and String endsWith()</br>
@@ -393,7 +393,7 @@ if you submit any form in window based, web based or mobile application.
 22. String split()
 23. String substring()
 24. String toCharArray()
-```
+
 
 # 1. Java String toUpperCase() and toLowerCase() method
 ```
