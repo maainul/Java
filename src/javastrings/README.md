@@ -1,4 +1,4 @@
-# 1.Java String
+# Chapter 1.Java String
 ```
 In Java, string is basically an object that represents sequence of char values. 
 
@@ -98,7 +98,7 @@ java
 strings
 example
 ```
-# 2.Immutable String in Java
+# Chaptr 2.Immutable String in Java
 ```
 In java, string objects are immutable. 
 Immutable simply means unmodifiable or unchangeable.
@@ -141,8 +141,18 @@ class Testimmutablestring1{
 Test it Now
 Output:Sachin Tendulkar
 ```
-
-
+```
+In such case, s points to the "Sachin Tendulkar". Please notice that still sachin object is not modified.
+```
+# Why string objects are immutable in java?
+```
+Because java uses the concept of string literal.
+Suppose there are 5 reference variables,
+all referes to one object "sachin".
+If one reference variable changes the value of the object, 
+it will be affected to all the reference variables. 
+That is why string objects are immutable in java.
+```
 
 
 
