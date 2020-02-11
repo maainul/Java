@@ -19,9 +19,9 @@ String s="javatpoint";
 ![charstring](https://user-images.githubusercontent.com/37740006/74243383-ddd52800-4d09-11ea-8b37-bb99b34b0523.png)
 ```
 The CharSequence interface is used to represent the sequence of characters. 
-  1.String, 
-  2.StringBuffer and 
-  StringBuilder classes implement it. 
+  1. String, 
+  2. StringBuffer and 
+  3. StringBuilder classes implement it. 
 It means, we can create strings in java by using these three classes.
 ```
 
@@ -39,10 +39,9 @@ The java.lang.String class is used to create a string object.
 ```
 # How to create a string object?
 ```
-There are two ways to create String object:
-
-  By string literal
-  By new keyword
+There are two ways to create String object
+  1. By string literal
+  2. By new keyword
 ```
 # 1) String Literal
 ```.java
@@ -99,3 +98,19 @@ java
 strings
 example
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
