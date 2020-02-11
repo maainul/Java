@@ -322,19 +322,21 @@ In case of substring startIndex is inclusive and endIndex is exclusive.
 Note: Index starts from 0.
 You can get substring from the given string object by one of the two methods:
 ```
-
-**public String substring(int startIndex):** This method returns new String object 
+```
+public String substring(int startIndex): This method returns new String object 
 containing the substring of the given string from specified startIndex (inclusive).
 
-**public String substring(int startIndex, int endIndex):** This method returns new String object
+public String substring(int startIndex, int endIndex): This method returns new String object
 containing the substring of the given string from specified startIndex to endIndex.
-
+```
+```
 In case of string:
 
-**startIndex:** inclusive
-**endIndex:** exclusive
+startIndex: inclusive
+endIndex: exclusive
+```
 
-Let's understand the startIndex and endIndex by the code given below.
+### Let's understand the startIndex and endIndex by the code given below.
 ```
 ```.java
 String s="hello";  
