@@ -41,13 +41,13 @@
 36. Permutations of a given string using STL</br>
 37. Check if both halves of the string have same set of characters</br>
 38. Count words that appear exactly two times in an array of words</br>
-39.Check if frequency of all characters can become same by one removal.</br>
+39. Check if frequency of all characters can become same by one removal.</br>
 40. Check if a string has all characters with same frequency with one variation allowed.</br>
 41. Count ways to increase LCS length of two strings by one.</br>
 42. Find the character in first string that is present at minimum index in second string.</br>
 43. Remove characters from the first string which are present in the second string.</br>
-44.Length of Longest sub-string that can be removed.</br>
+44. Length of Longest sub-string that can be removed.</br>
 45. Count of character pairs at same distance as in English alphabets.</br>
 46. Count number of equal pairs in a string.</br>
 47. Count of strings where adjacent characters are of difference one.</br>
-48.Print number of words, vowels and frequency of each character.</br>
+48. Print number of words, vowels and frequency of each character.</br>
