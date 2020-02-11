@@ -155,14 +155,96 @@ If one reference variable changes the value of the object,
 it will be affected to all the reference variables. 
 That is why string objects are immutable in java.
 ```
+# Chapter 3 : Java String compare
+```
+We can compare string in java on the basis of content and reference.
 
+There are three ways to compare string in java:
 
+  1. By equals() method
+  2. By = = operator
+  3. By compareTo() method
+```
+# 1) String compare by equals() method
 
+```.java
+class Teststringcomparison1{  
+ public static void main(String args[]){  
+   String s1="Sachin";  
+   String s2="Sachin";  
+   String s3=new String("Sachin");  
+   String s4="Saurav";  
+   System.out.println(s1.equals(s2));//true  
+   System.out.println(s1.equals(s3));//true  
+   System.out.println(s1.equals(s4));//false  
+ }  
+}  
 
+Output:true
+       true
+       false
+       
+```
+```.java
+class Teststringcomparison2{  
+ public static void main(String args[]){  
+   String s1="Sachin";  
+   String s2="SACHIN";  
+  
+   System.out.println(s1.equals(s2));//false  
+   System.out.println(s1.equalsIgnoreCase(s2));//true  
+ }  
+}  
 
+Output:
+  false
+  true
 
+```
+# 2) String compare by == operator
+```
+The = = operator compares references not values.
+```
+```.java
+class Teststringcomparison3{  
+ public static void main(String args[]){  
+   String s1="Sachin";  
+   String s2="Sachin";  
+   String s3=new String("Sachin");  
+   System.out.println(s1==s2);//true (because both refer to same instance)  
+   System.out.println(s1==s3);//false(because s3 refers to instance created in nonpool)  
+ }  
+}  
+Output:true
+       false
+```
+# 3) String compare by compareTo() method
+```
+The String compareTo() method compares values lexicographically and returns an integer value that describes if first string is less than, equal to or greater than second string.
 
+Suppose s1 and s2 are two string variables. If:
 
+s1 == s2 :0
+s1 > s2   :positive value
+s1 < s2   :negative value
+```
+
+```.java
+class Teststringcomparison4{  
+ public static void main(String args[]){  
+   String s1="Sachin";  
+   String s2="Sachin";  
+   String s3="Ratan";  
+   System.out.println(s1.compareTo(s2));//0  
+   System.out.println(s1.compareTo(s3));//1(because s1>s3)  
+   System.out.println(s3.compareTo(s1));//-1(because s3 < s1 )  
+ }  
+}  
+
+Output:0
+       1
+       -1
+```
 
 
 
