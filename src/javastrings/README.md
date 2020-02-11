@@ -1,4 +1,4 @@
-# Java String
+# 1.Java String
 ```
 In Java, string is basically an object that represents sequence of char values. 
 
@@ -98,9 +98,49 @@ java
 strings
 example
 ```
+# 2.Immutable String in Java
+```
+In java, string objects are immutable. 
+Immutable simply means unmodifiable or unchangeable.
 
+Once string object is created its data or state can't be changed but a new string object is created.
 
+Let's try to understand the immutability concept by the example given below:
+```
+```.java
+class Testimmutablestring{  
+ public static void main(String args[]){  
+   String s="Sachin";  
+   s.concat(" Tendulkar");//concat() method appends the string at the end  
+   System.out.println(s);//will print Sachin because strings are immutable objects  
+ }  
+}  
 
+Output:Sachin
+```
+```
+Now it can be understood by the diagram given below. 
+Here Sachin is not changed but a new object is created with sachintendulkar. 
+That is why string is known as immutable.
+```
+# Heap diagram
+![immutablestring](https://user-images.githubusercontent.com/37740006/74245278-f135c280-4d0c-11ea-9e3c-c49666889a29.png)
+```
+As you can see in the above figure that two objects are created but s reference variable still refers to "Sachin" not to "Sachin Tendulkar".
+
+But if we explicitely assign it to the reference variable, it will refer to "Sachin Tendulkar" object.For example:
+```
+```.java
+class Testimmutablestring1{  
+ public static void main(String args[]){  
+   String s="Sachin";  
+   s=s.concat(" Tendulkar");  
+   System.out.println(s);  
+ }  
+}  
+Test it Now
+Output:Sachin Tendulkar
+```
 
 
 
