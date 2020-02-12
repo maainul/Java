@@ -1,10 +1,14 @@
 package MathFunction.max;
-/*The Java.lang.math.max() function is an inbuilt function in Java which returns maximum of two numbers. 
- * The arguments are taken in int, double, float and long.
- * If a negative and a positive number is passed as argument then the positive result is generated. 
- * And if both parameters passed are negative then the number with the lower magnitude is generated as result.
- * 
- */
+/***************************************
+	The Java.lang.math.max() function is an inbuilt function in Java which returns maximum of two numbers. 
+	
+	The arguments are taken in int, double, float and long.
+	
+	If a negative and a positive number is passed as argument then the positive result is generated. 
+	
+	And if both parameters passed are negative then the number with the lower magnitude is generated as result.
+
+ *****************************************/
 
 public class MaxMethod {
 
@@ -23,3 +27,8 @@ public class MaxMethod {
 	}
 
 }
+/*
+12.456
+23.0
+-23.0
+*/

@@ -16,3 +16,9 @@ public class MinFunction {
 
 	}
 }
+
+/*
+12.123
+-23.0
+-25.0
+*/
