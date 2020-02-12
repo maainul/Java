@@ -22,6 +22,8 @@ The input array may contain duplicates, so ascending order here means <=.
 
 package leetcode.array;
 
+import java.util.Arrays;
+
 public class _581_ShortestUnsortedContinuousSubarray {
 	public static void main(String[] args) {
 		
@@ -41,8 +43,16 @@ public class _581_ShortestUnsortedContinuousSubarray {
 }
 
 	private static int findUnsortedSubarray(int[] nums) {
-		
-		return 1;
+		int[] snums = nums.clone();
+		Arrays.parallelSort(snums);
+		int start = snums.length,end = 0;
+		for (int i = 0; i < snums.length; i++) {
+			if(snums[i] != nums[i]) {
+				start = Math.min(start, i);
+				end = Math.max(end, i);
+			}
+		}
+		return (end-start >= 0 ? (end-start+1):0);
 	}
 
 }
