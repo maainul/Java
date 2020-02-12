@@ -1,6 +1,6 @@
 package javastrings.Class.Stirng;
 
-public class StringImmutable {
+public class _0_StringImmutable {
 
 	public static void main(String[] args) {
 	    String s = "mohammad "; //concat() method appends the string at the end  
@@ -11,3 +11,5 @@ public class StringImmutable {
 	}
 
 }
+// mohammad 
+// mohammad anik

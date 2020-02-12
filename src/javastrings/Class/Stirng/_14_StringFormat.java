@@ -35,7 +35,7 @@ public class _14_StringFormat {
          // in total 7 digits 
          String gfg3 = String.format("%07d", num); 
    
-         System.out.println(gfg3);  // 0007044
+         System.out.println(gfg3);  // 0007044 
     }  
   
 }  

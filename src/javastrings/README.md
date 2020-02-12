@@ -870,18 +870,398 @@ My Company name is: GFG, GFG and GeeksforGeeks
 # 15. String getBytes()
 
 ```.java
+/*
+The java string getBytes() method returns the byte array of the string. 
+In other words, it returns sequence of bytes.
+*/
+
+package javastrings.Class.Stirng;
 
 
+public class _15_StringGetBytes {
+
+	public static void main(String[] args) {
+		String s1 = "ABCDEFG";
+		byte[] barr = s1.getBytes();
+		for (int i = 0; i < barr.length; i++) {
+			System.out.println(barr[i]);
+		}
+		
+		String s2 = new String(barr);
+		System.out.println(s2);
+
+	}
+
+}
+/*
+ * 65 
+ * 66 
+ * 67 
+ * 68 
+ * 69 
+ * 70 
+ * 71 
+ * ABCDEFG
+ */
+
+```
+# 16. String getChars()
+
+```.java
+/*
+The java string getChars() method copies the content of this string into specified char array. 
+There are 4 arguments passed in getChars() method. The signature of getChars() method is given below:
+*/
+
+
+package javastrings.Class.Stirng;
+//  The java string getChars() method copies characters from the 
+//  given string into the destination character array.
+public class _16_StringGetChars {
+
+	public static void main(String[] args) {
+		String string = new String("Hello javaworld");
+		char[] ch = new char[10];
+		try {
+			string.getChars(6, 15, ch, 0);
+			//string.getChars(source char begins, source char end, destination name, destination begins);
+			System.out.println(ch);
+		} catch (Exception ex) {
+			System.out.println(ex);
+		}
+
+	}
+
+}
+// javaworld
 
 
 
 ```
-16. String getChars()</br>
-17. String indexOf()</br>
-18. String isEmpty()</br>
-19. String join()</br>
-20. String lastIndexOf()</br>
-21. String replaceAll()</br>
-22. String split()
-23. String substring()
-24. String toCharArray()
+# 17. String indexOf()
+
+```.java
+// The java string indexOf() method returns index of given character value or substring. 
+// If it is not found, it returns -1. The index counter starts from zero.
+
+package javastrings.Class.Stirng;
+
+public class _17_StringIndexOf {
+
+	public static void main(String[] args) {
+		String s1 = "I am from Bangladesh.";
+		System.out.println(s1.indexOf("from")); // 5
+		System.out.println(s1.indexOf('I')); //0
+		System.out.println(s1.indexOf("Ban")); // 10
+		
+		
+		 String s11 = "This is indexOf method";         
+	        // Passing char and index from  
+		 	// This method takes char and index as arguments and returns index of first character occured after the given fromIndex. 
+	        int index = s11.indexOf('e', 12); //Returns the index of this char  
+	        System.out.println("index of char "+index);     // index of char 17   
+
+	}
+
+}
+
+
+
+```
+# 18. String isEmpty()
+
+```.java
+// The java string isEmpty() method checks if this string is empty or not. 
+// It returns true, if length of string is 0 otherwise false. 
+// In other words, true is returned if string is empty otherwise it returns false.
+
+package javastrings.Class.Stirng;
+
+// The java string isEmpty() method checks if this string is empty or not. 
+// It returns true, if length of string is 0 otherwise false. 
+// In other words, true is returned if string is empty otherwise it returns false.
+
+public class _18_StringIsEmpty {
+
+	public static void main(String[] args) {
+		String s1 = "";
+		String s2 = "Javaworld";
+		System.out.println(s1.isEmpty()); // true
+		System.out.println(s2.isEmpty()); // false
+
+		if(s1.length()== 0 || s1.isEmpty()) { 
+			// s1 is empty 
+			// OR operation 
+			// je kono ekta true holei true (0, 1 = 1) (0 0 = 0),(1,1 = 1)
+			System.out.println("String s1 is empty...");
+		}
+		else {
+			System.out.println(s1);
+		}
+		if(s2.length()==0 || s2.isEmpty()) {
+			System.out.println("S2 is empty..");
+		}
+		else {
+			System.out.println(s2);
+		}
+	}
+
+}
+/*
+ * true 
+ * false 
+ * String s1 is empty... 
+ * Javaworld
+ */
+
+```
+# 19. String join()
+
+```.java
+
+
+package javastrings.Class.Stirng;
+
+public class _19_StringJoin {
+
+	public static void main(String[] args) {
+		String dateString = String.join("/", "12","12","2019");
+		System.out.println(dateString);
+		String timeString = String.join(":", "12","10","30");
+		System.out.println(timeString);
+				
+		 // delimiter is "->" and elements are "Wake up",  
+        // "Eat", "Play", "Sleep", "Wake up" 
+  
+        String gfg3 = String.join("-> ", "Wake up", "Eat", 
+                      "Play", "Sleep", "Wake up"); 
+  
+        System.out.println(gfg3); 
+        
+        // delimiter is "  " and elements are "My", 
+        // "name", "is", "Niraj", "Pandey" 
+        String gfg2 = String.join("  ", "My", "name", "is", "Niraj", "Pandey"); 
+  
+        System.out.println(gfg2);
+        
+        // delimiter is "<" and elements are "Four", "Five", "Six", "Seven" 
+        String gfg1 = String.join(" < ", "Four", "Five", "Six", "Seven"); 
+  
+        System.out.println(gfg1);
+	}
+
+}
+/*
+12/12/2019
+12:10:30
+Wake up-> Eat-> Play-> Sleep-> Wake up
+My  name  is  Niraj  Pandey
+Four < Five < Six < Seven
+*/
+
+```
+
+# 20. String lastIndexOf()
+
+```.java
+
+
+package javastrings.Class.Stirng;
+// The java string lastIndexOf() method returns last index of the given character value or substring. 
+// If it is not found, it returns -1. The index counter starts from zero.
+public class _20_StringLastIndexOf {
+	public static void main(String args[]) {
+		String s4 = "This is index of lastindex.";
+		System.out.println(s4.lastIndexOf('s')); //19
+		System.out.println(s4.lastIndexOf('s', 5)); // 3
+	}
+}
+
+```
+# 21. String replaceAll()
+
+```.java
+
+package javastrings.Class.Stirng;
+
+// The java string replaceAll() method returns a string replacing all 
+// the sequence of characters matching regex and replacement strin
+
+public class StringReplaceAll {
+
+	public static void main(String[] args) {
+		String s1="javatpoint is a very good website";  
+		String replaceString=s1.replaceAll("a","e");//replaces all occurrences of "a" to "e"  
+		System.out.println(replaceString);
+		System.out.println(s1.replaceAll("is", "was"));
+
+	}
+
+}
+// jevetpoint is e very good website
+// javatpoint was a very good website
+
+```
+# 22. String split()
+
+```.java
+
+package javastrings.Class.Stirng;
+//The given example returns total number of words in a string excluding space only. It also includes special characters.
+
+public class _22_StringSplit {
+	public static void main(String args[]) {
+		String s1="java string split method by javatpoint";  
+		String[] wordStrings = s1.split("\\s");
+		String capitalizeString = "";
+
+		for(String wString:wordStrings) {
+			String firString = wString.substring(0,1);
+			String afterString = wString.substring(1);
+			capitalizeString+=firString.toUpperCase()+afterString.toLowerCase()+" ";
+			System.out.println(capitalizeString.trim());
+		}
+
+		String s2="java string split method by javatpoint";  
+		
+		System.out.println("--------Method of split------");
+		
+		for(String w:s2.split("\\s",6)) {
+			System.out.println(w);
+		}
+		
+		System.out.println();
+		
+		String str = "Javatpointtt";  
+        System.out.println("Returning words:");  
+        String[] arr = str.split("t", 0);  
+        
+        for (String w : arr) {  
+            System.out.println(w);  
+        } 
+
+        System.out.println("Split array length: "+arr.length);  
+	}
+}
+/*
+java
+string
+split
+method
+by
+javatpoint
+
+--------Method of split------
+java
+string
+split
+method
+by
+javatpoint
+
+Returning words:
+Java
+poin
+Split array length: 2
+*/
+
+```
+
+# 23. String substring()
+
+```.java
+/*
+The java string substring() method returns a part of the string.
+
+We pass begin index and end index number position in the java 
+substring method where start index is inclusive and end index is exclusive. 
+In other words, start index starts from 0 whereas end index starts from 1.
+
+There are two types of substring methods in java string.
+*/
+
+package javastrings.Class.Stirng;
+
+public class _23_StringSubdtring {
+
+	public static void main(String[] args) {
+		
+		String s1 = "javatpoint";
+		System.out.println(s1.substring(2,4));
+		System.out.println(s1.substring(2));
+
+	}
+// va
+// vatpoint
+
+```
+# 24. String toCharArray()
+
+```.java
+
+
+package javastrings.Class.Stirng;
+
+// The java string toCharArray() method converts this string into character array. 
+// It returns a newly created character array, 
+// its length is similar to this string and its contents are initialized with the characters of this string.
+
+public class _24_StringToCharArray {
+
+	public static void main(String[] args) {
+		String s1 = "hello";
+		
+		char[] ch = s1.toCharArray();
+		
+		for (int i = 0; i < ch.length; i++) {
+			System.out.println(ch[i]);
+		}
+		String s2 = "Welcome to the java world";
+		
+		char[] ch2 = s2.toCharArray();
+		
+		int len = ch2.length;
+		
+		
+		System.out.println("Length of array :"+len);
+		for (int i = 0; i < ch2.length; i++) {
+			System.out.println(ch2[i]);
+		}
+	}
+}
+/*
+h
+e
+l
+l
+o
+Length of array :25
+W
+e
+l
+c
+o
+m
+e
+ 
+t
+o
+ 
+t
+h
+e
+ 
+j
+a
+v
+a
+ 
+w
+o
+r
+l
+d
+*/
+
+
+```

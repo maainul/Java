@@ -1,7 +1,7 @@
 package javastrings.Class.Stirng;
 
 
-public class StringGetBytes {
+public class _15_StringGetBytes {
 
 	public static void main(String[] args) {
 		String s1 = "ABCDEFG";

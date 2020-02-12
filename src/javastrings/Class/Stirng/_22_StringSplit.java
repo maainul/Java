@@ -1,10 +1,11 @@
 package javastrings.Class.Stirng;
 //The given example returns total number of words in a string excluding space only. It also includes special characters.
-public class StringSplit {
+public class _22_StringSplit {
 	public static void main(String args[]) {
 		String s1="java string split method by javatpoint";  
 		String[] wordStrings = s1.split("\\s");
 		String capitalizeString = "";
+		
 		for(String wString:wordStrings) {
 			String firString = wString.substring(0,1);
 			String afterString = wString.substring(1);
@@ -24,6 +25,7 @@ public class StringSplit {
 		String str = "Javatpointtt";  
         System.out.println("Returning words:");  
         String[] arr = str.split("t", 0);  
+       
         for (String w : arr) {  
             System.out.println(w);  
         }  
