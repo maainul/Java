@@ -486,7 +486,7 @@ false
 You don't know me
 */
 ```
-#4. String charAt()
+# 4. String charAt()
 ```
 The string charAt() method returns a character at specified index.
 ```
