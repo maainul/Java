@@ -610,7 +610,6 @@ B
 ```
 # 7. String intern()
 ```
-
 String Interning is a method of storing only one copy of each distinct String Value, 
 which must be immutable.
 By applying String.intern() on a couple of strings will ensure that 
@@ -645,11 +644,9 @@ A pool is managed by String class.
 	*** It is advised to use equals(), not ==, to compare two strings. 
 	    This is because == operator compares memory locations, 
 	    while equals() method compares the content stored in two objects.
-
 ```
 
 ```.java
-
 // Java program to illustrate  
 // intern() method  
 class GFG {  
@@ -709,7 +706,6 @@ then intern() method itself will create the corresponding SCP object.
 ```
 
 ```.java
-
 // Java program to illustrate  
 // intern() method  
 class GFG {  
@@ -748,7 +744,6 @@ s2 will have the value “GFGGFG” in it only creates one object.
 In Line-3, 
 we try to intern s3 which is again with s2 in SCP area. 
 s4 is also in SCP so all give output as true when compared.
-
 ```
 ![intern3](https://user-images.githubusercontent.com/37740006/74352605-f402e700-4de2-11ea-8f11-e143c15bfff1.png)
 
