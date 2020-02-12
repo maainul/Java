@@ -680,8 +680,9 @@ true
 true
 ```
 
-```
-Explanation : 
+
+## Explanation :
+``` 
 Whenever we create a String Object, 
 two objects will be created i.e. 
 One in the Heap Area and One in the String constant pool 
@@ -734,8 +735,9 @@ true
 true
 ```
 
+
+## Explanation : 
 ```
-Explanation : 
 We use intern() method to get the reference of corresponding SCP Object. 
 
 In this case, when Line-2 executes
