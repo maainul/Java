@@ -368,7 +368,7 @@ if you submit any form in window based, web based or mobile application.
 ```
 ## Let's see the important methods of String class
 
-```
+
 1. String toUpperCase() and toLowerCase()</br>
 2. String trim()</br>
 3. String startsWith() and String endsWith()</br>
@@ -393,7 +393,7 @@ if you submit any form in window based, web based or mobile application.
 22. String split()
 23. String substring()
 24. String toCharArray()
-```
+
 
 # 1. Java String toUpperCase() and toLowerCase() method
 ```
@@ -578,21 +578,255 @@ public class _5_StringLength {
  */
 
 ```
-# 6. String valueOf()</br>
+# 6. String valueOf()
+```.java
+//The string valueOf() method coverts given type such as int, long, float, double, boolean, char and char array into string.
+
+package javastrings.Class.Stirng;
+// The string valueOf() method coverts given type such as int, 
+// long, float, double, boolean, char and char array into string.
+  
+public class _6_StringValueOf {
+
+	public static void main(String[] args) {
+		int value = 30;
+		String s1 = String.valueOf(value);
+		System.out.println(s1+10);
+		char ch1 = 'A';    
+	    char ch2 = 'B';  
+	    String s = String.valueOf(ch1);    
+	    String s2 = String.valueOf(ch2);  
+	    System.out.println(s);  
+        System.out.println(s2); 
+	}
+
+}
+/*
+3010
+A
+B
+*/
+
+```
+# 7. String intern()
 ```.java
 
 
 
 
+
 ```
-7. String intern()</br>
-8. String replace()</br>
-9. String compareTo()</br>
-10. String concat()</br>
-11. String contains()</br>
-12. String equals()</br>
-13. String equalsIgnoreCase()</br>
-14. String format()</br>
+# 8. String replace()
+```.java
+package javastrings.Class.Stirng;
+
+public class _8_StringReplace {
+
+	public static void main(String[] args) {
+		String s1 = "Java is a programming language.Java is a iceland";
+		System.out.println(s1);
+		String replaceString = s1.replace("Java", "Kava");
+		System.out.println(replaceString);
+		System.out.println(replaceString.replace("Kava", "Java"));
+		System.out.println(s1.replace("a", "A"));
+		
+	}
+}
+/*
+ *  Java is a programming language.Java is a iceland
+ *  Kava is a programming language.Kava is a iceland 
+ *  Java is a programming language.Java is a iceland
+ *  JAvA is A progrAmming lAnguAge.JAvA is A icelAnd
+ */
+
+
+
+
+```
+# 9. String compareTo()
+```
+package javastrings.Class.Stirng;
+
+public class _9_StringCompateTo{  
+	public static void main(String args[]){  
+		String s1="hello";  
+		String s2="hello";  
+		String s3="meklo";  
+		String s4="hemlo";  
+		String s5="flag";  
+		System.out.println(s1.compareTo(s2));//0 because both are equal  
+		System.out.println(s1.compareTo(s3));//-5 because "h" is 5 times lower than "m"  
+		System.out.println(s1.compareTo(s4));//-1 because "l" is 1 times lower than "m"  
+		System.out.println(s1.compareTo(s5));//2 because "h" is 2 times greater than "f"  
+	}
+}  
+```
+# 10. String concat()
+```.java
+package javastrings.Class.Stirng;
+
+public class _10_StringConcat {  
+    public static void main(String[] args) {      
+        String str1 = "Hello";  
+        String str2 = "Javatpoint";  
+        String str3 = "Reader";  
+        // Concatenating one string   
+        String str4 = str1.concat(str2);          
+        System.out.println(str4);  
+        // Concatenating multiple strings  
+        String str5 = str1.concat(str2).concat(str3);  
+        System.out.println(str5);  
+    }  
+}  
+
+//HelloJavatpoint
+//HelloJavatpointReader
+
+
+
+
+```
+# 11. String contains()
+
+```.java
+package javastrings.Class.Stirng;
+
+public class StringContains {
+
+	public static void main(String[] args) {
+		String nameString = "What do you know about me";
+		System.out.println(nameString.contains("do you")); // true
+		System.out.println(nameString.contains("about")); // true
+		System.out.println(nameString.contains("About")); // false // case sensitive
+		
+		if(nameString.contains("me")) {
+			System.out.println("You know me.");
+		}
+		else {
+			System.out.println("You don'tnow me..");
+		}
+	
+	
+	}
+
+}
+
+```
+12. String equals()
+```.java
+
+package javastrings.Class.Stirng;
+
+public class StringEqualsTo {
+
+	public static void main(String[] args) {
+		String s1 = "Javapoint";
+		String s2 = "Javapoint";
+		String s3 = "JavaPoint";
+		System.out.println(s1.equals(s2)); // true
+		System.out.println(s1.equals(s3)); // false
+		if(s1.equals(s2)) {
+			System.out.println("Both are equal"); // both are equal
+		}
+		else {
+			System.out.println("Not equal");
+		}
+
+	}
+
+}
+
+
+```
+# 13. String equalsIgnoreCase()
+
+```.java
+/*
+The String equalsIgnoreCase() method compares the two given strings on 
+the basis of content of the string irrespective of case of the string.
+
+It is like equals() method but doesn't check case. 
+
+If any character is not matched, it returns false otherwise it returns true.
+
+*/
+
+package javastrings.Class.Stirng;
+
+import java.util.ArrayList;
+
+public class _13_StringEqualsIgnoreCase {
+
+	public static void main(String[] args) {
+		String s1 = "Javapoint";
+		String s2 = "JAVAPOINT";
+		String s3 = "JavaTPoint";
+		String s4 = "JavaTPOINT";
+	
+		System.out.println(s1.equalsIgnoreCase(s2));
+		System.out.println(s1.equalsIgnoreCase(s3));
+		System.out.println(s1.equalsIgnoreCase(s4));
+		
+		
+		 // if we ignore the cases both the strings are equal. 
+		// it will ignore case sensivity
+	    boolean result1 = s2.equalsIgnoreCase(s1); 
+	    System.out.println("str2 is equal to str1 = " + result1); 
+	  
+	    // even if ignoring the cases both the strings are not equal. 
+	    boolean result2 = s2.equalsIgnoreCase(s3); 
+	    System.out.println("str2 is equal to str3 = " + result2); 
+		
+		
+		
+		equalsIgnoreCaseMethodUsingList();
+		
+	}
+
+	private static void equalsIgnoreCaseMethodUsingList() {
+		
+		String str1 = "Mohammad";
+		
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("Rahman");
+		list.add("Rahim");
+		list.add("Sattar");
+		list.add("Jabbar");
+		list.add("Mohammad");
+		
+		
+		for (String str : list) {
+			if(str.equalsIgnoreCase(str1)) {
+				System.out.println("Mohammad(sm) is our messanger");
+			}
+			
+		}
+		
+		
+	}
+
+}
+
+
+/*
+true
+false
+false
+Mohammad(sm) is our messanger
+*/
+
+```
+# 14. String format()
+
+```.java
+
+
+
+
+
+
+
+```
 15. String getBytes()</br>
 16. String getChars()</br>
 17. String indexOf()</br>

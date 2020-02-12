@@ -686,11 +686,196 @@ public class _10_StringConcat {
 
 
 ```
-11. String contains()</br>
-12. String equals()</br>
-13. String equalsIgnoreCase()</br>
-14. String format()</br>
-15. String getBytes()</br>
+# 11. String contains()
+
+```.java
+package javastrings.Class.Stirng;
+
+public class StringContains {
+
+	public static void main(String[] args) {
+		String nameString = "What do you know about me";
+		System.out.println(nameString.contains("do you")); // true
+		System.out.println(nameString.contains("about")); // true
+		System.out.println(nameString.contains("About")); // false // case sensitive
+		
+		if(nameString.contains("me")) {
+			System.out.println("You know me.");
+		}
+		else {
+			System.out.println("You don'tnow me..");
+		}
+	
+	
+	}
+
+}
+
+```
+12. String equals()
+```.java
+
+package javastrings.Class.Stirng;
+
+public class StringEqualsTo {
+
+	public static void main(String[] args) {
+		String s1 = "Javapoint";
+		String s2 = "Javapoint";
+		String s3 = "JavaPoint";
+		System.out.println(s1.equals(s2)); // true
+		System.out.println(s1.equals(s3)); // false
+		if(s1.equals(s2)) {
+			System.out.println("Both are equal"); // both are equal
+		}
+		else {
+			System.out.println("Not equal");
+		}
+
+	}
+
+}
+
+
+```
+# 13. String equalsIgnoreCase()
+
+```.java
+/*
+The String equalsIgnoreCase() method compares the two given strings on 
+the basis of content of the string irrespective of case of the string.
+
+It is like equals() method but doesn't check case. 
+
+If any character is not matched, it returns false otherwise it returns true.
+
+*/
+
+package javastrings.Class.Stirng;
+
+import java.util.ArrayList;
+
+public class _13_StringEqualsIgnoreCase {
+
+	public static void main(String[] args) {
+		String s1 = "Javapoint";
+		String s2 = "JAVAPOINT";
+		String s3 = "JavaTPoint";
+		String s4 = "JavaTPOINT";
+	
+		System.out.println(s1.equalsIgnoreCase(s2));
+		System.out.println(s1.equalsIgnoreCase(s3));
+		System.out.println(s1.equalsIgnoreCase(s4));
+		
+		
+		 // if we ignore the cases both the strings are equal. 
+		// it will ignore case sensivity
+	    boolean result1 = s2.equalsIgnoreCase(s1); 
+	    System.out.println("str2 is equal to str1 = " + result1); 
+	  
+	    // even if ignoring the cases both the strings are not equal. 
+	    boolean result2 = s2.equalsIgnoreCase(s3); 
+	    System.out.println("str2 is equal to str3 = " + result2); 
+		
+		
+		
+		equalsIgnoreCaseMethodUsingList();
+		
+	}
+
+	private static void equalsIgnoreCaseMethodUsingList() {
+		
+		String str1 = "Mohammad";
+		
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("Rahman");
+		list.add("Rahim");
+		list.add("Sattar");
+		list.add("Jabbar");
+		list.add("Mohammad");
+		
+		
+		for (String str : list) {
+			if(str.equalsIgnoreCase(str1)) {
+				System.out.println("Mohammad(sm) is our messanger");
+			}
+			
+		}
+		
+		
+	}
+
+}
+
+
+/*
+true
+false
+false
+Mohammad(sm) is our messanger
+*/
+
+```
+# 14. String format()
+
+```.java
+/*
+
+Returns a formatted string using the given locale,specified format string and arguments.
+	1. We can concatenate the strings using this method and at the same time,
+	2. we can format the output concatenated string.
+*/
+
+package javastrings.Class.Stirng;
+
+public class _14_StringFormat {  
+    public static void main(String[] args) {  
+    	 
+    	String str = "GeeksforGeeks."; 
+    	  
+         // Concatenation of two strings 
+         String gfg1 = String.format("My Company name is %s", str); 
+   
+         // Output is given upto 8 decimal places 
+         String str2 = String.format("My answer is %.8f", 47.65734); 
+   
+         // between "My answer is" and "47.65734000" there are 15 spaces 
+         String str3 = String.format("My answer is %15.8f",47.65734); 
+   
+         System.out.println(gfg1); 
+         System.out.println(str2); 
+         System.out.println(str3); 
+         
+         String str1 = "GFG"; 
+         String sr2 = "GeeksforGeeks"; 
+   
+         //%1$ represents first argument, %2$ second argument 
+         String gfg2 = String.format("My Company name is: %1$s, %1$s and %2$s", str1, sr2); 
+   
+         System.out.println(gfg2); 
+    }  
+  
+}  
+/*
+
+My Company name is GeeksforGeeks.
+My answer is 47.65734000
+My answer is     47.65734000
+My Company name is: GFG, GFG and GeeksforGeeks
+0007044
+
+*/
+
+```
+# 15. String getBytes()
+
+```.java
+
+
+
+
+
+```
 16. String getChars()</br>
 17. String indexOf()</br>
 18. String isEmpty()</br>
