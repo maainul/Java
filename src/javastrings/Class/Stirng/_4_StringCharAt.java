@@ -1,5 +1,5 @@
 package javastrings.Class.Stirng;
-
+// The java string charAt() method returns a char value at the given index number.
 public class _4_StringCharAt {
 
 	public static void main(String[] args) {
