@@ -16,7 +16,7 @@ class StringChecker{
 	}
 }
 
-public class FAQReverseEachWordInString {
+public class _7_FAQReverseEachWordInString {
 	public static void main(String args[]) {
 		System.out.println(StringChecker.reverseStringmethod("this is javatpoint"));
 	}

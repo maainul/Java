@@ -12,7 +12,7 @@ class Stringtoggler{
 		return SumofString.trim();	
 	}
 }
-public class FAQtOGGLEeachWordInString {
+public class _8_FAQtOGGLEeachWordInString {
 
 	public static void main(String[] args) {
 		System.out.println(Stringtoggler.toggelerMethod("this is Bangladesh"));

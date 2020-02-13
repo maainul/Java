@@ -16,7 +16,7 @@ class Stringtogglerr{
 		
 	}
 }
-public class FAQReversetOGGLEeachWordInString {
+public class _9_FAQReversetOGGLEeachWordInString {
 
 	public static void main(String[] args) {
 		System.out.println("this is Bangladesh");

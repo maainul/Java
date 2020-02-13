@@ -36,7 +36,7 @@ class StringProcess{
 	}
 }
 
-public class FAQfindThePercentageOfUppercaseLowercaseDigitsAndSpecialCharactersInaString {
+public class _18_FAQfindThePercentageOfUppercaseLowercaseDigitsAndSpecialCharactersInaString {
 
 	public static void main(String[] args) {
 		StringProcess.getstring("He said,''Bangladesh is my country''.");

@@ -13,7 +13,7 @@ class StringFormatter{
 	}
 }
 
-public class FAQcapitalizeEachWordInString {
+public class _6_FAQcapitalizeEachWordInString {
 	public static void main(String args[]) {
 		System.out.println(StringFormatter.capitalizeWord("I am Bangladeshi"));
 	}

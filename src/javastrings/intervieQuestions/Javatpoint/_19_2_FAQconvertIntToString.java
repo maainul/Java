@@ -1,6 +1,6 @@
 package javastrings.intervieQuestions.Javatpoint;
 
-public class FAQconvertIntToString {
+public class _19_2_FAQconvertIntToString {
 
 	public static void main(String[] args) {
 		int i = 200;

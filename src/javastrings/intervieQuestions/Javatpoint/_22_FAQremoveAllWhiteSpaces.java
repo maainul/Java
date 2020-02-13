@@ -1,6 +1,6 @@
 package javastrings.intervieQuestions.Javatpoint;
 
-public class FAQremoveAllWhiteSpaces {
+public class _22_FAQremoveAllWhiteSpaces {
 
 	public static void main(String[] args) {
 		// By replaceall method

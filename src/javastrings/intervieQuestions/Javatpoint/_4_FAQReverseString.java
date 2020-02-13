@@ -1,6 +1,6 @@
 package javastrings.intervieQuestions.Javatpoint;
 
-public class FAQReverseString {
+public class _4_FAQReverseString {
 
 	public static void main(String[] args) {
 		//By StringBuffer
