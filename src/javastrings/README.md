@@ -837,7 +837,7 @@ public class StringContains {
 
 }
 ```
-12. String equals()
+# 12. String equals()
 ```.java
 package javastrings.Class.Stirng;
 
