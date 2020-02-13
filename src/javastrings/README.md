@@ -1474,7 +1474,7 @@ class _7_StringBufferEnsureCapacity{
 	}  
 }
 ```
-# Java StringBuilder class
+# Chapter 8 : Java StringBuilder class
 ```
 Java StringBuilder class is used to create mutable (modifiable) string. 
 The Java StringBuilder class is same as StringBuffer class except that it is non-synchronized.
