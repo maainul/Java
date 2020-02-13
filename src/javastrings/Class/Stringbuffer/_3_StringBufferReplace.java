@@ -1,6 +1,6 @@
 package javastrings.Class.Stringbuffer;
 
-public class StringBufferReplace {
+public class _3_StringBufferReplace {
 
 	public static void main(String[] args) {
 		StringBuffer stringBuffer = new StringBuffer("Hello");

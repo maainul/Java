@@ -1,6 +1,6 @@
 package javastrings.Class.Stringbuffer;
 
-public class StringBufferDelete {
+public class _4_StringBufferDelete {
 
 	public static void main(String[] args) {
 		StringBuffer stringBuffer = new StringBuffer("Hello");

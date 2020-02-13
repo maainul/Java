@@ -1,14 +1,15 @@
 package javastrings.Class.Stringbuffer;
 
-public class StringBufferInsertMethod {
+public class _1_StringBufferAppend {
 
 	public static void main(String[] args) {
 		StringBuffer stringBuffer = new StringBuffer("Hello");
-		stringBuffer.insert(1, "Java");
+		stringBuffer.append(" Java");
 		//The append() method concatenates the given argument with this string.
 		System.out.println(stringBuffer);
+
 	}
+
 }
 
-// Output : HJavaello
-
+// Output : Hello Java
