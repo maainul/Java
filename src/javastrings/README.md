@@ -1209,7 +1209,8 @@ public class StringReplaceAll {
 
 ```.java
 package javastrings.Class.Stirng;
-//The given example returns total number of words in a string excluding space only. It also includes special characters.
+// The given example returns total number of words in a string excluding space only. 
+// It also includes special characters.
 
 public class _22_StringSplit {
 	public static void main(String args[]) {
