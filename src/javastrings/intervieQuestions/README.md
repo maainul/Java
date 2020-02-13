@@ -3,83 +3,61 @@
 
 # Java String FAQs or Interview Questions
 
-1) How many objects will be created in the following code?
-String s1="javatpoint";
-String s2="javatpoint";
-Answer: Only one.
+1) How many objects will be created in the following code?</br>
+String s1="javatpoint";</br>
+String s2="javatpoint";</br>
+Answer: Only one.</br>
 
-2) What is the difference between equals() method and == operator?
-The equals() method matches content of the strings whereas == operator matches object or reference of the strings.
+2) What is the difference between equals() method and == operator?</br>
+The equals() method matches content of the strings whereas == operator matches object or reference of the strings.</br>
 
-3) Is String class final?
-Answer: Yes.
+3) Is String class final?</br>
+Answer: Yes.</br>
 
-4) How to reverse String in java?
-Input:
+4) How to reverse String in java?</br>
+Input:  this is javatpoint</br>
+Output: tnioptavaj si siht</br>
 
-this is javatpoint
-Output:
+5) How to check Palindrome String in java?</br>
+Input:  nitin</br>
+Output: true</br>
+Input: jatin</br>
+Output: false</br>
 
-tnioptavaj si siht
-5) How to check Palindrome String in java?
-Input:
+6) Write a java program to capitalize each word in string?</br>
+Input: this is javatpoint</br>
+Output: This Is Javatpoint</br>
 
-nitin
-Output:
+7) Write a java program to reverse each word in string?</br>
+Input: this is javatpoint</br>
+Output: siht si tnioptavaj</br>
 
-true
-Input:
+8) Write a java program to tOGGLE each word in string?</br>
+Input: this is javatpoint</br>
+Output:tHIS iS jAVATPOINT</br>
 
-jatin
-Output:
+9) Write a java program reverse tOGGLE each word in string?</br>
+Input: this is javatpoint</br>
+Output: sIHT sI tNIOPTAVAJ</br>
 
-false
-6) Write a java program to capitalize each word in string?
-Input:
-
-this is javatpoint
-Output:
-
-This Is Javatpoint
-7) Write a java program to reverse each word in string?
-Input:
-
-this is javatpoint
-Output:
-
-siht si tnioptavaj
-8) Write a java program to tOGGLE each word in string?
-Input:
-
-this is javatpoint
-Output:
-
-tHIS iS jAVATPOINT
-9) Write a java program reverse tOGGLE each word in string?
-Input:
-
-this is javatpoint
-Output:
-sIHT sI tNIOPTAVAJ
-
-10) What is the difference between String and StringBuffer in java?
-11) What is the difference between StringBuffer and StringBuilder in java?
-12) What does intern() method in java?
-13) How to convert String to int in java?
-14) How to convert int to String in java?
-15) How to convert String to Date in java?
-16) How to Optimize Java String Creation?
-17) Java Program to check whether two Strings are anagram or not
-18) Java program to find the percentage of uppercase, lowercase, digits and special characters in a String
-19) How to convert String to Integer and Integer to String in Java
-20) Java Program to find duplicate characters in a String
-21) Java Program to prove that strings are immutable in java
-22) Java Program to remove all white spaces from a String
-23) Java Program to check whether one String is a rotation of another
-24) Java Program to count the number of words in a String
-25) Java Program to reverse a given String with preserving the position of space
-26) How to swap two String variables without third variable
-27) How to remove a particular character from a String
+10) What is the difference between String and StringBuffer in java?.</br>
+11) What is the difference between StringBuffer and StringBuilder in java?.</br>
+12) What does intern() method in java?.</br>
+13) How to convert String to int in java?.</br>
+14) How to convert int to String in java?.</br>
+15) How to convert String to Date in java?.</br>
+16) How to Optimize Java String Creation?.</br>
+17) Java Program to check whether two Strings are anagram or not.</br>
+18) Java program to find the percentage of uppercase, lowercase, digits and special characters in a String.</br>
+19) How to convert String to Integer and Integer to String in Java.</br>
+20) Java Program to find duplicate characters in a String.</br>
+21) Java Program to prove that strings are immutable in java.</br>
+22) Java Program to remove all white spaces from a String.</br>
+23) Java Program to check whether one String is a rotation of another.</br>
+24) Java Program to count the number of words in a String.</br>
+25) Java Program to reverse a given String with preserving the position of space.</br>
+26) How to swap two String variables without third variable.</br>
+27) How to remove a particular character from a String.</br>
 
 ## Topic String:(https://www.geeksforgeeks.org/string-data-structure/#sorting%20&%20searching)
 
