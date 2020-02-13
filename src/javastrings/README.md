@@ -1,4 +1,4 @@
-# Chapter 1.Java String
+# Chapter 1: Java String
 ```
 In Java, string is basically an object that represents sequence of char values. 
 
@@ -1623,6 +1623,8 @@ Hello Java is my favourite language.
 There are many differences between String and StringBuffer. 
 A list of differences between String and StringBuffer are given below:
 ```
+![strigbufferVSstring](https://user-images.githubusercontent.com/37740006/74448371-09404a00-4ea5-11ea-99da-c3f07e2f4d12.png)
+
 ```.java
 package javastrings;
 
@@ -1677,6 +1679,8 @@ Java provides three classes to represent a sequence of characters: String, Strin
 There are many differences between StringBuffer and StringBuilder. 
 The StringBuilder class is introduced since JDK 1.5.
 ```
+![stringbufferandstringbuilder](https://user-images.githubusercontent.com/37740006/74448534-5a503e00-4ea5-11ea-8725-84cb0e004e5e.png)
+
 ```.java
 package javastrings;
 
@@ -1700,5 +1704,4 @@ public class StringBufferAndStringBuilder{ //StringBufferandStringBuilder
 
 //Time taken by StringBuffer: 4ms
 //Time taken by StringBuilder: 2ms
-
 ```
