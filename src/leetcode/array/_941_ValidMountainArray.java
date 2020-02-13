@@ -1,4 +1,6 @@
 /*********************************************************************************
+https://leetcode.com/problems/valid-mountain-array/
+
 941. Valid Mountain Array (Easy)
 
 Given an array A of integers, return true if and only if it is a valid mountain array.
@@ -32,6 +34,9 @@ There exists some i with 0 < i < A.length - 1 such that:
 	
 	0 <= A.length <= 10000
 	0 <= A[i] <= 10000 
+	
+	
+	https://massivealgorithms.blogspot.com/2018/11/leetcode-941-valid-mountain-array.html
 ***********************************************************************************/
 package leetcode.array;
 
@@ -41,7 +46,7 @@ public class _941_ValidMountainArray {
 	
 	System.out.println("941. Valid Mountain Array (Easy)");
 	
-	int[] nums = {3,5,5};
+	int[] nums = {2,1};
 	
 	System.out.println("\nInput :");
 	for (int i = 0; i < nums.length; i++) {
@@ -51,11 +56,25 @@ public class _941_ValidMountainArray {
 	System.out.println("\n\nOutput :");
 	
 	System.out.println(validMountainArray(nums));	 
+	System.out.println(validMountainArray2(nums));	 
 
 	}
 
-	private static boolean validMountainArray(int[] nums) {
-		// TODO Auto-generated method stub
-		return false;
+	private static boolean validMountainArray(int[] A) {
+		        int n = A.length, i = 0, j = n - 1;
+		        while (i < n && A[i] < A[i + 1]) i++;
+		        while (j > 0 && A[j - 1] > A[j]) j--;
+		        return i > 0 && i == j && j < n - 1;	    	
 	}
+	public static boolean validMountainArray2(int[] A) {
+		  int N = A.length;
+		    int i = 0;
+		    // walk up
+		    while (i + 1 < N && A[i] < A[i + 1]) i++;
+		    // peak can't be first or last
+		    if (i == 0 || i == N - 1) return false;
+		    // walk down
+		    while (i + 1 < N && A[i] > A[i++ + 1]) return false;
+		    return i == N - 1;
+    }
 }

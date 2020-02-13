@@ -220,7 +220,8 @@ Output:true
 ```
 # 3) String compare by compareTo() method
 ```
-The String compareTo() method compares values lexicographically and returns an integer value that describes if first string is less than, equal to or greater than second string.
+The String compareTo() method compares values lexicographically and returns an 
+integer value that describes if first string is less than, equal to or greater than second string.
 
 Suppose s1 and s2 are two string variables. If:
 
@@ -486,7 +487,7 @@ false
 You don't know me
 */
 ```
-#4. String charAt()
+# 4. String charAt()
 ```
 The string charAt() method returns a character at specified index.
 ```
@@ -576,11 +577,11 @@ public class _5_StringLength {
  * String is not empty... 
  * string is empty...
  */
-
 ```
 # 6. String valueOf()
 ```.java
-//The string valueOf() method coverts given type such as int, long, float, double, boolean, char and char array into string.
+// The string valueOf() method coverts given type such as 
+// int, long, float, double, boolean, char and char array into string.
 
 package javastrings.Class.Stirng;
 // The string valueOf() method coverts given type such as int, 
@@ -606,17 +607,150 @@ public class _6_StringValueOf {
 A
 B
 */
-
 ```
 # 7. String intern()
-```.java
-
-
-
-
+```
+String Interning is a method of storing only one copy of each distinct String Value, 
+which must be immutable.
+By applying String.intern() on a couple of strings will ensure that 
+all strings having the same contents share the same memory. 
+For example, if a name ‘Amy’ appears 100 times, 
+by interning you ensure only one ‘Amy’ is actually allocated memory.
+```
+![intern](https://user-images.githubusercontent.com/37740006/74351866-e9941d80-4de1-11ea-9e03-b5ffae12a001.png)
 
 ```
+This can be very useful to reduce the memory requirements of your program. 
+But be aware that the cache is maintained by JVM in permanent memory pool 
+which is usually limited in size compared to heap so you should not use 
+intern if you don’t have too many duplicate values
+```
+```
+intern() method : In Java, when we perform any operation using intern() method, 
+it returns a canonical representation for the string object. 
+A pool is managed by String class.
+
+1. When the intern() method is executed then it checks whether 
+	the String equals to this String Object is in the pool or not.
+   
+2. If it is available, then the string from the pool is returned. 
+   Otherwise, 
+   this String object is added to the pool and a reference to this String object is returned.
+
+3. It follows that for any two strings s and t, s.intern() == t.intern() is true 
+	if and only if s.equals(t) is true.
+```
+```
+	*** It is advised to use equals(), not ==, to compare two strings. 
+	    This is because == operator compares memory locations, 
+	    while equals() method compares the content stored in two objects.
+```
+
+```.java
+// Java program to illustrate  
+// intern() method  
+class GFG {  
+    public static void main(String[] args)  
+    {  
+        // S1 refers to Object in the Heap Area  
+        String s1 = new String("GFG"); // Line-1  
+  
+        // S2 refers to Object in SCP Area 
+        String s2 = s1.intern(); // Line-2  
+          
+        // Comparing memory locations 
+        // s1 is in Heap 
+        // s2 is in SCP 
+        System.out.println(s1 == s2); 
+          
+        // Comparing only values 
+        System.out.println(s1.equals(s2)); 
+          
+        // S3 refers to Object in the SCP Area  
+        String s3 = "GFG"; // Line-3  
+  
+        System.out.println(s2 == s3);  
+    }  
+}  
+
+Output:
+
+false
+true
+true
+```
+
+
+## Explanation :
+``` 
+Whenever we create a String Object, 
+two objects will be created i.e. 
+One in the Heap Area and One in the String constant pool 
+and the String object reference always points to heap area object. 
+
+When line-1 execute, 
+it will create two objects and pointing to the heap area created object. 
+
+Now when line-2 executes, 
+it will refer to the object which is in the SCP. 
+
+Again when line-3 executes, 
+it refers to the same object which is in the SCP area because,
+the content is already available in the SCP area. 
+No need to create a new one object.
+```
+![intern2](https://user-images.githubusercontent.com/37740006/74352397-a1c1c600-4de2-11ea-8c89-772d72307311.png)
+
+```
+If the corresponding String constant pool(SCP) object is not available
+then intern() method itself will create the corresponding SCP object.
+```
+
+```.java
+// Java program to illustrate  
+// intern() method  
+class GFG {  
+    public static void main(String[] args)  
+    {  
+        // S1 refers to Object in the Heap Area  
+        String s1 = new String("GFG"); // Line-1  
+  
+        // S2 now refers to Object in SCP Area  
+        String s2 = s1.concat("GFG"); // Line-2  
+  
+        // S3 refers to Object in SCP Area 
+        String s3 = s2.intern(); // Line-3  
+  
+        System.out.println(s2 == s3);  
+  
+        // S4 refers to Object in the SCP Area  
+        String s4 = "GFGGFG"; // Line-4  
+  
+        System.out.println(s3 == s4);  
+    }  
+}  
+Output:
+
+true
+true
+```
+
+
+## Explanation : 
+```
+We use intern() method to get the reference of corresponding SCP Object. 
+
+In this case, when Line-2 executes
+s2 will have the value “GFGGFG” in it only creates one object. 
+
+In Line-3, 
+we try to intern s3 which is again with s2 in SCP area. 
+s4 is also in SCP so all give output as true when compared.
+```
+![intern3](https://user-images.githubusercontent.com/37740006/74352605-f402e700-4de2-11ea-8f11-e143c15bfff1.png)
+
 # 8. String replace()
+
 ```.java
 package javastrings.Class.Stirng;
 
@@ -638,10 +772,6 @@ public class _8_StringReplace {
  *  Java is a programming language.Java is a iceland
  *  JAvA is A progrAmming lAnguAge.JAvA is A icelAnd
  */
-
-
-
-
 ```
 # 9. String compareTo()
 ```
@@ -681,10 +811,6 @@ public class _10_StringConcat {
 
 //HelloJavatpoint
 //HelloJavatpointReader
-
-
-
-
 ```
 # 11. String contains()
 
@@ -710,11 +836,9 @@ public class StringContains {
 	}
 
 }
-
 ```
-12. String equals()
+# 12. String equals()
 ```.java
-
 package javastrings.Class.Stirng;
 
 public class StringEqualsTo {
@@ -735,8 +859,6 @@ public class StringEqualsTo {
 	}
 
 }
-
-
 ```
 # 13. String equalsIgnoreCase()
 
@@ -814,13 +936,11 @@ false
 false
 Mohammad(sm) is our messanger
 */
-
 ```
 # 14. String format()
 
 ```.java
 /*
-
 Returns a formatted string using the given locale,specified format string and arguments.
 	1. We can concatenate the strings using this method and at the same time,
 	2. we can format the output concatenated string.
@@ -865,7 +985,6 @@ My Company name is: GFG, GFG and GeeksforGeeks
 0007044
 
 */
-
 ```
 # 15. String getBytes()
 
@@ -903,7 +1022,6 @@ public class _15_StringGetBytes {
  * 71 
  * ABCDEFG
  */
-
 ```
 # 16. String getChars()
 
@@ -934,9 +1052,6 @@ public class _16_StringGetChars {
 
 }
 // javaworld
-
-
-
 ```
 # 17. String indexOf()
 
@@ -964,9 +1079,6 @@ public class _17_StringIndexOf {
 	}
 
 }
-
-
-
 ```
 # 18. String isEmpty()
 
@@ -1013,13 +1125,10 @@ public class _18_StringIsEmpty {
  * String s1 is empty... 
  * Javaworld
  */
-
 ```
 # 19. String join()
 
 ```.java
-
-
 package javastrings.Class.Stirng;
 
 public class _19_StringJoin {
@@ -1058,14 +1167,11 @@ Wake up-> Eat-> Play-> Sleep-> Wake up
 My  name  is  Niraj  Pandey
 Four < Five < Six < Seven
 */
-
 ```
 
 # 20. String lastIndexOf()
 
 ```.java
-
-
 package javastrings.Class.Stirng;
 // The java string lastIndexOf() method returns last index of the given character value or substring. 
 // If it is not found, it returns -1. The index counter starts from zero.
@@ -1076,12 +1182,10 @@ public class _20_StringLastIndexOf {
 		System.out.println(s4.lastIndexOf('s', 5)); // 3
 	}
 }
-
 ```
 # 21. String replaceAll()
 
 ```.java
-
 package javastrings.Class.Stirng;
 
 // The java string replaceAll() method returns a string replacing all 
@@ -1100,14 +1204,13 @@ public class StringReplaceAll {
 }
 // jevetpoint is e very good website
 // javatpoint was a very good website
-
 ```
 # 22. String split()
 
 ```.java
-
 package javastrings.Class.Stirng;
-//The given example returns total number of words in a string excluding space only. It also includes special characters.
+// The given example returns total number of words in a string excluding space only. 
+// It also includes special characters.
 
 public class _22_StringSplit {
 	public static void main(String args[]) {
@@ -1164,7 +1267,6 @@ Java
 poin
 Split array length: 2
 */
-
 ```
 
 # 23. String substring()
@@ -1193,13 +1295,10 @@ public class _23_StringSubdtring {
 	}
 // va
 // vatpoint
-
 ```
 # 24. String toCharArray()
 
 ```.java
-
-
 package javastrings.Class.Stirng;
 
 // The java string toCharArray() method converts this string into character array. 
@@ -1262,6 +1361,4 @@ r
 l
 d
 */
-
-
 ```
