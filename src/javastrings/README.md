@@ -220,7 +220,8 @@ Output:true
 ```
 # 3) String compare by compareTo() method
 ```
-The String compareTo() method compares values lexicographically and returns an integer value that describes if first string is less than, equal to or greater than second string.
+The String compareTo() method compares values lexicographically and returns an 
+integer value that describes if first string is less than, equal to or greater than second string.
 
 Suppose s1 and s2 are two string variables. If:
 
@@ -576,11 +577,11 @@ public class _5_StringLength {
  * String is not empty... 
  * string is empty...
  */
-
 ```
 # 6. String valueOf()
 ```.java
-//The string valueOf() method coverts given type such as int, long, float, double, boolean, char and char array into string.
+// The string valueOf() method coverts given type such as 
+// int, long, float, double, boolean, char and char array into string.
 
 package javastrings.Class.Stirng;
 // The string valueOf() method coverts given type such as int, 
@@ -606,7 +607,6 @@ public class _6_StringValueOf {
 A
 B
 */
-
 ```
 # 7. String intern()
 ```
@@ -772,7 +772,6 @@ public class _8_StringReplace {
  *  Java is a programming language.Java is a iceland
  *  JAvA is A progrAmming lAnguAge.JAvA is A icelAnd
  */
-
 ```
 # 9. String compareTo()
 ```
@@ -812,10 +811,6 @@ public class _10_StringConcat {
 
 //HelloJavatpoint
 //HelloJavatpointReader
-
-
-
-
 ```
 # 11. String contains()
 
@@ -841,11 +836,9 @@ public class StringContains {
 	}
 
 }
-
 ```
 12. String equals()
 ```.java
-
 package javastrings.Class.Stirng;
 
 public class StringEqualsTo {
@@ -866,8 +859,6 @@ public class StringEqualsTo {
 	}
 
 }
-
-
 ```
 # 13. String equalsIgnoreCase()
 
@@ -945,13 +936,11 @@ false
 false
 Mohammad(sm) is our messanger
 */
-
 ```
 # 14. String format()
 
 ```.java
 /*
-
 Returns a formatted string using the given locale,specified format string and arguments.
 	1. We can concatenate the strings using this method and at the same time,
 	2. we can format the output concatenated string.
@@ -996,7 +985,6 @@ My Company name is: GFG, GFG and GeeksforGeeks
 0007044
 
 */
-
 ```
 # 15. String getBytes()
 
@@ -1034,7 +1022,6 @@ public class _15_StringGetBytes {
  * 71 
  * ABCDEFG
  */
-
 ```
 # 16. String getChars()
 
@@ -1065,9 +1052,6 @@ public class _16_StringGetChars {
 
 }
 // javaworld
-
-
-
 ```
 # 17. String indexOf()
 
@@ -1095,9 +1079,6 @@ public class _17_StringIndexOf {
 	}
 
 }
-
-
-
 ```
 # 18. String isEmpty()
 
@@ -1144,13 +1125,10 @@ public class _18_StringIsEmpty {
  * String s1 is empty... 
  * Javaworld
  */
-
 ```
 # 19. String join()
 
 ```.java
-
-
 package javastrings.Class.Stirng;
 
 public class _19_StringJoin {
@@ -1189,14 +1167,11 @@ Wake up-> Eat-> Play-> Sleep-> Wake up
 My  name  is  Niraj  Pandey
 Four < Five < Six < Seven
 */
-
 ```
 
 # 20. String lastIndexOf()
 
 ```.java
-
-
 package javastrings.Class.Stirng;
 // The java string lastIndexOf() method returns last index of the given character value or substring. 
 // If it is not found, it returns -1. The index counter starts from zero.
@@ -1207,12 +1182,10 @@ public class _20_StringLastIndexOf {
 		System.out.println(s4.lastIndexOf('s', 5)); // 3
 	}
 }
-
 ```
 # 21. String replaceAll()
 
 ```.java
-
 package javastrings.Class.Stirng;
 
 // The java string replaceAll() method returns a string replacing all 
@@ -1231,12 +1204,10 @@ public class StringReplaceAll {
 }
 // jevetpoint is e very good website
 // javatpoint was a very good website
-
 ```
 # 22. String split()
 
 ```.java
-
 package javastrings.Class.Stirng;
 //The given example returns total number of words in a string excluding space only. It also includes special characters.
 
@@ -1295,7 +1266,6 @@ Java
 poin
 Split array length: 2
 */
-
 ```
 
 # 23. String substring()
@@ -1324,13 +1294,10 @@ public class _23_StringSubdtring {
 	}
 // va
 // vatpoint
-
 ```
 # 24. String toCharArray()
 
 ```.java
-
-
 package javastrings.Class.Stirng;
 
 // The java string toCharArray() method converts this string into character array. 
@@ -1393,6 +1360,4 @@ r
 l
 d
 */
-
-
 ```
