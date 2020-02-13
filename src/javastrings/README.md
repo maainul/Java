@@ -1431,7 +1431,7 @@ class StringBufferExample5{
 	}  
 } 
 ```
-# 6) StringBuffer capacity() method
+# 7.6. StringBuffer capacity() method
 ```
 The capacity() method of StringBuffer class returns the current capacity of the buffer. 
 The default capacity of the buffer is 16. If the number of character increases from its current capacity, 
@@ -1452,10 +1452,14 @@ class StringBufferExample6{
 ``` 
 # 7.7. StringBuffer ensureCapacity() method
 ```
-The ensureCapacity() method of StringBuffer class ensures that the given capacity is the minimum to the current capacity. If it is greater than the current capacity, it increases the capacity by (oldcapacity*2)+2. For example if your current capacity is 16, it will be (16*2)+2=34.
+The ensureCapacity() method of StringBuffer class ensures that 
+the given capacity is the minimum to the current capacity. 
+If it is greater than the current capacity, 
+it increases the capacity by (oldcapacity*2)+2. 
+For example if your current capacity is 16, it will be (16*2)+2=34.
 ```
 ```.java
-class StringBufferExample7{  
+class _7_StringBufferEnsureCapacity{  
 	public static void main(String args[]){  
 		StringBuffer sb=new StringBuffer();  
 		System.out.println(sb.capacity());//default 16  
@@ -1469,3 +1473,4 @@ class StringBufferExample7{
 		System.out.println(sb.capacity());//now 70  
 	}  
 }
+```
