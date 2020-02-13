@@ -1,12 +1,12 @@
 package javastrings.Class.StringBuilder;
-
-public class StringBuilderInert
+//The reverse() method of StringBuilder class reverses the current string.
+public class _5_StringBuilderReverse
 {
 	public static void main(String[] args) {
 	
 	    StringBuilder sb = new StringBuilder("Hello");
-	    sb.insert(1,"Java");
+	    sb.reverse();
 		System.out.println(sb);
 	}
 }
-// Output : HJavaello
+// Output : olleH

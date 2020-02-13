@@ -1,6 +1,6 @@
 package javastrings.Class.StringBuilder;
 
-public class StringBuilderCapacity
+public class _6_StringBuilderCapacity
 {
 	public static void main(String[] args) {
 	

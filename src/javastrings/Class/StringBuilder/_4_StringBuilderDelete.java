@@ -1,12 +1,12 @@
 package javastrings.Class.StringBuilder;
 
-public class StringBuilderReverse
+public class _4_StringBuilderDelete
 {
 	public static void main(String[] args) {
 	
 	    StringBuilder sb = new StringBuilder("Hello");
-	    sb.reverse();
+	    sb.delete(1,3);
 		System.out.println(sb);
 	}
 }
-// Output : olleH
+// Output : Hlo
