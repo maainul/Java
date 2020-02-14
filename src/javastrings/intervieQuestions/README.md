@@ -64,7 +64,7 @@ Output: sIHT sI tNIOPTAVAJ</br>
 
 # Task 1 :Character Counting Based Problems :
 
-1. Count Uppercase, Lowercase, special character and numeric values</br>
+1. [Count Uppercase, Lowercase, special character and numeric values](https://github.com/maainul/Java/blob/master/WhatIsJava.md)</br>
 2. Find the smallest window in a string containing all characters of another string</br>
 3. Smallest window that contains all characters of string itself</br>
 4. Count number of substrings with exactly k distinct characters</br>
