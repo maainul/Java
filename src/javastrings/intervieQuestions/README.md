@@ -66,7 +66,8 @@ Output: sIHT sI tNIOPTAVAJ</br>
 
 1. [Count Uppercase, Lowercase, special character and numeric values](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_1_CountUppercaseLowercaseSpecialCharacterAndNumericValues.java)</br>
 2. [Number of substrings of a string](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_7_NumberOfSubstringsOfaString.java)</br>
-3. [Smallest window that contains all characters of string itself]</br>
+3. [Count words in a given string]</br>
+
 4. [Count number of substrings with exactly k distinct characters]</br>
 5. [Number of substrings with count of each character as k]</br>
 6. [String with k distinct characters and no same characters adjacent]</br>
@@ -74,7 +75,7 @@ Output: sIHT sI tNIOPTAVAJ</br>
 8. [Distinct strings with odd and even changes allowed]</br>
 9. [Find k’th character of decrypted string]</br>
 10. [Count characters at same position as in English alphabets]</br>
-11. 3. [Count words in a given string]</br>
+11. [Smallest window that contains all characters of string itself]</br>(3 geeksforgeeks)
 12. [Count words present in a string]</br>
 13. [Count of words whose i-th letter is either (i-1)-th, i-th, or (i+1)-th letter of given word]</br>
 14. [Program to find Smallest and Largest Word in a String]</br>
