@@ -66,8 +66,7 @@ Output: sIHT sI tNIOPTAVAJ</br>
 
 1. [Count Uppercase, Lowercase, special character and numeric values](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_1_CountUppercaseLowercaseSpecialCharacterAndNumericValues.java)</br>
 2. [Number of substrings of a string](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_7_NumberOfSubstringsOfaString.java)</br>
-3. [Count words in a given string]</br>
-
+3. [Count words in a given string](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_3_CountNumberOfWords.java)</br>
 4. [Count number of substrings with exactly k distinct characters]</br>
 5. [Number of substrings with count of each character as k]</br>
 6. [String with k distinct characters and no same characters adjacent]</br>
