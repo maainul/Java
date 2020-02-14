@@ -1,5 +1,5 @@
 package javastrings.intervieQuestions.geeksForgeeks;
-package javastrings.intervieQuestions.geeksForgeeks;
+// https://www.tutorialspoint.com/java-program-to-count-occurrences-of-a-word-in-string
 /*
  Count words present in a string
  Given an array of words and a string, we need to count all words that are present in given string.
@@ -37,7 +37,6 @@ public class _2_Extra_CountNumberOfSameWordInaString {
 				count++;
 			}
 		}
-		System.out.println("count:"+count);
 		
 		return count;
 	}
