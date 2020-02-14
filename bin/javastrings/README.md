@@ -1,4 +1,4 @@
-# Chapter 1.Java String
+# Chapter 1: Java String
 ```
 In Java, string is basically an object that represents sequence of char values. 
 
@@ -1618,6 +1618,58 @@ Hello Java is my favourite language.
 90
 */
 ```
+# Difference between String and StringBuffer
+```
+There are many differences between String and StringBuffer. 
+A list of differences between String and StringBuffer are given below:
+```
+![strigbufferVSstring](https://user-images.githubusercontent.com/37740006/74448371-09404a00-4ea5-11ea-99da-c3f07e2f4d12.png)
+
+```.java
+package javastrings;
+
+public class StringAndStringBufferPerformanceTesr
+{
+    
+    public static String concatWithString(){
+        String t = "Java";
+        for (int i=0;i<1000;i++){
+            t = t+ "TPoint";
+        }
+        return t;
+    }
+    
+    public static String concatWithStringBuffer(){
+        StringBuffer sb = new StringBuffer("Java");
+        for (int i=0;i<1000;i++){
+           sb.append("Tpoint");
+        }
+        return sb.toString();
+    }
+    
+    
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	
+		long startTime =System.currentTimeMillis();  
+		concatWithString();
+		System.out.println("Time taken by Concating with String: "+(System.currentTimeMillis()-startTime)+"ms");  
+	
+		startTime = System.currentTimeMillis();  
+        concatWithStringBuffer();  
+        System.out.println("Time taken by Concating with  StringBuffer: "+(System.currentTimeMillis()-startTime)+"ms"); 
+		
+	}
+}
+/*
+ * Hello World 
+ * Time taken by Concating with String: 8ms 
+ * Time taken by Concating with StringBuffer: 1ms
+ */
+```
+
+
+
 # Difference between StringBuffer and StringBuilder
 ```
 Java provides three classes to represent a sequence of characters: String, StringBuffer, and StringBuilder. 
@@ -1626,4 +1678,30 @@ Java provides three classes to represent a sequence of characters: String, Strin
 
 There are many differences between StringBuffer and StringBuilder. 
 The StringBuilder class is introduced since JDK 1.5.
+```
+![stringbufferandstringbuilder](https://user-images.githubusercontent.com/37740006/74448534-5a503e00-4ea5-11ea-8725-84cb0e004e5e.png)
+
+```.java
+package javastrings;
+
+//Java Program to demonstrate the performance of StringBuffer and StringBuilder classes.  
+public class StringBufferAndStringBuilder{ //StringBufferandStringBuilder 
+  public static void main(String[] args){  
+      long startTime = System.currentTimeMillis();  
+      StringBuffer sb = new StringBuffer("Java");  
+      for (int i=0; i<10000; i++){  
+          sb.append("Tpoint");  
+      }  
+      System.out.println("Time taken by StringBuffer: " + (System.currentTimeMillis() - startTime) + "ms");  
+      startTime = System.currentTimeMillis();  
+      StringBuilder sb2 = new StringBuilder("Java");  
+      for (int i=0; i<10000; i++){  
+          sb2.append("Tpoint");  
+      }  
+      System.out.println("Time taken by StringBuilder: " + (System.currentTimeMillis() - startTime) + "ms");  
+  }  
+}
+
+//Time taken by StringBuffer: 4ms
+//Time taken by StringBuilder: 2ms
 ```
