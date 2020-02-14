@@ -14,6 +14,13 @@ package javastrings.intervieQuestions.geeksForgeeks;
  *  If one is false or both are false, 
  *  the & operator returns false.
  *  
+ *  
+ *  Upper Case Character :5
+	Lower Case Character:32
+	Numerical Value:5
+	Special Character :11
+
+ *  
  */
 public class _1_CountUppercaseLowercaseSpecialCharacterAndNumericValues {
 
