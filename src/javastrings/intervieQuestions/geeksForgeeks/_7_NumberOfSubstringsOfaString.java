@@ -1,29 +1,17 @@
 /* 
- Number of substrings with count of each character as k
- Given a string and an integer k, 
- find number of substrings in which all the different characters occurs exactly k times.
-	
-	Examples:
-	
-	Input : s = "aabbcc"
-	        k = 2 
-	Output : 6
-	
-	The substrings are aa, bb, cc,
-	aabb, bbcc and aabbcc.
-	
-	Input : s = "aabccc"
-	        k = 2
-	Output : 3
-	
-	There are three substrings aa, 
-	cc and cc
+ Input : str = “abc”
+Output : 6
+Proper substrings are “a”, “b”, “c”, “ab”, “bc”, “abc”
+
+Input : str = “abcd”
+Output : 10
+Proper substrings are “a”, “b”, “c”, “d”, “ab”, “bc”, “cd”, “abc”, “bcd” and “abcd”
 */
 
 
 package javastrings.intervieQuestions.geeksForgeeks;
 
-public class _5_NumberOfSubstringsWithCountEachCharacterk {
+public class _7_NumberOfSubstringsOfaString {
 	
 	public static void main(String[] args) {
 		String string = "aabccc";
