@@ -1,4 +1,5 @@
-// Two strings are called anagrams if they contain same set of characters but in different order
+// Two strings are called anagrams if they contain same set of characters 
+// but in different order
 package javastrings.intervieQuestions.Javatpoint;
 
 import java.util.Arrays;
