@@ -13,7 +13,7 @@
 package javastrings.intervieQuestions.geeksForgeeks;
 
 
-public class _4_FindSmallestAndLargestWord  {  
+public class _5_FindSmallestAndLargestWord  {  
     public static void main(String[] args){  
     	String small = "", large="";  
     	// 1 . define a string

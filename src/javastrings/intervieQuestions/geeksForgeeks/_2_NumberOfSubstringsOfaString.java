@@ -11,7 +11,7 @@ Proper substrings are “a”, “b”, “c”, “d”, “ab”, “bc”, “cd”, “abc”, “bcd” and “ab
 
 package javastrings.intervieQuestions.geeksForgeeks;
 
-public class _7_NumberOfSubstringsOfaString {
+public class _2_NumberOfSubstringsOfaString {
 	
 	public static void main(String[] args) {
 		String string = "aabccc";

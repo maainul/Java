@@ -9,7 +9,7 @@ package javastrings.intervieQuestions.geeksForgeeks;
    or a combination of these.
       
 */
-public class _2_CountNumberOfWords {    
+public class _3_CountNumberOfWords {    
     // Driver program to test above functions 
     public static void main(String args[]) {
     	String str = "One two       three\n four\tfive  "; 
