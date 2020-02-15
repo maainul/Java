@@ -69,7 +69,7 @@ Output: sIHT sI tNIOPTAVAJ</br>
 3. [Count words in a given string](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_3_CountNumberOfWords.java)</br>
 4. [Count words present in a string](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_CountWordsPresentInaString.java)</br>
 5. [Program to find Smallest and Largest Word in a String](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_5_FindSmallestAndLargestWord.java)</br>
-6. [String with k distinct characters and no same characters adjacent](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>
+6. [Count substrings with same first and last characters](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_6_CountSubstringsWithSameFirstAndLastCharacters.java)</br>
 7. [Find the smallest window in a string containing all characters of another string](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>(2 geeksforgeeks)
 8. [Distinct strings with odd and even changes allowed](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>
 9. [Find k’th character of decrypted string](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>
@@ -78,7 +78,7 @@ Output: sIHT sI tNIOPTAVAJ</br>
 12. [Count number of substrings with exactly k distinct characters](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>(4 geeksforgeeks)
 13. [Count of words whose i-th letter is either (i-1)-th, i-th, or (i+1)-th letter of given word](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>
 14. [Number of substrings with count of each character as k](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br> (5 geeks for geeks)
-15. [Count substrings with same first and last characters](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>
+15. [String with k distinct characters and no same characters adjacent](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>(geeks 6)
 16. [Recursive solution to count substrings with same first and last characters](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>
 17. [Count of distinct substrings of a string using Suffix Array](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>
 18. [Count of distinct substrings of a string using Suffix Trie](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>
