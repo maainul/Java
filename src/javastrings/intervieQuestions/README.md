@@ -68,9 +68,7 @@ Output: sIHT sI tNIOPTAVAJ</br>
 2. [Number of substrings of a string](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_7_NumberOfSubstringsOfaString.java)</br>
 3. [Count words in a given string](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_3_CountNumberOfWords.java)</br>
 4. [Count words present in a string](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_CountWordsPresentInaString.java)</br>
-
 5. [Program to find Smallest and Largest Word in a String](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br></br>
-
 6. [String with k distinct characters and no same characters adjacent](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>
 7. [Find the smallest window in a string containing all characters of another string](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>(2 geeksforgeeks)
 8. [Distinct strings with odd and even changes allowed](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>
@@ -106,7 +104,7 @@ Output: sIHT sI tNIOPTAVAJ</br>
 38. [Count words that appear exactly two times in an array of words](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>
 39. [Check if frequency of all characters can become same by one removal.](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>
 40. [Check if a string has all characters with same frequency with one variation allowed.](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>
-41. [Count ways to increase LCS length of two strings by one.]</br>
+41. [Count ways to increase LCS length of two strings by one.](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>
 42. [Find the character in first string that is present at minimum index in second string.](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>
 43. [Remove characters from the first string which are present in the second string.](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>
 44. [Length of Longest sub-string that can be removed.](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_FindSmallestAndLargestWord.java)</br>
