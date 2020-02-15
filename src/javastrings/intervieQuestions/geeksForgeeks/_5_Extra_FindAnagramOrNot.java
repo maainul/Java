@@ -28,7 +28,7 @@ package javastrings.intervieQuestions.geeksForgeeks;
 
 import java.util.Arrays;
 
-public class _5_FindAnagramOrNot {
+public class _5_Extra_FindAnagramOrNot {
 
 	public static void main(String[] args) {
 		   isAnagram("keep","peek"); //s1 // s2
