@@ -17,7 +17,7 @@ package javastrings.intervieQuestions.geeksForgeeks;
 	Output :1
 	
  */
-public class _4_CountWordsPresentInaString {
+public class _3_CountWordsPresentInaString {
 
 	public static void main(String[] args) {
 		///String  str = "please Save water Save geeksforgeeks is a computer science portal for geeks.";
