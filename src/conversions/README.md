@@ -35,12 +35,12 @@ Output : 200
 ```
 ## Example 2: String to Int( Using parseInt)
 ```.java
-/**********************************************
+/************************************************************************
 Method 1: Use Integer.parseInt() method
 
 This is the most simple method to convert String to integer. 
 This function parses the string argument as a signed decimal integer.
- */
+ ***********************************************************************/
 
 package conversions.stringToInt;
 //Java program to convert String to int 
@@ -91,7 +91,7 @@ public static void main(String agr[]) {
 	}
 }
 ```
-# Example 4 : String to Int (Using ValueOf Method):
+## Example 4 : String to Int (Using ValueOf Method):
 ```.java
 package conversions.stringToInt.ValueOfMethod;
 
