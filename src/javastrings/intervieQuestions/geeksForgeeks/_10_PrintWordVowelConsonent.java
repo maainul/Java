@@ -1,69 +1,80 @@
 package javastrings.intervieQuestions.geeksForgeeks;
 
+// https://www.javatpoint.com/program-to-count-the-total-number-of-vowels-and-consonants
+
+// https://www.javatpoint.com/program-to-find-the-frequency-of-characters
+
 public class _10_PrintWordVowelConsonent {
 
 	public static void main(String[] args) {
-		String string = "Allah is one Almighty";
-		String splitString[] = string.split(" ");
-		System.out.println("Length of words :"+(splitString.length));
-		int vowel = 0;
-		for (String word : splitString) {
-			System.out.println(word);
-			
-			for (int i = 0; i < word.length(); i++) {
-				   if(word.charAt(i) == 'A' || string.charAt(i) == 'a'
-						   || word.charAt(i) == 'E' || word.charAt(i) == 'e'
-						   || word.charAt(i) == 'I' || word.charAt(i) == 'i'
-						   || word.charAt(i) == 'O' || word.charAt(i) == 'o'
-						   || word.charAt(i) == 'U' || word.charAt(i) == 'u'){
-					   		vowel++;
-							
-						}
-				 
+		//declare a string
+		String string = "This is a really simple sentence";
+		printVowelAndConsonant(string);
+		printFrequencyOfWord(string);
+	}
+		
+
+	private static void printFrequencyOfWord(String str) {
+		int[] freq = new int[str.length()];
+		
+		int i,j;
+		
+		// converts given string to char array
+		
+		char string[] = str.toCharArray();  
+		
+		
+		for ( i = 0; i < str.length(); i++) {
+			freq[i] = 1;
+			for ( j = i+1; j < str.length(); j++) {
+				if(string[i] == string[j]) {
+					freq[i]++;
+					//Set string[j] to 0 to avoid printing visited character
+					string[j] = '0';
+				}
+			}
+		}
+		
+		//Displays the each character and their corresponding frequency  
+        System.out.println("Characters and their corresponding frequencies");  
+        for(i = 0; i <freq.length; i++) {  
+            if(string[i] != ' ' && string[i] != '0') {
+            	 System.out.println(string[i] + "-" + freq[i]); 
+            }
+                
+        
+		}
+		
+		
+	}
+
+
+	private static void printVowelAndConsonant(String string) {
+		int vCount = 0,cCount = 0;
+	
+		// convert entire string to lower case to recuce the comparisons
+		string = string.toLowerCase();
+		
+		for (int i = 0; i < string.length(); i++) {
+			//checks whether vowels or not
+			if(string.charAt(i)=='a'||
+					string.charAt(i)=='e'||
+					string.charAt(i)=='i'||
+					string.charAt(i)=='o'||
+					string.charAt(i)=='u'){
+						//increment vowel counter
+						vCount++;
 					}
-			
-			
+			// checks whether consonant
+			else if (string.charAt(i)>='a' && string.charAt(i) <='z') {
+				cCount++;
 			}
-		String string2 = "this is owesome";
-		isConsonant(string2);
-		isVowel(string2);
 		}
+		
+		System.out.println("Number of vowels: " + vCount);  
+        System.out.println("Number of consonants: " + cCount);  
 
-	private static void isConsonant(String string2) {
-		int consonent = 0;
-		for (int i = 0; i < string2.length(); i++) {
-			char ch = string2.charAt(i);
-			ch = Character.toUpperCase(ch);
-			
-			if(!(ch == 'A' || ch == 'E' || 
-				ch == 'I' || ch == 'O' || 
-				ch == 'U') && ch >= 65 && ch <= 90) {
-				consonent++;
-			}
-			//System.out.println(ch);
-		}
-		System.out.println("Number of Consonent : "+consonent);
-		
 	}
-	
-	
-	private static void isVowel(String string2) {
-		int vowel = 0;
-		for (int i = 0; i < string2.length(); i++) {
-			char ch = string2.charAt(i);
-			ch = Character.toUpperCase(ch);
-			
-			if((ch == 'A' || ch == 'E' || 
-				ch == 'I' || ch == 'O' || 
-				ch == 'U') && ch >= 65 && ch <= 90) {
-				vowel++;
-			}
-			System.out.println(ch);
-		}
-		System.out.println("Number of Vowels :"+vowel);
 		
-	}
 }
-
-
 
