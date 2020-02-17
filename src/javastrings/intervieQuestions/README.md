@@ -71,4 +71,5 @@ Output: sIHT sI tNIOPTAVAJ</br>
 5. [Program to find Smallest and Largest Word in a String](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_5_FindSmallestAndLargestWord.java)</br>
 6. [Count substrings with same first and last characters](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_6_CountSubstringsWithSameFirstAndLastCharacters.java)</br>
 8. [Program to count vowels in a string (Iterative and Recursive)](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_10_PrintWordVowelConsonent.java)</br>
-[9.Count consonants in a string (Iterative and recursive methods)](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_10_PrintWordVowelConsonent.java)</br>
+9. [Count consonants in a string (Iterative and recursive methods)](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_10_PrintWordVowelConsonent.java)</br>
+10. [Print number of words, vowels and frequency of each character](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_10_PrintWordVowelConsonent.java)</br>
