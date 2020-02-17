@@ -1,3 +1,32 @@
+/*
+ * 
+ * 
+
+Program to find the frequency of characters
+Explanation
+In this program, we need to find the frequency of each character present in the word.
+
+Picture perfect  
+To accomplish this task, we will maintain an array called freq with same size of the length of the string. Freq will be used to maintain the count of each character present in the string. Now, iterate through the string to compare each character with rest of the string. Increment the count of corresponding element in freq. Finally, iterate through freq to display the frequencies of characters.
+
+For example: Frequency of p in above string is 2.
+
+Algorithm
+	Define a string.
+
+	Define an array freq with the same size of the string.
+
+	Two loops will be used to count the frequency of each character. Outer loop will be used to select a character and initialize element at corresponding index in array freq with 1.
+
+	Inner loop will compare the selected character with rest of the characters present in the string.
+
+	If a match found, increment element in freq by 1 and set the duplicates of selected character by '0' to mark them as visited.
+
+	Finally, display the character and their corresponding frequencies by iterating through the array freq.
+ */
+
+
+
 package javastrings.intervieQuestions.geeksForgeeks;
 
 // https://www.javatpoint.com/program-to-count-the-total-number-of-vowels-and-consonants
