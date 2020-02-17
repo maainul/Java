@@ -27,8 +27,8 @@ public class _1_CountUppercaseLowercaseSpecialCharacterAndNumericValues {
 	public static void main(String[] args) {// TODO Auto-generated method stub
 		int upperCase = 0, lowerCase = 0,specialCharacter = 0,numericalValue = 0;
 		
-		String s1 = "La Ilaha Illalahu Mohammadur Rasulullah!@11278(%sm%).";
-		
+		//String s1 = "La Ilaha Illalahu Mohammadur Rasulullah!@11278(%sm%).";
+		String s1 = "Mainul Hasan An!i<";
 		for (int i = 0; i < s1.length(); i++) {
 			
 			char ch = s1.charAt(i);
@@ -42,6 +42,7 @@ public class _1_CountUppercaseLowercaseSpecialCharacterAndNumericValues {
 			}else {
 				specialCharacter++;
 			}
+				
 			
 		}
 		
