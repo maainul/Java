@@ -3,8 +3,8 @@
 https://www.javatpoint.com/java-programs#java-string-programs
 
 ```
-1) [Java Program to count the total number of characters in a string]
-2) [Java Program to count the total number of characters in a string 2]
+1. [Java Program to count the total number of characters in a string]
+2) [2) Java Program to count the total number of characters in a string 2]
 3) [Java Program to count the total number of punctuation characters exists in a String]
 4) [Java Program to count the total number of vowels and consonants in a string]
 5) [Java Program to determine whether two strings are the anagram]
