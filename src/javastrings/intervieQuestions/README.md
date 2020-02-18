@@ -3,7 +3,7 @@
 [2) Java Program to count the total number of characters in a string 2](https://www.javatpoint.com/java-program-to-count-the-total-number-of-vowels-and-consonants-in-a-string)</br>
 [3) Java Program to count the total number of punctuation characters exists in a String](https://www.javatpoint.com/java-program-to-count-the-total-number-of-vowels-and-consonants-in-a-string)</br>
 [4) Java Program to count the total number of vowels and consonants in a string](https://www.javatpoint.com/java-program-to-count-the-total-number-of-vowels-and-consonants-in-a-string)</br>
-[5) Java Program to determine whether two strings are the anagram]</br>
+[5) Java Program to determine whether two strings are the anagram](https://www.javatpoint.com/java-program-to-determine-whether-two-strings-are-the-anagram)</br>
 [6) Java Program to divide a string in 'N' equal parts.]</br>
 [7) Java Program to find all subsets of a string]</br>
 [8) Java Program to find the longest repeating sequence in a string]</br>
