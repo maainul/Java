@@ -1,79 +1,26 @@
-# Interview Questions 
-## Task 0: Preparation for string test
-
-## Java String FAQs or Interview Questions
-### https://www.javatpoint.com/java-string-faqs
-
-1) How many objects will be created in the following code?</br>
-String s1="javatpoint";</br>
-String s2="javatpoint";</br>
-Answer: Only one.</br>
-
-2) What is the difference between equals() method and == operator?</br>
-The equals() method matches content of the strings whereas == operator matches object or reference of the strings.</br>
-
-3) Is String class final?</br>
-Answer: Yes.</br>
-
-4) How to reverse String in java?</br>
-Input:  this is javatpoint</br>
-Output: tnioptavaj si siht</br>
-
-5) How to check Palindrome String in java?</br>
-Input:  nitin</br>
-Output: true</br>
-Input: jatin</br>
-Output: false</br>
-
-6) Write a java program to capitalize each word in string?</br>
-Input: this is javatpoint</br>
-Output: This Is Javatpoint</br>
-
-7) Write a java program to reverse each word in string?</br>
-Input: this is javatpoint</br>
-Output: siht si tnioptavaj</br>
-
-8) Write a java program to tOGGLE each word in string?</br>
-Input: this is javatpoint</br>
-Output:tHIS iS jAVATPOINT</br>
-
-9) Write a java program reverse tOGGLE each word in string?</br>
-Input: this is javatpoint</br>
-Output: sIHT sI tNIOPTAVAJ</br>
-
-10) What is the difference between String and StringBuffer in java?.</br>
-11) What is the difference between StringBuffer and StringBuilder in java?.</br>
-12) What does intern() method in java?.</br>
-13) How to convert String to int in java?.</br>
-14) How to convert int to String in java?.</br>
-15) How to convert String to Date in java?.</br>
-16) How to Optimize Java String Creation?.</br>
-17) Java Program to check whether two Strings are anagram or not.</br>
-18) Java program to find the percentage of uppercase, lowercase, digits and special characters in a String.</br>
-19) How to convert String to Integer and Integer to String in Java.</br>
-20) Java Program to find duplicate characters in a String.</br>
-21) Java Program to prove that strings are immutable in java.</br>
-22) Java Program to remove all white spaces from a String.</br>
-23) Java Program to check whether one String is a rotation of another.</br>
-24) Java Program to count the number of words in a String.</br>
-25) Java Program to reverse a given String with preserving the position of space.</br>
-26) How to swap two String variables without third variable.</br>
-27) How to remove a particular character from a String.</br>
-
-
-
-
-
-## Topic String:(https://www.geeksforgeeks.org/string-data-structure/#sorting%20&%20searching)
-
-# Task 1 :Character Counting Based Problems :
-
-1. [Count Uppercase, Lowercase, special character and numeric values](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_1_CountUppercaseLowercaseSpecialCharacterAndNumericValues.java)</br>
-2. [Number of substrings of a string](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_2_NumberOfSubstringsOfaString.java)</br>
-3. [Count words in a given string](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_3_CountNumberOfWords.java)</br>
-4. [Count words present in a string](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_4_CountWordsPresentInaString.java)</br>
-5. [Program to find Smallest and Largest Word in a String](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_5_FindSmallestAndLargestWord.java)</br>
-6. [Count substrings with same first and last characters](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_6_CountSubstringsWithSameFirstAndLastCharacters.java)</br>
-8. [Program to count vowels in a string (Iterative and Recursive)](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_10_PrintWordVowelConsonent.java)</br>
-9. [Count consonants in a string (Iterative and recursive methods)](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_10_PrintWordVowelConsonent.java)</br>
-10. [Print number of words, vowels and frequency of each character](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/geeksForgeeks/_10_PrintWordVowelConsonent.java)</br>
+# Java String programs
+[1) Java Program to count the total number of characters in a string](https://www.javatpoint.com/java-program-to-count-the-total-number-of-characters-in-a-string)</br>
+[2) Java Program to count the total number of characters in a string 2](https://www.javatpoint.com/java-program-to-count-the-total-number-of-vowels-and-consonants-in-a-string)</br>
+[3) Java Program to count the total number of punctuation characters exists in a String](https://www.javatpoint.com/java-program-to-count-the-total-number-of-vowels-and-consonants-in-a-string)</br>
+[4) Java Program to count the total number of vowels and consonants in a string](https://www.javatpoint.com/java-program-to-count-the-total-number-of-vowels-and-consonants-in-a-string)</br>
+[5) Java Program to determine whether two strings are the anagram]</br>
+[6) Java Program to divide a string in 'N' equal parts.]</br>
+[7) Java Program to find all subsets of a string]</br>
+[8) Java Program to find the longest repeating sequence in a string]</br>
+[9) Java Program to find all the permutations of a string]</br>
+[10) Java Program to remove all the white spaces from a string]</br>
+[11) Java Program to replace lower-case characters with upper-case and vice-versa]</br>
+[12) Java Program to replace the spaces of a string with a specific character]</br>
+[13) Java Program to determine whether a given string is palindrome][</br>
+[14) Java Program to determine whether one string is a rotation of another]</br>
+[15) Java Program to find maximum and minimum occurring character in a string]</br>
+[16) Java Program to find Reverse of the string]</br>
+[17) Java program to find the duplicate characters in a string]</br>
+[18) Java program to find the duplicate words in a string]</br>
+[19) Java Program to find the frequency of characters]</br>
+[20) Java Program to find the largest and smallest word in a string]</br>
+[21) Java Program to find the most repeated word in a text file]</br>
+[22) Java Program to find the number of the words in the given text file]</br>
+[23) Java Program to separate the Individual Characters from a String]</br>
+[24) Java Program to swap two string variables without using third or temp variable.]</br>
+[25) Java Program to print smallest and biggest possible palindrome word in a given string]</br>
