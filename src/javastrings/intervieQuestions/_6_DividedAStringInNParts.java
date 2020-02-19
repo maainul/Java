@@ -39,8 +39,45 @@ package javastrings.intervieQuestions;
 public class _6_DividedAStringInNParts {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// STEP 1: START
+		// STEP 2: DEFINE str = "aaaabbbbcccc"
+		String string = "aaabbbccc";
+		
+		// STEP 3: DEFINE len
+		int n = 3;
+		
+		// STEP 4: SET n =3
+		int length = string.length()/n;
+		
+		// STEP 5: SET temp = 0.
+		int temp = 0;
+		
+		// STEP 6: chars = len/n
+		int chars = length/n;
+		
+		// STEP 7: DEFINE String[] equalstr.
+		String[] equalStr = new String [n];  
 
+		
+		//STEP 8: IF (len%n!=0) then PRINT ("String can't be divided into equal parts")l
+		if(length % n != 0) {
+			System.out.println("Sorry this string cannot be divided");
+		}else {
+			// STEP 10: REPEAT STEP 11 to STEP 14 UNTIL i<len
+			for (int i = 0; i <length; i = i+chars) {
+				// STEP 11: DEFINE substring part.
+				// STEP 14: i = i + chars
+				String partString = string.substring(i,i+chars);
+				// STEP 12: equalstr [temp] = part
+				equalStr[temp] = partString;
+				// STEP 13: temp = temp + 1
+				temp++;
+			}
+			System.out.println(n+"equals parts of given string are");
+			for (int i = 0; i < equalStr.length; i++) {
+				System.out.println(equalStr[i]);
+			}
+		}
 	}
 
 }

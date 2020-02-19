@@ -1,10 +1,10 @@
 # Java String programs
 [1) Java Program to count the total number of characters in a string](https://www.javatpoint.com/java-program-to-count-the-total-number-of-characters-in-a-string)</br>
 [2) Java Program to count the total number of characters in a string 2](https://www.javatpoint.com/java-program-to-count-the-total-number-of-vowels-and-consonants-in-a-string)</br>
-[3) Java Program to count the total number of punctuation characters exists in a String](https://stackoverflow.com/questions/28511831/how-to-count-punctuation-marks-in-a-string-in-java)</br>
+[3) Java Program to count the total number of punctuation characters exists in a String](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/_3_TotalNumberofPunctionCharacterOfAString.java)</br>
 [4) Java Program to count the total number of vowels and consonants in a string](https://www.javatpoint.com/java-program-to-count-the-total-number-of-vowels-and-consonants-in-a-string)</br>
 [5) Java Program to determine whether two strings are the anagram](https://www.javatpoint.com/java-program-to-determine-whether-two-strings-are-the-anagram)</br>
-[6) Java Program to divide a string in 'N' equal parts.]</br>
+[6) Java Program to divide a string in 'N' equal parts.](https://www.javatpoint.com/java-program-to-divide-a-string-in-n-equal-parts)</br>
 [7) Java Program to find all subsets of a string]</br>
 [8) Java Program to find the longest repeating sequence in a string]</br>
 [9) Java Program to find all the permutations of a string]</br>
