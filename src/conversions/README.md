@@ -1,8 +1,8 @@
 # Java Conversions
 
-1. Java String to int
-2. Java int to String 
-3. Java String to long
+[1. Java String to int](https://www.javatpoint.com/java-string-to-int)</br>
+[2. Java int to String](https://www.javatpoint.com/java-int-to-string)</br> 
+[3. Java String to long](https://www.javatpoint.com/java-string-to-long)</br>
 4. Java long to String
 5. Java String to float
 6. Java float to String
