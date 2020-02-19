@@ -33,7 +33,7 @@ package intervieQuestions.String;
 public class _7_FindAllSubSequenceOfAString {
 
 	public static void main(String[] args) {
-		String string = "Fun";
+		String string = "Funiun";
 		
 		int length = string.length();
 		

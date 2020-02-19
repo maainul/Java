@@ -9,13 +9,14 @@ There are two types of substring methods in java string.
 */
 package javastrings.Class.String;
 
-public class _23_StringSubdtring {
+public class _23_StringSubstring {
 
 	public static void main(String[] args) {
 		
 		String s1 = "javatpoint";
 		System.out.println(s1.substring(2,4));
 		System.out.println(s1.substring(2));
+		System.out.println(s1.substring(0,5));
 
 	}
 

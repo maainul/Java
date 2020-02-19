@@ -6,7 +6,7 @@
 [5) Java Program to determine whether two strings are the anagram](https://www.javatpoint.com/java-program-to-determine-whether-two-strings-are-the-anagram)</br>
 [6) Java Program to divide a string in 'N' equal parts.](https://www.javatpoint.com/java-program-to-divide-a-string-in-n-equal-parts)</br>
 [7) Java Program to find all subsets of a string](https://www.javatpoint.com/java-program-to-find-all-subsets-of-a-string)</br>
-[8) Java Program to find the longest repeating sequence in a string]</br>
+[8) Java Program to find the longest repeating sequence in a string](https://www.javatpoint.com/java-program-to-find-the-longest-repeating-sequence-in-a-string)</br>
 [9) Java Program to find all the permutations of a string]</br>
 [10) Java Program to remove all the white spaces from a string]</br>
 [11) Java Program to replace lower-case characters with upper-case and vice-versa]</br>
