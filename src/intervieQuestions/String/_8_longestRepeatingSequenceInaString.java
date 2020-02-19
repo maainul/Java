@@ -73,3 +73,4 @@ public class _8_longestRepeatingSequenceInaString {
 		return s.substring(0, n);
 	}
 }
+// Output : UN
