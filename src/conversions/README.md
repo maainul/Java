@@ -1,5 +1,36 @@
 # Java Conversions
 
+1. Java String to int
+2. Java int to String 
+3. Java String to long
+4. Java long to String
+5. Java String to float
+6. Java float to String
+7. Java String to double
+8. Java double to String
+9. Java String to Date
+10. Java Date to String
+11. Java String to char
+12. Java char to String
+13. Java String to Object
+14. Java Object to String
+15. Java int to longJ
+16. ava long to int
+17. Java int to double
+18. Java double to int
+19. Java char to int
+20. Java int to char
+21. Java String to boolean
+22. Java boolean to String
+23. Date to Timestamp
+24. Timestamp to Date
+25. Binary to Decimal
+26. Decimal to Binary
+27. Hex to Decimal
+28. Decimal to Hex
+29. Octal to Decimal
+30. Decimal to Octal
+
 # 1. Java Convert String to int
 ```
 We can convert String to an int in java using Integer.
@@ -120,3 +151,147 @@ Concatenation of string :23010
 Contatenation of int :23010
 */
 ```
+# 2. Java int to String
+```
+We can convert int to String in java using 
+		1. String.valueOf() and 
+		2. Integer.toString() methods. Alternatively, we can use 
+		3. String.format() method, string concatenation operator etc.
+```
+```
+It is generally used if we have to display number in textfield 
+because everything is displayed as a string in form.
+```
+## 2.1) String.valueOf()
+```
+The String.valueOf() method converts int to String. 
+The valueOf() is the static method of String class. 
+```
+```
+The signature of valueOf() method is given below: public static String valueOf(int i)  
+```
+```.java
+Let's see the simple code to convert int to String in java.
+
+int i=10;  
+String s=String.valueOf(i);//Now it will return "10"  
+Let's see the simple example of converting String to int in java.
+
+public class IntToStringExample1{  
+	public static void main(String args[]){  
+	int i=200;  
+	String s=String.valueOf(i);  
+	System.out.println(i+100);//300 because + is binary plus operator  
+	System.out.println(s+100);//200100 because + is string concatenation operator  
+	}
+}  
+
+Output:
+
+300
+200100
+```
+## 2.2) Integer.toString()
+```
+The Integer.toString() method converts int to String. 
+The toString() is the static method of Integer class. 
+```
+```
+The signature of toString() method is given below: public static String toString(int i)  
+```
+```.java
+Let's see the simple code to convert int to String in java using Integer.toString() method.
+
+int i=10;  
+String s=Integer.toString(i);//Now it will return "10"  
+Let's see the simple example of converting String to int in java.
+
+public class IntToStringExample2{  
+	public static void main(String args[]){  
+	int i=200;  
+	String s=Integer.toString(i);  
+	System.out.println(i+100);//300 because + is binary plus operator  
+	System.out.println(s+100);//200100 because + is string concatenation operator  
+	}
+}  
+
+Output:
+
+300
+200100
+```
+
+# 2.3) String.format()
+```
+The String.format() method is used to format given arguments into String. It is introduced since Jdk 1.5.
+```
+```
+public static String format(String format, Object... args)  
+```
+```.java
+Let's see the simple code to convert int to String in java using String.format() method.
+
+public class IntToStringExample3{  
+	public static void main(String args[]){  
+	int i=200;  
+	String s=String.format("%d",i);  
+	System.out.println(s);  
+	}
+}  
+
+Output:
+
+200                     
+```
+# 3. Java String to long
+```
+
+```
+# 4. Java long to String
+```
+
+```
+# 5. Java String to float
+```
+
+```
+# 6. Java float to String
+```
+
+```
+# 7. Java String to double
+```
+
+```
+# 8. Java double to String
+```
+
+
+```
+# 9. Java String to Date
+```
+
+```
+# 10. Java Date to String
+```
+
+```
+# 11. Java String to char
+# 12. Java char to String
+# 13. Java String to Object
+# 14. Java Object to String
+# 15. Java int to longJ
+# 17. Java int to double
+# 18. Java double to int
+# 19. Java char to int
+# 20. Java int to char
+# 21. Java String to boolean
+# 22. Java boolean to String
+# 23. Date to Timestamp
+# 24. Timestamp to Date
+# 25. Binary to Decimal
+# 26. Decimal to Binary
+# 27. Hex to Decimal
+# 28. Decimal to Hex
+# 29. Octal to Decimal
+# 30. Decimal to Octal

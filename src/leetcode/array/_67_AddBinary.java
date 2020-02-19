@@ -4,7 +4,7 @@ public class _67_AddBinary {
 
 	public static void main(String[] args) {
 		String s1="1010";
-		String s2="0110";
+		String s2="10110";
 		System.out.println(addBinary(s1, s2));
 	}
 	
