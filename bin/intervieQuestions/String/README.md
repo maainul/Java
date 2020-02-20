@@ -24,3 +24,4 @@
 [23) Java Program to separate the Individual Characters from a String]</br>
 [24) Java Program to swap two string variables without using third or temp variable.]</br>
 [25) Java Program to print smallest and biggest possible palindrome word in a given string]</br>
+

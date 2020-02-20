@@ -15,6 +15,14 @@ public class _17_StringIndexOf {
 	        int index = s11.indexOf('e', 12); //Returns the index of this char  
 	        System.out.println("index of char "+index);       
 
+	String string = "abcde";
+	//System.out.println(string.concat(string));
+	String string2 = "deabc";
+	System.out.println(string.indexOf(string2));
+	
+	
+	
 	}
+	
 
 }
