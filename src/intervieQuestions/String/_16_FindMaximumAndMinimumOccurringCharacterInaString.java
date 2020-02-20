@@ -23,7 +23,7 @@ public class _16_FindMaximumAndMinimumOccurringCharacterInaString {
 			}
 		}
 		
-		 //Displays the each character and their corresponding frequency    
+		//Displays the each character and their corresponding frequency    
         System.out.println("Characters and their corresponding frequencies");    
         for(i = 0; i <freq.length; i++) {    
             if(string[i] != ' ' && string[i] != '0')    
@@ -33,7 +33,7 @@ public class _16_FindMaximumAndMinimumOccurringCharacterInaString {
        
         
 		int min,max;
-		min =max = freq[0];
+		min =max = freq[0]; 
 		
 		for ( i = 0; i < freq.length; i++) {
 			//System.out.println(freq[i]);
