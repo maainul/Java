@@ -20,8 +20,5 @@
 [19) Java Program to find the number of the words in the given text file]((https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/String/_19_CountNumberOfWordsInAString.java)</br>
 [20) Java program to find the duplicate words in a string](https://www.javatpoint.com/java-program-to-find-the-duplicate-words-in-a-string)</br>
 [21) Java Program to find the largest and smallest word in a string](https://www.javatpoint.com/java-program-to-find-the-largest-and-smallest-word-in-a-string)</br>
-[22) Java Program to find the most repeated word in a text file]</br>
-[23) Java Program to separate the Individual Characters from a String]</br>
-[24) Java Program to swap two string variables without using third or temp variable.]</br>
-[25) Java Program to print smallest and biggest possible palindrome word in a given string]</br>
+
 
