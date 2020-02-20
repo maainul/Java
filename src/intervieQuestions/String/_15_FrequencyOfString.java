@@ -43,7 +43,7 @@ public class _15_FrequencyOfString {
 	        String str = "picture perfect";    
 	        int[] freq = new int[str.length()];    
 	        int i, j;    
-	            
+	         
 	        //Converts given string into character array    
 	        char string[] = str.toCharArray();    
 	            
