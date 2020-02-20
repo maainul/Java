@@ -27,7 +27,7 @@ public class _14_DetermineWhetherOneStringIsaRotationOfAnother {
 
 	public static void main(String[] args) {
 	      String str1 = "abcde", str2 = "deabc";    
-          
+           // System.out.println(str1.concat(str1).indexOf("deabc"));
 	        if(str1.length() != str2.length()){    
 	            System.out.println("l string is not a rotation of first string");    
 	        }    
