@@ -8,17 +8,17 @@
 [7) Java Program to find all subsets of a string](https://www.javatpoint.com/java-program-to-find-all-subsets-of-a-string)</br>
 [8) Java Program to find the longest repeating sequence in a string](https://www.javatpoint.com/java-program-to-find-the-longest-repeating-sequence-in-a-string)</br>
 [9) Java Program to find all the permutations of a string]</br>
-[10) Java Program to remove all the white spaces from a string]</br>
-[11) Java Program to replace lower-case characters with upper-case and vice-versa]</br>
-[12) Java Program to replace the spaces of a string with a specific character]</br>
-[13) Java Program to determine whether a given string is palindrome][</br>
-[14) Java Program to determine whether one string is a rotation of another]</br>
-[15) Java Program to find maximum and minimum occurring character in a string]</br>
-[16) Java Program to find Reverse of the string]</br>
-[17) Java program to find the duplicate characters in a string]</br>
-[18) Java program to find the duplicate words in a string]</br>
-[19) Java Program to find the frequency of characters]</br>
-[20) Java Program to find the largest and smallest word in a string]</br>
+[10) Java Program to remove all the white spaces from a string](https://www.javatpoint.com/java-program-to-remove-all-the-white-spaces-from-a-string)</br>
+[11) Java Program to replace lower-case characters with upper-case and vice-versa](https://www.javatpoint.com/java-program-to-replace-lower-case-characters-with-upper-case-and-vice-versa)</br>
+[12) Java Program to replace the spaces of a string with a specific character](https://www.javatpoint.com/java-program-to-replace-the-spaces-of-a-string-with-a-specific-character)</br>
+[13) Java Program to determine whether a given string is palindrome](https://www.javatpoint.com/java-program-to-determine-whether-a-given-string-is-palindrome)</br>
+[14) Java Program to determine whether one string is a rotation of another](https://www.javatpoint.com/java-program-to-determine-whether-one-string-is-a-rotation-of-another)</br>
+[15) Java Program to find maximum and minimum occurring character in a string](https://www.javatpoint.com/java-program-to-find-maximum-and-minimum-occurring-character-in-a-string)</br>
+[16) Java Program to find Reverse of the string](https://www.javatpoint.com/java-program-to-find-reverse-of-the-string)</br>
+[17) Java program to find the duplicate characters in a string](https://www.javatpoint.com/java-program-to-find-the-duplicate-characters-in-a-string)</br>
+[18) Java program to find the duplicate words in a string](https://www.javatpoint.com/java-program-to-find-the-duplicate-words-in-a-string)</br>
+[19) Java Program to find the frequency of characters](https://www.javatpoint.com/java-program-to-find-the-frequency-of-characters)</br>
+[20) Java Program to find the largest and smallest word in a string](https://www.javatpoint.com/java-program-to-find-the-largest-and-smallest-word-in-a-string)</br>
 [21) Java Program to find the most repeated word in a text file]</br>
 [22) Java Program to find the number of the words in the given text file]</br>
 [23) Java Program to separate the Individual Characters from a String]</br>
