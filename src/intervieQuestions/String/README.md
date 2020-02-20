@@ -17,7 +17,7 @@
 [16) Java Program to find maximum and minimum occurring character in a string](https://www.javatpoint.com/java-program-to-find-maximum-and-minimum-occurring-character-in-a-string)</br>
 [17) Java Program to find Reverse of the string](https://www.javatpoint.com/java-program-to-find-reverse-of-the-string)</br>
 [18) Java program to find the duplicate characters in a string](https://www.javatpoint.com/java-program-to-find-the-duplicate-characters-in-a-string)</br>
-[19) Java Program to find the number of the words in the given text file]((https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/String/_19_CountNumberOfWordsInAString.java)</br>
+[19) Java Program to find the number of the words in the given text file](https://github.com/maainul/Java/blob/master/src/javastrings/intervieQuestions/String/_19_CountNumberOfWordsInAString.java)</br>
 [20) Java program to find the duplicate words in a string](https://www.javatpoint.com/java-program-to-find-the-duplicate-words-in-a-string)</br>
 [21) Java Program to find the largest and smallest word in a string](https://www.javatpoint.com/java-program-to-find-the-largest-and-smallest-word-in-a-string)</br>
 
