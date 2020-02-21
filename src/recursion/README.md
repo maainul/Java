@@ -1,7 +1,7 @@
 # Recursion
 ## Problem 1:
 
-Write a function that prints all the elements of an array of integers in order.<br />
+[Write a function that prints all the elements of an array of integers in order.](https://github.com/maainul/Java/blob/master/src/recursion/Problem1/PrintArray.java)<br />
 
 Input: <br />
 69 87 45 21 47 <br />
@@ -10,7 +10,7 @@ Output: <br />
 
 ## Problem 2:
 
-Write a recursive function that prints all the elements of an array of integers in order.<br />
+[Write a recursive function that prints all the elements of an array of integers in order.](https://github.com/maainul/Java/blob/master/src/recursion/Problem2/PrintArrayRecursion.java)<br />
 
 Input: <br />
 69 87 45 21 47 <br />
@@ -19,7 +19,7 @@ Output: <br />
 
 ## Problem 3:
 
-Write a function that prints all the elements of an array of integers in reverse order.<br />
+[Write a function that prints all the elements of an array of integers in reverse order.](https://github.com/maainul/Java/blob/master/src/recursion/Problem3/ReverseArray.java)<br />
 
 Input: <br />
 69 87 45 21 47 <br />
@@ -28,7 +28,7 @@ Output: <br />
 
 ## Problem 4:
 
-Write a recursive function that prints all the elements of an array of integers in reverse order.<br />
+[Write a recursive function that prints all the elements of an array of integers in reverse order.](https://github.com/maainul/Java/blob/master/src/recursion/Problem4/ReverseArrayUsingRecursion.java)<br />
 
 
 Input: <br />
@@ -38,7 +38,7 @@ Output: <br />
 
 ## Problem 5: <br />
 
-Find the sum of the array. Use Normal Array.
+[Find the sum of the array. Use Iteration.](https://github.com/maainul/Java/blob/master/src/recursion/Problem5/SumOfNInterger.java)</br>
 
 Input:<br />
 5 7 9 11 3 <br />
@@ -47,7 +47,7 @@ Output:<br />
 
 ## Problem 6: <br />
 
-Find the sum of the array. Use recursion.(RecursionPracticeQuestions-UG1, problem 4)
+[Find the sum of the array. Use recursion.(RecursionPracticeQuestions-UG1, problem 4)](https://github.com/maainul/Java/blob/master/src/recursion/Problem6/SumOfArrayUsingRecursion.java)</br>
 
 Input:<br />
 5 7 9 11 3 <br />
@@ -56,7 +56,7 @@ Output:<br />
 
 ## Problem 7: <br />
 
-Find the sum of the integers from 1 through n.
+[Find the sum of the integers from 1 through n.](https://github.com/maainul/Java/blob/master/src/recursion/Problem7/SumOfOneToNthInteger.java)</br>
 
 Input:<br />
 4<br />
@@ -65,7 +65,7 @@ Output:<br />
 
 ## Problem 8: <br />
 
-Find the sum of the integers from 1 through n. Use recursion.
+[Find the sum of the integers from 1 through n. Use recursion.](https://github.com/maainul/Java/blob/master/src/recursion/Problem8/SumOfIntegerFromOneToNthUsingRecursion.java)</br>
 
 Input:<br />
 4 <br />
@@ -74,7 +74,7 @@ Output:<br />
 
 ## Problem 9: <br />
 
-Find the reverse of the integers from 1 through n. Use recursion.
+[Find the reverse of the integers from 1 through n. Use recursion.](https://github.com/maainul/Java/blob/master/src/recursion/Problem9/ReverseOneToN.java)</br>
 
 Input:<br />
 4 <br />
