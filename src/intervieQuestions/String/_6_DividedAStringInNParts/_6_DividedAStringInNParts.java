@@ -34,7 +34,7 @@ Algorithm
   
  */
 
-package intervieQuestions.String;
+package intervieQuestions.String._6_DividedAStringInNParts;
 
 public class _6_DividedAStringInNParts {
 

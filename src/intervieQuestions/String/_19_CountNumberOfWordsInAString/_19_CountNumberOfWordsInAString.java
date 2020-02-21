@@ -1,4 +1,4 @@
-package intervieQuestions.String;
+package intervieQuestions.String._19_CountNumberOfWordsInAString;
 
 public class _19_CountNumberOfWordsInAString {
 

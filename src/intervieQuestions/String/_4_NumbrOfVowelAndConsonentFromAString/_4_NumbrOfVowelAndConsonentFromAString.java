@@ -24,7 +24,7 @@ Algorithm
 	STEP 12: END
  */
 		
-package intervieQuestions.String;
+package intervieQuestions.String._4_NumbrOfVowelAndConsonentFromAString;
 
 public class _4_NumbrOfVowelAndConsonentFromAString {
 

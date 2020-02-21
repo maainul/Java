@@ -28,7 +28,7 @@ ALGORITHM
 	STEP 12: IF(count>1 && string[i] != 0) then PRINT string[i]
 	STEP 13: END
  */
-package intervieQuestions.String;
+package intervieQuestions.String._18_FindDupllicateCharacterFromAString;
 
 public class _18_FindDupllicateCharacterFromAString {
 

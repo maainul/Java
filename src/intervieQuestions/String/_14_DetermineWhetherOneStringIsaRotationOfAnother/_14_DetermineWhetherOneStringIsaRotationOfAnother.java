@@ -21,7 +21,7 @@ ALGORITHM
 	STEP 5: IF str2 present in str1 then PRINT "Yes" else PRINT "No".
 	STEP 6: END
  */
-package intervieQuestions.String;
+package intervieQuestions.String._14_DetermineWhetherOneStringIsaRotationOfAnother;
 
 public class _14_DetermineWhetherOneStringIsaRotationOfAnother {
 

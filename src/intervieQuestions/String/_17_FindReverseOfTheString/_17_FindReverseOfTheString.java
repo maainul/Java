@@ -18,7 +18,7 @@ ALGORITHM
 	STEP 8: PRINT reversedStr.
 	STEP 9: END
  */
-package intervieQuestions.String;
+package intervieQuestions.String._17_FindReverseOfTheString;
 
 public class _17_FindReverseOfTheString {
 	public static void main(String agrs[]) {

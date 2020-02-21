@@ -1,4 +1,4 @@
-package intervieQuestions.String;
+package intervieQuestions.String._3_TotalNumberofPunctionCharacterOfAString;
 
 public class _3_TotalNumberofPunctionCharacterOfAString {
 

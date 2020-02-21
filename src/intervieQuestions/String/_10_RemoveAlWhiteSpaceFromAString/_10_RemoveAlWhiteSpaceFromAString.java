@@ -13,7 +13,7 @@ Algorithm
 	STEP 4: PRINT str1.
 	STEP 5: END
  */
-package intervieQuestions.String;
+package intervieQuestions.String._10_RemoveAlWhiteSpaceFromAString;
 
 public class _10_RemoveAlWhiteSpaceFromAString {
 

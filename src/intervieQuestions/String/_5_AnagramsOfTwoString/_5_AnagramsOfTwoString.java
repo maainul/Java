@@ -21,7 +21,7 @@ Algorithm
 	PRINT "Not Anagram"
 	STEP 8: END
  */
-package intervieQuestions.String;
+package intervieQuestions.String._5_AnagramsOfTwoString;
 
 import java.util.Arrays;
 

@@ -22,7 +22,7 @@ Algorithm
 	STEP 6: PRINT string.
 	STEP 7: END
  */
-package intervieQuestions.String;
+package intervieQuestions.String._12_ReplaceSpaceOfaStringInAspecificCharacter;
 
 public class _12_ReplaceSpaceOfaStringInAspecificCharacter {
 

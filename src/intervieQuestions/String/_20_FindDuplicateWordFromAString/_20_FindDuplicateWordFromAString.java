@@ -26,7 +26,7 @@ ALGORITHM
 	STEP 13: END
 
  */
-package intervieQuestions.String;
+package intervieQuestions.String._20_FindDuplicateWordFromAString;
 
 public class _20_FindDuplicateWordFromAString {
 

@@ -28,7 +28,7 @@ Algorithm
 	STEP 14: PRINT arr[i]
 	STEP 15: END
  */
-package intervieQuestions.String;
+package intervieQuestions.String._7_FindAllSubSequenceOfAString;
 
 public class _7_FindAllSubSequenceOfAString {
 

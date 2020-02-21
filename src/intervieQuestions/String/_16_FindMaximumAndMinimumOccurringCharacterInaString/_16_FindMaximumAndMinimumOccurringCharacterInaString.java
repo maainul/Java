@@ -1,4 +1,4 @@
-package intervieQuestions.String;
+package intervieQuestions.String._16_FindMaximumAndMinimumOccurringCharacterInaString;
 
 public class _16_FindMaximumAndMinimumOccurringCharacterInaString {
 

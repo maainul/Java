@@ -23,7 +23,7 @@ ALGORITHM
 	STEP 9: END
 Program:
  */
-package intervieQuestions.String;
+package intervieQuestions.String._13_GivenStringPalindromOrNot;
 
 public class _13_GivenStringPalindromOrNot {
 

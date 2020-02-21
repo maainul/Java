@@ -18,7 +18,7 @@ Algorithm
 	STEP 7: PRINT newstr.
 	STEP 8: END
  */
-package intervieQuestions.String;
+package intervieQuestions.String._11_AllLowerCaseToUpperANdUpperCaseToLower;
 
 public class _11_AllLowerCaseToUpperANdUpperCaseToLower {    
     public static void main(String[] args) {    

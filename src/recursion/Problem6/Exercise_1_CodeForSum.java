@@ -17,7 +17,7 @@ package recursion.Problem6;
 public class Exercise_1_CodeForSum {
 
 	public static void main(String[] args) {
-		int[] array = {2,4,5};
+		int[] array = {2,4,6};
 		int i = array.length;
 		 System.out.println("Sum Iterative way :" +sumOfArrayIterativeWay(array));
 		 

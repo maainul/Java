@@ -32,7 +32,7 @@ Algorithm
 	STEP 6: RETURN s.substring(0,n)
 	STEP 7: END
  */
-package intervieQuestions.String;
+package intervieQuestions.String._8_longestRepeatingSequenceInaString;
 
 public class _8_longestRepeatingSequenceInaString {  
    
