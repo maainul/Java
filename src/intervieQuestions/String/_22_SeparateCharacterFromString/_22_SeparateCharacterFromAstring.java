@@ -1,6 +1,6 @@
-package intervieQuestions.String._22_SeparateWordFromString;
+package intervieQuestions.String._22_SeparateCharacterFromString;
 
-public class _22_SeparateWordFromAstring {
+public class _22_SeparateCharacterFromAstring {
 
 	public static void main(String[] args) {
 		String string = "characters ";  
