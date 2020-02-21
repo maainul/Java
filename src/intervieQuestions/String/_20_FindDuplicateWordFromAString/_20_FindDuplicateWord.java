@@ -19,7 +19,6 @@ public class _20_FindDuplicateWord {
 				word = "";
 			}
 			
-			
 		}
 		System.out.println(index);
 		for (int i = 0; i < index; i++) {
@@ -31,7 +30,6 @@ public class _20_FindDuplicateWord {
 					words[j] = "0";
 				}
 			}
-		
 		
 		if(count >1 && words[i] !="0") {
 			System.out.println(words[i]);
