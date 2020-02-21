@@ -42,6 +42,7 @@ ALGORITHM
  */
 package intervieQuestions.String._21_FindLargestAndSmallestWordInAstring;
 
+
 public class _21_FindLargestAndSmallestWordInAstring {
 
 	  public static void main(String[] args){     
@@ -68,6 +69,12 @@ public class _21_FindLargestAndSmallestWordInAstring {
 		}
 	     
 	      System.out.println("Smallest word: " + small);    
-	      System.out.println("Largest word: " + large);    
-	  }    
+	      System.out.println("Largest word: " + large); 
+	      
+	      
+	     
+	    
+	  }
+
+
 }
