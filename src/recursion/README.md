@@ -90,7 +90,7 @@ index :0<br />
 ## Problem 10:
 
 
-Write a  program to print even integers from an array.<br/>
+[Write a  program to print even integers from an array.](https://github.com/maainul/Java/blob/master/src/recursion/Problem10/PrintEvenInteger.java)<br/>
 Input:<br/>
 2,4,5,8,10 <br />
 Output: <br />
@@ -98,7 +98,7 @@ Output: <br />
 
 ## Problem 11:
 
-Write a  program to print even integers from an array.Usin Recursion<br/>
+[Write a  program to print even integers from an array.Usin Recursion](https://github.com/maainul/Java/blob/master/src/recursion/Problem11/PrintEvenIntegerUsingRecursion.java)<br/>
 
 Input:<br/>
 2,4,5,8,10 <br />
@@ -106,7 +106,7 @@ Output: <br />
 2 4 8 10 <br />
 
 ## Problem 12:
-Write a  program to print FACTORIAL Number.<br />
+[Write a  program to print FACTORIAL Number.](https://github.com/maainul/Java/blob/master/src/recursion/Problem12/FactorialUsingForLoop.java)<br />
 
 Input:  <br />
 5 <br />
@@ -114,7 +114,7 @@ Output: <br />
 120 <br />
 
 ## Problem 13:
-Write a  program to print FACTORIAL Number using recursive method.<br />
+[Write a  program to print FACTORIAL Number using recursive method.](https://github.com/maainul/Java/blob/master/src/recursion/Problem13/RecursiveFactorial.java)<br />
 
 Input:  <br />
 5 <br />
@@ -122,23 +122,23 @@ Output: <br />
 120 <br />
 
 ## Problem 14:
-Write a program to print fibonacci series.<br/>
-1st and 2nd fibonacci numbers are 1, 1.<br/>
+[Write a program to print fibonacci series.](https://github.com/maainul/Java/blob/master/src/recursion/Problem14/Fibonacci.java)<br/>
+[1st and 2nd fibonacci numbers are 1, 1.](https://github.com/maainul/Java/blob/master/src/recursion/Problem14/Fibonacci.java)<br/>
 Input:<br/>
 6<br/>
 Output:<br/>
 1 1 2 3 5 8<br/>
 
 ## Problem 15:
-Write a recursive program to print fibonacci series.<br/>
-1st and 2nd fibonacci numbers are 1, 1.<br/>
+[Write a recursive program to print fibonacci series.](https://github.com/maainul/Java/blob/master/src/recursion/Problem15/FibonacciRecursion.java)<br/>
+[1st and 2nd fibonacci numbers are 1, 1.](https://github.com/maainul/Java/blob/master/src/recursion/Problem15/FibonacciRecursion.java)<br/>
 Input:<br/>
 6<br/>
 Output:<br/>
 1 1 2 3 5 8<br/>
 
 ## Problem 16:
-Write a recursive program to compute nth fibonacci number. 1st and 2nd fibonacci numbers are 1, 1.<br/>
+[Write a recursive program to compute nth fibonacci number. 1st and 2nd fibonacci numbers are 1, 1.](https://github.com/maainul/Java/tree/master/src/recursion/Problem16)<br/>
 
 Input:<br/>
 6<br/>
@@ -146,7 +146,7 @@ Output:<br/>
 8<br/>
 
 ## Problem 17: 
-Write a program to determine whether a given integer is prime or not.
+[Write a program to determine whether a given integer is prime or not.](https://github.com/maainul/Java/blob/master/src/recursion/Problem17/PrimeNumber.java)
 
 Input: <br />
 19 <br />
@@ -155,7 +155,7 @@ Output: <br />
 prime <br />
 
 ## Problem 18: 
-Write a recursive program to determine whether a given integer is prime or not.
+[Write a recursive program to determine whether a given integer is prime or not.](https://github.com/maainul/Java/blob/master/src/recursion/Problem18/PrimeNumber.java)</br>
 
 Input: <br />
 19 <br />
@@ -165,7 +165,7 @@ prime <br />
 
 ## Problem 19:
 
-Find GCD or HCF of two numbers<br/>
+[Find GCD or HCF of two numbers.](https://github.com/maainul/Java/blob/master/src/recursion/Problem19/GCD.java)<br/>
 
 Input:<br/>
 68 51<br/>
@@ -174,7 +174,7 @@ Output:<br/>
 
 ## Problem 20:
 
-Find GCD or HCF of two numbers using recursion<br/>
+[Find GCD or HCF of two numbers using recursion](https://github.com/maainul/Java/blob/master/src/recursion/Problem20/GCDRecursion.java)<br/>
 
 Input:<br/>
 68 51<br/>
@@ -183,7 +183,7 @@ Output:<br/>
 
 ## Problem 21:
 
-Write a recursive solution to compute lcm of two integers. use this formula lcm(a,b) = (a x b) / gcd(a,b);
+[Write a recursive solution to compute lcm of two integers. use this formula lcm(a,b) = (a x b) / gcd(a,b);](https://github.com/maainul/Java/blob/master/src/recursion/Problem21/LCM.java)</br>
 
 
 Input: <br />
@@ -193,7 +193,7 @@ Output: <br />
 
 ## Problem 22:
 
-Write a recursive solution to compute lcm of two integers. use this formula lcm(a,b) = (a x b) / gcd(a,b);
+[Write a recursive solution to compute lcm of two integers. use this formula lcm(a,b) = (a x b) / gcd(a,b);](https://github.com/maainul/Java/blob/master/src/recursion/Problem22/LCM.java)</br>
 
 
 Input: <br />
