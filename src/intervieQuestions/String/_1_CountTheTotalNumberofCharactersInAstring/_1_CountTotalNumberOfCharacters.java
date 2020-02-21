@@ -20,7 +20,7 @@ Algorithm
 	STEP 7: PRINT count.
 	STEP 8: END
  */
-package intervieQuestions.String;
+package intervieQuestions.String._1_CountTheTotalNumberofCharactersInAstring;
 
 public class _1_CountTotalNumberOfCharacters {
 
