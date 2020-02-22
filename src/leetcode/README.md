@@ -34,6 +34,6 @@ Example 1:</br>
 
 	Input: "the sky is blue"</br>
 	Output: "blue is sky the"</br>
-### [Solution :](https://zichenwang.gitbooks.io/algorithms-summary/151-reverse-words-in-a-string.html)</br?
+### [Solution :](https://zichenwang.gitbooks.io/algorithms-summary/151-reverse-words-in-a-string.html)</br>
 
 ## Problem 4 : 
