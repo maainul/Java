@@ -3,8 +3,7 @@
 
 # String
 
-## Problem 1 : 
-[125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)</br>
+## Problem 1 : [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)</br>
 
 Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.</br>
 
@@ -16,6 +15,17 @@ Example 1:</br>
 	Output: true</br>
 
 ## Problem 2 : [344. Reverse String](https://leetcode.com/problems/reverse-string/)</br>
+Write a function that reverses a string. The input string is given as an array of characters char[].</br>
+
+Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.</br>
+
+You may assume all the characters consist of printable ascii characters.</br>
+
+Example 1:</br>
+
+	Input: ["h","e","l","l","o"]</br>
+	Output: ["o","l","l","e","h"]</br>
+
 ## Problem 3 : [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)</br>
 
 Given an input string, reverse the string word by word.</br>
@@ -24,4 +34,5 @@ Example 1:</br>
 
 	Input: "the sky is blue"</br>
 	Output: "blue is sky the"</br>
+	
 ## Problem 4 : 
