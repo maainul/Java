@@ -30,6 +30,13 @@ public class _22_StringSplit {
             System.out.println(w);  
         }  
         System.out.println("Split array length: "+arr.length);  
+	
+	
+        String testString = "012345678901234567890";
+        System.out.println
+           (java.util.Arrays.toString(testString.split("(?<=\\G.{3})")));
+        // output : [012, 345, 678, 901, 234, 567, 890]
+	
 	}
 }
 /*
