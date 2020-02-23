@@ -50,7 +50,7 @@ Example 2:</br>
 	Output: "leotcede"</br>
 Note:</br>
 The vowels does not include the letter "y</br>
-
+[Solution](https://codedestine.com/reverse-vowels-of-string/)
 
 
 
