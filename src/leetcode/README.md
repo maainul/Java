@@ -36,7 +36,7 @@ Example 1:</br>
 	Output: "blue is sky the"</br>
 ### [Solution :](https://zichenwang.gitbooks.io/algorithms-summary/151-reverse-words-in-a-string.html)</br>
 
-## [Problem 4 : 345. Reverse Vowels of a String (Easy)](https://leetcode.com/problems/reverse-vowels-of-a-string/)
+## Problem 4 : [345. Reverse Vowels of a String (Easy)](https://leetcode.com/problems/reverse-vowels-of-a-string/)
 
 Write a function that takes a string as input and reverse only the vowels of a string.</br>
 
@@ -50,7 +50,7 @@ Example 2:</br>
 	Output: "leotcede"</br>
 Note:</br>
 The vowels does not include the letter "y</br>
-[Solution](https://codedestine.com/reverse-vowels-of-string/)
+### [Solution](https://codedestine.com/reverse-vowels-of-string/)
 
 
 
