@@ -36,4 +36,19 @@ Example 1:</br>
 	Output: "blue is sky the"</br>
 ### [Solution :](https://zichenwang.gitbooks.io/algorithms-summary/151-reverse-words-in-a-string.html)</br>
 
-## Problem 4 : 
+## Problem 4 : 345. Reverse Vowels of a String (Easy) [Write a function that takes a string as input and reverse only the vowels of a string.]
+
+Example 1:</br>
+
+	Input: "hello"</br>
+	Output: "holle"</br>
+Example 2:</br>
+
+	Input: "leetcode"</br>
+	Output: "leotcede"</br>
+Note:</br>
+The vowels does not include the letter "y</br>
+
+
+
+
