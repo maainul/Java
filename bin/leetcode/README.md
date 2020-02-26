@@ -67,5 +67,3 @@ You may assume that both strings contain only lowercase letters.</br>
 canConstruct("a", "b") -> false</br>
 canConstruct("aa", "ab") -> false</br>
 canConstruct("aa", "aab") -> true</br>
-
-### [Solution](https://codedestine.com/ransom-note-string-problem/)
