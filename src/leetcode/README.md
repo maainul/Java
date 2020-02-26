@@ -81,4 +81,4 @@ return 0.</br>
 s = "loveleetcode",</br>
 return 2.</br>
 Note: You may assume the string contain only lowercase letters.</br>
-### [Solution]()</br>
+### [Solution](https://github.com/maainul/Java/blob/master/src/leetcode/String/_387_FirstUniqueCharacterInAString/_387_FirstUniqueCharacterInAString.java)</br>
