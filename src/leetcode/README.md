@@ -68,3 +68,17 @@ canConstruct("a", "b") -> false</br>
 canConstruct("aa", "ab") -> false</br>
 canConstruct("aa", "aab") -> true</br>
 ### [Solution](https://github.com/maainul/Java/blob/master/src/leetcode/String/_383_RansomNote/_383_RansomNote.java)</br>
+
+## Problem 6 : [387. First Unique Character in a String (Easy)](https://leetcode.com/problems/first-unique-character-in-a-string/)</br>
+Given a string, find the first non-repeating character in it and return it's index.</br>
+If it doesn't exist, return -1.</br>
+
+Examples:</br>
+
+s = "leetcode"</br>
+return 0.</br>
+
+s = "loveleetcode",</br>
+return 2.</br>
+Note: You may assume the string contain only lowercase letters.</br>
+### [Solution]()</br>

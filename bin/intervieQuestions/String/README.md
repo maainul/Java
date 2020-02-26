@@ -26,6 +26,6 @@
 
 [1. Java Program to find the frequency of characters](https://www.faceprep.in/program-to-find-the-frequency-of-characters-in-a-string/)</br>
 [2. Print characters and their frequencies in order of occurrence](https://www.geeksforgeeks.org/print-characters-frequencies-order-occurrence/)</br>
-[3. Print characters having even frequencies in order of occurrence]()</br>
-[4. Print characters having odd frequencies in order of occurrence](https://www.geeksforgeeks.org/print-characters-having-odd-frequencies-in-order-of-occurrence/)</br>
+[3. Print characters having even frequencies in order of occurrence](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/FC_3_CharactersHavingEvenFrequenciesInOrderOfOccurrence/FC_3_CharactersHavingEvenFrequenciesInOrderOfOccurrence.java)</br>
+[4. Print characters having odd frequencies in order of occurrence](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/FC_4_CharactersHavingOddFrequenciesInOrderOfOccurrence/FC_4_CharactersHavingOddFrequenciesInOrderOfOccurrence.java)</br>
 [5. Print characters having prime frequencies in order of occurrence](https://www.geeksforgeeks.org/print-characters-having-prime-frequencies-in-order-of-occurrence/)</br>
