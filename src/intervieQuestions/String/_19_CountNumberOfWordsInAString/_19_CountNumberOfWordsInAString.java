@@ -3,7 +3,7 @@ package intervieQuestions.String._19_CountNumberOfWordsInAString;
 public class _19_CountNumberOfWordsInAString {
 
 	public static void main(String[] args) {
-		String str =  "One two       three\n four\tfive  "; 
+		String str =  "hello"; 
 		boolean flag = true;
 		int count = 0;
 	
