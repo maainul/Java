@@ -31,6 +31,7 @@ public class _387_FirstUniqueCharacterInAString {
 
 		for (int i = 0; i < n; i++) {
 			freq[s.charAt(i) - 'a']++;
+
 		}
 
 		for (int i = 0; i < n; i++) {
