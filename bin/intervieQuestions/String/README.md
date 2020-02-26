@@ -13,7 +13,6 @@
 [12) Java Program to replace the spaces of a string with a specific character](https://www.javatpoint.com/java-program-to-replace-the-spaces-of-a-string-with-a-specific-character)</br>
 [13) Java Program to determine whether a given string is palindrome](https://www.javatpoint.com/java-program-to-determine-whether-a-given-string-is-palindrome)</br>
 [14) Java Program to determine whether one string is a rotation of another](https://www.javatpoint.com/java-program-to-determine-whether-one-string-is-a-rotation-of-another)</br>
-[15) Java Program to find the frequency of characters](https://www.javatpoint.com/java-program-to-find-the-frequency-of-characters)</br>
 [16) Java Program to find maximum and minimum occurring character in a string](https://www.javatpoint.com/java-program-to-find-maximum-and-minimum-occurring-character-in-a-string)</br>
 [17) Java Program to find Reverse of the string](https://www.javatpoint.com/java-program-to-find-reverse-of-the-string)</br>
 [18) Java program to find the duplicate characters in a string](https://www.javatpoint.com/java-program-to-find-the-duplicate-characters-in-a-string)</br>
@@ -24,8 +23,9 @@
 [23) Java Program to swap two string variables without using third or temp variable.](https://www.javatpoint.com/java-program-to-swap-two-string-variables-without-using-third-or-temp-variable)</br>
 
 # String Frequency Calculation
-[Print characters and their frequencies in order of occurrence](https://www.geeksforgeeks.org/print-characters-frequencies-order-occurrence/)</br>
-[Print characters having even frequencies in order of occurrence](https://www.geeksforgeeks.org/print-characters-having-even-frequencies-in-order-of-occurrence/)</br>
-[]()</br>
-[]()</br>
-[]()</br>
+
+[1. Java Program to find the frequency of characters](https://www.faceprep.in/program-to-find-the-frequency-of-characters-in-a-string/)</br>
+[2. Print characters and their frequencies in order of occurrence](https://www.geeksforgeeks.org/print-characters-frequencies-order-occurrence/)</br>
+[3. Print characters having even frequencies in order of occurrence](https://www.geeksforgeeks.org/print-characters-having-even-frequencies-in-order-of-occurrence/)</br>
+[4. Print characters having odd frequencies in order of occurrence](https://www.geeksforgeeks.org/print-characters-having-odd-frequencies-in-order-of-occurrence/)</br>
+[5. Print characters having prime frequencies in order of occurrence](https://www.geeksforgeeks.org/print-characters-having-prime-frequencies-in-order-of-occurrence/)</br>

@@ -25,7 +25,7 @@ Program to find the frequency of characters in a string is given below.
 
 
  */
-package intervieQuestions.String._15_FrequencyOfString;
+package intervieQuestions.String._15_FrequencyOfCharactersFromAString;
 
 public class _15_FrequencyOfStringUsingAsciiValue {
 

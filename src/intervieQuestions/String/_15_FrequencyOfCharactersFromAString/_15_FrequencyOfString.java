@@ -35,7 +35,7 @@ ALGORITHM
 	STEP 16: END
 
  */
-package intervieQuestions.String._15_FrequencyOfString;
+package intervieQuestions.String._15_FrequencyOfCharactersFromAString;
 
 public class _15_FrequencyOfString {
  

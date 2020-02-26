@@ -67,5 +67,4 @@ You may assume that both strings contain only lowercase letters.</br>
 canConstruct("a", "b") -> false</br>
 canConstruct("aa", "ab") -> false</br>
 canConstruct("aa", "aab") -> true</br>
-
-### [Solution](https://codedestine.com/ransom-note-string-problem/)
+### [Solution](https://github.com/maainul/Java/blob/master/src/leetcode/String/_383_RansomNote/_383_RansomNote.java)</br>

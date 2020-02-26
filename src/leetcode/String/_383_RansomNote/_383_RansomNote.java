@@ -1,4 +1,5 @@
 /*
+ * (https://codedestine.com/ransom-note-string-problem/)
 383. Ransom Note Easy
 
 Given an arbitrary ransom note string and another string containing letters from all the magazines, 
@@ -17,31 +18,32 @@ canConstruct("aa", "aab") -> true
 package leetcode.String._383_RansomNote;
 
 public class _383_RansomNote {
-	 
-    public static void main(String[] args) {        
-        _383_RansomNote main = new _383_RansomNote();
-        boolean result = main.canConstruct("sun", "aubcghimnoprsnab");
-        System.out.println(result);
-    }
-     
-    /* Solution */
-    public boolean canConstruct(String ransomNote, String magazine) {
-         
-        char[] array = magazine.toCharArray();
-         
-        int[] countArray = new int[26];        
-        for(char c : array){            
-            countArray[c-'a']++;
-        }
-         
-        array = ransomNote.toCharArray();
-        for(char c : array){   
-            if(countArray[c-'a'] > 0){
-                countArray[c-'a']--;
-            }else {
-                return false;
-            }            
-        }
-        return true;
-    }
+
+	public static void main(String[] args) {
+		_383_RansomNote main = new _383_RansomNote();
+		boolean result = main.canConstruct("aa", "ab");
+		System.out.println(result);
+	}
+
+	/* Solution */
+	public boolean canConstruct(String ransomNote, String magazine) {
+		// 1. store the count of each of the characters in an array.
+		int[] array = new int[26];
+		// 2. Traverse the string, character by character and 
+		for (int i = 0; i < magazine.length(); i++) {
+		//3. store the count of each of the characters in an array.
+			array[magazine.charAt(i) - 'a']++;
+		}
+
+		for (int i = 0; i < ransomNote.length(); i++) {
+			if (array[ransomNote.charAt(i) - 'a'] > 0) {
+				array[ransomNote.charAt(i) - 'a']--;
+			} else {
+				return false;
+			}
+
+		}
+		return true;
+
+	}
 }
