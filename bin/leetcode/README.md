@@ -53,7 +53,7 @@ The vowels does not include the letter "y</br>
 ### [Solution](https://codedestine.com/reverse-vowels-of-string/)
 
 
-## Problem 5: [383. Ransom Note (Easy)]
+## Problem 5: [383. Ransom Note (Easy)](https://leetcode.com/problems/ransom-note/)</br>
 
 Given an arbitrary ransom note string and another string containing letters from all the magazines, </br>
 write a function that will return true if the ransom note can be constructed from the magazines ; </br>
@@ -82,3 +82,16 @@ s = "loveleetcode",</br>
 return 2.</br>
 Note: You may assume the string contain only lowercase letters.</br>
 ### [Solution](https://github.com/maainul/Java/blob/master/src/leetcode/String/_387_FirstUniqueCharacterInAString/_387_FirstUniqueCharacterInAString.java)</br>
+
+## Problem 7: [434. Number of Segments in a String (Easy)](https://leetcode.com/problems/number-of-segments-in-a-string/)</br>
+
+Count the number of segments in a string, where a segment </br>
+is defined to be a contiguous sequence of non-space characters.</br>
+
+Please note that the string does not contain any non-printable characters.</br>
+
+Example:</br>
+
+Input: "Hello, my name is John</br>
+Output: 5</br>
+### [Solution](https://github.com/maainul/Java/blob/master/src/leetcode/String/_434_NumberofSegmentsinaString/_434_NumberofSegmentsinaString.java)</br>
