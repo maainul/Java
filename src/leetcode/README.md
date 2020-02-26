@@ -53,7 +53,7 @@ The vowels does not include the letter "y</br>
 ### [Solution](https://codedestine.com/reverse-vowels-of-string/)
 
 
-## Problem 5: [383. Ransom Note (Easy)]
+## Problem 5: [383. Ransom Note (Easy)](https://leetcode.com/problems/ransom-note/)</br>
 
 Given an arbitrary ransom note string and another string containing letters from all the magazines, </br>
 write a function that will return true if the ransom note can be constructed from the magazines ; </br>
