@@ -34,42 +34,40 @@ public class _414_ThirdMaximumNumber {
 
 	public static void main(String[] args) {
 		System.out.println("414. Third Maximum Number (Easy)");
-		
-		int[] nums = {12, 16};
-		
+
+		int[] nums = { 12, 16, 15};
+
 		System.out.println("\nInput :");
 		for (int i = 0; i < nums.length; i++) {
-			System.out.print(nums[i]+" ");
+			System.out.print(nums[i] + " ");
 		}
-		
-		
+
 		System.out.println("\n\nOutput :");
-		
+
 		System.out.println(thirdMax(nums));
-		
-		
-		
-		
+
 	}
+
 	public static int thirdMax(int[] nums) {
-        Integer First = null;
-        Integer Second = null;
-        Integer Third = null;
-        
-        for (Integer value : nums) {
-            if (value.equals(First) || value.equals(Second) || value.equals(Third)) continue;
-            if (First == null || value > First) {
-                Third = Second;
-                Second = First;
-                First = value;
-            } else if (Second == null || value > Second) {
-                Third = Second;
-                Second = value;
-            } else if (Third == null || value > Third) {
-                Third = value;
-            }
-        }
-        
-        return Third == null ? First : Third;
-    }
+		Integer First = null;
+		Integer Second = null;
+		Integer Third = null;
+
+		for (Integer value : nums) {
+			if (value.equals(First) || value.equals(Second) || value.equals(Third))
+				continue;
+			if (First == null || value > First) {
+				Third = Second;
+				Second = First;
+				First = value;
+			} else if (Second == null || value > Second) {
+				Third = Second;
+				Second = value;
+			} else if (Third == null || value > Third) {
+				Third = value;
+			}
+		}
+
+		return Third == null ? First : Third;
+	}
 }

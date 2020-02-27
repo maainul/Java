@@ -26,12 +26,12 @@ public class _268_MissingNumber{
 
 	public static void main(String[] args) {
 		System.out.println("268. Missing Number (Easy)");
-		int[] nums = {2,1};
+		int[] nums = {2,1,4,5,7,6};
 		//// Java Solution 1 - Math
-		System.out.println(missingNumber(nums));
+		//System.out.println(missingNumber(nums));
 		
 		//Java Solution 2 - Bit
-		System.out.println(missingNumberBit(nums));
+		//System.out.println(missingNumberBit(nums));
 		
 		//Java Solution 3 - Binary Search
 		System.out.println(missingNumberBinarySearchMethod(nums));
