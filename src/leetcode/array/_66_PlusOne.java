@@ -30,7 +30,7 @@ public class _66_PlusOne {
 	public static void main(String[] args) {
 		System.out.println("136. Plus One (Easy)");
 		
-		int[] digits = {9,9,9,9};
+		int[] digits = {4,9,9,9};
 		System.out.println("\n\nOriginal Array : " + Arrays.toString(digits));
 		
 		System.out.println("\n\nPlus One Array : " + Arrays.toString(solutions(digits)));
@@ -43,7 +43,7 @@ public class _66_PlusOne {
 	            return digits;
 	        }
 	        digits[i]=0; //carry handled by next iteration for loop
-	    }
+	    }                 
 	    //didn't return yet so digits were all 9's
 	    int[] result = new int[digits.length+1];
 	    result[0] = 1;
