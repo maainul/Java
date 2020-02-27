@@ -95,3 +95,22 @@ Example:</br>
 Input: "Hello, my name is John</br>
 Output: 5</br>
 ### [Solution](https://github.com/maainul/Java/blob/master/src/leetcode/String/_434_NumberofSegmentsinaString/_434_NumberofSegmentsinaString.java)</br>
+
+## Problem 8 :[459. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)</br>
+
+Given a non-empty string check if it can be constructed by taking a substring</br> 
+of it and appending multiple copies of the substring together. </br>
+You may assume the given string consists of </br>
+lowercase English letters only and its length will not exceed 10000.</br>
+
+Example 1:</br>
+
+Input: "abab"</br>
+Output: True</br>
+Explanation: It's the substring "ab" twice.</br>
+
+Example 2:</br>
+
+Input: "abcabcabcabc"</br>
+Output: True</br>
+Explanation: It's the substring "abc" four times. (And the substring "abcabc" twice.)</br>
