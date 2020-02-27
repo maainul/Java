@@ -6,7 +6,7 @@
 35. Search Insert Position
 53.	Maximum Subarray
 66.	Plus One
-88.	Merge Sorted Array
+[88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)</br>
 189. Rotate Array
 217. Contains Duplicate
 219. Contains Duplicate II

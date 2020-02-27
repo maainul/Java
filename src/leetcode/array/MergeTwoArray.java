@@ -45,9 +45,20 @@ public class MergeTwoArray {
 		
 		int m = 3;
 		int n = 3;
+		int k = 1;
 
-
-		Merge.merge(nums1, nums2,m,n);
+		//Merge.merge(nums1, nums2,m,n);
+		
+		for(int i = nums1.length-1; i>=0;i--) {
+			while(n-k >=0) {
+				nums1[i] = nums2[k];
+				k++;
+			}
+		}
+		
+		for(int i = 0; i<nums1.length; i++) {
+			System.out.println(nums1[i]);
+		}
 	
 		
 		
