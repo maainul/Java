@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.array;
 
 class Number{
 	 int x;

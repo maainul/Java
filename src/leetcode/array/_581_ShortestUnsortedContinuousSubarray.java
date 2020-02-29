@@ -43,6 +43,15 @@ public class _581_ShortestUnsortedContinuousSubarray {
 }
 
 	private static int findUnsortedSubarray(int[] nums) {
+		/************************* 
+		Another way to clone array to another array.
+		int[] array = new int[nums.length];
+		for (int i = 0; i < nums.length; i++) {
+			array[i] = nums[i];
+		}
+		Arrays.sort(array);
+		************************/
+		
 		int[] snums = nums.clone();
 		Arrays.parallelSort(snums);
 		int start = snums.length,end = 0;
@@ -52,7 +61,7 @@ public class _581_ShortestUnsortedContinuousSubarray {
 				end = Math.max(end, i);
 			}
 		}
-		return (end-start >= 0 ? (end-start+1):0);
+		return (end-start >= 0 )? (end-start+1): 0;
 	}
 
 }
