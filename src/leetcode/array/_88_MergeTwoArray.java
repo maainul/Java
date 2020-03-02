@@ -31,7 +31,6 @@ public class _88_MergeTwoArray {
 
 		int m = 3;
 		int n = 3;
-		int k = 1;
 
 		mergeArray(nums1, nums2, m, n);
 

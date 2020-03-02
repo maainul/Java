@@ -27,34 +27,33 @@ import java.util.Arrays;
 public class _1051_HeightChecker {
 
 	public static void main(String[] args) {
-		
+
 		System.out.println("1051. Height Checker (Easy)");
-		
-		//int[] heights = {1,1,4,2,1,3};
-		int[] heights = {1,2,3,9,1,5,4};
-		
+
+		// int[] heights = {1,1,4,2,1,3};
+		int[] heights = { 1, 2, 3, 9, 1, 5, 4 };
+
 		System.out.println("\nInput :");
 		for (int i = 0; i < heights.length; i++) {
-			System.out.print(heights[i]+" ");
+			System.out.print(heights[i] + " ");
 		}
-		
-		System.out.println("\n\nOutput :");
-		
-		System.out.println(heightChecker(heights));	 
-}
 
-	 public static int heightChecker(int[] heights) {
-		 int[] snums = heights.clone();
-		 int count = 0;
-		 Arrays.parallelSort(snums);
-		 for (int i = 0; i < snums.length; i++) {
-			if(snums[i] != heights[i]) {
+		System.out.println("\n\nOutput :");
+
+		System.out.println(heightChecker(heights));
+	}
+
+	public static int heightChecker(int[] heights) {
+		int[] snums = heights.clone();
+		int count = 0;
+		Arrays.parallelSort(snums);
+		for (int i = 0; i < snums.length; i++) {
+			if (snums[i] != heights[i]) {
 				count++;
 			}
 		}
 		return count;
-	        
-	  }
-	
+
+	}
 
 }

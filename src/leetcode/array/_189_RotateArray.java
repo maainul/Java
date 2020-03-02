@@ -23,7 +23,7 @@ public class _189_RotateArray {
 	                temp = nums[j];
 	                nums[j] = previous;
 	                previous = temp;
-	            }
+	            } 
 	        }
 	    }
 
