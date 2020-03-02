@@ -14,6 +14,3 @@
 387.First Unique Character in a String (Easy)[Solution](https://github.com/maainul/Java/blob/master/src/leetcode/String/_387_FirstUniqueCharacterInAString/_387_FirstUniqueCharacterInAString.java)</br>
 434.Number of Segments in a String (Easy)[Solution](https://github.com/maainul/Java/blob/master/src/leetcode/String/_434_NumberofSegmentsinaString/_434_NumberofSegmentsinaString.java)</br>
 459.Repeated Substring Pattern</br>
-344.Reverse String	
-345.Reverse Vowels of a String	
-
