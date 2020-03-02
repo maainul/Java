@@ -29,12 +29,14 @@ You need to reduce multiple spaces between two words to a single space in the re
  */
 package leetcode.String._151_ReverseWordOfString;
 
+import java.util.Arrays;
+
 public class _151_ReverseWordOfString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String string = "  hello world!  ";
-		reverse(string);
+		String string = "  hello you world!  ";
+		//reverse(string);
 		System.out.println(reverse(string));
 	}
 
@@ -52,5 +54,6 @@ public class _151_ReverseWordOfString {
 		return sBuilder.toString().trim();
 		
 	}
-
+	
+	
 }
