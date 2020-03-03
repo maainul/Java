@@ -28,9 +28,9 @@ compare first and last characters.
 
  */
 
-package intervieQuestions.String.CC_6_CountSubstringsWithSameFirstAndLastCharacters;
+package intervieQuestions.String.CC_15_CountSubstringsWithSameFirstAndLastCharacters;
 
-public class _6_CountSubstringsWithSameFirstAndLastCharacters {
+public class _15_CountSubstringsWithSameFirstAndLastCharacters {
 	// Space efficient Java program to count all 
 	// substrings with same first and last characters. 
 	public static void main(String[] args) {
