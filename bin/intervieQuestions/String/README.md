@@ -24,8 +24,8 @@
 
 # [Character Counting Based Problems :](https://www.geeksforgeeks.org/string-data-structure/#sorting%20&%20searching)</br>
 
-1.Count Uppercase, Lowercase, special character and numeric values</br>
-2.Find the smallest window in a string containing all characters of another string</br>
+:heavy_check_mark:1.Count Uppercase, Lowercase, special character and numeric values</br>
+:x:2.Find the smallest window in a string containing all characters of another string</br>
 3.Smallest window that contains all characters of string itself</br>
 4.Count number of substrings with exactly k distinct characters</br>
 5.Number of substrings with count of each character as k</br>

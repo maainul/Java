@@ -42,8 +42,6 @@ public class _1_CountUppercaseLowercaseSpecialCharacterAndNumericValues {
 			}else {
 				specialCharacter++;
 			}
-				
-			
 		}
 		
 		System.out.println("Upper Case Character :"+upperCase);
