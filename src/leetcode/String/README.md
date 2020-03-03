@@ -1,7 +1,5 @@
 # String
 
-12.Integer to Roman</br>
-13.Roman to Integer</br>
 14.Longest Common Prefix</br>
 28.Implement strStr()</br>
 58.Length of Last Word</br>
