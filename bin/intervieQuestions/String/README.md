@@ -30,11 +30,11 @@
 :x:4.Count number of substrings with exactly k distinct characters</br>
 :x:5.Number of substrings with count of each character as k</br>
 :x:6.String with k distinct characters and no same characters adjacent</br>
-:x:7.Number of substrings of a string</br>
+:heavy_check_mark:[7.Number of substrings of a string](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/CC_7_NumberOfSubstringsOfaString/_7_NumberOfSubstringsOfaString.java)</br>
 :x:8.Distinct strings with odd and even changes allowed</br>
 :x:9.Find k’th character of decrypted string</br>
 :x:10.Count characters at same position as in English alphabets</br>
-:x:11. Count words in a given string</br>
+:heavy_check_mark:[11. Count words in a given string](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/CC_3_CountNumberOfWords/_3_CountNumberOfWords.java)</br>
 :x:12. Count words present in a string</br>
 :x:13. Count of words whose i-th letter is either (i-1)-th, i-th, or (i+1)-th letter of given word</br>
 :x:14. Program to find Smallest and Largest Word in a String</br>
