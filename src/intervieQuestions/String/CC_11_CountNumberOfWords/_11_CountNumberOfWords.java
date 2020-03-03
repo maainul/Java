@@ -1,4 +1,4 @@
-package intervieQuestions.String.CC_3_CountNumberOfWords;
+package intervieQuestions.String.CC_11_CountNumberOfWords;
 /* 
  
    Java program to count no of words
@@ -9,7 +9,7 @@ package intervieQuestions.String.CC_3_CountNumberOfWords;
    or a combination of these.
       
 */
-public class _3_CountNumberOfWords {    
+public class _11_CountNumberOfWords {    
     // Driver program to test above functions 
     public static void main(String args[]) {
     	String str = "One two       three\n four\tfive  "; 
