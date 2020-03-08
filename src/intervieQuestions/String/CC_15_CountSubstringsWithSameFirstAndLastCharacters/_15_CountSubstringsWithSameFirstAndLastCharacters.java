@@ -36,35 +36,9 @@ public class _15_CountSubstringsWithSameFirstAndLastCharacters {
 	public static void main(String[] args) {
 		 String s = "abcab"; 
 	     System.out.println(countSubstringWithEqualEnds2(s)); 
-	     
-	     System.out.println(countSubstringWithEqualEnds1(s)); 
-	       
+	         
 	}
-
-	 static int countSubstringWithEqualEnds1(String s) 
-	    { 
-	        int result = 0; 
-	        int n = s.length(); 
-	       
-	        // Starting point of substring 
-	        for (int i = 0; i < n; i++) 
-	       
-	           // Length of substring 
-	           for (int j = 1; j <= n-i; j++) 
-	       
-	              // Check if current substring has same 
-	              // starting and ending characters. 
-	              if (checkEquality(s.substring(i, i + j))) 
-	                result++; 
-	       
-	        return result; 
-	    } 
-	       
-	private static boolean checkEquality(String s) {
-		 return (s.charAt(0) == s.charAt(s.length() - 1)); 
-		
-	}
-
+	
 	private static int countSubstringWithEqualEnds2(String s) {
 		  int result = 0; 
 	      int n = s.length(); 
