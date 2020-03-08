@@ -38,7 +38,7 @@
 :x:12. Count words present in a string</br>
 :x:13. Count of words whose i-th letter is either (i-1)-th, i-th, or (i+1)-th letter of given word</br>
 :x:14. Program to find Smallest and Largest Word in a String</br>
-:x:15. Count substrings with same first and last characters</br>
+:heavy_check_mark:[15. Count substrings with same first and last characters](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/CC_15_CountSubstringsWithSameFirstAndLastCharacters/_15_CountSubstringsWithSameFirstAndLastCharacters.java)</br>
 :x:16. Recursive solution to count substrings with same first and last characters</br>
 :x:17. Count of distinct substrings of a string using Suffix Array</br>
 :x:18. Count of distinct substrings of a string using Suffix Trie</br>
