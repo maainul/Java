@@ -19,7 +19,7 @@ Input :  alphabetical
 Output :  3 
  
 **********************************/
-package intervieQuestions.String._10_CountCharactersAtSamePositionAsInEnglishAlphabets;
+package intervieQuestions.String._CC_10_CountCharactersAtSamePositionAsInEnglishAlphabets;
 
 //Java program to find number of 
 //characters at same position 
