@@ -1,5 +1,5 @@
 package intervieQuestions.String._CC_14_ProgramtoFindSmallestAndLargestWordInaString;
-
+// https://www.sanfoundry.com/java-program-find-largest-smallest-word/
 //Java program to Find the Largest and Smallest Word.
 
 public class _14_ProgramtoFindSmallestAndLargestWordInaString {
@@ -7,11 +7,13 @@ public class _14_ProgramtoFindSmallestAndLargestWordInaString {
 		String str = "This is mainul Hasan";
 		largestAndSmallWord(str);
 	}
-	
+	 
 	public static void largestAndSmallWord(String s) {
 		// 1. split word
+		// String  result = "AniMal   ".trim().toLowerCase().replace('a', 'A');
+		// System.out.print(result);
 		String[] arr = s.split(" ");
-		// 2. declear value
+		// 2. Declare value
 		int maxLength,minLength;
 		String smallest,largest;
 		smallest = largest = "";
