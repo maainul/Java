@@ -15,7 +15,7 @@ public class EqualsOperator {
 		String s3 = new String("Mainul");
 		String s4 = new String("ABC");
 		
-		System.out.println(str== s1); // false
+		System.out.println(str== s1); // false 
 		System.out.println(str2== s2); // false
 		System.out.println(str== str2); // false
 		System.out.println(s1== s3); // false

@@ -155,6 +155,8 @@ If one reference variable changes the value of the object,
 it will be affected to all the reference variables. 
 That is why string objects are immutable in java.
 ```
+![20200215_112611](https://user-images.githubusercontent.com/37740006/76370475-23b0fa80-6361-11ea-8e68-be3ab83701be.jpg)
+
 # Chapter 3 : Java String compare
 ```
 We can compare string in java on the basis of content and reference.
