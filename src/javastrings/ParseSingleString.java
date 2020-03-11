@@ -1,8 +1,9 @@
+/*
 package javastrings;
 
 
 import java.io.IOException;
-;
+
 
 
 public class ParseSingleString {
@@ -15,7 +16,7 @@ public class ParseSingleString {
 				+ "2017-05-04,158.889999,159.139999,158.360001,159.050003,139.430511,4280600"
 				+ "2017-05-05,153.520004,155.779999,153.000000,155.050003,135.923920,12521300";
 				
-		String[] newarray = new String[1000];
+		//String[] newarray = new String[1000];
 	
 		String[] splitStrings = sampleResponse.split("2017");
 		 
@@ -24,7 +25,7 @@ public class ParseSingleString {
 		}
 		
 		
-	//	System.out.println(splitStrings);
+		System.out.println(splitStrings);
 		String sampleResponseSplit = "Date,Open,High,Low,Close,Adj Close,Volume"
 				+ "\n2017-05-01,160.050003,160.419998,158.699997,158.839996,139.246414,4935300"
 				+ "\n2017-05-02,159.440002,159.490005,158.639999,159.100006,139.474350,3208200"
@@ -33,3 +34,4 @@ public class ParseSingleString {
 	
 	}
 }
+*/
