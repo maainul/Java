@@ -17,7 +17,7 @@ package intervieQuestions.String._CC_24_PrintCommonCharactersOfTwoStringsinAlpha
 public class _24_PrintCommonCharactersOfTwoStringsinAlphabeticalOrder {
 
 	public static void main(String[] args) {
-		printstring("hhhhello", "gfghhmh");
+		printstring("gekse", "forgeeks");
 
 	}
 
