@@ -11,22 +11,47 @@ Different permutations are "aab",
 
 Input : ybghjhbuytb
 Output : 1663200
+
+Recommended: Please try your approach on {IDE} first, before moving on to the solution.
+A simple solution is to find all the distinct permutation and count them.
+
+We can find the count without finding all permutation. Idea is to find all the characters that is getting repeated, i.e., frequency of all the character. Then, we divide the factorial of the length of string by multiplication of factorial of frequency of characters.
+
+In second example, number of character is 11 and here h and y are repeated 2 times whereas g is repeated 3 times.
+So, number of permutation is 11! / (2!2!3!) = 1663200
+
+Below is the implementation of above idea.
+
 */
 package intervieQuestions.String._CC_34_NumberofDistinctPermutationaStringCanhave;
-
-public class _CC_32_NumberofDistinctPermutationaStringCanhave {
-
-	public static void main(String[] args) {
-		String str = "aab";
-		System.out.println(permutation(str));
-
+//Java program to find number of distinct 
+//permutations of a string. 
+public class _CC_32_NumberofDistinctPermutationaStringCanhave { 
+	public static void main(String args[]) 
+	{ 
+		String str = "abccddff"; 
+		System.out.println(countPermutation(str)); 
 	}
 
-	private static int permutation(String str) {
+	private static int countPermutation(String str) {
+		int length = str.length();
+		int[] freq = new int[26];
+		for (int i = 0; i < length; i++) {
+			freq[str.charAt(i)-'a']++;
+		}
 		
-		return 0;
+		int fact = 1;
+		for (int i = 0; i < 26; i++) {
+			fact = fact * factorial(freq[i]);
+		}
+		return factorial(length)/fact;
 	}
 
-
-
-}
+	private static int factorial(int n) {
+		int fact = 1;
+		for (int i = 2; i <= n; i++) {
+			fact = fact * i;
+		}
+		return fact;
+	} 
+} 
