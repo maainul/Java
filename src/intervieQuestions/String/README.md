@@ -26,15 +26,15 @@
 :x:23. Print all distinct characters of a string in order (3 Methods)</br>
 :heavy_check_mark:[24. Print common characters of two Strings in alphabetical order](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/_CC_24_PrintCommonCharactersOfTwoStringsinAlphabeticalOrder/_24_PrintCommonCharactersOfTwoStringsinAlphabeticalOrder.java)</br>
 :x:25. Common characters in n strings</br>
-:x:. Find uncommon characters of the two strings</br>
-:x:. Concatenated string with uncommon characters of two strings</br>
-:x:28. Program to remove vowels from a String</br>
+:heavy_check_mark:[26.Find uncommon characters of the two strings]</br>
+:x:27.Concatenated string with uncommon characters of two strings</br>
+:heavy_check_mark:[28. Program to remove vowels from a String]</br>
 :x:29. Remove consecutive vowels from string</br>
-:x:30. Program to count vowels in a string (Iterative and Recursive)</br>
-:x:31. Coun26t consonants in a string (Iterative and recursive methods)</br>
-:x:32. Alter27nate vowel and consonant string</br>
+:heavy_check_mark:[30. Program to count vowels in a string (Iterative and Recursive)]</br>
+:heavy_check_mark:[31. Count consonants in a string (Iterative and recursive methods)]</br>
+:x:32. Alternate vowel and consonant string</br>
 :x:33. Given a binary string, count number of substrings that start and end with 1</br>
-:x:34. Number of distinct permutation a String can have</br>
+:heavy_check_mark:[34. Number of distinct permutation a String can have]</br>
 :x:35. Time complexity of all permutations of a string</br>
 :x:36. Permutations of a given string using STL</br>
 :x:37. Check if both halves of the string have same set of characters</br>
