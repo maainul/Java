@@ -29,7 +29,7 @@ package intervieQuestions.String._CC_34_NumberofDistinctPermutationaStringCanhav
 public class _CC_32_NumberofDistinctPermutationaStringCanhave { 
 	public static void main(String args[]) 
 	{ 
-		String str = "abccddff"; 
+		String str = "mithu"; 
 		System.out.println(countPermutation(str)); 
 	}
 

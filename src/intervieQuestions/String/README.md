@@ -37,7 +37,7 @@
 :heavy_check_mark:[34. Number of distinct permutation a String can have](https://www.geeksforgeeks.org/number-distinct-permutation-string-can/)</br>
 :x:35. Time complexity of all permutations of a string</br>
 :x:36. Permutations of a given string using STL</br>
-:x:37. Check if both halves of the string have same set of characters</br>
+:heavy_check_mark:[37. Check if both halves of the string have same set of characters](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/_CC_37_CheckBothHalfOfStringSameOfCharacter/_CC_37_CheckBothHalfOfStringSameOfCharacter.java)</br>
 :x:38. Count words that appear exactly two times in an array of words</br>
 :x:39. Check if frequency of all characters can become same by one removal</br>
 :x:40. Count ways to increase LCS length of two strings by one</br>
