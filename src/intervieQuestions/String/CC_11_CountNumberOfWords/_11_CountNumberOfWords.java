@@ -12,7 +12,7 @@ package intervieQuestions.String.CC_11_CountNumberOfWords;
 public class _11_CountNumberOfWords {    
     // Driver program to test above functions 
     public static void main(String args[]) {
-    	String str = "One two       three\n four\tfive  "; 
+    	String str = "One two              three\n     four\tfive  "; 
     	System.out.println(countWordmethod(str));
         
     }
@@ -39,3 +39,10 @@ public class _11_CountNumberOfWords {
 		
 	} 
 } 
+
+
+
+
+
+
+
