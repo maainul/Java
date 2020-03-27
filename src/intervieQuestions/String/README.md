@@ -41,7 +41,7 @@
 :x:38. Count words that appear exactly two times in an array of words</br>
 :x:39. Check if frequency of all characters can become same by one removal</br>
 :x:40. Count ways to increase LCS length of two strings by one</br>
-:heavy_check_mark:[41. Find the character in first string that is present at minimum index in second string](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/_CC_41_FindTheCharacterInFirstStringThatIsPresentAtMinimumIndexInSecondString/_CC_41_FindTheCharacterInFirstStringThatIsPresentAtMinimumIndexInSecondString.java)</br>
+:heavy_check_mark:[41. Find the character in first string that is present at minimum index in second string]</br>
 :x:42. Remove characters from the first string which are present in the second string</br>
 :x:43. Length of Longest sub-string that can be removed</br>
 :x:44. Count of character pairs at same distance as in English alphabets</br>
