@@ -41,14 +41,14 @@
 :x:38. Count words that appear exactly two times in an array of words</br>
 :x:39. Check if frequency of all characters can become same by one removal</br>
 :x:40. Count ways to increase LCS length of two strings by one</br>
-:heavy_check_mark:41. Find the character in first string that is present at minimum index in second string(https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/_CC_41_FindTheCharacterInFirstStringThatIsPresentAtMinimumIndexInSecondString/_CC_41_FindTheCharacterInFirstStringThatIsPresentAtMinimumIndexInSecondString.java)</br>
+:heavy_check_mark:[41. Find the character in first string that is present at minimum index in second string](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/_CC_41_FindTheCharacterInFirstStringThatIsPresentAtMinimumIndexInSecondString/_CC_41_FindTheCharacterInFirstStringThatIsPresentAtMinimumIndexInSecondString.java)</br>
 :x:42. Remove characters from the first string which are present in the second string</br>
 :x:43. Length of Longest sub-string that can be removed</br>
 :x:44. Count of character pairs at same distance as in English alphabets</br>
 :x:45. Count number of equal pairs in a string</br>
 :x:46. Count of strings where adjacent characters are of difference one</br>
 :heavy_check_mark:[47. Print number of words, vowels and frequency of each character](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/_CC_47_PrintWordVowelCharacter/_CC_47_PrintWordVowelCharacter.java)</br>
-
+ 
 # String Frequency Calculation
 
 [1. Java Program to find the frequency of characters](https://www.faceprep.in/program-to-find-the-frequency-of-characters-in-a-string/)</br>
