@@ -14,14 +14,9 @@
 :x:13. Count of words whose i-th letter is either (i-1)-th, i-th, or (i+1)-th letter of given word</br>
 :heavy_check_mark:[14. Program to find Smallest and Largest Word in a String](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/CC_14_ProgramtoFindSmallestAndLargestWordInaString/_14_ProgramtoFindSmallestAndLargestWordInaString.java)</br>
 :heavy_check_mark:[15. Count substrings with same first and last characters](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/CC_15_CountSubstringsWithSameFirstAndLastCharacters/_15_CountSubstringsWithSameFirstAndLastCharacters.java)</br>
-
 :x:17. Count of distinct substrings of a string using Suffix Array</br>
-
 :x:19. Count number of strings (made of R, G and B) using given combination</br>
-
-
 :x:22. Group words with same set of characters</br>
-
 :heavy_check_mark:[24. Print common characters of two Strings in alphabetical order](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/_CC_24_PrintCommonCharactersOfTwoStringsinAlphabeticalOrder/_24_PrintCommonCharactersOfTwoStringsinAlphabeticalOrder.java)</br>
 :x:25. Common characters in n strings</br>
 :heavy_check_mark:[26.Find uncommon characters of the two strings](https://www.geeksforgeeks.org/find-uncommon-characters-two-strings/)</br>
@@ -31,17 +26,15 @@
 :heavy_check_mark:[30. Program to count vowels in a string (Iterative and Recursive)](https://www.geeksforgeeks.org/program-count-vowels-string-iterative-recursive/)</br>
 :heavy_check_mark:[31. Count consonants in a string (Iterative and recursive methods)](https://www.geeksforgeeks.org/count-consonants-string-iterative-recursive-methods/)</br>
 :x:32. Alternate vowel and consonant string</br>
-
 :heavy_check_mark:[34. Number of distinct permutation a String can have](https://www.geeksforgeeks.org/number-distinct-permutation-string-can/)</br>
 :x:35. Time complexity of all permutations of a string</br>
 :x:36. Permutations of a given string using STL</br>
 :heavy_check_mark:[37. Check if both halves of the string have same set of characters](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/_CC_37_CheckBothHalfOfStringSameOfCharacter/_CC_37_CheckBothHalfOfStringSameOfCharacter.java)</br>
-
 :x:41. Count ways to increase LCS length of two strings by one</br>
 :heavy_check_mark:[42. Find the character in first string that is present at minimum index in second string](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/_CC_41_FindTheCharacterInFirstStringThatIsPresentAtMinimumIndexInSecondString/_CC_41_FindTheCharacterInFirstStringThatIsPresentAtMinimumIndexInSecondString.java)</br>
-:x:43. Remove characters from the first string which are present in the second string</br>
+:heavy_check_mark:[43.Remove characters from the first string which are present in the second string](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/CC_43_RemoveCharactersFromTheFirstStringWhichArepresentInTheSecondString/CC_43_RemoveCharactersFromTheFirstStringWhichArepresentInTheSecondString.java)</br>
 :x:44. Length of Longest sub-string that can be removed</br>
-:heavy_check_mark:[45. Count of character pairs at same distance as in English alphabets](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/CC_45_CountofCharacterPairsAtSameDistanceAsinEnglishAlphabets/CC_45_CountofCharacterPairsAtSameDistanceAsinEnglishAlphabets.java))</br>
+:heavy_check_mark:[45. Count of character pairs at same distance as in English alphabets](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/CC_45_CountofCharacterPairsAtSameDistanceAsinEnglishAlphabets/CC_45_CountofCharacterPairsAtSameDistanceAsinEnglishAlphabets.java)</br>
 :x:46. Count number of equal pairs in a string</br>
 :x:47. Count of strings where adjacent characters are of difference one</br>
 :heavy_check_mark:[48. Print number of words, vowels and frequency of each character](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/_CC_47_PrintWordVowelCharacter/_CC_47_PrintWordVowelCharacter.java)</br>
