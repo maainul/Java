@@ -32,9 +32,9 @@
 :heavy_check_mark:[37. Check if both halves of the string have same set of characters](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/_CC_37_CheckBothHalfOfStringSameOfCharacter/_CC_37_CheckBothHalfOfStringSameOfCharacter.java)</br>
 :x:41. Count ways to increase LCS length of two strings by one</br>
 :heavy_check_mark:[42. Find the character in first string that is present at minimum index in second string](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/_CC_41_FindTheCharacterInFirstStringThatIsPresentAtMinimumIndexInSecondString/_CC_41_FindTheCharacterInFirstStringThatIsPresentAtMinimumIndexInSecondString.java)</br>
-:x:43. Remove characters from the first string which are present in the second string</br>
+:heavy_check_mark:[43.Remove characters from the first string which are present in the second string](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/CC_43_RemoveCharactersFromTheFirstStringWhichArepresentInTheSecondString/CC_43_RemoveCharactersFromTheFirstStringWhichArepresentInTheSecondString.java)</br>
 :x:44. Length of Longest sub-string that can be removed</br>
-:heavy_check_mark:[45. Count of character pairs at same distance as in English alphabets](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/CC_45_CountofCharacterPairsAtSameDistanceAsinEnglishAlphabets/CC_45_CountofCharacterPairsAtSameDistanceAsinEnglishAlphabets.java))</br>
+:heavy_check_mark:[45. Count of character pairs at same distance as in English alphabets](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/CC_45_CountofCharacterPairsAtSameDistanceAsinEnglishAlphabets/CC_45_CountofCharacterPairsAtSameDistanceAsinEnglishAlphabets.java)</br>
 :x:46. Count number of equal pairs in a string</br>
 :x:47. Count of strings where adjacent characters are of difference one</br>
 :heavy_check_mark:[48. Print number of words, vowels and frequency of each character](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/_CC_47_PrintWordVowelCharacter/_CC_47_PrintWordVowelCharacter.java)</br>
