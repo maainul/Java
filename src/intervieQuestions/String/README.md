@@ -4,7 +4,7 @@
 :heavy_check_mark:[1.Count Uppercase, Lowercase, special character and numeric values](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/CC_1_CountUppercaseLowercaseSpecialCharacterAndNumericValues/_1_CountUppercaseLowercaseSpecialCharacterAndNumericValues.java)</br>
 :heavy_check_mark:4.[Count number of substrings with exactly k distinct characters](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/_CC_4_CountNumberOfSubstringWithKDisinctCharacters/_CC_4_CountNumberOfSubstringWithKDisinctCharacters.java)</br>
 :x:5.Number of substrings with count of each character as k</br>
-:x:6.String with k distinct characters and no same characters adjacent</br>
+:heavy_check_mark:[6.String with k distinct characters and no same characters adjacent](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/_CC_6_StringWithKDistinctCharactersAndNoSameCharactersAdjacent/_CC_6_StringWithKDistinctCharactersAndNoSameCharactersAdjacent.java)</br>
 :heavy_check_mark:[7.Number of substrings of a string](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/CC_7_NumberOfSubstringsOfaString/_7_NumberOfSubstringsOfaString.java)</br>
 :x:8.Distinct strings with odd and even changes allowed</br>
 :heavy_check_mark:[10.Count characters at same position as in English alphabets](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/_CC_10_CountCharactersAtSamePositionAsInEnglishAlphabets/_10_CountCharactersAtSamePositionAsInEnglishAlphabets.java)</br>
