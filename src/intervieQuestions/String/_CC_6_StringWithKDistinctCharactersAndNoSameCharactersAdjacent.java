@@ -21,3 +21,4 @@ public class _CC_6_StringWithKDistinctCharactersAndNoSameCharactersAdjacent {
 		return result;
 	}
 }
+
