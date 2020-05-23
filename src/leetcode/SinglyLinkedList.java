@@ -1,5 +1,6 @@
 package leetcode;
 
+
 //Linked list operations in Java
 
 public class SinglyLinkedList {
@@ -108,11 +109,72 @@ public class SinglyLinkedList {
 			tnode = tnode.next;
 		}
 	}
+	
+	public int len() {
+		Node currNode = head;
+		int count =1;
+		while(currNode.next != null) {
+			count++;
+			currNode = currNode.next;
+		}
+		return count;
+	}
+	
+	
+	
+	public Node rotateRight(Node head, int k) {
+	    if (head == null) {
+            return head;
+        }
+        Node curr = head;
+        int len = 1;
+        // 6
+        while (curr.next != null) {
+            len++;
+            curr = curr.next;
+        }
+        // join to head
+        curr.next = head;
+        k %= len;
+        for (int i = 0; i < len - k; i++) {
+            curr = curr.next;
+        }
+        // 3 2 1 5
+        head = curr.next;
+        curr.next = null;
+        return head;
+        
+	}
+	public Node circleList(Node head,int pos){
+		if(head == null || head.next == null){
+			return null;
+		}
+
+		Node fast = head;
+		Node slow = head;
+		while(fast != null && fast.next != null){
+			fast = fast.next.next;
+			slow = slow.next;
+
+			if(fast == slow){
+				while(head != fast){
+					fast = fast.next;
+					head = head.next;
+				}
+				return head;
+			}
+
+
+		}
+		return null;
+	}
 
 	public static void main(String[] args) {
 		SinglyLinkedList llist = new SinglyLinkedList();
 
 		llist.insertAtEnd(1);
+		llist.insertAtEnd(5);
+		llist.insertAtEnd(10);
 		llist.insertAtBeginning(2);
 		llist.insertAtBeginning(3);
 		llist.insertAtEnd(4);
@@ -125,8 +187,18 @@ public class SinglyLinkedList {
 		llist.deleteNode(3);
 		llist.printList();
 
-		System.out.println("\nAfter deleting an element:(reverse) ---- 2");
-		llist.deleteNode2(2);
+		//System.out.println("\nAfter deleting an element:(reverse) ---- 2");
+		//llist.deleteNode2(2);
+		//llist.printList();
+		System.out.println("\nRotate list:");
+		llist.rotateRight(llist.head, 2);
 		llist.printList();
+		System.out.println("\nLength of Linked list");
+		System.out.println(llist.len());
+		System.out.println("\n Circular list:");
+		llist.circleList(llist.head,1);
+		llist.printList();
+		
+		
 	}
 }

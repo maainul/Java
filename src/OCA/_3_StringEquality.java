@@ -2,6 +2,7 @@ package OCA;
 
 public class _3_StringEquality {
 
+	@SuppressWarnings("unlikely-arg-type")
 	public static void main(String[] args) {
 		StringBuilder one = new StringBuilder();
 		StringBuilder two = new StringBuilder();

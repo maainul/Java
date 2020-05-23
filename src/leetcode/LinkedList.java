@@ -115,6 +115,35 @@ public class LinkedList {
 
 	}
 
+
+	public Node rotateRight(Node head, int k) {
+		// corner case
+		if(head == null || k == 0){
+			return null;
+		}
+		// length of linkedlist
+		Node p = head; // 1 //5
+		int length = 1;
+		while(p.nextNode!= null){
+
+			p = p.nextNode;
+			length++; //5//5
+		}
+		p.nextNode = head; // 2 // 2
+		k %=length; // 2 // 2
+
+		// loop through for break list
+		for(int i = 0; i< length-k;i++){
+			p = p.nextNode;
+		}
+		// 1 2 3 4 5
+		// head = 4 //
+		head = p.nextNode; // 5--1 ----2--3 --4---->null;
+		p.nextNode = null;// 4--->null
+		return head;
+
+	}
+
 	public static void main(String[] args) {
 		LinkedList obj = new LinkedList();
 		obj.insertAtFirst(1);
@@ -132,6 +161,8 @@ public class LinkedList {
 		obj.deleteAt(3);
 		obj.display();
 
+		obj.rotateRight(obj.head, 2);
+		obj.display();
 	}
 
 }
