@@ -576,7 +576,19 @@ ListNode firstHead, secondHead;
         slow.next = null;
 
     }
-
+    // extra reverse a linked list
+    private ListNode reverseLinkedList(){
+        ListNode current = head;
+        ListNode previous = null;
+        ListNode next = null;
+        while (current != null){
+            next = current.next;
+            current.next = previous;
+            previous = current;
+            current = next;
+        }
+        return previous;
+    }
 
     void printList()
     {
@@ -887,7 +899,21 @@ ListNode firstHead, secondHead;
             System.out.println("Not identical");
         }
  //--------------------------------------------------------------
+
+        // reverse linked list
+        Solution rev = new Solution();
+        rev.insertAtLast(1);
+        rev.insertAtLast(2);
+        rev.insertAtLast(3);
+        rev.reverse(rev.head);
+        rev.display();
+
+
+
+
+
+
     }
 }
 // 1 2 3 4 5 7 8 9 10 11 12 13 14 15 16 17 18 23 24 25 26 27 28 29 30
-// 31 43
+// 31 32 33 43
