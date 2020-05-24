@@ -1,6 +1,6 @@
 package linkedList;
 
-public class _32ReverseLinkedList {
+public class _32_ReverseLinkedList {
     ListNode head;
     public class ListNode {
         int data;
@@ -52,7 +52,7 @@ public class _32ReverseLinkedList {
     }
 
     public static void main(String[] args) {
-        _32ReverseLinkedList reverseLinkedList = new _32ReverseLinkedList();
+        _32_ReverseLinkedList reverseLinkedList = new _32_ReverseLinkedList();
         reverseLinkedList.insertAtLast(1);
         reverseLinkedList.insertAtLast(2);
         reverseLinkedList.insertAtLast(3);

@@ -846,7 +846,7 @@ ListNode firstHead, secondHead;
         delNObj.DeleteAlterNode();
         System.out.println("\nAfter Original List");
         delNObj.display();
-
+//---------------Alter split-------------------------------------
         Solution alObj = new Solution();
         alObj.insertAtLast(1);
         alObj.insertAtLast(2);
