@@ -12,47 +12,71 @@ package linkedList;
 *************************************************************************/
 public class _38_RemoveLoop {
 
-    ListNode head;
-    public class ListNode {
-        int data;
-        ListNode next;
-        ListNode(int data){
-            this.data = data;
-            this.next = null;
-        }
-    }
-    private void insertAtLast(int data){
-        ListNode newNode = new ListNode(data);
-        ListNode current = head;
-        if(head == null){
-            head = newNode;
-        }
-        else{
-            while (current.next != null){
-                current = current.next;
+// Java program to detect and remove loop in linked list
+        static Node head;
+        static class Node {
+            int data;
+            Node next;
+
+            Node(int d)
+            {
+                data = d;
+                next = null;
             }
-            current.next = newNode;
+        }
+
+        // https://stackoverflow.com/questions/5607292/interview-remove-loop-in-linked-list-java
+    public void findLoopInList() {
+        Node fastNode = head;
+        Node slowNode = head;
+        boolean isLoopExist = false;
+        while (slowNode != null && fastNode != null && fastNode.next != null) {
+            fastNode = fastNode.next.next;
+            slowNode = slowNode.next;
+            if (slowNode == fastNode) {
+                System.out.print("\nLoop Found");
+                isLoopExist = true;
+                break;
+            }
+        }
+        if (isLoopExist) {
+            slowNode = head;
+            Node prevNode = null;
+            while (slowNode != fastNode) {
+                prevNode = fastNode;
+                fastNode = fastNode.next;
+                slowNode = slowNode.next;
+            }
+            System.out.print("Loop Found Node : " + slowNode.data);
+            prevNode.next = null; //Remove the Loop
         }
     }
-    private  void display(){
-        ListNode current = head;
-        while (current != null){
-            System.out.print(current.data+"->");
-            current = current.next;
+    // Function to print the linked list
+        void printList(Node node)
+        {
+            while (node != null) {
+                System.out.print(node.data + " ");
+                node = node.next;
+            }
+        }
+
+        // Driver program to test above functions
+        public static void main(String[] args)
+        {
+            _38_RemoveLoop list = new _38_RemoveLoop();
+            list.head = new Node(1);
+            list.head.next = new Node(2);
+            list.head.next.next = new Node(3);
+            list.head.next.next.next = new Node(4);
+            list.head.next.next.next.next = new Node(5);
+            list.printList(head);
+            // Creating a loop for testing
+            head.next.next.next.next.next = head.next;
+            list.findLoopInList();
+            //list.detectCycle(head);
+            System.out.println("\nLinked List after removing loop : ");
+            list.printList(head);
         }
     }
 
-    public static void main(String[] args) {
-        _38_RemoveLoop obj = new _38_RemoveLoop();
-        obj.insertAtLast(1);
-        obj.insertAtLast(2);
-        obj.insertAtLast(3);
-        obj.insertAtLast(4);
-        obj.insertAtLast(5);
-        obj.insertAtLast(6);
-
-        obj.display();
-        System.out.println();
-
-    }
-}
+// This code has been contributed by Mayank Jaiswal
