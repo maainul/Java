@@ -1,5 +1,11 @@
 package linkedList;
+/*
+Identical Linked Lists
+Two Linked Lists are identical when they have same data and arrangement of data is also same.
+For example Linked lists a (1->2->3) and b(1->2->3) are identical. .
+Write a function to check if the given two linked lists are identical.
 
+ */
 public class _31_IdenticalLinkedLists {
 
     ListNode head;
@@ -33,18 +39,15 @@ public class _31_IdenticalLinkedLists {
         }
     }
     // https://www.geeksforgeeks.org/identical-linked-lists/
-    private static boolean isIdentical(ListNode head1, ListNode head2) {
-        ListNode a = head1;
-        ListNode b = head2;
-        while (a != null && b != null){
-            if(a.data != b.data){
+    public static boolean isIdentical(ListNode head1, ListNode head2){
+        while (head1 != null && head2 != null){
+            if(head1.data != head2.data){
                 return false;
             }
-            a = a.next;
-            b = b.next;
-
+            head1 = head1.next;
+            head2 = head2.next;
         }
-        return (a == null && b== null);
+        return (head1 == null && head2 == null);
     }
     public static void main(String[] args) {
         _31_IdenticalLinkedLists list1 = new _31_IdenticalLinkedLists();
@@ -55,6 +58,7 @@ public class _31_IdenticalLinkedLists {
 
         list2.insertAtLast(1);
         list2.insertAtLast(2);
+        list2.insertAtLast(3);
         list2.insertAtLast(3);
         System.out.println("\nLinked List 1");
         list1.display();

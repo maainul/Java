@@ -1,6 +1,6 @@
 package linkedList;
 
-public class _33_MergeSort {
+public class _32_MergeSort {
     Node head;
     class Node{
         int data;
@@ -73,7 +73,7 @@ public class _33_MergeSort {
     }
 
     public static void main(String[] args) {
-        _33_MergeSort mergeSort = new _33_MergeSort();
+        _32_MergeSort mergeSort = new _32_MergeSort();
         mergeSort.insertAtLast(5);
         mergeSort.insertAtLast(9);
         mergeSort.insertAtLast(19);
