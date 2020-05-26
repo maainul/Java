@@ -1,6 +1,7 @@
 package linkedList;
 
-public class Test {
+public class _43_RotateList {
+
     ListNode head;
     public class ListNode {
         int data;
@@ -30,9 +31,30 @@ public class Test {
             current = current.next;
         }
     }
-    
+    private  void rotateLinkedList(int k){
+        ListNode fast = head;
+        ListNode slow =  head;
+        ListNode c = head;
+        int len = 1;
+        while(c.next != null){
+            c = c.next;
+            len++;
+        }
+        k = k% len;
+        for (int i = 0; i< k; i++){
+            fast = fast.next;
+        }
+        while (fast.next !=null ){
+            slow =slow.next;
+            fast = fast.next;
+        }
+        fast.next = head;
+        head = slow.next;
+        slow.next = null;
+
+    }
     public static void main(String[] args) {
-        Test obj = new Test();
+        _43_RotateList obj = new _43_RotateList();
         obj.insertAtLast(1);
         obj.insertAtLast(2);
         obj.insertAtLast(3);
@@ -42,6 +64,8 @@ public class Test {
 
         obj.display();
         System.out.println();
+        obj.rotateLinkedList(3);
+        obj.display();
 
     }
 }

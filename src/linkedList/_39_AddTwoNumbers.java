@@ -65,7 +65,7 @@ public class _39_AddTwoNumbers {
             }
 
             sum = carry + p1 + p2;
-            carry = (sum >=10?1:0);
+            carry = ( sum >= 10 ? 1 : 0 );
             sum = sum % 10;
             temp = new ListNode(sum);
 
