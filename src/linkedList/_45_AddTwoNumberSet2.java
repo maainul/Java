@@ -16,7 +16,7 @@ package linkedList;
  --------------------------------------------------------
     Output:Resultant list: 1->4->0->5  // represents number 1405
  */
-public class _39_2_AddTwoNumberSet2 {
+public class _45_AddTwoNumberSet2 {
 
   ListNode head;
     public static class ListNode {
@@ -103,8 +103,8 @@ public class _39_2_AddTwoNumberSet2 {
         }
     }
     public static void main(String[] args) {
-        _39_2_AddTwoNumberSet2 obj1 = new _39_2_AddTwoNumberSet2();
-        _39_2_AddTwoNumberSet2 obj2 = new _39_2_AddTwoNumberSet2();
+        _45_AddTwoNumberSet2 obj1 = new _45_AddTwoNumberSet2();
+        _45_AddTwoNumberSet2 obj2 = new _45_AddTwoNumberSet2();
 
         obj1.insertAtLast(7);
         obj1.insertAtLast(8);
