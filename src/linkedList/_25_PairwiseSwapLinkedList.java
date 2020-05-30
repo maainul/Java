@@ -62,7 +62,7 @@ public class _25_PairwiseSwapLinkedList {
             current = current.next.next;
         }
     }
-    
+
     public static void main(String[] args) {
         _25_PairwiseSwapLinkedList obj = new _25_PairwiseSwapLinkedList();
 
