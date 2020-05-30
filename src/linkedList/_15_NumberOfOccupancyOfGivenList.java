@@ -1,6 +1,6 @@
 package linkedList;
 
-public class _14_NumberOfOccuranceOfGivenList {
+public class _15_NumberOfOccupancyOfGivenList {
 
         ListNode head;
     public class ListNode {
@@ -50,7 +50,7 @@ public class _14_NumberOfOccuranceOfGivenList {
 
 
     public static void main(String[] args) {
-        _14_NumberOfOccuranceOfGivenList obj = new _14_NumberOfOccuranceOfGivenList();
+        _15_NumberOfOccupancyOfGivenList obj = new _15_NumberOfOccupancyOfGivenList();
         obj.insertAtLast(1);
         obj.insertAtLast(2);
         obj.insertAtLast(2);
