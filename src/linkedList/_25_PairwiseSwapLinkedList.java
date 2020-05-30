@@ -45,6 +45,24 @@ public class _25_PairwiseSwapLinkedList {
         }
     }
 
+    //  // 25. Pairwise swap elements of a given linked list
+    private void swapElementVersion2(){
+        if(head == null || head.next == null){
+            return;
+        }
+        ListNode temp = new ListNode(0);
+        ListNode current = temp;
+        // 0 5 8 6 9
+        while (current.next != null && current.next.next !=null ){
+            ListNode first = current.next;
+            ListNode second = current.next.next;
+            first.next = second.next;
+            current.next = second;
+            second.next = first;
+            current = current.next.next;
+        }
+    }
+    
     public static void main(String[] args) {
         _25_PairwiseSwapLinkedList obj = new _25_PairwiseSwapLinkedList();
 
@@ -55,7 +73,7 @@ public class _25_PairwiseSwapLinkedList {
         obj.insertAtLast(5);
         obj.insertAtLast(5);
         obj.insertAtLast(6);
-       
+
 
         obj.display();
         System.out.println();
