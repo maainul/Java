@@ -8,7 +8,7 @@ Initial Linked List
 SortedLinked List
  0 3 5 18 20
 Linked List after insertion of 9
- 0 3 5 9 18 20 
+ 0 3 5 9 18 20
 UpdatedSortedLinked List
  */
 public class _18_SortedInsertLikedList {
