@@ -2,84 +2,71 @@ package linkedList;
 
 public class _25_PairwiseSwapLinkedList {
     ListNode head;
-    public class ListNode {
+
+    public static class ListNode {
         int data;
         ListNode next;
-        ListNode(int data){
+
+        ListNode(int data) {
             this.data = data;
             this.next = null;
         }
     }
-    private void insertAtLast(int data){
+
+    private void insertAtLast(int data) {
         ListNode newNode = new ListNode(data);
         ListNode current = head;
-        if(head == null){
+        if (head == null) {
             head = newNode;
-        }
-        else{
-            while (current.next != null){
+        } else {
+            while (current.next != null) {
                 current = current.next;
             }
             current.next = newNode;
         }
     }
-    private  void display(){
+
+    private static void display(ListNode head) {
         ListNode current = head;
-        while (current != null){
-            System.out.print(current.data+"->");
+        while (current != null) {
+            System.out.print(current.data + " ");
             current = current.next;
         }
     }
 
-    // https://www.geeksforgeeks.org/pairwise-swap-elements-of-a-given-linked-list/
-    private void swapElement(){
-        if(head == null){
-            return;
-        }
-        ListNode temp = head;
-        while (temp != null && temp.next != null){
-            int k = temp.data;
-            temp.data = temp.next.data;
-            temp.next.data = k;
-            temp = temp.next.next;
-        }
-    }
-
-    //  // 25. Pairwise swap elements of a given linked list
-    private void swapElementVersion2(){
-        if(head == null || head.next == null){
-            return;
-        }
-        ListNode temp = new ListNode(0);
+    private ListNode swapPairs(ListNode head) {
+        ListNode temp = new ListNode(-1);
         ListNode current = temp;
-        // 0 5 8 6 9
-        while (current.next != null && current.next.next !=null ){
-            ListNode first = current.next;
+        temp.next = head;
+
+        while (current.next != null && current.next.next != null) {
+            ListNode fast = current.next;
             ListNode second = current.next.next;
-            first.next = second.next;
+            fast.next = second.next;
             current.next = second;
-            second.next = first;
+            second.next = fast;
             current = current.next.next;
         }
+
+        return temp.next;
     }
 
     public static void main(String[] args) {
         _25_PairwiseSwapLinkedList obj = new _25_PairwiseSwapLinkedList();
 
+        obj.insertAtLast(7);
+        obj.insertAtLast(8);
         obj.insertAtLast(3);
-        obj.insertAtLast(4);
-        obj.insertAtLast(1);
-        obj.insertAtLast(2);
         obj.insertAtLast(5);
-        obj.insertAtLast(5);
-        obj.insertAtLast(6);
 
+        System.out.println("Original Linked list");
+        display(obj.head);
 
-        obj.display();
         System.out.println();
 
-        obj.swapElement();
-        obj.display();
+        System.out.println("Swaped Linked List");
+        ListNode result = obj.swapPairs(obj.head);
+        display(result);
 
     }
 

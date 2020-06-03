@@ -1,5 +1,5 @@
 ## Singly Linked List
-
+### important link : https://afteracademy.com/blog/types-of-linked-list-and-operation-on-linked-list
 01. Linked list vs array list
 02. Linked list insert node
 03. Linked list insert node
