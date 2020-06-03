@@ -1,6 +1,6 @@
 package linkedList;
 
-public class _24_RemoveDuplicateFromSortedList {
+public class _24_RemoveDuplicateFromUnSortedList {
     ListNode head;
     public class ListNode {
         int data;
@@ -50,7 +50,7 @@ public class _24_RemoveDuplicateFromSortedList {
     }
 
     public static void main(String[] args) {
-        _24_RemoveDuplicateFromSortedList obj = new _24_RemoveDuplicateFromSortedList();
+        _24_RemoveDuplicateFromUnSortedList obj = new _24_RemoveDuplicateFromUnSortedList();
 
         obj.insertAtLast(3);
         obj.insertAtLast(4);
