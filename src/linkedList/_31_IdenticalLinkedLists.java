@@ -49,6 +49,16 @@ public class _31_IdenticalLinkedLists {
         }
         return (head1 == null && head2 == null);
     }
+// Recursive 
+    public boolean isIdenticalRecursive(Node a, Node b) {
+        if (a == null && b == null) {
+            return true;
+        }
+
+        if (a.data != b.data)
+            return false;
+        return isIdenticalRecursive(a.next, b.next);
+    }
     public static void main(String[] args) {
         _31_IdenticalLinkedLists list1 = new _31_IdenticalLinkedLists();
         _31_IdenticalLinkedLists list2 = new _31_IdenticalLinkedLists();
