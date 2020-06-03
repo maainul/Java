@@ -77,7 +77,7 @@ public class _30_AlternationsSplit {
 
             head = head.next.next;
         }
-
+        // যদি বেজোড় সংখ্যক নোড থাকে 
         if(head != null) {
             firstTemp.next = head;
             firstTemp = firstTemp.next;
