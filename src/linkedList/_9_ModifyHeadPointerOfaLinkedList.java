@@ -31,10 +31,9 @@ public class _9_ModifyHeadPointerOfaLinkedList {
         }
     }
     private void deleteFromFirst(){
-        ListNode c = head;
-        c = head.next;
+        ListNode temp = head.next;
         head.next = null;
-        head = c;
+        head = temp;
     }
 
 

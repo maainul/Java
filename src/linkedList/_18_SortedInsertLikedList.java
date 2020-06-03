@@ -6,10 +6,11 @@ Given a sorted linked list and a value to insert, write a function to insert the
 Initial Linked List
     0 3 5 18 20
 SortedLinked List
- 0 3 5 18 20
+    0 3 5 18 20
 Linked List after insertion of 9
- 0 3 5 9 18 20
+    0 3 5 9 18 20
 UpdatedSortedLinked List
+ 
  */
 public class _18_SortedInsertLikedList {
     ListNode head;
@@ -51,8 +52,6 @@ public class _18_SortedInsertLikedList {
             while (current.next != null && current.next.data <= newNode.data){
                 current = current.next;
             }
-            // ListNode nextTonew = current.next;
-            // newNode.next = nextTonew;
             newNode.next = current.next;
             current.next = newNode;
         }

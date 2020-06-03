@@ -4,7 +4,7 @@ public class _20_PalindromeLinkedList {
         ListNode head;
     public class ListNode {
         int data;
-        ListNode next;
+        ListNode next; 
         ListNode(int data){
             this.data = data;
             this.next = null;
@@ -33,15 +33,16 @@ public class _20_PalindromeLinkedList {
  private boolean palindrome(ListNode head){
         ListNode slow = head;
         ListNode fast = head;
+        ListNode revhead = null;
         if(head == null || head.next == null){
             return true;
         }
         while (fast != null && fast.next != null){
             slow= slow.next;
-            fast = fast.next;
+            fast = fast.next.next;
         }
-        fast = reverse(slow);
-        return compare(head,fast);
+        revhead = reverse(slow);
+        return compare(head,revhead);
     }
     private ListNode reverse(ListNode head){
         ListNode current = head;
