@@ -85,7 +85,8 @@ public class _36_SegregateEvenAndOddNodes {
                 else
                 {
                     oddTail.next = curr;
-                    oddTail = oddTail.next;
+                    oddTail = curr;
+                   // oddTail = oddTail.next;
                 }
 
             }
