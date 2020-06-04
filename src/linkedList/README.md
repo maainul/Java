@@ -42,7 +42,7 @@
 41. Union and intersection of two linked lists
 42. Find a triplet from three linked list with sum equal to a given number
 43. Rotate a linked list
-44. Flattening a linked list
+44. Clockwise rotation of Linked List
 45. Add two numbers represented by linked lists | set 2
 46. Sort a linked list of 0s, 1s and 2s
 47. Flatten a multilevel linked list
