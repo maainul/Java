@@ -52,6 +52,8 @@ public class _40_DeleteNode {
                         + "can't be made empty ");
                 return;
             }
+            // 12 15 10 11 5 6 2 3
+            // 12 15 -- 11 5 6 2 3
             node.data = node.next.data;
             n = node.next;
             node.next = node.next.next;
