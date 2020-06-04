@@ -36,6 +36,7 @@
 34. Reverse alternate k nodes in a singly linked list
 35. Delete nodes which have a greater value on right side
 36. Segregate even and odd nodes in a linked list
+37. Not Found.
 38. Detect and remove loop in a linked list
 39. Add two numbers represented by linked lists | set 1
 40. Delete a given node in linked list under given constraints
