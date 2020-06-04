@@ -27,7 +27,7 @@
 25. Pairwise swap elements of a given linked list
 26. Practice question for linked list and recursion
 27. Move last element to front of a given linked list
-*28. Intersection of two sorted linked lists
+28. Intersection of two sorted linked lists
 29. Delete alternate nodes of a linked list
 30. Alternations split of a given singly linked list | set 1
 31. Identical linked lists
@@ -38,7 +38,7 @@
 36. Segregate even and odd nodes in a linked list
 38. Detect and remove loop in a linked list
 39. Add two numbers represented by linked lists | set 1
-*40. Delete a given node in linked list under given constraints
+40. Delete a given node in linked list under given constraints
 41. Union and intersection of two linked lists
 42. Find a triplet from three linked list with sum equal to a given number
 43. Rotate a linked list
