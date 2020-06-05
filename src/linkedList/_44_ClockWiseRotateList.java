@@ -39,44 +39,39 @@ rotate 4 steps to the right: 2->0->1->NULL
 */
 
 //Java implementation of the approach 
+//Java implementation of the approach 
 public class _44_ClockWiseRotateList {
+	static Node head;
 
 	/* Link list node */
 	static class Node {
 		int data;
 		Node next;
+
+		public Node(int data) {
+			this.data = data;
+			this.next = null;
+		}
+
 	}
 
-	/* A utility function to push a node */
-	static Node push(Node head_ref, int new_data) {
-		/* allocate node */
-		Node new_node = new Node();
+	private void insertAtBeginning(int data) {
+		Node newNode = new Node(data);
+		newNode.next = head;
+		head = newNode;
 
-		/* put in the data */
-		new_node.data = new_data;
-
-		/* link the old list off the new node */
-		new_node.next = (head_ref);
-
-		/* move the head to point to the new node */
-		(head_ref) = new_node;
-		return head_ref;
 	}
 
 	/* A utility function to print linked list */
-	static void printList(Node node) {
-		while (node != null) {
-			System.out.print(node.data + " -> ");
-			node = node.next;
+	static void printList(Node head) {
+		while (head != null) {
+			System.out.print(head.data + " -> ");
+			head = head.next;
 		}
 		System.out.print("null");
 	}
 
-//Function that rotates the given linked list 
-//clockwise by k and returns the updated 
-//head pointer 
 	static Node rightRotate(Node head, int k) {
-
 		// If the linked list is empty
 		if (head == null)
 			return head;
@@ -138,24 +133,35 @@ public class _44_ClockWiseRotateList {
 //Driver code 
 	public static void main(String args[]) {
 
-		/*
-		 * The constructed linked list is: 1.2.3.4.5
-		 */
-		Node head = null;
-		head = push(head, 60);
-		head = push(head, 50);
-		head = push(head, 40);
-		head = push(head, 30);
-		head = push(head, 20);
-		head = push(head, 10);
+		_44_ClockWiseRotateList obj = new _44_ClockWiseRotateList();
+
+		obj.insertAtBeginning(60);
+		obj.insertAtBeginning(50);
+		obj.insertAtBeginning(40);
+		obj.insertAtBeginning(30);
+		obj.insertAtBeginning(20);
+		obj.insertAtBeginning(10);
+
+		System.out.println("Given linked list");
 		printList(head);
 		System.out.println();
-		int k = 4;
 
-		// Rotate the linked list
-		Node updated_head = rightRotate(head, k);
+		int k = 2;
+
+		Node updated_headNode = rightRotate(head, k);
+		System.out.println("\nRotate linked list");
 
 		// Print the rotated linked list
-		printList(updated_head);
+		printList(updated_headNode);
+
 	}
 }
+/*
+Given linked list
+10 -> 20 -> 30 -> 40 -> 50 -> 60 -> null
+
+k = 2
+
+Rotate linked list
+50 -> 60 -> 10 -> 20 -> 30 -> 40 -> null
+*/
