@@ -1,7 +1,8 @@
 package linkedList;
 /*
 Delete N nodes after M nodes of a linked list
-Given a linked list and two integers M and N. Traverse the linked list such that you retain M nodes then delete next N nodes, continue the same till end of the linked list.
+Given a linked list and two integers M and N. 
+Traverse the linked list such that you retain M nodes then delete next N nodes, continue the same till end of the linked list.
 
 Difficulty Level: Rookie
 
@@ -27,101 +28,83 @@ Difficulty Level: Rookie
  */
 // https://www.geeksforgeeks.org/delete-n-nodes-after-m-nodes-of-a-linked-list/
 public class _48_DeleteNnodesAfterMnodes {
-    // A linked list node
-    static class Node {
+    ListNode head;
+
+    class ListNode {
         int data;
-        Node next;
-    }
-    /* Function to insert a node at the beginning */
-    static Node push( Node head_ref, int new_data)
-    {
-        /* allocate node */
-        Node new_node = new Node();
+        ListNode next;
 
-        /* put in the data */
-        new_node.data = new_data;
-
-        /* link the old list off the new node */
-        new_node.next = (head_ref);
-
-        /* move the head to point to the new node */
-        (head_ref) = new_node;
-
-        return head_ref;
-    }
-
-    /* Function to print linked list */
-    static void printList( Node head)
-    {
-        Node temp = head;
-        while (temp != null)
-        {
-            System.out.printf("%d ", temp.data);
-            temp = temp.next;
+        public ListNode(int data) {
+            this.data = data;
+            this.next = null;
         }
-        System.out.printf("\n");
     }
 
-    // Function to skip M nodes and then
-// delete N nodes of the linked list.
-    static void skipMdeleteN( Node head, int M, int N)
-    {
-        Node curr = head, t;
-        int count;
+    private void display(ListNode head) {
+        while (head != null) {
+            System.out.print(head.data + " ");
+            head = head.next;
+        }
+    }
 
-        // The main loop that traverses
-        // through the whole list
-        while (curr !=null)
-        {
-            // Skip M nodes
-            for (count = 1; count < M && curr != null; count++)
-                curr = curr.next;
-
-            // If we reached end of list, then return
-            if (curr == null)
-                return;
-
-            // Start from next node and delete N nodes
-            t = curr.next;
-            for (count = 1; count <= N && t != null; count++)
-            {
-                Node temp = t;
-                t = t.next;
+    private void insertAtLast(int data) {
+        ListNode newNode = new ListNode(data);
+        if (head == null) {
+            head = newNode;
+        } else {
+            ListNode current = head;
+            while (current.next != null) {
+                current = current.next;
             }
-
-            // Link the previous list with remaining nodes
-            curr.next = t;
-
-            // Set current pointer for next iteration
-            curr = t;
+            current.next = newNode;
         }
     }
 
-    // Driver code
-    public static void main(String args[])
-    {
-	/* Create following linked list
-	1.2.3.4.5.6.7.8.9.10 */
-        Node head = null;
-        int M=2, N=3;
+    private void skipMdeleteN(ListNode head, int M, int N) {
+        ListNode firstPart = head;
 
-        head=push(head, 15);
-        head=push(head, 54);
-        head=push(head, 55);
-        head=push(head, 52);
-        head=push(head, 4);
-        head=push(head, 3);
-        head=push(head, 2);
-        head=push(head, 1);
+        int Mcounter = 1;
 
-        System.out.printf("M = %d, N = %d \nGiven" +
-                "Linked list is :\n", M, N);
-        printList(head);
+        while (Mcounter < M && firstPart.next != null) {
+            firstPart = firstPart.next;
+            Mcounter++;
+        }
 
-        skipMdeleteN(head, M, N);
+        ListNode secondPart = firstPart.next;
+        int Ncounter = 1;
+        while (Ncounter <= N && secondPart.next != null) {
+            secondPart = secondPart.next;
+            Ncounter++;
+        }
+
+        firstPart.next = secondPart;
+
+    }
+
+    public static void main(String args[]) {
+        _48_DeleteNnodesAfterMnodes obj = new _48_DeleteNnodesAfterMnodes();
+
+        obj.insertAtLast(1);
+        obj.insertAtLast(2);
+        obj.insertAtLast(3);
+        obj.insertAtLast(4);
+        obj.insertAtLast(5);
+        obj.insertAtLast(6);
+        obj.insertAtLast(7);
+        obj.insertAtLast(8);
+        obj.insertAtLast(9);
+        obj.insertAtLast(10);
+        obj.insertAtLast(11);
+
+        int M = 2, N = 3;
+
+        System.out.printf("M = %d, N = %d \nGiven" + "Linked list is :\n", M, N);
+
+        obj.display(obj.head);
+
+        obj.skipMdeleteN(obj.head, M, N);
 
         System.out.printf("\nLinked list after deletion is :\n");
-        printList(head);
+        obj.display(obj.head);
     }
 }
-
