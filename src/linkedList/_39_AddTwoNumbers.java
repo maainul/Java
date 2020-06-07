@@ -49,7 +49,8 @@ public class _39_AddTwoNumbers {
         ListNode prev = null;
         ListNode res = null;
         ListNode temp = null;
-        int sum = 0, carry = 0, p1,p2;
+        int sum = 0, carry = 0;
+        int p1,p2;
         while(l1 != null || l2 != null){
             if(l1 != null){
                 p1 = l1.data;

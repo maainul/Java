@@ -1,5 +1,10 @@
 package linkedList;
-
+/*
+Original Linked list
+7 8 3 5
+Swaped Linked List
+8 7 5 3
+ */
 public class _25_PairwiseSwapLinkedList {
     ListNode head;
 
@@ -47,9 +52,9 @@ public class _25_PairwiseSwapLinkedList {
             second.next = fast;
             current = current.next.next;
         }
-
         return temp.next;
     }
+
 
     public static void main(String[] args) {
         _25_PairwiseSwapLinkedList obj = new _25_PairwiseSwapLinkedList();
@@ -66,6 +71,7 @@ public class _25_PairwiseSwapLinkedList {
 
         System.out.println("Swaped Linked List");
         ListNode result = obj.swapPairs(obj.head);
+
         display(result);
 
     }

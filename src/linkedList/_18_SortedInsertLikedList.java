@@ -42,29 +42,36 @@ public class _18_SortedInsertLikedList {
             current = current.next;
         }
     }
-    private void sortedInsert(int data){
+
+    private void sortedInsert(int data) {
         ListNode newNode = new ListNode(data);
         ListNode current = head;
-        if(head == null || head.data >= newNode.data){
+        ListNode previous = null;
+        if (head == null || head.data >= newNode.data) {
             newNode.next = head;
             head = newNode;
-        }else{
-            while (current.next != null && current.next.data <= newNode.data){
-                current = current.next;
+        } else {
+            while (current != null && current.data <= newNode.data) {
+               previous = current;
+               current = current.next;
             }
-            newNode.next = current.next;
-            current.next = newNode;
+            previous.next = newNode;
+            newNode.next = current;
         }
     }
-
     public static void main(String[] args) {
         _18_SortedInsertLikedList obj = new _18_SortedInsertLikedList();
-
-        obj.sortedInsert(5);
-        obj.sortedInsert(3);
-        obj.sortedInsert(12);
+        obj.insertAtLast(1);
+        obj.insertAtLast(2);
+        obj.insertAtLast(3);
+        obj.insertAtLast(5);
+        obj.insertAtLast(7);
+        System.out.println("\nOriginal Linked List ");
+        obj.display();
         obj.sortedInsert(0);
-
+        obj.sortedInsert(-1);
+       // obj.sortedInsert(6);
+        System.out.println("\nSorted Inserted");
         obj.display();
     }
 }

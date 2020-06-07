@@ -31,22 +31,19 @@ public class _8_SearchElement {
         }
     }
 
-    public void searchElement(int val){
-        ListNode c = head;
+    private void search(int searchVal){
+        ListNode current = head;
         boolean flag = false;
-        int position = 1;
-        while(c != null){
-            if(c.data == val){
-                flag = true;
-                break;
-            }
-            position++;
-            c = c.next;
+        int count = 0;
+        while (current != null && current.data != searchVal){
+            flag = true;
+            count++;
+            current = current.next;
         }
-        if(flag){
-            System.out.println("Data found in Position = "+position);
-        }else {
-            System.out.println("Data not Found");
+        if (flag){
+            System.out.println("Data found in index "+count);
+        }else{
+            System.out.println("Data not found");
         }
     }
 
@@ -61,8 +58,10 @@ public class _8_SearchElement {
         obj.insertAtLast(6);
 
         obj.display();
-        System.out.println();
-        obj.searchElement(5);
+
+        int v = 4;
+        System.out.println("\nSearch value :"+v);
+        obj.search(v);
 
     }
 }

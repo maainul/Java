@@ -90,3 +90,9 @@ public class _16_MergeTwoSortedLinkedLists {
     }
 }
 
+/*
+5->10->15->
+2->3->20->
+16. Merge two sorted linked lists
+2->3->5->10->15->20->
+ */

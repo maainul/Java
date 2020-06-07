@@ -60,8 +60,8 @@ public class _35_DeleteRightSide {
         }
     }
 
-    private ListNode delNodes(ListNode n){
-        ListNode curr = n;
+    private ListNode delNodes(ListNode head){
+        ListNode curr = head;
         // 12 15 10 11 5 6
         while(curr != null && curr.next != null){
             if(curr.data < curr.next.data){
@@ -75,7 +75,6 @@ public class _35_DeleteRightSide {
         }
         return curr;
     }
-
     public static void main(String[] args) {
         _35_DeleteRightSide obj = new _35_DeleteRightSide();
         obj.insertAtLast(12);
@@ -90,6 +89,7 @@ public class _35_DeleteRightSide {
 
         System.out.println("\nAfter Delete Linked List");
         obj.delNodes(obj.head);
+
         obj.display();
 
 

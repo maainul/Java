@@ -95,6 +95,7 @@ public class _30_AlternationsSplit {
         alObj.insertAtLast(2);
         alObj.insertAtLast(3);
         alObj.insertAtLast(4);
+        alObj.insertAtLast(5);
 
         System.out.println("\nOriginal List");
         alObj.display();

@@ -30,44 +30,35 @@ public class _13_NthNodeFromTheEndOfaLinkedList {
             current = current.next;
         }
     }
-    // 13. FInd node end of linked list
-    // https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
-    private void findNodeFromEnd(int n){
-        int len = 0;
+    private void findNodeFromEnd(int k) {
         ListNode temp = head;
-
-        // 1) count the number of nodes in Linked List
-        while (head != null) {
-            head = head.next;
+        int len = 0;
+        while (temp != null){
             len++;
-        }
-        // check if value of n is not more than length of
-        // the linked list
-        if (len < n){
-            return;
-        }
-        //temp = head;
-        // 2) get the (len-n+1)th node from the beginning
-        for (int i = 1; i < len - n + 1; i++){
             temp = temp.next;
         }
-        System.out.println(temp.data);
+
+        int i = len - k +1;
+        ListNode current = head;
+        ListNode previous = null;
+        int count = 1;
+        while (current != null && count < i){
+            current = current.next;
+            count++;
+        }
+        System.out.println("Data found = "+current.data);
     }
-
-
     public static void main(String[] args) {
         _13_NthNodeFromTheEndOfaLinkedList obj = new _13_NthNodeFromTheEndOfaLinkedList();
         obj.insertAtLast(1);
         obj.insertAtLast(2);
         obj.insertAtLast(3);
-        obj.insertAtLast(44);
-        obj.insertAtLast(5);
-        obj.insertAtLast(6);
+        obj.insertAtLast(4);
 
         obj.display();
         System.out.println();
 
-        obj.findNodeFromEnd(4);
+        obj.findNodeFromEnd(2);
 
     }
 }

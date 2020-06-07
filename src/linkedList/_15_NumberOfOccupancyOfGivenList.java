@@ -32,23 +32,18 @@ public class _15_NumberOfOccupancyOfGivenList {
         }
     }
 
-
-
     //  15. Write a function that counts the number of times a given int occurs in a linked list
-    private void NumberOfNode(int searchval){
+    private void NumberOfNode(int searchval) {
         ListNode c = head;
         int count = 0;
-        while (c != null){
-            if(c.data == searchval){
+        while (c != null) {
+            if (c.data == searchval) {
                 count++;
             }
-            c= c.next;
+            c = c.next;
         }
         System.out.println(count);
     }
-
-
-
     public static void main(String[] args) {
         _15_NumberOfOccupancyOfGivenList obj = new _15_NumberOfOccupancyOfGivenList();
         obj.insertAtLast(1);

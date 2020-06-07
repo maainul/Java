@@ -34,12 +34,12 @@ public class _38_RemoveLoop {
             p = p.next;
             if (p == q) {
                 System.out.print("\nLoop Found");
-                removeloop(p, head);
+                removeLoop(p, head);
             }
         }
     }
 
-    public void removeloop(Node p, Node head) {
+    public void removeLoop(Node p, Node head) {
         Node t = head;
         while (p.next != t) {
             p = p.next;

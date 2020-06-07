@@ -1,4 +1,4 @@
-/*
+
 package linkedList;
 
 public class _28_IntersectionOfTwoLinkedList {
@@ -62,8 +62,8 @@ public class _28_IntersectionOfTwoLinkedList {
         return tempCopy.next;
        //return temp.next;
     }
-    private static void print(Solution.ListNode head){
-        Solution.ListNode c = head;
+    private static void print(ListNode head){
+        ListNode c = head;
         while(c != null){
             System.out.print(c.data+"---->");
             c =c.next;
@@ -91,5 +91,3 @@ public class _28_IntersectionOfTwoLinkedList {
 
     }
 }
-
-*/

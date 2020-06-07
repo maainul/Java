@@ -1,9 +1,10 @@
 ## Singly Linked List
 ### important link : https://afteracademy.com/blog/types-of-linked-list-and-operation-on-linked-list
-01. Linked list vs array list
-02. Linked list insert node
-03. Linked list insert node
-04. Linked list deleting node
+00. Linked list vs array list
+01. Linked list insert node
+02. Linked list insert node At beginning
+03. Linked list insert node At last
+04. Linked list deleting node(Linked List | Set 3 (Deleting a node))
 05. Delete a linked list node at given position
 06. A programmers approach of looking at array vs linked list
 07. Find length of a linked list(iterative and recursive)
@@ -46,8 +47,17 @@
 44. Clockwise rotation of Linked List
 45. Add two numbers represented by linked lists | set 2
 46. Sort a linked list of 0s, 1s and 2s
-47. Flatten a multilevel linked list
+47. Linked List | Set 3 (Deleting a node)
 48. Delete n nodes after m nodes of linked list
 49. Quick sort on singly linked list
 50. Merge a linked list int another linked list at alternate positions
 51. Create new linked list from two given linked list with greater element at each node
+52. Convert singly linked list into circular linked list
+53. Check if a linked list is Circular Linked List
+54. Insert a whole linked list into other at k-th position
+55. First common element in two linked lists
+56. Make a loop at k-th position in a linked list
+57. Multiply two numbers represented as linked lists into a third list
+58. Check if a Linked List is Pairwise Sorted
+59. Finding Median in a Sorted Linked List
+60. Merge two sorted linked list without duplicates

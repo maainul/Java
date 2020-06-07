@@ -1,7 +1,9 @@
 package linkedList;
 /*
-Given a Singly Linked List, write a function to delete a given node. Your function must follow following constraints:
-1) It must accept a pointer to the start node as the first parameter and node to be deleted as the second parameter i.e., 
+Given a Singly Linked List, write a function to delete a given node.
+Your function must follow following constraints:
+
+1) It must accept a pointer to the start node as the first parameter and node to be deleted as the second parameter,
 a pointer to head node is not global.
 2) It should not return a pointer to the head node.
 3) It should not accept pointer to pointer to the head node.
@@ -45,34 +47,43 @@ public class _40_DeleteNode {
             current.next = newNode;
         }
     }
-    void deleteNode(ListNode node, ListNode n) {
-        if (node == n) {
-            if (node.next == null) {
+
+    private void deleteNode(ListNode head, ListNode n) {
+        if (head == n) {
+            if (head.next == null) {
                 System.out.println("There is only one node. The list "
                         + "can't be made empty ");
                 return;
             }
-            // 12 15 10 11 5 6 2 3
-            // 12 15 -- 11 5 6 2 3
-            node.data = node.next.data;
-            n = node.next;
-            node.next = node.next.next;
-            System.gc();
+            // 12 15 10
+            // 15-->10
+            // -- 15 10
+            head.data = head.next.data;
+            head.next = head.next.next;
             return;
         }
-        ListNode prev = node;
-        while (prev.next != null && prev.next != n) {
-            prev = prev.next;
+        // 12 15 10 11 5 6 2 3
+        // 12 15 -- 11 5 6 2 3
+        ListNode current = head;
+        ListNode previous = null;
+        while (current != null && current != n){
+            previous = current;
+            current = current.next;
         }
-        if (prev.next == null) {
+        if (current.next == null) {
             System.out.println("Given node is not present in Linked List");
             return;
         }
-        prev.next = prev.next.next;
-        System.gc();
+        previous.next = current.next;
+
         return;
     }
 
+    private void deleteFromFirst(){
+        ListNode temp = head;
+        head = head.next;
+        temp.next = null;
+    }
 
     private  void display(){
         ListNode current = head;
@@ -93,9 +104,20 @@ public class _40_DeleteNode {
         obj.display();
         System.out.println();
 
-        obj.deleteNode(obj.head, obj.head.next.next);
 
+        obj.deleteNode(obj.head, obj.head);
         obj.display();
+        System.out.println();
+        obj.deleteNode(obj.head, obj.head.next.next);
+        obj.display();
+        System.out.println();
+        obj.deleteNode(obj.head, obj.head);
+        obj.display();
+        System.out.println();
+        obj.deleteNode(obj.head, obj.head);
+        obj.display();
+
+
 
     }
 }

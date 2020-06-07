@@ -64,7 +64,7 @@ public class _21_InsertionPointOfTwoLinkedList {
 
     public static void main(String[] args) {
 
-              _21_InsertionPointOfTwoLinkedList objA = new _21_InsertionPointOfTwoLinkedList();
+        _21_InsertionPointOfTwoLinkedList objA = new _21_InsertionPointOfTwoLinkedList();
         objA.insertAtLast(1);
         objA.insertAtLast(2);
         objA.insertAtLast(3);

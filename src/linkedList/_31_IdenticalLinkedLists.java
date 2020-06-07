@@ -50,7 +50,7 @@ public class _31_IdenticalLinkedLists {
         return (head1 == null && head2 == null);
     }
 // Recursive 
-    public boolean isIdenticalRecursive(Node a, Node b) {
+    public boolean isIdenticalRecursive(ListNode a, ListNode b) {
         if (a == null && b == null) {
             return true;
         }

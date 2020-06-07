@@ -31,23 +31,50 @@ public class _4_DeleteNode {
         }
     }
     private void deleteFromFirst(){
-        ListNode c = head;
-        c = head.next;
-        head.next = null;
-        head = c;
+        ListNode temp = head;
+        head = head.next;
+        temp.next = null;
+
     }
+    // delete data not node..
+    // 12 15 10
+    // (12 = 15)-->10
+    private void deleteFromFirst2(){
+        head.data = head.next.data;
+        head.next = head.next.next;
+
+    }
+
     private  void  deleteFromLast(){
-        ListNode slow = new ListNode(0);
-        // ListNode slow = null;
-        ListNode fast = head;
-        while (fast.next != null){
-            slow = fast;
-            fast = fast.next;
-        }
-        slow.next = null;
+       ListNode current = head;
+       ListNode previous = null;
 
+       while (current.next != null){
+           previous = current;
+           current = current.next;
+       }
+       previous.next = null;
     }
 
+    private  void  deleteANode(int k){
+        ListNode current = head;
+        ListNode previous = null;
+        while (current != null && current.data != k){
+            previous = current;
+            current = current.next;
+        }
+        previous.next = current.next;
+    }
+
+    private void delete(){
+        ListNode current = head;
+        ListNode previous = null;
+        while (current.next != null){
+            previous = current;
+            current = current.next;
+        }
+        previous.next = null;
+    }
 
     public static void main(String[] args) {
         _4_DeleteNode obj = new _4_DeleteNode();
@@ -66,8 +93,21 @@ public class _4_DeleteNode {
         obj.display();
 
         obj.deleteFromLast();
+
         System.out.println("\nDelete from last");
         obj.display();
+
+
+        obj.deleteANode(4);
+        System.out.println("\nDelete from key");
+        obj.display();
+
+
+        System.out.println();
+        obj.deleteFromFirst2();
+        obj.display();
+
+
 
     }
 }

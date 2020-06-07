@@ -74,6 +74,7 @@ public class _29_DeleteALterNodes {
         obj.insertAtLast(5);
         obj.insertAtLast(6);
         obj.display();
+
         System.out.println();
         obj.DeleteAlterNode();
         obj.display();

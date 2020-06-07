@@ -49,6 +49,7 @@ public class _24_RemoveDuplicateFromUnSortedList {
         }
     }
 
+
     public static void main(String[] args) {
         _24_RemoveDuplicateFromUnSortedList obj = new _24_RemoveDuplicateFromUnSortedList();
 
@@ -61,10 +62,10 @@ public class _24_RemoveDuplicateFromUnSortedList {
         obj.insertAtLast(6);
         obj.insertAtLast(1);
         obj.insertAtLast(2);
-
+        System.out.println("Original LinkedList: ");
         obj.display();
         System.out.println();
-
+        System.out.println("After Remove duplicate LinkedList:");
         obj.removeDuplicateUnsorted();
         obj.display();
 

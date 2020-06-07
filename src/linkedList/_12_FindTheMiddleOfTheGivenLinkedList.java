@@ -48,8 +48,6 @@ public class _12_FindTheMiddleOfTheGivenLinkedList {
         obj.insertAtLast(2);
         obj.insertAtLast(3);
         obj.insertAtLast(4);
-        obj.insertAtLast(5);
-        obj.insertAtLast(6);
 
         obj.display();
         System.out.println();

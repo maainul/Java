@@ -30,17 +30,16 @@ public class _5_DeleteByPosition {
             current = current.next;
         }
     }
-
-    private void  deleteByGivenPosition(int pos){
-        ListNode previous = head;
-        int count = 1;
-        while(count < pos-1){
-            previous = previous.next;
+    private void deleteByGivenIndex(int k){
+        ListNode current = head;
+        ListNode previous = null;
+        int count = 0;
+        while (current != null && count < k){
+            previous = current;
+            current = current.next;
             count++;
         }
-        ListNode current = previous.next;
         previous.next = current.next;
-        current.next = null;
     }
 
     public static void main(String[] args) {
@@ -54,8 +53,8 @@ public class _5_DeleteByPosition {
 
         obj.display();
         System.out.println();
-        obj.deleteByGivenPosition(4);
         System.out.println("\nDelete By position");
+        obj.deleteByGivenIndex(2);
         obj.display();
 
     }

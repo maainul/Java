@@ -79,6 +79,27 @@ public class _11_FindNthNode {
         }
         return 0;
     }
+
+    private void NthNodeOriginal(int index){
+        ListNode current = head;
+        int count = 0;
+        boolean flag = false;
+        while(current != null && count < index){
+            flag = true;
+            count++;
+            current = current.next;
+        }
+        if (flag){
+            System.out.println("Data found."+current.data);
+        }else {
+            System.out.println("Data not found");
+        }
+    }
+
+
+
+
+
         public static void main(String[] args) {
         _11_FindNthNode obj = new _11_FindNthNode();
         obj.insertAtLast(11);
@@ -93,12 +114,18 @@ public class _11_FindNthNode {
         obj.FindNode(4);
 
         // solution : https://coderanch.com/t/687171/java/Nth-node-Linked-List
-        System.out.println("\n11.Write a function to get Nth node in a Linked List");
+        System.out.println("\nWrite a function to get Nth node in a Linked List");
         int result = obj.FindNodeVersion2(3);
         if(result == 0){
             System.out.println("Node is not found");
         }else{
             System.out.println("Node found = "+result);
         }
+
+        System.out.println("\n----Version 3----");
+
+
+        obj.NthNodeOriginal(4);
+
     }
 }

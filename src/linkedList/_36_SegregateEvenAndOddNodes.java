@@ -97,9 +97,8 @@ public class _36_SegregateEvenAndOddNodes {
         if (even != null)
         {
             head = even;
-            System.out.println(even.data);
-            System.out.println(odd.data);
             evenTail.next = odd;
+
         }
         // special case - list contains all odd nodes
         else {
