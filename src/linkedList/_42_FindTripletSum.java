@@ -4,7 +4,7 @@ Find a triplet from three linked lists with sum equal to a given number
 Given three linked lists,
 say a, b and c, find one node from each list such that the sum of the values of the nodes is equal to a given number.
 For example, if the three linked lists are 12->6->29, 23->5->8 and 90->20->59, and the given number is 101,
-the output should be tripel “6 5 90”.
+the output should be triple “6 5 90”.
 
 In the following solutions, size of all three linked lists is assumed same for simplicity of analysis. The following solutions work for linked lists of different sizes also.
 
@@ -20,7 +20,16 @@ Sorting can be used to reduce the time complexity to O(n*n). Following are the d
     See isSumSorted() in the following code.
 
 The time complexity of this method will be O(n^3).
- */
+
+ /* Create Linked List llist1                           100->15->5->20 */
+ /*ascending order/
+        /*create a sorted linked list 'b'               2->4->9->10 */
+
+/* descending order /
+        /*create another sorted linked list 'c'          8->4->2->1 */
+
+
+
 // Java program to find a triplet from three linked lists with
 // sum equal to a given number
 // https://www.geeksforgeeks.org/find-a-triplet-from-three-linked-lists-with-sum-equal-to-a-given-number/
@@ -75,6 +84,38 @@ public class _42_FindTripletSum
         return false;
     }
 
+    private static void triplesum(Node headA, Node headB, Node headC, int givenNumber){
+        Node a =headA;
+
+        // Traverse all nodes of la
+        while (a != null)
+        {
+            Node b = headB;
+            Node c = headC;
+
+            // for every node in la pick 2 nodes from lb and lc
+            while (b != null && c!=null)
+            {
+                int sum = a.data + b.data + c.data;
+                if (sum == givenNumber)
+                {
+                    System.out.println("Triplet found " + a.data +
+                            " " + b.data + " " + c.data);
+                    return;
+                }
+
+                // If sum is smaller then look for greater value of b
+                else if (sum < givenNumber)
+                    b = b.next;
+
+                else
+                    c = c.next;
+            }
+            a = a.next;
+        }
+        System.out.println("No Triplet found");
+    }
+
 
     /* Given a reference (pointer to pointer) to the head
     of a list and an int, push a new node on the front
@@ -117,10 +158,15 @@ public class _42_FindTripletSum
         llist3.push(1);
         llist3.push(2);
         llist3.push(4);
-       // llist3.push(8);
+        llist3.push(8);
 
 
         int givenNumber = 25;
-        llist1.isSumSorted(llist1,llist2,llist3,givenNumber);
+        //llist1.isSumSorted(llist1,llist2,llist3,givenNumber);
+
+
+        triplesum(llist1.head, llist2.head, llist3.head, givenNumber);
+
+
     }
 }
