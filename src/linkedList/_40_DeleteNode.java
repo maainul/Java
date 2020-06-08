@@ -113,9 +113,7 @@ public class _40_DeleteNode {
         System.out.println();
         obj.deleteNode(obj.head, obj.head);
         obj.display();
-        System.out.println();
-        obj.deleteNode(obj.head, obj.head);
-        obj.display();
+
 
 
 
