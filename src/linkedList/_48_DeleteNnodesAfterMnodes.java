@@ -69,14 +69,16 @@ public class _48_DeleteNnodesAfterMnodes {
             firstPart = firstPart.next;
             Mcounter++;
         }
-
+        System.out.println();
+        System.out.println(firstPart.data);
         ListNode secondPart = firstPart.next;
         int Ncounter = 1;
         while (Ncounter <= N && secondPart.next != null) {
             secondPart = secondPart.next;
             Ncounter++;
         }
-
+        System.out.println();
+        System.out.println(secondPart.data);
         firstPart.next = secondPart;
 
     }

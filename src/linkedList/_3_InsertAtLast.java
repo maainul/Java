@@ -1,5 +1,12 @@
 package linkedList;
+/*
+Insert Node at beginning
+5-->1--->2--->4-->null
 
+Want to add 15 at last.
+
+5-->1-->2---4-->15---->null
+ */
 public class _3_InsertAtLast {
     ListNode head;
     public class ListNode {
@@ -12,11 +19,12 @@ public class _3_InsertAtLast {
     }
     private void insertAtLast(int data){
         ListNode newNode = new ListNode(data);
-        ListNode current = head;
+
         if(head == null){
             head = newNode;
         }
         else{
+            ListNode current = head;
             while (current.next != null){
                 current = current.next;
             }

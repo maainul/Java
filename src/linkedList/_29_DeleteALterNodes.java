@@ -65,7 +65,6 @@ public class _29_DeleteALterNodes {
             }
         }
     }
-
     public static void main(String[] args) {
         _29_DeleteALterNodes obj = new _29_DeleteALterNodes();
         obj.insertAtLast(2);
@@ -78,5 +77,6 @@ public class _29_DeleteALterNodes {
         System.out.println();
         obj.DeleteAlterNode();
         obj.display();
+
     }
 }

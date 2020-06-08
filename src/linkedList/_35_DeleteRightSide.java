@@ -75,6 +75,7 @@ public class _35_DeleteRightSide {
         }
         return curr;
     }
+
     public static void main(String[] args) {
         _35_DeleteRightSide obj = new _35_DeleteRightSide();
         obj.insertAtLast(12);

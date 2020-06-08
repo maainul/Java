@@ -1,4 +1,14 @@
 package linkedList;
+/*
+Insert Node at beginning
+1--->2--->4-->null
+
+Want to add 5 in front..
+
+5-->1-->2---4-->null
+
+ */
+
 
 public class _2_InsertAtBeginning {
     ListNode head;
@@ -8,19 +18,6 @@ public class _2_InsertAtBeginning {
         ListNode(int data){
             this.data = data;
             this.next = null;
-        }
-    }
-    private void insertAtLast(int data){
-        ListNode newNode = new ListNode(data);
-        ListNode current = head;
-        if(head == null){
-            head = newNode;
-        }
-        else{
-            while (current.next != null){
-                current = current.next;
-            }
-            current.next = newNode;
         }
     }
     private  void display(){
@@ -41,12 +38,8 @@ public class _2_InsertAtBeginning {
         _2_InsertAtBeginning obj = new _2_InsertAtBeginning();
         obj.insertAtBeginning(1);
         obj.insertAtBeginning(2);
-        obj.insertAtBeginning(3);
-        obj.insertAtBeginning(4);
-
         obj.display();
         System.out.println();
-
 
     }
 }

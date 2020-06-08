@@ -17,7 +17,9 @@ Output: 20->15->12->13->10->14
 Input:  10->15->12->13->20->14,  x = 12, y = 13
 Output: 10->15->13->12->20->14
  */
+
 public class _10_SwapNodes {
+
     ListNode head;
     public class ListNode {
         int data;
@@ -27,6 +29,7 @@ public class _10_SwapNodes {
             this.next = null;
         }
     }
+
     private void insertAtLast(int data){
         ListNode newNode = new ListNode(data);
         ListNode current = head;
@@ -40,6 +43,7 @@ public class _10_SwapNodes {
             current.next = newNode;
         }
     }
+
     private  void display(){
         ListNode current = head;
         while (current != null){
@@ -47,54 +51,47 @@ public class _10_SwapNodes {
             current = current.next;
         }
     }
-        // 10. Swap node in linked
-    //swap() will swap the given two nodes
-    public void swap(int n1, int n2){
-        ListNode prevNode1 = null, prevNode2 = null, node1 = head, node2 = head;
 
-        //Checks if list is empty
-        if(head == null) {
-            return;
+    private ListNode reverseWithGroup(ListNode head, int k){
+        ListNode current = head;
+        ListNode previous = null;
+        ListNode next = null;
+        int count = 0;
+        while (count < k && current != null){
+            next = current.next;
+            current.next = previous;
+            previous = current;
+            current = next;
+            count++;
         }
-
-        //If n1 and n2 are equal, then list will remain the same
-        if(n1 == n2)
-            return;
-
-        //Search for node1
-        while(node1 != null && node1.data != n1){
-            prevNode1 = node1;
-            node1 = node1.next;
+        if(next != null){
+            head.next = reverseWithGroup(next,k);
         }
+        return previous;
+    }
 
-        //Search for node2
-        while(node2 != null && node2.data != n2){
-            prevNode2 = node2;
-            node2 = node2.next;
+    private ListNode reverseII(int m, int n){
+        ListNode dummyHead = new ListNode(0);
+        ListNode pre = dummyHead;
+        dummyHead.next = head;
+        for (int i = 0; i< m-1; i++){
+            pre= pre.next;
         }
+        ListNode previous = null;
+        ListNode current = pre.next;
+        for (int j = 0; j< n-m ;j++){
+           ListNode nxt = current.next;
+           current.next = nxt.next;
+           nxt.next = pre.next;
+           pre.next = nxt;
 
-        if(node1 != null && node2 != null) {
+            // 1 2 3 4 5 6 7
+            // 1 2 [4 3] 5 6 7
+            // 1 2 [5 4 3] 6 7
+            // 1 2 [6 5 4 3] 7
 
-            //If previous node to node1 is not null then, it will point to node2
-            if(prevNode1 != null)
-                prevNode1.next = node2;
-            else
-                head  = node2;
-
-            //If previous node to node2 is not null then, it will point to node1
-            if(prevNode2 != null)
-                prevNode2.next = node1;
-            else
-                head  = node1;
-
-            //Swaps the next nodes of node1 and node2
-            ListNode temp = node1.next;
-            node1.next = node2.next;
-            node2.next = temp;
         }
-        else {
-            System.out.println("Swapping is not possible");
-        }
+        return dummyHead.next;
     }
 
     public static void main(String[] args) {
@@ -105,13 +102,14 @@ public class _10_SwapNodes {
         obj.insertAtLast(4);
         obj.insertAtLast(5);
         obj.insertAtLast(6);
-
-        System.out.println("\nBefore Swapping:");
+        obj.insertAtLast(7);
+        System.out.println("\nOriginal");
+        obj.display();
+        System.out.println("\nAfter Reverse");
+        obj.head = obj.reverseII(3,6);
         obj.display();
 
-        System.out.println("\n\nAfter Swapping:");
-        obj.swap(2, 4);
-        obj.display();
+
 
     }
 }

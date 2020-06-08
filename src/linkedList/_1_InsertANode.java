@@ -1,5 +1,11 @@
 package linkedList;
-
+/* insert a node in a given position
+Original Linked list
+1->2->3->4->
+insert 10 in position 3 or index 2
+After insert Value
+1->2->10->3->4->
+ */
 public class _1_InsertANode {
    ListNode head;
     public class ListNode {

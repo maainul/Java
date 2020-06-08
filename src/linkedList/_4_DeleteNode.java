@@ -1,5 +1,14 @@
 package linkedList;
+/*
+Delete from first
+2->3->4->5->6->
+Delete from last
+2->3->4->5->
+Delete from key
+2->3->5->
+3->5->
 
+ */
 public class _4_DeleteNode {
     ListNode head;
     public class ListNode {
