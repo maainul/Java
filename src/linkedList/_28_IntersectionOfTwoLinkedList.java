@@ -1,6 +1,21 @@
 
 package linkedList;
+/*
+Intersection of two Sorted Linked Lists
+Given two lists sorted in increasing order,
+create and return a new list representing the intersection of the two lists.
+The new list should be made with its own memory — the original lists should not be changed.
+For example, let the first linked list be 1->2->3->4->6 and second linked list be 2->4->6->8,
+then your function should create and return a third list as 2->4->6.
 
+    2->4->6->8->
+    Result is
+    l1 data :2
+    l1 data :4
+    l1 data :6
+    2---->4---->6---->
+
+ */
 public class _28_IntersectionOfTwoLinkedList {
         ListNode head;
     public static class ListNode {
@@ -37,7 +52,6 @@ public class _28_IntersectionOfTwoLinkedList {
         ListNode l1 = headA;
         ListNode l2 = headB;
         ListNode temp = new ListNode(0);
-        //ListNode dummy = null;
         ListNode tempCopy = temp; // 0
         // 0-->null
        // 1 2 3 4 5
@@ -60,7 +74,7 @@ public class _28_IntersectionOfTwoLinkedList {
         }
         //2 4
         return tempCopy.next;
-       //return temp.next;
+
     }
     private static void print(ListNode head){
         ListNode c = head;
@@ -76,17 +90,15 @@ public class _28_IntersectionOfTwoLinkedList {
         objA.insertAtLast(2);
         objA.insertAtLast(3);
         objA.insertAtLast(4);
-        objA.insertAtLast(5);
+        objA.insertAtLast(6);
         _28_IntersectionOfTwoLinkedList obs = new _28_IntersectionOfTwoLinkedList();
         obs.insertAtLast(2);
         obs.insertAtLast(4);
         obs.insertAtLast(6);
         obs.insertAtLast(8);
-        obs.insertAtLast(10);
         obs.display();
 
         System.out.println("\nResult is");
-        //print(insertionSortedList(objA.head, obs.head));
         print(insertionSortedList(objA.head, obs.head));
 
     }

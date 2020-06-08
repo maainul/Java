@@ -52,24 +52,6 @@ public class _10_SwapNodes {
         }
     }
 
-    private ListNode reverseWithGroup(ListNode head, int k){
-        ListNode current = head;
-        ListNode previous = null;
-        ListNode next = null;
-        int count = 0;
-        while (count < k && current != null){
-            next = current.next;
-            current.next = previous;
-            previous = current;
-            current = next;
-            count++;
-        }
-        if(next != null){
-            head.next = reverseWithGroup(next,k);
-        }
-        return previous;
-    }
-
     private ListNode reverseII(int m, int n){
         ListNode dummyHead = new ListNode(0);
         ListNode pre = dummyHead;
@@ -89,10 +71,54 @@ public class _10_SwapNodes {
             // 1 2 [4 3] 5 6 7
             // 1 2 [5 4 3] 6 7
             // 1 2 [6 5 4 3] 7
-
         }
         return dummyHead.next;
     }
+    public void swapNodes(int x, int y)
+    {
+        // Nothing to do if x and y are same
+        if (x == y) return;
+
+        // Search for x (keep track of prevX and CurrX)
+        ListNode prevX = null, currX = head;
+        while (currX != null && currX.data != x)
+        {
+            prevX = currX;
+            currX = currX.next;
+        }
+
+        // Search for y (keep track of prevY and currY)
+        ListNode prevY = null, currY = head;
+        while (currY != null && currY.data != y)
+        {
+            prevY = currY;
+            currY = currY.next;
+        }
+
+        // If either x or y is not present, nothing to do
+        if (currX == null || currY == null)
+            return;
+        // If x is not head of linked list
+        if (prevX != null)
+            prevX.next = currY;
+        else //make y the new head
+            head = currY;
+
+        // If y is not head of linked list
+        if (prevY != null)
+            prevY.next = currX;
+        else // make x the new head
+            head = currX;
+
+        // Swap next pointers
+        ListNode temp = currY.next;
+        currY.next = currX.next;
+        currX.next = temp;
+    }
+
+
+
+
 
     public static void main(String[] args) {
         _10_SwapNodes obj = new _10_SwapNodes();
@@ -106,7 +132,9 @@ public class _10_SwapNodes {
         System.out.println("\nOriginal");
         obj.display();
         System.out.println("\nAfter Reverse");
-        obj.head = obj.reverseII(3,6);
+/*        obj.head = obj.reverseII(3,6);
+        obj.display();*/
+        obj.swapNodes(4 ,6);
         obj.display();
 
 
