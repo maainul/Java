@@ -55,6 +55,7 @@ public class _19_LeetcodeRemoveNthNodeFromEnd {
         pre.next = null;
 
         return dummy.next;
+
     }
     public static void main(String[] args) {
         _19_LeetcodeRemoveNthNodeFromEnd obj = new _19_LeetcodeRemoveNthNodeFromEnd();
@@ -63,8 +64,6 @@ public class _19_LeetcodeRemoveNthNodeFromEnd {
         obj.insertAtLast(2);
         obj.insertAtLast(3);
         obj.insertAtLast(4);
-        obj.insertAtLast(5);
-        obj.insertAtLast(6);
 
         obj.display(obj.head);
         System.out.println();

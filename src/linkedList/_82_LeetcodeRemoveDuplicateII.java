@@ -8,13 +8,15 @@ Return the linked list sorted as well.
 Example 1:
 
 Input: 1->2->3->3->4->4->5
-Output: 1->2->3-->4-->5
+Output: 1->2->5
 Example 2:
 
 Input: 1->1->1->2->3
-Output: 1-->2->3
- */
-public class _23_RemoveDuplicateFromSortedList {
+Output: 2->3
+*/
+
+public class _82_LeetcodeRemoveDuplicateII {
+
     ListNode head;
     public class ListNode {
         int data;
@@ -37,7 +39,7 @@ public class _23_RemoveDuplicateFromSortedList {
             current.next = newNode;
         }
     }
-    private  void display(){
+    private  void display(ListNode head){
         ListNode current = head;
         while (current != null){
             System.out.print(current.data+"->");
@@ -45,21 +47,34 @@ public class _23_RemoveDuplicateFromSortedList {
         }
     }
 
-    private void removeDuplicate(){
-        ListNode slow = head;
-        ListNode fast = head.next;
-        while( fast != null){
-            if(slow.data == fast.data){
-                slow.next = fast.next;
-            }else {
-                slow = slow.next;
+    public ListNode deleteDuplicates(ListNode head) {
+        ListNode temp = new ListNode(0);
+        temp.next = head;
+        ListNode pre = temp;
+        ListNode cur = head;
+
+        while(cur != null && cur.next != null){
+            if(head == null || head.next == null){
+                return head;
             }
-            fast = fast.next;
+            ListNode nextNode = cur.next;
+            if(cur.data == nextNode.data){
+                while(cur.next != null && cur.data == nextNode.data){
+                    cur = cur.next;
+                    nextNode = nextNode.next;
+                }
+                pre.next = nextNode;
+                cur = nextNode;
+            }else{
+                pre = pre.next;
+                cur = cur.next;
+            }
         }
+        return temp.next;
     }
 
     public static void main(String[] args) {
-        _23_RemoveDuplicateFromSortedList obj = new _23_RemoveDuplicateFromSortedList();
+        _82_LeetcodeRemoveDuplicateII obj = new _82_LeetcodeRemoveDuplicateII();
         obj.insertAtLast(1);
         obj.insertAtLast(2);
         obj.insertAtLast(3);
@@ -69,11 +84,11 @@ public class _23_RemoveDuplicateFromSortedList {
         obj.insertAtLast(5);
         obj.insertAtLast(6);
 
-        obj.display();
+        obj.display(obj.head);
         System.out.println();
 
-        obj.removeDuplicate();
-        obj.display();
+        obj.head = obj.deleteDuplicates(obj.head);
+        obj.display(obj.head);
 
     }
 }

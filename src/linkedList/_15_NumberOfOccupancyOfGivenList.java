@@ -1,5 +1,4 @@
 package linkedList;
-
 public class _15_NumberOfOccupancyOfGivenList {
 
         ListNode head;
