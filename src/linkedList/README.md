@@ -3,7 +3,6 @@
 ### important link : https://afteracademy.com/blog/types-of-linked-list-and-operation-on-linked-list
 
 00. Linked list vs array list
-
 01. Linked list insert node
 02. Linked list insert node At beginning
 03. Linked list insert node At last
@@ -13,12 +12,10 @@
 40. Delete a given node in linked list under given constraints
 35. Delete nodes which have a greater value on right side
 48. Delete n nodes after m nodes of linked list
-
 22. Print reverse of a linked list without actually reversing
 33. Reverse a linked list in groups of given size | set 1
 34. Reverse alternate k nodes in a singly linked list
 37. ReverseLinkedList with m and n
-
 06. A programmers approach of looking at array vs linked list
 07. Find length of a linked list(iterative and recursive)
 08. Search an element in a linked list (iterative and recursive)
