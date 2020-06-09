@@ -1,13 +1,5 @@
 ## Singly Linked List
 
-#### Incomplete
-
-10. Swap nodes in a linked list without swapping data
-22. Print reverse of a linked list without actually reversing
-28. Intersection of two sorted linked lists
-46. Sort a linked list of 0s, 1s and 2s
-34. Reverse alternate k nodes in a singly linked list
-
 ### important link : https://afteracademy.com/blog/types-of-linked-list-and-operation-on-linked-list
 
 00. Linked list vs array list
@@ -21,6 +13,11 @@
 40. Delete a given node in linked list under given constraints
 35. Delete nodes which have a greater value on right side
 48. Delete n nodes after m nodes of linked list
+
+22. Print reverse of a linked list without actually reversing
+33. Reverse a linked list in groups of given size | set 1
+34. Reverse alternate k nodes in a singly linked list
+37. ReverseLinkedList with m and n
 
 06. A programmers approach of looking at array vs linked list
 07. Find length of a linked list(iterative and recursive)
@@ -38,7 +35,6 @@
 19. Given only a pointer/reference to a node to be deleted in a singly linked list , how do you delete it?
 20. Function to check if a singly linked list is palindrome
 21. Write a function to get the intersection point of two linked lists
-22. Print reverse of a linked list without actually reversing
 23. Remove duplicate from a sorted linked list
 24. Remove duplicate from an unsorted linked list
 25. Pairwise swap elements of a given linked list
@@ -48,10 +44,7 @@
 30. Alternations split of a given singly linked list | set 1
 31. Identical linked lists
 32. Merge sort for linked lists
-33. Reverse a linked list in groups of given size | set 1
-34. Reverse alternate k nodes in a singly linked list
 36. Segregate even and odd nodes in a linked list
-37. Not Found.
 38. Detect and remove loop in a linked list
 39. Add two numbers represented by linked lists | set 1
 45. Add two numbers represented by linked lists | set 2

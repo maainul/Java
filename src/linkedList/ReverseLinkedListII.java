@@ -5,12 +5,12 @@ Note: 1 ≤ m ≤ n ≤ length of list.
 
 Example:
 
+
 Input: 1->2->3->4->5->NULL, m = 2, n = 4
 Output: 1->4->3->2->5->NULL
  */
 package linkedList;
 
-import java.util.List;
 
 public class ReverseLinkedListII {
 
@@ -46,39 +46,27 @@ public class ReverseLinkedListII {
         }
     }
 
-    private ListNode reverseWithGroup(ListNode head, int k){
-        ListNode current = head;
-        ListNode previous = null;
-        ListNode next = null;
-        int count = 0;
-        while (count < k && current != null){
-            next = current.next;
-            current.next = previous;
-            previous = current;
-            current = next;
-            count++;
-        }
-        if(next != null){
-            head.next = reverseWithGroup(next,k);
-        }
-        return previous;
-    }
-
     private ListNode reverseII(int m, int n){
         ListNode dummyHead = new ListNode(0);
         ListNode pre = dummyHead;
         dummyHead.next = head;
-        for (int i = 0; i< m-1; i++){
-            pre= pre.next;
+
+        int Mcounter = 0;
+        while (Mcounter < m-1){
+            pre = pre.next;
+            Mcounter++;
+
         }
         ListNode previous = null;
         ListNode current = pre.next;
-        for (int j = 0; j< n-m ;j++){
+        int count = 0;
+
+        while (count < n-m){
            ListNode nxt = current.next;
            current.next = nxt.next;
            nxt.next = pre.next;
            pre.next = nxt;
-
+           count++;
             // 1 2 3 4 5 6 7
             // 1 2 [4 3] 5 6 7
             // 1 2 [5 4 3] 6 7
