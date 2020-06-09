@@ -12,7 +12,7 @@ Output: 1->4->3->2->5->NULL
 package linkedList;
 
 
-public class ReverseLinkedListII {
+public class _37_ReverseLinkedListII {
 
     ListNode head;
     public class ListNode {
@@ -57,7 +57,6 @@ public class ReverseLinkedListII {
             Mcounter++;
 
         }
-        ListNode previous = null;
         ListNode current = pre.next;
         int count = 0;
 
@@ -77,7 +76,7 @@ public class ReverseLinkedListII {
     }
 
     public static void main(String[] args) {
-        ReverseLinkedListII reverseLinkedList = new ReverseLinkedListII();
+        _37_ReverseLinkedListII reverseLinkedList = new _37_ReverseLinkedListII();
         reverseLinkedList.insertAtLast(1);
         reverseLinkedList.insertAtLast(2);
         reverseLinkedList.insertAtLast(3);
