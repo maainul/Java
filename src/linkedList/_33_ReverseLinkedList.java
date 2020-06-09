@@ -63,6 +63,34 @@ public class _33_ReverseLinkedList {
         }
         return previous;
     }
+    // Leetcode code
+    // With corner case
+    public ListNode reverseKGroup(ListNode head, int k) {
+        ListNode temp = head;
+        int length = 0;
+        while(temp != null){
+            length++;
+            temp = temp.next;
+        }
+        if(k > length){
+            return head;
+        }
+
+        ListNode current = head;
+        ListNode previous = null;
+        int count = 0;
+        while(count < k ){
+            ListNode nxt = current.next;
+            current.next = previous;
+            previous = current;
+            current = nxt;
+            count++;
+        }
+        head.next = reverseKGroup(current, k);
+        return previous;
+
+    }
+
 
     public static void main(String[] args) {
         _33_ReverseLinkedList reverseLinkedList = new _33_ReverseLinkedList();
