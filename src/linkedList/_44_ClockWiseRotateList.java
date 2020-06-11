@@ -1,4 +1,4 @@
-package may1st;
+package linkedList;
 
 /*
 Clockwise rotation of Linked List
