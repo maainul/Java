@@ -1,7 +1,7 @@
 ## Singly Linked List
 ### important link : https://afteracademy.com/blog/types-of-linked-list-and-operation-on-linked-list
 00. Linked list vs array list
-01. Linked list insert node
+01. Linked list insert node At a given position
 02. Linked list insert node At beginning
 03. Linked list insert node At last
 04. Linked list deleting from fast, last and given A node
