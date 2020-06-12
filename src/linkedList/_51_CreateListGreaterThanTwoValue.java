@@ -67,7 +67,7 @@ public class _51_CreateListGreaterThanTwoValue {
                 temp = temp.next;
             }
         }
-        return head; 
+        return head;
     }
 
     public static void main(String[] args) {

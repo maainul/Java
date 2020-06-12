@@ -23,7 +23,7 @@ public class _13_NthNodeFromTheEndOfaLinkedList {
             current.next = newNode;
         }
     }
-    private  void display(){
+    private  void display(ListNode head){
         ListNode current = head;
         while (current != null){
             System.out.print(current.data+"->");
@@ -48,17 +48,45 @@ public class _13_NthNodeFromTheEndOfaLinkedList {
         }
         System.out.println("Data found = "+current.data);
     }
+
+
+    private ListNode findNthFromlast(ListNode head, int n) {
+		ListNode refListNode = head;
+		ListNode mainListNode = head;
+		ListNode preListNode = null;
+		int count = 0;
+		while (count < n) {
+			refListNode =refListNode.next;
+			count++;
+		}
+		while (refListNode != null) {
+			refListNode = refListNode.next;
+			mainListNode = mainListNode.next;
+		}
+		return mainListNode;
+	}
+
+
     public static void main(String[] args) {
         _13_NthNodeFromTheEndOfaLinkedList obj = new _13_NthNodeFromTheEndOfaLinkedList();
         obj.insertAtLast(1);
         obj.insertAtLast(2);
         obj.insertAtLast(3);
         obj.insertAtLast(4);
+        obj.insertAtLast(5);
+        obj.insertAtLast(6);
 
-        obj.display();
+        obj.display(obj.head);
         System.out.println();
 
         obj.findNodeFromEnd(2);
+
+
+        System.out.println("\nFrom Nth Last");
+        ListNode headListNode = obj.findNthFromlast(obj.head, 3);
+        obj.display(headListNode);
+
+        System.out.println("\n\nNth Node : "+headListNode.data);
 
     }
 }

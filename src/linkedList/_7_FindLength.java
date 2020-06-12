@@ -39,6 +39,13 @@ public class _7_FindLength {
         }
         return  len;
     }
+    
+    public int lengthRec(ListNode head){
+        if(head == null){
+            return 0;
+        }
+        return 1+lengthRec(head.next);
+    }
 
     public static void main(String[] args) {
         _7_FindLength obj = new _7_FindLength();
@@ -50,8 +57,10 @@ public class _7_FindLength {
         obj.insertAtLast(6);
 
         obj.display();
-        System.out.println();
+        System.out.println("\nLength of Linked List:");
         System.out.println(obj.length());
+        System.out.println("\nLength Recursive");
+        System.out.println(obj.lengthRec(obj.head));
 
     }
 }

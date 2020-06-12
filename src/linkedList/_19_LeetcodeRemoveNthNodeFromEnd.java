@@ -57,6 +57,27 @@ public class _19_LeetcodeRemoveNthNodeFromEnd {
         return dummy.next;
 
     }
+    private ListNode removedNthFromlast(ListNode head, int n) {
+        if(head == null || head.next == null){
+            return null;
+        }
+        ListNode refListNode = head;
+        ListNode mainListNode = head;
+        ListNode preListNode = null;
+        int count = 0;
+        while (count < n) {
+            refListNode =refListNode.next;
+            count++;
+        }
+        while (refListNode != null) {
+            preListNode = mainListNode;
+            refListNode = refListNode.next;
+            mainListNode = mainListNode.next;
+        }
+        preListNode.next = mainListNode.next;
+
+        return head;
+    }
     public static void main(String[] args) {
         _19_LeetcodeRemoveNthNodeFromEnd obj = new _19_LeetcodeRemoveNthNodeFromEnd();
 
@@ -64,13 +85,22 @@ public class _19_LeetcodeRemoveNthNodeFromEnd {
         obj.insertAtLast(2);
         obj.insertAtLast(3);
         obj.insertAtLast(4);
+        obj.insertAtLast(44);
+        obj.insertAtLast(54);
+        obj.insertAtLast(64);
 
         obj.display(obj.head);
         System.out.println();
 
-        obj.head = obj.removeFromLast(obj.head, 2);
+       // obj.head = obj.removeFromLast(obj.head, 2);
 
-        obj.display(obj.head);
+       // obj.display(obj.head);
+
+
+
+        System.out.println("\nRemove Nth From Last:");
+        ListNode rlastListNode = obj.removedNthFromlast(obj.head, 2);
+        obj.display(rlastListNode);
     }
 
 
