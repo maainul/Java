@@ -16,6 +16,9 @@ return [0, 1].
 ***************************************************************************/
 package leetcode;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class _1_TwoSum {
 
 	public static int[] twosumsolution(int nums[], int target) {
@@ -31,6 +34,22 @@ public class _1_TwoSum {
 		return result;
 	}
 
+    public static int[] twoSum(int[] nums, int target) {
+	    int result[] = new int[2];
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement)) {
+                //return new int[] { map.get(complement), i };
+                result[1] = i;
+                result[0] = map.get(complement);
+                return result;
+            }
+            map.put(nums[i], i);
+        }
+        throw new IllegalArgumentException("No two sum solution");
+    }
+
 	public static void main(String args[]) {
 		int[] nums = { 2, 5, 9, 11, 7, 13 };// declaration and instantiation
 		int target = 13;
@@ -42,6 +61,9 @@ public class _1_TwoSum {
 			System.out.println("No solution found...");
 		}
 		System.out.println();
-	}
 
+        System.out.println("Two sum Hashmap Implementation");
+        int res[] = twoSum(nums,15);
+        System.out.println(res[0]+" and "+res[1]);
+	}
 }
