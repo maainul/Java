@@ -98,6 +98,14 @@ public class _10_SwapNodes {
         // If either x or y is not present, nothing to do
         if (currX == null || currY == null)
             return;
+
+
+        // Swap next pointers
+        ListNode temp = currY.next;
+        currY.next = currX.next;
+        currX.next = temp;
+
+
         // If x is not head of linked list
         if (prevX != null)
             prevX.next = currY;
@@ -109,11 +117,6 @@ public class _10_SwapNodes {
             prevY.next = currX;
         else // make x the new head
             head = currX;
-
-        // Swap next pointers
-        ListNode temp = currY.next;
-        currY.next = currX.next;
-        currX.next = temp;
     }
 
 
