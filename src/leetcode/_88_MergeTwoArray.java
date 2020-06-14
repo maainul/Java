@@ -33,7 +33,7 @@ public class _88_MergeTwoArray {
 		int n = 3;
 
 		mergeArray(nums1, nums2, m, n);
-
+		merge(nums1, nums2, m, n);
 	}
 
 	public static void mergeArray(int[] nums1, int[] nums2, int m, int n) {
@@ -42,6 +42,24 @@ public class _88_MergeTwoArray {
 			nums1[i] = nums2[index++];
 		}
 		Arrays.sort(nums1);
+		System.out.println(Arrays.toString(nums1));
+	}
+
+	public static void merge(int[] nums1, int[] nums2,int m, int n) {
+		int i = m-1;
+		int j = n-1;
+		int k = m + n -1;
+
+		while(i >= 0 && j >= 0){
+			if(nums1[i] > nums2[j]){
+				nums1[k--] = nums1[i--];
+			}else{
+				nums1[k--] = nums2[j--];
+			}
+		}
+		while(j >=0){
+			nums1[k--] = nums2[j--];
+		}
 		System.out.println(Arrays.toString(nums1));
 	}
 }
