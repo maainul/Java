@@ -58,23 +58,53 @@ public class _23_RemoveDuplicateFromSortedList {
         }
     }
 
+    // GeeksForGeeks
+    private  void removeduplicate2() {
+        ListNode cur = head;
+        while (cur != null) {
+            ListNode temp = cur;
+            while (temp != null && cur.data == temp.data) {
+                temp = temp.next;
+            }
+            cur.next = temp;
+            cur = cur.next;
+        }
+
+    }
+
     public static void main(String[] args) {
         _23_RemoveDuplicateFromSortedList obj = new _23_RemoveDuplicateFromSortedList();
+
+        obj.insertAtLast(1);
+        obj.insertAtLast(1);
         obj.insertAtLast(1);
         obj.insertAtLast(2);
-        obj.insertAtLast(3);
-        obj.insertAtLast(4);
-        obj.insertAtLast(5);
-        obj.insertAtLast(5);
-        obj.insertAtLast(5);
+        obj.insertAtLast(2);
+        obj.insertAtLast(2);
         obj.insertAtLast(6);
 
+        System.out.println("\nOriginal list");
         obj.display();
-        System.out.println();
-
+        System.out.println("\nMethod 1 Remove Duplicate");
         obj.removeDuplicate();
         obj.display();
 
+        //------------------------------------------------------------------------------------------//
+
+        _23_RemoveDuplicateFromSortedList obj2 = new _23_RemoveDuplicateFromSortedList();
+        obj2.insertAtLast(3);
+        obj2.insertAtLast(3);
+        obj2.insertAtLast(3);
+        obj2.insertAtLast(3);
+        obj2.insertAtLast(8);
+        obj2.insertAtLast(8);
+        obj2.insertAtLast(9);
+
+        System.out.println("\n\n2nd Original list");
+        obj2.display();
+        System.out.println("\nMethod 2 Remove Duplicate");
+        obj2.removeduplicate2();
+        obj2.display();
     }
 }
 
