@@ -38,26 +38,35 @@ public class _217_ContainsDuplicate {
 
 	}
 
+
 	private static boolean solutions(int[] nums) {
-		HashSet<Integer> set = new HashSet<Integer>();
-		for (int i = 0; i < nums.length; i++) {
-			if(set.contains(nums[i])) {
+		HashSet<Integer> set = new HashSet<>();
+		for (int i = 0; i < nums.length; i++){
+			if(set.contains(nums[i])){
 				return true;
 			}
 			set.add(nums[i]);
 		}
 		return false;
-		//System.out.println(set);
+
 	}
-	
+
+	private static boolean solution3(int[] nums){
+		Arrays.sort(nums);
+		for (int i = 1; i < nums.length; i++){
+			if(nums[i-1] == nums[i]){
+				return true;
+			}
+		}
+		return false;
+	}
+
 	private static boolean solutions2(int[] nums) {
 		Arrays.sort(nums);
-	    if (nums.length == 1)
-	    	return false;
-	      for (int i = 1; i< nums.length ; i++){
-	          if (nums[i-1] == nums[i])
-	              return true;
-	      }
-	      return false;
+		int i = 1;
+		while (i < nums.length && nums[i-1] == nums[i]){
+			return true;
+		}
+		return false;
 	}	
 }

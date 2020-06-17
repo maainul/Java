@@ -1,5 +1,19 @@
 package linkedList;
+/*
+Write a removeDuplicates() function which takes a list and deletes any duplicate nodes from the list.
+The list is not sorted.
+For example if the linked list is
 
+12->11->12->21->41->43->21
+then removeDuplicates() should convert the list to
+
+12->11->21->41->43.
+
+Linked list before removing duplicates:
+ 10 12 11 11 12 11 10
+Linked list after removing duplicates:
+ 10 12 11
+ */
 public class _24_RemoveDuplicateFromUnSortedList {
     ListNode head;
     public class ListNode {

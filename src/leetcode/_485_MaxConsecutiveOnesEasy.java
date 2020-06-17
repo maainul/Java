@@ -52,10 +52,7 @@ public class _485_MaxConsecutiveOnesEasy {
 		for (int i = 0; i < nums.length; i++) {
 			System.out.print(nums[i]+" ");
 		}
-		
-		
-		System.out.println("\n\nOutput :");
-		
+
 		System.out.println(findMaxConsecutiveOnes(nums));	 
 }
 

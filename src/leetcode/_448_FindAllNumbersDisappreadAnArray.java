@@ -24,6 +24,22 @@ import java.util.HashSet;
 import java.util.List;
 
 public class _448_FindAllNumbersDisappreadAnArray {
+
+	public static List<Integer> findDisappearedNumbers(int[] nums) {
+		List<Integer> missingNumber = new ArrayList<Integer>();
+		HashSet<Integer> set = new HashSet<Integer>();
+
+		for(int i= 0; i <nums.length; i++){
+			set.add(nums[i]);
+		}
+
+		for(int i = 1; i <= nums.length; i++){
+			if(!set.contains(i)){
+				missingNumber.add(i);
+			}
+		}
+		return missingNumber;
+	}
 	public static void main(String args[]) {
 		System.out.println("448. Find All Numbers Disappeared in an Array Easy\n ");
 		
@@ -31,28 +47,8 @@ public class _448_FindAllNumbersDisappreadAnArray {
 	
 		// return method
 		System.out.println("Return value");
-		System.out.println(NumberDisppear(nums));
+		System.out.println(findDisappearedNumbers(nums));
 		
 	}
-	
-	private static List<Integer> NumberDisppear(int[] nums) {
-		List<Integer> missingNumber = new ArrayList<Integer>();
-		
-		HashSet<Integer> numbers = new HashSet<Integer>();
-		
-		for (int i : nums) {
-			numbers.add(i);
-			System.out.println(numbers);
-		}
-		
-		for (int i = 1; i <= nums.length; i++) {
-			if(!numbers.contains(i)) {
-				missingNumber.add(i);
-			}
-		}
-
-		return missingNumber;
-	}
-
 }
 

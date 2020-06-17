@@ -20,7 +20,8 @@ so we delete 12.
 When we examine 15, we find no node after 15 that has value greater than 15 so we keep this node.
 When we go like this, we get 15->6->3
 
-b) The list 10->20->30->40->50->60->NULL should be changed to 60->NULL. Note that 10, 20, 30, 40 and 50 have been deleted because they all have a greater value on the right side.
+b) The list 10->20->30->40->50->60->NULL should be changed to 60->NULL.
+Note that 10, 20, 30, 40 and 50 have been deleted because they all have a greater value on the right side.
 
 c) The list 60->50->40->30->20->10->NULL should not be changed.
 

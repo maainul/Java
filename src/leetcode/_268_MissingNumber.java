@@ -26,7 +26,7 @@ public class _268_MissingNumber{
 
 	public static void main(String[] args) {
 		System.out.println("268. Missing Number (Easy)");
-		int[] nums = {2,1,4,5,7,6};
+		int[] nums = {3,0,1};
 		//// Java Solution 1 - Math
 		//System.out.println(missingNumber(nums));
 		
@@ -34,9 +34,11 @@ public class _268_MissingNumber{
 		//System.out.println(missingNumberBit(nums));
 		
 		//Java Solution 3 - Binary Search
-		System.out.println(missingNumberBinarySearchMethod(nums));
-		
+		//System.out.println(missingNumberBinarySearchMethod(nums));
 
+		System.out.println(missing(nums));
+
+		
 	}
 	// Java Solution 1 - Math
 	public static int missingNumber(int[] nums) {
@@ -47,17 +49,18 @@ public class _268_MissingNumber{
 	    int n=nums.length;
 	    return n*(n+1)/2-sum;
 	}
-	
-	//Java Solution 2 - Bit
-	public static int missingNumberBit(int[] nums) {
-	 
-	    int miss=0;
-	    for(int i=0; i<nums.length; i++){
-	        miss ^= (i+1) ^nums[i];
-	    }
-	 
-	    return miss;
-	}
+
+    public static int missing(int[] nums) {
+        int result = 0;
+        for(int i = 0; i< nums.length+1; i++){
+            result += i;
+        }
+
+        for(int i = 0; i < nums.length; i++){
+            result -= nums[i];
+        }
+        return result;
+    }
 	
 	// Java Solution 3 - Binary Search
 	public static int missingNumberBinarySearchMethod(int[] nums) {
