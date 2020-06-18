@@ -44,7 +44,13 @@ public class _23_RemoveDuplicateFromSortedList {
             current = current.next;
         }
     }
-
+    private  void display(ListNode head){
+        ListNode current = head;
+        while (current != null){
+            System.out.print(current.data+"->");
+            current = current.next;
+        }
+    }
     private void removeDuplicate(){
         ListNode slow = head;
         ListNode fast = head.next;
@@ -59,7 +65,7 @@ public class _23_RemoveDuplicateFromSortedList {
     }
 
     // GeeksForGeeks
-    private  void removeduplicate2() {
+    private ListNode removeduplicate2() {
         ListNode cur = head;
         while (cur != null) {
             ListNode temp = cur;
@@ -70,6 +76,7 @@ public class _23_RemoveDuplicateFromSortedList {
             cur = cur.next;
         }
 
+        return cur;
     }
 
     public static void main(String[] args) {
@@ -103,8 +110,8 @@ public class _23_RemoveDuplicateFromSortedList {
         System.out.println("\n\n2nd Original list");
         obj2.display();
         System.out.println("\nMethod 2 Remove Duplicate");
-        obj2.removeduplicate2();
-        obj2.display();
+        ListNode head = obj2.removeduplicate2();
+        obj2.display(obj2.head);
     }
 }
 
