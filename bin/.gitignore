@@ -1,6 +1,3 @@
-/MathFunction/
-/OCA/
-/array/
 /collections/
 /conversions/
 /image/
@@ -8,4 +5,7 @@
 /javastrings/
 /leetcode/
 /linkedList/
+/MathFunction/
+/OCA/
 /recursion/
+/array/
