@@ -1,11 +1,11 @@
 # Sorting
 
 ## Sorting Algorithm
--**Bubble Sort**
--**Insertion Sort**
--**Selection Sort**
--**Quick Sort**
--**Merg Sort**
+- **Bubble Sort**
+- **Insertion Sort**
+- **Selection Sort**
+- **Quick Sort**
+- **Merg Sort**
 
 1. Alternative Sorting
 2. Sort a nearly sorted (or K sorted) array
