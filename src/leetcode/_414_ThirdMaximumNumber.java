@@ -31,6 +31,8 @@ Both numbers with value 2 are both considered as second maximum.
 
 package leetcode;
 
+import java.util.Arrays;
+
 public class _414_ThirdMaximumNumber {
 
 	public static void main(String[] args) {
@@ -46,7 +48,27 @@ public class _414_ThirdMaximumNumber {
 		System.out.println("\n\nOutput :");
 
 		System.out.println(thirdMax(nums));
+		
+		System.out.println(maximumNumber(nums));
 
+	}
+
+	private static int maximumNumber(int[] nums) {
+		// TODO Auto-generated method stub
+		Arrays.sort(nums);
+		
+		//Remove duplicate 
+		int i = 1;
+		for (int j = 0; j < nums.length; j++) {
+			if (nums[j] != nums[j-1]) {
+				nums[i++] = nums[j];
+			}
+		}
+		if(i < 3) {
+			return nums[i-1];
+		}
+
+		return nums[i-3];
 	}
 
 	public static int thirdMax(int[] nums) {

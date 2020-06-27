@@ -38,17 +38,28 @@ import java.util.Arrays;
 public class _561_ArrayPartition {
 
 	public static void main(String[] args) {
-		int[] nums = { 1, 5,7,6,8,4, 3, 2 };
+		int[] nums = { 1, 5, 7, 6, 8, 4, 3, 2 };
 		System.out.println(arrayPairSum(nums));
+
+		System.out.println(arrayPairSum2(nums));
 
 	}
 
 	public static int arrayPairSum(int[] nums) {
 		int sum = 0;
 		Arrays.parallelSort(nums);
-		for(int i = 0; i< nums.length;i+=2) {
-			//System.out.println(i);
-			sum+= (Math.min(nums[i],nums[i+1]));
+		for (int i = 0; i < nums.length; i += 2) {
+			// System.out.println(i);
+			sum += (Math.min(nums[i], nums[i + 1]));
+		}
+		return sum;
+	}
+
+	public static int arrayPairSum2(int[] nums) {
+		int sum = 0;
+		Arrays.parallelSort(nums);
+		for (int i = 0; i < nums.length; i += 2) {
+			sum += nums[i];
 		}
 		return sum;
 	}

@@ -63,7 +63,7 @@ public class _532_KDiffElement {
                 right++;
             }else{
                 count++;
-                left++;
+                left++; 
                 right++;
                 while(right < nums.length && nums[right] == nums[right - 1]) right++;
             }
