@@ -93,8 +93,9 @@ An adjacency list represents a graph as an array of linked lists.
 The index of the array represents a vertex and each element in its linked list 
 represents the other vertices that form an edge with the vertex.
 ```
-## Adjacency List Java
+![4 GraphRepresentationAdjacentList](https://user-images.githubusercontent.com/37740006/85918003-c9d92f80-b880-11ea-9417-a937584ab639.jpg)
 
+## Adjacency List Java
 We use Java Collections to store the Array of Linked Lists.
 ```.java
 class Graph
