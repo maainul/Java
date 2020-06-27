@@ -6,7 +6,7 @@
 - **Selection Sort**
 - **Quick Sort**
 - **Merg Sort**
-
+# [Sorting Problems] (https://www.geeksforgeeks.org/array-data-structure/array-sorting/)
 1. Alternative Sorting
 2. Sort a nearly sorted (or K sorted) array
 3. Sort an array according to absolute difference with given value
