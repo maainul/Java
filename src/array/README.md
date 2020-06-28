@@ -8,8 +8,8 @@
 - **Merg Sort**
 # [Sorting Problems](https://www.geeksforgeeks.org/array-data-structure/array-sorting/)
 1. Alternative Sorting
-2. Sort a nearly sorted (or K sorted) array
-3. Sort an array according to absolute difference with given value
+~~2. Sort a nearly sorted (or K sorted) array~~
+~~3. Sort an array according to absolute difference with given value~~
 4. Merge an array of size n into another array of size m+n
 5. Sort an array which contain 1 to n values
 6. Sort 1 to N by swapping adjacent elements
