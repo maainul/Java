@@ -10,10 +10,10 @@
 1. Alternative Sorting<br/>
 ~~2. Sort a nearly sorted (or K sorted) array<br/>~~
 ~~3. Sort an array according to absolute difference with given value<br/>~~
-4. Merge an array of size n into another array of size m+n
-5. Sort an array which contain 1 to n values
-6. Sort 1 to N by swapping adjacent elements
-7. Sort an array containing two types of elements
+~~4. Merge an array of size n into another array of size m+n<br/>~~
+5. Sort an array which contain 1 to n values<br/>
+~~6. Sort 1 to N by swapping adjacent elements~~<br/>
+~~7. Sort an array containing two types of elements~~<br/>
 8. Count Inversions in an array | Set 1 (Using Merge Sort)
 9. Two elements whose sum is closest to zero
 10. Minimum number of swaps required to sort an array
