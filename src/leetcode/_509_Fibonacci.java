@@ -25,7 +25,7 @@ public class _509_Fibonacci {
 	    return b; 
 	 } 
 	
-	public int fib2(int N) {
+	public static int fib2(int N) {
 		if(N == 0) return 0;
 		int[] arr = new int[N+1];
 		arr[0] = 0;
