@@ -33,7 +33,7 @@
 674.Longest Continuous Increasing Subsequence<br/>
 697.Degree of an Array	<br/>
 717.1-bit and 2-bit Characters	<br/>
-
+830.Positions of Large Groups<br/>	
 
 ## String
 
