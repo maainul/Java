@@ -17,15 +17,16 @@ whether there is an edge from vertex i to vertex j.
 1. The basic operations like adding an edge, removing an edge and checking whether 	
 there is an edge from vertex i to vertex j are extremely time efficient, constant time operations.
 
-2. If the graph is dense and the number of edges is large, adjacency matrix should be the first choice. 
+2. If the graph is dense and the number of edges is large, 
+adjacency matrix should be the first choice. 
 Even if the graph and the adjacency matrix is sparse, 
 we can represent it using data structures for sparse matrices.
 
-3. The biggest advantage however, comes from the use of matrices. 
-The recent advances in hardware enable us to perform even expensive matrix operations on the GPU.
+3. The biggest advantage however, comes from the use of matrices.The recent advances
+in hardware enable us to perform even expensive matrix operations on the GPU.
 
-4.By performing operations on the adjacent matrix, 
-we can get important insights into the nature of the graph and the relationship between its vertices.
+4.By performing operations on the adjacent matrix,we can get important insights 
+into the nature of the graph and the relationship between its vertices.
 ```
 ## Cons of adjacency matrix
 ```
@@ -33,8 +34,8 @@ we can get important insights into the nature of the graph and the relationship 
 Graphs out in the wild usually don't have too many connections and 
 this is the major reason why adjacency lists are the better choice for most tasks.
 
-2. While basic operations are easy, 
-operations like inEdges and outEdges are expensive when using the adjacency matrix representation.
+2. While basic operations are easy,operations like 
+inEdges and outEdges are expensive when using the adjacency matrix representation.
 ```
 ## Adjacency Matrix representation in Java
 ```.java
