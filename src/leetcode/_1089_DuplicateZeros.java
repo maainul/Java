@@ -26,73 +26,68 @@ Note:
 
 1 <= arr.length <= 10000
 0 <= arr[i] <= 9
-*************************************************************/
-/**********************************************************
-1051. Height Checker (Easy)
-
-Students are asked to stand in non-decreasing order of heights for an annual photo.
-
-Return the minimum number of students that must move in order for all students to be standing in non-decreasing order of height.
-
- 
-
-Example 1:
-
-Input: heights = [1,1,4,2,1,3]
-Output: 3
- 
-
-Constraints:
-
-1 <= heights.length <= 100
-1 <= heights[i] <= 100
-
-https://leetcode.com/problems/duplicate-zeros/
-
 ************************************************************/
 
 package leetcode;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class _1089_DuplicateZeros {
 
 	public static void main(String[] args) {
-		
+
 		System.out.println("1089. Duplicate Zeros (Easy)");
-		
-		
-		int[] arr = {1,0,3,0,4,5};
-		
+
+		int[] arr = { 1, 0, 3, 0, 4, 5 };
+
 		System.out.println("\nInput :");
 		for (int i = 0; i < arr.length; i++) {
-			System.out.print(arr[i]+" ");
+			System.out.print(arr[i] + " ");
 		}
-		
-		System.out.println("\n\nOutput :");
-		
-		duplicateZeros(arr);
-		
-		for (int i = 0; i < arr.length; i++) {
-			System.out.print(arr[i]+" ");
-		}
-}
 
-		
-    public static void duplicateZeros(int[] arr) {
-        int[] result = new int[arr.length];
-        int index = 0;
-        for(int i = 0;i<result.length;i++){
-            if(arr[index]!=0){
-                result[i] = arr[index];
-            }else{
-                result[i]=0;
-                if(i+1<result.length){
-                    result[i+1]=0;
-                    i = i+1;
-                }
-            }
-            index++;
-        }
-        for(int i = 0;i<result.length;i++) arr[i] = result[i];
-    }
+		System.out.println("\n\nOutput :");
+
+		duplicateZeros(arr);
+
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i] + " ");
+		}
+	}
+
+	public static void duplicateZeros(int[] arr) {
+		int[] result = new int[arr.length];
+		int index = 0;
+		for (int i = 0; i < result.length; i++) {
+			if (arr[index] != 0) {
+				result[i] = arr[index];
+			} else {
+				result[i] = 0;
+				if (i + 1 < result.length) {
+					result[i + 1] = 0;
+					i++;
+				}
+			}
+			index++;
+		}
+		for (int i = 0; i < result.length; i++)
+			arr[i] = result[i];
+	}
+
+	public void duplicateZeros2(int[] arr) {
+		List<Integer> numbers = new ArrayList<>();
+		for (int i = 0; i < arr.length; i++) {
+			if (i < arr.length && arr[i] == 0) {
+				numbers.add(0);
+				numbers.add(0);
+			} else {
+				numbers.add(arr[i]);
+			}
+		}
+
+		for (int i = 0; i < arr.length; i++) {
+			arr[i] = numbers.get(i);
+		}
+	}
 
 }
