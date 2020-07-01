@@ -12,6 +12,12 @@ and the value of an entry Aij is either 1 or 0 depending on
 whether there is an edge from vertex i to vertex j.
 ```
 ![3 GraphRepresentationAdjacentMatrix](https://user-images.githubusercontent.com/37740006/85916280-1c125480-b871-11ea-96e9-3357c401e5d6.jpg)
+## Complexity
+```
+Time Complexity is O(1).
+Space Complexity is O(n*n).
+```
+
 ## Pros of adjacency matrix
 ```
 1. The basic operations like adding an edge, removing an edge and checking whether 	
@@ -109,7 +115,11 @@ class Graph
 The type of LinkedList is determined by what data you want to store in it. 
 For a labeled graph, you could store a dictionary instead of an Integer
 ```
-
+## Complexity
+```
+Time Complexity is O(|v| + |E|).
+Space Complexity is O(|v| + |E|).).
+```
 ## Adjascency List representation in Java
 ```.java
 import java.util.*;
