@@ -17,7 +17,7 @@
 724.Find Pivot Index<br/>	
 121.Best Time to Buy and Sell Stock	<br/>
 122.Best Time to Buy and Sell Stock II	<br/>
-169.Majority Element<br/>
+:red_circle:169.Majority Element<br/>
 532.K-diff Pairs in an Array<br/>			
 605.Can Place Flowers<br/>
 628.Maximum Product of Three Numbers<br/>
