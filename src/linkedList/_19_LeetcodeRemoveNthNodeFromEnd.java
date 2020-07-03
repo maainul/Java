@@ -56,7 +56,7 @@ public class _19_LeetcodeRemoveNthNodeFromEnd {
 
         return dummy.next;
 
-    }
+    } 
     private ListNode removedNthFromlast(ListNode head, int n) {
         if(head == null || head.next == null){
             return null;
@@ -78,6 +78,28 @@ public class _19_LeetcodeRemoveNthNodeFromEnd {
 
         return head;
     }
+
+    // new code -- it's working
+    private void deleteFromLastNth(int delIndex) {
+        Node tempNode = headNode;
+        int count = 0;
+        while (tempNode != null) {
+            count++;
+            tempNode = tempNode.nextNode;
+        }
+        int length = count - delIndex;
+        Node currentNode = headNode;
+        int index = 0;
+        Node previousNode = null;
+        while (currentNode != null && index < length) {
+            previousNode = currentNode;
+            currentNode = currentNode.nextNode;
+            index++;
+        }
+        previousNode.nextNode = currentNode.nextNode;
+        currentNode.nextNode = null;
+    }
+
     public static void main(String[] args) {
         _19_LeetcodeRemoveNthNodeFromEnd obj = new _19_LeetcodeRemoveNthNodeFromEnd();
 
