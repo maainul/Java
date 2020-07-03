@@ -12,29 +12,36 @@ and the value of an entry Aij is either 1 or 0 depending on
 whether there is an edge from vertex i to vertex j.
 ```
 ![3 GraphRepresentationAdjacentMatrix](https://user-images.githubusercontent.com/37740006/85916280-1c125480-b871-11ea-96e9-3357c401e5d6.jpg)
+## Complexity
+```
+Time Complexity is O(1).
+Space Complexity is O(n*n).
+```
+
 ## Pros of adjacency matrix
 ```
-	1. The basic operations like adding an edge, removing an edge and checking whether 
-	there is an edge from vertex i to vertex j are extremely time efficient, constant time operations.
+1. The basic operations like adding an edge, removing an edge and checking whether 	
+there is an edge from vertex i to vertex j are extremely time efficient, constant time operations.
 
-	2. If the graph is dense and the number of edges is large, adjacency matrix should be the first choice. 
-	Even if the graph and the adjacency matrix is sparse, 
-	we can represent it using data structures for sparse matrices.
+2. If the graph is dense and the number of edges is large, 
+adjacency matrix should be the first choice. 
+Even if the graph and the adjacency matrix is sparse, 
+we can represent it using data structures for sparse matrices.
 
-	3. The biggest advantage however, comes from the use of matrices. 
-	The recent advances in hardware enable us to perform even expensive matrix operations on the GPU.
+3. The biggest advantage however, comes from the use of matrices.The recent advances
+in hardware enable us to perform even expensive matrix operations on the GPU.
 
-	4.By performing operations on the adjacent matrix, 
-	we can get important insights into the nature of the graph and the relationship between its vertices.
+4.By performing operations on the adjacent matrix,we can get important insights 
+into the nature of the graph and the relationship between its vertices.
 ```
 ## Cons of adjacency matrix
 ```
-	1. The VxV space requirement of the adjacency matrix makes it a memory hog. 
-	Graphs out in the wild usually don't have too many connections and 
-	this is the major reason why adjacency lists are the better choice for most tasks.
+1. The VxV space requirement of the adjacency matrix makes it a memory hog. 
+Graphs out in the wild usually don't have too many connections and 
+this is the major reason why adjacency lists are the better choice for most tasks.
 
-	2. While basic operations are easy, 
-	operations like inEdges and outEdges are expensive when using the adjacency matrix representation.
+2. While basic operations are easy,operations like 
+inEdges and outEdges are expensive when using the adjacency matrix representation.
 ```
 ## Adjacency Matrix representation in Java
 ```.java
@@ -108,7 +115,11 @@ class Graph
 The type of LinkedList is determined by what data you want to store in it. 
 For a labeled graph, you could store a dictionary instead of an Integer
 ```
-
+## Complexity
+```
+Time Complexity is O(|v| + |E|).
+Space Complexity is O(|v| + |E|).).
+```
 ## Adjascency List representation in Java
 ```.java
 import java.util.*;
