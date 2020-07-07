@@ -26,42 +26,32 @@ import java.util.Arrays;
 
 public class _581_ShortestUnsortedContinuousSubarray {
 	public static void main(String[] args) {
-		
+
 		System.out.println("581. Shortest Unsorted Continuous Subarray (Easy)");
-		
-		int[] nums = {2, 6, 4, 8, 10, 9, 15};
-		
+
+		int[] nums = { 2, 6, 4, 8, 10, 9, 15 };
+
 		System.out.println("\nInput :");
 		for (int i = 0; i < nums.length; i++) {
-			System.out.print(nums[i]+" ");
+			System.out.print(nums[i] + " ");
 		}
-		
-		
+
 		System.out.println("\n\nOutput :");
-		
-		System.out.println(findUnsortedSubarray(nums));	 
-}
+
+		System.out.println(findUnsortedSubarray(nums));
+	}
 
 	private static int findUnsortedSubarray(int[] nums) {
-		/************************* 
-		Another way to clone array to another array.
-		int[] array = new int[nums.length];
-		for (int i = 0; i < nums.length; i++) {
-			array[i] = nums[i];
-		}
-		Arrays.sort(array);
-		************************/
-		
 		int[] snums = nums.clone();
 		Arrays.parallelSort(snums);
-		int start = snums.length,end = 0;
+		int start = snums.length, end = 0;
 		for (int i = 0; i < snums.length; i++) {
-			if(snums[i] != nums[i]) {
+			if (snums[i] != nums[i]) {
 				start = Math.min(start, i);
 				end = Math.max(end, i);
 			}
 		}
-		return (end-start >= 0 )? (end-start+1): 0;
+		return (end - start >= 0) ? (end - start + 1) : 0;
 	}
 
 }

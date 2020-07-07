@@ -81,23 +81,23 @@ public class _19_LeetcodeRemoveNthNodeFromEnd {
 
     // new code -- it's working
     private void deleteFromLastNth(int delIndex) {
-        Node tempNode = headNode;
+        ListNode tempNode = head;
         int count = 0;
         while (tempNode != null) {
             count++;
-            tempNode = tempNode.nextNode;
+            tempNode = tempNode.next;
         }
         int length = count - delIndex;
-        Node currentNode = headNode;
+        ListNode currentNode = head;
         int index = 0;
-        Node previousNode = null;
+        ListNode previousNode = null;
         while (currentNode != null && index < length) {
             previousNode = currentNode;
-            currentNode = currentNode.nextNode;
+            currentNode = currentNode.next;
             index++;
         }
-        previousNode.nextNode = currentNode.nextNode;
-        currentNode.nextNode = null;
+        previousNode.next = currentNode.next;
+        currentNode.next = null;
     }
 
     public static void main(String[] args) {

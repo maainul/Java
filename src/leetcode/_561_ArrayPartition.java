@@ -25,7 +25,7 @@ Now we want to find the maximum sum of (min of the pair). possible output sums a
 ( min(1,3) = 1 + min(2,4) = 2 ) = 3
 ( min(1,2) = 1 + min(3,4) = 3 ) = 4
 
-Thus, output = 4 would give us the maximum sum of min pairs.
+Thus, output = 4 would give us the maximum sum of minimum pairs.
 
 According to your pair (1, 4) and (2, 3),
 ( min(1,4) = 1 + min(2,3) = 2 ) = 3 //the output would be 3
@@ -39,8 +39,11 @@ public class _561_ArrayPartition {
 
 	public static void main(String[] args) {
 		int[] nums = { 1, 5, 7, 6, 8, 4, 3, 2 };
+
+		System.out.println(Arrays.toString(nums));
 		System.out.println(arrayPairSum(nums));
 
+		System.out.println(Arrays.toString(nums));
 		System.out.println(arrayPairSum2(nums));
 
 	}
@@ -48,8 +51,8 @@ public class _561_ArrayPartition {
 	public static int arrayPairSum(int[] nums) {
 		int sum = 0;
 		Arrays.parallelSort(nums);
+		System.out.println(Arrays.toString(nums));
 		for (int i = 0; i < nums.length; i += 2) {
-			// System.out.println(i);
 			sum += (Math.min(nums[i], nums[i + 1]));
 		}
 		return sum;
@@ -57,7 +60,9 @@ public class _561_ArrayPartition {
 
 	public static int arrayPairSum2(int[] nums) {
 		int sum = 0;
+		System.out.println(Arrays.toString(nums));
 		Arrays.parallelSort(nums);
+
 		for (int i = 0; i < nums.length; i += 2) {
 			sum += nums[i];
 		}
