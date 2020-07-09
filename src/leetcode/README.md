@@ -29,7 +29,7 @@
 643.Maximum Average Subarray I<br/>
 :red_circle:4665.Non-decreasing Array<br/>
 674.Longest Continuous Increasing Subsequence<br/>
-697.Degree of an Array	<br/>
+:red_circle:697.Degree of an Array	<br/>
 717.1-bit and 2-bit Characters	<br/>
 830.Positions of Large Groups<br/>	
 896.Monotonic Array	<br/>
