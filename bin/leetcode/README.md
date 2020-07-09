@@ -19,7 +19,7 @@
 122.Best Time to Buy and Sell Stock II	<br/>
 :red_circle:169.Majority Element<br/>
 532.K-diff Pairs in an Array<br/>			
-605.Can Place Flowers<br/>
+:red_circle:4605.Can Place Flowers<br/>
 628.Maximum Product of Three Numbers<br/>
 414.Third Maximum Number<br/>
 561.Array Partition I<br/>	
@@ -27,9 +27,9 @@
 566.Reshape the Matrix<br/>
 581.Shortest Unsorted Continuous Subarray<br/>
 643.Maximum Average Subarray I<br/>
-665.Non-decreasing Array<br/>
+:red_circle:4665.Non-decreasing Array<br/>
 674.Longest Continuous Increasing Subsequence<br/>
-697.Degree of an Array	<br/>
+:red_circle:697.Degree of an Array	<br/>
 717.1-bit and 2-bit Characters	<br/>
 830.Positions of Large Groups<br/>	
 896.Monotonic Array	<br/>

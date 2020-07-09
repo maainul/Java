@@ -42,16 +42,21 @@ public class _56_MakeaLoopAtkthPosition {
 	}
 
 	private ListNode makeLoop(ListNode head, int i) {
+
+		// traverse the linked list until loop
+		// point not found
 		ListNode temp = head;
 		int count = 1;
 		while (count < i) {
 			temp = temp.next;
 			count++;
 		}
+		// backup the joint point
 		ListNode joint_node = temp;
 		while (temp.next != null) {
 			temp = temp.next;
 		}
+		// joint the last node to k-th element
 		temp.next = joint_node;
 		return head;
 	}
