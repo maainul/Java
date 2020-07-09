@@ -49,24 +49,6 @@ public class _55_FirstCommonElement {
         }
     }
 
-    private static ListNode insertALinkedList(ListNode l1, ListNode l2, int k) {
-        ListNode cur = l1;
-        int count = 1;
-        while (count < k && cur != null) {
-            cur = cur.next;
-            count++;
-        }
-        System.out.println(cur.data);
-        ListNode temp = cur.next;
-        cur.next = l2;
-
-        while (l2.next != null) {
-            l2 = l2.next;
-        }
-        l2.next = temp;
-        return l1;
-    }
-
     private static int firstCommon(ListNode head1,ListNode head2){
         ListNode l1 = head1;
 

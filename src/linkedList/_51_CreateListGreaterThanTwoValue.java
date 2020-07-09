@@ -8,11 +8,11 @@ The condition is that the greater node among both linked list will be added to t
 Examples:
 
     Input:  list1 = 5->2->3->8
-    list2 = 1->7->4->5
+            list2 = 1->7->4->5
     Output:  New list = 5->7->4->8
 
     Input: list1 = 2->8->9->3
-    list2 = 5->3->6->4
+           list2 = 5->3->6->4
     Output:  New list = 5->8->9->4
  */
 public class _51_CreateListGreaterThanTwoValue {
@@ -90,8 +90,5 @@ public class _51_CreateListGreaterThanTwoValue {
         System.out.println("\nNew Node");
         ListNode head = greaterElement(obj1.head, obj2.head);
         display(head);
-
-
-
     }
 }
