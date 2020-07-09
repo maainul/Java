@@ -1,6 +1,6 @@
-https://github.com/maainul/Java/blob/master/src/linkedList/images/56.1.png
+// https://github.com/maainul/Java/blob/master/src/linkedList/images/56.1.png
 
-https://github.com/maainul/Java/blob/master/src/linkedList/images/56.2.png
+// https://github.com/maainul/Java/blob/master/src/linkedList/images/56.2.png
 
 package linkedList;
 
@@ -30,23 +30,7 @@ public class _56_MakeaLoopAtkthPosition {
             current.next = newNode;
         }
     }
-    private static ListNode insertALinkedList(ListNode l1, ListNode l2, int k) {
-        ListNode cur = l1;
-        int count = 1;
-        while (count < k && cur != null) {
-            cur = cur.next;
-            count++;
-        }
-        System.out.println(cur.data);
-        ListNode temp = cur.next;
-        cur.next = l2;
-
-        while (l2.next != null) {
-            l2 = l2.next;
-        }
-        l2.next = temp;
-        return l1;
-    }
+   
     private static void printLoop(ListNode head, int total_nodes) {
         ListNode cur = head;
         int count = 0;
@@ -88,12 +72,13 @@ public class _56_MakeaLoopAtkthPosition {
         obj1.insertAtLast(3);
         obj1.insertAtLast(5);
         obj1.insertAtLast(17);
+        
         int total_nodes = countNodes(obj1.head);
         System.out.println("Original Linked list");
         printLoop(obj1.head,total_nodes);
 
         System.out.println("\nAfter making loop");
-        ListNode head = obj1.makeLoop(obj1.head, 4);
+        obj1.makeLoop(obj1.head, 4);
 
         printLoop(obj1.head,total_nodes);
 
