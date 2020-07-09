@@ -1,3 +1,7 @@
+https://github.com/maainul/Java/blob/master/src/linkedList/images/56.1.png
+
+https://github.com/maainul/Java/blob/master/src/linkedList/images/56.2.png
+
 package linkedList;
 
 public class _56_MakeaLoopAtkthPosition {
