@@ -1,4 +1,5 @@
-package array;
+package dataStructureAndAlgorithms.Sorting.QuickSort;
+
 
 import java.util.Arrays;
 

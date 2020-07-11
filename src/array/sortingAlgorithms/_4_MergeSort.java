@@ -1,4 +1,4 @@
-package array;
+package array.sortingAlgorithms;
 // https://stackabuse.com/merge-sort-in-java/
 import java.util.Arrays;
 

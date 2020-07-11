@@ -1,9 +1,9 @@
-package array;
+package array.sortingAlgorithms;
 
-public class _2_InsertionSort {
+public class _1_BubbleSort {
 
 	public static void main(String[] args) {
-		_2_InsertionSort obj = new _2_InsertionSort();
+		_1_BubbleSort obj = new _1_BubbleSort();
 		int array[] = { 10, 7, 9, 2, 8, 3, 5, 4, 6, 1 };
 		obj.printArray(array);
 		obj.sort(array);
@@ -12,16 +12,17 @@ public class _2_InsertionSort {
 	}  
 
 	private void sort(int[] array) {
-		for (int i = 0; i < array.length; i++) {
-			int j = i;
-			while (j > 0 && array[j-1] > array[j]) {
-				int temp = array[j];
-				array[j] = array[j-1];
-				array[j-1] = temp;
-				j--;
+		for (int i = 0; i < array.length-1; i++) {
+			for (int j = 0; j < array.length-i-1; j++) {
+				if (array[j] > array[j+1]) {
+					int temp = array[j];
+					array[j] = array[j+1];
+					array[j+1] = temp;
+				}
 				
 			}
 		}
+		
 	}
 
 	private void printArray(int[] array) {

@@ -1,10 +1,10 @@
-package array;
+package array.merge;
 
-public class _1_BubbleSort {
+public class _3_SelectionSort {
 
 	public static void main(String[] args) {
-		_1_BubbleSort obj = new _1_BubbleSort();
-		int array[] = { 10, 7, 9, 2, 8, 3, 5, 4, 6, 1 };
+		_3_SelectionSort obj = new _3_SelectionSort();
+		int array[] = { 10, 17, 91, 20, 80, 33};
 		obj.printArray(array);
 		obj.sort(array);
 		System.out.println();
@@ -13,16 +13,17 @@ public class _1_BubbleSort {
 
 	private void sort(int[] array) {
 		for (int i = 0; i < array.length-1; i++) {
-			for (int j = 0; j < array.length-i-1; j++) {
-				if (array[j] > array[j+1]) {
-					int temp = array[j];
-					array[j] = array[j+1];
-					array[j+1] = temp;
+			int index = i;
+			for (int j = i+1; j < array.length; j++) {
+				if (array[j] < array[index]) {
+					index = j;
 				}
-				
 			}
+			
+			int temp = array[i];
+			array[i] = array[index];
+			array[index] = temp;
 		}
-		
 	}
 
 	private void printArray(int[] array) {
