@@ -35,6 +35,8 @@ public class _217_ContainsDuplicate {
 		System.out.println(solutions(nums));
 		//solution 2
 		System.out.println(solutions2(nums));
+		
+		System.out.println(solution3(nums));
 
 	}
 

@@ -1,25 +1,28 @@
 # Problems
 ## Array
+:red_circle:189. Rotate Array<br/>
+:red_circle:80. Remove Duplicates from Sorted Array II<br/>	
+:red_circle:448. Find All Numbers Disappeared in an Array<br/>
+:red_circle:169. Majority Element<br/>
+:red_circle:605. Can Place Flowers<br/>
+:red_circle:665. Non-decreasing Array<br/>
+:red_circle:697. Degree of an Array	<br/>
+
 1.Two Sum<br/>	
 26.Remove Duplicates from Sorted Array<br/>	
 27.Remove Element<br/>
-80.Remove Duplicates from Sorted Array II<br/>	
 167.Two Sum II - Input array is sorted<br/>
 35.Search Insert Position<br/>		
 66.Plus One<br/>	
 88.Merge Sorted Array<br/>
-:red_circle:189.Rotate Array<br/>
 217.Contains Duplicate	<br/>
 268.Missing Number<br/>	
 283.Move Zeroes<br/>	
-:red_circle:448.Find All Numbers Disappeared in an Array<br/>
 485.Max Consecutive Ones<br/>
 724.Find Pivot Index<br/>	
 121.Best Time to Buy and Sell Stock	<br/>
 122.Best Time to Buy and Sell Stock II	<br/>
-:red_circle:169.Majority Element<br/>
 532.K-diff Pairs in an Array<br/>			
-:red_circle:4605.Can Place Flowers<br/>
 628.Maximum Product of Three Numbers<br/>
 414.Third Maximum Number<br/>
 561.Array Partition I<br/>	
@@ -27,15 +30,15 @@
 566.Reshape the Matrix<br/>
 581.Shortest Unsorted Continuous Subarray<br/>
 643.Maximum Average Subarray I<br/>
-:red_circle:4665.Non-decreasing Array<br/>
 674.Longest Continuous Increasing Subsequence<br/>
-:red_circle:697.Degree of an Array	<br/>
 717.1-bit and 2-bit Characters	<br/>
 830.Positions of Large Groups<br/>	
 896.Monotonic Array	<br/>
 905.Sort Array By Parity<br/>
 989.Add to Array-Form of Integer<br/>
-## String
+
+
+## String 
 
 14.Longest Common Prefix</br>
 28.Implement strStr()</br>

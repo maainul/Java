@@ -61,6 +61,8 @@ public class _167_TwoSumIIInputArrayIsSorted {
         }else{
             System.out.println("No data found");
         }
+        
+        System.out.println(twoSumtwoPointer(nums, target));
     }
 
 
