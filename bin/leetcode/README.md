@@ -1,7 +1,7 @@
 # Problems
 ## Array
 :red_circle:189. Rotate Array<br/>
-:red_circle:80. Remove Duplicates from Sorted Array II<br/>	
+:red_circle:080. Remove Duplicates from Sorted Array II<br/>	
 :red_circle:448. Find All Numbers Disappeared in an Array<br/>
 :red_circle:169. Majority Element<br/>
 :red_circle:605. Can Place Flowers<br/>

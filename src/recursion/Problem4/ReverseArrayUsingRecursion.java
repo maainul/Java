@@ -1,6 +1,5 @@
 package recursion.Problem4;
 
-
 //print array using recursion method
 /*
 	Index7 : 7
@@ -15,20 +14,17 @@ package recursion.Problem4;
 */
 
 public class ReverseArrayUsingRecursion {
-		public static void main(String[] args) {
-		    int array[] = {2,5,9,8,98,0,45,7};
-		    int i = array.length;
-		    reverse(array,i-1);
+	public static void main(String[] args) {
+		int array[] = { 2, 5, 9, 8, 98, 0, 45, 7 };
+
+		printreverse(array, array.length - 1);
 	}
-	private static void reverse(int[] array, int i) {
-		System.out.println("Index"+i+" : "+array[i]);
-		if(i == 0){
+
+	private static void printreverse(int[] array, int i) {
+		System.out.println(array[i]);
+		if (i == 0)
 			return;
-		}else{
-			reverse(array,i-1);
-		}
-		
+		printreverse(array, i - 1);
 	}
+
 }
-
-
