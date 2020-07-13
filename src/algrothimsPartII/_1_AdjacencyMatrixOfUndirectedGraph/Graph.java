@@ -1,4 +1,4 @@
-package graph._1_AdjacencyMatrixOfUndirectedGraph;
+package algrothimsPartII._1_AdjacencyMatrixOfUndirectedGraph;
 
 public class Graph {
 
@@ -15,13 +15,13 @@ public class Graph {
 		this.adjMatrix[j][i] = 1;
 
 	}
-/*
+
 	private void removeEdge(int i, int j) {
 		this.adjMatrix[i][j] = 0;
 		this.adjMatrix[j][i] = 0;
 
 	}
-*/
+
 	public void printGraph() {
 		System.out.println("Graph: (Adjacency Matrix)");
 		for (int i = 0; i < nodes; i++) {
@@ -47,6 +47,8 @@ public class Graph {
 		obj.addEdge(1, 2);
 		obj.addEdge(2, 3);
 		obj.addEdge(3, 0);
+		obj.printGraph();
+		obj.removeEdge(1, 2);
 		obj.printGraph();
 
 	}

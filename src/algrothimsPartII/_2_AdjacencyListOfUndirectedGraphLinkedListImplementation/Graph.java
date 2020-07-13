@@ -1,4 +1,4 @@
-package graph._2_AdjacencyListOfUndirectedGraphLinkedListImplementation;
+package algrothimsPartII._2_AdjacencyListOfUndirectedGraphLinkedListImplementation;
 
 import java.util.LinkedList;
 
@@ -49,7 +49,15 @@ public class Graph {
 }
 
 /*
- * Vertex 0 is connected to: 4 1 Vertex 1 is connected to: 4 3 2 0 Vertex 2 is
- * connected to: 3 1 Vertex 3 is connected to: 4 2 1 Vertex 4 is connected to: 3
- * 1 0
+ * 
+ * Vertex 0 is connected to: 4 1
+ * 
+ * Vertex 1 is connected to: 4 3 2 0
+ * 
+ * Vertex 2 is connected to: 3 1
+ * 
+ * Vertex 3 is connected to: 4 2 1
+ * 
+ * Vertex 4 is connected to: 3 1 0
+ * 
  */

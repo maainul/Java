@@ -1,4 +1,4 @@
-package graph._2_AdjacencyListOfUndirectedGraphArrayImplementation;
+package algrothimsPartII._2_AdjacencyListOfUndirectedGraphArrayImplementation;
 
 import java.util.*;
 

@@ -141,7 +141,7 @@ Space Complexity is O(|v| + |E|).).
 ```
 
 
-## Adjascency List representation in Java
+## Adjacency List representation in Java
 
 ### Linked List Representation
 ```.java
