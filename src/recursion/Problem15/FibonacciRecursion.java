@@ -15,17 +15,29 @@ public class FibonacciRecursion {
 		int x, y, n;
 		x = 1;
 		y = 1;
-		n = 6;
+		n = 9;
 		System.out.print("1 1 ");
 		recurs(x, y, n);
 		System.out.print("\n1 1");
 		fibonacci(x, y, n);
+		System.out.println();
+		System.out.println(newfibonacci(9));
+	}
+
+	// sum of all fibonacci
+	public static int newfibonacci(int number) {
+		if (number == 1 || number == 2) {
+			return 1;
+		}
+
+		return newfibonacci(number - 1) + newfibonacci(number - 2); // tail recursion
 	}
 
 	// preferable solution // new solution
 	public static void fibonacci(int x, int y, int n) {
 		int z;
 		if (n == 2) {
+			System.out.println("\nsum "+y);
 			return;
 		}
 		z = x + y;
