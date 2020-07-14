@@ -11,24 +11,38 @@ Output:
 package recursion.Problem15;
 
 public class FibonacciRecursion {
-    public static void main(String args[]){
-       	int x,y,n;
+	public static void main(String args[]) {
+		int x, y, n;
 		x = 1;
 		y = 1;
 		n = 6;
-	System.out.print("1 1 ");
-	recurs(x,y,n);
+		System.out.print("1 1 ");
+		recurs(x, y, n);
+		System.out.print("\n1 1");
+		fibonacci(x, y, n);
+	}
 
-}
-    
-    public static void recurs(int x,int y ,int n){
-	int  z;
-	if (n > 2){
-		z = x+y;
-		System.out.print(" "+z); 
+	// preferable solution // new solution
+	public static void fibonacci(int x, int y, int n) {
+		int z;
+		if (n == 2) {
+			return;
+		}
+		z = x + y;
+		System.out.print(" " + z);
 		x = y;
 		y = z;
-		recurs(x, y, n-1);
+		fibonacci(x, y, n - 1);
 	}
-  }
+
+	public static void recurs(int x, int y, int n) {
+		int z;
+		if (n > 2) {
+			z = x + y;
+			System.out.print(" " + z);
+			x = y;
+			y = z;
+			recurs(x, y, n - 1);
+		}
+	}
 }
