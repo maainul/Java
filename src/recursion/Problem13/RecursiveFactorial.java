@@ -9,22 +9,18 @@ Output:
 *******************************************************************************/
 package recursion.Problem13;
 
-public class RecursiveFactorial{
+public class RecursiveFactorial {
 	public static void main(String[] args) {
-	   int fact = 1;
-       factorial(fact,1,4);
-	   }
-	   
-	public static void factorial(int fact,int i,int end){
-	    fact = fact*i;
-	    if(i == end){
-	        System.out.println("Factorial :"+fact);
-	        return;
-	    }
-	    else{
-	         factorial(fact,i+1,end);
-	    }
-	  
+		int fact = 1;
+		factorial(fact, 1, 4);
 	}
-	   
+
+	private static void factorial(int fact, int start, int end) {
+		fact = fact * end;
+		if (start == end) {
+			System.out.println(fact);
+			return;
+		}
+		factorial(fact, start, end - 1);
+	}
 }
