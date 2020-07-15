@@ -1,25 +1,24 @@
 package recursion.Problem16;
 
 public class Fibonacci {
-    public static void main(String args[]){
-       	int x,y,n;
-		x = 1;
-		y = 1;
-		n = 8;
-	recurs(x,y,n);
-
-}
-    
-    public static void recurs(int x,int y ,int n){
-	int  z;
-	if (n > 2){
-		z = x+y;
-		x = y;
-		y = z;
-		if(n == 4) {
-			System.out.print(" "+z); 
-		}
-		recurs(x, y, n-1);
+	public static void main(String[] args) {
+		int a = 1, b = 1, n = 6;
+		fibonacciRecursive(a, b, n);
+		// 1 1 2 3 5 8
+		// ans is = 8
 	}
-  }
+
+	private static void fibonacciRecursive(int a, int b, int n) {
+		if (n == 2) {
+			System.out.println(b);
+			return;
+		}
+		int c;
+		c = a + b;
+		a = b;
+		b = c;
+		fibonacciRecursive(a, b, n - 1);
+
+	}
+
 }
