@@ -14,8 +14,8 @@ package leetcode;
 
 public class _1184_DistanceBetweenBusStops{
   public static void main(String args[]){
-    int distance = {1,2,3,4};
-    int start = 0, ;
+    int[] distance = {1,2,3,4};
+    int start = 0 ;
     int destination = 1;
     int dis = distanceBetweenBusStops(distance,start,destination);
     System.out.print(dis);
@@ -37,4 +37,4 @@ public class _1184_DistanceBetweenBusStops{
         return Math.min(travel, total-travel);
     }
 }
-}
+
