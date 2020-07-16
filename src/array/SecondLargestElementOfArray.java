@@ -1,6 +1,6 @@
-package recursion.Problem23;
+package array;
 
-public class Problem23 {
+public class SecondLargestElementOfArray {
 
 	public static void main(String[] args) {
 		int[] array = { 14, 85, 90, 14, 25, 36, 70, 50 };
@@ -20,9 +20,7 @@ public class Problem23 {
 				second_largest = array[i];
 			}
 		}
-
 		System.out.println("\nSecond Largest :" + second_largest);
-
 	}
 
 }
