@@ -34,3 +34,9 @@ Size of Graph = Number of Edge of a graph(7)
 	For example, in Facebook, each person is represented with a vertex(or node). 
 	Each node is a structure and contains information like person id, name, gender, locale etc.
 ```
+## Some Defination that helps you:
+![Screenshot from 2020-07-17 14-12-26](https://user-images.githubusercontent.com/37740006/87764261-e6410a00-c837-11ea-94d7-7095123f08f0.png)
+
+
+
+
