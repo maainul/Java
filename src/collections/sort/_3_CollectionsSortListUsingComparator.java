@@ -66,7 +66,7 @@ public class _3_CollectionsSortListUsingComparator {
     	
     	
     	System.out.println("\n");
-    	// We are defining that the natural order of sorting is based on the “id” field of Fruit:
+    	// We are defining that the natural order of sorting is based on the ï¿½idï¿½ field of Fruit:
     	// display value using to string method
     	Collections.sort(fruitlist);
     	fruitlist.forEach(fruit -> {

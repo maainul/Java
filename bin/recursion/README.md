@@ -217,11 +217,6 @@ Output:<br />
 ## Problem 24:
 
 Write a recursive function to print an array in the following order.
-[0] [n-1] <br />
-[1] [n-2] <br />
-......... <br />
-......... <br />
-[(n-1)/2] [n/2] <br />
 
 
 Input: <br />

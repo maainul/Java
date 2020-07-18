@@ -69,7 +69,7 @@ public class _5_CollectionsReverseOrder {
 
     	
     	System.out.println("\n");
-    	// We are defining that the natural order of sorting is based on the “id” field of Fruit:
+    	// We are defining that the natural order of sorting is based on the ï¿½idï¿½ field of Fruit:
     	// display value using to string method
     	// sorted by id
     	System.out.println("*****Sorted by id using class*****");
