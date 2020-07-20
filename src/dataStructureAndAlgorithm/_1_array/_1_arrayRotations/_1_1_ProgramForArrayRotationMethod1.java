@@ -17,7 +17,7 @@ Auxiliary Space : O(d)
  */
 import java.util.Arrays;
 
-public class _1_ProgramForArrayRotationMethod1 {
+public class _1_1_ProgramForArrayRotationMethod1 {
 
 	public static void main(String[] args) {
 		int[] arr = { 1, 2, 3, 4, 5, 6, 7 };
