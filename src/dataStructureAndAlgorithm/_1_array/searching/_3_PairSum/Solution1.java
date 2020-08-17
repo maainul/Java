@@ -1,4 +1,4 @@
-package dataStructureAndAlgorithm._1_array._4_searching._3_PairSum;
+package dataStructureAndAlgorithm._1_array.searching._3_PairSum;
 
 import java.util.Arrays;
 

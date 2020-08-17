@@ -15,7 +15,7 @@ public class _6_PairInSortedRotate {
 
 	private static boolean ispairSorted(int[] arr, int n, int x) {
 
-		int pivot;
+		
 		int i;
 		for (i = 0; i < arr.length - 1; i++) {
 			if (arr[i] > arr[i + 1]) {

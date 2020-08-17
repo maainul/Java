@@ -1,4 +1,4 @@
-package dataStructureAndAlgorithm._1_array._4_searching._1_SearchInsertDeleteUnsortedArray;
+package dataStructureAndAlgorithm._1_array.searching._1_SearchInsertDeleteUnsortedArray;
 
 // liner search item 
 // if found return index otherwise return -1

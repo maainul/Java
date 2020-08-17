@@ -1,4 +1,4 @@
-package dataStructureAndAlgorithm._1_array._4_searching._2_SearhDeleteInsertSorted;
+package dataStructureAndAlgorithm._1_array.searching._2_SearhDeleteInsertSorted;
 
 public class Search {
 

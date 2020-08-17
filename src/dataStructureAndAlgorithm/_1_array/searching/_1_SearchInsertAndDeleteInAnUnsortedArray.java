@@ -1,4 +1,4 @@
-package dataStructureAndAlgorithm._1_array._4_searching;
+package dataStructureAndAlgorithm._1_array.searching;
 
 public class _1_SearchInsertAndDeleteInAnUnsortedArray {
 

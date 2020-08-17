@@ -20,6 +20,7 @@ public class ArrayOfArrayList {
 	public static void main(String[] args) {
 		int n = 5;
 
+		@SuppressWarnings("unchecked")
 		ArrayList<Integer>[] arrayLists = new ArrayList[n];
 
 		// initialize the array

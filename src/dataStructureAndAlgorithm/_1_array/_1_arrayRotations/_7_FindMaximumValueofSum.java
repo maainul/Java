@@ -1,7 +1,5 @@
 package dataStructureAndAlgorithm._1_array._1_arrayRotations;
 
-import java.util.Arrays;
-
 public class _7_FindMaximumValueofSum {
 
 	public static void main(String[] args) {
