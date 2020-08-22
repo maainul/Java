@@ -46,3 +46,12 @@
 [3. Print characters having even frequencies in order of occurrence](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/FC_3_CharactersHavingEvenFrequenciesInOrderOfOccurrence/FC_3_CharactersHavingEvenFrequenciesInOrderOfOccurrence.java)</br>
 [4. Print characters having odd frequencies in order of occurrence](https://github.com/maainul/Java/blob/master/src/intervieQuestions/String/FC_4_CharactersHavingOddFrequenciesInOrderOfOccurrence/FC_4_CharactersHavingOddFrequenciesInOrderOfOccurrence.java)</br>
 [5. Print characters having prime frequencies in order of occurrence](https://www.geeksforgeeks.org/print-characters-having-prime-frequencies-in-order-of-occurrence/)</br>
+[6. Find the first non-repeating character in a string](https://www.faceprep.in/c/find-the-first-non-repeating-character-in-a-string/)</br>
+[7. Check if Two Strings are anagrams or not](https://www.faceprep.in/c-plus-plus/check-if-two-strings-are-anagrams-or-not/)</br>
+[8. Program to Replace a Substring in a String](https://www.faceprep.in/c/program-to-replace-a-substring-in-a-string/)</br>
+[9. Program to count the common sub sequence of two strings](https://www.faceprep.in/c/program-to-count-common-sub-sequence-of-two-strings/)</br>
+[10. Program to reverse a string](https://www.faceprep.in/c/program-to-reverse-a-string/)</br>
+[11. Check whether a string is PALINDROME or No](https://www.faceprep.in/c/check-whether-a-string-is-palindrome-or-not/)</br>
+
+
+
