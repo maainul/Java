@@ -52,6 +52,3 @@
 [9. Program to count the common sub sequence of two strings](https://www.faceprep.in/c/program-to-count-common-sub-sequence-of-two-strings/)</br>
 [10. Program to reverse a string](https://www.faceprep.in/c/program-to-reverse-a-string/)</br>
 [11. Check whether a string is PALINDROME or No](https://www.faceprep.in/c/check-whether-a-string-is-palindrome-or-not/)</br>
-
-
-
