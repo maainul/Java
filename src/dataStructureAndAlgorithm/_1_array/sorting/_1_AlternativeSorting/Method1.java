@@ -1,4 +1,4 @@
-package dataStructureAndAlgorithm._1_array.sorting;
+package dataStructureAndAlgorithm._1_array.sorting._1_AlternativeSorting;
 
 import java.util.Arrays;
 
