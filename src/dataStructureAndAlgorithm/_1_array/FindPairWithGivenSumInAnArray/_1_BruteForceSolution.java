@@ -3,8 +3,6 @@ package dataStructureAndAlgorithm._1_array.FindPairWithGivenSumInAnArray;
 /*
  arr = {8,7,2,5,3,1}
  sum = 10
- 
- Time Complexity : O(n*n)
  */
 
 public class _1_BruteForceSolution {
