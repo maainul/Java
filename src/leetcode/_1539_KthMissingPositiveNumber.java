@@ -1,7 +1,6 @@
 package leetcode;
 
-import java.util.HashSet;
-import java.util.Iterator;
+import java.util.ArrayList;
 
 public class _1539_KthMissingPositiveNumber {
 
@@ -14,13 +13,22 @@ public class _1539_KthMissingPositiveNumber {
 
 	private static int missingNumber(int[] arr, int k) {
 
-		int[] newArray = new int[arr.length];
-		
-		for (int i = 0; i < arr[arr.length - 1]; i++) {
-			newArray[i] = i;
+		int target = 0, start = 1, count = 0;
+
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		for (int a : arr) {
+			al.add(a);
 		}
-	
-		return 0;
+
+		while (count != k) {
+			if (!al.contains(start)) {
+				target = start;
+				count++;
+			}
+			start++;
+		}
+
+		return target;
 	}
 
 }
