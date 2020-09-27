@@ -9,6 +9,7 @@ public class Graph {
 	private boolean visited[];
 
 // Graph creation
+	@SuppressWarnings("unchecked")
 	Graph(int vertices) {
 		adjLists = new LinkedList[vertices];
 		visited = new boolean[vertices];

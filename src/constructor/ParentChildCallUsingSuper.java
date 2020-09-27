@@ -12,6 +12,7 @@ public class ParentChildCallUsingSuper {
 
 
 	public static void main(String[] args) {
+		@SuppressWarnings("unused")
 		Child obj = new Child();
 
 	}

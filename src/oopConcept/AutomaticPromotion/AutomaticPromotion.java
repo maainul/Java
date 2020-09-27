@@ -11,7 +11,7 @@ public class AutomaticPromotion {
 
 	public static void main(String[] args) {
 		Test obj = new Test();
-		obj.m1(10);
+		obj.m2(10);
 		
 		
 	}

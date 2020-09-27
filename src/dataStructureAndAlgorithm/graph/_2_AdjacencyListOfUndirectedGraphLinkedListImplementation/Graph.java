@@ -7,6 +7,7 @@ public class Graph {
 	int vertex;
 	LinkedList<Integer> list[];
 
+	@SuppressWarnings("unchecked")
 	public Graph(int vertex) {
 		this.vertex = vertex;
 		list = new LinkedList[vertex];

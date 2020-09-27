@@ -12,11 +12,12 @@ class Graph {
 	private LinkedList<Integer> adj[]; // Adjacency Lists
 
 	// Constructor
+	@SuppressWarnings("unchecked")
 	Graph(int v) {
 		V = v;
 		adj = new LinkedList[v];
 		for (int i = 0; i < v; ++i)
-			adj[i] = new LinkedList();
+			adj[i] = new LinkedList<Integer>();
 	}
 
 	// Function to add an edge into the graph

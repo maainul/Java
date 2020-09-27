@@ -6,7 +6,8 @@ public class _17_GenericLinkedList<T> {
     private _17_GenericLinkedList(){
         head = null;
     }
-    class ListNode<T>{
+    @SuppressWarnings("hiding")
+	class ListNode<T>{
         private T data;
         private ListNode<T> next;
 
