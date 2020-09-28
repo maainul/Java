@@ -9,7 +9,7 @@
 
 package oopConcept.modifires.protectedAccess.goose;
 
-import oopConcept.modifires.protectedAccess.shore.Bird;
+import oopConcept.modifires.protectedAccess.pond.swan.Bird;
 
 public class Gosling extends Bird {
 

@@ -8,10 +8,12 @@
  */
 package oopConcept.modifires.protectedAccess.shore;
 
+//import oopConcept.modifires.protectedAccess.pond.swan.Bird;
+
 public class BirdWatcher {
 	public void watchBird() {
-		Bird bird = new Bird();
-		bird.floatingWater();
-		System.out.println(bird.text);
+		//Bird bird = new Bird();
+		// bird.floatingWater();
+		// System.out.println(bird.text);
 	}
 }

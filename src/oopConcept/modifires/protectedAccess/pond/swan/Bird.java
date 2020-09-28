@@ -5,7 +5,7 @@
  * 
  * September 27, 2020
  */
-package oopConcept.modifires.protectedAccess.shore;
+package oopConcept.modifires.protectedAccess.pond.swan;
 
 public class Bird {
 	protected String text = "floating";

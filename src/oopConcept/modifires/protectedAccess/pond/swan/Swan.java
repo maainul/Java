@@ -8,8 +8,6 @@
  */
 package oopConcept.modifires.protectedAccess.pond.swan;
 
-import oopConcept.modifires.protectedAccess.shore.Bird;
-
 public class Swan extends Bird {
 	public void swim() {
 		floatingWater();
@@ -24,8 +22,8 @@ public class Swan extends Bird {
 
 	public void helpOtherBirdSwim() {
 		Bird otherBird = new Bird();
-		// otherBird.floatInWater(); // DOES NOT COMPILE
-		// System.out.println(otherBird.text); // DOES NOT COMPILE
+		otherBird.floatingWater(); // DOES NOT COMPILE
+		System.out.println(otherBird.text); // DOES NOT COMPILE
 	}
 
 }
