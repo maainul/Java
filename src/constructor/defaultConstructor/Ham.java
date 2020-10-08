@@ -10,6 +10,7 @@ package constructor.defaultConstructor;
 
 public class Ham {
 	private int weight;
+	@SuppressWarnings("unused")
 	private String color;
 
 //	public Ham(int weight) {

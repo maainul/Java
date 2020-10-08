@@ -1,17 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/_746_MinCostClimbingStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/constructor/defaultConstructor/Ham.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/constructor/defaultConstructor/Ham.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/_1010_PairOfSongs.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/_1010_PairOfSongs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/oca/immutableClass/ImmutableSwan.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oca/immutableClass/ImmutableSwan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constructor/defaultConstructor/Ham.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/constructor/defaultConstructor/Ham.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/_1010_PairOfSongs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/_1010_PairOfSongs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/immutableClass/ImmutableSwan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/immutableClass/ImmutableSwan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,11 +56,14 @@
   </component>
   <component name="ProjectId" id="1iGi4U1e4ZnUjAgzPqheEVA7vVn" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -42,10 +76,38 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="411" y="220" width="533" height="361" key="#Notifications" timestamp="1601540210452">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="411" y="220" width="533" height="361" key="#Notifications/0.27.1366.741@0.27.1366.741" timestamp="1601540210452" />
+    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1601581667721">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1601581667721" />
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1601540701644">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1601540701644" />
+    <state x="304" y="27" width="748" height="741" key="new project wizard" timestamp="1601581687999">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="304" y="27" width="748" height="741" key="new project wizard/0.27.1366.741@0.27.1366.741" timestamp="1601581687999" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1601540864616">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1601540864616" />
   </component>
 </project>

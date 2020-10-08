@@ -30,6 +30,7 @@ public class _1010_PairOfSongs {
 	public static void main(String[] args) {
 		int[] nums = { 30, 20, 150, 100, 40 };
 		System.out.println(numPairsDivisibleBy60(nums));
+		//System.out.println(30 % 60);
 
 	}
 
