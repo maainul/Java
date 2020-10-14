@@ -34,5 +34,21 @@ public class _2_ReverseString_2 {
 		System.out.println(revString);
 
 	}
+/*
+	private String rev(String st) {
+		String[] string = s.trim().split("\\s+");
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < st.length; i++) {
+			char[] ch = st[i].toCharArray();
+			for (int j = ch.length - 1; j >= 0; j--) {
+				sb.append(ch[j]);
+			}
 
+			if (i < st.length - 1) {
+				sb.append(" ");
+			}
+		}
+		return sb.toString();
+	}
+	*/
 }
