@@ -52,11 +52,21 @@ public class _680_ValidPalindromeII {
 		// word to be a palindrome
 		return true;
 	}
+	public boolean isXlargest(int x, int y){
+		if(x >y){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	
 
 	public static void main(String[] args) {
 		_680_ValidPalindromeII obj = new _680_ValidPalindromeII();
 		boolean c = obj.validPalindrome("aba");
 		System.out.println(c);
+		System.out.println(obj.isXlargest(10,3));
+		
 
 	}
 
