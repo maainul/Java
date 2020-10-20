@@ -30,7 +30,7 @@ public class _125_ValidPalindrom {
 			return false;
 		}
 		input = input.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
-		
+		System.out.println(input);
 		System.out.println(input);
 		
 		for (int i = 0; i < input.length(); i++) {

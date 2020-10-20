@@ -68,7 +68,7 @@ public class _1200_MinimumAbsoluteDifference {
 	}
 
 	public static List<List<Integer>> minimumAbsDifference(int[] arr) {
-		List<List<Integer>> res = new ArrayList();
+		List<List<Integer>> res = new ArrayList<List<Integer>>();
 		// sort elements
 		Arrays.sort(arr);
 		// init our min difference value

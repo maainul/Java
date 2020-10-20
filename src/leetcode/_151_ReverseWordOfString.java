@@ -36,6 +36,8 @@ public class _151_ReverseWordOfString {
 		String string = "  hello you world!  ";
 		//reverse(string);
 		System.out.println(reverse(string));
+		
+		System.out.println(new String(" hello     there   ").trim().replaceAll("\\s{2,}", " "));
 	}
 
 	
@@ -52,6 +54,19 @@ public class _151_ReverseWordOfString {
 		return sBuilder.toString().trim();
 		
 	}
+	
+	
+	public String reverseWords(String s) {
+        s = s.trim().replaceAll("\\s{2,}", " ");
+        String[] str = s.split(" ");
+        
+        StringBuilder sb = new StringBuilder();
+        for(int i = str.length -1 ; i >= 0 ; i--){
+            sb.append(str[i]);
+            sb.append(" ");
+        }
+        return sb.toString().trim();
+    }
 	
 	
 }
