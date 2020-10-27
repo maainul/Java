@@ -13,7 +13,6 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 
-
 public class _3_MilliSecondToDate {
 
 	/**
@@ -29,12 +28,21 @@ public class _3_MilliSecondToDate {
 
 		LocalDateTime ldt = Instant.ofEpochMilli(epoch).atZone(ZoneId.systemDefault()).toLocalDateTime();
 		System.out.println(ldt);
-		
-		long longDate = 1603492169;
-		
-		LocalDateTime newDate = Instant.ofEpochMilli(longDate).atZone(ZoneId.systemDefault()).toLocalDateTime();
-        System.out.println(newDate);
 
+		long longDate = 1603558353511l;
+
+		LocalDateTime newDate = Instant.ofEpochMilli(longDate).atZone(ZoneId.systemDefault()).toLocalDateTime();
+		System.out.println(newDate);
+
+//		long longdd = 2147483607;
+//
+//		LocalDateTime myddDateTime = Instant.ofEpochMilli(longdd).atZone(ZoneId.systemDefault()).toLocalDateTime();
+//		System.out.println(myddDateTime);
+
+		
+		System.out.println(Long.MAX_VALUE);
+		
+		
 	}
 
 }

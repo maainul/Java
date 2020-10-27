@@ -39,7 +39,6 @@ public class _2_ShortCutVersion_Program {
 		System.out.println(millisSinceEpoch);
 		
 		
-		
 		//Java 8 - toEpochMilli() method of ZonedDateTime
 	      System.out.println("Getting time in milliseconds in Java 8: " + 
 	      ZonedDateTime.now().toInstant().toEpochMilli());
