@@ -119,7 +119,7 @@ public class _1507_FormateDate {
 
 		String dayString = "";
 
-		if (splitString[0].length() <= 3) {
+		if (splitString[0].length() <= 3) { 
 
 			dayString = "0" + date.substring(0, 1);
 		} else {
