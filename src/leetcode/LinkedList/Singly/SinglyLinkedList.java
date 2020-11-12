@@ -325,6 +325,24 @@ public class SinglyLinkedList {
 
 	}
 
+
+
+
+public static Node recursiveReverse(Node head) {
+	Node head;
+
+	if (head==null || head.next == null)
+		return head;
+
+	head = recursiveReverse(head.next);
+	head.next.next = head;
+	head.next = null;
+
+	return head;
+}
+
+
+
 	public Node reverseList(Node head) {
 		Node current = head;
 		Node previous = null;
