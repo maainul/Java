@@ -1,4 +1,5 @@
 package leetcode;
+
 /*
 80. Remove Duplicates from Sorted Array II
 
@@ -43,32 +44,57 @@ for (int i = 0; i < len; i++) {
     print(nums[i]);
 }
  */
+// https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/discuss/906706/Java-Extension-of-remove-duplicates-from-sorted-array-1-oror-O(n)-time-and-O(1)-space
 public class _80_RemoveDuplicateII {
-    public static int removeDuplicates(int[] nums) {
-        if (nums == null) {
-            return 0;
-        }
+	public static int removeDuplicates(int[] nums) {
+		if (nums == null) {
+			return 0;
+		}
 
-        if (nums.length <= 2) {
-            return nums.length;
-        }
-        int i = 1; // point to previous
-        int j = 2; // point to current
+		if (nums.length <= 2) {
+			return nums.length;
+		}
+		int i = 1; // point to previous
+		int j = 2; // point to current
 
-        while (j < nums.length) {
-            if (nums[j] != nums[i] || nums[j] != nums[i - 1]) {
-                i++;
-                nums[i] = nums[j];
-            }
-            j++;
-        }
+		while (j < nums.length) {
+			if (nums[j] != nums[i] || nums[j] != nums[i - 1]) {
+				i++;
+				nums[i] = nums[j];
+			}
+			j++;
+		}
 
-        return i + 1;
-    }
+		return i + 1;
+	}
 
-    public static void main(String[] args) {
-        int[] nums = {1, 1, 1, 1, 2, 2, 3};
-        System.out.println((removeDuplicates(nums)));
+	public static int removeDuplicatess(int[] nums) {
+		if (nums.length == 0 || nums == null) {
+			return 0;
+		}
+		int count = 1;
+		int index = 1;
+		int cur = nums[0];
 
-    }
+		for (int i = 1; i < nums.length; i++) {
+			if (nums[i] == cur) {
+				count++;
+				if (count <= 2) {
+					nums[index++] = nums[i];
+				}
+			} else {
+				cur = nums[i];
+				count = 1;
+				nums[index++] = nums[i];
+			}
+		}
+		return index;
+
+	}
+
+	public static void main(String[] args) {
+		int[] nums = { 1, 1, 1, 1, 2, 2, 3 };
+		System.out.println((removeDuplicates(nums)));
+
+	}
 }

@@ -1,4 +1,7 @@
 package leetcode;
+
+import java.util.Arrays;
+
 /*
 169. Majority Element
 
@@ -17,29 +20,36 @@ Input: [2,2,1,1,1,2,2]
 Output: 2
  */
 public class _169_MajorityElement {
-    public static void main(String[] args) {
-        int nums[] = {2, 2, 1, 1, 1, 1, 1, 2, 2};
+	public static void main(String[] args) {
+		int nums[] = { 2, 2, 1, 1, 1, 1, 1, 2, 2 };
 
-        System.out.println(majorityNums(nums));
-    }
+		System.out.println(majorityNums(nums));
+	}
 
-    private static int majorityNums(int[] nums) {
-        int majorCount = nums.length / 2;
-        for (int i = 0; i < nums.length; i++) {
-            int count = 0;
-            for (int j = 0; j < nums.length; j++) {
-                if (nums[i] == nums[j]) {
-                    count++;
-                }
-            }
-            if (count > majorCount) {
-                return nums[i];
-            }
-        }
-        return -1;
-    }
+	private static int majorityNums(int[] arr) {
+		int n = arr.length;
+		boolean visited[] = new boolean[n];
+		Arrays.fill(visited, false);
 
+		for (int i = 0; i < n; i++) {
+			if (visited[i] == true) {
+				continue;
+			}
+			int count = 1;
+			for (int j = i + 1; j < n; j++) {
+				if (arr[i] == arr[j]) {
+					count++;
+					visited[j] = true;
 
+				}
+			}
+			if (count > arr.length / 2) {
+				return arr[i];
+			}
+		}
+
+		return -1;
+
+	}
 
 }
-

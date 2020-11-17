@@ -1,6 +1,6 @@
 package leetcode;
 
-public class LinkedList {
+public class LinkedListNode {
 	Node head;
 
 	class Node {
@@ -145,7 +145,7 @@ public class LinkedList {
 	}
 
 	public static void main(String[] args) {
-		LinkedList obj = new LinkedList();
+		LinkedListNode obj = new LinkedListNode();
 		obj.insertAtFirst(1);
 		obj.insertAtFirst(2);
 		obj.insertAtFirst(3);
