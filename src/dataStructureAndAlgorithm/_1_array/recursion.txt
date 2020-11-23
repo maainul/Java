@@ -1,0 +1,167 @@
+/******************************************************************************
+
+Reverse an integer array in java using iterative & recursive algorithm
+
+    Given an integer array in java.
+    Reverse input array using iterative & recursive algorithm.
+
+Example to reverse an integer array using java
+
+    Let input array is { 1, 2, 3, 4, 5 }
+    Reverse input array is {5, 4, 3, 2, 1}
+
+Algorithm: reverse an integer array using iterative algorithm
+
+    Initialize length = inputArray.length & half = length / 2.
+    Start traversing the input array till half length of array
+        Swap elements of array e.g. first element of array swapped with last element.
+    End traversing input array
+    Time complexity of algorithm is O (n).
+
+Algorithm: reverse an integer array using recursive algorithm
+
+    Initialize low = 0 & high = inputArray.length – 1
+    Swap elements at low & high index
+    Increment low & decrement high index
+    Recursively call reverse method to reverse rest of elements of array.
+    Time complexity of algorithm is O (n).
+
+Program 1: Print Array Normal Method.
+
+*******************************************************************************/
+
+public class Main
+{
+	public static void main(String[] args) {
+		int array[] = {2,5,9,8};
+		System.out.println("Original Array:");
+	    for(int i=0; i<array.length;i++){
+		    System.out.print(array[i]+" ");
+		} 
+	}
+}
+
+// Output :
+
+Original Array:                                                                                                             
+2 5 9 8 
+
+/******************************************************************************
+Program 2: Print Array Recursion Method.
+
+*******************************************************************************/
+
+public class Main
+{
+	public static void main(String[] args) {
+	    reverse(0);
+	    
+	}
+	public static void reverse(int i){
+	    	int array[] = {2,5,9,8};
+	    	System.out.println("Index"+i+" : "+array[i]);
+	    	if(i == array.length-1){
+	    	    return;
+	    	}else{
+	    	    reverse(i+1);
+	    	}
+	} 
+}
+
+// Output :
+
+Original Array:                                                                                                             
+2,5,9,8
+/******************************************************************************
+
+Program 3: Print Array Recursion Method.(array in the main method)
+
+*******************************************************************************/
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int array[] = {2,5,9,8,98,0,45,7};
+	    reverse(array,0);
+	    
+	}
+	public static void reverse(int[] array,int i){
+	    	System.out.println("Index"+i+" : "+array[i]);
+	    	if(i == array.length-1){
+	    	    return;
+	    	}else{
+	    	    reverse(array,i+1);
+	    	}
+	} 
+}
+
+/******************************************************************************
+Program 3: Reverse Array Normal Method.
+
+*******************************************************************************/
+
+public class Main
+{
+	public static void main(String[] args) {
+		int array[] = {2,5,9,8};
+		System.out.println("Original Array:");
+	    for(int i=0; i<array.length;i++){
+		    System.out.print(array[i]+" ");
+		} 
+		System.out.println("\nReverse Array:");
+		for(int i=array.length-1;i>=0;i--){
+		    System.out.print(array[i]+" ");
+		}
+	}
+}
+
+/******************************************************************************
+Program 4: Reverse Array Recursion Method.
+
+*******************************************************************************/
+
+public class Main
+{
+	public static void main(String[] args) {
+	    reverse(3);
+	    
+	}
+	public static void reverse(int i){
+	    	int array[] = {2,5,9,8};
+	    	System.out.println("Index"+i+" : "+array[i]);
+	    	if(i == 0){
+	    	    return;
+	    	}else{
+	    	    reverse(i-1);
+	    	}
+	} 
+}
+// output:
+
+Index3 : 8                                                                                                                  
+Index2 : 9                                                                                                                  
+Index1 : 5                                                                                                                  
+Index0 : 2    
+
+/******************************************************************************
+Program 5: Reverse Array Recursion Method.(Array in the main method)
+
+*******************************************************************************/
+public class Main
+{
+	public static void main(String[] args) {
+	    int array[] = {2,5,9,8,98,0,45,7};
+	    int i = array.length;
+	    reverse(array,i-1);
+	    
+	}
+	public static void reverse(int[] array,int i){
+	    
+	    	System.out.println("Index"+i+" : "+array[i]);
+	    	if(i == 0){
+	    	    return;
+	    	}else{
+	    	    reverse(array,i-1);
+	    	}
+	} 
+}
