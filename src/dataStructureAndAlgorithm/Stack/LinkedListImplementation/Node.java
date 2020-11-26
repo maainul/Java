@@ -1,6 +1,6 @@
 package dataStructureAndAlgorithm.Stack.LinkedListImplementation;
 
-public class Node {
+class Node {
 	int data;
 	Node nextNode;
 	

@@ -1,6 +1,6 @@
 package dataStructureAndAlgorithm.Stack.LinkedListImplementation;
 
-public class Stack {
+class Stack {
 	Node topNode;
 	int length;
 	

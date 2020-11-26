@@ -1,15 +1,17 @@
 package dataStructureAndAlgorithm.Stack.ArrayImplementation;
 
-public class Stack {
+import dataStructureAndAlgorithm.Tree.BinaryTree.basic._1_ImplementBST;
+
+class Stack<N> {
 	int stack[] = new int[5];
 	int top=0;
 	
-	public void push(int data) {
+	public void push(_1_ImplementBST.Node data) {
 		if(top == 5) {
 			System.out.println("Stack is full");
 		}
 		else {
-			stack[top] = data;
+			//stack[top] = data;
 			top++;
 		}
 		
