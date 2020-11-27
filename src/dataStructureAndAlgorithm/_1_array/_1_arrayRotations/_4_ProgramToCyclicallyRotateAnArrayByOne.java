@@ -2,6 +2,16 @@ package dataStructureAndAlgorithm._1_array._1_arrayRotations;
 
 import java.util.Arrays;
 /*
+Program to cyclically rotate an array by one
+Last Updated: 06-02-2019
+Given an array, cyclically rotate the array clockwise by one.
+
+Examples:
+
+Input:  arr[] = {1, 2, 3, 4, 5}
+Output: arr[] = {5, 1, 2, 3, 4}
+ */
+/*
 Following are steps.
 	1) Store last element in a variable say x.
 	2) Shift all elements one position ahead.
