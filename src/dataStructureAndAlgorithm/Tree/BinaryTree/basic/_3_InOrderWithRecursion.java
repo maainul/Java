@@ -3,7 +3,7 @@ package dataStructureAndAlgorithm.Tree.BinaryTree.basic;
 public class _3_InOrderWithRecursion {
     Node root;
 
-    public void createBinaryTree(){
+    private void createBinaryTree(){
         Node first = new Node(1);
         Node second = new Node(2);
         Node third = new Node(3);
