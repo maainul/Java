@@ -23,19 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_10_FindNthNodeFromInOrderTraversal/FIndNthNodeFromInorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_11_FindNthNodeInPostorderTraversalofaBinaryTree/PostOrderNthNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_12_LevelOrderBinaryTreeTraversal/BreadthFirstSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_14_LevelOrderLineByLine/LevelOrderLineByLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/interruptThread/usingFlag/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/interruptThread/usingInterrupt/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/stopAthread/MyThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/stopAthread/Watch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/basic/_3_InOrderWithRecursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/basic/_3_InOrderWithRecursion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thread/implementsRunnableInnerClass/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/implementsRunnableInnerClass/MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thread/implementsRunnableInnerClass/MyThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/implementsRunnableInnerClass/MyThreadDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/basic/_3_InOrderWithRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/basic/_3_InOrderWithRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_10_QuicklyFindMultipleLeftRotationsofAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_10_QuicklyFindMultipleLeftRotationsofAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_5_SearchAnElementInASortedAndRotatedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_5_SearchAnElementInASortedAndRotatedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_7_FindMaximumValueofSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_7_FindMaximumValueofSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_9_FindTheRotationCountInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_9_FindTheRotationCountInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/interruptThread/usingFlag/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/interruptThread/usingFlag/MyThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,6 +213,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1606065984605" />
+    <state x="368" y="199" width="619" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606580902567">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="368" y="199" width="619" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1606580902567" />
     <state x="491" y="105" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1606550797304">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -232,22 +229,22 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1606167748198" />
-    <state width="1320" height="269" key="GridCell.Tab.0.bottom" timestamp="1606569300839">
+    <state width="1320" height="269" key="GridCell.Tab.0.bottom" timestamp="1606599112501">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="269" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1606569300839" />
-    <state width="1320" height="269" key="GridCell.Tab.0.center" timestamp="1606569300839">
+    <state width="1320" height="269" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1606599112501" />
+    <state width="1320" height="269" key="GridCell.Tab.0.center" timestamp="1606599112500">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="269" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1606569300839" />
-    <state width="1320" height="269" key="GridCell.Tab.0.left" timestamp="1606569300838">
+    <state width="1320" height="269" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1606599112500" />
+    <state width="1320" height="269" key="GridCell.Tab.0.left" timestamp="1606599112500">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="269" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1606569300838" />
-    <state width="1320" height="269" key="GridCell.Tab.0.right" timestamp="1606569300839">
+    <state width="1320" height="269" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1606599112500" />
+    <state width="1320" height="269" key="GridCell.Tab.0.right" timestamp="1606599112501">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="269" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1606569300839" />
+    <state width="1320" height="269" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1606599112501" />
     <state width="1320" height="215" key="GridCell.Tab.1.bottom" timestamp="1606552276983">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
