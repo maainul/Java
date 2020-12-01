@@ -1,4 +1,7 @@
 package dataStructureAndAlgorithm._1_array.sorting._9_SortElementsByFrequency;
+
+import java.util.Arrays;
+
 /*
 Print the elements of an array in the decreasing frequency if 2 numbers have same 
 
@@ -86,12 +89,14 @@ public class Program1 {
 
 	public static void main(String[] args) {
 		int arr[] = {2, 5, 2, 8, 5, 6, 8, 8};
-		frequency(arr);
+		int[] reslt = frequency(arr);
+		System.out.println(Arrays.toString(reslt));
 
 	}
 
-	private static void frequency(int[] arr) {
-		
+	private static int[] frequency(int[] arr) {
+		Arrays.sort(arr);
+		return  arr;
 		
 	}
 

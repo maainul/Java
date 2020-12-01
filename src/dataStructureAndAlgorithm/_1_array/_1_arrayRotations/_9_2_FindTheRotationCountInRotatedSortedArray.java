@@ -3,7 +3,7 @@ package dataStructureAndAlgorithm._1_array._1_arrayRotations;
 public class _9_2_FindTheRotationCountInRotatedSortedArray {
 
 	public static void main(String[] args) {
-		int arr[] = { 15, 18, 2, 3, 6, 12 };
+		int arr[] = { 0, 1, 2, 3, 6, 12 };
 		int n = arr.length;
 
 		System.out.println(countRotations(arr, 0, n - 1));

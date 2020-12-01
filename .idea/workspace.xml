@@ -23,16 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Search/Binary/BinarySearchIterFinalVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/diagonalArray/FindDifferenceBetweenSumsOfTwoDiagonals/FindDifferenceBetweenSumsOfTwoDiagonals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/diagonalArray/ProgramToPrintTheDiagonalsOfAMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_8_SortAnArrayContainingTwoTypesOfElements/_1_Segregrate_0_And_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Search/Binary/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Search/Binary/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Search/Binary/BinarySearchRecursive.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Search/Binary/BinarySearchRecursive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_10_QuicklyFindMultipleLeftRotationsofAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_10_QuicklyFindMultipleLeftRotationsofAnArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_5_SearchAnElementInASortedAndRotatedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_5_SearchAnElementInASortedAndRotatedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_7_FindMaximumValueofSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_7_FindMaximumValueofSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_9_FindTheRotationCountInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_9_FindTheRotationCountInRotatedSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Search/Binary/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Search/Binary/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Search/Binary/BinarySearchRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Search/Binary/BinarySearchRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Search/Binary/BinarySearchIterFinalVersion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_9_2_FindTheRotationCountInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_9_2_FindTheRotationCountInRotatedSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/Method1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/Method1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/MethodUpdated.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/MethodUpdated.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_9_SortElementsByFrequency/Program1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_9_SortElementsByFrequency/Program1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_9_2_FindTheRotationCountInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_9_2_FindTheRotationCountInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/Method1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/Method1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/MethodUpdated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/MethodUpdated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_9_SortElementsByFrequency/Program1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_9_SortElementsByFrequency/Program1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +52,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/maainul/Java" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -93,13 +103,13 @@
       <recent name="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/gfg/introduction/_6_find-n-th-node-inorder-traversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Search.Binary.BinarySearch" />
+  <component name="RunManager" selected="Application.FindDifferenceBetweenSumsOfTwoDiagonals">
+    <configuration name="FindDifferenceBetweenSumsOfTwoDiagonals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.diagonalArray.FindDifferenceBetweenSumsOfTwoDiagonals.FindDifferenceBetweenSumsOfTwoDiagonals" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Search.Binary.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.diagonalArray.FindDifferenceBetweenSumsOfTwoDiagonals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchIterFinalVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Search.Binary.BinarySearchIterFinalVersion" />
+    <configuration name="Method1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.sorting._5_MagreAnArrayofNInM.Method1" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Search.Binary.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.sorting._5_MagreAnArrayofNInM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchRecursionFinalVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Search.Binary.BinarySearchRecursionFinalVersion" />
+    <configuration name="Program1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.sorting._9_SortElementsByFrequency.Program1" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Search.Binary.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.sorting._9_SortElementsByFrequency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Search.Binary.BinarySearchRecursive" />
+    <configuration name="ProgramToPrintTheDiagonalsOfAMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.diagonalArray.ProgramToPrintTheDiagonalsOfAMatrix" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Search.Binary.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.diagonalArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyThread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.interruptThread.usingFlag.MyThread" />
+    <configuration name="_1_Segregrate_0_And_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.sorting._8_SortAnArrayContainingTwoTypesOfElements._1_Segregrate_0_And_1" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.interruptThread.usingFlag.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.sorting._8_SortAnArrayContainingTwoTypesOfElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.BinarySearchRecursive" />
-        <item itemvalue="Application.BinarySearchRecursionFinalVersion" />
-        <item itemvalue="Application.BinarySearchIterFinalVersion" />
-        <item itemvalue="Application.MyThread (1)" />
+        <item itemvalue="Application.FindDifferenceBetweenSumsOfTwoDiagonals" />
+        <item itemvalue="Application.ProgramToPrintTheDiagonalsOfAMatrix" />
+        <item itemvalue="Application.Program1" />
+        <item itemvalue="Application._1_Segregrate_0_And_1" />
+        <item itemvalue="Application.Method1" />
       </list>
     </recent_temporary>
   </component>
@@ -233,22 +243,22 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1606167748198" />
-    <state width="1320" height="189" key="GridCell.Tab.0.bottom" timestamp="1606791541989">
+    <state width="1320" height="189" key="GridCell.Tab.0.bottom" timestamp="1606815075827">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="189" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1606791541989" />
-    <state width="1320" height="189" key="GridCell.Tab.0.center" timestamp="1606791541988">
+    <state width="1320" height="189" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1606815075827" />
+    <state width="1320" height="189" key="GridCell.Tab.0.center" timestamp="1606815075826">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="189" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1606791541988" />
-    <state width="1320" height="189" key="GridCell.Tab.0.left" timestamp="1606791541988">
+    <state width="1320" height="189" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1606815075826" />
+    <state width="1320" height="189" key="GridCell.Tab.0.left" timestamp="1606815075825">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="189" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1606791541988" />
-    <state width="1320" height="189" key="GridCell.Tab.0.right" timestamp="1606791541989">
+    <state width="1320" height="189" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1606815075825" />
+    <state width="1320" height="189" key="GridCell.Tab.0.right" timestamp="1606815075827">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="189" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1606791541989" />
+    <state width="1320" height="189" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1606815075827" />
     <state width="1320" height="215" key="GridCell.Tab.1.bottom" timestamp="1606791040009">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
