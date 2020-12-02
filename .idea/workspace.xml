@@ -23,19 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/diagonalArray/FindDifferenceBetweenSumsOfTwoDiagonals/FindDifferenceBetweenSumsOfTwoDiagonals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/diagonalArray/ProgramToPrintTheDiagonalsOfAMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_8_SortAnArrayContainingTwoTypesOfElements/_1_Segregrate_0_And_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/hackerRank/GCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/hackerRank/Max_Min_Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/hackerRank/Stairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/hackerRank/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/hackerRank/TimeConversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Search/Binary/BinarySearchIterFinalVersion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_9_2_FindTheRotationCountInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_9_2_FindTheRotationCountInRotatedSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/Method1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/Method1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/MethodUpdated.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/MethodUpdated.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_9_SortElementsByFrequency/Program1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_9_SortElementsByFrequency/Program1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_9_2_FindTheRotationCountInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/_1_arrayRotations/_9_2_FindTheRotationCountInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/Method1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/Method1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/MethodUpdated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/MethodUpdated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_9_SortElementsByFrequency/Program1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_9_SortElementsByFrequency/Program1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,13 +96,13 @@
       <recent name="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/gfg/introduction/_6_find-n-th-node-inorder-traversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindDifferenceBetweenSumsOfTwoDiagonals">
-    <configuration name="FindDifferenceBetweenSumsOfTwoDiagonals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.diagonalArray.FindDifferenceBetweenSumsOfTwoDiagonals.FindDifferenceBetweenSumsOfTwoDiagonals" />
+  <component name="RunManager" selected="Application.GCD">
+    <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.hackerRank.GCD" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.diagonalArray.FindDifferenceBetweenSumsOfTwoDiagonals.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.hackerRank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Method1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.sorting._5_MagreAnArrayofNInM.Method1" />
+    <configuration name="Max_Min_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.hackerRank.Max_Min_Sum" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.sorting._5_MagreAnArrayofNInM.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.hackerRank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.sorting._9_SortElementsByFrequency.Program1" />
+    <configuration name="Stairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.hackerRank.Stairs" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.sorting._9_SortElementsByFrequency.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.hackerRank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProgramToPrintTheDiagonalsOfAMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.diagonalArray.ProgramToPrintTheDiagonalsOfAMatrix" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.hackerRank.Test" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.diagonalArray.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.hackerRank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1_Segregrate_0_And_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.sorting._8_SortAnArrayContainingTwoTypesOfElements._1_Segregrate_0_And_1" />
+    <configuration name="TimeConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.hackerRank.TimeConversion" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.sorting._8_SortAnArrayContainingTwoTypesOfElements.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.hackerRank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindDifferenceBetweenSumsOfTwoDiagonals" />
-        <item itemvalue="Application.ProgramToPrintTheDiagonalsOfAMatrix" />
-        <item itemvalue="Application.Program1" />
-        <item itemvalue="Application._1_Segregrate_0_And_1" />
-        <item itemvalue="Application.Method1" />
+        <item itemvalue="Application.GCD" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TimeConversion" />
+        <item itemvalue="Application.Max_Min_Sum" />
+        <item itemvalue="Application.Stairs" />
       </list>
     </recent_temporary>
   </component>
@@ -213,91 +206,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="312" y="79" width="732" height="644" key="#Inspections" timestamp="1606065816882">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="312" y="79" width="732" height="644" key="#Inspections/0.27.1366.741@0.27.1366.741" timestamp="1606065816882" />
-    <state x="411" y="220" width="533" height="361" key="#Notifications" timestamp="1601540210452">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="411" y="220" width="533" height="361" key="#Notifications/0.27.1366.741@0.27.1366.741" timestamp="1601540210452" />
-    <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606065984605">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1606065984605" />
-    <state x="368" y="199" width="619" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606580902567">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="368" y="199" width="619" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1606580902567" />
-    <state x="491" y="105" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1606550797304">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="491" y="105" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1606550797304" />
-    <state x="85" y="27" width="1186" height="741" key="CommitChangelistDialog2" timestamp="1606168378391">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="85" y="27" width="1186" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1606168378391" />
-    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1606167748198">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1606167748198" />
-    <state width="1320" height="189" key="GridCell.Tab.0.bottom" timestamp="1606815075827">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state width="1320" height="189" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1606815075827" />
-    <state width="1320" height="189" key="GridCell.Tab.0.center" timestamp="1606815075826">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state width="1320" height="189" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1606815075826" />
-    <state width="1320" height="189" key="GridCell.Tab.0.left" timestamp="1606815075825">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state width="1320" height="189" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1606815075825" />
-    <state width="1320" height="189" key="GridCell.Tab.0.right" timestamp="1606815075827">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state width="1320" height="189" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1606815075827" />
-    <state width="1320" height="215" key="GridCell.Tab.1.bottom" timestamp="1606791040009">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state width="1320" height="215" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1606791040009" />
-    <state width="1320" height="215" key="GridCell.Tab.1.center" timestamp="1606791040009">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state width="1320" height="215" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1606791040009" />
-    <state width="1320" height="215" key="GridCell.Tab.1.left" timestamp="1606791040008">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state width="1320" height="215" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1606791040008" />
-    <state width="1320" height="215" key="GridCell.Tab.1.right" timestamp="1606791040009">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state width="1320" height="215" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1606791040009" />
-    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1606410877571">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1606410877571" />
-    <state x="374" y="136" width="618" height="522" key="find.popup" timestamp="1606791519681">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="374" y="136" width="618" height="522" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1606791519681" />
-    <state x="304" y="27" width="748" height="741" key="new project wizard" timestamp="1601581687999">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="304" y="27" width="748" height="741" key="new project wizard/0.27.1366.741@0.27.1366.741" timestamp="1601581687999" />
-    <state x="714" y="155" width="610" height="492" key="refactoring.ChangeSignatureDialog" timestamp="1606371550614">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="714" y="155" width="610" height="492" key="refactoring.ChangeSignatureDialog/0.27.1366.741@0.27.1366.741" timestamp="1606371550614" />
-    <state x="688" y="174" key="run.anything.popup" timestamp="1606394294533">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="688" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1606394294533" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1606066054929">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1606066054929" />
   </component>
 </project>
