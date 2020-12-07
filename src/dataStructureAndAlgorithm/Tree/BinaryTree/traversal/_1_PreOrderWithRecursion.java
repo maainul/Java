@@ -1,4 +1,5 @@
-package dataStructureAndAlgorithm.Tree.BinaryTree.basic;
+package dataStructureAndAlgorithm.Tree.BinaryTree.traversal;
+
 
 
 class _1_PreOrderWithRecursion {

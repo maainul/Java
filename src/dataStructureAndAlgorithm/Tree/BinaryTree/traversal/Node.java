@@ -1,4 +1,4 @@
-package dataStructureAndAlgorithm.Tree.BinaryTree.basic;
+package dataStructureAndAlgorithm.Tree.BinaryTree.traversal;
 
 class Node {
     public int data;

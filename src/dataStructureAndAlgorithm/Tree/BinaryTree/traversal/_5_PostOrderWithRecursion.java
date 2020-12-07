@@ -1,4 +1,5 @@
-package dataStructureAndAlgorithm.Tree.BinaryTree.basic;
+package dataStructureAndAlgorithm.Tree.BinaryTree.traversal;
+
 
 public class _5_PostOrderWithRecursion {
     Node root;
