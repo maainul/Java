@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/hackerRank/BeautifulDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/hackerRank/ViralAdvertisement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +93,7 @@
       <recent name="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/gfg/introduction/_6_find-n-th-node-inorder-traversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BeautifulDay">
+  <component name="RunManager" selected="Application.ViralAdvertisement">
     <configuration name="BeautifulDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.hackerRank.BeautifulDay" />
       <module name="Java" />
@@ -146,8 +146,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PickingNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.hackerRank.PickingNumbers" />
+    <configuration name="ViralAdvertisement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.hackerRank.ViralAdvertisement" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -161,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ViralAdvertisement" />
         <item itemvalue="Application.BeautifulDay" />
         <item itemvalue="Application.ClimbingTheLeaderboard" />
         <item itemvalue="Application.LeaderBoard" />
         <item itemvalue="Application.ClimbingTheLeaderBoard" />
-        <item itemvalue="Application.PickingNumbers" />
       </list>
     </recent_temporary>
   </component>
