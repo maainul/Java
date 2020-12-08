@@ -23,15 +23,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_1_PreOrderWithRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_2_PreOrderWithOutRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_3_InOrderWithRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_4_InOrderInteration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_5_PostOrderWithRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_6_PostOrderIteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparatorAndComparator/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/ArrayImplementation/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/ArrayImplementation/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/basic/BinaryTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/basic/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/basic/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/basic/_1_ImplementBST$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/basic/_1_ImplementBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/basic/_1_PreOrderWithRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/basic/_2_PreOrderWithOutRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/basic/_3_InOrderWithRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/basic/_4_InOrderInteration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/basic/_5_PostOrderWithRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/basic/_6_PostOrderIteration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/ArrayImplementation/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/ArrayImplementation/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +90,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal" />
     <property name="project.structure.last.edited" value="Project" />
@@ -92,6 +99,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="comparatorAndComparator" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal" />
       <recent name="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/gfg/introduction/_6_find-n-th-node-inorder-traversal" />
@@ -101,22 +111,9 @@
       <recent name="dataStructureAndAlgorithm.Tree.BinaryTree.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ViralAdvertisement">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BeautifulDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.hackerRank.BeautifulDay" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.hackerRank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClimbingTheLeaderBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.hackerRank.ClimbingTheLeaderBoard" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -154,6 +151,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comparatorAndComparator.Main" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comparatorAndComparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ViralAdvertisement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.hackerRank.ViralAdvertisement" />
       <module name="Java" />
@@ -169,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ViralAdvertisement" />
         <item itemvalue="Application.BeautifulDay" />
         <item itemvalue="Application.ClimbingTheLeaderboard" />
         <item itemvalue="Application.LeaderBoard" />
-        <item itemvalue="Application.ClimbingTheLeaderBoard" />
       </list>
     </recent_temporary>
   </component>

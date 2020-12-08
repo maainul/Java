@@ -1,12 +1,13 @@
 package dataStructureAndAlgorithm.Stack.ArrayImplementation;
 
-import dataStructureAndAlgorithm.Tree.BinaryTree.basic._1_ImplementBST;
+
+import leetcode.LinkedList.SinglyLinkedList.Node;
 
 class Stack<N> {
 	int stack[] = new int[5];
 	int top=0;
 	
-	public void push(_1_ImplementBST.Node data) {
+	public void push(Node data) {
 		if(top == 5) {
 			System.out.println("Stack is full");
 		}
