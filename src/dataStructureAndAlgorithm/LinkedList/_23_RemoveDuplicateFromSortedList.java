@@ -51,33 +51,20 @@ public class _23_RemoveDuplicateFromSortedList {
             current = current.next;
         }
     }
+
     private void removeDuplicate(){
-        ListNode slow = head;
-        ListNode fast = head.next;
-        while( fast != null){
-            if(slow.data == fast.data){
-                slow.next = fast.next;
-            }else {
-                slow = slow.next;
-            }
-            fast = fast.next;
-        }
+       ListNode p = head;
+       while (p != null && p.next != null){
+           if (p.data == p.next.data){
+               p.next = p.next.next;
+           }else {
+               p = p.next;
+           }
+       }
+
     }
 
-    // GeeksForGeeks
-    private ListNode removeduplicate2() {
-        ListNode cur = head;
-        while (cur != null) {
-            ListNode temp = cur;
-            while (temp != null && cur.data == temp.data) {
-                temp = temp.next;
-            }
-            cur.next = temp;
-            cur = cur.next;
-        }
 
-        return cur;
-    }
 
     public static void main(String[] args) {
         _23_RemoveDuplicateFromSortedList obj = new _23_RemoveDuplicateFromSortedList();
@@ -89,6 +76,7 @@ public class _23_RemoveDuplicateFromSortedList {
         obj.insertAtLast(2);
         obj.insertAtLast(2);
         obj.insertAtLast(6);
+        obj.insertAtLast(6);
 
         System.out.println("\nOriginal list");
         obj.display();
@@ -96,22 +84,8 @@ public class _23_RemoveDuplicateFromSortedList {
         obj.removeDuplicate();
         obj.display();
 
-        //------------------------------------------------------------------------------------------//
 
-        _23_RemoveDuplicateFromSortedList obj2 = new _23_RemoveDuplicateFromSortedList();
-        obj2.insertAtLast(3);
-        obj2.insertAtLast(3);
-        obj2.insertAtLast(3);
-        obj2.insertAtLast(3);
-        obj2.insertAtLast(8);
-        obj2.insertAtLast(8);
-        obj2.insertAtLast(9);
 
-        System.out.println("\n\n2nd Original list");
-        obj2.display();
-        System.out.println("\nMethod 2 Remove Duplicate");
-        ListNode head = obj2.removeduplicate2();
-        obj2.display(obj2.head);
     }
 }
 

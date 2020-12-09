@@ -87,5 +87,8 @@ public class _13_NthNodeFromTheEndOfaLinkedList {
 
 		System.out.println("\n\nNth Node : " + headListNode.data);
 
+
+		int c = 10;
+		System.out.println(--c);
 	}
 }

@@ -23,8 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/CompareTwoLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/_13_NthNodeFromTheEndOfaLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/_13_NthNodeFromTheEndOfaLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/_23_RemoveDuplicateFromSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/_23_RemoveDuplicateFromSortedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,7 @@
       <recent name="dataStructureAndAlgorithm.Tree.BinaryTree.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompareTwoLinkedList">
+  <component name="RunManager" selected="Application._23_RemoveDuplicateFromSortedList">
     <configuration name="CompareTwoLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.LinkedList.CompareTwoLinkedList" />
       <module name="Java" />
@@ -113,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comparatorAndComparator.Main" />
+    <configuration name="_13_NthNodeFromTheEndOfaLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.LinkedList._13_NthNodeFromTheEndOfaLinkedList" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="comparatorAndComparator.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ViralAdvertisement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.hackerRank.ViralAdvertisement" />
+    <configuration name="_23_RemoveDuplicateFromSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.LinkedList._23_RemoveDuplicateFromSortedList" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.hackerRank.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._23_RemoveDuplicateFromSortedList" />
+        <item itemvalue="Application._13_NthNodeFromTheEndOfaLinkedList" />
         <item itemvalue="Application.CompareTwoLinkedList" />
         <item itemvalue="Application._33_NormalReverseLinkedList" />
         <item itemvalue="Application._33_ReverseLinkedList" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ViralAdvertisement" />
       </list>
     </recent_temporary>
   </component>
