@@ -23,9 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Test_1_.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/_13_NthNodeFromTheEndOfaLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/_13_NthNodeFromTheEndOfaLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/_23_RemoveDuplicateFromSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/_23_RemoveDuplicateFromSortedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/dataStructureAndAlgorithm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -91,6 +90,7 @@
       <recent name="comparatorAndComparator" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/dataStructureAndAlgorithm" />
       <recent name="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal" />
       <recent name="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/gfg/introduction/_6_find-n-th-node-inorder-traversal" />
     </key>
