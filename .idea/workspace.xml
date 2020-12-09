@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/_33_NormalReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/CompareTwoLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,13 +99,13 @@
       <recent name="dataStructureAndAlgorithm.Tree.BinaryTree.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._33_NormalReverseLinkedList">
-    <configuration name="BeautifulDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.hackerRank.BeautifulDay" />
+  <component name="RunManager" selected="Application.CompareTwoLinkedList">
+    <configuration name="CompareTwoLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.LinkedList.CompareTwoLinkedList" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.hackerRank.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompareTwoLinkedList" />
         <item itemvalue="Application._33_NormalReverseLinkedList" />
         <item itemvalue="Application._33_ReverseLinkedList" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ViralAdvertisement" />
-        <item itemvalue="Application.BeautifulDay" />
       </list>
     </recent_temporary>
   </component>
