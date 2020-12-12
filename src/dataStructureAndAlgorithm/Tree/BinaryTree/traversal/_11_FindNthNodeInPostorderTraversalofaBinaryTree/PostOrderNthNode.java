@@ -1,5 +1,31 @@
 package dataStructureAndAlgorithm.Tree.BinaryTree.traversal._11_FindNthNodeInPostorderTraversalofaBinaryTree;
+/*
+Find n-th node in Postorder traversal of a Binary Tree
+Last Updated: 20-02-2019
+Given a Binary tree and a number N, write a program to find the N-th node in the Postorder traversal of the given Binary tree.
 
+Prerequisite: Tree Traversal
+
+Examples:
+
+Input : N = 4
+              11
+            /   \
+           21    31
+         /   \
+        41     51
+Output : 31
+Explanation: Postorder Traversal of given Binary Tree is 41 51 21 31 11,
+so 4th node will be 31.
+
+Input : N = 5
+             25
+           /    \
+          20    30
+        /    \ /   \
+      18    22 24   32
+Output : 32
+ */
 class Node{
     int data;
    Node left;
