@@ -23,12 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/ArrayImplementation/StackArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/ArrayList/WithoutGenerics/_1_MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/SortedSetInterface/MySortedSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/ArrayImplementation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/ArrayImplementation/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/ArrayImplementation/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/ArrayImplementation/Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/ArrayImplementation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/ArrayImplementation/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/ArrayImplementation/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/ArrayImplementation/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collections/HashSet/_1_HashSetExampleToAddElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/collections/HashSet/_1_HashSetExampleToAddElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collections/HashSet/_2_HashSetExampleIgnoringDuplicateElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/collections/HashSet/_2_HashSetExampleIgnoringDuplicateElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collections/HashSet/_3_HashSetExampleRemoveElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/collections/HashSet/_3_HashSetExampleRemoveElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/ArrayImplementation/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/ArrayImplementation/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/HashSet/_1_HashSetExampleToAddElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/HashSet/_1_HashSetExampleToAddElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/HashSet/_2_HashSetExampleIgnoringDuplicateElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/HashSet/_2_HashSetExampleIgnoringDuplicateElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/HashSet/_3_HashSetExampleRemoveElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/HashSet/_3_HashSetExampleRemoveElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,13 +109,13 @@
       <recent name="dataStructureAndAlgorithm.Tree.BinaryTree.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StackArray">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.ArrayImplementation.Main" />
+  <component name="RunManager" selected="Application.MySortedSet">
+    <configuration name="MySortedSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.SortedSetInterface.MySortedSet" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.ArrayImplementation.*" />
+          <option name="PATTERN" value="collections.SortedSetInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.LinkedListImplementation.Main" />
+    <configuration name="_1_HashSetExampleToAddElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.HashSet._1_HashSetExampleToAddElements" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.LinkedListImplementation.*" />
+          <option name="PATTERN" value="collections.HashSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.ArrayImplementation.StackArray" />
+    <configuration name="_2_HashSetExampleIgnoringDuplicateElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.HashSet._2_HashSetExampleIgnoringDuplicateElements" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.ArrayImplementation.*" />
+          <option name="PATTERN" value="collections.HashSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_13_NthNodeFromTheEndOfaLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.LinkedList._13_NthNodeFromTheEndOfaLinkedList" />
+    <configuration name="_3_HashSetExampleRemoveElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.HashSet._3_HashSetExampleRemoveElements" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.LinkedList.*" />
+          <option name="PATTERN" value="collections.HashSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_23_RemoveDuplicateFromSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.LinkedList._23_RemoveDuplicateFromSortedList" />
+    <configuration name="_4_LinkedListExampleBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.LinkedList._4_LinkedListExampleBook" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.LinkedList.*" />
+          <option name="PATTERN" value="collections.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StackArray" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application._23_RemoveDuplicateFromSortedList" />
-        <item itemvalue="Application._13_NthNodeFromTheEndOfaLinkedList" />
+        <item itemvalue="Application.MySortedSet" />
+        <item itemvalue="Application._3_HashSetExampleRemoveElements" />
+        <item itemvalue="Application._2_HashSetExampleIgnoringDuplicateElements" />
+        <item itemvalue="Application._1_HashSetExampleToAddElements" />
+        <item itemvalue="Application._4_LinkedListExampleBook" />
       </list>
     </recent_temporary>
   </component>
@@ -214,5 +219,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.jdks/adopt-openj9-1.8.0_265/src.zip!/java/util/LinkedList.java</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
