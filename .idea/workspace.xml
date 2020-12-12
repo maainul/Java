@@ -23,8 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Test_1_.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/ArrayImplementation/StackArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/ArrayImplementation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/ArrayImplementation/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/ArrayImplementation/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/ArrayImplementation/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/ArrayImplementation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/ArrayImplementation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/ArrayImplementation/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/ArrayImplementation/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -100,13 +104,39 @@
       <recent name="dataStructureAndAlgorithm.Tree.BinaryTree.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._23_RemoveDuplicateFromSortedList">
-    <configuration name="CompareTwoLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.LinkedList.CompareTwoLinkedList" />
+  <component name="RunManager" selected="Application.StackArray">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.ArrayImplementation.Main" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.LinkedList.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.ArrayImplementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.LinkedListImplementation.Main" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.LinkedListImplementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.ArrayImplementation.StackArray" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.ArrayImplementation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,39 +170,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_33_NormalReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.LinkedList._33_NormalReverseLinkedList" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_33_ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.LinkedList._33_ReverseLinkedList" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackArray" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application._23_RemoveDuplicateFromSortedList" />
         <item itemvalue="Application._13_NthNodeFromTheEndOfaLinkedList" />
-        <item itemvalue="Application.CompareTwoLinkedList" />
-        <item itemvalue="Application._33_NormalReverseLinkedList" />
-        <item itemvalue="Application._33_ReverseLinkedList" />
       </list>
     </recent_temporary>
   </component>
