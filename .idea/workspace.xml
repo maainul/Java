@@ -24,10 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_10_FindNthNodeFromInOrderTraversal/FIndNthNodeFromInorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_10_FindNthNodeFromInOrderTraversal/FIndNthNodeFromInorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_10_FindNthNodeFromInOrderTraversal/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_10_FindNthNodeFromInOrderTraversal/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_10_FindNthNodeFromInOrderTraversal/FIndNthNodeFromInorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_10_FindNthNodeFromInOrderTraversal/FIndNthNodeFromInorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_11_FindNthNodeInPostorderTraversalofaBinaryTree/PostOrderNthNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_11_FindNthNodeInPostorderTraversalofaBinaryTree/PostOrderNthNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
