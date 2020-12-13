@@ -23,7 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_13_SpiralTreeTraversal/SpiralTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_15_LevelOrderTraversalWithDirectionChangeAfterEveryTwoLevels/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_11_FindNthNodeInPostorderTraversalofaBinaryTree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_11_FindNthNodeInPostorderTraversalofaBinaryTree/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_11_FindNthNodeInPostorderTraversalofaBinaryTree/PostOrderNthNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_11_FindNthNodeInPostorderTraversalofaBinaryTree/PostOrderNthNode.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +103,7 @@
       <recent name="dataStructureAndAlgorithm.Tree.BinaryTree.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FIndNthNodeFromInorder">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Tree.BinaryTree.traversal.AllTraversal.BinaryTree" />
       <module name="Java" />
@@ -126,6 +130,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Tree.BinaryTree.traversal._15_LevelOrderTraversalWithDirectionChangeAfterEveryTwoLevels.Main" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructureAndAlgorithm.Tree.BinaryTree.traversal._15_LevelOrderTraversalWithDirectionChangeAfterEveryTwoLevels.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comparatorAndComparator.Main" />
       <module name="Java" />
@@ -139,25 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySortedSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.SortedSetInterface.MySortedSet" />
+    <configuration name="SpiralTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Tree.BinaryTree.traversal._13_SpiralTreeTraversal.SpiralTree" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.SortedSetInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_3_HashSetExampleRemoveElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.HashSet._3_HashSetExampleRemoveElements" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.HashSet.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.Tree.BinaryTree.traversal._13_SpiralTreeTraversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.SpiralTree" />
         <item itemvalue="Application.FIndNthNodeFromInorder" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MySortedSet" />
-        <item itemvalue="Application._3_HashSetExampleRemoveElements" />
       </list>
     </recent_temporary>
   </component>
