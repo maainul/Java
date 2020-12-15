@@ -26,7 +26,7 @@ public class InsertAtLast {
 		// Inserting key
 		insert(arr, n, key, capacity);
 
-		System.out.print("\n After Insertion: ");
+		System.out.print("\nAfter Insertion: ");
 		for (i = 0; i < n + 1; i++)
 			System.out.print(arr[i] + " ");
 

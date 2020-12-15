@@ -5,7 +5,7 @@ public class Search {
 	public static void main(String[] args) {
 		int[] arr = { 10, 11, 12, 13, 14, 15 };
 		int n = arr.length;
-		int key = 13;
+		int key = 14;
 		int result = binarySearch(arr, 0, n, key);
 		System.out.println(result);
 

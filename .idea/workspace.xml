@@ -23,11 +23,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_13_SpiralTreeTraversal/SpiralTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_15_LevelOrderTraversalWithDirectionChangeAfterEveryTwoLevels/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_3_PairSum/_2_UsingHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_5_FindCommonElementBetweenThreeSortedArray/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_6_FindPositionOfAnElementInaSortedArrayOfInfiniteNumbers/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_8_FindTheElementThatAppearsOnce/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_pre_5_1_FindIntersectionOfTwoUnsortedArray/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_pre_5_1_FindIntersectionOfTwoUnsortedArray/_1_Approach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_pre_5_2_UnionAndIntersectionOfTwoSortedArray/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_11_FindNthNodeInPostorderTraversalofaBinaryTree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_11_FindNthNodeInPostorderTraversalofaBinaryTree/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_11_FindNthNodeInPostorderTraversalofaBinaryTree/PostOrderNthNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_11_FindNthNodeInPostorderTraversalofaBinaryTree/PostOrderNthNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_15_LevelOrderTraversalWithDirectionChangeAfterEveryTwoLevels/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_15_LevelOrderTraversalWithDirectionChangeAfterEveryTwoLevels/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/searching/_1_SearchInsertDeleteUnsortedArray/InsertAtLast.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/searching/_1_SearchInsertDeleteUnsortedArray/InsertAtLast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/searching/_2_SearhDeleteInsertSorted/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/searching/_2_SearhDeleteInsertSorted/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/searching/_3_PairSum/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/searching/_3_PairSum/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/searching/_4_SearchElementDifferenceMostk/DifferenceMostK.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/searching/_4_SearchElementDifferenceMostk/DifferenceMostK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_1_SearchInsertDeleteUnsortedArray/InsertAtLast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_1_SearchInsertDeleteUnsortedArray/InsertAtLast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_2_SearhDeleteInsertSorted/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_2_SearhDeleteInsertSorted/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_3_PairSum/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_3_PairSum/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_4_SearchElementDifferenceMostk/DifferenceMostK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_4_SearchElementDifferenceMostk/DifferenceMostK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_7_FindTheOnlyRepetitiveElement/FindRepetitiveUsingHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_7_FindTheOnlyRepetitiveElement/FindRepetitiveUsingHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_7_FindTheOnlyRepetitiveElement/_7_FindTheOnlyRepetitiveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_7_FindTheOnlyRepetitiveElement/_7_FindTheOnlyRepetitiveElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,26 +117,13 @@
       <recent name="dataStructureAndAlgorithm.Tree.BinaryTree.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Tree.BinaryTree.traversal.AllTraversal.BinaryTree" />
+  <component name="RunManager" selected="Application.FindRepetitiveUsingHashMap">
+    <configuration name="FindRepetitiveUsingHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.searching._7_FindTheOnlyRepetitiveElement.FindRepetitiveUsingHashMap" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Tree.BinaryTree.traversal.AllTraversal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FIndNthNodeFromInorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Tree.BinaryTree.traversal._10_FindNthNodeFromInOrderTraversal.FIndNthNodeFromInorder" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Tree.BinaryTree.traversal._10_FindNthNodeFromInOrderTraversal.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.searching._7_FindTheOnlyRepetitiveElement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +132,24 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Tree.BinaryTree.traversal._15_LevelOrderTraversalWithDirectionChangeAfterEveryTwoLevels.Main" />
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.searching._pre_5_2_UnionAndIntersectionOfTwoSortedArray.Main" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Tree.BinaryTree.traversal._15_LevelOrderTraversalWithDirectionChangeAfterEveryTwoLevels.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.searching._pre_5_2_UnionAndIntersectionOfTwoSortedArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.searching._6_FindPositionOfAnElementInaSortedArrayOfInfiniteNumbers.Main" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.searching._6_FindPositionOfAnElementInaSortedArrayOfInfiniteNumbers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +158,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comparatorAndComparator.Main" />
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.searching._pre_5_1_FindIntersectionOfTwoUnsortedArray.Main" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="comparatorAndComparator.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.searching._pre_5_1_FindIntersectionOfTwoUnsortedArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Tree.BinaryTree.traversal._13_SpiralTreeTraversal.SpiralTree" />
+    <configuration name="_1_Approach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.searching._pre_5_1_FindIntersectionOfTwoUnsortedArray._1_Approach" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Tree.BinaryTree.traversal._13_SpiralTreeTraversal.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.searching._pre_5_1_FindIntersectionOfTwoUnsortedArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,10 +185,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindRepetitiveUsingHashMap" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.SpiralTree" />
-        <item itemvalue="Application.FIndNthNodeFromInorder" />
-        <item itemvalue="Application.BinaryTree" />
+        <item itemvalue="Application._1_Approach" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
