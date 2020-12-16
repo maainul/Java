@@ -1,4 +1,4 @@
-package dataStructureAndAlgorithm._1_array.searching;
+package dataStructureAndAlgorithm._1_array.searching._5_FindCommonElementBetweenThreeSortedArray;
 /*
  Input:
 ar1[] = {1, 5, 10, 20, 40, 80}
