@@ -1,5 +1,21 @@
 package dataStructureAndAlgorithm._1_array.searching._19_FindTheTwoRepeatingElementsInAGivenArray;
+/*
+Find the two repeating elements in a given array
 
+Last Updated: 14-10-2019
+
+You are given an array of n+2 elements. All elements of the array are in range 1 to n.
+
+And all elements occur once except two numbers which occur twice.
+
+Find the two repeating numbers.
+
+For example, array = {4, 2, 4, 5, 2, 3, 1} and n = 5
+
+The above array has n + 2 = 7 elements with all elements occurring once
+
+except 2 and 4 which occur twice. So the output should be 4 2.
+ */
 public class UseCountArray {
 
 	public static void main(String[] args) {

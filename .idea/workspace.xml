@@ -23,11 +23,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_11_EquilibriumIndexOfAnArray/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_16_CheckIfAnArrayHasMajorityElement/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_17_TwoPointersTechnique/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_17_TwoPointersTechnique/_1_FindTheClosestPairFromTwoSortedArrays/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_18_FindPeakElement/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/anonymus/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/anonymus/thread/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/anonymus/thread/Mythread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/anonymus/thread/innerClassImp/MyDemoThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/anonymus/thread/runable/MyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/anonymus/thread/runable/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/anonymus/thread/runable/innerimpl/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/nestedClass/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/nestedClass/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/joinT/MainThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/joinT/MyInterruptDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/joinT/MyThreadEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/priority/MyThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/yeilds/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/yeilds/MyThreadDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/searching/_5_FindCommonElementsInThreeSortedArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/searching/_6_FindPositionOfASortedArrayInfiniteNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/searching/_8_FindTheElementThatAppearsOnceElement/_8_FindTheElementThatAppearsOnce.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/searching/_8_FindTheElementThatAppearsOnceElement/_8_FindTheElementThatAppearsOnce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_14_MajorityElement/HashMapImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_14_MajorityElement/HashMapImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_19_FindTheTwoRepeatingElementsInAGivenArray/UseCountArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_19_FindTheTwoRepeatingElementsInAGivenArray/UseCountArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_20_FindAFixedPointValueEqualToIndex/Method1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/searching/_20_FindAFixedPointValueEqualToIndex/Method1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,13 +124,13 @@
       <recent name="dataStructureAndAlgorithm.Tree.BinaryTree.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="FindRepetitiveUsingHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.searching._7_FindTheOnlyRepetitiveElement.FindRepetitiveUsingHashMap" />
+  <component name="RunManager" selected="Application.MainThreadDemo">
+    <configuration name="MainThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.joinT.MainThreadDemo" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.searching._7_FindTheOnlyRepetitiveElement.*" />
+          <option name="PATTERN" value="thread.joinT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.searching._6_FindPositionOfAnElementInaSortedArrayOfInfiniteNumbers.Main" />
+    <configuration name="MyInterruptDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.joinT.MyInterruptDemo" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.searching._6_FindPositionOfAnElementInaSortedArrayOfInfiniteNumbers.*" />
+          <option name="PATTERN" value="thread.joinT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.searching._11_EquilibriumIndexOfAnArray.Main" />
+    <configuration name="MyThread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.interruptThread.usingFlag.MyThread" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.searching._11_EquilibriumIndexOfAnArray.*" />
+          <option name="PATTERN" value="thread.interruptThread.usingFlag.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_10_MaximumEqulibriumSumInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.searching._10_MaximumEqulibriumSumInAnArray._10_MaximumEqulibriumSumInAnArray" />
+    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.interruptThread.usingInterrupt.MyThread" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.searching._10_MaximumEqulibriumSumInAnArray.*" />
+          <option name="PATTERN" value="thread.interruptThread.usingInterrupt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_8_FindTheElementThatAppearsOnce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.searching._8_FindTheElementThatAppearsOnceElement._8_FindTheElementThatAppearsOnce" />
+    <configuration name="MyThreadEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.joinT.MyThreadEx" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.searching._8_FindTheElementThatAppearsOnceElement.*" />
+          <option name="PATTERN" value="thread.joinT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application._10_MaximumEqulibriumSumInAnArray" />
-        <item itemvalue="Application._8_FindTheElementThatAppearsOnce" />
-        <item itemvalue="Application.FindRepetitiveUsingHashMap" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.MainThreadDemo" />
+        <item itemvalue="Application.MyInterruptDemo" />
+        <item itemvalue="Application.MyThread" />
+        <item itemvalue="Application.MyThread (1)" />
+        <item itemvalue="Application.MyThreadEx" />
       </list>
     </recent_temporary>
   </component>
