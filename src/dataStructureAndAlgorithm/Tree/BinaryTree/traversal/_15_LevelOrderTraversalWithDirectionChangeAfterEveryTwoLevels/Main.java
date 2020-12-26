@@ -6,8 +6,17 @@ import java.util.Stack;
 
 /*
 Level order traversal with direction change after every two levels
+
 Last Updated: 09-11-2020
-Given a binary tree, print the level order traversal in such a way that first two levels are printed from left to right, next two levels are printed from right to left, then next two from left to right and so on. So, the problem is to reverse the direction of level order traversal of binary tree after every two levels.
+
+Given a binary tree,
+
+print the level order traversal in such a way that first two levels are printed from left to right,
+
+next two levels are printed from right to left, then next two from left to right and so on.
+
+So, the problem is to reverse the direction of level order traversal of binary tree after every two levels.
+
 Examples:
 
 Input:
