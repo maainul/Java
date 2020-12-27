@@ -1,4 +1,4 @@
-package dataStructureAndAlgorithm.Tree.BinaryTree.traversal.AllTraversal;
+package dataStructureAndAlgorithm.Tree.BinaryTree.traversal.AllTraversalInOneFile;
 
 import java.util.Stack;
 
