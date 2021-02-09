@@ -18,7 +18,7 @@ public class _1_Program {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
+
 		LocalDateTime dateTime = LocalDateTime.now();
 
 		String pattern = "yyyy/MM/dd HH:mm:ss";
@@ -36,8 +36,9 @@ public class _1_Program {
 		 * specific behaviour e.g. CET or America/Lima
 		 */
 
-		long millisSinceEpoch = LocalDateTime.parse(myDate, formatter).atZone(ZoneId.systemDefault()).toInstant().toEpochMilli();
-		
+		long millisSinceEpoch = LocalDateTime.parse(myDate, formatter).atZone(ZoneId.systemDefault()).toInstant()
+				.toEpochMilli();
+
 		System.out.println(millisSinceEpoch);
 
 	}

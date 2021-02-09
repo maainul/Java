@@ -1,4 +1,5 @@
 package javastrings;
+
 /*
 Program to Replace a Substring in a String | FACE Prep
 
@@ -40,7 +41,7 @@ Asked in recruitment drive of Wipro.
 public class ProgramToReplaceASubstringInAString {
 
 	public static void main(String[] args) {
-		
+
 	}
 
 }

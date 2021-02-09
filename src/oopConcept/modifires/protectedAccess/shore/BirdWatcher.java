@@ -12,7 +12,7 @@ package oopConcept.modifires.protectedAccess.shore;
 
 public class BirdWatcher {
 	public void watchBird() {
-		//Bird bird = new Bird();
+		// Bird bird = new Bird();
 		// bird.floatingWater();
 		// System.out.println(bird.text);
 	}

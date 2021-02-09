@@ -19,9 +19,9 @@ public class Greeter {
 
 			}
 		};
-  
+
 		greeter.greet(myHello);
 		greeter.greet(innnerClassGreeting);
 	}
- 
+
 }

@@ -60,7 +60,7 @@ public class _1_MajorityElement {
 		int index = -1;
 		for (int i = 0; i < arr.length; i++) {
 			int count = 1;
-			for (int j = i+1; j < arr.length; j++) {
+			for (int j = i + 1; j < arr.length; j++) {
 				if (arr[i] == arr[j]) {
 					count++;
 				}
@@ -70,9 +70,9 @@ public class _1_MajorityElement {
 				index = i;
 			}
 		}
-		if (max_value >= (n/2)) {
-			System.out.println("Majority element : "+index);
-		}else {
+		if (max_value >= (n / 2)) {
+			System.out.println("Majority element : " + index);
+		} else {
 			System.out.println("No majority element");
 		}
 	}

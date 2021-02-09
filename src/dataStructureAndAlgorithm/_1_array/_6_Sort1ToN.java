@@ -1,4 +1,5 @@
 package dataStructureAndAlgorithm._1_array;
+
 /*
 Sort an array which contain 1 to n values
 You have given an array which contain 1 to n element, 
@@ -21,8 +22,8 @@ Let�s understand this approach with the code below
 public class _6_Sort1ToN {
 
 	public static void main(String[] args) {
-		int arr[] = {10, 7, 9, 2, 8, 3, 5, 4, 6, 1};
-		_6_Sort1ToN  obj = new _6_Sort1ToN();
+		int arr[] = { 10, 7, 9, 2, 8, 3, 5, 4, 6, 1 };
+		_6_Sort1ToN obj = new _6_Sort1ToN();
 
 		obj.printArray(arr);
 		obj.sortArray(arr);
@@ -32,16 +33,16 @@ public class _6_Sort1ToN {
 
 	private void sortArray(int[] arr) {
 		for (int i = 0; i < arr.length; i++) {
-			arr[i] = i+1;
+			arr[i] = i + 1;
 		}
-		
+
 	}
 
 	void printArray(int[] arr) {
 		for (int i = 0; i < arr.length; i++) {
-			System.out.print(arr[i]+ " ");
+			System.out.print(arr[i] + " ");
 		}
-		
+
 	}
 
 }

@@ -105,7 +105,7 @@ public class LinkedListNode {
 		Node currentNode = head;
 		Node previousNode = null;
 		Node nextNode = null;
-		while(currentNode != null) {
+		while (currentNode != null) {
 			nextNode = currentNode.nextNode;
 			currentNode.nextNode = previousNode;
 			previousNode = currentNode;
@@ -115,25 +115,24 @@ public class LinkedListNode {
 
 	}
 
-
 	public Node rotateRight(Node head, int k) {
 		// corner case
-		if(head == null || k == 0){
+		if (head == null || k == 0) {
 			return null;
 		}
 		// length of linkedlist
 		Node p = head; // 1 //5
 		int length = 1;
-		while(p.nextNode!= null){
+		while (p.nextNode != null) {
 
 			p = p.nextNode;
-			length++; //5//5
+			length++; // 5//5
 		}
 		p.nextNode = head; // 2 // 2
-		k %=length; // 2 // 2
+		k %= length; // 2 // 2
 
 		// loop through for break list
-		for(int i = 0; i< length-k;i++){
+		for (int i = 0; i < length - k; i++) {
 			p = p.nextNode;
 		}
 		// 1 2 3 4 5

@@ -7,15 +7,13 @@ public class _11_StringContains {
 		System.out.println(nameString.contains("do you")); // true
 		System.out.println(nameString.contains("about")); // true
 		System.out.println(nameString.contains("About")); // false // case sensitive
-		
-		if(nameString.contains("me")) {
+
+		if (nameString.contains("me")) {
 			System.out.println("You know me.");
-		}
-		else {
+		} else {
 			System.out.println("You don'tnow me..");
 		}
-	
-	
+
 	}
 
 }

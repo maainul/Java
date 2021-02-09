@@ -13,9 +13,9 @@ public class BufferedOutputStreamClass {
 			String string = "welcome again";
 			byte b[] = string.getBytes();
 			bos.write(b);
-			//fos.write(b);
+			// fos.write(b);
 			bos.flush();
-			//fos.close();
+			// fos.close();
 			bos.close();
 			System.out.println("successfull.");
 		} catch (Exception e) {

@@ -31,15 +31,16 @@ package dataStructureAndAlgorithm._1_array.searching._21_FindSubarrayWithGivenSu
  * 
  ********************/
 /*
-Traverse the array from start to end.
-
-From every index start another loop from i to the end of array to get all subarray starting from i, 
-
-keep a varibale sum to calculate the sum.
-
-For every index in inner loop update sum = sum + array[j]
-
-If the sum is equal to the given sum then print the subarray.
+ * Traverse the array from start to end.
+ * 
+ * From every index start another loop from i to the end of array to get all
+ * subarray starting from i,
+ * 
+ * keep a varibale sum to calculate the sum.
+ * 
+ * For every index in inner loop update sum = sum + array[j]
+ * 
+ * If the sum is equal to the given sum then print the subarray.
  */
 
 public class Method1 {
@@ -50,8 +51,8 @@ public class Method1 {
 			cur_sum = arr[i];
 			for (j = i + 1; j < arr.length; j++) {
 				if (cur_sum == sum) {
-					int p = j-1;
-					System.out.println("Sum found between indexes "+i+" to " +p);
+					int p = j - 1;
+					System.out.println("Sum found between indexes " + i + " to " + p);
 					return 1;
 				}
 				if (cur_sum > sum || j == n) {

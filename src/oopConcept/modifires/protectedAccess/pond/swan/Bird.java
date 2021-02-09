@@ -14,5 +14,4 @@ public class Bird {
 		System.out.println(text);
 	}
 
-
 }

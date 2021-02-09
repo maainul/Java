@@ -1,4 +1,5 @@
 package leetcode;
+
 /*
 1013. Partition Array Into Three Parts With Equal Sum
 
@@ -28,29 +29,30 @@ Explanation: 3 + 3 = 6 = 5 - 2 + 2 + 5 + 1 - 9 + 4
 public class _1013_PartitionIntoThreeParts {
 
 	public static void main(String[] args) {
-		int[] A = {0,2,1,-6,6,7,9,-1,2,0,1};
+		int[] A = { 0, 2, 1, -6, 6, 7, 9, -1, 2, 0, 1 };
 		System.out.println(canThreePartsEqualSum(A));
 
 	}
-	  public static boolean canThreePartsEqualSum(int[] A) {
-	        int sum = 0;
-	        for(int i = 0; i < A.length; i++){
-	            sum +=A[i];
-	        }
-	        if(sum % 3 != 0){
-	            return false;
-	        }
-	        int x = sum /3;
-	        int count = 0;
-	        int curr_num = 0;
-	        for(int i = 0; i < A.length; i++){
-	            curr_num += A[i];
-	            if(curr_num == x){
-	                count++;
-	                curr_num = 0;
-	            }
-	        }
-	        return count >= 3;
-	    }
+
+	public static boolean canThreePartsEqualSum(int[] A) {
+		int sum = 0;
+		for (int i = 0; i < A.length; i++) {
+			sum += A[i];
+		}
+		if (sum % 3 != 0) {
+			return false;
+		}
+		int x = sum / 3;
+		int count = 0;
+		int curr_num = 0;
+		for (int i = 0; i < A.length; i++) {
+			curr_num += A[i];
+			if (curr_num == x) {
+				count++;
+				curr_num = 0;
+			}
+		}
+		return count >= 3;
+	}
 
 }

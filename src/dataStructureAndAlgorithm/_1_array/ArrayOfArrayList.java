@@ -41,7 +41,7 @@ public class ArrayOfArrayList {
 
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < arrayLists[i].size(); j++) {
-				System.out.print(arrayLists[i].get(j)+" ");
+				System.out.print(arrayLists[i].get(j) + " ");
 			}
 			System.out.println();
 		}
@@ -49,24 +49,18 @@ public class ArrayOfArrayList {
 
 }
 /*
-1 2 5 
-10 6 
-12 5 3 4 
-
-The above code works fine, but shows below warning.
-
-warning: [unchecked] unchecked conversion
-        ArrayList[] arrayLists = new ArrayList[n];
-                                  ^
-  required: ArrayList[]
-  found:    ArrayList[]
-1 warning
-
-
-The warning comes basically due to below line.
-
-ArrayList<Integer>[] al = new ArrayList[n];
-
-We have to use : ArrayList of ArrayList in Java
-
-*/
+ * 1 2 5 10 6 12 5 3 4
+ * 
+ * The above code works fine, but shows below warning.
+ * 
+ * warning: [unchecked] unchecked conversion ArrayList[] arrayLists = new
+ * ArrayList[n]; ^ required: ArrayList[] found: ArrayList[] 1 warning
+ * 
+ * 
+ * The warning comes basically due to below line.
+ * 
+ * ArrayList<Integer>[] al = new ArrayList[n];
+ * 
+ * We have to use : ArrayList of ArrayList in Java
+ * 
+ */

@@ -1,7 +1,7 @@
 package oopConcept.memberModifiers.privateModifier;
 
-class A{
-	//private void m1() {
+class A {
+	// private void m1() {
 	void m1() {
 		System.out.println("A private");
 	}
@@ -12,5 +12,5 @@ public class Test {
 		A obj = new A();
 		obj.m1();
 	}
-	
+
 }

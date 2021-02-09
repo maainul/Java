@@ -33,8 +33,8 @@ public class Solution2 {
 				right--;
 
 			}
-			//System.out.println(left);
-			//System.out.println(right);
+			// System.out.println(left);
+			// System.out.println(right);
 			/*
 			 * If left is smaller than right then there is a 1 at left and a 0 at right.
 			 * Exchange arr[left] and arr[right]

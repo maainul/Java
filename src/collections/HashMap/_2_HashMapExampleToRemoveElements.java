@@ -10,15 +10,15 @@ public class _2_HashMapExampleToRemoveElements {
 		hashMap.put(101, "Kamrul");
 		hashMap.put(102, "mainul");
 		// initial list of elements
-		System.out.println("initial list of elements"+hashMap);
+		System.out.println("initial list of elements" + hashMap);
 		// key based removal
 		hashMap.remove(100);
-		System.out.println("After remove key based value"+hashMap);
-		
+		System.out.println("After remove key based value" + hashMap);
+
 		// key value based removal
 		hashMap.remove(101, "Kamrul");
-		System.out.println("After value based removal:"+hashMap);
-	
+		System.out.println("After value based removal:" + hashMap);
+
 	}
 
 }

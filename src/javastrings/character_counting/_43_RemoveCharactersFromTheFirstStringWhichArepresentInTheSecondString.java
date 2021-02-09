@@ -1,12 +1,14 @@
 package javastrings.character_counting;
 
 public class _43_RemoveCharactersFromTheFirstStringWhichArepresentInTheSecondString {
-	// Java program to remove duplicates, the order of characters is not maintained in this program
+	// Java program to remove duplicates, the order of characters is not maintained
+	// in this program
 
 	static final int NO_OF_CHARS = 256;
 
 	/*
-	 * Returns an array of size 256 contain count of characters in the passed char array
+	 * Returns an array of size 256 contain count of characters in the passed char
+	 * array
 	 */
 	static int[] getCharCountArray(String str) {
 		int count[] = new int[NO_OF_CHARS];
@@ -28,7 +30,7 @@ public class _43_RemoveCharactersFromTheFirstStringWhichArepresentInTheSecondStr
 		char arr[] = str.toCharArray(); // g,e,e,k,s,f,o,r,g,e,e,k,s
 
 		while (ip_ind != arr.length) {
-			char temp = arr[ip_ind]; //temp = g,e,e,k,s,f,o,r,g,e,e,k,x
+			char temp = arr[ip_ind]; // temp = g,e,e,k,s,f,o,r,g,e,e,k,x
 			if (count[temp] == 0) {
 				arr[res_ind] = arr[ip_ind];
 				res_ind++;

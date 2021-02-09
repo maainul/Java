@@ -9,6 +9,7 @@
 package thread.learn._2_gettingAndSettingAThreadName;
 
 class MyThreadd extends Thread {
+	@Override
 	public void run() {
 		System.out.println("Run method executed by :" + Thread.currentThread().getName());
 	}

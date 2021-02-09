@@ -23,10 +23,10 @@ public class _2_Problem {
 			System.out.println("Invalid Input");
 			return;
 		}
-		
+
 		// Initialized first, second and third largest element
-		int first = arr[0], second = Integer.MIN_VALUE,third = Integer.MIN_VALUE;
-		
+		int first = arr[0], second = Integer.MIN_VALUE, third = Integer.MIN_VALUE;
+
 		// Traverse array element to find the third Largest
 		for (int i = 1; i < arr.length; i++) {
 			// if current element is greater than first,
@@ -40,11 +40,11 @@ public class _2_Problem {
 			else if (arr[i] > second) {
 				third = second;
 				second = arr[i];
-			}else if (arr[i] > third) {
+			} else if (arr[i] > third) {
 				third = arr[i];
 			}
 		}
-		System.out.println("Third largest element is = "+ third);
+		System.out.println("Third largest element is = " + third);
 
 	}
 }

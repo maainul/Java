@@ -38,7 +38,7 @@ public class Method2 {
 	public static void main(String[] args) {
 		int n = 15;
 		List<String> resultList = fizBuzz(n);
-		for (int i = 0; i <n ; i++) {
+		for (int i = 0; i < n; i++) {
 			System.out.println(resultList.get(i));
 		}
 
@@ -47,24 +47,23 @@ public class Method2 {
 	private static List<String> fizBuzz(int n) {
 		List<String> list = new ArrayList<String>();
 		for (int i = 1; i <= n; i++) {
-			
+
 			if (i % 3 == 0 && i % 5 == 0) {
-				
-				list.add(i-1,"FizzBuzz");
-			}else if (i % 3 == 0) {
-				
-				list.add(i-1,"Fizz");
-			}else if (i % 5 == 0) {
-				
-				list.add(i-1,"Buzz");
+
+				list.add(i - 1, "FizzBuzz");
+			} else if (i % 3 == 0) {
+
+				list.add(i - 1, "Fizz");
+			} else if (i % 5 == 0) {
+
+				list.add(i - 1, "Buzz");
+			} else {
+				list.add(i - 1, String.valueOf(i));
 			}
-			else {
-				list.add(i-1,String.valueOf(i));
-			}
-			
+
 		}
 		return list;
-		
+
 	}
 
 }

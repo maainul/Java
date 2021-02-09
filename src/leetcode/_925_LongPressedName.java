@@ -34,7 +34,6 @@ public class _925_LongPressedName {
 		return nameIndex == name.length();
 	}
 
-
 	// test case failed
 	public static boolean isLongPressedName(String name, String typed) {
 		int[] freqA = new int[26];

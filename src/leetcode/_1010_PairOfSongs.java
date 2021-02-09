@@ -30,7 +30,7 @@ public class _1010_PairOfSongs {
 	public static void main(String[] args) {
 		int[] nums = { 30, 20, 150, 100, 40 };
 		System.out.println(numPairsDivisibleBy60(nums));
-		//System.out.println(30 % 60);
+		// System.out.println(30 % 60);
 
 	}
 
@@ -40,14 +40,14 @@ public class _1010_PairOfSongs {
 		int total = 0;
 		for (int num : time) {
 			int remainder = num % 60;
-			System.out.println("reminder "+remainder);
+			System.out.println("reminder " + remainder);
 			int comp = (60 - remainder) % 60;
-			System.out.println("comp "+comp);
+			System.out.println("comp " + comp);
 			total += cnt[comp];
-			System.out.println("cnt "+cnt[comp]);
-			System.out.println("total "+total);
+			System.out.println("cnt " + cnt[comp]);
+			System.out.println("total " + total);
 			cnt[remainder]++;
-			System.out.println("cnt reminder "+cnt[remainder]);
+			System.out.println("cnt reminder " + cnt[remainder]);
 		}
 
 		return total;

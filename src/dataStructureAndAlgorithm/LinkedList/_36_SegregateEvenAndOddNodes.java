@@ -1,4 +1,5 @@
 package dataStructureAndAlgorithm.LinkedList;
+
 /*
 Segregate(আলাদা করে দেওয়া) even and odd nodes in a Linked List
 Given a Linked List of integers,
@@ -24,111 +25,105 @@ Examples:
 */
 public class _36_SegregateEvenAndOddNodes {
 
-    ListNode head;
-    public class ListNode {
-        int data;
-        ListNode next;
-        ListNode(int data){
-            this.data = data;
-            this.next = null;
-        }
-    }
+	ListNode head;
 
-    private void insertAtLast(int data){
-        ListNode newNode = new ListNode(data);
-        ListNode current = head;
-        if(head == null){
-            head = newNode;
-        }
-        else{
-            while (current.next != null){
-                current = current.next;
-            }
-            current.next = newNode;
-        }
-    }
+	public class ListNode {
+		int data;
+		ListNode next;
 
-    private  void display(){
-        ListNode current = head;
-        while (current != null){
-            System.out.print(current.data+"->");
-            current = current.next;
-        }
-    }
+		ListNode(int data) {
+			this.data = data;
+			this.next = null;
+		}
+	}
 
-    public static ListNode rearrangeEvenOdd(ListNode head)
-    {
-        ListNode odd = null, oddTail = null;
-        ListNode even = null, evenTail = null;
-        ListNode curr = head;
+	private void insertAtLast(int data) {
+		ListNode newNode = new ListNode(data);
+		ListNode current = head;
+		if (head == null) {
+			head = newNode;
+		} else {
+			while (current.next != null) {
+				current = current.next;
+			}
+			current.next = newNode;
+		}
+	}
 
-        while (curr != null)
-        {
-            if (curr.data  % 2 == 0) // current node is even
-            {  // handle head for first even node
-                if (even == null) {
-                    even = evenTail = curr;
-                }
-                else
-                {
-                    evenTail.next = curr;
-                    evenTail = curr;
-                }
+	private void display() {
+		ListNode current = head;
+		while (current != null) {
+			System.out.print(current.data + "->");
+			current = current.next;
+		}
+	}
 
-            }
-            else // current node is odd
-            {
-                // handle head for first odd node
-                if (odd == null) {
-                    odd = oddTail = curr;
-                }
-                else
-                {
-                    oddTail.next = curr;
-                    oddTail = curr;
-                   // oddTail = oddTail.next;
-                }
+	public static ListNode rearrangeEvenOdd(ListNode head) {
+		ListNode odd = null, oddTail = null;
+		ListNode even = null, evenTail = null;
+		ListNode curr = head;
 
-            }
-            curr = curr.next;
-        }
+		while (curr != null) {
+			if (curr.data % 2 == 0) // current node is even
+			{ // handle head for first even node
+				if (even == null) {
+					even = evenTail = curr;
+				} else {
+					evenTail.next = curr;
+					evenTail = curr;
+				}
 
-        // if list contains at-least one even node
-        if (even != null)
-        {
-            head = even;
-            evenTail.next = odd;
+			} else // current node is odd
+			{
+				// handle head for first odd node
+				if (odd == null) {
+					odd = oddTail = curr;
+				} else {
+					oddTail.next = curr;
+					oddTail = curr;
+					// oddTail = oddTail.next;
+				}
 
-        }
-        // special case - list contains all odd nodes
-        else {
-            head = odd;
-            //System.out.println(odd.data);
-        }
+			}
+			curr = curr.next;
+		}
 
-        // null to terminate the list,
-        // else it will go in infinite loop
-        if (oddTail != null) {
-            oddTail.next = null;
-        }
+		// if list contains at-least one even node
+		if (even != null) {
+			head = even;
+			evenTail.next = odd;
 
-        return head;
-    }
+		}
+		// special case - list contains all odd nodes
+		else {
+			head = odd;
+			// System.out.println(odd.data);
+		}
 
-    public static void main(String[] args) {
-        _36_SegregateEvenAndOddNodes obj = new _36_SegregateEvenAndOddNodes();
-        obj.insertAtLast(1);
-        obj.insertAtLast(2);
-        obj.insertAtLast(3);
-        obj.insertAtLast(4);
-        obj.insertAtLast(5);
-        obj.insertAtLast(6);
+		// null to terminate the list,
+		// else it will go in infinite loop
+		if (oddTail != null) {
+			oddTail.next = null;
+		}
 
-        obj.display();
-        System.out.println();
-        obj.head = obj.rearrangeEvenOdd(obj.head);
-        //reverseLinkedList.head = reverseLinkedList.reverseWithGroup(reverseLinkedList.head,2);
-        //reverseLinkedList.display();
-        obj.display();
-    }
+		return head;
+	}
+
+	public static void main(String[] args) {
+		_36_SegregateEvenAndOddNodes obj = new _36_SegregateEvenAndOddNodes();
+		obj.insertAtLast(1);
+		obj.insertAtLast(2);
+		obj.insertAtLast(3);
+		obj.insertAtLast(4);
+		obj.insertAtLast(5);
+		obj.insertAtLast(6);
+
+		obj.display();
+		System.out.println();
+		obj.head = _36_SegregateEvenAndOddNodes.rearrangeEvenOdd(obj.head);
+		// reverseLinkedList.head =
+		// reverseLinkedList.reverseWithGroup(reverseLinkedList.head,2);
+		// reverseLinkedList.display();
+		obj.display();
+	}
 }

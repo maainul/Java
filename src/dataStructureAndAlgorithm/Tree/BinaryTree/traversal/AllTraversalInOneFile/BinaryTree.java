@@ -50,10 +50,9 @@ public class BinaryTree {
 
 		System.out.println("\nPost Order");
 		binaryTree.postOrder(binaryTree.root);
-		
+
 		System.out.println("\nPost Order");
 		binaryTree.postOrderItr(binaryTree.root);
-
 
 	}
 
@@ -89,13 +88,13 @@ public class BinaryTree {
 		if (root == null) {
 			return;
 		}
-		
+
 		Stack<Node> stack = new Stack<>();
 		stack.push(root);
-		
+
 		Stack<Node> out = new Stack<>();
-		
-		while(!stack.isEmpty()) {
+
+		while (!stack.isEmpty()) {
 			Node cuNode = stack.pop();
 			out.push(cuNode);
 			if (cuNode.left != null) {
@@ -105,11 +104,10 @@ public class BinaryTree {
 				stack.push(cuNode.right);
 			}
 		}
-		
-		while(!out.isEmpty())
-		System.out.print(out.pop().data+" ");
-		
-		
+
+		while (!out.isEmpty())
+			System.out.print(out.pop().data + " ");
+
 	}
 
 	private void inOrder(Node root) {

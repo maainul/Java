@@ -44,7 +44,7 @@ public class _10_CountCharactersAtSamePositionAsInEnglishAlphabets {
 			if (i == (str.charAt(i) - 'a') || i == (str.charAt(i) - 'A')) {
 				result++;
 			}
-			//System.out.println(str.charAt(i) - 'A');
+			// System.out.println(str.charAt(i) - 'A');
 		}
 		return result;
 	}

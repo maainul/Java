@@ -4,36 +4,35 @@ public class Queue {
 	Node frontNode;
 	Node rearNode;
 	int length;
-	
+
 	public Queue() {
-		
+
 		this.frontNode = null;
 		this.rearNode = null;
 		this.length = 0;
 	}
-	
+
 	public int length() {
 		return length;
 	}
-	
+
 	public boolean isEmpty() {
 		return length == 0;
 	}
-	
+
 	// inserting the value to the rear
 	public void enqueue(int data) {
 		Node node = new Node(data);
-		if(isEmpty()) {
+		if (isEmpty()) {
 			frontNode = node;
-		}
-		else {
+		} else {
 			rearNode.nexNode = node;
 		}
 		rearNode = node;
 		length++;
-		
+
 	}
-	
+
 	// dequeue / delete the value from the queue ..
 	public int dequeue() {
 		if (isEmpty()) {
@@ -41,22 +40,22 @@ public class Queue {
 		}
 		int result = frontNode.data;
 		frontNode = frontNode.nexNode;
-		if(frontNode == null) {
+		if (frontNode == null) {
 			rearNode = null;
 		}
-		length --;
+		length--;
 		return result;
 	}
-	
+
 	// display the value..
 	public void show() {
 		Node currentNode = frontNode;
-		while(currentNode != null) {
-			System.out.print(currentNode.data+"--->");
+		while (currentNode != null) {
+			System.out.print(currentNode.data + "--->");
 			currentNode = currentNode.nexNode;
 		}
 		System.out.println(currentNode);
-		
+
 	}
 
 }

@@ -1,4 +1,5 @@
 package dataStructureAndAlgorithm.hackerRank;
+
 /*
 Given a chocolate bar, two children, Lily and Ron, are determining how to share it.
 
@@ -91,26 +92,26 @@ Lily only wants to give Ron  square of chocolate with an integer value of .
 Because the only square of chocolate in the bar satisfies this constraint, we print  as our answer.
  */
 public class Sub_ArrayDivision {
-    public static void main(String[] args) {
-        int[] arr = {1, 2, 1, 3, 2};
-        System.out.println(subArr(arr,3,2));
+	public static void main(String[] args) {
+		int[] arr = { 1, 2, 1, 3, 2 };
+		System.out.println(subArr(arr, 3, 2));
 
-    }
+	}
 
-    private static int subArr(int[] arr, int day, int month) {
+	private static int subArr(int[] arr, int day, int month) {
 
-        int sum = 0;
-        int count = 0;
-        for (int i = 0; i < arr.length-1; i++){
-            for (int j = i; j < i+ month; j++){
-                sum += arr[j];
+		int sum = 0;
+		int count = 0;
+		for (int i = 0; i < arr.length - 1; i++) {
+			for (int j = i; j < i + month; j++) {
+				sum += arr[j];
 
-            }
-            if (sum == day){
-                count++;
-            }
-            sum = 0;
-        }
-        return  count;
-    }
+			}
+			if (sum == day) {
+				count++;
+			}
+			sum = 0;
+		}
+		return count;
+	}
 }

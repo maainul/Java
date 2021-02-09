@@ -1,13 +1,12 @@
 package dataStructureAndAlgorithm._1_array.searching._8_FindTheElementThatAppearsOnceElement;
 
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
 public class _8_FindTheElementThatAppearsOnce {
 
 	public static void main(String[] args) {
-		int ar[] = { 2, 3, 5, 4, 5, 3, 4,1 };
+		int ar[] = { 2, 3, 5, 4, 5, 3, 4, 1 };
 		int n = ar.length;
 		System.out.println("Element occurring once is " + findSingle(ar, n) + " ");
 
@@ -18,7 +17,7 @@ public class _8_FindTheElementThatAppearsOnce {
 		for (int i = 0; i < arr.length; i++) {
 			if (set.contains(arr[i])) {
 				set.remove(arr[i]);
-			}else {
+			} else {
 				set.add(arr[i]);
 			}
 		}

@@ -35,15 +35,15 @@ import java.util.Arrays;
 public class Method1 {
 
 	public static void main(String[] args) {
-		 int arr[] = {10, 5, 6, 3, 2, 20, 100, 80};
-		 int[] res = sortarray(arr);
-		 System.out.println(Arrays.toString(res));
+		int arr[] = { 10, 5, 6, 3, 2, 20, 100, 80 };
+		int[] res = sortarray(arr);
+		System.out.println(Arrays.toString(res));
 	}
 
 	private static int[] sortarray(int[] arr) {
 		Arrays.sort(arr);
 		int left = 0;
-		int right = arr.length-1;
+		int right = arr.length - 1;
 		int index = 0;
 		int[] newArray = new int[arr.length];
 		while (left < right) {
@@ -57,7 +57,7 @@ public class Method1 {
 
 		}
 		return newArray;
-		
+
 	}
 
 }

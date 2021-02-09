@@ -22,8 +22,7 @@ public class _1_program {
 			System.out.println("Char = " + s.charAt(i) + "   and Index = " + i);
 		else
 			System.out.println("No repeated Char");
-		
-		
+
 		String s2 = "abcfdecf";
 		int i2 = firstRepeatedHashSet(s2);
 		if (i2 != -1)

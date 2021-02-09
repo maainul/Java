@@ -20,14 +20,16 @@ public class _434_NumberofSegmentsinaString {
 		String s = "Hello, this is leetcode problem";
 		System.out.println(countSegments(s));
 	}
-	
+
 	public static int countSegments(String s) {
 		int n = s.length();
 		int segments = 0;
-		for(int i = 0; i<n; i++) {
-			// Rule 1--- Jodi prothom i == 0 ebong porer element ta jodi faka na thake tahole segment
-			// Rule 2--- Jodi bortoman char != 0 hoi ebong purber char faka hoi tahole segment
-			if((i== 0 || s.charAt(i-1) == ' ')&& s.charAt(i) !=' ') {
+		for (int i = 0; i < n; i++) {
+			// Rule 1--- Jodi prothom i == 0 ebong porer element ta jodi faka na thake
+			// tahole segment
+			// Rule 2--- Jodi bortoman char != 0 hoi ebong purber char faka hoi tahole
+			// segment
+			if ((i == 0 || s.charAt(i - 1) == ' ') && s.charAt(i) != ' ') {
 				segments++;
 			}
 		}

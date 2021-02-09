@@ -11,10 +11,10 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		//Animal obj = new Animal(20);
+		// Animal obj = new Animal(20);
 		@SuppressWarnings("unused")
 		Zebra obj2 = new Zebra();
-		
+
 	}
 
 }

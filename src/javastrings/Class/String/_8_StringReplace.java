@@ -9,12 +9,11 @@ public class _8_StringReplace {
 		System.out.println(replaceString);
 		System.out.println(replaceString.replace("Kava", "Java"));
 		System.out.println(s1.replace("a", "A"));
-		
+
 	}
 }
 /*
- *  Java is a programming language.Java is a iceland
- *  Kava is a programming language.Kava is a iceland 
- *  Java is a programming language.Java is a iceland
- *  JAvA is A progrAmming lAnguAge.JAvA is A icelAnd
+ * Java is a programming language.Java is a iceland Kava is a programming
+ * language.Kava is a iceland Java is a programming language.Java is a iceland
+ * JAvA is A progrAmming lAnguAge.JAvA is A icelAnd
  */

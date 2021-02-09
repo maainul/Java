@@ -18,7 +18,6 @@ public class _1_Program {
 	public static void main(String[] args) {
 		String string = "geeksforgeek";
 		sortString(string);
-		
 
 	}
 
@@ -26,7 +25,7 @@ public class _1_Program {
 		char[] ch = string.toCharArray();
 		Arrays.sort(ch);
 		System.out.println(String.valueOf(ch));
-		
+
 	}
 
 }

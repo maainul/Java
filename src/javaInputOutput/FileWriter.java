@@ -12,7 +12,6 @@ public class FileWriter {
 			// TODO: handle exception
 			System.out.println(e);
 		}
-		
 
 	}
 

@@ -39,10 +39,8 @@ public class _3_MilliSecondToDate {
 //		LocalDateTime myddDateTime = Instant.ofEpochMilli(longdd).atZone(ZoneId.systemDefault()).toLocalDateTime();
 //		System.out.println(myddDateTime);
 
-		
 		System.out.println(Long.MAX_VALUE);
-		
-		
+
 	}
 
 }

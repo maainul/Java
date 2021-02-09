@@ -21,10 +21,10 @@ public class _3_HashMapSolution {
 		for (int i = 0; i < arr.length; i++) {
 			map.put(arr[i], i);
 		}
-		
+
 		for (int i = 0; i < arr.length; i++) {
 			if (map.containsKey(sum - arr[i])) {
-				System.out.println(i+ " "+ map.get(sum-arr[i]));
+				System.out.println(i + " " + map.get(sum - arr[i]));
 				return;
 			}
 		}

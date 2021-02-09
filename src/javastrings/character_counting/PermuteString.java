@@ -18,7 +18,6 @@ public class PermuteString {
 		System.out.println("All the permutations of the string are: ");
 		generatePermutation(str, 0, len);
 	}
-	
 
 	// Function for generating different permutations of the string
 	public static void generatePermutation(String str, int start, int end) {

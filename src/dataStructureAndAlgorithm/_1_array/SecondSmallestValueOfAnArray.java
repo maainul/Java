@@ -3,7 +3,7 @@ package dataStructureAndAlgorithm._1_array;
 public class SecondSmallestValueOfAnArray {
 
 	public static void main(String[] args) {
-		int[] array = {-5, -4, 0, 2, 10, 30, -3};
+		int[] array = { -5, -4, 0, 2, 10, 30, -3 };
 		secondSmallest(array);
 
 	}

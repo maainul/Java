@@ -6,8 +6,8 @@ package javastrings.Class.String;
 public class _21_StringReplaceAll {
 
 	public static void main(String[] args) {
-		String s1="javatpoint is a very good website";  
-		String replaceString=s1.replaceAll("a","e");//replaces all occurrences of "a" to "e"  
+		String s1 = "javatpoint is a very good website";
+		String replaceString = s1.replaceAll("a", "e");// replaces all occurrences of "a" to "e"
 		System.out.println(replaceString);
 		System.out.println(s1.replaceAll("is", "was"));
 

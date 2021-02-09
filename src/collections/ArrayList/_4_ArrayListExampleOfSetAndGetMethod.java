@@ -9,12 +9,12 @@ public class _4_ArrayListExampleOfSetAndGetMethod {
 		al.add("mainul");
 		al.add("hasan");
 		al.add("anik");
-		
-		System.out.println("Before updata the value :"+al.get(1));
-		
+
+		System.out.println("Before updata the value :" + al.get(1));
+
 		// updating an element at specific positon
 		al.set(1, "mohammad");
-		System.out.println("After update value : "+al.get(1));
+		System.out.println("After update value : " + al.get(1));
 
 	}
 

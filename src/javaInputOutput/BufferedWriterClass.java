@@ -15,7 +15,6 @@ public class BufferedWriterClass {
 			// TODO: handle exception
 			System.out.println(e);
 		}
-		
-		
+
 	}
 }

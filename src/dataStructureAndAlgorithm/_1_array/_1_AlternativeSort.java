@@ -28,21 +28,21 @@ We alternatively print elements pointed by two pointers and move them toward eac
 public class _1_AlternativeSort {
 
 	public static void main(String[] args) {
-		int nums[] = {7,4,3,2,1,6};
+		int nums[] = { 7, 4, 3, 2, 1, 6 };
 		alternativeSortMethod(nums);
-		
+
 	}
 
 	private static void alternativeSortMethod(int[] nums) {
 		int n = nums.length;
 		Arrays.sort(nums);
 		int first = 0;
-		int last = n -1;
+		int last = n - 1;
 		while (first < last) {
-			System.out.print(nums[last--]+" ");
-			System.out.print(nums[first++]+" ");
+			System.out.print(nums[last--] + " ");
+			System.out.print(nums[first++] + " ");
 		}
-		
+
 	}
 
 }

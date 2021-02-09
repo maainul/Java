@@ -16,9 +16,9 @@ public class App {
 		s2.concat("3");
 		System.out.println(s2); // 12
 		String st = "anik";
-		System.out.println(st.substring(0,3)); // ani
-		System.out.println(st.substring(3));//k
-		System.out.println(st.substring(1,3));//ni
+		System.out.println(st.substring(0, 3)); // ani
+		System.out.println(st.substring(3));// k
+		System.out.println(st.substring(1, 3));// ni
 	}
 
 }

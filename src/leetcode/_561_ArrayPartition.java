@@ -81,10 +81,10 @@ public class _561_ArrayPartition {
 		// 1. sort the array
 		Arrays.parallelSort(nums);
 		System.out.println(Arrays.toString(nums));
-		//0,2,4,6,8, no inedex
+		// 0,2,4,6,8, no inedex
 		// nums[0], nums[1]
 		// min(1,5) = 1
-		// min(7,6) = 6 
+		// min(7,6) = 6
 		// min(8,4) = 4
 		// min(3,2) = 2
 		// sum = 13

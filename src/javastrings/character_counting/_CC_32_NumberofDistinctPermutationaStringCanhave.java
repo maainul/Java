@@ -24,27 +24,27 @@ Below is the implementation of above idea.
 
 */
 package javastrings.character_counting;
+
 //Java program to find number of distinct 
 //permutations of a string. 
-public class _CC_32_NumberofDistinctPermutationaStringCanhave { 
-	public static void main(String args[]) 
-	{ 
-		String str = "mithu"; 
-		System.out.println(countPermutation(str)); 
+public class _CC_32_NumberofDistinctPermutationaStringCanhave {
+	public static void main(String args[]) {
+		String str = "mithu";
+		System.out.println(countPermutation(str));
 	}
 
 	private static int countPermutation(String str) {
 		int length = str.length();
 		int[] freq = new int[26];
 		for (int i = 0; i < length; i++) {
-			freq[str.charAt(i)-'a']++;
+			freq[str.charAt(i) - 'a']++;
 		}
-		
+
 		int fact = 1;
 		for (int i = 0; i < 26; i++) {
 			fact = fact * factorial(freq[i]);
 		}
-		return factorial(length)/fact;
+		return factorial(length) / fact;
 	}
 
 	private static int factorial(int n) {
@@ -53,5 +53,5 @@ public class _CC_32_NumberofDistinctPermutationaStringCanhave {
 			fact = fact * i;
 		}
 		return fact;
-	} 
-} 
+	}
+}

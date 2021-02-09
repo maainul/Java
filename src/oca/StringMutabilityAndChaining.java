@@ -24,6 +24,6 @@ public class StringMutabilityAndChaining {
 		secondName.append(" Anik");
 
 		System.out.println(firstName);
-	} 
+	}
 
 }

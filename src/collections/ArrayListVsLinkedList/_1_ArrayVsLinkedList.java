@@ -12,12 +12,12 @@ public class _1_ArrayVsLinkedList {
 		al.add("mainul");
 		al.add("kamrul");
 		al.add("fakhrul");
-		
+
 		List<String> ll = new LinkedList<String>();
-		ll.add("samsu"); //adding object in linkedlist    
+		ll.add("samsu"); // adding object in linkedlist
 		ll.add("gaffar");
 		ll.add("Sattar");
-		
+
 		System.out.println(al);
 		System.out.println(ll);
 

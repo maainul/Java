@@ -20,25 +20,25 @@ public class _125_ValidPalindrom {
 
 	public static void main(String[] args) {
 		String input = "A man, a plan, a canal: Panama";
-		
+
 		System.out.println(ValidPalindrom(input));
 	}
 
 	private static boolean ValidPalindrom(String input) {
-		
-		if(input == null || input.length() == 0) {
+
+		if (input == null || input.length() == 0) {
 			return false;
 		}
 		input = input.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
 		System.out.println(input);
 		System.out.println(input);
-		
+
 		for (int i = 0; i < input.length(); i++) {
-			if(input.charAt(i) != input.charAt(input.length()-1-i)) {
+			if (input.charAt(i) != input.charAt(input.length() - 1 - i)) {
 				return false;
 			}
 		}
-		return true;	
+		return true;
 	}
 
 }

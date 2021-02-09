@@ -22,7 +22,7 @@ public class _1_StringToIntUsingParseIntMethod {
 
 	public static void main(String[] args) {
 		String string = "200";
-		
+
 		int i = Integer.parseInt(string);
 		System.out.println(i);
 

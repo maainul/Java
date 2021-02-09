@@ -37,7 +37,7 @@ public class ArrayOfArrayList {
 			}
 			System.out.println();
 		}
-		
+
 		// now convert it a good formate ....
 		// see the Graph.java for more convnient method and clean code.
 
@@ -45,15 +45,12 @@ public class ArrayOfArrayList {
 
 }
 /*
-[[5, 10, 20], [4, 30, 80], [25, 55]]
-
-head
-5-->10-->20-->
-
-head
-4-->30-->80-->
-
-head
-25-->55-->
-
-*/
+ * [[5, 10, 20], [4, 30, 80], [25, 55]]
+ * 
+ * head 5-->10-->20-->
+ * 
+ * head 4-->30-->80-->
+ * 
+ * head 25-->55-->
+ * 
+ */

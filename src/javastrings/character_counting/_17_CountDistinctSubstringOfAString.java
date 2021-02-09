@@ -1,7 +1,5 @@
 package javastrings.character_counting;
 
-
-
 public class _17_CountDistinctSubstringOfAString {
 
 	public static void main(String[] args) {

@@ -3,7 +3,7 @@ package javastrings.character_counting;
 public class FactorialOfArray {
 
 	public static void main(String[] args) {
-		int[] array = { 0,0,2,2,2,1,1,0,0,0,0};
+		int[] array = { 0, 0, 2, 2, 2, 1, 1, 0, 0, 0, 0 };
 
 		System.out.println(factorialcalcualtion(array));
 

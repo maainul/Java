@@ -7,9 +7,9 @@ import java.util.*;
 public class UsingCollections {
 
 	public static void main(String[] args) {
-		String str1[] = {"A","E","I",};
-		String str2[] = {"O","U"};
-		
+		String str1[] = { "A", "E", "I", };
+		String str2[] = { "O", "U" };
+
 		List<String> list = new ArrayList<String>(Arrays.asList(str1));
 		list.addAll(Arrays.asList(str2));
 		Object[] str3 = list.toArray();

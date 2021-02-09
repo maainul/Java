@@ -12,7 +12,5 @@ public class _1_StringtoUpperCaseAndtoLowerCase {
 
 }
 /*
-MAINUL
-mainul
-Mainul
-*/
+ * MAINUL mainul Mainul
+ */

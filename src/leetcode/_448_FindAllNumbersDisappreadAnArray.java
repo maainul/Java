@@ -29,26 +29,26 @@ public class _448_FindAllNumbersDisappreadAnArray {
 		List<Integer> missingNumber = new ArrayList<Integer>();
 		HashSet<Integer> set = new HashSet<Integer>();
 
-		for(int i= 0; i <nums.length; i++){
+		for (int i = 0; i < nums.length; i++) {
 			set.add(nums[i]);
 		}
 
-		for(int i = 1; i <= nums.length; i++){
-			if(!set.contains(i)){
+		for (int i = 1; i <= nums.length; i++) {
+			if (!set.contains(i)) {
 				missingNumber.add(i);
 			}
 		}
 		return missingNumber;
 	}
+
 	public static void main(String args[]) {
 		System.out.println("448. Find All Numbers Disappeared in an Array Easy\n ");
-		
-		int[] nums = {4,3,2,7,8,2,3,1};
-	
+
+		int[] nums = { 4, 3, 2, 7, 8, 2, 3, 1 };
+
 		// return method
 		System.out.println("Return value");
 		System.out.println(findDisappearedNumbers(nums));
-		
+
 	}
 }
-

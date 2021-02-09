@@ -15,16 +15,15 @@ public class _1389_CreateTargetArrayInTheGivenOrder {
 
 	public static int[] createTargetArray(int[] nums, int[] index) {
 		List<Integer> x = new ArrayList<>();
-        for(int i=0; i<nums.length; i++){
-            x.add(index[i], nums[i]);
-        }
-        
-        for(int i=0; i<nums.length; i++) {
-            nums[i] = x.get(i);
-        	System.out.println(i+" ------"+x.get(i));
-        }
-        return nums;
-    }
-	
+		for (int i = 0; i < nums.length; i++) {
+			x.add(index[i], nums[i]);
+		}
+
+		for (int i = 0; i < nums.length; i++) {
+			nums[i] = x.get(i);
+			System.out.println(i + " ------" + x.get(i));
+		}
+		return nums;
+	}
 
 }

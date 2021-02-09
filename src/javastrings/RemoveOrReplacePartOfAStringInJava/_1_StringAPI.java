@@ -8,7 +8,6 @@ public class _1_StringAPI {
 		String replaceString = "Hi";
 		String resultString = originalString.replace(targetedString, replaceString);
 		System.out.println(resultString);
-		
 
 	}
 

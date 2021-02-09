@@ -71,7 +71,7 @@ public class _20_PalindromeLinkedList {
 				l2 = l2.next;
 			}
 		}
-		return (l1== null && l2 == null);
+		return (l1 == null && l2 == null);
 	}
 
 	public static void main(String[] args) {

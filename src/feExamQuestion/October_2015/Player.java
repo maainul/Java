@@ -28,6 +28,7 @@ public class Player implements Comparable<Player> {
 		return p.getScore() - this.score;
 	}
 
+	@Override
 	public String toString() {
 		return name;
 	}

@@ -46,8 +46,8 @@ public class Program1 {
 		}
 		Arrays.sort(newArray);
 		for (int j = 1; j < newArray.length; j++) {
-			if (newArray[j-1] == newArray[j]) {
-				
+			if (newArray[j - 1] == newArray[j]) {
+
 			}
 		}
 

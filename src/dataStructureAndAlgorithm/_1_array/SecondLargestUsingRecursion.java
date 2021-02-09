@@ -13,7 +13,7 @@ public class SecondLargestUsingRecursion {
 
 	private static void secondlargest(int[] array, int first_largest, int second_largest, int i) {
 		// base case
-		if (i == array.length-1) {
+		if (i == array.length - 1) {
 			System.out.println("\nSecond largest :" + second_largest);
 			return;
 		}

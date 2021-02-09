@@ -27,56 +27,57 @@ package leetcode;
 import java.util.Arrays;
 import java.util.HashSet;
 
-public class _219_ContainsDuplicateII{
+public class _219_ContainsDuplicateII {
 
 	public static void main(String[] args) {
-		int nums[] = {1,2,3,1};
+		int nums[] = { 1, 2, 3, 1 };
 		int k = 3;
 		System.out.println(solution(nums, k));
 		System.out.println(solutionHashSet(nums, k));
-		
-		
+
 	}
+
 	// solution 1
 	private static boolean solutionHashSet(int[] nums, int k) {
-		//creates an empty hashset
+		// creates an empty hashset
 		HashSet<Integer> set = new HashSet<Integer>();
-		
+
 		// Traverse the input array
 		for (int i = 0; i < nums.length; i++) {
-			
+
 			// If already present n hash, then we found
 			// a duplicate within k distance
 			// value ki duplicate ache jodi thake tahole return true
 			// Is the duplicate value contain ---------yes(so, return true)
 			// Is the duplicate value not contain -------(return false)
-			if(set.contains(nums[i]))
+			if (set.contains(nums[i]))
 				return true;
-			
+
 			// Add this item to hasset
 			set.add(nums[i]);
-			
+
 			// Remove the k+1 distant item.
-			if(i >= k) {
-				set.remove(nums[i-k]);
+			if (i >= k) {
+				set.remove(nums[i - k]);
 			}
 		}
 		return false;
 	}
+
 	// solution 2
 	private static boolean solution(int[] nums, int k) {
 		Arrays.parallelSort(nums); // 1 1 2 3
-		if(nums.length == 1) {
+		if (nums.length == 1) {
 			return false;
 		}
 		for (int i = 1; i < nums.length; i++) {
-			if(nums[i-1] == nums[i]) {
+			if (nums[i - 1] == nums[i]) {
 				return true;
 			}
-			
+
 		}
 		return false;
-		
-	} 
+
+	}
 
 }

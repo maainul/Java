@@ -13,20 +13,20 @@ import java.util.Arrays;
 public class Zoo {
 
 	public static void main(String[] args) {
-		String[] queries = { "cbd"};
-		String[] words = {"zaaaz"};
+		String[] queries = { "cbd" };
+		String[] words = { "zaaaz" };
 		int[] re = numSmallerByFrequency(queries, words);
 		System.out.println(Arrays.toString(re));
 	}
 
 	public static int[] numSmallerByFrequency(String[] queries, String[] words) {
-		
-		int[] res= new int[queries.length];
+
+		int[] res = new int[queries.length];
 		for (int i = 0; i < queries.length; i++) {
 			int count = 0;
 			int frequency = freqcal(queries[i]);
-			
-			for(String word : words) {
+
+			for (String word : words) {
 				int wordFreq = freqcal(word);
 				if (frequency < wordFreq) {
 					count++;
@@ -53,7 +53,7 @@ public class Zoo {
 			}
 
 		}
-		
+
 		return freq;
 	}
 

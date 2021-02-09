@@ -1,7 +1,8 @@
 package thread._4_SleepMethod;
 
 class MythreaddD extends Thread {
-	
+
+	@Override
 	public void run() {
 
 		for (int i = 1; i <= 100000; i++) {

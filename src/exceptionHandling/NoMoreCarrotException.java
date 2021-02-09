@@ -1,5 +1,5 @@
 package exceptionHandling;
 
-public class NoMoreCarrotException extends Exception{
+public class NoMoreCarrotException extends Exception {
 
 }

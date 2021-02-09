@@ -1,4 +1,5 @@
 package leetcode;
+
 /*
 1018. Binary Prefix Divisible By 5
 
@@ -36,25 +37,25 @@ import java.util.List;
 public class _1018_BinaryPrefixDivisableBy5 {
 
 	public static void main(String[] args) {
-		int[] A = {0,1,1};
+		int[] A = { 0, 1, 1 };
 		System.out.println(prefixesDivBy5(A));
 
 	}
-	
+
 	public static List<Boolean> prefixesDivBy5(int[] A) {
-        List<Boolean> result = new ArrayList<>();
-        int sum = 0;
-        for(int i = 0; i < A.length; i++){
-            sum = (2 * sum + A[i]) % 5;
-            if(sum % 5 == 0){
-                result.add(true);
-            }else{
-                result.add(false);
-            }
-            
-        }
-    
-    return result;
-    }
+		List<Boolean> result = new ArrayList<>();
+		int sum = 0;
+		for (int i = 0; i < A.length; i++) {
+			sum = (2 * sum + A[i]) % 5;
+			if (sum % 5 == 0) {
+				result.add(true);
+			} else {
+				result.add(false);
+			}
+
+		}
+
+		return result;
+	}
 
 }

@@ -8,12 +8,14 @@ interface Inter {
 }
 
 abstract class ServiceProviderr implements Interf {
+	@Override
 	public void m1() {
 		System.out.println("m1 method from abstract class");
 	}
 }
 
 class SubServiceProvider extends ServiceProviderr {
+	@Override
 	public void m2() {
 		System.out.println("m2 from class");
 	}

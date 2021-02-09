@@ -27,85 +27,79 @@ Algorithm :
 
 package leetcode;
 
+public class _283_MoveZeroes {
+	public static void main(String[] args) {
 
-
-public class _283_MoveZeroes 
-{ 
-    public static void main(String[] args) {
-    	
-    	int[] nums = {0,1,3,0};
-    	System.out.println("Original value");
-    	for (int i = 0; i < nums.length; i++) {
-			System.out.print(nums[i]+" ");
+		int[] nums = { 0, 1, 3, 0 };
+		System.out.println("Original value");
+		for (int i = 0; i < nums.length; i++) {
+			System.out.print(nums[i] + " ");
 		}
-    	System.out.println("\n\nAfter Moves Zeros");
-    	moveszero(nums);
-    	for (int i = 0; i < nums.length; i++) {
-			System.out.print(nums[i]+" ");
-		}
-    	
-    	System.out.println("\n\nBefore Moves Zeros");
-    	moveszeroBefore(nums);
-    	
-    	for (int i = 0; i < nums.length; i++) {
-			System.out.print(nums[i]+" ");
-		}
-    	
-    	System.out.println("\n\nBefore Moves Zeros temp value method");
-
-    	sortBasedOnZero(nums);
-    	for (int i = 0; i < nums.length; i++) {
-			System.out.print(nums[i]+" ");
+		System.out.println("\n\nAfter Moves Zeros");
+		moveszero(nums);
+		for (int i = 0; i < nums.length; i++) {
+			System.out.print(nums[i] + " ");
 		}
 
- }
+		System.out.println("\n\nBefore Moves Zeros");
+		moveszeroBefore(nums);
+
+		for (int i = 0; i < nums.length; i++) {
+			System.out.print(nums[i] + " ");
+		}
+
+		System.out.println("\n\nBefore Moves Zeros temp value method");
+
+		sortBasedOnZero(nums);
+		for (int i = 0; i < nums.length; i++) {
+			System.out.print(nums[i] + " ");
+		}
+
+	}
 
 	private static void moveszero(int[] nums) {
 		int index = 0;
 		for (int i = 0; i < nums.length; i++) {
-			if(nums[i] !=0) {
+			if (nums[i] != 0) {
 				nums[index++] = nums[i];
 			}
 		}
-		
+
 		for (int i = index; i < nums.length; i++) {
 			nums[i] = 0;
 		}
-		
-	} 
-	
+
+	}
+
 	private static void moveszeroBefore(int[] nums) {
-		int index = nums.length-1;
-		
-		for (int i = nums.length-1; i >=0; i--) {
-			if(nums[i] != 0) {
+		int index = nums.length - 1;
+
+		for (int i = nums.length - 1; i >= 0; i--) {
+			if (nums[i] != 0) {
 				nums[index--] = nums[i];
 			}
 		}
-		
+
 		/*
 		 * while(index >= 0) { nums[index--] = 0; }
 		 */
-		for (int i = index; i >=0; i--) {
-			
-				nums[index--] = 0;
+		for (int i = index; i >= 0; i--) {
+
+			nums[index--] = 0;
+		}
+	}
+
+	private static int[] sortBasedOnZero(int[] nums) {
+		int k = 0;
+		for (int i = 0; i < nums.length; i++) {
+			if (nums[i] == 0) {
+				int temp = nums[i];
+				nums[i] = nums[k];
+				nums[k] = temp;
+				k++;
 			}
 		}
-	
-	
-	private static int[] sortBasedOnZero(int[] nums) {
-    	int k=0;
-    	for(int i=0;i<nums.length;i++)
-    	{
-    		if(nums[i]==0)
-    		{
-    			int temp=nums[i];
-    			nums[i]=nums[k];
-    			nums[k]=temp;
-    			k++;
-    		}
-    	}
-    	return nums;
-}
-		
+		return nums;
+	}
+
 }

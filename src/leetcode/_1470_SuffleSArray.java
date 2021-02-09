@@ -16,7 +16,7 @@ public class _1470_SuffleSArray {
 	}
 
 	// bitwise operator
-	
+
 	private static int[] suffleMethod2(int[] array, int n) {
 		int[] newArray = new int[2 * n];
 		for (int i = 0; i < newArray.length; i++) {

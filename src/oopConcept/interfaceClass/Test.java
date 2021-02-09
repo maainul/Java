@@ -11,22 +11,26 @@ package oopConcept.interfaceClass;
  			2. implement all method
  */
 
-interface Interf{
+interface Interf {
 	public int x = 0;
+
 	public abstract void m1();
+
 	public abstract void m2();
 }
 
-class ServiceProvider implements Interf{
+class ServiceProvider implements Interf {
+	@Override
 	public void m1() {
 		System.out.println("m1 method");
 	}
+
+	@Override
 	public void m2() {
 		System.out.println("m2 method");
-		
+
 	}
 }
-
 
 public class Test {
 

@@ -1,4 +1,5 @@
 package dataStructureAndAlgorithm._1_array.searching._19_FindTheTwoRepeatingElementsInAGivenArray;
+
 /*
 Find the two repeating elements in a given array
 
@@ -31,14 +32,14 @@ public class UseCountArray {
 		for (i = 0; i < count.length; i++) {
 			if (count[arr[i]] == 1) {
 				System.out.println(count[arr[i]]);
-				//System.out.println(arr[i]+ " ");
-			}else {
+				// System.out.println(arr[i]+ " ");
+			} else {
 				System.out.println(count[arr[i]]);
 				count[arr[i]]++;
-				
+
 			}
 		}
-		
+
 	}
 
 }

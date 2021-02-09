@@ -9,27 +9,28 @@ abstract class Parent {
 }
 
 abstract class Child extends Parent {
+	@Override
 	public void m1() {
 		System.out.println("m1");
 	}
 
 }
 
-class SubClass extends Child{
+class SubClass extends Child {
 
 	@Override
 	public void m2() {
 		System.out.println("m2");
-		
+
 	}
 
 	@Override
 	public void m3() {
 		// TODO Auto-generated method stub
 		System.out.println("m3");
-		
+
 	}
-	
+
 }
 
 public class Main {

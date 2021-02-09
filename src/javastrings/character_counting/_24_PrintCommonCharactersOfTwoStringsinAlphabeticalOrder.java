@@ -24,25 +24,24 @@ public class _24_PrintCommonCharactersOfTwoStringsinAlphabeticalOrder {
 	private static void printstring(String string1, String string2) {
 		int[] arr1 = new int[26];
 		int[] arr2 = new int[26];
-		
-		for(int i = 0; i<string1.length();i++) {
-			//System.out.println(string1.charAt(i)-'a');
-			arr1[string1.charAt(i)-'a'] = arr1[string1.charAt(i)-'a']+1;
-			//System.out.println(i+"---"+arr1[string1.charAt(i)-'a']);
+
+		for (int i = 0; i < string1.length(); i++) {
+			// System.out.println(string1.charAt(i)-'a');
+			arr1[string1.charAt(i) - 'a'] = arr1[string1.charAt(i) - 'a'] + 1;
+			// System.out.println(i+"---"+arr1[string1.charAt(i)-'a']);
 		}
-		
-		for(int i = 0; i< string2.length();i++) {
-			arr2[string2.charAt(i)-'a']++;
+
+		for (int i = 0; i < string2.length(); i++) {
+			arr2[string2.charAt(i) - 'a']++;
 		}
-		
-		for(int i = 0; i< 26;i++)
-		if(arr1[i] != 0 && arr2[i] != 0)
-		{
-			for(int j = 0;j<Math.min(arr1[i], arr2[i]);j++) {
-				System.out.print(((char)(i+'a')));
+
+		for (int i = 0; i < 26; i++)
+			if (arr1[i] != 0 && arr2[i] != 0) {
+				for (int j = 0; j < Math.min(arr1[i], arr2[i]); j++) {
+					System.out.print(((char) (i + 'a')));
+				}
+
 			}
-			
-		}
-		
+
 	}
 }

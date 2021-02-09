@@ -41,6 +41,7 @@ Constraints:
 
  */
 package leetcode;
+
 // https://www.geeksforgeeks.org/counting-frequencies-of-array-elements/
 import java.util.Arrays;
 
@@ -50,14 +51,14 @@ public class _163_SortArraybyIncreasingFrequencY {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int[] nums = {1,1,2,2,2,3};
+		int[] nums = { 1, 1, 2, 2, 2, 3 };
 		int[] result = sortFreq(nums);
 		System.out.println(Arrays.toString(result));
 
 	}
 
 	private static int[] sortFreq(int[] nums) {
-		
+
 		return null;
 	}
 

@@ -24,32 +24,30 @@ Coud you solve it without converting the integer to a string?
 **************************************************************************/
 package leetcode;
 
-
 public class _9_PalindromeNumber {
 
 	public static void main(String[] args) {
-	
-	    reverseInteger(-001);
+
+		reverseInteger(-001);
 
 	}
-	 public static void reverseInteger(int x) {	        
-	        long rev = 0;
-	        long n = x;
-	        
-	        while(n > 0){
-	            rev = (rev*10)+(n%10);
-	            n = n/10;
-	        }
-	        
-	        
-	        if(x == rev) {
-	        	System.out.println(rev);
-	        	System.out.println("palindrom"); 	
 
-	        }
-	        else {
-				System.out.println("Not a palindrom");
-			}
-	    }
+	public static void reverseInteger(int x) {
+		long rev = 0;
+		long n = x;
+
+		while (n > 0) {
+			rev = (rev * 10) + (n % 10);
+			n = n / 10;
+		}
+
+		if (x == rev) {
+			System.out.println(rev);
+			System.out.println("palindrom");
+
+		} else {
+			System.out.println("Not a palindrom");
+		}
+	}
 
 }

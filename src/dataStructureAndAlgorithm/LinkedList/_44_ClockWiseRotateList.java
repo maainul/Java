@@ -157,11 +157,9 @@ public class _44_ClockWiseRotateList {
 	}
 }
 /*
-Given linked list
-10 -> 20 -> 30 -> 40 -> 50 -> 60 -> null
-
-k = 2
-
-Rotate linked list
-50 -> 60 -> 10 -> 20 -> 30 -> 40 -> null
-*/
+ * Given linked list 10 -> 20 -> 30 -> 40 -> 50 -> 60 -> null
+ * 
+ * k = 2
+ * 
+ * Rotate linked list 50 -> 60 -> 10 -> 20 -> 30 -> 40 -> null
+ */

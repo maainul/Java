@@ -26,29 +26,27 @@ Output : arr[] = {4, 7, 8, 9, 10, 50, 60, 70}
 public class Method1 {
 
 	public static void main(String[] args) {
-		int arr[] = {6, 5, 3, 2, 8, 10, 9};
+		int arr[] = { 6, 5, 3, 2, 8, 10, 9 };
 		insertionSort(arr, arr.length);
 		System.out.println(Arrays.toString(arr));
 	}
-	
-	static void insertionSort(int A[], int size)  
-	{  
-	int i, key, j;  
-	for (i = 1; i < size; i++)  
-	{  
-	    key = A[i];  
-	    j = i-1;  
-	  
-	    /* Move elements of A[0..i-1], that are greater than key, to one  
-	        position ahead of their current position.  
-	        This loop will run at most k times */
-	    while (j >= 0 && A[j] > key)  
-	    {  
-	        A[j+1] = A[j];  
-	        j = j-1;  
-	    }  
-	    A[j+1] = key;  
-	}  
-	}  
+
+	static void insertionSort(int A[], int size) {
+		int i, key, j;
+		for (i = 1; i < size; i++) {
+			key = A[i];
+			j = i - 1;
+
+			/*
+			 * Move elements of A[0..i-1], that are greater than key, to one position ahead
+			 * of their current position. This loop will run at most k times
+			 */
+			while (j >= 0 && A[j] > key) {
+				A[j + 1] = A[j];
+				j = j - 1;
+			}
+			A[j + 1] = key;
+		}
+	}
 
 }

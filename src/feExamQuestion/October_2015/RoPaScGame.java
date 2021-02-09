@@ -29,6 +29,7 @@ public class RoPaScGame extends Game {
 		players.add(new GamePlayer("Player"));
 	}
 
+	@Override
 	public void startGame() {
 		initGame();
 		System.out.println("Input r (rock), p (paper) or s (scissors)");
@@ -38,6 +39,7 @@ public class RoPaScGame extends Game {
 		endGame();
 	}
 
+	@Override
 	public void playGame() {
 		GamePlayer computer = (GamePlayer) players.get(0);
 		GamePlayer player = (GamePlayer) players.get(1);
@@ -74,6 +76,7 @@ public class RoPaScGame extends Game {
 			System.out.println("The game is tied");
 	}
 
+	@Override
 	public void endGame() {
 		Collections.sort(players);
 		Player p1 = players.get(0);

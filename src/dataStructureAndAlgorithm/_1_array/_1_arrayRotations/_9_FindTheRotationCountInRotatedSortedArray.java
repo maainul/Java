@@ -1,4 +1,5 @@
 package dataStructureAndAlgorithm._1_array._1_arrayRotations;
+
 /*
 Input : arr[] = {15, 18, 2, 3, 6, 12}
 Output: 2
@@ -15,9 +16,9 @@ Output: 0
 public class _9_FindTheRotationCountInRotatedSortedArray {
 
 	public static void main(String[] args) {
-		int arr[] = {15, 18, 2, 3, 6, 12}; 
-        int n = arr.length; 
-      
+		int arr[] = { 15, 18, 2, 3, 6, 12 };
+		int n = arr.length;
+
 		System.out.println(countRotations(arr, n));
 
 	}
@@ -33,5 +34,5 @@ public class _9_FindTheRotationCountInRotatedSortedArray {
 		}
 		return min_index;
 
-}
+	}
 }

@@ -37,7 +37,7 @@ public class _1299_ReplaceElements {
 		int[] result = replaceElement(arr);
 
 		System.out.println(Arrays.toString(result));
-		
+
 		System.out.println();
 		int[] result2 = replaceElement2(arr);
 
@@ -46,10 +46,10 @@ public class _1299_ReplaceElements {
 	}
 
 	private static int[] replaceElement2(int[] arr) {
-		int len = arr.length-1;
+		int len = arr.length - 1;
 		int[] result = new int[len];
 		int max_from_right = -1;
-		for (int i = len-1; i >= 0; i--) {
+		for (int i = len - 1; i >= 0; i--) {
 			result[i] = max_from_right;
 			max_from_right = Math.max(arr[i], max_from_right);
 		}
@@ -71,7 +71,5 @@ public class _1299_ReplaceElements {
 		}
 		return arr;
 	}
-	
-	
 
 }

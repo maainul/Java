@@ -18,7 +18,6 @@ public class _1_GetCurrentDateAndTimeInDefaultFormat {
 	public static void main(String[] args) {
 		LocalDateTime current = LocalDateTime.now();
 		System.out.println("Current Date and time is :" + current);
-	
 
 	}
 

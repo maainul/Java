@@ -35,9 +35,9 @@ public class _2_HashSetExampleIgnoringDuplicateElements {
 		set.add("ikram");
 		set.add("nur");
 		System.out.println(set.add("gafur"));
-		
+
 		Iterator<String> itrIterator = set.iterator();
-		while(itrIterator.hasNext()) {
+		while (itrIterator.hasNext()) {
 			System.out.println(itrIterator.next());
 		}
 

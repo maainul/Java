@@ -1,4 +1,5 @@
 package dataStructureAndAlgorithm._1_array._1_arrayRotations;
+
 /*
 
 Print left rotation of array in O(n) time and O(1) space
@@ -25,27 +26,27 @@ Output : 9 1 3 5 7
 public class _15_PrintLeftRotationOfArrayinO_n_timeandO_1_space {
 
 	public static void main(String[] args) {
-		  int arr[] = { 1, 3, 5, 7, 9 }; 
-          int n = arr.length;  
+		int arr[] = { 1, 3, 5, 7, 9 };
+		int n = arr.length;
 
-          int k = 2; 
-          leftRotate(arr, n, k); 
+		int k = 2;
+		leftRotate(arr, n, k);
 
-          k = 3; 
-          leftRotate(arr, n, k); 
+		k = 3;
+		leftRotate(arr, n, k);
 
-          k = 4; 
-          leftRotate(arr, n, k); 
+		k = 4;
+		leftRotate(arr, n, k);
 
 	}
 
 	private static void leftRotate(int[] arr, int n, int k) {
 		int mod = k % n;
 		for (int i = 0; i < arr.length; i++) {
-			System.out.print(arr[(i+mod) % n]+" ");
+			System.out.print(arr[(i + mod) % n] + " ");
 		}
 		System.out.println();
-		
+
 	}
 
 }

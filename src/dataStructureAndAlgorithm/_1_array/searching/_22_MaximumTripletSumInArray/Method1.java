@@ -23,8 +23,7 @@ package dataStructureAndAlgorithm._1_array.searching._22_MaximumTripletSumInArra
  **/
 
 /*
- *  Time complexity : O(n^3)
-	Space complexity : O(1)
+ * Time complexity : O(n^3) Space complexity : O(1)
  */
 public class Method1 {
 

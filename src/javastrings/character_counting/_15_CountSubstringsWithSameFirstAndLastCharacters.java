@@ -20,7 +20,7 @@ Method 1 (Simple): In this approach we use brute force and find all the s
 ub-strings and pass them through our 
 function checkEquality to see if starting and ending characters are same.
 
-Method 2 (Space Efficient): In this approach we don’t actually generate 
+Method 2 (Space Efficient): In this approach we donï¿½t actually generate 
 substrings rather we traverse the string 
 in such a manner so that we can easily 
 compare first and last characters.
@@ -31,28 +31,27 @@ compare first and last characters.
 package javastrings.character_counting;
 
 public class _15_CountSubstringsWithSameFirstAndLastCharacters {
-	// Space efficient Java program to count all 
-	// substrings with same first and last characters. 
+	// Space efficient Java program to count all
+	// substrings with same first and last characters.
 	public static void main(String[] args) {
-		 String s = "abcab"; 
-	     System.out.println(countSubstringWithEqualEnds2(s)); 
-	         
+		String s = "abcab";
+		System.out.println(countSubstringWithEqualEnds2(s));
+
 	}
-	
+
 	private static int countSubstringWithEqualEnds2(String s) {
-		  int result = 0; 
-	      int n = s.length(); 
-	       
-	        // Iterating through all substrings in 
-	        // way so that we can find first and last 
-	        // character easily 
-	        for (int i = 0; i < n; i++) 
-	            for (int j = i; j < n; j++) 
-	                if (s.charAt(i) == s.charAt(j)) 
-	                    result++; 
-	       
-	        return result;
+		int result = 0;
+		int n = s.length();
+
+		// Iterating through all substrings in
+		// way so that we can find first and last
+		// character easily
+		for (int i = 0; i < n; i++)
+			for (int j = i; j < n; j++)
+				if (s.charAt(i) == s.charAt(j))
+					result++;
+
+		return result;
 	}
-	
-	
+
 }

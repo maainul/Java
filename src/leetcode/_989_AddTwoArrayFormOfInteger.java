@@ -1,6 +1,5 @@
 package leetcode;
 
-import java.awt.image.RescaleOp;
 import java.util.List;
 
 /*
@@ -36,13 +35,13 @@ Explanation: 9999999999 + 1 = 10000000000
 public class _989_AddTwoArrayFormOfInteger {
 
 	public static void main(String[] args) {
-		int[] nums = {1,2,0,0};
+		int[] nums = { 1, 2, 0, 0 };
 		int k = 34;
-		System.out.println(addToArrayForm(nums,k));
+		System.out.println(addToArrayForm(nums, k));
 	}
 
-	 public static List<Integer> addToArrayForm(int[] A, int K) {		 	 
-		 //List<Integer> ans = new LinkedList<>();
+	public static List<Integer> addToArrayForm(int[] A, int K) {
+		// List<Integer> ans = new LinkedList<>();
 		return null;
 	}
 }

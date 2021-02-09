@@ -28,33 +28,32 @@ public class PlusOne {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int myarray[] = new int[4];
-		
+
 		System.out.println("Enter 5 elemtnts: ");
 		for (int i = 0; i < myarray.length; i++) {
 			myarray[i] = s.nextInt();
 		}
-		
+
 		System.out.println("Elemtnts of arrays: ");
 		for (int i = 0; i < myarray.length; i++) {
-			System.out.print(myarray[i]+ " ");
+			System.out.print(myarray[i] + " ");
 		}
 		System.out.println();
 		System.out.println();
 		System.out.println("Plus one value :");
-		
-		// plus one 
+
+		// plus one
 		// Leetcode Problem no: 66.
-		System.out.println("Array length :"+myarray.length);
+		System.out.println("Array length :" + myarray.length);
 		for (int i = 0; i < myarray.length; i++) {
-			if(i == myarray.length-1 ) {
-				System.out.print((myarray[i]+1)+ " ");
+			if (i == myarray.length - 1) {
+				System.out.print((myarray[i] + 1) + " ");
+			} else {
+				System.out.print(myarray[i] + " ");
 			}
-			else {
-				System.out.print(myarray[i]+" ");
-			}
-			
+
 		}
-		
+
 		s.close();
 
 	}

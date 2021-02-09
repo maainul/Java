@@ -35,18 +35,17 @@ public class _3_HashSetExampleRemoveElements {
 		set.add("ikram");
 		set.add("nur");
 		set.add("gafur");
-		
-		Iterator<String> itrIterator = set.iterator();
-		while(itrIterator.hasNext()) {
 
-			if (("nur").equals(itrIterator.hasNext())){
+		Iterator<String> itrIterator = set.iterator();
+		while (itrIterator.hasNext()) {
+
+			if (("nur").equals(itrIterator.hasNext())) {
 				set.remove(itrIterator.hasNext());
 			}
-			//System.out.println(itrIterator.next());
+			// System.out.println(itrIterator.next());
 		}
 
 		System.out.println(set);
-
 
 	}
 

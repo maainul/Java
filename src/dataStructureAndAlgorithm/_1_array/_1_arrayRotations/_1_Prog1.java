@@ -1,4 +1,5 @@
 package dataStructureAndAlgorithm._1_array._1_arrayRotations;
+
 import java.util.Arrays;
 
 public class _1_Prog1 {
@@ -18,17 +19,17 @@ public class _1_Prog1 {
 			temp[index++] = arr[i];
 		}
 		System.out.println(Arrays.toString(temp));
-		
+
 		for (int i = 0; i < d; i++) {
-		temp[index++] = arr[i];	
+			temp[index++] = arr[i];
 		}
 		System.out.println(Arrays.toString(temp));
 	}
 }
 
 /*
-[3, 4, 5, 6, 7, 0, 0]
-
-[3, 4, 5, 6, 7, 1, 2]
-
-  */
+ * [3, 4, 5, 6, 7, 0, 0]
+ * 
+ * [3, 4, 5, 6, 7, 1, 2]
+ * 
+ */

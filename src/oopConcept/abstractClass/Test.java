@@ -5,18 +5,21 @@ abstract class Processor {
 }
 
 class Samsung extends Processor {
+	@Override
 	public String nameOfProcessor() {
 		return "Exinyos";
 	}
 }
 
 class Apple extends Processor {
+	@Override
 	public String nameOfProcessor() {
 		return "Bionic";
 	}
 }
 
 class Xiomi extends Processor {
+	@Override
 	public String nameOfProcessor() {
 		return "MediaTech";
 	}

@@ -9,8 +9,7 @@ public class FormationgDateAndTime {
 		System.out.println(date.getDayOfWeek());
 		System.out.println(date.getMonth());
 		System.out.println(date.getYear());
-		System.out.println(date.getDayOfYear ());
-		
+		System.out.println(date.getDayOfYear());
 
 	}
 

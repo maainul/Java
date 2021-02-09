@@ -23,15 +23,15 @@ package leetcode;
 public class _344_ReverseString {
 
 	public static void main(String[] args) {
-		String string ="hello";
+		String string = "hello";
 		char[] s = string.toCharArray();
 		System.out.print("Before reverse string = ");
 		for (int i = 0; i < string.length(); i++) {
 			System.out.print(s[i]);
 		}
-		int l = 0, r = s.length-1;
-		
-		while(l<r) {
+		int l = 0, r = s.length - 1;
+
+		while (l < r) {
 			char temp = s[l];
 			s[l] = s[r];
 			s[r] = temp;
@@ -42,7 +42,6 @@ public class _344_ReverseString {
 		for (int i = 0; i < s.length; i++) {
 			System.out.print(s[i]);
 		}
-		
 
 	}
 

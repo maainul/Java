@@ -51,7 +51,7 @@ Output : 11, 10, 9
 public class Method1 {
 
 	public static void main(String[] args) {
-		
+
 	}
 
 }

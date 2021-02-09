@@ -1,4 +1,5 @@
 package leetcode;
+
 // https://www.programmersought.com/article/2652236293/;jsessionid=118A0B307D7C418F60DA4AFAB7185138
 /*
 643. Maximum Average Subarray I
@@ -18,7 +19,7 @@ public class _643_MaximumAverageSubArrayI {
 		int nums[] = { 1, 12, -5, -6, 50, 3 };
 		int k = 4;
 		System.out.println(maximumsubArray(nums, k));
-		System.out.println(findMaxAverage(nums,k));
+		System.out.println(findMaxAverage(nums, k));
 
 	}
 

@@ -14,7 +14,6 @@ public class _1_Program {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
 
 	}
 

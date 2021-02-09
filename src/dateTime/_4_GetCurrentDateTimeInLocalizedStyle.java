@@ -18,13 +18,13 @@ public class _4_GetCurrentDateTimeInLocalizedStyle {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
+
 		LocalDateTime curenTime = LocalDateTime.now();
-		
+
 		DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM);
-		
+
 		String formateedString = curenTime.format(formatter);
-		
+
 		System.out.println("Current Date is :" + formateedString);
 
 	}

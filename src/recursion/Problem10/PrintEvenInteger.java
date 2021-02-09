@@ -12,16 +12,15 @@ Output:
 *******************************************************************************/
 package recursion.Problem10;
 
-public class PrintEvenInteger
-{
+public class PrintEvenInteger {
 	public static void main(String[] args) {
-	     int array[] = {2,4,5,8,10};
-	     for(int i = 0; i<array.length;i++){
-	         if(array[i] %2 == 0){
-	             	System.out.println("Index"+i+" : "+array[i]);
-	         }
-	         
-	     }
-	
+		int array[] = { 2, 4, 5, 8, 10 };
+		for (int i = 0; i < array.length; i++) {
+			if (array[i] % 2 == 0) {
+				System.out.println("Index" + i + " : " + array[i]);
+			}
+
+		}
+
 	}
 }

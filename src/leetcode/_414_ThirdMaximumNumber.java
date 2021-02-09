@@ -44,7 +44,7 @@ public class _414_ThirdMaximumNumber {
 	public static void main(String[] args) {
 		System.out.println("414. Third Maximum Number (Easy)");
 
-		int[] nums = { 12,12,11,74, 16, 15};
+		int[] nums = { 12, 12, 11, 74, 16, 15 };
 
 		System.out.println("\nInput :");
 		for (int i = 0; i < nums.length; i++) {
@@ -54,26 +54,26 @@ public class _414_ThirdMaximumNumber {
 		System.out.println("\n\nOutput :");
 
 		System.out.println(thirdMax(nums));
-		
+
 		System.out.println(maximumNumber(nums));
 
 	}
 
 	private static int maximumNumber(int[] nums) {
 		Arrays.sort(nums);
-		
-		//Remove duplicate 
+
+		// Remove duplicate
 		int i = 1;
 		for (int j = 1; j < nums.length; j++) {
-			if (nums[j] != nums[j-1]) {
+			if (nums[j] != nums[j - 1]) {
 				nums[i++] = nums[j];
 			}
 		}
-		if(i < 3) {
-			return nums[i-1];
+		if (i < 3) {
+			return nums[i - 1];
 		}
 		System.out.println(i);
-		return nums[i-3];
+		return nums[i - 3];
 	}
 
 	public static int thirdMax(int[] nums) {

@@ -1,4 +1,5 @@
 package dataStructureAndAlgorithm.Sorting.MergeSort;
+
 public class Node {
 	Node head;
 	int data;
@@ -11,7 +12,7 @@ public class Node {
 	}
 
 	Node() {
-	
+
 	}
 
 	void display(Node head) {
@@ -22,27 +23,23 @@ public class Node {
 		}
 		System.out.println(current);
 	}
-/*
-	Node push(int i) {
-		Node newNode = new Node(i);
-		newNode.next = head;
-		head = newNode;
-		length++;
-		return this;
-	}
-*/	
+
+	/*
+	 * Node push(int i) { Node newNode = new Node(i); newNode.next = head; head =
+	 * newNode; length++; return this; }
+	 */
 	void insertAtlast(int data) {
 		Node node = new Node(data);
-		if(head == null) {
+		if (head == null) {
 			head = node;
-		}else {
+		} else {
 			Node currentNode = head;
-			while(currentNode.next != null) {
+			while (currentNode.next != null) {
 				currentNode = currentNode.next;
 			}
 			currentNode.next = node;
 		}
-		
+
 	}
 
 	public int getLength() {

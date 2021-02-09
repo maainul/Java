@@ -46,31 +46,31 @@ public class Program1 {
 	}
 
 	private static boolean sortedAfterSwap(int[] A, boolean[] B, int n) {
-		int i, j; 
-		  
-        // Check bool array B and sorts 
-        // elements for continuous sequence of 1 
-        for (i = 0; i < n - 1; i++) { 
-        	System.out.println(i+"  "+B[i]);
-            if (B[i]) { 
-                j = i; 
-                System.out.println(j+"  "+B[j]);
-                while (B[j]) { 
-                    j++; 
-                } 
-                // Sort array A from i to j 
-                Arrays.sort(A, i, 1 + j); 
-                i = j; 
-            } 
-        } 
-  
-        // Check if array is sorted or not 
-        for (i = 0; i < n; i++) { 
-            if (A[i] != i + 1) { 
-                return false; 
-            } 
-        } 
-  
-        return true; 
+		int i, j;
+
+		// Check bool array B and sorts
+		// elements for continuous sequence of 1
+		for (i = 0; i < n - 1; i++) {
+			System.out.println(i + "  " + B[i]);
+			if (B[i]) {
+				j = i;
+				System.out.println(j + "  " + B[j]);
+				while (B[j]) {
+					j++;
+				}
+				// Sort array A from i to j
+				Arrays.sort(A, i, 1 + j);
+				i = j;
+			}
+		}
+
+		// Check if array is sorted or not
+		for (i = 0; i < n; i++) {
+			if (A[i] != i + 1) {
+				return false;
+			}
+		}
+
+		return true;
 	}
 }

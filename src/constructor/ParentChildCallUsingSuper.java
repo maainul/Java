@@ -1,15 +1,16 @@
 package constructor;
 
-class Parent{
+class Parent {
 	public Parent() {
 		// TODO Auto-generated constructor stub
 	}
 }
-class Child extends Parent{
-	
-}
-public class ParentChildCallUsingSuper {
 
+class Child extends Parent {
+
+}
+
+public class ParentChildCallUsingSuper {
 
 	public static void main(String[] args) {
 		@SuppressWarnings("unused")

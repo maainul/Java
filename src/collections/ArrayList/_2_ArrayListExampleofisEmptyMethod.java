@@ -9,9 +9,9 @@ public class _2_ArrayListExampleofisEmptyMethod {
 		al.add("mainul");
 		al.add("hasan");
 		al.add("anik");
-		
+
 		System.out.println("After insertion");
-		System.out.println("Is arraylist empty :"+al.isEmpty());
+		System.out.println("Is arraylist empty :" + al.isEmpty());
 
 	}
 

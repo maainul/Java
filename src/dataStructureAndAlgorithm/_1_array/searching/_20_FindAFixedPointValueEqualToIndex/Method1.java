@@ -1,4 +1,5 @@
 package dataStructureAndAlgorithm._1_array.searching._20_FindAFixedPointValueEqualToIndex;
+
 /*
 Find a Fixed Point (Value equal to index) in a given array
 

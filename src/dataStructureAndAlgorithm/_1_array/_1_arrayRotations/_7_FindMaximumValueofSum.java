@@ -1,4 +1,5 @@
 package dataStructureAndAlgorithm._1_array._1_arrayRotations;
+
 /*
 Input: arr[] = {1, 20, 2, 10}
 Output: 72

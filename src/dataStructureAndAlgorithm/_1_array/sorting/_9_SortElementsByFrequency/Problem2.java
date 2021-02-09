@@ -8,7 +8,7 @@ public class Problem2 {
 	}
 
 	private static void solution(int[] arr) {
-		
+
 	}
 
 }

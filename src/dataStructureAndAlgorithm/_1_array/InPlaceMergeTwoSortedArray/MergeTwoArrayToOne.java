@@ -23,7 +23,6 @@ public class MergeTwoArrayToOne {
 			if (x[j] < y[j]) {
 				newArray[index++] = x[j];
 			}
-			
 
 		}
 

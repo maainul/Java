@@ -1,4 +1,5 @@
 package leetcode._15_LongestCommonPrefix;
+
 // Java Program to find the longest common prefix 
 // https://www.geeksforgeeks.org/longest-common-prefix-using-word-by-word-matching/?ref=lbp
 public class _1_LongestCommonPrefixUsingWordbyWordMatching {

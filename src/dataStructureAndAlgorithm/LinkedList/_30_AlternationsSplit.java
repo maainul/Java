@@ -1,4 +1,5 @@
 package dataStructureAndAlgorithm.LinkedList;
+
 /*
 Alternating split of a given Singly Linked List | Set 1
 Write a function AlternatingSplit() that takes one list and divides up its nodes
@@ -12,100 +13,102 @@ B : 2-->4
 
  */
 public class _30_AlternationsSplit {
-    ListNode head;
-    public class ListNode {
-        int data;
-        ListNode next;
-        ListNode(int data){
-            this.data = data;
-            this.next = null;
-        }
-    }
+	ListNode head;
 
-    private void insertAtLast(int data){
-        ListNode newNode = new ListNode(data);
-        ListNode current = head;
-        if(head == null){
-            head = newNode;
-        }
-        else{
-            while (current.next != null){
-                current = current.next;
-            }
-            current.next = newNode;
-        }
-    }
+	public class ListNode {
+		int data;
+		ListNode next;
 
-    private  void display(){
-        ListNode current = head;
-        while (current != null){
-            System.out.print(current.data+"->");
-            current = current.next;
-        }
-    }
+		ListNode(int data) {
+			this.data = data;
+			this.next = null;
+		}
+	}
 
-    private  void print(ListNode head){
-        ListNode current = head;
-        while (current != null){
-            System.out.print(current.data+"->");
-            current = current.next;
-        }
-    }
+	private void insertAtLast(int data) {
+		ListNode newNode = new ListNode(data);
+		ListNode current = head;
+		if (head == null) {
+			head = newNode;
+		} else {
+			while (current.next != null) {
+				current = current.next;
+			}
+			current.next = newNode;
+		}
+	}
 
+	private void display() {
+		ListNode current = head;
+		while (current != null) {
+			System.out.print(current.data + "->");
+			current = current.next;
+		}
+	}
 
-    //https://thecodingsimplified.com/split-linked-list-alternatively-into-two-lists/
+	private void print(ListNode head) {
+		ListNode current = head;
+		while (current != null) {
+			System.out.print(current.data + "->");
+			current = current.next;
+		}
+	}
 
-    ListNode firstHead, secondHead;
-    public void alternateSplit(ListNode head) {
-        if(head == null || head.next == null) {
-            return;
-        }
+	// https://thecodingsimplified.com/split-linked-list-alternatively-into-two-lists/
 
-        ListNode firstTemp;
-        ListNode secondTemp;
+	ListNode firstHead, secondHead;
 
-        firstHead = firstTemp = head;
-        secondHead = secondTemp = head.next;
-        head = head.next.next;
+	public void alternateSplit(ListNode head) {
+		if (head == null || head.next == null) {
+			return;
+		}
 
-        while(head != null && head.next != null) {
-            firstTemp.next = head;
-            secondTemp.next = head.next;
+		ListNode firstTemp;
+		ListNode secondTemp;
 
-            firstTemp = firstTemp.next;
-            secondTemp = secondTemp.next;
+		firstHead = firstTemp = head;
+		secondHead = secondTemp = head.next;
+		head = head.next.next;
 
-            head = head.next.next;
-        }
-        // যদি বেজোড় সংখ্যক নোড থাকে 
-        if(head != null) {
-            firstTemp.next = head;
-            firstTemp = firstTemp.next;
-        }
+		while (head != null && head.next != null) {
+			firstTemp.next = head;
+			secondTemp.next = head.next;
 
-        firstTemp.next = null;
-        secondTemp.next = null;
+			firstTemp = firstTemp.next;
+			secondTemp = secondTemp.next;
 
-        return;
-    }
-    public static void main(String[] args) {
-        _30_AlternationsSplit alObj = new _30_AlternationsSplit();
+			head = head.next.next;
+		}
+		// যদি বেজোড় সংখ্যক নোড থাকে
+		if (head != null) {
+			firstTemp.next = head;
+			firstTemp = firstTemp.next;
+		}
 
-        alObj.insertAtLast(1);
-        alObj.insertAtLast(2);
-        alObj.insertAtLast(3);
-        alObj.insertAtLast(4);
-        alObj.insertAtLast(5);
+		firstTemp.next = null;
+		secondTemp.next = null;
 
-        System.out.println("\nOriginal List");
-        alObj.display();
-        System.out.println("\nResult is");
+		return;
+	}
 
-        alObj.alternateSplit(alObj.head);
-        System.out.println("\nFirst");
-        alObj.print(alObj.firstHead);
-        System.out.println("\nSecond");
-        alObj.print(alObj.secondHead);
+	public static void main(String[] args) {
+		_30_AlternationsSplit alObj = new _30_AlternationsSplit();
 
-    }
+		alObj.insertAtLast(1);
+		alObj.insertAtLast(2);
+		alObj.insertAtLast(3);
+		alObj.insertAtLast(4);
+		alObj.insertAtLast(5);
+
+		System.out.println("\nOriginal List");
+		alObj.display();
+		System.out.println("\nResult is");
+
+		alObj.alternateSplit(alObj.head);
+		System.out.println("\nFirst");
+		alObj.print(alObj.firstHead);
+		System.out.println("\nSecond");
+		alObj.print(alObj.secondHead);
+
+	}
 }

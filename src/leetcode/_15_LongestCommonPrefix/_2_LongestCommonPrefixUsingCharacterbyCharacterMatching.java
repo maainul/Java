@@ -1,4 +1,5 @@
 package leetcode._15_LongestCommonPrefix;
+
 // https://www.geeksforgeeks.org/longest-common-prefix-using-character-by-character-matching/?ref=lbp
 public class _2_LongestCommonPrefixUsingCharacterbyCharacterMatching {
 

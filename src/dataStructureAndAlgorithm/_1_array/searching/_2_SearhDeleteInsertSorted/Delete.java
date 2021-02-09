@@ -1,7 +1,5 @@
 package dataStructureAndAlgorithm._1_array.searching._2_SearhDeleteInsertSorted;
 
-
-
 public class Delete {
 
 	public static void main(String[] args) {
@@ -24,12 +22,12 @@ public class Delete {
 
 	private static int deleteElement(int[] arr, int n, int key) {
 		int pos = binarySearch(arr, 0, n - 1, key);
-		
+
 		if (pos == -1) {
 			System.out.println("No data found");
 		} else {
 			int i;
-			for (i = pos; i < n-1; i++) {
+			for (i = pos; i < n - 1; i++) {
 				arr[i] = arr[i + 1];
 			}
 		}

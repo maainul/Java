@@ -56,21 +56,12 @@ public class Graph {
 }
 
 /*
-Graph: (Adjacency Matrix)
-
-0 1 0 1 
-1 0 1 0 
-0 1 0 1 
-1 0 1 0 
-
-Vertex 0 is connected to:1 3 
-Vertex 1 is connected to:0 2 
-Vertex 2 is connected to:1 3 
-Vertex 3 is connected to:0 2 
- 
- 
-*/
-
-
-
-
+ * Graph: (Adjacency Matrix)
+ * 
+ * 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0
+ * 
+ * Vertex 0 is connected to:1 3 Vertex 1 is connected to:0 2 Vertex 2 is
+ * connected to:1 3 Vertex 3 is connected to:0 2
+ * 
+ * 
+ */

@@ -1,6 +1,5 @@
 package dataStructureAndAlgorithm._1_array.sorting.LargestSumContiguousSubarray;
 
-
 /*
 Kadane’s Algorithm:
 
@@ -25,13 +24,11 @@ Loop for each element of the array
 return max_so_far
  */
 
-
 public class Solution2 {
 
 	public static void main(String[] args) {
-		int [] a = {-2, -3, 4, -1, -2, 1, 5, -3}; 
-        System.out.println("Maximum contiguous sum is " + 
-                                       maxSubArraySum(a)); 
+		int[] a = { -2, -3, 4, -1, -2, 1, 5, -3 };
+		System.out.println("Maximum contiguous sum is " + maxSubArraySum(a));
 	}
 
 	private static int maxSubArraySum(int[] a) {
@@ -41,8 +38,7 @@ public class Solution2 {
 			maximun_ending_here = maximun_ending_here + a[i];
 			if (maximum_so_far < maximun_ending_here) {
 				maximum_so_far = maximun_ending_here;
-			}
-			else if (maximun_ending_here < 0) {
+			} else if (maximun_ending_here < 0) {
 				maximun_ending_here = 0;
 			}
 		}

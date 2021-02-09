@@ -1,6 +1,5 @@
 package dataStructureAndAlgorithm.LinkedList.basicTheory.Singly;
 
-
 public class SinglyLinkedList {
 	Node head; // instance variable of node....is head.
 
@@ -289,21 +288,19 @@ public class SinglyLinkedList {
 		}
 		return prev;
 	}
-	
-	
+
 	// length
 	public int length() {
 		Node currentNode = head;
 		int len = 1;
-		while(currentNode.next != null) {
+		while (currentNode.next != null) {
 			currentNode = currentNode.next;
 			len++;
 		}
 		return len;
 	}
-	
-	
-	// delete node from last leetcode problem 
+
+	// delete node from last leetcode problem
 	Node deleteNode2(int position) {
 		Node revHeadNode = reverseList(head);
 		Node revHedNodeCopy = revHeadNode;// 5-> 4-> 3-> 2-> 1

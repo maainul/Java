@@ -9,14 +9,14 @@ public class BufferReaderClass {
 		try {
 			FileReader fr = new FileReader("D:\\testout.txt");
 			BufferedReader bufferedReader = new BufferedReader(fr);
-			
+
 			int i;
-			while((i = bufferedReader.read())!=-1) {
-				System.out.print((char)i);
+			while ((i = bufferedReader.read()) != -1) {
+				System.out.print((char) i);
 			}
 			bufferedReader.close();
 			fr.close();
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println(e);

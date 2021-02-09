@@ -11,14 +11,15 @@ package feExamQuestion.October_2015;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Game  implements GameLoop{
+public abstract class Game implements GameLoop {
 	protected List<Player> players;
+
 	public Game() {
 		players = new ArrayList<Player>();
 	}
-	
+
 	public void play() {
 		startGame();
 	}
-	
+
 }

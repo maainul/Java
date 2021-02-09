@@ -1,7 +1,6 @@
 
 package javastrings.character_counting;
 
-
 public class _31_CountConsonentFromAString {
 
 	public static void main(String[] args) {

@@ -16,15 +16,15 @@ public class _2_SetMethod {
 
 	private static int findDuplicate(int[] a) {
 		Set<Integer> set = new HashSet<Integer>();
-		
-		for(int i : a) {
+
+		for (int i : a) {
 			if (set.contains(i)) {
 				return i;
 			}
 			set.add(i);
 		}
 		System.out.println(set);
-		
+
 		return -1;
 	}
 

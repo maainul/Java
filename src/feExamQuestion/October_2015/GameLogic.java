@@ -11,29 +11,27 @@ package feExamQuestion.October_2015;
 public class GameLogic {
 	public static GamePlayer checkWinner(GamePlayer player1, GamePlayer player2) {
 		GamePlayer winner;
-		if (player1.getChoice() == player2.getChoice()){
+		if (player1.getChoice() == player2.getChoice()) {
 			return null;
-		}else {
+		} else {
 			if (player1.getChoice() < player2.getChoice()) {
-				if ( Math.abs(player1.getChoice() - player2.getChoice()) == 1) {
+				if (Math.abs(player1.getChoice() - player2.getChoice()) == 1) {
 					winner = player2;
-				}else {
+				} else {
 					winner = player1;
 				}
-			}else {
-				if ( Math.abs(player1.getChoice() - player2.getChoice()) == 1) {
+			} else {
+				if (Math.abs(player1.getChoice() - player2.getChoice()) == 1) {
 					winner = player1;
-				}else {
+				} else {
 					winner = player2;
 				}
 			}
 		}
-		
-		
+
 		winner.incScore();
 		return winner;
-		
+
 	}
-	
-	
+
 }

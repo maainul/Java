@@ -8,11 +8,11 @@ public class InputNnumberOfArrayUsingScanner {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter number of elemnts:");
-		int lengthofArray = s.nextInt(); 
-		System.out.println("Enter"+ lengthofArray +"elemtnts");
-		
+		int lengthofArray = s.nextInt();
+		System.out.println("Enter" + lengthofArray + "elemtnts");
+
 		int myarray[] = new int[lengthofArray];
-		
+
 		for (int i = 0; i < lengthofArray; i++) {
 			myarray[i] = s.nextInt();
 		}

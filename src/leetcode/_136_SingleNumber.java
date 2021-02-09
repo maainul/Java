@@ -27,19 +27,18 @@ public class _136_SingleNumber {
 
 	public static void main(String[] args) {
 		System.out.println("136. Single Number (Easy)");
-		
-		int[] nums = {2,2,1};
+
+		int[] nums = { 2, 2, 1 };
 		System.out.println(singleNumber(nums));
 
 	}
 
 	private static int singleNumber(int[] nums) {
-		       int num = 0;
-		       for(int i = 0; i< nums.length; i++){
-		           num ^= nums[i];
-		       } 
-		        return num;
-		    }
-		
-	
+		int num = 0;
+		for (int i = 0; i < nums.length; i++) {
+			num ^= nums[i];
+		}
+		return num;
+	}
+
 }

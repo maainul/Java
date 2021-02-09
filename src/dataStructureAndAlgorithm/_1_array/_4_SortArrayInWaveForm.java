@@ -36,13 +36,11 @@ public class _4_SortArrayInWaveForm {
 		obj.printArray(arr);
 		System.out.println();
 		_4_SortArrayInWaveForm obj2 = new _4_SortArrayInWaveForm();
-		 int array[] = {10, 90, 49, 2, 1, 5, 23}; 
+		int array[] = { 10, 90, 49, 2, 1, 5, 23 };
 		obj2.printArray(array);
 		obj2.sortSwap(array);
 		System.out.println();
 		obj2.printArray(array);
-		
-		
 
 	}
 
@@ -55,33 +53,27 @@ public class _4_SortArrayInWaveForm {
 
 	}
 
-
-
 	private void printArray(int[] arr) {
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + " ");
 		}
 	}
-	
-	
-	
+
 	// Method 2
 	private void sortSwap(int[] array) {
-		
-		for (int i = 0; i < array.length; i+=2) {
-			if (i > 0 && array[i-1] > array[i]) {
-				swap(array, i-1, i);
+
+		for (int i = 0; i < array.length; i += 2) {
+			if (i > 0 && array[i - 1] > array[i]) {
+				swap(array, i - 1, i);
 			}
-			
-			if (i < array.length-1 && array[i] < array[i+1]) {
-				swap(array, i, i+1);
+
+			if (i < array.length - 1 && array[i] < array[i + 1]) {
+				swap(array, i, i + 1);
 			}
 		}
-		
+
 	}
-	
-	
-	
+
 	private void swap(int[] arr, int a, int b) {
 		int temp = arr[a];
 		arr[a] = arr[b];

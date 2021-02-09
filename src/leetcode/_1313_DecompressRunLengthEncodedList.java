@@ -54,25 +54,24 @@ public class _1313_DecompressRunLengthEncodedList {
 
 	}
 
-public static int[] decompressRLElist(int[] nums) {
-        int size = 0;
-	for (int i = 0; i < nums.length; i = i +2) {
-		size = size + nums[i];
-	}
-	
-	int[] result = new int[size];
-	
-	for (int i = 0, j = 0; i < result.length; i = i +2) {
-		int freq = nums[i];
-		int val = nums[i+1];
-		while(freq > 0) {
-			result[j++] = val;
-			freq--;
+	public static int[] decompressRLElist(int[] nums) {
+		int size = 0;
+		for (int i = 0; i < nums.length; i = i + 2) {
+			size = size + nums[i];
 		}
+
+		int[] result = new int[size];
+
+		for (int i = 0, j = 0; i < result.length; i = i + 2) {
+			int freq = nums[i];
+			int val = nums[i + 1];
+			while (freq > 0) {
+				result[j++] = val;
+				freq--;
+			}
+		}
+		return result;
+
 	}
-	return result;
-	
-	
-    }
 
 }

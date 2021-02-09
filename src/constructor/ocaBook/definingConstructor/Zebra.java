@@ -13,7 +13,7 @@ public class Zebra extends Animal {
 		super(age);
 		System.out.println("Zebra with constructor");
 	}
-	
+
 	public Zebra() {
 		this(4);
 		System.out.println("Zebra without constructor");

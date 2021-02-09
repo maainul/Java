@@ -32,9 +32,7 @@ public class _1_ {
 		LocalDate localDate = LocalDate.parse(string, formatter);
 
 		System.out.println(localDate);
-		
-		
-		 
+
 	}
 
 }

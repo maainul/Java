@@ -9,7 +9,7 @@
 package exceptionHandling;
 
 public class Bunny {
-	
+
 	public static void main(String[] args) {
 		try {
 			eatCarrot();
@@ -20,9 +20,9 @@ public class Bunny {
 
 	}
 
-	private static void eatCarrot() throws NoMoreCarrotException{
+	private static void eatCarrot() throws NoMoreCarrotException {
 		System.out.println("I love carrot");
-		
+
 	}
 
 }

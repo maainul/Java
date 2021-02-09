@@ -7,6 +7,7 @@ abstract class Test {
 }
 
 abstract class SubTest extends Test {
+	@Override
 	public void m1() {
 		System.out.println("m1 method.");
 	}
@@ -19,6 +20,7 @@ class SubSubTest extends Test {
 
 	}
 
+	@Override
 	public void m2() {
 		System.out.println("m2 method from child");
 	}

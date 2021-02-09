@@ -11,21 +11,21 @@ many times they occur in order of their occurrences.
 
 Examples:
 
-Input: str = “geeksforgeeks”
+Input: str = ï¿½geeksforgeeksï¿½
 Output: for
 
 CHARACTER	FREQUENCY
-‘g’				2
-‘e’				4
-‘k’				2
-‘s’				2
-‘f’				1
-‘o’				1
-‘r’				1
+ï¿½gï¿½				2
+ï¿½eï¿½				4
+ï¿½kï¿½				2
+ï¿½sï¿½				2
+ï¿½fï¿½				1
+ï¿½oï¿½				1
+ï¿½rï¿½				1
 
-‘f’, ‘o’ and ‘r’ are the only characters with odd frequencies.
+ï¿½fï¿½, ï¿½oï¿½ and ï¿½rï¿½ are the only characters with odd frequencies.
 
-Input: str = “elephant”
+Input: str = ï¿½elephantï¿½
 Output: lphant
 
 
@@ -37,32 +37,30 @@ public class FC_4_CharactersHavingOddFrequenciesInOrderOfOccurrence {
 
 	public static void main(String[] args) {
 
-		String str = "geeksforgeeks"; 
-		printCharWithFreq(str); 
+		String str = "geeksforgeeks";
+		printCharWithFreq(str);
 
 	}
+
 	private static void printCharWithFreq(String str) {
 		int n = str.length();
 		int[] freq = new int[26];
-		
-		for(int i = 0; i< n; i++) {
-			freq[str.charAt(i)-'a']++;
+
+		for (int i = 0; i < n; i++) {
+			freq[str.charAt(i) - 'a']++;
 		}
-		
-		for(int i = 0; i< n ;i++) {
-			if(freq[str.charAt(i) - 'a'] > 0 && freq[str.charAt(i)-'a'] %2 == 1) {
+
+		for (int i = 0; i < n; i++) {
+			if (freq[str.charAt(i) - 'a'] > 0 && freq[str.charAt(i) - 'a'] % 2 == 1) {
 				System.out.println(str.charAt(i));
-				
-				freq[str.charAt(i) - 'a'] = 0; 
+
+				freq[str.charAt(i) - 'a'] = 0;
 			}
 		}
-		
+
 	}
 
 }
 /*
-f
-o
-r
-*/
-
+ * f o r
+ */

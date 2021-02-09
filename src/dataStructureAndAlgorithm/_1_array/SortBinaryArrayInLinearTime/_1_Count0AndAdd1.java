@@ -21,15 +21,14 @@ public class _1_Count0AndAdd1 {
 				count++;
 			}
 		}
-		
+
 		for (int i = 0; i < count; i++) {
 			a[i] = 0;
 		}
 		for (int i = count; i < a.length; i++) {
 			a[i] = 1;
 		}
-		
-		
+
 	}
 
 }

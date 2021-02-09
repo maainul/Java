@@ -16,23 +16,21 @@ Output:
 *******************************************************************************/
 package recursion.Problem11;
 
-public class PrintEvenIntegerUsingRecursion
-{
+public class PrintEvenIntegerUsingRecursion {
 	public static void main(String[] args) {
-	     int array[] = {7,4,5,8,10};
-	     evenNumber(array,0);
-	     }
-	     
-	public static void evenNumber(int[] array,int i){
-        if(array[i] %2 == 0){
-            System.out.println("Index"+i+" : "+array[i]);
-	    }
-	    if(i == array.length-1){
-	        return;
-	    }
-	    else{
-	        evenNumber(array,i+1);
-	    } 
-	   }
-	    
+		int array[] = { 7, 4, 5, 8, 10 };
+		evenNumber(array, 0);
+	}
+
+	public static void evenNumber(int[] array, int i) {
+		if (array[i] % 2 == 0) {
+			System.out.println("Index" + i + " : " + array[i]);
+		}
+		if (i == array.length - 1) {
+			return;
+		} else {
+			evenNumber(array, i + 1);
+		}
+	}
+
 }

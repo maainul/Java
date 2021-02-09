@@ -1,4 +1,5 @@
 package leetcode;
+
 /*
 We have an array A of integers, and an array queries of queries.
 

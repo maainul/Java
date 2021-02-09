@@ -3,7 +3,7 @@ package oca;
 public class ArrayDecleration {
 
 	public static void main(String[] args) {
-		int[] numbers1 = new int[3]; 
+		int[] numbers1 = new int[3];
 
 		int[] numbers2 = new int[] { 23, 45, 10 };
 
@@ -16,7 +16,7 @@ public class ArrayDecleration {
 		System.out.println();
 		for (int i = 0; i < numbers2.length; i++) {
 			System.out.println(numbers2[i]);
-		} 
+		}
 
 		System.out.println();
 		for (int i = 0; i < numbers3.length; i++) {
@@ -26,7 +26,7 @@ public class ArrayDecleration {
 		int[] numbers = new int[10];
 		for (int i = 0; i < numbers.length; i++) {
 			numbers[i] = i + 5;
-			System.out.println(i + "---" + numbers[i] + "----" + (i +2));
+			System.out.println(i + "---" + numbers[i] + "----" + (i + 2));
 		}
 
 	}

@@ -46,19 +46,12 @@ public class _1_Program {
 			Integer repeatedInteger = hashMap.get(a[i]);
 			hashMap.put(a[i], (repeatedInteger == null) ? 1 : repeatedInteger + 1);
 		}
-/*
-		// Iterate through array of words
-		for (int i = 0; i < a.length; i++) {
-			// If word already exist in HashMap then increase it's count by 1
-			if (hashMap.containsKey(a[i])) {
-				hashMap.put(a[i], hashMap.get(a[i]) + 1);
-			}
-			// Otherwise add word to HashMap
-			else {
-				hashMap.put(a[i], 1);
-			}
-		}
-*/
+		/*
+		 * // Iterate through array of words for (int i = 0; i < a.length; i++) { // If
+		 * word already exist in HashMap then increase it's count by 1 if
+		 * (hashMap.containsKey(a[i])) { hashMap.put(a[i], hashMap.get(a[i]) + 1); } //
+		 * Otherwise add word to HashMap else { hashMap.put(a[i], 1); } }
+		 */
 		int higest_repeated_freq = 0;
 
 		for (Map.Entry<String, Integer> entry : hashMap.entrySet()) {

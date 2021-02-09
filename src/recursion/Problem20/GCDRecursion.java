@@ -1,6 +1,5 @@
 package recursion.Problem20;
 
-
 public class GCDRecursion {
 
 	public static void main(String[] args) {
@@ -11,9 +10,9 @@ public class GCDRecursion {
 	}
 
 	static int gcdByEuclidsAlgorithm(int n1, int n2) {
-	    if (n2 == 0) {
-	        return n1;
-	    }
-	    return gcdByEuclidsAlgorithm(n2, n1 % n2);
+		if (n2 == 0) {
+			return n1;
+		}
+		return gcdByEuclidsAlgorithm(n2, n1 % n2);
 	}
-} 
+}

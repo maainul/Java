@@ -52,28 +52,28 @@ package leetcode;
 public class _485_MaxConsecutiveOnesEasy {
 
 	public static void main(String[] args) {
-		
+
 		System.out.println("485. Max Consecutive Ones Easy");
-		
-		int[] nums = {1,1,0,1,1,1};
-		
+
+		int[] nums = { 1, 1, 0, 1, 1, 1 };
+
 		System.out.println("\nInput :");
 		for (int i = 0; i < nums.length; i++) {
-			System.out.print(nums[i]+" ");
+			System.out.print(nums[i] + " ");
 		}
 
-		System.out.println(findMaxConsecutiveOnes(nums));	 
-}
+		System.out.println(findMaxConsecutiveOnes(nums));
+	}
 
 	private static int findMaxConsecutiveOnes(int[] nums) {
 		int max = 0, count = 0;
 		for (int i : nums) {
-			if( i == 1) {
+			if (i == 1) {
 				count++;
-			}else {
+			} else {
 				count = 0;
 			}
-			max = (max >= count ? max:count);
+			max = (max >= count ? max : count);
 		}
 		return max;
 	}

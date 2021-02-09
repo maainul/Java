@@ -1,6 +1,5 @@
 package recursion.Problem3;
 
-
 //print array using recursion method
 /*
 	Output:
@@ -21,21 +20,18 @@ package recursion.Problem3;
 
 public class ReverseArray {
 	public static void main(String[] args) {
-		int array[] = {22,34,21,4};
+		int array[] = { 22, 34, 21, 4 };
 		System.out.println("Original Array:");
 		for (int i = 0; i < array.length; i++) {
-			System.out.println("Index "+i+": "+array[i]+" ");
+			System.out.println("Index " + i + ": " + array[i] + " ");
 		}
-		
+
 		System.out.println("\n");
 		System.out.println("Reverse Array:");
-		for (int i = array.length-1; i >= 0; i--) {
-			System.out.println("Index "+i+": "+array[i]+" ");
+		for (int i = array.length - 1; i >= 0; i--) {
+			System.out.println("Index " + i + ": " + array[i] + " ");
 		}
-		
+
 	}
 
 }
-
-
-

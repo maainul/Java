@@ -29,9 +29,9 @@ public class _383_RansomNote {
 	public boolean canConstruct(String ransomNote, String magazine) {
 		// 1. store the count of each of the characters in an array.
 		int[] array = new int[26];
-		// 2. Traverse the string, character by character and 
+		// 2. Traverse the string, character by character and
 		for (int i = 0; i < magazine.length(); i++) {
-		//3. store the count of each of the characters in an array.
+			// 3. store the count of each of the characters in an array.
 			array[magazine.charAt(i) - 'a']++;
 		}
 

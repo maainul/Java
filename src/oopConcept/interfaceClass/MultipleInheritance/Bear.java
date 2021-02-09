@@ -10,7 +10,7 @@ package oopConcept.interfaceClass.MultipleInheritance;
  * 
  * If return type is not match then will not comple
  */
-public class Bear implements  Herviibore, Omnivore {
+public class Bear implements Herviibore, Omnivore {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

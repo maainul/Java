@@ -1,4 +1,5 @@
 package dataStructureAndAlgorithm._1_array.searching._9_MaximumSubarraySumExcludingCertainElements;
+
 /*
 Maximum Subarray Sum Excluding Certain Elements
 
@@ -32,7 +33,7 @@ The Maximum Sum subarray being {3, 4} which sums to 7
 
  */
 public class Main {
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-    }
+	}
 }

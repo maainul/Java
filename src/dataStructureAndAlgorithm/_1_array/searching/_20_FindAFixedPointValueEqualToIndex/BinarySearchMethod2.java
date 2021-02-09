@@ -20,9 +20,9 @@ public class BinarySearchMethod2 {
 			return mid;
 		}
 		if (mid > arr[mid]) {
-			return binarySearch(arr, mid+1, high);
-		}else {
-			return binarySearch(arr, low, mid-1);
+			return binarySearch(arr, mid + 1, high);
+		} else {
+			return binarySearch(arr, low, mid - 1);
 		}
 
 	}

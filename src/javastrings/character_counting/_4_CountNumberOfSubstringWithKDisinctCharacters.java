@@ -1,61 +1,54 @@
 package javastrings.character_counting;
 
-import java.util.Arrays; 
+import java.util.Arrays;
 
-public class _4_CountNumberOfSubstringWithKDisinctCharacters 
-{ 
-	// Function to count number of substrings 
-	// with exactly k unique characters 
-	int countkDist(String str, int k) 
-	{ 
-		// Initialize result 
-		int res = 0; 
+public class _4_CountNumberOfSubstringWithKDisinctCharacters {
+	// Function to count number of substrings
+	// with exactly k unique characters
+	int countkDist(String str, int k) {
+		// Initialize result
+		int res = 0;
 
-		int n = str.length(); 
+		int n = str.length();
 
-		// To store count of characters from 'a' to 'z' 
-		int cnt[] = new int[26]; 
+		// To store count of characters from 'a' to 'z'
+		int cnt[] = new int[26];
 
-		// Consider all substrings beginning with 
-		// str[i] 
-		for (int i = 0; i < n; i++) 
-		{ 
-			int dist_count = 0; 
+		// Consider all substrings beginning with
+		// str[i]
+		for (int i = 0; i < n; i++) {
+			int dist_count = 0;
 
-			// Initializing count array with 0 
-			Arrays.fill(cnt, 0); 
+			// Initializing count array with 0
+			Arrays.fill(cnt, 0);
 
-			// Consider all substrings between str[i..j] 
-			for (int j=i; j<n; j++) 
-			{ 
-				// If this is a new character for this 
-				// substring, increment dist_count. 
-				//System.out.println(cnt[str.charAt(j)-'a']);
-				if (cnt[str.charAt(j) - 'a'] == 0) 
-					
-					dist_count++; 
+			// Consider all substrings between str[i..j]
+			for (int j = i; j < n; j++) {
+				// If this is a new character for this
+				// substring, increment dist_count.
+				// System.out.println(cnt[str.charAt(j)-'a']);
+				if (cnt[str.charAt(j) - 'a'] == 0)
 
-				// Increment count of current character 
-				cnt[str.charAt(j) - 'a']++; 
+					dist_count++;
 
-				// If distinct character count becomes k, 
-				// then increment result. 
-				if (dist_count == k) 
-					res++; 
-			} 
-		} 
+				// Increment count of current character
+				cnt[str.charAt(j) - 'a']++;
 
-		return res; 
-	} 
+				// If distinct character count becomes k,
+				// then increment result.
+				if (dist_count == k)
+					res++;
+			}
+		}
 
-	// Driver Program 
-	public static void main(String[] args) 
-	{ 
-		_4_CountNumberOfSubstringWithKDisinctCharacters ob = new _4_CountNumberOfSubstringWithKDisinctCharacters(); 
-		String ch = "abc"; 
-		int k = 2; 
-		System.out.println("Total substrings with exactly " + 
-						k + " distinct characters : "
-						+ ob.countkDist(ch, k)); 
-	} 
-} 
+		return res;
+	}
+
+	// Driver Program
+	public static void main(String[] args) {
+		_4_CountNumberOfSubstringWithKDisinctCharacters ob = new _4_CountNumberOfSubstringWithKDisinctCharacters();
+		String ch = "abc";
+		int k = 2;
+		System.out.println("Total substrings with exactly " + k + " distinct characters : " + ob.countkDist(ch, k));
+	}
+}

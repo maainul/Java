@@ -41,48 +41,51 @@ Explanation: There is one 0-diff pair in the array, (1, 1).
  */
 
 public class _532_KDiffElement {
-    public static void main(String[] args) {
-        int nums[] = {1, 5, 3, 1, 4};
+	public static void main(String[] args) {
+		int nums[] = { 1, 5, 3, 1, 4 };
 
-        int k = 2;
-       // System.out.println(kdiff(nums, k));
-        System.out.println(findPairs(nums, k));
-        
-        System.out.println(kdiff(nums, k));
-    }
+		int k = 2;
+		// System.out.println(kdiff(nums, k));
+		System.out.println(findPairs(nums, k));
 
-    // Method 1
-    // This solution doesn’t work if there are duplicates in array as the requirement is to count only distinct pairs.
-    private static int kdiff(int[] nums, int k) {
-        int count = 0;
-        for (int i = 0; i < nums.length; i++){
-            for (int j = i+1; j < nums.length;j++){
-                if (nums[i] - nums[j] == k || nums[j] - nums[i] == k){
-                    count ++;
-                }
-            }
-        }
-        return count;
-    }
-    public static int findPairs(int[] nums, int k) {
-        if(k < 0) return 0;
+		System.out.println(kdiff(nums, k));
+	}
 
-        Arrays.sort(nums);
+	// Method 1
+	// This solution doesn’t work if there are duplicates in array as the
+	// requirement is to count only distinct pairs.
+	private static int kdiff(int[] nums, int k) {
+		int count = 0;
+		for (int i = 0; i < nums.length; i++) {
+			for (int j = i + 1; j < nums.length; j++) {
+				if (nums[i] - nums[j] == k || nums[j] - nums[i] == k) {
+					count++;
+				}
+			}
+		}
+		return count;
+	}
 
-        int left = 0, right = 1, count = 0;
-        while(right < nums.length){
-            if(nums[right] - nums[left] > k){
-                left++;
-            }else if(nums[right] - nums[left] < k || right == left){
-                right++;
-            }else{
-                count++;
-                left++; 
-                right++;
-                while(right < nums.length && nums[right] == nums[right - 1]) right++;
-            }
-        }
-        return count;
-    }
+	public static int findPairs(int[] nums, int k) {
+		if (k < 0)
+			return 0;
+
+		Arrays.sort(nums);
+
+		int left = 0, right = 1, count = 0;
+		while (right < nums.length) {
+			if (nums[right] - nums[left] > k) {
+				left++;
+			} else if (nums[right] - nums[left] < k || right == left) {
+				right++;
+			} else {
+				count++;
+				left++;
+				right++;
+				while (right < nums.length && nums[right] == nums[right - 1])
+					right++;
+			}
+		}
+		return count;
+	}
 }
-

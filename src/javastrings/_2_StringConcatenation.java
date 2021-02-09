@@ -7,19 +7,18 @@ public class _2_StringConcatenation {
 		String s2 = "Mainul";
 		String s3 = "Hasan";
 		// by + method
-		System.out.println(s1 +" "+ s3);
+		System.out.println(s1 + " " + s3);
 		// by concat()
 		System.out.println(s1.concat(s2)); // without space
 		System.out.println(s1.concat(" ").concat(s3));
-		
+
 	}
 
 }
-/* Output
- 
- Mainul Hasan
- MainulMainul
- Mainul Hasan
- 
- 
-*/
+/*
+ * Output
+ * 
+ * Mainul Hasan MainulMainul Mainul Hasan
+ * 
+ * 
+ */

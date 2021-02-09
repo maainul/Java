@@ -37,7 +37,7 @@ public class FibonacciRecursion {
 	public static void fibonacci(int x, int y, int n) {
 		int z;
 		if (n == 2) {
-			System.out.println("\nsum "+y);
+			System.out.println("\nsum " + y);
 			return;
 		}
 		z = x + y;

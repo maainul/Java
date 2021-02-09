@@ -10,9 +10,9 @@ public class _1_Intro {
 		arr[2] = 30;
 		arr[3] = 40;
 		arr[4] = 50;
-		
+
 		for (int i = 0; i < arr.length; i++) {
-			System.out.println("Element at index "+i+" : "+arr[i]);
+			System.out.println("Element at index " + i + " : " + arr[i]);
 		}
 
 	}

@@ -1,4 +1,5 @@
 package dataStructureAndAlgorithm._1_array.searching._4_SearchElementDifferenceMostk;
+
 /*
 Searching in an array where adjacent differ by at most k
 Last Updated: 04-09-2019
@@ -33,13 +34,12 @@ public class DifferenceMostK {
 			if (arr[i] == x)
 				return i;
 
-			// Jump the difference between  
-            // current array element and x 
-            // divided by k We use max here 
-            // to make sure that i moves  
-            // at-least one step ahead. 
-            i = i + Math.max(1, Math.abs(arr[i]  
-                                    - x) / k); 
+			// Jump the difference between
+			// current array element and x
+			// divided by k We use max here
+			// to make sure that i moves
+			// at-least one step ahead.
+			i = i + Math.max(1, Math.abs(arr[i] - x) / k);
 
 		}
 
@@ -53,7 +53,7 @@ public class DifferenceMostK {
 		int n = arr.length;
 		int x = 3;
 		int k = 6;
-		System.out.println("Element " + x + " is present at index " + search(arr, n, k,3));
+		System.out.println("Element " + x + " is present at index " + search(arr, n, k, 3));
 
 	}
 

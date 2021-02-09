@@ -16,25 +16,25 @@ Let’s see the naive solution.
 
 */
 public class Main {
-    public static void main(String[] args) {
-        int arr[] = {2, 3, 4, 5, 6, 7, 8};
-        System.out.println(pariSum(arr, 138));
+	public static void main(String[] args) {
+		int arr[] = { 2, 3, 4, 5, 6, 7, 8 };
+		System.out.println(pariSum(arr, 138));
 
-    }
+	}
 
-    private static boolean pariSum(int[] arr, int i) {
+	private static boolean pariSum(int[] arr, int i) {
 
-        int left = 0;
-        int right = arr.length - 1;
-        while (left < right) {
-            if (arr[left] + arr[right] > i) {
-                right--;
-            } else if (arr[left] + arr[right] < i) {
-                left++;
-            } else {
-                return true;
-            }
-        }
-        return false;
-    }
+		int left = 0;
+		int right = arr.length - 1;
+		while (left < right) {
+			if (arr[left] + arr[right] > i) {
+				right--;
+			} else if (arr[left] + arr[right] < i) {
+				left++;
+			} else {
+				return true;
+			}
+		}
+		return false;
+	}
 }

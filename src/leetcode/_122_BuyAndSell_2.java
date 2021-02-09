@@ -1,4 +1,5 @@
 package leetcode;
+
 /*
 122. Best Time to Buy and Sell Stock II
 Easy
@@ -38,19 +39,19 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
  */
 public class _122_BuyAndSell_2 {
-    public static void main(String[] args) {
-        int prices[] = {1,2,3,4,5};
-        System.out.println(maxProfit(prices));
-    }
+	public static void main(String[] args) {
+		int prices[] = { 1, 2, 3, 4, 5 };
+		System.out.println(maxProfit(prices));
+	}
 
-    public static int maxProfit(int[] prices) {
-        int total = 0;
-        for(int i = 1; i < prices.length; i++){
-            if(prices[i] > prices[i-1]){
-                total += prices[i] - prices[i-1];
-            }
-        }
-        return total;
-    }
+	public static int maxProfit(int[] prices) {
+		int total = 0;
+		for (int i = 1; i < prices.length; i++) {
+			if (prices[i] > prices[i - 1]) {
+				total += prices[i] - prices[i - 1];
+			}
+		}
+		return total;
+	}
 
 }

@@ -23,11 +23,11 @@ public class _2_Program {
 		int[] freq = new int[26];
 
 		for (int i = 0; i < string.length(); i++) {
-			freq[string.charAt(i) -'a']++;
+			freq[string.charAt(i) - 'a']++;
 		}
 
 		for (j = 0; j < string.length(); j++) {
-			if (freq[string.charAt(j) -'a'] > 1) {
+			if (freq[string.charAt(j) - 'a'] > 1) {
 				return j;
 			}
 		}

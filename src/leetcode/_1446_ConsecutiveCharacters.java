@@ -70,7 +70,7 @@ public class _1446_ConsecutiveCharacters {
 			} else {
 				count = 1;
 			}
-			max = Math.max(max, count); 
+			max = Math.max(max, count);
 		}
 		return max;
 

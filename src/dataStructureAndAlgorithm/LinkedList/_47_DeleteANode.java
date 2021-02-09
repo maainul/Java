@@ -76,11 +76,9 @@ public class _47_DeleteANode {
 
 }
 /*
-Before Delete list : 
-1 2 3 4 5 
-
-Delete =  3 
-
-After deletion :
-1 2 4 5 
-*/
+ * Before Delete list : 1 2 3 4 5
+ * 
+ * Delete = 3
+ * 
+ * After deletion : 1 2 4 5
+ */

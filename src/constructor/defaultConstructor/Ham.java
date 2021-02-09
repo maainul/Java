@@ -31,13 +31,13 @@ public class Ham {
 
 	public static void main(String[] args) {
 		Ham obj = new Ham(10);
-		 System.out.println(obj.weight);
+		System.out.println(obj.weight);
 		System.out.println(obj);
 
 	}
 
 	public Ham(int weight) {
-		this(weight,"Brown");
+		this(weight, "Brown");
 	}
 
 }

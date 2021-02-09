@@ -30,21 +30,21 @@ import java.util.HashSet;
 public class _7_HashSetExampleStoreDuplicateArrayException {
 	public static void main(String args[]) {
 		System.out.println("136. Single Number (Easy)");
-		
-		int[] nums = {25,2,5,1,7,8,1};
-		setValue(nums);	
+
+		int[] nums = { 25, 2, 5, 1, 7, 8, 1 };
+		setValue(nums);
 	}
-	
+
 	private static void setValue(int[] nums) {
 		HashSet<Integer> set = new HashSet<Integer>();
-			for (int i = 0; i < nums.length; i++) {
-				if(set.contains(nums[i])) {
-					// it will check whether duplicate or not
-					System.out.println(nums[i]);
-					System.out.println("Value "+nums[i]+" Will not store in the array..");
-				}
-				set.add(nums[i]);
-			}			
-			System.out.println(set);
+		for (int i = 0; i < nums.length; i++) {
+			if (set.contains(nums[i])) {
+				// it will check whether duplicate or not
+				System.out.println(nums[i]);
+				System.out.println("Value " + nums[i] + " Will not store in the array..");
+			}
+			set.add(nums[i]);
+		}
+		System.out.println(set);
 	}
 }

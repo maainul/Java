@@ -10,6 +10,8 @@ package feExamQuestion.October_2015;
 
 public interface GameLoop {
 	public void startGame();
+
 	public void playGame();
+
 	public void endGame();
 }

@@ -13,9 +13,5 @@ public class _4_StringBufferDelete {
 
 }
 /*
- * Output : 
- * Hlo 
- * olH 
- * 21
+ * Output : Hlo olH 21
  */
-

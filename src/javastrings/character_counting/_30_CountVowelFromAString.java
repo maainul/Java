@@ -16,9 +16,9 @@ public class _30_CountVowelFromAString {
 		// second method
 		System.out.println(vowelReturn(str));
 		// recursive method
-		
+
 	}
- 
+
 	private static int vowelReturn(String str) {
 		int count = 0;
 		for (int i = 0; i < str.length(); i++) {
@@ -34,6 +34,5 @@ public class _30_CountVowelFromAString {
 		return (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U');
 
 	}
-	
 
 }

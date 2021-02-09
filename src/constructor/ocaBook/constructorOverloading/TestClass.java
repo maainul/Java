@@ -10,7 +10,7 @@ public class TestClass {
 		this.age = age;
 		this.nameString = nameString;
 	}
- 
+
 	public int getAge() {
 		return age;
 	}

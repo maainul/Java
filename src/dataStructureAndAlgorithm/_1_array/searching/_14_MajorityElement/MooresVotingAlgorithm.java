@@ -98,4 +98,3 @@ public class MooresVotingAlgorithm {
 		majorelement.printMajority(a, size);
 	}
 }
-

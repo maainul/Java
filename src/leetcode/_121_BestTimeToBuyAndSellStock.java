@@ -1,4 +1,5 @@
 package leetcode;
+
 /*
 121. Best Time to Buy and Sell Stock
 
@@ -28,38 +29,37 @@ Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
  */
 public class _121_BestTimeToBuyAndSellStock {
-    public static void main(String[] args) {
-        int nums[] = {7,1,5,3,6,4};
-        System.out.println(bestTime(nums));
-        System.out.println(maxProfit(nums));
-    }
+	public static void main(String[] args) {
+		int nums[] = { 7, 1, 5, 3, 6, 4 };
+		System.out.println(bestTime(nums));
+		System.out.println(maxProfit(nums));
+	}
 
-    private static int bestTime(int[] nums) {
-        int maxProfit = 0;
-        for (int i = 0 ; i < nums.length; i++){
-            for (int j = i + 1; j < nums.length; j++){
-                int profit = nums[j] - nums[i];
-                if (profit> maxProfit){
-                    maxProfit = profit;
-                }
-            }
-        }
-    return maxProfit;
-    }
+	private static int bestTime(int[] nums) {
+		int maxProfit = 0;
+		for (int i = 0; i < nums.length; i++) {
+			for (int j = i + 1; j < nums.length; j++) {
+				int profit = nums[j] - nums[i];
+				if (profit > maxProfit) {
+					maxProfit = profit;
+				}
+			}
+		}
+		return maxProfit;
+	}
 
-    public static int maxProfit(int[] prices) {
-        int min_price = Integer.MAX_VALUE;
-        int max_profit = 0;
-        for(int i = 0 ; i < prices.length; i++){
-            if(prices[i] < min_price){
-                min_price = prices[i];
+	public static int maxProfit(int[] prices) {
+		int min_price = Integer.MAX_VALUE;
+		int max_profit = 0;
+		for (int i = 0; i < prices.length; i++) {
+			if (prices[i] < min_price) {
+				min_price = prices[i];
 
-            }
-            else if (prices[i] - min_price > max_profit){
-                max_profit  = prices[i] - min_price;
-            }
-        }
+			} else if (prices[i] - min_price > max_profit) {
+				max_profit = prices[i] - min_price;
+			}
+		}
 
-        return max_profit;
-    }
+		return max_profit;
+	}
 }

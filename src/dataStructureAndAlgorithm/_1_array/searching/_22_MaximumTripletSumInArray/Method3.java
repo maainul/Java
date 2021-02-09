@@ -18,8 +18,7 @@ public class Method3 {
 				maxC = maxB;
 				maxB = maxA;
 				maxA = arr[i];
-			}
-			else if (arr[i] > maxB) {
+			} else if (arr[i] > maxB) {
 				maxC = maxB;
 				maxB = arr[i];
 			} else if (arr[i] > maxC) {

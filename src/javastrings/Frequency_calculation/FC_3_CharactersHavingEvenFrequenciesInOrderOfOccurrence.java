@@ -9,20 +9,20 @@ as many times they occur in order of their occurrences.
 
 Examples:
 
-Input: str = “geeksforgeeks”
+Input: str = ï¿½geeksforgeeksï¿½
 Output: geks
 
 CHARACTER	FREQUENCY
-‘g’				2
-‘e’				4
-‘k’				2
-‘s’				2
-‘f’				1
-‘o’				1
-‘r’				1
-‘g’, ‘e’, ‘k’ and ‘s’ are the only characters with even frequencies.
+ï¿½gï¿½				2
+ï¿½eï¿½				4
+ï¿½kï¿½				2
+ï¿½sï¿½				2
+ï¿½fï¿½				1
+ï¿½oï¿½				1
+ï¿½rï¿½				1
+ï¿½gï¿½, ï¿½eï¿½, ï¿½kï¿½ and ï¿½sï¿½ are the only characters with even frequencies.
 
-Input: str = “aeroplane”
+Input: str = ï¿½aeroplaneï¿½
 Output: aeae
 
 *************************************************************************************************/
@@ -32,27 +32,27 @@ public class FC_3_CharactersHavingEvenFrequenciesInOrderOfOccurrence {
 
 	public static void main(String[] args) {
 
-		String str = "geeksforgeeks"; 
-		printCharWithFreq(str); 
+		String str = "geeksforgeeks";
+		printCharWithFreq(str);
 
 	}
 
 	private static void printCharWithFreq(String str) {
 		int n = str.length();
 		int[] freq = new int[26];
-		
-		for(int i = 0; i< n; i++) {
-			freq[str.charAt(i)-'a']++;
+
+		for (int i = 0; i < n; i++) {
+			freq[str.charAt(i) - 'a']++;
 		}
-		
-		for(int i = 0; i< n ;i++) {
-			if(freq[str.charAt(i) - 'a'] > 0 && freq[str.charAt(i)-'a'] %2 == 0) {
+
+		for (int i = 0; i < n; i++) {
+			if (freq[str.charAt(i) - 'a'] > 0 && freq[str.charAt(i) - 'a'] % 2 == 0) {
 				System.out.println(str.charAt(i));
-				
-				freq[str.charAt(i) - 'a'] = 0; 
+
+				freq[str.charAt(i) - 'a'] = 0;
 			}
 		}
-		
+
 	}
 
 }

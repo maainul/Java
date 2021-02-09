@@ -31,7 +31,5 @@ class PrimeNumber {
 
 // Output
 /*
-Enter a number :
-7
-Prime Number
-*/
+ * Enter a number : 7 Prime Number
+ */

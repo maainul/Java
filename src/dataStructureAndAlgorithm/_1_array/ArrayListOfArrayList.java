@@ -44,7 +44,5 @@ public class ArrayListOfArrayList {
 
 }
 /*
-1 2 
-5 
-10 20 30
-*/
+ * 1 2 5 10 20 30
+ */

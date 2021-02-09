@@ -76,39 +76,38 @@ Sample Output 0
  */
 
 public class TimeConversion {
-    public static void main(String[] args) {
-        String time = "07:05:45PM";
-        String s = timeConversionMethod(time);
-        System.out.println(s);
-    }
+	public static void main(String[] args) {
+		String time = "07:05:45PM";
+		String s = timeConversionMethod(time);
+		System.out.println(s);
+	}
 
-    private static String timeConversionMethod(String time) {
-        String splitStr[] = time.split(":");
+	private static String timeConversionMethod(String time) {
+		String splitStr[] = time.split(":");
 
-        String hour = splitStr[0];
-        String minute = splitStr[1];
-        String second = splitStr[2].substring(0,2);
+		String hour = splitStr[0];
+		String minute = splitStr[1];
+		String second = splitStr[2].substring(0, 2);
 
-        String caser = splitStr[2].substring(2,4);
+		String caser = splitStr[2].substring(2, 4);
 
-        if (caser.equals("AM")){
-            if (hour.equals("12")){
-                hour = "00";
-            }
-            // return (hour+":"+minute+":"+second);
+		if (caser.equals("AM")) {
+			if (hour.equals("12")) {
+				hour = "00";
+			}
+			// return (hour+":"+minute+":"+second);
 
-        }else {
-            if (!hour.equals("12")){
-                int h = Integer.parseInt(hour);
-                h = h + 12;
-                hour = ""+h;
-            }
-            // return (hour+":"+minute+":"+second);
+		} else {
+			if (!hour.equals("12")) {
+				int h = Integer.parseInt(hour);
+				h = h + 12;
+				hour = "" + h;
+			}
+			// return (hour+":"+minute+":"+second);
 
-        }
+		}
 
-        return (hour+":"+minute+":"+second);
+		return (hour + ":" + minute + ":" + second);
 
-
-    }
+	}
 }

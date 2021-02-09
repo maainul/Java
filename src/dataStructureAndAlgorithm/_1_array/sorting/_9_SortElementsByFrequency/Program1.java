@@ -88,7 +88,7 @@ Below is the implementation of above approach.
 public class Program1 {
 
 	public static void main(String[] args) {
-		int arr[] = {2, 5, 2, 8, 5, 6, 8, 8};
+		int arr[] = { 2, 5, 2, 8, 5, 6, 8, 8 };
 		int[] reslt = frequency(arr);
 		System.out.println(Arrays.toString(reslt));
 
@@ -96,8 +96,8 @@ public class Program1 {
 
 	private static int[] frequency(int[] arr) {
 		Arrays.sort(arr);
-		return  arr;
-		
+		return arr;
+
 	}
 
 }

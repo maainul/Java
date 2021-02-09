@@ -21,7 +21,6 @@ Output: [2,2,2,1,4,3,3,9,6,7,19]
 public class _1122_RelativeSortArray {
 
 	public static void main(String[] args) {
-		
 
 	}
 

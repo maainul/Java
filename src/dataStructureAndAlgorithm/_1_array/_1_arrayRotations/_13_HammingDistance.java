@@ -1,6 +1,5 @@
 package dataStructureAndAlgorithm._1_array._1_arrayRotations;
 
-
 public class _13_HammingDistance {
 	// Java program to Find another array
 	// such that the hamming distance

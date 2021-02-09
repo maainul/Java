@@ -17,4 +17,3 @@ public class Main {
 
 }
 // 9 6 8 5 1 3 7
-

@@ -9,6 +9,7 @@
 package thread._4_SleepMethod;
 
 class MythreadD extends Thread {
+	@Override
 	public void run() {
 
 		try {

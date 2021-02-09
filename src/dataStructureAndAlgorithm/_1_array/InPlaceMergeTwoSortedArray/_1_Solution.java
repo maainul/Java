@@ -15,7 +15,6 @@ public class _1_Solution {
 	}
 
 	private static void merge(int[] x, int[] y) {
-		
 
 	}
 

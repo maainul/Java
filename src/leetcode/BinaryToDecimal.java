@@ -10,14 +10,14 @@ public class BinaryToDecimal {
 
 	private static int decimalConversion(int num) {
 		int decimal_number = 0;
-		int base =1;
+		int base = 1;
 		int temp = num;
 		int last_digit = 0;
-		
-		while(temp > 0) {
-			last_digit = temp %10;
+
+		while (temp > 0) {
+			last_digit = temp % 10;
 			temp = temp / 10;
-			decimal_number += last_digit* base;
+			decimal_number += last_digit * base;
 			base = base * 2;
 		}
 

@@ -18,7 +18,7 @@ public class BruteForceSubstringSearch {
 				if (txt.charAt(i + j) != pat.charAt(j)) {
 					break;
 				}
-					
+
 			}
 			if (j == M)
 				return i; // found // index in the text where pattern start.

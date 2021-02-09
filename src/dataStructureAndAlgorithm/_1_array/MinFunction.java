@@ -9,7 +9,7 @@ public class MinFunction {
 		double y = -23;
 		double m = -25;
 		double n = -23;
-		
+
 		System.out.println(Math.min(a, b));
 		System.out.println(Math.min(x, y));
 		System.out.println(Math.min(m, n));
@@ -18,7 +18,5 @@ public class MinFunction {
 }
 
 /*
-12.123
--23.0
--25.0
-*/
+ * 12.123 -23.0 -25.0
+ */

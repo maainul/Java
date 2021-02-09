@@ -34,39 +34,36 @@ public class _151_ReverseWordOfString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String string = "  hello you world!  ";
-		//reverse(string);
+		// reverse(string);
 		System.out.println(reverse(string));
-		
+
 		System.out.println(new String(" hello     there   ").trim().replaceAll("\\s{2,}", " "));
 	}
-
-	
 
 	private static String reverse(String string) {
 		String[] strs = string.split(" ");
 		StringBuilder sBuilder = new StringBuilder();
-		
-		for (int i = strs.length-1; i>= 0; i--) {
-			if(strs[i].length() == 0) continue;
+
+		for (int i = strs.length - 1; i >= 0; i--) {
+			if (strs[i].length() == 0)
+				continue;
 			sBuilder.append(strs[i]);
 			sBuilder.append(" ");
 		}
 		return sBuilder.toString().trim();
-		
+
 	}
-	
-	
+
 	public String reverseWords(String s) {
-        s = s.trim().replaceAll("\\s{2,}", " ");
-        String[] str = s.split(" ");
-        
-        StringBuilder sb = new StringBuilder();
-        for(int i = str.length -1 ; i >= 0 ; i--){
-            sb.append(str[i]);
-            sb.append(" ");
-        }
-        return sb.toString().trim();
-    }
-	
-	
+		s = s.trim().replaceAll("\\s{2,}", " ");
+		String[] str = s.split(" ");
+
+		StringBuilder sb = new StringBuilder();
+		for (int i = str.length - 1; i >= 0; i--) {
+			sb.append(str[i]);
+			sb.append(" ");
+		}
+		return sb.toString().trim();
+	}
+
 }

@@ -14,7 +14,7 @@ public class _709ToLowerCase {
 		String res = "";
 		for (int i = 0; i < str.length(); i++) {
 			char c = str.charAt(i);
-			int val = (int) str.charAt(i);
+			int val = str.charAt(i);
 			if (val >= 65 && val <= 90) {
 				c = (char) (val + 32);
 			}
@@ -27,7 +27,7 @@ public class _709ToLowerCase {
 		StringBuilder res = new StringBuilder();
 		for (int i = 0; i < str.length(); i++) {
 			char c = str.charAt(i);
-			int val = (int) str.charAt(i);
+			int val = str.charAt(i);
 			if (val >= 65 && val <= 90) {
 				c = (char) (val + 32);
 			}

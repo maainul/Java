@@ -1,10 +1,8 @@
 package leetcode;
 
-public class RomanToInteger 
-{ 
-	// This function returns value of a Roman symbol 
-	int number(char c) 
-	{ 
+public class RomanToInteger {
+	// This function returns value of a Roman symbol
+	int number(char c) {
 		switch (c) {
 		case 'I':
 			return 1;
@@ -18,35 +16,31 @@ public class RomanToInteger
 			return 100;
 		case 'M':
 			return 1000;
-			default:
-				return 0;
-			
-	}
-}	
+		default:
+			return 0;
 
-	int romanToDecimal(String s) 
-	{ 
+		}
+	}
+
+	int romanToDecimal(String s) {
 		int result = 0;
-		
+
 		for (int i = 0; i < s.length(); i++) {
-			if( i> 0 && number(s.charAt(i)) > number(s.charAt(i-1))) {
-				result = result + number(s.charAt(i))- 2*number(s.charAt(i-1));
+			if (i > 0 && number(s.charAt(i)) > number(s.charAt(i - 1))) {
+				result = result + number(s.charAt(i)) - 2 * number(s.charAt(i - 1));
+			} else {
+				result = result + number(s.charAt(i));
 			}
-			else {
-				result = result+ number(s.charAt(i));
-			}	
 		}
 		return result;
-	} 
+	}
 
-	// Driver method 
-	public static void main(String args[]) 
-	{ 
-		RomanToInteger ob = new RomanToInteger(); 
+	// Driver method
+	public static void main(String args[]) {
+		RomanToInteger ob = new RomanToInteger();
 
-		// Considering inputs given are valid 
-		String s = "XXIV"; 
-		System.out.println("Integer form of Roman Numeral" + 
-						" is " + ob.romanToDecimal(s)); 
-	} 
-} 
+		// Considering inputs given are valid
+		String s = "XXIV";
+		System.out.println("Integer form of Roman Numeral" + " is " + ob.romanToDecimal(s));
+	}
+}

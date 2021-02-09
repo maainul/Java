@@ -15,14 +15,14 @@ public class _1_Program {
 	 */
 	public static void main(String[] args) {
 		String str = "   Hello Geeks . Welcome   to  GeeksforGeeks   .    ";
-		
+
 		String string = removeExtraSpace(str);
 		System.out.println(string);
 
 	}
 
 	private static String removeExtraSpace(String str) {
-		
+
 		return null;
 	}
 

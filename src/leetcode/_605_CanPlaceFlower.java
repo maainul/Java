@@ -58,7 +58,7 @@ public class _605_CanPlaceFlower {
 				flowerbed[i] = 1;
 				n--;
 			}
-			
+
 		}
 		return n <= 0;
 	}

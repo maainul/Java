@@ -19,7 +19,7 @@ public class _4_3_ReturningValues {
 	private static int number(int number) {
 		number++;
 		return number;
-		
+
 	}
 
 }

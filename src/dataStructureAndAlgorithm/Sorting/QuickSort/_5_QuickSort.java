@@ -5,12 +5,12 @@ import java.util.Arrays;
 public class _5_QuickSort {
 
 	public static void main(String[] args) {
-		int array[] = {9,6,7,4,1,3,2};
+		int array[] = { 9, 6, 7, 4, 1, 3, 2 };
 		System.out.println("Before Sorted Array...");
 		System.out.println(Arrays.toString(array));
-		int high = array.length-1;
-		quickSort(array,0,high);
-		
+		int high = array.length - 1;
+		quickSort(array, 0, high);
+
 		System.out.println("\nAfter Sorted");
 		System.out.println(Arrays.toString(array));
 	}
@@ -19,14 +19,13 @@ public class _5_QuickSort {
 		if (low >= high) {
 			return;
 		}
-		int middle = low + (high - low)/2;
+		int middle = low + (high - low) / 2;
 		int pivot = array[middle];
-		
-		int index = partition(array,low,high,pivot);
-		quickSort(array, low, index-1);
+
+		int index = partition(array, low, high, pivot);
+		quickSort(array, low, index - 1);
 		quickSort(array, index, high);
-		
-		
+
 	}
 
 	private static int partition(int[] array, int low, int high, int pivot) {
@@ -37,8 +36,8 @@ public class _5_QuickSort {
 			while (array[high] > pivot) {
 				high--;
 			}
-			
-			if (low <=high) {
+
+			if (low <= high) {
 				int temp = array[low];
 				array[low] = array[high];
 				array[high] = temp;

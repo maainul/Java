@@ -1,4 +1,5 @@
 package javastrings.Class.String;
+
 // The java string lastIndexOf() method returns last index of the given character value or substring. 
 // If it is not found, it returns -1. The index counter starts from zero.
 public class _20_StringLastIndexOf {

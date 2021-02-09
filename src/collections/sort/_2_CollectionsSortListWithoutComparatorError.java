@@ -15,17 +15,17 @@ package collections.sort;
 import java.util.ArrayList;
 import java.util.List;
 
-class Fruits{
+class Fruits {
 	int id;
-	String nameString,testString;
-	
+	String nameString, testString;
+
 	// constructor
 	public Fruits(int id, String nameString, String testString) {
 		this.id = id;
 		this.nameString = nameString;
 		this.testString = testString;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Fruits [id=" + id + ", nameString=" + nameString + ", testString=" + testString + "]";
@@ -36,11 +36,11 @@ public class _2_CollectionsSortListWithoutComparatorError {
 
 	public static void main(String[] args) {
 		// create four object
-		Fruits object1=new Fruits(1, "Apple", "Sweet");
-    	Fruits object2=new Fruits(2, "Orange", "Sour");
-    	Fruits object3=new Fruits(4, "Banana", "Sweet");
-    	Fruits object4=new Fruits(3, "Grape", "Sweet and Sour");
-		//call collections class
+		Fruits object1 = new Fruits(1, "Apple", "Sweet");
+		Fruits object2 = new Fruits(2, "Orange", "Sour");
+		Fruits object3 = new Fruits(4, "Banana", "Sweet");
+		Fruits object4 = new Fruits(3, "Grape", "Sweet and Sour");
+		// call collections class
 		List<Fruits> fruitlist = new ArrayList<Fruits>();
 		// add objects to the list
 		fruitlist.add(object1);
@@ -49,13 +49,13 @@ public class _2_CollectionsSortListWithoutComparatorError {
 		fruitlist.add(object4);
 		// show the result
 		System.out.println(fruitlist);
-		
-		// error line 
-		// The method sort(List<T>) in the type Collections is not applicable for the arguments (List<Fruits>
+
+		// error line
+		// The method sort(List<T>) in the type Collections is not applicable for the
+		// arguments (List<Fruits>
 		// if you want to show magic you have to uncomment
-		//Collections.sort(fruitlist);
-		
-		
+		// Collections.sort(fruitlist);
+
 	}
 
 }

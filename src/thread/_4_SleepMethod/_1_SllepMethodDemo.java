@@ -8,7 +8,8 @@
  */
 package thread._4_SleepMethod;
 
-class Mythread extends Thread{
+class Mythread extends Thread {
+	@Override
 	public void run() {
 		for (int i = 0; i < 10; i++) {
 			System.out.println("I am lazy");
@@ -21,9 +22,6 @@ class Mythread extends Thread{
 	}
 }
 
-
-
-
 public class _1_SllepMethodDemo {
 
 	/**
@@ -32,7 +30,6 @@ public class _1_SllepMethodDemo {
 	public static void main(String[] args) {
 		Mythread tMythread = new Mythread();
 		tMythread.start();
-		
 
 	}
 

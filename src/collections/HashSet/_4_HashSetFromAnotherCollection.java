@@ -36,15 +36,15 @@ public class _4_HashSetFromAnotherCollection {
 		list.add("sattar");
 		list.add("gaffar");
 		list.add("muhaumin");
-		
+
 		HashSet<String> set = new HashSet<String>(list);
 		set.add("Rajjak");
-		
+
 		Iterator<String> iterator = set.iterator();
-		while(iterator.hasNext()) {
+		while (iterator.hasNext()) {
 			System.out.println(iterator.next());
 		}
-		
+
 	}
 
 }

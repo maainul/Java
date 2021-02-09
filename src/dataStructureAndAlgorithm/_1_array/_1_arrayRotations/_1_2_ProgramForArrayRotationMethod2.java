@@ -45,7 +45,7 @@ public class _1_2_ProgramForArrayRotationMethod2 {
 	private static void rotateArray(int[] arr, int n, int d) {
 		for (int i = 0; i < d; i++) {
 			rotateOneleftTORight(arr, n);
-			
+
 		}
 	}
 
@@ -57,7 +57,6 @@ public class _1_2_ProgramForArrayRotationMethod2 {
 			arr[i + 1] = temp;
 			System.out.println(Arrays.toString(arr));
 		}
-		
 
 	}
 }

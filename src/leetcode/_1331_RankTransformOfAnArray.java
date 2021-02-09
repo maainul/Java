@@ -50,7 +50,7 @@ public class _1331_RankTransformOfAnArray {
 		int[] result = rankArray(arr);
 
 		System.out.println(Arrays.toString(result));
-		
+
 		int[] arr2 = { 40, 10, 20, 30 };
 
 		System.out.println(Arrays.toString(arr2));

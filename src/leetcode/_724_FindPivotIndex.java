@@ -1,4 +1,5 @@
 package leetcode;
+
 /*
 724. Find Pivot Index
 
@@ -40,24 +41,25 @@ int sum = 0;
 
  */
 public class _724_FindPivotIndex {
-    public static int findpivot(int nums[]){
-        int sum = 0;
-        for(int i = 0; i < nums.length; i++){
-            sum +=nums[i];
-        }
-        for(int i= 0; i < nums.length; i++){
-            sum-= nums[i];
-            if(sum == 0){
-                return i;
-            }
-            sum -= nums[i];
-        }
-        return -1;
-    }
-    public static void main(String[] args) {
-        int nums[] = {1,7,3,6,5,6};
-        int res = findpivot(nums);
-        System.out.println(res);
+	public static int findpivot(int nums[]) {
+		int sum = 0;
+		for (int i = 0; i < nums.length; i++) {
+			sum += nums[i];
+		}
+		for (int i = 0; i < nums.length; i++) {
+			sum -= nums[i];
+			if (sum == 0) {
+				return i;
+			}
+			sum -= nums[i];
+		}
+		return -1;
+	}
 
-    }
+	public static void main(String[] args) {
+		int nums[] = { 1, 7, 3, 6, 5, 6 };
+		int res = findpivot(nums);
+		System.out.println(res);
+
+	}
 }
