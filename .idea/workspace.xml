@@ -23,11 +23,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_2_arrangementRearrangement /README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_2_arrangementRearrangement/RearrangeArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_2_arrangementRearrangement/_4_RearrangePositiveNegativeWIthExtraSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functionalProgrammingBook/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functionalProgrammingBook/_2_UsingCollections/_4_ReusingLambdaExpression/_ReusingLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functionalProgrammingBook/_2_UsingCollections/_5_RefactoringNarrowTheScope/RefactoringNarrowTheScope.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/Android.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/Android.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/FactoryMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/FactoryMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/OS.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/OS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/OperatingSystemFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/OperatingSystemFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/WIndows.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/WIndows.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/_Exm_2_Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/_Exm_2_Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/_Exm_2_AnimalFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/_Exm_2_AnimalFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/_Exm_2_AnimalMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/_Exm_2_AnimalMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/_Exm_2_Cow.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/_Exm_2_Cow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/_Exm_2_Horse.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/_Exm_2_Horse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/_Exm_2_Lion.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_1_factoryDesignPattern/_Exm_2_Lion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/PhoneBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/PhoneBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/PhoneMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/PhoneMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/StudentBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/StudentBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/StudentMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/StudentMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/combineFactoryAndBuilderPattern/Bottle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/combineFactoryAndBuilderPattern/Bottle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/combineFactoryAndBuilderPattern/BottleBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/combineFactoryAndBuilderPattern/BottleBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/combineFactoryAndBuilderPattern/BottleMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/combineFactoryAndBuilderPattern/BottleMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/combineFactoryAndBuilderPattern/Kindfisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/combineFactoryAndBuilderPattern/Kindfisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/functionalProgrammingBook/_1_City.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/functionalProgrammingBook/_1_City.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/functionalProgrammingBook/_2_UsingCollections/_1_IteratingThroughList/ListCLass$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/functionalProgrammingBook/_2_UsingCollections/_1_IteratingThroughList/ListCLass$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/functionalProgrammingBook/_2_UsingCollections/_1_IteratingThroughList/ListCLass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/functionalProgrammingBook/_2_UsingCollections/_1_IteratingThroughList/ListCLass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/functionalProgrammingBook/_2_UsingCollections/_2_transformainAList/UpperCaseLowerCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/functionalProgrammingBook/_2_UsingCollections/_2_transformainAList/UpperCaseLowerCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/functionalProgrammingBook/_2_UsingCollections/_3_FindingElements/StartSWithExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/functionalProgrammingBook/_2_UsingCollections/_3_FindingElements/StartSWithExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functionalProgrammingBook/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalProgrammingBook/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +130,7 @@
       <recent name="dataStructureAndAlgorithm.Tree.BinaryTree.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RearrangeArray">
+  <component name="RunManager" selected="Application.RefactoringNarrowTheScope">
     <configuration name="RearrangeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.geekforgeeks._2_arrangementRearrangement.RearrangeArray" />
       <module name="Java" />
@@ -119,25 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartSWithExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functionalProgrammingBook._2_UsingCollections._3_FindingElements.StartSWithExample" />
+    <configuration name="RefactoringNarrowTheScope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functionalProgrammingBook._2_UsingCollections._5_RefactoringNarrowTheScope.RefactoringNarrowTheScope" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functionalProgrammingBook._2_UsingCollections._3_FindingElements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UpperCaseLowerCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functionalProgrammingBook._2_UsingCollections._2_transformainAList.UpperCaseLowerCase" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functionalProgrammingBook._2_UsingCollections._2_transformainAList.*" />
+          <option name="PATTERN" value="functionalProgrammingBook._2_UsingCollections._5_RefactoringNarrowTheScope.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,13 +183,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_ReusingLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functionalProgrammingBook._2_UsingCollections._4_ReusingLambdaExpression._ReusingLambda" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functionalProgrammingBook._2_UsingCollections._4_ReusingLambdaExpression.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RefactoringNarrowTheScope" />
+        <item itemvalue="Application._ReusingLambda" />
         <item itemvalue="Application.RearrangeArray" />
         <item itemvalue="Application._4_RearrangePositiveNegativeWithoutExtraSpace2" />
         <item itemvalue="Application._4_RearrangePositiveNegativeWIthExtraSpace" />
-        <item itemvalue="Application.StartSWithExample" />
-        <item itemvalue="Application.UpperCaseLowerCase" />
       </list>
     </recent_temporary>
   </component>
