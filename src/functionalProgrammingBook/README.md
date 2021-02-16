@@ -1,7 +1,7 @@
 # Chapter 2 Collections
 
 # 1. Iterating Through List 
-```.java
+```java
 package functionalProgrammingBook._2_UsingCollections._1_IteratingThroughList;
 
 import java.util.Arrays;
@@ -69,7 +69,7 @@ public class ListCLass {
 }
 ```
 # 2. Transforming List (upperLower/LowerUpper)
-```.java
+```java
 package functionalProgrammingBook._2_UsingCollections._2_transformainAList;
 
 import java.util.ArrayList;
@@ -131,7 +131,7 @@ public class UpperCaseLowerCase {
 }
 ```
 # 3. Finding Elements (StartsWith/EndsWith)
-```.java
+```java
 package functionalProgrammingBook._2_UsingCollections._3_FindingElements;
 
 import java.util.ArrayList;
@@ -175,7 +175,7 @@ public class StartSWithExample {
 ```
 # 4. Reusing Lambda
 
-```.java
+```java
 package functionalProgrammingBook._2_UsingCollections._4_ReusingLambdaExpression;
 
 import java.util.Arrays;
@@ -279,7 +279,7 @@ Let’s figure out a way to eliminate this duplication.
 }
 ```
 # 5.Refactoring Narrow The Scope
-```.java
+```java
 package functionalProgrammingBook._2_UsingCollections._5_RefactoringNarrowTheScope;
 
 import java.util.Arrays;
@@ -344,4 +344,104 @@ public class RefactoringNarrowTheScope {
     }
 }
 
+```
+# 6. Picking An Element
+```java
+package functionalProgrammingBook._2_UsingCollections._6_PickingAnElement;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+
+public class PickingAnElement {
+    public static void main(String[] args) {
+        final List<String> names = Arrays.asList("Brian", "Nate", "Neal", "Raju", "Sara", "Scott");
+
+        pickName(names, "S");
+        pickName2(names, "N");
+    }
+
+    private static void pickName(
+            final List<String> names, final String startingLetter) {
+        String foundName = null;
+        for (String name : names) {
+            if (name.startsWith(startingLetter)) {
+                foundName = name;
+                break;
+            }
+        }
+        System.out.println(String.format("A name starting with %s: ", startingLetter));
+
+        if (foundName != null) {
+            System.out.println(foundName);
+        } else {
+            System.out.println("No name found.");
+        }
+    }
+    // update version
+    public static void pickName2(final List<String> names, final String startingLetter){
+        final Optional<String> foundName =
+                names.stream()
+                .filter(name-> name.startsWith(startingLetter))
+                .findFirst();
+
+        System.out.println(String.format("A name starting with %s : %s",startingLetter,foundName.orElse("No Name Found")));
+    }
+}
+
+```
+# 7. Reducing Collectin to a Single Value
+```java
+package functionalProgrammingBook._2_UsingCollections._7_ReducingaCollectiontoaSingleValue;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+
+public class ReducingCollection {
+    public static void main(String[] args) {
+        final List<String> names = Arrays.asList("Brian", "Nate", "Neal", "Raju", "Sara", "Scott");
+
+        System.out.println("Total numnber of character in all names");
+        names.stream()
+                .mapToInt(name -> name.length())
+    .sum();
+
+
+        final Optional<String> aLongName = names.stream()
+                .reduce((name1, name2) -> name1.length() >= name2.length() ? name1 : name2);
+        aLongName.ifPresent(name -> System.out.println(String.format("A Longes name  %s ",name)));
+
+
+        final String steveOrLonger = names.stream()
+                .reduce("Steve", (name1, name2) -> name1.length() >= name2.length() ? name1 : name2);
+        }
+    }
+```
+# 8. Joining Element
+```java
+package functionalProgrammingBook._8_JoiningElements;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class JoiningElements {
+    public static void main(String[] args) {
+        final List<String> names = Arrays.asList("Brian", "Nate", "Neal", "Raju", "Sara", "Scott");
+
+        for (String name: names
+             ) {
+            System.out.print(name + ",");
+        }
+        System.out.println();
+        for(int i = 0; i < names.size(); i++){
+            System.out.print(names.get(i) + ",");
+        }
+
+        if(names.size() > 0)
+            System.out.println(names.get(names.size() - 1));
+
+        System.out.println(String.join(", ", names));
+    }
+}
 ```
