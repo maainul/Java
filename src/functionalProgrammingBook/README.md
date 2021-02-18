@@ -119,6 +119,11 @@ public class UpperCaseLowerCase {
         friends.stream()
                 .map(name -> name.length())
                 .forEach(count -> System.out.print(count + " "));
+ 	System.out.println("**** Find Length of each name Using method reference*****");
+	friends.stream()
+        	.map(String::length)
+        	.forEach(System.out::println);
+
 
         System.out.println("******* Using Method reference *****");
         friends.stream()
