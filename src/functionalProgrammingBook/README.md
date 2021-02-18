@@ -115,23 +115,26 @@ public class UpperCaseLowerCase {
                 .forEach(name -> System.out.print(name + " "));
         System.out.println();
 
-        System.out.println("**** Find Length of each name *****");
+	// lambda and method reference
         friends.stream()
-                .map(name -> name.length())
-                .forEach(count -> System.out.print(count + " "));
- 	System.out.println("**** Find Length of each name Using method reference*****");
-	friends.stream()
-        	.map(String::length)
-        	.forEach(System.out::println);
-
+                .map(name -> name.toUpperCase())
+                .forEach(System.out::println);
 
         System.out.println("******* Using Method reference *****");
         friends.stream()
                 .map(String::toUpperCase)
-                .forEach(name -> System.out.print(name + " "));
+                .forEach(System.out::println));
         System.out.println();
 
-
+        System.out.println("**** Find Length of each name *****");
+        friends.stream()
+                .map(name -> name.length())
+                .forEach(count -> System.out.print(count + " "));
+		
+ 	System.out.println("**** Find Length of each name Using method reference*****");
+	friends.stream()
+        	.map(String::length)
+        	.forEach(System.out::println);
     }
 }
 ```
