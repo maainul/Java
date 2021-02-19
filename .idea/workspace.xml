@@ -23,64 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/ImplementThreadAnnonymousInnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/MyArrayListUsingLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/MyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/MyEmployeeSortedUsingLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/ReplaceWithLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_2_arrangementRearrangement/GFG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_2_arrangementRearrangement/NegativePositiveWithExtraSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_2_arrangementRearrangement/_14_ArrangeGivenNumbersToFormTheBiggestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_2_arrangementRearrangement/_17_RearrangeArrayMinimunAndMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_2_arrangementRearrangement/_20_OddEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_3_OrderStatistics/GFG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_3_OrderStatistics/_13KthContiguous.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_3_OrderStatistics/_14KMaximunSumOfCombinationArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_3_OrderStatistics/_8_Find3Largest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/optimizedProblem/KadaneAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/optimizedProblem/PrefixSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/heap/GFG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/heap/MyHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functionalProgrammingBook/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functionalProgrammingBook/MyComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functionalProgrammingBook/TestAgain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/EmployeePredicateSalaryFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/FIndNameLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/PredicateExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/comparatorAndComparator/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/comparatorAndComparator/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/comparatorAndComparator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/comparatorAndComparator/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/comparatorAndComparator/MyComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/comparatorAndComparator/MyComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/constructor/ConstructorOverloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/constructor/ConstructorOverloading.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/constructor/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/constructor/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/Test$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/Test$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/geekforgeeks/_2_arrangementRearrangement/_10_RearrangeArrayOddEven.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/geekforgeeks/_2_arrangementRearrangement/_10_RearrangeArrayOddEven.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/geekforgeeks/_2_arrangementRearrangement/_10_SecondApproach.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/geekforgeeks/_2_arrangementRearrangement/_10_SecondApproach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/geekforgeeks/_2_arrangementRearrangement/_11_RearrangeAnArrayInOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/geekforgeeks/_2_arrangementRearrangement/_11_RearrangeAnArrayInOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/geekforgeeks/_2_arrangementRearrangement/_12_DoubleFIrstElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/geekforgeeks/_2_arrangementRearrangement/_12_DoubleFIrstElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/geekforgeeks/_2_arrangementRearrangement/_9_RearrangePositiveAndNegativeNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/geekforgeeks/_2_arrangementRearrangement/_9_RearrangePositiveAndNegativeNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/durgasoftJava8NewFeatures/ImplementThreadAnnonymousInnerClass$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/durgasoftJava8NewFeatures/ImplementThreadAnnonymousInnerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/durgasoftJava8NewFeatures/MyArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/durgasoftJava8NewFeatures/MyArrayListUsingLambda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/durgasoftJava8NewFeatures/MyComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/durgasoftJava8NewFeatures/MyDescendingOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/durgasoftJava8NewFeatures/MyEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/durgasoftJava8NewFeatures/MyEmployeeSortedUsingLambda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/durgasoftJava8NewFeatures/MySortedEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/durgasoftJava8NewFeatures/ReplaceWithLambda.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/functionalProgrammingBook/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bin/functionalProgrammingBook/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/functionalProgrammingBook/_2_UsingCollections/_4_ReusingLambdaExpression/_ReusingLambda.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/functionalProgrammingBook/_2_UsingCollections/_4_ReusingLambdaExpression/_ReusingLambda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/functionalProgrammingBook/_2_UsingCollections/_5_RefactoringNarrowTheScope/RefactoringNarrowTheScope.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/functionalProgrammingBook/_2_UsingCollections/_5_RefactoringNarrowTheScope/RefactoringNarrowTheScope.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/functionalProgrammingBook/_2_UsingCollections/_6_PickingAnElement/PickingAnElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/functionalProgrammingBook/_2_UsingCollections/_6_PickingAnElement/PickingAnElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/functionalProgrammingBook/_2_UsingCollections/_7_ReducingaCollectiontoaSingleValue/ReducingCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/functionalProgrammingBook/_2_UsingCollections/_7_ReducingaCollectiontoaSingleValue/ReducingCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/functionalProgrammingBook/_8_JoiningElements/JoiningElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/functionalProgrammingBook/_8_JoiningElements/JoiningElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/oopConcept/AutomaticPromotion/AutomaticPromotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/AutomaticPromotion/AutomaticPromotion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/oopConcept/AutomaticPromotion/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/AutomaticPromotion/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/oopConcept/abstractClass/abstractClassVsAbstractMethod/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/abstractClass/abstractClassVsAbstractMethod/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/oopConcept/abstractClass/abstractClassVsAbstractMethod/SubSubTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/abstractClass/abstractClassVsAbstractMethod/SubSubTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/oopConcept/abstractClass/abstractClassVsAbstractMethod/SubTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/abstractClass/abstractClassVsAbstractMethod/SubTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/oopConcept/abstractClass/abstractClassVsAbstractMethod/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/abstractClass/abstractClassVsAbstractMethod/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/priotectedModifier/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/priotectedModifier/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/priotectedModifier/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/priotectedModifier/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/privateModifier/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/privateModifier/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/privateModifier/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/privateModifier/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/publicModifier/pack2/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/publicModifier/pack2/B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/nestedClass/Test$Auto.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/nestedClass/Test$Auto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/nestedClass/Test$Bus.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/nestedClass/Test$Bus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/nestedClass/Test$Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/nestedClass/Test$Vehicle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/nestedClass/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/nestedClass/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +119,33 @@
       <recent name="dataStructureAndAlgorithm.Tree.BinaryTree.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReplaceWithLambda">
+  <component name="RunManager" selected="Application.EmployeePredicateSalaryFinder">
+    <configuration name="EmployeePredicateSalaryFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8NewFeaturesdurgasoft.EmployeePredicateSalaryFinder" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java8NewFeaturesdurgasoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FIndNameLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8NewFeaturesdurgasoft.FIndNameLength" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java8NewFeaturesdurgasoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImplementThreadAnnonymousInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java8NewFeaturesdurgasoft.ImplementThreadAnnonymousInnerClass" />
       <module name="Java" />
@@ -175,34 +159,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayListUsingLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java8NewFeaturesdurgasoft.MyArrayListUsingLambda" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java8NewFeaturesdurgasoft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java8NewFeaturesdurgasoft.MyEmployee" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java8NewFeaturesdurgasoft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyEmployeeSortedUsingLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java8NewFeaturesdurgasoft.MyEmployeeSortedUsingLambda" />
+    <configuration name="PredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8NewFeaturesdurgasoft.PredicateExample" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -229,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeePredicateSalaryFinder" />
+        <item itemvalue="Application.FIndNameLength" />
+        <item itemvalue="Application.PredicateExample" />
         <item itemvalue="Application.ReplaceWithLambda" />
         <item itemvalue="Application.ImplementThreadAnnonymousInnerClass" />
-        <item itemvalue="Application.MyEmployeeSortedUsingLambda" />
-        <item itemvalue="Application.MyEmployee" />
-        <item itemvalue="Application.MyArrayListUsingLambda" />
       </list>
     </recent_temporary>
   </component>
