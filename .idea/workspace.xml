@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/StreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/JavaStreamExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Java8NewFeaturesdurgasoft/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Java8NewFeaturesdurgasoft/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/README.md" afterDir="false" />
@@ -113,7 +112,7 @@
       <recent name="dataStructureAndAlgorithm.Tree.BinaryTree.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamExample">
+  <component name="RunManager" selected="Application.JavaStreamExample">
     <configuration name="BiPredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java8NewFeaturesdurgasoft.BiPredicateExample" />
       <module name="Java" />
@@ -127,8 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java8NewFeaturesdurgasoft.StreamExample" />
+    <configuration name="JavaStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8NewFeaturesdurgasoft.JavaStreamExample" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -140,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java8NewFeaturesdurgasoft.Student" />
+    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8NewFeaturesdurgasoft.StreamExample" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -181,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaStreamExample" />
         <item itemvalue="Application.StreamExample" />
         <item itemvalue="Application.ThreadTest" />
         <item itemvalue="Application.BiPredicateExample" />
         <item itemvalue="Application.SupplierDate" />
-        <item itemvalue="Application.Student" />
       </list>
     </recent_temporary>
   </component>
