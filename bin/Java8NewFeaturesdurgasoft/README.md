@@ -768,7 +768,40 @@ public class FIndNameLength {
 
 ```
 ## Find Employee Which salary is greater than 3000
+```java
+package Java8NewFeaturesdurgasoft;
 
+import java.util.Arrays;
+import java.util.List;
+
+public class EmployeePredicateSalaryFinder {
+    double salary;
+    String name;
+
+    public EmployeePredicateSalaryFinder(double salary, String name) {
+        this.salary = salary;
+        this.name = name;
+    }
+
+    public static void main(String[] args) {
+
+        List<EmployeePredicateSalaryFinder> employeeList = Arrays.asList(
+                new EmployeePredicateSalaryFinder(1122, "Bltu"),
+                new EmployeePredicateSalaryFinder(6122, "Pintu"),
+                new EmployeePredicateSalaryFinder(3122, "Nantu"),
+                new EmployeePredicateSalaryFinder(8122, "Mnik"),
+                new EmployeePredicateSalaryFinder(4122, "Mnik")
+        );
+        
+        for (EmployeePredicateSalaryFinder obj1 : employeeList) {
+            if (obj1.salary > 3000) {
+                System.out.println(obj1.name + "------" + obj1.salary);
+            }
+        }
+    }
+}
+```
+## Using Predicate:
 ```java
 package Java8NewFeaturesdurgasoft;
 
@@ -794,18 +827,335 @@ public class EmployeePredicateSalaryFinder {
                 new EmployeePredicateSalaryFinder(8122, "Mnik"),
                 new EmployeePredicateSalaryFinder(4122, "Mnik")
         );
-
         Predicate<EmployeePredicateSalaryFinder> predicate = obj1 -> obj1.salary > 3000;
-
         for (EmployeePredicateSalaryFinder obj1 : employeeList) {
-            if (predicate.test(obj1) > 3000) {
+            if (predicate.test(obj1)) {
                 System.out.println(obj1.name + "------" + obj1.salary);
             }
         }
     }
 }
 ```
-## Using Predicate:
-```java
 
+# Funtion :
+
+1. It is also predefined functional interface.
+2. Return type not fixed can return anything
+3. Compolsory We should have provide return type based on our return value
+
+4. Predicate contain test method and Function contain apply method
+
+input-----> perform operation----> output
+
+4----> square operation---> 16
+
+## Prototype of Function
+```java
+interface Function<T,R>{
+    public R apply (T t);
+}
 ```
+
+## Example calculate sqr of a number
+```java
+package Java8NewFeaturesdurgasoft;
+
+import java.util.function.Function;
+
+public class SquareUsingFunction {
+    public static void main(String[] args) {
+        Function<Integer,Integer> function = i -> i * i ;
+        System.out.println(function.apply(10));
+        System.out.println(function.apply(5));
+    }
+}
+```
+## Example second : length,uppercase
+
+```java
+package Java8NewFeaturesdurgasoft;
+
+import java.util.function.Function;
+
+public class SquareUsingFunction {
+    public static void main(String[] args) {
+        // sqr
+        Function<Integer,Integer> function = i -> i * i ;
+        System.out.println(function.apply(10));
+        System.out.println(function.apply(5));
+        // count string length
+        Function<String,Integer> function1 = String::length;
+
+        System.out.println(function1.apply("Mainul hasan"));
+        // Upper case
+        Function<String, String> function2 = s -> s.toUpperCase();
+        System.out.println(function2.apply("mainul hasan"));
+    }
+}
+```
+## Example 3 : Student
+```java
+package Java8NewFeaturesdurgasoft;
+
+import java.util.function.Function;
+
+class StudentInfo{
+    String name;
+    int marks;
+
+    public StudentInfo(String name, int marks) {
+        this.name = name;
+        this.marks = marks;
+    }
+
+    @Override
+    public String toString() {
+        return "StudentInfo{" +
+                "name='" + name + '\'' +
+                ", marks=" + marks +
+                '}';
+    }
+}
+
+public class Student {
+    public static void main(String[] args) {
+        Function<StudentInfo,String> function = s -> {
+            int marks = s.marks;
+            String grade="";
+            if (marks >= 80) grade= "A[Distinction]";
+            else if(marks>= 60) grade = "B[First Class]";
+            else if(marks>= 50) grade = "C[Second Class]";
+            else if(marks>= 35) grade = "D[Third Class]";
+            else grade = "G[Failed]";
+            return grade;
+        };
+
+        StudentInfo[] s = {
+                new StudentInfo("ANik",100),
+                new StudentInfo("BNik",65),
+                new StudentInfo("CNik",55),
+                new StudentInfo("DNik",20),
+        };
+
+        for (StudentInfo student : s){
+            System.out.println(student.name);
+            System.out.println(student.marks);
+            System.out.println(function.apply(student));
+            System.out.println();
+        }
+    }
+}
+```
+
+## Using Function and Predicate Together
+```java
+package Java8NewFeaturesdurgasoft;
+
+import java.util.Arrays;
+import java.util.function.Function;
+import java.util.function.Predicate;
+
+class StudentInfo{
+    String name;
+    int marks;
+
+    public StudentInfo(String name, int marks) {
+        this.name = name;
+        this.marks = marks;
+    }
+
+    @Override
+    public String toString() {
+        return "StudentInfo{" +
+                "name='" + name + '\'' +
+                ", marks=" + marks +
+                '}';
+    }
+}
+
+public class Student {
+    public static void main(String[] args) {
+        Function<StudentInfo,String> function = s -> {
+            int marks = s.marks;
+            String grade="";
+            if (marks >= 80) grade= "A[Distinction]";
+            else if(marks>= 60) grade = "B[First Class]";
+            else if(marks>= 50) grade = "C[Second Class]";
+            else if(marks>= 35) grade = "D[Third Class]";
+            else grade = "G[Failed]";
+            return grade;
+        };
+
+        Predicate<StudentInfo> studentInfoPredicate = s -> s.marks >= 60;
+
+        StudentInfo[] s = {
+                new StudentInfo("ANik",100),
+                new StudentInfo("BNik",65),
+                new StudentInfo("CNik",55),
+                new StudentInfo("DNik",20),
+        };
+        System.out.println(Arrays.toString(s));
+
+        for (StudentInfo student : s){
+            if (studentInfoPredicate.test(student)){
+                System.out.println(student.name);
+                System.out.println(student.marks);
+                System.out.println(function.apply(student));
+                System.out.println();
+            }
+        }
+    }
+}
+```
+# Consumar :
+
+1. It is also predefined functional interface.
+2. No return type. It return anything/ void
+3. Predicate contain test method and Function contain apply method
+
+input-----> perform operation----> no output
+
+4----> square operation---> no output/void return
+
+```java
+interface Consumer<T>
+{
+    public void accept(T t);
+}
+```
+## Example 1
+```java
+package Java8NewFeaturesdurgasoft;
+import java.util.function.Consumer;
+public class ConsumerTest {
+    public static void main(String[] args) {
+        Consumer<String> consumer = s -> System.out.println(s);
+        consumer.accept("Mainul Hasan");
+        consumer.accept("Hello");
+
+    }
+}
+```
+## Example 2 : Student information
+```java
+package Java8NewFeaturesdurgasoft;
+
+import java.util.Arrays;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Predicate;
+
+class StudentInfo {
+    String name;
+    int marks;
+
+    public StudentInfo(String name, int marks) {
+        this.name = name;
+        this.marks = marks;
+    }
+
+    @Override
+    public String toString() {
+        return "StudentInfo{" +
+                "name='" + name + '\'' +
+                ", marks=" + marks +
+                '}';
+    }
+}
+public class Student {
+    public static void main(String[] args) {
+        Function<StudentInfo, String> function = s -> {
+            int marks = s.marks;
+            String grade = "";
+            if (marks >= 80) grade = "A[Distinction]";
+            else if (marks >= 60) grade = "B[First Class]";
+            else if (marks >= 50) grade = "C[Second Class]";
+            else if (marks >= 35) grade = "D[Third Class]";
+            else grade = "G[Failed]";
+            return grade;
+        };
+
+        Predicate<StudentInfo> studentInfoPredicate = s -> s.marks >= 60;
+
+        Consumer<StudentInfo> consumer = student -> {
+            if (studentInfoPredicate.test(student)) {
+                System.out.println(student.name);
+                System.out.println(student.marks);
+                System.out.println(function.apply(student));
+                System.out.println();
+            }
+        };
+        StudentInfo[] s = {
+                new StudentInfo("ANik", 100),
+                new StudentInfo("BNik", 65),
+                new StudentInfo("CNik", 55),
+                new StudentInfo("DNik", 20),
+        };
+        for (StudentInfo s1 : s) {
+            consumer.accept(s1);
+        }
+    }
+}
+```
+Predicate : Take some input and perform some conditional check and returns boolean value
+
+Function : Take some input and perform some operation and return the result which is need not be booolean type
+
+Consumer : Accept some input and perform operations and not required to return anything
+
+# Supplier :
+Just supply my required objects and it won't take any input
+
+## Prototype 
+```java
+interface Supplier<R>{
+    public R get();
+}
+```
+## Show me the date using Supplyer
+```java
+package Java8NewFeaturesdurgasoft;
+import java.util.Date;
+import java.util.function.Supplier;
+public class SupplierDate {
+    public static void main(String[] args) {
+        Supplier<Date> dateSupplier = () -> new Date();
+        System.out.println(dateSupplier.get());
+        
+        Supplier<String> otpsupplier = () ->{
+            String otp = "";
+            for (int i = 0; i <6; i++){
+                otp += (int) (Math.random() * 10);
+            }
+            return otp;
+        };
+        System.out.println(otpsupplier.get());
+    }
+}
+```
+- Predicate --> test()
+- Function ---> apply()
+- Consumer ---> accept()
+- Supplier----> get()
+
+**Normal predicate take only one argument.<br/>
+But if we need two argument what we have to do...<br/>
+Suppose we can to add two numbers then what will be the Functional interface<br/>
+we can BiPredicate**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
