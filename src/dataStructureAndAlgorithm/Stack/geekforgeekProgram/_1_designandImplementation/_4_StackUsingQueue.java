@@ -51,21 +51,6 @@ class MyQueueDS {
     // Original short code version
     public void push(int value) {
 
-        if (queue1.size() == 0) {
-            queue1.add(value);
-        } else {
-            int sizeOfQueue1 = queue1.size();
-            //copy element of q1 to q2
-            for (int i = 0; i < sizeOfQueue1; i++) {
-                queue2.add(queue1.remove());
-            }
-            queue1.add(value);
-            // Copy elements for Queue2 to Queue1
-            for (int k = 0; k < sizeOfQueue1; k++)
-                queue1.add(queue2.remove());
-        }
-
-
         while (!queue1.isEmpty()) {
             queue2.add(queue1.remove());
         }
