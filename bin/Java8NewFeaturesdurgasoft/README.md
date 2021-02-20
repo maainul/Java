@@ -1142,7 +1142,100 @@ public class SupplierDate {
 But if we need two argument what we have to do...<br/>
 Suppose we can to add two numbers then what will be the Functional interface<br/>
 we can BiPredicate**
+# BiPredicate
+which take two argumet
 
+## Prototype:
+```java
+interface BiPredicate<T1,T2>{
+    public boolean test(T1 t1, T2 t2){
+        
+    }
+}
+```
+## Program for BiPredicate :Add two number and find odd/even
+
+```java
+package Java8NewFeaturesdurgasoft;
+import java.util.function.BiPredicate;
+
+public class BiPredicateExample {
+    public static void main(String[] args) {
+        BiPredicate<Integer, Integer> biPredicate = (a,b) -> (a + b) %2 == 0;
+        System.out.println(biPredicate.test(10,21));
+    }
+}
+```
+# Primitive Predicate
+- IntPresicate
+- LongPredicate
+- DoublePredicate     
+# Predicate Function
+- IntFunction
+- DoubleFunction
+- LongFunction
+# Supplier
+1. BooleanSupplier
+    - boolean getAsBoolean
+2. IntSupplier
+    - int getAsInt
+3. LongSupplier
+    - long getAsLong
+4. DoubleSupplier
+    - double getAsDouble
+
+# Method and Constructor Reference
+Not done
+
+# Streams 
+# What is Stream?
+Stream represents a sequence of objects from a source
+Following are the characteristics of a Stream −
+
+![java-streams](https://user-images.githubusercontent.com/37740006/108598826-3b3e9300-73ba-11eb-8869-bd13ecc4d776.png)
+
+1. Sequence of elements − A stream provides a set of elements of specific type in a sequential manner. A stream gets/computes elements on demand. It never stores the elements.
+
+2. Source − Stream takes Collections, Arrays, or I/O resources as input source.
+
+3. Aggregate operations − Stream supports aggregate operations like 
+    - filter, 
+    - map, 
+    - limit, 
+    - reduce, 
+    - find, 
+    - match
+4. Pipelining − Most of the stream operations return stream itself so that their result can be pipelined. These operations are called intermediate operations and their function is to take input, process them, and return output to the target. 
+5. collect() method is a terminal operation which is normally present at the end of the pipelining operation to mark the end of the stream.
+
+6. Automatic iterations − Stream operations do the iterations internally over the source elements provided, in contrast to Collections where explicit iteration is required.
+
+# Stream Operations
+
+1. Intermediate Operations
+- filter()
+- map()
+- flatMap()
+- distinct()
+- sorted()
+- peek()
+- limit()
+- skip()
+2. Terminal Operations
+- forEach()
+- forEachOrdered()
+- toArray()
+- reduce()
+- collect()
+- min()
+- max()
+- count()
+- anyMatch()
+- allMatch()
+- noneMatch()
+- findFirst()
+- findAny()
+# Creating Stream 
 
 
 

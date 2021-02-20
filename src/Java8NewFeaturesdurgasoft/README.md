@@ -1166,7 +1166,216 @@ public class BiPredicateExample {
     }
 }
 ```
+# Primitive Predicate
+- IntPresicate
+- LongPredicate
+- DoublePredicate     
+# Predicate Function
+- IntFunction
+- DoubleFunction
+- LongFunction
+# Supplier
+1. BooleanSupplier
+    - boolean getAsBoolean
+2. IntSupplier
+    - int getAsInt
+3. LongSupplier
+    - long getAsLong
+4. DoubleSupplier
+    - double getAsDouble
 
+# Method and Constructor Reference
+Not done
+
+# Streams 
+# What is Stream?
+Stream represents a sequence of objects from a source
+Following are the characteristics of a Stream −
+
+![java-streams](https://user-images.githubusercontent.com/37740006/108598826-3b3e9300-73ba-11eb-8869-bd13ecc4d776.png)
+
+1. Sequence of elements − A stream provides a set of elements of specific type in a sequential manner. A stream gets/computes elements on demand. It never stores the elements.
+
+2. Source − Stream takes Collections, Arrays, or I/O resources as input source.
+
+3. Aggregate operations − Stream supports aggregate operations like 
+    - filter, 
+    - map, 
+    - limit, 
+    - reduce, 
+    - find, 
+    - match
+4. Pipelining − Most of the stream operations return stream itself so that their result can be pipelined. These operations are called intermediate operations and their function is to take input, process them, and return output to the target. 
+5. collect() method is a terminal operation which is normally present at the end of the pipelining operation to mark the end of the stream.
+
+6. Automatic iterations − Stream operations do the iterations internally over the source elements provided, in contrast to Collections where explicit iteration is required.
+
+# Stream Operations
+
+1. Intermediate Operations
+- filter()
+- map()
+- flatMap()
+- distinct()
+- sorted()
+- peek()
+- limit()
+- skip()
+2. Terminal Operations
+- forEach()
+- forEachOrdered()
+- toArray()
+- reduce()
+- collect()
+- min()
+- max()
+- count()
+- anyMatch()
+- allMatch()
+- noneMatch()
+- findFirst()
+- findAny()
+# Creating Stream 
+## https://howtodoinjava.com/java8/java-streams-by-examples/
+```java
+package Java8NewFeaturesdurgasoft;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class StreamExample {
+public static void main(String[] args) {
+// Stream.of()
+Stream<Integer> stream = Stream.of(1, 2, 3, 4, 5, 6, 7, 8, 9);
+stream.forEach(p -> System.out.println(p));
+// stream.of(array)
+Stream arrayStream = Stream.of(new Integer[]{1, 2, 3, 4, 5, 6, 7, 8, 9});
+arrayStream.forEach(p -> System.out.println(p));
+// List.stream()
+List<Integer> list = new ArrayList<>();
+for (int i = 0; i < 10; i++) {
+list.add(i);
+}
+Stream<Integer> listStream = list.stream();
+listStream.forEach(p -> System.out.println(p));
+// Stream.generate() or Stream.iterate()
+Stream<Integer> randomNumbers = Stream.generate(() -> (new Random()).nextInt(100));
+randomNumbers.limit(20).forEach(System.out::println);
+
+        // Stream Collectors
+        // Collect Stream elements to a List
+        List<Integer> liist = new ArrayList<>();
+        for (int i = 0; i < 10; i++) {
+            liist.add(i);
+        }
+        Stream<Integer> stream1 = liist.stream();
+        List<Integer> evenNumberList = stream1.filter(i -> i % 2 == 0).collect(Collectors.toList());
+        evenNumberList.forEach(System.out::println);
+        //  Collect Stream elements to an Array
+        List<Integer> listA = new ArrayList<>();
+        for (int i = 0; i < 10; i++) {
+            listA.add(i);
+        }
+        Stream<Integer> stream2 = listA.stream();
+        Integer[] o = stream2.filter(i -> i % 2 == 0).toArray(Integer[]::new);
+
+        // Intermediate Operations
+        // stream.filter()
+        List<String> memberNames = new ArrayList<>();
+        memberNames.add("Amitabh");
+        memberNames.add("Shekhar");
+        memberNames.add("Aman");
+        memberNames.add("Rahul");
+        memberNames.add("Shahrukh");
+        memberNames.add("Salman");
+        memberNames.add("Yana");
+        memberNames.add("Lokesh");
+
+        memberNames.stream()
+                .filter((s) -> s.startsWith("A"))
+                .forEach(System.out::println);
+        /*
+        Amitabh
+        Aman
+         */
+        // Stream.map()
+        memberNames.stream()
+                .filter((s) -> s.startsWith("A")) // take prdicate
+                .map(String::toUpperCase) //
+                .forEach(System.out::println);
+        /*
+        AMITABH
+        AMAN
+         */
+        memberNames.stream()
+                .sorted()
+                .map(String::toUpperCase)
+                .forEach(System.out::println);
+        /*
+        AMAN
+        AMITABH
+        LOKESH
+        RAHUL
+        SALMAN
+        SHAHRUKH
+        SHEKHAR
+        YANA
+         */
+        // Stream.forEach()
+        memberNames.forEach(System.out::println);
+
+        // Stream.collect()
+        List<String> memNamesInUppercase =
+                memberNames.stream()
+                        .sorted()
+                        .map(String::toUpperCase)
+                        .collect(Collectors.toList());
+
+        System.out.print(memNamesInUppercase);
+//[AMAN, AMITABH, LOKESH, RAHUL, SALMAN, SHAHRUKH, SHEKHAR, YANA]
+// Stream.match()
+
+        boolean matchedResult = memberNames.stream()
+                .anyMatch((s) -> s.startsWith("A"));
+
+        System.out.println(matchedResult);
+
+        matchedResult = memberNames.stream()
+                .allMatch((s) -> s.startsWith("A"));
+
+        System.out.println(matchedResult);
+
+        matchedResult = memberNames.stream()
+                .noneMatch((s) -> s.startsWith("A"));
+
+        System.out.println(matchedResult);
+        // Stream.count()
+        long totalMatched =
+                memberNames.stream()
+                        .filter((s) -> s.startsWith("A"))
+                        .count();
+
+        System.out.println(totalMatched);
+        // Stream.anyMatch()
+        boolean matched = memberNames.stream()
+                .anyMatch((s) -> s.startsWith("A"));
+
+        System.out.println(matched);
+
+        // Stream.findFirst()
+        String firstMatchedName = memberNames.stream()
+                .filter((s) -> s.startsWith("L"))
+                .findFirst()
+                .get();
+
+        System.out.println(firstMatchedName);
+
+    }
+}
+```
 
 
 
