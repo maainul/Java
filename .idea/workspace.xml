@@ -22,19 +22,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/abc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_8_io/TestCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_8_io/_1_FileSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_8_io/_2_ReadFileInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_8_io/_3_CopyFileSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileIo/FileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileIo/Program_1_.java" afterDir="false" />
+    <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
+      <change afterPath="$PROJECT_DIR$/src/_8_io/_4_CopyBufferFileSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_5_Searching/_19_UpdatedSolutions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_5_Searching/_19_find_the_two_repeating_elements_in_a_given_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_5_Searching/_20_fixedPointGivenArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_5_Searching/_21_FindSubarrayWIthGivenSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_5_Searching/_22_MaximumTripletSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_5_Searching/_24_FindTripletSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_5_Searching/_25_FindTrippletsWithZeroSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/geekforgeeks/_5_Searching/_FindPeekElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/StackException.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/StackException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/_5_CreateMergeAbleStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/_5_CreateMergeAbleStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_8_io/TestCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_8_io/TestCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_8_io/_3_CopyFileSample_SimpleStyle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,13 +116,18 @@
       <recent name="dataStructureAndAlgorithm.Tree.BinaryTree.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCode">
-    <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fileIo.FileTest" />
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="git status" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application._25_FindTrippletsWithZeroSum">
+    <configuration name="_20_fixedPointGivenArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.geekforgeeks._5_Searching._20_fixedPointGivenArray" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fileIo.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.geekforgeeks._5_Searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program_1_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fileIo.Program_1_" />
+    <configuration name="_21_FindSubarrayWIthGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.geekforgeeks._5_Searching._21_FindSubarrayWIthGivenSum" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fileIo.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.geekforgeeks._5_Searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_io.TestCode" />
+    <configuration name="_22_MaximumTripletSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.geekforgeeks._5_Searching._22_MaximumTripletSum" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_8_io.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.geekforgeeks._5_Searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2_ReadFileInformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_io._2_ReadFileInformation" />
+    <configuration name="_24_FindTripletSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.geekforgeeks._5_Searching._24_FindTripletSum" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_8_io.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.geekforgeeks._5_Searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3_CopyFileSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_io._3_CopyFileSample" />
+    <configuration name="_25_FindTrippletsWithZeroSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.geekforgeeks._5_Searching._25_FindTrippletsWithZeroSum" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_8_io.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.geekforgeeks._5_Searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestCode" />
-        <item itemvalue="Application._3_CopyFileSample" />
-        <item itemvalue="Application._2_ReadFileInformation" />
-        <item itemvalue="Application.Program_1_" />
-        <item itemvalue="Application.FileTest" />
+        <item itemvalue="Application._25_FindTrippletsWithZeroSum" />
+        <item itemvalue="Application._24_FindTripletSum" />
+        <item itemvalue="Application._22_MaximumTripletSum" />
+        <item itemvalue="Application._21_FindSubarrayWIthGivenSum" />
+        <item itemvalue="Application._20_fixedPointGivenArray" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606168379769</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="file Io programs">
+      <created>1613929872973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613929872973</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,7 +237,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="file Io programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="file Io programs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
