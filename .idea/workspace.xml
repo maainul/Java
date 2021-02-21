@@ -23,60 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/_5_CreateMergeAbleStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/_0_StackImplWithSLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_8_io/TestCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_8_io/_1_FileSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_8_io/_2_ReadFileInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_8_io/_3_CopyFileSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileIo/FileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileIo/Program_1_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/GeekForGeeksAllExamples/_28_MergeTwoSortedLinkedListsSuchThatMergedlistIsInReverseOrder/_28_MergeReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/GeekForGeeksAllExamples/_28_MergeTwoSortedLinkedListsSuchThatMergedlistIsInReverseOrder/_28_MergeReverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/_46_SortLinkedList0s1s2s.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/_46_SortLinkedList0s1s2s.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Circular/CircularLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Circular/CircularLinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Doubly/DoublyLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Doubly/DoublyLinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Singly/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Singly/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Singly/SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Singly/SinglyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Queue/LinkedListRepresentation/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Queue/LinkedListRepresentation/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Sorting/MergeSort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Sorting/MergeSort/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/LinkedListImplementation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/LinkedListImplementation/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/LinkedListImplementation/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/LinkedListImplementation/Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/TwoStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/TwoStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/AllTraversalInOneFile/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/AllTraversalInOneFile/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/AllTraversalInOneFile/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/AllTraversalInOneFile/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_10_FindNthNodeFromInOrderTraversal/FIndNthNodeFromInorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_10_FindNthNodeFromInOrderTraversal/FIndNthNodeFromInorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_10_FindNthNodeFromInOrderTraversal/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_10_FindNthNodeFromInOrderTraversal/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_11_FindNthNodeInPostorderTraversalofaBinaryTree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_11_FindNthNodeInPostorderTraversalofaBinaryTree/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_11_FindNthNodeInPostorderTraversalofaBinaryTree/PostOrderNthNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_11_FindNthNodeInPostorderTraversalofaBinaryTree/PostOrderNthNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_12_LevelOrderBinaryTreeTraversal/BreadthFirstSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_12_LevelOrderBinaryTreeTraversal/BreadthFirstSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_12_LevelOrderBinaryTreeTraversal/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_12_LevelOrderBinaryTreeTraversal/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_13_SpiralTreeTraversal/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_13_SpiralTreeTraversal/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_13_SpiralTreeTraversal/SpiralTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_13_SpiralTreeTraversal/SpiralTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_14_LevelOrderLineByLine/LevelOrderLineByLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_14_LevelOrderLineByLine/LevelOrderLineByLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_14_LevelOrderLineByLine/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_14_LevelOrderLineByLine/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_15_LevelOrderTraversalWithDirectionChangeAfterEveryTwoLevels/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_15_LevelOrderTraversalWithDirectionChangeAfterEveryTwoLevels/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_15_LevelOrderTraversalWithDirectionChangeAfterEveryTwoLevels/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_15_LevelOrderTraversalWithDirectionChangeAfterEveryTwoLevels/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_16_ReverseLevelOrderTraversal/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_16_ReverseLevelOrderTraversal/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_16_ReverseLevelOrderTraversal/ReverseOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_16_ReverseLevelOrderTraversal/ReverseOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_18_PerfectBinaryTreeSpecificLevelOrderTraversal/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_18_PerfectBinaryTreeSpecificLevelOrderTraversal/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_18_PerfectBinaryTreeSpecificLevelOrderTraversal/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_18_PerfectBinaryTreeSpecificLevelOrderTraversal/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_1_PreOrderWithRecursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_1_PreOrderWithRecursion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_20_ReverseAlternateLevelOfPerfectBinaryTree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_20_ReverseAlternateLevelOfPerfectBinaryTree/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_20_ReverseAlternateLevelOfPerfectBinaryTree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_20_ReverseAlternateLevelOfPerfectBinaryTree/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_21_MoorisTraversalForPreOrder/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_21_MoorisTraversalForPreOrder/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_21_MoorisTraversalForPreOrder/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_21_MoorisTraversalForPreOrder/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_2_PreOrderWithOutRecursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_2_PreOrderWithOutRecursion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_3_InOrderWithRecursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_3_InOrderWithRecursion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_4_InOrderInteration.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_4_InOrderInteration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_5_PostOrderWithRecursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_5_PostOrderWithRecursion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_6_PostOrderIteration.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_6_PostOrderIteration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/LinkedList/CircularLinkedList/CircularLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/LinkedList/CircularLinkedList/CircularLinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/LinkedList/DoublyLinkedList/DoublyLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/LinkedList/DoublyLinkedList/DoublyLinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/LinkedList/SinglyLinkedList/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/LinkedList/SinglyLinkedList/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/LinkedList/SinglyLinkedList/SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/LinkedList/SinglyLinkedList/SinglyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/_146_LRUCache/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/_146_LRUCache/LRUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/_146_LRUCache/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/_146_LRUCache/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/_160_insertionLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/_160_insertionLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/StackException.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/StackException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/_5_CreateMergeAbleStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/_5_CreateMergeAbleStack.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,11 +90,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -144,11 +102,11 @@
       <recent name="comparatorAndComparator" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft" />
       <recent name="$PROJECT_DIR$/src/durgasoftJava8NewFeatures" />
       <recent name="$PROJECT_DIR$/src/dataStructureAndAlgorithm" />
       <recent name="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal" />
-      <recent name="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/gfg/introduction/_6_find-n-th-node-inorder-traversal" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="dataStructureAndAlgorithm.geekforgeeks._3_OrderStatistics" />
@@ -158,13 +116,13 @@
       <recent name="dataStructureAndAlgorithm.Tree.BinaryTree.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._5_CreateMergeAbleStack">
-    <configuration name="_1_QueueUsing2StackGeeks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.geekforgeekProgram._1_designandImplementation._1_QueueUsing2StackGeeks" />
+  <component name="RunManager" selected="Application.TestCode">
+    <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fileIo.FileTest" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.geekforgeekProgram._1_designandImplementation.*" />
+          <option name="PATTERN" value="fileIo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3_ImplementTwoStackUsingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.geekforgeekProgram._1_designandImplementation._3_ImplementTwoStackUsingArray" />
+    <configuration name="Program_1_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fileIo.Program_1_" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.geekforgeekProgram._1_designandImplementation.*" />
+          <option name="PATTERN" value="fileIo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_4_StackUsingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.geekforgeekProgram._1_designandImplementation._4_StackUsingQueue" />
+    <configuration name="TestCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_8_io.TestCode" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.geekforgeekProgram._1_designandImplementation.*" />
+          <option name="PATTERN" value="_8_io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_5_CreateMergeAbleStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack._5_CreateMergeAbleStack" />
+    <configuration name="_2_ReadFileInformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_8_io._2_ReadFileInformation" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.*" />
+          <option name="PATTERN" value="_8_io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_5_DesignAStackWithOperationOnMiddleElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.geekforgeekProgram._1_designandImplementation._5_DesignAStackWithOperationOnMiddleElement" />
+    <configuration name="_3_CopyFileSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_8_io._3_CopyFileSample" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.geekforgeekProgram._1_designandImplementation.*" />
+          <option name="PATTERN" value="_8_io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._5_CreateMergeAbleStack" />
-        <item itemvalue="Application._5_DesignAStackWithOperationOnMiddleElement" />
-        <item itemvalue="Application._3_ImplementTwoStackUsingArray" />
-        <item itemvalue="Application._4_StackUsingQueue" />
-        <item itemvalue="Application._1_QueueUsing2StackGeeks" />
+        <item itemvalue="Application.TestCode" />
+        <item itemvalue="Application._3_CopyFileSample" />
+        <item itemvalue="Application._2_ReadFileInformation" />
+        <item itemvalue="Application.Program_1_" />
+        <item itemvalue="Application.FileTest" />
       </list>
     </recent_temporary>
   </component>
