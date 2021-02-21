@@ -1,4 +1,5 @@
 package dataStructureAndAlgorithm.Stack.geekforgeekProgram._1_designandImplementation;
+
 /*
 Method 2 (A space efficient implementation)
 
@@ -15,63 +16,56 @@ To check for overflow,
 all we need to check is for space between top elements of both stacks.
 This check is highlighted in the below code.
  */
-class TwoStack{
+class TwoStack {
     int size;
     int top1, top2;
-    int arr[];
+    int[] arr;
 
     public TwoStack(int n) {
-        arr = new  int[5];
+        arr = new int[5];
         size = n;
         top1 = -1;
         top2 = size;
     }
 
     public void push1(int x) {
-        if (top1 < top2 -1){
+        if (top1 < top2 - 1) {
             top1++;
             arr[top1] = x;
-        }else{
-            System.out.println("Stack Overflow");
-            System.exit(1);
+        } else {
+            throw new StackOverFlowAndUnderFlowException("StackOverFlow");
         }
     }
 
     public void push2(int x) {
-        if (top1 < top2-1){
+        if (top1 < top2 - 1) {
             top2--;
             arr[top2] = x;
-        }else {
-            System.out.println("StackOver flow");
-            System.exit(1);
+        } else {
+            throw new StackOverFlowAndUnderFlowException("StackOverFlow");
         }
     }
 
     public int pop1() {
-        if (top1 >=0){
+        if (top1 >= 0) {
             int x = arr[top1];
             top1--;
             return x;
-        }else {
-            System.out.println("Stack UnderFlow");
-            System.exit(1);
+        } else {
+            throw new StackOverFlowAndUnderFlowException("Stack UnderFlow");
         }
-        return 0;
     }
 
     public int pop2() {
-        if (top2< size){
+        if (top2 < size) {
             int x = arr[top2];
             top2++;
             return x;
-        }else {
-            System.out.println("Stack Underflow");
-            System.exit(1);
+        } else {
+            throw new StackOverFlowAndUnderFlowException("Stack Underflow");
         }
-        return 0;
     }
 }
-
 
 
 public class _3_ImplementTwoStackUsingArray {
@@ -82,8 +76,22 @@ public class _3_ImplementTwoStackUsingArray {
         twoStack.push2(15);
         twoStack.push1(11);
         twoStack.push2(7);
-        System.out.println("Popped element from"+" Stack is"+ twoStack.pop1());
-        System.out.println("Popped element from"+" Stack is"+ twoStack.pop2());
+        twoStack.push2(7);
+        twoStack.push2(7);
+        twoStack.push2(7);
+        System.out.println("Popped element from" + " Stack is" + twoStack.pop1());
+        System.out.println("Popped element from" + " Stack is" + twoStack.pop2());
 
+    }
+}
+
+
+class StackOverFlowAndUnderFlowException extends RuntimeException {
+    public StackOverFlowAndUnderFlowException() {
+        super();
+    }
+
+    public StackOverFlowAndUnderFlowException(String message) {
+        super(message);
     }
 }
