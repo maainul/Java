@@ -23,17 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/GFG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_4_SortAnArrayInWaveForm/Method_0_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_9_SortElementsByFrequency/ShortByFreq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/geekforgeekProgram/stackOperations/ReverseStackWithoutSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/geekforgeekProgram/stackOperations/SortStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/geekforgeekProgram/stackOperations/_1_ReverseStackUsingRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/stackIntroduction/LinkedListStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/stackIntroduction/StackUsingArraty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/MethodUpdated.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/MethodUpdated.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_4_SortAnArrayInWaveForm/Method2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_4_SortAnArrayInWaveForm/Method2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_5_MagreAnArrayofNInM/Method1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_5_MagreAnArrayofNInM/Method1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/MethodUpdated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/MethodUpdated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_4_SortAnArrayInWaveForm/Method2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_4_SortAnArrayInWaveForm/Method2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_5_MagreAnArrayofNInM/Method1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_5_MagreAnArrayofNInM/Method1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_5_MagreAnArrayofNInM/Method2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_5_MagreAnArrayofNInM/Method2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,13 +116,13 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShortByFreq">
-    <configuration name="Method1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.sorting._4_SortAnArrayInWaveForm.Method1" />
+  <component name="RunManager" selected="Application.ReverseStackWithoutSpace">
+    <configuration name="LinkedListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.stackIntroduction.LinkedListStack" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.sorting._4_SortAnArrayInWaveForm.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.stackIntroduction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Method1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.sorting._5_MagreAnArrayofNInM.Method1" />
+    <configuration name="ReverseStackWithoutSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.geekforgeekProgram.stackOperations.ReverseStackWithoutSpace" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.sorting._5_MagreAnArrayofNInM.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.geekforgeekProgram.stackOperations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodUpdated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.sorting._1_AlternativeSorting.MethodUpdated" />
+    <configuration name="SortStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.geekforgeekProgram.stackOperations.SortStack" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.sorting._1_AlternativeSorting.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.geekforgeekProgram.stackOperations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Method_0_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.sorting._4_SortAnArrayInWaveForm.Method_0_" />
+    <configuration name="StackUsingArraty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.stackIntroduction.StackUsingArraty" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.sorting._4_SortAnArrayInWaveForm.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.stackIntroduction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortByFreq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.sorting._9_SortElementsByFrequency.ShortByFreq" />
+    <configuration name="_1_ReverseStackUsingRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.geekforgeekProgram.stackOperations._1_ReverseStackUsingRecursion" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.sorting._9_SortElementsByFrequency.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.geekforgeekProgram.stackOperations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShortByFreq" />
-        <item itemvalue="Application.Method1 (2)" />
-        <item itemvalue="Application.Method_0_" />
-        <item itemvalue="Application.Method1 (1)" />
-        <item itemvalue="Application.MethodUpdated" />
+        <item itemvalue="Application.ReverseStackWithoutSpace" />
+        <item itemvalue="Application.SortStack" />
+        <item itemvalue="Application._1_ReverseStackUsingRecursion" />
+        <item itemvalue="Application.LinkedListStack" />
+        <item itemvalue="Application.StackUsingArraty" />
       </list>
     </recent_temporary>
   </component>
