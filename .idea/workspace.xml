@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/_8_ImplementStackUsing1Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/_4_StackUsingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/_4_StackUsingQueue.java" afterDir="false" />
     </list>
@@ -111,20 +112,7 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application._4_StackUsingQueue">
-    <configuration name="_21_FindSubarrayWIthGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.geekforgeeks._5_Searching._21_FindSubarrayWIthGivenSum" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.geekforgeeks._5_Searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._8_ImplementStackUsing1Queue">
     <configuration name="_22_MaximumTripletSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.geekforgeeks._5_Searching._22_MaximumTripletSum" />
       <module name="Java" />
@@ -177,13 +165,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_8_ImplementStackUsing1Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.geekforgeekProgram._1_designandImplementation._8_ImplementStackUsing1Queue" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.geekforgeekProgram._1_designandImplementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._8_ImplementStackUsing1Queue" />
         <item itemvalue="Application._4_StackUsingQueue" />
         <item itemvalue="Application._25_FindTrippletsWithZeroSum" />
         <item itemvalue="Application._24_FindTripletSum" />
         <item itemvalue="Application._22_MaximumTripletSum" />
-        <item itemvalue="Application._21_FindSubarrayWIthGivenSum" />
       </list>
     </recent_temporary>
   </component>

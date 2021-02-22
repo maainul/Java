@@ -80,7 +80,6 @@ class MyQueueDS {
 
     // Original short code version
     public void push(int value) {
-
         while (!queue1.isEmpty()) {
             queue2.add(queue1.remove());
         }
