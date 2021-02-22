@@ -5,8 +5,8 @@ import java.util.Arrays;
 public class Method2 {
 
 	public static void main(String[] args) {
-		int mPlusN[] = { 2, 8, 13, 15, 20, 0, 0, 0, 0 };
-		int N[] = { 5, 7, 9, 25 };
+		int[] mPlusN = { 2, 8, 13, 15, 20, 0, 0, 0, 0 };
+		int[] N = { 5, 7, 9, 25 };
 		int m = 5;
 		int n = 4;
 		mergeMandN(mPlusN, N, m, n);

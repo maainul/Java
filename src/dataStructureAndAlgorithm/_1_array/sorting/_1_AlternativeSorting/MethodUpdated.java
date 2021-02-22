@@ -21,7 +21,7 @@ Output : 9 1 8 2 7 3 6 4
 public class MethodUpdated {
 
 	public static void main(String[] args) {
-		int arr[] = { 1, 12, 4, 6, 7, 10 };
+		int[] arr = { 1, 12, 4, 6, 7, 10 };
 		int n = arr.length;
 		alternateSort(arr, n);
 

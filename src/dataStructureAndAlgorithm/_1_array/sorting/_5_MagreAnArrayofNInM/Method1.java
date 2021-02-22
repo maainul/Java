@@ -5,8 +5,8 @@ import java.util.Arrays;
 public class Method1 {
 
 	public static void main(String[] args) {
-		int mPlusN[] = { 2, 8, -1, -1, -1, 13, -1, 15, 20 };
-		int N[] = { 5, 7, 9, 25 };
+		int[] mPlusN = { 2, 8, -1, -1, -1, 13, -1, 15, 20 };
+		int[] N = { 5, 7, 9, 25 };
 		int n = N.length;
 		int m = mPlusN.length - n;
 
@@ -21,7 +21,7 @@ public class Method1 {
 				mPlusN[i] = N[index++];
 			}
 		}
-		Arrays.parallelSort(mPlusN);
+		Arrays.sort(mPlusN);
 		System.out.println(Arrays.toString(mPlusN));
 
 	}

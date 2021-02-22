@@ -23,14 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
-      <change afterPath="$PROJECT_DIR$/src/_8_io/_5_CopyTextFileSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_8_io/_6_ObjectStreamSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_8_io/_8_PrintWriterSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/GFG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_4_SortAnArrayInWaveForm/Method_0_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_9_SortElementsByFrequency/ShortByFreq.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/_8_io/_4_CopyBufferFileSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/_8_io/_4_CopyBufferFileSample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/MyStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/_8_ImplementStackUsing1Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/_8_ImplementStackUsing1Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_8_io/_4_CopyBufferFileSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_8_io/_4_CopyBufferFileSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/MethodUpdated.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/MethodUpdated.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_4_SortAnArrayInWaveForm/Method2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_4_SortAnArrayInWaveForm/Method2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_5_MagreAnArrayofNInM/Method1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sorting/_5_MagreAnArrayofNInM/Method1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/MethodUpdated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_1_AlternativeSorting/MethodUpdated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_4_SortAnArrayInWaveForm/Method2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_4_SortAnArrayInWaveForm/Method2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_5_MagreAnArrayofNInM/Method1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_5_MagreAnArrayofNInM/Method1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_5_MagreAnArrayofNInM/Method2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/sorting/_5_MagreAnArrayofNInM/Method2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +86,7 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -117,13 +121,13 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application._6_ObjectStreamSample">
-    <configuration name="_4_CopyBufferFileSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_io._4_CopyBufferFileSample" />
+  <component name="RunManager" selected="Application.ShortByFreq">
+    <configuration name="Method1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.sorting._4_SortAnArrayInWaveForm.Method1" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_8_io.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.sorting._4_SortAnArrayInWaveForm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_5_CopyTextFileSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_io._5_CopyTextFileSample" />
+    <configuration name="Method1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.sorting._5_MagreAnArrayofNInM.Method1" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_8_io.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.sorting._5_MagreAnArrayofNInM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_6_ObjectStreamSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_io._6_ObjectStreamSample" />
+    <configuration name="MethodUpdated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.sorting._1_AlternativeSorting.MethodUpdated" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_8_io.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.sorting._1_AlternativeSorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_6_PrintWriterSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_io._6_PrintWriterSample" />
+    <configuration name="Method_0_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.sorting._4_SortAnArrayInWaveForm.Method_0_" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_8_io.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.sorting._4_SortAnArrayInWaveForm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_8_PrintWriterSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_io._8_PrintWriterSample" />
+    <configuration name="ShortByFreq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm._1_array.sorting._9_SortElementsByFrequency.ShortByFreq" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_8_io.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm._1_array.sorting._9_SortElementsByFrequency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._6_ObjectStreamSample" />
-        <item itemvalue="Application._8_PrintWriterSample" />
-        <item itemvalue="Application._6_PrintWriterSample" />
-        <item itemvalue="Application._5_CopyTextFileSample" />
-        <item itemvalue="Application._4_CopyBufferFileSample" />
+        <item itemvalue="Application.ShortByFreq" />
+        <item itemvalue="Application.Method1 (2)" />
+        <item itemvalue="Application.Method_0_" />
+        <item itemvalue="Application.Method1 (1)" />
+        <item itemvalue="Application.MethodUpdated" />
       </list>
     </recent_temporary>
   </component>
