@@ -1,3 +1,33 @@
+/*
+Implement Stack using Queues
+Difficulty Level : Easy
+Last Updated : 19 Aug, 2019
+The problem is opposite of this post. We are given a Queue data structure that supports standard operations like enqueue()
+and dequeue().
+We need to implement a Stack data structure using only instances of Queue and queue operations allowed on the instances.
+Stack and Queue with insert and delete operations
+
+Recommended: Please solve it on “PRACTICE” first, before moving on to the solution.
+
+
+A stack can be implemented using two queues. Let stack to be implemented be ‘s’
+and queues used to implement be ‘q1’ and ‘q2’. Stack ‘s’ can be implemented in two ways:
+
+Method 1 (By making push operation costly)
+This method makes sure that newly entered element is always at the front of ‘q1’,
+so that pop operation just dequeues from ‘q1’. ‘q2’ is used to put every new element at front of ‘q1’.
+
+push(s, x) operation’s step are described below:
+Enqueue x to q2
+One by one dequeue everything from q1 and enqueue to q2.
+Swap the names of q1 and q2
+pop(s) operation’s function are described below:
+Dequeue an item from q1 and return it.
+Below is the implementation of the above approach:
+
+
+
+ */
 
 
 package dataStructureAndAlgorithm.Stack.geekforgeekProgram._1_designandImplementation;
@@ -81,9 +111,11 @@ public class _4_StackUsingQueue {
         stack.push(110);
         stack.push(30);
         System.out.println("Removed element : " + stack.pop());
+        // Removed element : 30
+
         stack.push(170);
         System.out.println("Removed element : " + stack.pop());
-
+        // Removed element : 170
     }
 }
 
