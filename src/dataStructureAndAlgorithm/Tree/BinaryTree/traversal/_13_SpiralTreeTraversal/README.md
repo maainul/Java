@@ -4,6 +4,9 @@
 ***The idea is to use two stacks.***<br/>
 ***We can use one stack for printing from left to right and other stack for printing from right to left.***</br> 
 ***In every iteration, we have nodes of one level in one of the stacks. We print the nodes, and push nodes of next level in other stack***
+![1614116225891](https://user-images.githubusercontent.com/37740006/108912719-38aa9a80-7653-11eb-9b94-01569b825b36.jpg)
+
+![IMG_20210224_033440](https://user-images.githubusercontent.com/37740006/108912789-4e1fc480-7653-11eb-95b6-1446cdfef215.jpg)
 
 ```java
 package dataStructureAndAlgorithm.Tree.BinaryTree.traversal._13_SpiralTreeTraversal;
