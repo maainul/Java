@@ -23,8 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
-      <change beforePath="$PROJECT_DIR$/src/_8_io/_10_ConsoleReadInputSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_8_io/_11_ConsoleReadInputSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_8_io/_11_PasswordCompareSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_8_io/_12_PasswordCompareSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_8_io/_10_ConsoleReadInputSample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_8_io/_11_PasswordCompareSample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_8_io/_3_CopyFileSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_8_io/_3_CopyFileSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +115,7 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application._3_CopyFileSample">
     <configuration name="_10_ConsoleSamplePrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_8_io._10_ConsoleSamplePrint" />
       <module name="Java" />
@@ -153,8 +155,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_8_SystemInSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_io._8_SystemInSample" />
+    <configuration name="_3_CopyFileSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_8_io._3_CopyFileSample" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -181,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._3_CopyFileSample" />
         <item itemvalue="Application._12_PasswordCompareSample" />
         <item itemvalue="Application._11_ConsoleReadInputSample" />
         <item itemvalue="Application._10_ConsoleSamplePrint" />
         <item itemvalue="Application._9_ConsolSample" />
-        <item itemvalue="Application._8_SystemInSample" />
       </list>
     </recent_temporary>
   </component>
