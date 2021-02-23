@@ -3,7 +3,23 @@ It starts at the tree root (or some arbitrary node of a graph,
 sometimes referred to as a 'search key'[1]), 
 and explores all of the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level.***
 ![DFS-VS-BFS](https://user-images.githubusercontent.com/37740006/108905617-1f512080-764a-11eb-9a07-9be6e0d6a501.png)
+```
+Algorithm: 
+For each node, first the node is visited and then it’s child nodes are put in a FIFO queue. 
 
+printLevelorder(tree)
+1) Create an empty queue q
+2) temp_node = root /*start from root*/
+3) Loop while temp_node is not NULL
+    a) print temp_node->data.
+    b) Enqueue temp_node’s children 
+      (first left then right children) to q
+    c) Dequeue a node from q.
+```
+```
+Time Complexity: O(n) where n is number of nodes in the binary tree 
+Space Complexity: O(n) where n is number of nodes in the binary tree 
+```
 ```java
 package dataStructureAndAlgorithm.Tree.BinaryTree.traversal._12_LevelOrderBinaryTreeTraversal;
 
