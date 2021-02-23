@@ -3,7 +3,11 @@ package _8_io.dsoftfileAndserialization;
 import java.io.*;
 
 class Account implements Serializable{
-    String name;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	String name;
     transient int pass;
 
     public Account(String name, int pass) {
