@@ -2,7 +2,7 @@ package _8_io;
 
 import java.io.*;
 
-public class _8_PrintWriterSample {
+public class _7_PrintWriterSample {
     public static void main(String[] args) throws IOException {
         File source = new File("/home/onik/data/zoo.log");
         try(PrintWriter printWriter = new PrintWriter(new BufferedWriter(new FileWriter(source)))){

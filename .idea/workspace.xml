@@ -23,17 +23,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
-      <change afterPath="$PROJECT_DIR$/src/_8_io/dsoftfileAndserialization/_4_InheritanceInSerialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_8_io/dsoftfileAndserialization/_5_ParentNonSerializaleAndChildSerialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_8_io/_10_ConsoleReadInputSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_8_io/_10_ConsoleSamplePrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_8_io/_11_PasswordCompareSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_8_io/_8_SystemInSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_8_io/_9_ConsolSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_8_io/dsoftfileAndserialization/_6_ExternalizeableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_8_io/dsoftfileAndserialization/serialVersionUid/Deer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_8_io/dsoftfileAndserialization/serialVersionUid/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_8_io/dsoftfileAndserialization/serialVersionUid/Sender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/_8_io/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/_8_io/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/_8_io/_6_ObjectStreamSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/_8_io/_6_ObjectStreamSample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/_8_io/dsoftfileAndserialization/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/_8_io/dsoftfileAndserialization/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/_8_io/dsoftfileAndserialization/Mobile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/_8_io/dsoftfileAndserialization/Mobile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/_8_io/dsoftfileAndserialization/_2_SerializationDemoUsingTransientKeyword.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/_8_io/dsoftfileAndserialization/_2_SerializationDemoUsingTransientKeyword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/_8_io/dsoftfileAndserialization/_3_CustSerialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/_8_io/dsoftfileAndserialization/_3_CustSerialization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/constructor/ocaBook/definingConstructor/Zebra.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/constructor/ocaBook/definingConstructor/Zebra.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_8_io/dsoftfileAndserialization/_3_CustSerialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_8_io/dsoftfileAndserialization/_3_CustSerialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_8_io/_8_PrintWriterSample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/constructor/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/constructor/Child.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/constructor/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/constructor/Parent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/constructor/ParentChildCallUsingSuper.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/constructor/ParentChildCallUsingSuper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/constructor/ocaBook/compilerEnhanceMent/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/constructor/ocaBook/compilerEnhanceMent/Child.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/oopConcept/abstractClass/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/abstractClass/Child.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/oopConcept/abstractClass/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/abstractClass/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/oopConcept/abstractClass/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/abstractClass/Parent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/oopConcept/abstractClass/SubClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/abstractClass/SubClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_8_io/_8_PrintWriterSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_8_io/_7_PrintWriterSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +99,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -121,13 +131,13 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application._5_ParentNonSerializaleAndChildSerialize">
-    <configuration name="_1_SerializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_io.dsoftfileAndserialization._1_SerializationDemo" />
+  <component name="RunManager" selected="Application._11_PasswordCompareSample">
+    <configuration name="_10_ConsoleReadInputSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_8_io._10_ConsoleReadInputSample" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_8_io.dsoftfileAndserialization.*" />
+          <option name="PATTERN" value="_8_io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2_SerializationDemoUsingTransientKeyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_io.dsoftfileAndserialization._2_SerializationDemoUsingTransientKeyword" />
+    <configuration name="_10_ConsoleSamplePrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_8_io._10_ConsoleSamplePrint" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_8_io.dsoftfileAndserialization.*" />
+          <option name="PATTERN" value="_8_io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3_CustSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_io.dsoftfileAndserialization._3_CustSerialization" />
+    <configuration name="_11_PasswordCompareSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_8_io._11_PasswordCompareSample" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_8_io.dsoftfileAndserialization.*" />
+          <option name="PATTERN" value="_8_io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_4_InheritanceInSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_io.dsoftfileAndserialization._4_InheritanceInSerialization" />
+    <configuration name="_8_SystemInSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_8_io._8_SystemInSample" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_8_io.dsoftfileAndserialization.*" />
+          <option name="PATTERN" value="_8_io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_5_ParentNonSerializaleAndChildSerialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_io.dsoftfileAndserialization._5_ParentNonSerializaleAndChildSerialize" />
+    <configuration name="_9_ConsolSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_8_io._9_ConsolSample" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_8_io.dsoftfileAndserialization.*" />
+          <option name="PATTERN" value="_8_io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._5_ParentNonSerializaleAndChildSerialize" />
-        <item itemvalue="Application._4_InheritanceInSerialization" />
-        <item itemvalue="Application._3_CustSerialization" />
-        <item itemvalue="Application._2_SerializationDemoUsingTransientKeyword" />
-        <item itemvalue="Application._1_SerializationDemo" />
+        <item itemvalue="Application._11_PasswordCompareSample" />
+        <item itemvalue="Application._10_ConsoleReadInputSample" />
+        <item itemvalue="Application._10_ConsoleSamplePrint" />
+        <item itemvalue="Application._9_ConsolSample" />
+        <item itemvalue="Application._8_SystemInSample" />
       </list>
     </recent_temporary>
   </component>
