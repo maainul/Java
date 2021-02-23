@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.Console;
 import java.io.IOException;
 
-public class _10_ConsoleReadInputSample {
+public class _11_ConsoleReadInputSample {
     public static void main(String[] args) throws NumberFormatException, IOException {
         Console console = System.console();
         if (console == null){

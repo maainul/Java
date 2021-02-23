@@ -3,7 +3,7 @@ package _8_io;
 import java.io.Console;
 import java.util.Arrays;
 
-public class _11_PasswordCompareSample {
+public class _12_PasswordCompareSample {
     public static void main(String[] args) {
         Console console = System.console();
         if (console == null) {

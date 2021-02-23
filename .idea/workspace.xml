@@ -23,26 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
-      <change afterPath="$PROJECT_DIR$/src/_8_io/_10_ConsoleReadInputSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_8_io/_10_ConsoleSamplePrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_8_io/_11_PasswordCompareSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_8_io/_8_SystemInSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_8_io/_9_ConsolSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_8_io/dsoftfileAndserialization/_6_ExternalizeableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_8_io/dsoftfileAndserialization/serialVersionUid/Deer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_8_io/dsoftfileAndserialization/serialVersionUid/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_8_io/dsoftfileAndserialization/serialVersionUid/Sender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/_8_io/_8_PrintWriterSample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/constructor/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/constructor/Child.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/constructor/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/constructor/Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/constructor/ParentChildCallUsingSuper.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/constructor/ParentChildCallUsingSuper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/constructor/ocaBook/compilerEnhanceMent/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/constructor/ocaBook/compilerEnhanceMent/Child.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/oopConcept/abstractClass/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/abstractClass/Child.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/oopConcept/abstractClass/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/abstractClass/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/oopConcept/abstractClass/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/abstractClass/Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/oopConcept/abstractClass/SubClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/abstractClass/SubClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_8_io/_8_PrintWriterSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_8_io/_7_PrintWriterSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_8_io/_10_ConsoleReadInputSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_8_io/_11_ConsoleReadInputSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_8_io/_11_PasswordCompareSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_8_io/_12_PasswordCompareSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,20 +113,7 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application._11_PasswordCompareSample">
-    <configuration name="_10_ConsoleReadInputSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_io._10_ConsoleReadInputSample" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_8_io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="_10_ConsoleSamplePrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_8_io._10_ConsoleSamplePrint" />
       <module name="Java" />
@@ -158,8 +127,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_11_PasswordCompareSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_io._11_PasswordCompareSample" />
+    <configuration name="_11_ConsoleReadInputSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_8_io._11_ConsoleReadInputSample" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_8_io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_12_PasswordCompareSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_8_io._12_PasswordCompareSample" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -199,8 +181,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._11_PasswordCompareSample" />
-        <item itemvalue="Application._10_ConsoleReadInputSample" />
+        <item itemvalue="Application._12_PasswordCompareSample" />
+        <item itemvalue="Application._11_ConsoleReadInputSample" />
         <item itemvalue="Application._10_ConsoleSamplePrint" />
         <item itemvalue="Application._9_ConsolSample" />
         <item itemvalue="Application._8_SystemInSample" />
