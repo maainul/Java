@@ -9,11 +9,6 @@ public class _4_CopyBufferFileSample {
         copy(source, destination);
     }
 
-    @Override
-    public int hashCode() {
-        return super.hashCode();
-    }
-
     private static void copy(File source, File destination) throws IOException {
         try (InputStream bufferedInputStream = new BufferedInputStream(new FileInputStream(source));
 
