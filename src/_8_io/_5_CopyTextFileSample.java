@@ -25,7 +25,6 @@ public class _5_CopyTextFileSample {
                 bufferedWriter.newLine();
             }
         }
-
     }
 
     private static List<String> readFile(File source) throws IOException {
