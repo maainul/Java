@@ -22,7 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs" />
+    <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
+      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/strings/FindPalindromOrNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/strings/ReverseWordNotUsingStringBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/strings/_2_AnagramUsingFreq.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/strings/_2_AnagramUsingFreq.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +92,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ABU Exam/june10_2020" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -99,11 +104,11 @@
       <recent name="comparatorAndComparator" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ABU Exam/june10_2020" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft" />
       <recent name="$PROJECT_DIR$/src/durgasoftJava8NewFeatures" />
       <recent name="$PROJECT_DIR$/src/dataStructureAndAlgorithm" />
-      <recent name="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="dataStructureAndAlgorithm.geekforgeeks._3_OrderStatistics" />
@@ -118,7 +123,7 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application._2_AnagramUsingFreq">
+  <component name="RunManager" selected="Application.ReverseWordNotUsingStringBuilder">
     <configuration name="CheckAnagramOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interviewQuestions.strings.CheckAnagramOrNot" />
       <module name="Java" />
@@ -145,8 +150,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringLeftAndRightRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQuestions.strings.StringLeftAndRightRotation" />
+    <configuration name="FindPalindromOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions.strings.FindPalindromOrNot" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -158,8 +163,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_21_RemoveCharacterFromFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQuestions.strings._21_RemoveCharacterFromFirst" />
+    <configuration name="ReverseWordNotUsingStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions.strings.ReverseWordNotUsingStringBuilder" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -186,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseWordNotUsingStringBuilder" />
+        <item itemvalue="Application.FindPalindromOrNot" />
         <item itemvalue="Application._2_AnagramUsingFreq" />
         <item itemvalue="Application.CheckAnagramOrNot" />
         <item itemvalue="Application.FindFirstRepeatingCharacter" />
-        <item itemvalue="Application.StringLeftAndRightRotation" />
-        <item itemvalue="Application._21_RemoveCharacterFromFirst" />
       </list>
     </recent_temporary>
   </component>
