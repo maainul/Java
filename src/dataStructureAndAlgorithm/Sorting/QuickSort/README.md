@@ -2,9 +2,9 @@
 There are many different versions of quickSort that pick pivot in different ways.
 
 1. Always pick first element as pivot.
-2. Always pick last element as pivot (implemented below)
+2. Always pick last element as pivot 
 3. Pick a random element as pivot.
-4. Pick median as pivot.
+4. Pick median as pivot.(implemented below)
 
 ## Time Complexities
 
