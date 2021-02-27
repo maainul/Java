@@ -1,4 +1,9 @@
 # Selection Sort
+1. Not Stable
+2. In Place
+
+## Time Complexity : O(n*n)
+
 ## Algoritm : 
 
 1.we search for the lowest element and arrange it to the proper location. 
