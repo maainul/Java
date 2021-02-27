@@ -93,7 +93,7 @@ class Node {
 }
 
 public class Main {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		// Let us create binary tree
 		Node root = new Node(1);
 		root.left = new Node(2);

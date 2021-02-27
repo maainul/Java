@@ -12,7 +12,7 @@ So it is safe and will result in an order
 # 7.1. StringBuffer append() method
 ```.java
 class StringBufferExample{  
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
 		StringBuffer sb=new StringBuffer("Hello ");  
 		sb.append("Java");//now original string is changed  
 		System.out.println(sb);//prints Hello Java  
@@ -24,7 +24,7 @@ class StringBufferExample{
 //The insert() method inserts the given string with this string at the given position.
 
 class StringBufferExample2{  
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
 		StringBuffer sb=new StringBuffer("Hello ");  
 		sb.insert(1,"Java");//now original string is changed  
 		System.out.println(sb);//prints HJavaello  
@@ -37,7 +37,7 @@ class StringBufferExample2{
 //The replace() method replaces the given string from the specified beginIndex and endIndex.
 
 class StringBufferExample3{  
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
 		StringBuffer sb=new StringBuffer("Hello");  
 		sb.replace(1,3,"Java");  
 		System.out.println(sb);//prints HJavalo  
@@ -50,7 +50,7 @@ class StringBufferExample3{
 The delete() method of StringBuffer class deletes the string from the specified beginIndex to endIndex.
 
 class StringBufferExample4{  
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
 		StringBuffer sb=new StringBuffer("Hello");  
 		sb.delete(1,3);  
 		System.out.println(sb);//prints Hlo  
@@ -62,7 +62,7 @@ class StringBufferExample4{
 // The reverse() method of StringBuilder class reverses the current string.
 
 class StringBufferExample5{  
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
 		StringBuffer sb=new StringBuffer("Hello");  
 		sb.reverse();  
 		System.out.println(sb);//prints olleH  
@@ -78,7 +78,7 @@ For example if your current capacity is 16, it will be (16*2)+2=34.
 ```
 ```.java
 class StringBufferExample6{  
-	public static void main(String args[]){  	
+	public static void rotateDigit(String args[]){  	
 	StringBuffer sb=new StringBuffer();  
 	System.out.println(sb.capacity());//default 16  
 	sb.append("Hello");  
@@ -98,7 +98,7 @@ For example if your current capacity is 16, it will be (16*2)+2=34.
 ```
 ```.java
 class _7_StringBufferEnsureCapacity{  
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
 		StringBuffer sb=new StringBuffer();  
 		System.out.println(sb.capacity());//default 16  
 		sb.append("Hello");  

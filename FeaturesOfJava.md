@@ -146,7 +146,7 @@ This feature of Java makes us able to access files by calling the methods from a
 ```
 A thread is like a separate program, executing concurrently. 
 We can write Java programs that deal with many tasks at once by defining multiple threads. 
-The main advantage of multi-threading is that it doesn't occupy memory for each thread. 
+The rotateDigit advantage of multi-threading is that it doesn't occupy memory for each thread. 
 It shares a common memory area. Threads are important for multi-media, Web applications, etc.
 ```
 ## 11. Dynamic

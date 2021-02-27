@@ -133,7 +133,7 @@ class Cicle implements Area{ // another interface implemented
 
 public class InterfaceTest {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		// TODO Auto-generated method stub
 		Rectangle rect = new Rectangle();
 		Cicle cir = new Cicle();
@@ -178,7 +178,7 @@ class Circel implements Drawable{
 
 public class InterfaceShape {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		Drawable drawable = new Circel(); {
 		drawable.draw();
 				
@@ -217,7 +217,7 @@ class PNB implements Bank{
 
 public class TestInterface2 {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		Bank bank = new SBI();
 		System.out.println("Rate of interest: "+ bank.rateofInterest());
 
@@ -244,7 +244,7 @@ class Retangle implements DraWAble{
 }  
 
 class DefaultMethod{  
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
 		DraWAble d=new Retangle();  
 		d.draw();  
 		d.msg();  
@@ -274,7 +274,7 @@ class Rectangle implements Drawable{
 }  
   
 class TestInterfaceStatic{  
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
 	Drawable d=new Rectangle();  
 	d.draw();  
 	System.out.println(Drawable.cube(3));  

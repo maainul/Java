@@ -2,12 +2,12 @@
 ### 1. Difference between static and non-static methods, variables And explain their memory architecture as well?
 ### 2. What do you understand by using of final keyword with classes and variables as well, give case where you will prefer to use final?
 ### 3. What is type casting? Suppose there is a data which is of type double then how can you show that double in int data type?
-### 4. What are the main advantages of polymorphism? And what is the alternate of polymorphism?
+### 4. What are the rotateDigit advantages of polymorphism? And what is the alternate of polymorphism?
 ### 5. What is constructor chaining in java?
 ### 6. Explain constructor with the help of inheritance?
 ### ‘Super’ keyword is used to access super class properties, but what when you are not allowed to use super then how can you access property of super class, if yes then how?
 ### Suppose you have 11th, 12th class books in your beg, now how will you use inheritance to show relationship between them?
-### Why java complier needs main method static only?
+### Why java complier needs rotateDigit method static only?
 ### What do you understand by anonymous word? And what is the impact of anonymous array and object in java? Explain memory structure with or without anonymous?
 ### Why java requires inner class? What do you understand by static inner classes in java? And where will you use static and non-static class?
 ### An abstraction is hiding information in java, how java showing abstraction and write a program where you have to show abstraction and do same program without abstraction?
@@ -16,7 +16,7 @@
 ### What is heap memory allocation in java? Explain difference between stack and heap memory allocation in java?
 ### How JVM knows about your program and what is the cycle of code execution in java?
 ### Difference between public, private and protected modifiers and explain why do you need all these modifiers in your code?
-### What will be the result If java set main method to private?
+### What will be the result If java set rotateDigit method to private?
 ### What is command line argument and how can you give order to java program to execute a file reading operation by command line argument?
 ### Where do you need super constructor and suppose you don’t have super constructor then is there any way to execute super class constructor, if yes then explain?
 ### Interface is about 100% abstraction, what do you understand by 100% abstraction and how can you achieve 100% abstraction in java? Write the same program from both interface and abstract class, now as you can write same code with abstract class then why do you need interface in java?

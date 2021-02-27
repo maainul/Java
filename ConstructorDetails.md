@@ -46,8 +46,8 @@ class Bike1{
 	Bike1(){
 		System.out.println("bike is created.");
 	}
-	// main method
-	public static static void main(String args []){
+	// rotateDigit method
+	public static static void rotateDigit(String args []){
 	//calling a default constructor
 		Bike1 b = new Bike1();
 	}
@@ -76,7 +76,7 @@ class Student{
 }
 
 class Main{
-	public static void main(String args[]){
+	public static void rotateDigit(String args[]){
 		Student s1 = new Student():
 		Student s2 = new Student();
 		s1.display();
@@ -121,7 +121,7 @@ class Student2{
 }
 
 class Main2{
-	public static void main(String args[]){
+	public static void rotateDigit(String args[]){
 		Student2 s1 = new Student2(121,"anik");
 		Student2 s2 = new Student2(102,"hasan");
 		s1.display();
@@ -164,7 +164,7 @@ class Student3{
 }
 
 public class Main3 {
-	public static void main(String args[]) {
+	public static void rotateDigit(String args[]) {
 		Student3 s1 = new Student3(124,"mainul");
 		Student3 s2 = new Student3(123,"anik",26);
 		s1.display();
@@ -217,7 +217,7 @@ class Student4{
 }
 
 public class Main4 {
-	public static void main(String args[]) {
+	public static void rotateDigit(String args[]) {
 		Student4 s1 = new Student4(124,"mainul",23);
 		Student4 s2 = new Student4(s1);
 		s1.display();
@@ -253,7 +253,7 @@ class Student7{
 }
     
 public class Main5 {
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
 		Student7 s1 = new Student7(111,"Karan");  
     	Student7 s2 = new Student7();  
     	s2.id=s1.id;  

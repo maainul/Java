@@ -19,7 +19,7 @@ A detailed description of hello Java example.
 ```.java
 
 class Simple{  
-    public static void main(String args[]){  
+    public static void rotateDigit(String args[]){  
      System.out.println("Hello Java");  
     }  
 }  

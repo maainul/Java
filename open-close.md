@@ -93,7 +93,7 @@ import java.util.ArrayList;
 
 public class Client {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		FileCompressorContext fileCompressorContext = new FileCompressorContext();
 		
 		//fileCompressorContext.setCompressor(new ZipFileCompressor());

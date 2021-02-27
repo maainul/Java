@@ -39,7 +39,7 @@ class Student{
 
 
 public class Main{
-    public static void main(String args[]){
+    public static void rotateDigit(String args[]){
         Student student1 = new Student(111,"Mainul","IUBAT");
         Student student2 = new Student(121,"Hasan","IUBAT");
         student1.display();
@@ -74,7 +74,7 @@ class Student{
 
 
 public class Main{
-    public static void main(String args[]){
+    public static void rotateDigit(String args[]){
         Student student1 = new Student(111,"Mainul");
         Student student2 = new Student(121,"Hasan");
         student1.display();
@@ -100,7 +100,7 @@ Counter(){
   System.out.println(count);  
 }  
   
-public static void main(String args[]){  
+public static void rotateDigit(String args[]){  
 //Creating objects  
   Counter c1=new Counter();  
   Counter c2=new Counter();  
@@ -134,7 +134,7 @@ if any object changes the value of the static variable, it will retain its value
       System.out.println(count);  
     }  
       
-    public static void main(String args[]){  
+    public static void rotateDigit(String args[]){  
       //creating objects  
       Counter2 c1=new Counter2();  
       Counter2 c2=new Counter2();  
@@ -172,7 +172,7 @@ public class Main {
   int a=10;
   int b=20;
 
-public static void main(String args[]) {
+public static void rotateDigit(String args[]) {
   Main m = new Main();
   System.out.println("Value of a = " + m.a);
   System.out.println("Value of b = " + m.b);
@@ -194,7 +194,7 @@ public class Main {
       b = 20;
   }
 
-public static void main(String args[]) {
+public static void rotateDigit(String args[]) {
 
   System.out.println("Value of a = " + a);
   System.out.println("Value of b = " + b);
@@ -225,7 +225,7 @@ class Student{
      void display(){System.out.println(rollno+" "+name+" "+college);}
 }
 public class Main{
-    public static void main(String args[]){
+    public static void rotateDigit(String args[]){
     Student.change();//calling change method
     //creating objects
     Student s1 = new Student(111,"Karan");
@@ -249,7 +249,7 @@ class Main{
   return x*x*x;  
   }  
   
-  public static void main(String args[]){  
+  public static void rotateDigit(String args[]){  
   int result=Main.cube(5);  
   System.out.println(result);  
   }  
@@ -259,7 +259,7 @@ class Main{
 ```
 ## Restrictions for the static method
 ```
-There are two main restrictions for the static method. They are:
+There are two rotateDigit restrictions for the static method. They are:
 
     The static method can not use non static data member or call non-static method directly.
     this and super cannot be used in static context.
@@ -268,35 +268,35 @@ There are two main restrictions for the static method. They are:
    class A{  
      int a=40;//non static  
        
-     public static void main(String args[]){  
+     public static void rotateDigit(String args[]){  
       System.out.println(a);  
      }  
     }    
  ```
-## Q) Why is the Java main method static?
+## Q) Why is the Java rotateDigit method static?
 ```
 It is because the object is not required to call a static method. 
-If it were a non-static method, JVM creates an object first then call main() method 
+If it were a non-static method, JVM creates an object first then call rotateDigit() method 
 that will lead the problem of extra memory allocation.
 ```
 ## 3) Java static block
 
     Is used to initialize the static data member.
-    It is executed before the main method at the time of classloading.
+    It is executed before the rotateDigit method at the time of classloading.
 ```
 ## Example of static block
 ```.java
     class A2{  
       static{System.out.println("static block is invoked");}  
-      public static void main(String args[]){  
-       System.out.println("Hello main");  
+      public static void rotateDigit(String args[]){  
+       System.out.println("Hello rotateDigit");  
       }  
     }  
 ```
-## Q) Can we execute a program without main() method?
+## Q) Can we execute a program without rotateDigit() method?
 ```
 Ans) No, one of the ways was the static block, but it was possible till JDK 1.6. 
-Since JDK 1.7, it is not possible to execute a java class without the main method.
+Since JDK 1.7, it is not possible to execute a java class without the rotateDigit method.
 ```
 ```.java
 class Main{  

@@ -11,7 +11,7 @@ public class Student {
 		int rollno;
 	}
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		Student s1 = new Student();
 		Student s2 = new Student();
 		Student s3 = new Student();
@@ -47,7 +47,7 @@ public class Student {
 	}
 	
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		Student s1 = new Student("anik",101);
 		Student s1 = new Student("mnik",102);
 		Student s1 = new Student("snik",103);

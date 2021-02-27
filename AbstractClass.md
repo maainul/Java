@@ -43,9 +43,9 @@ class Bike{
 
 public class Abs1 extends Bike{
 	void run() {
-		System.out.println("this is main run.");
+		System.out.println("this is rotateDigit run.");
 	}
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		// TODO Auto-generated method stub
 		Bike bike = new Abs1();
 		bike.run();
@@ -56,7 +56,7 @@ public class Abs1 extends Bike{
 
 Output: 
 
-this is main run.
+this is rotateDigit run.
 
 ```
 
@@ -72,7 +72,7 @@ abstract class Bike{
 }  
 class Honda4 extends Bike{  
 	void run(){System.out.println("running safely");}  
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
  		Bike obj = new Honda4();  
  		obj.run();  
 	}  
@@ -106,7 +106,7 @@ class Circlee extends Shapee{
 
 public class Abstrace2 {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		// TODO Auto-generated method stub
 		Shapee s; // s is a reference variable of Shape
 		// assign reference variable s in the Rectangle class.
@@ -143,7 +143,7 @@ class PNB extends Bank{
 }    
     
 class TestBank{    
-	public static void main(String args[]){    
+	public static void rotateDigit(String args[]){    
 		Bank b;  
 		b=new SBI();  
 		System.out.println("Rate of Interest is: "+b.getRateOfInterest()+" %");    
@@ -160,7 +160,7 @@ Rate of Interest is: 8 %
 
 # Abstract class having constructor, data member and methods
 ```
-An abstract class can have a data member, abstract method, method body (non-abstract method), constructor, and even main() method.
+An abstract class can have a data member, abstract method, method body (non-abstract method), constructor, and even rotateDigit() method.
 ```
 
 

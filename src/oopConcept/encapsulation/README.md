@@ -69,7 +69,7 @@ class Student {
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		Student obj = new Student();
 
 		obj.setRollno(10);

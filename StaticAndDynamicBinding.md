@@ -17,7 +17,7 @@ public class A{
 		System.out.println("this is m2");
 	}
 
-public static void main(String args[]){
+public static void rotateDigit(String args[]){
 	A obj = new A();
 	// assing object and method together is called binding.
 	// we bind the object with method to get result.
@@ -64,7 +64,7 @@ class Test{
 public class StaticBinding {
 
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		// TODO Auto-generated method stub
 		Test obj1 = new Test();
 		obj1.area(345.4f);
@@ -109,7 +109,7 @@ class Triangle extends Shape{
 
 public class DynamicBinding {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		// TODO Auto-generated method stub
 		Shape s; // s is a reference variable of Shape
 		s = new Shape();
@@ -148,7 +148,7 @@ class B extends A{
 }
 public class DataMembers {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		// TODO Auto-generated method stub
 		A a;
 		a = new A();
@@ -179,7 +179,7 @@ class C extends BB{
 }
 public class MultilevelWithRuntimeTest {
 	
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		 AA a; 
 		 a = new AA(); 
 		//AA a1 = new AA(); 

@@ -27,9 +27,9 @@
 
 12.Part-12 || var-arg methods
 
-13.Part-13 || main() method part-1
+13.Part-13 || rotateDigit() method part-1
 
-14.Part-14 || main() method part-2
+14.Part-14 || rotateDigit() method part-2
 
 15.Part-15|| Command Line Arguments
 

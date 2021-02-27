@@ -40,7 +40,7 @@ this keyword resolves the problem of ambiguity.
       void display(){System.out.println(rollno+" "+name+" "+fee);}  
       }  
     class TestThis1{  
-      public static void main(String args[]){  
+      public static void rotateDigit(String args[]){  
       Student s1=new Student(111,"ankit",5000f);  
       Student s2=new Student(112,"sumit",6000f);  
       s1.display();  
@@ -71,7 +71,7 @@ Solution of the above problem by this keyword
     void display(){System.out.println(rollno+" "+name+" "+fee);}  
       }  
     class TestThis2{  
-      public static void main(String args[]){  
+      public static void rotateDigit(String args[]){  
       Student s1=new Student(111,"ankit",5000f);  
       Student s2=new Student(112,"sumit",6000f);  
       s1.display();  
@@ -102,7 +102,7 @@ Program where this keyword is not required
     }  
       
     class TestThis3{  
-      public static void main(String args[]){  
+      public static void rotateDigit(String args[]){  
       Student s1=new Student(111,"ankit",5000f);  
       Student s2=new Student(112,"sumit",6000f);  
       s1.display();  
@@ -138,7 +138,7 @@ compiler automatically adds this keyword while invoking the method.
       }  
       }  
     class TestThis4{  
-      public static void main(String args[]){  
+      public static void rotateDigit(String args[]){  
       A a=new A();  
       a.n();  
       }
@@ -165,7 +165,7 @@ It is used to reuse the constructor. In other words, it is used for constructor 
     }  
     }  
     class TestThis5{  
-    public static void main(String args[]){  
+    public static void rotateDigit(String args[]){  
     A a=new A(10);  
     }
   }  
@@ -189,7 +189,7 @@ hello a
       }  
       }  
     class TestThis6{  
-      public static void main(String args[]){  
+      public static void rotateDigit(String args[]){  
       A a=new A();  
       }
     }  
@@ -225,7 +225,7 @@ Let's see the example given below that displays the actual use of this keyword.
     void display(){System.out.println(rollno+" "+name+" "+course+" "+fee);}  
     }  
       class TestThis7{  
-         public static void main(String args[]){  
+         public static void rotateDigit(String args[]){  
             Student s1=new Student(111,"ankit","java");  
             Student s2=new Student(112,"sumit","java",6000f);  
             s1.display();  
@@ -256,7 +256,7 @@ Output:
     void display(){System.out.println(rollno+" "+name+" "+course+" "+fee);}  
     }  
       class TestThis8{  
-         public static void main(String args[]){  
+         public static void rotateDigit(String args[]){  
             Student s1=new Student(111,"ankit","java");  
             Student s2=new Student(112,"sumit","java",6000f);  
             s1.display();  
@@ -280,7 +280,7 @@ It is mainly used in the event handling. Let's see the example:
          void p(){  
          m(this);  
       }  
-      public static void main(String args[]){  
+      public static void rotateDigit(String args[]){  
          S2 s1 = new S2();  
          s1.p();  
       }  
@@ -320,7 +320,7 @@ Let's see the example:
        B b=new B(this);  
        b.display();  
       }  
-      public static void main(String args[]){  
+      public static void rotateDigit(String args[]){  
        A4 a=new A4();  
       }  
     }  
@@ -349,7 +349,7 @@ Syntax of this that can be returned as a statement
     void msg(){System.out.println("Hello java");}  
     }  
     class Test1{  
-      public static void main(String args[]){  
+      public static void rotateDigit(String args[]){  
       new A().getA().msg();  
     }  
     }  
@@ -369,7 +369,7 @@ output of both variables are same.
       void m(){  
       System.out.println(this);//prints same reference ID  
       }  
-    public static void main(String args[]){  
+    public static void rotateDigit(String args[]){  
       A5 obj=new A5();  
       System.out.println(obj);//prints the reference ID  
       obj.m();  

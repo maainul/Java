@@ -9,7 +9,7 @@ The Java StringBuilder class is same as StringBuffer class except that it is non
 package javastrings.Class.StringBuilder;
 
 public class _1_StringBuilderAppend{
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		StringBuilder sb = new StringBuilder("Hello");
         sb.append("Java");
 		System.out.println(sb);
@@ -24,7 +24,7 @@ package javastrings.Class.StringBuilder;
 
 public class _2_StringBuilderInert
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	
 	    StringBuilder sb = new StringBuilder("Hello");
 	    sb.insert(1,"Java");
@@ -40,7 +40,7 @@ package javastrings.Class.StringBuilder;
 
 public class _3_StringBuilderReplace
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	
 	    StringBuilder sb = new StringBuilder("Hello");
 	    sb.replace(1,3,"Java");
@@ -57,7 +57,7 @@ package javastrings.Class.StringBuilder;
 
 public class _4_StringBuilderDelete
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	
 	    StringBuilder sb = new StringBuilder("Hello");
 	    sb.delete(1,3);
@@ -72,7 +72,7 @@ package javastrings.Class.StringBuilder;
 //The reverse() method of StringBuilder class reverses the current string.
 public class _5_StringBuilderReverse
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	
 	    StringBuilder sb = new StringBuilder("Hello");
 	    sb.reverse();
@@ -95,7 +95,7 @@ package javastrings.Class.StringBuilder;
 
 public class _6_StringBuilderCapacity
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	
 	    StringBuilder sb = new StringBuilder("Hello");
 	   
@@ -119,7 +119,7 @@ package javastrings.Class.StringBuilder;
 
 public class _7_StringBuilderEnsureCapacity
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	
 	    StringBuilder sb = new StringBuilder("Hello");
 	   
@@ -172,7 +172,7 @@ public class StringAndStringBufferPerformanceTesr
     }
     
     
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		System.out.println("Hello World");
 	
 		long startTime =System.currentTimeMillis();  
@@ -210,7 +210,7 @@ package javastrings;
 
 //Java Program to demonstrate the performance of StringBuffer and StringBuilder classes.  
 public class StringBufferAndStringBuilder{ //StringBufferandStringBuilder 
-  public static void main(String[] args){  
+  public static void rotateDigit(String[] args){  
       long startTime = System.currentTimeMillis();  
       StringBuffer sb = new StringBuffer("Java");  
       for (int i=0; i<10000; i++){  

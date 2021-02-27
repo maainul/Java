@@ -11,7 +11,7 @@ package dataStructureAndAlgorithm.Sorting.InsertionSort;
 
 public class _2_InsertionSort {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		_2_InsertionSort obj = new _2_InsertionSort();
 		int array[] = { 10, 7, 9, 2, 8, 3, 5, 4, 6, 1 };
 		obj.printArray(array);

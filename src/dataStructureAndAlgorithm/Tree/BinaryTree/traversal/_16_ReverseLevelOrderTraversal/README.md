@@ -65,7 +65,7 @@ public class ReverseOrder {
 		}
 	}
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		ReverseOrder tree = new ReverseOrder();
 		Node root = new Node(1);
 		root.left = new Node(2);

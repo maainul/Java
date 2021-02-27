@@ -88,7 +88,7 @@ public class Graph {
 		}
 	}
 
-	public static void main(String[] agrs) {
+	public static void rotateDigit(String[] agrs) {
 		Graph obj = new Graph(4);
 		obj.addEdge(0, 1);
 		obj.addEdge(1, 2);
@@ -182,7 +182,7 @@ public class Graph {
 
 
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		Graph graph = new Graph(5);
 
 		graph.addEdge(0, 1);
@@ -240,7 +240,7 @@ public class Graph {
 		}
 	}
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		Graph graph = new Graph(5);
 		graph.addEdge(0, 1);
 		graph.addEdge(0, 4);
@@ -283,7 +283,7 @@ class Graph {
     am.get(d).add(s);
   }
 
-  public static void main(String[] args) {
+  public static void rotateDigit(String[] args) {
 
     // Create the graph
     int V = 5;

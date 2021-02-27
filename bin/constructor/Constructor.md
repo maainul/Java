@@ -11,7 +11,7 @@ public class Student {
 		int rollno;
 	}
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		Student s1 = new Student();
 		Student s2 = new Student();
 		Student s3 = new Student();
@@ -47,7 +47,7 @@ public class Student {
 	}
 	
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		Student s1 = new Student("anik",101);
 		Student s1 = new Student("mnik",102);
 		Student s1 = new Student("snik",103);
@@ -94,7 +94,7 @@ public class _1_EveryTimeConstructorCall {
 		System.out.println("Constructor call");
 	}
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		_1_EveryTimeConstructorCall obj1 = new _1_EveryTimeConstructorCall();
 		_1_EveryTimeConstructorCall obj2 = new _1_EveryTimeConstructorCall();
 		_1_EveryTimeConstructorCall obj3 = new _1_EveryTimeConstructorCall();
@@ -253,7 +253,7 @@ class C extends P {
 
 public class SuperAndThis {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		C obj = new C();
 		obj.m1();
 
@@ -308,7 +308,7 @@ public class ConstructorOverloading {
 		// TODO Auto-generated constructor stub
 	}
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		// TODO Auto-generated method stub
 		Test obj = new Test(7.5);
 		

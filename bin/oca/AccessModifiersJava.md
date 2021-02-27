@@ -54,7 +54,7 @@ class A{
 }  
   
 public class Simple{  
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
 		A obj=new A();  
 		System.out.println(obj.data);//Compile Time Error  
 		obj.msg();//Compile Time Error  
@@ -74,7 +74,7 @@ class A{
 }  
   
 public class Simple{  
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
 		A obj=new A();  
 		 
    }  
@@ -110,7 +110,7 @@ package mypack;
 import pack.*; 
 
 class B{  
-  public static void main(String args[]){  
+  public static void rotateDigit(String args[]){  
    A obj = new A();//Compile Time Error  
    obj.msg();//Compile Time Error  
   }  
@@ -150,7 +150,7 @@ package mypack;
 import pack.*;  
   
 class B extends A{  
-  public static void main(String args[]){  
+  public static void rotateDigit(String args[]){  
    B obj = new B();  
    obj.msg();  
   }  
@@ -178,7 +178,7 @@ package mypack;
 import pack.*;  
   
 class B{  
-  public static void main(String args[]){  
+  public static void rotateDigit(String args[]){  
    A obj = new A();  
    obj.msg();  
   }  

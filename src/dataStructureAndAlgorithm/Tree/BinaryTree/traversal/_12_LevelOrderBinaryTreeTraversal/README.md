@@ -83,7 +83,7 @@ public class BreadthFirstSearch {
 		}
 	}
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		BreadthFirstSearch bt = new BreadthFirstSearch();
 
 		bt.createBinaryTree();

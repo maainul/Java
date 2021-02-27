@@ -33,7 +33,7 @@ class Dog extends Animal{
 
 public class TestSuper1 {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		
 		Dog dog = new Dog();
 		dog.printcolor();
@@ -72,7 +72,7 @@ class MrDog extends Anymal{
 
 public class TestSuper2 {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		MrDog dog = new MrDog();
 		dog.work();
 	}
@@ -113,7 +113,7 @@ class Dog extends Animal{
 
 public class TestSuper3 {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		Dog dog = new Dog();
 		
 	}
@@ -162,7 +162,7 @@ class Emp extends Person{
 
 public class TestSuper5 {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		// TODO Auto-generated method stub
 		Emp emp = new Emp(101, "Mainul Hasan", 35000);
 		emp.dispay();

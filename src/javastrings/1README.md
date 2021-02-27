@@ -82,7 +82,7 @@ The variable s will refer to the object in a heap (non-pool).
 # Java String Example
 ```.java
 public class StringExample{  
-  public static void main(String args[]){  
+  public static void rotateDigit(String args[]){  
     String s1="java";//creating string by java string literal  
     char ch[]={'s','t','r','i','n','g','s'};  
     String s2=new String(ch);//converting char array to string  
@@ -109,7 +109,7 @@ Let's try to understand the immutability concept by the example given below:
 ```
 ```.java
 class Testimmutablestring{  
- public static void main(String args[]){  
+ public static void rotateDigit(String args[]){  
    String s="Sachin";  
    s.concat(" Tendulkar");//concat() method appends the string at the end  
    System.out.println(s);//will print Sachin because strings are immutable objects  
@@ -134,7 +134,7 @@ it will refer to "Sachin Tendulkar" object.For example:
 ```
 ```.java
 class Testimmutablestring1{  
- public static void main(String args[]){  
+ public static void rotateDigit(String args[]){  
    String s="Sachin";  
    s=s.concat(" Tendulkar");  
    System.out.println(s);  
@@ -171,7 +171,7 @@ There are three ways to compare string in java:
 
 ```.java
 class Teststringcomparison1{  
- public static void main(String args[]){  
+ public static void rotateDigit(String args[]){  
    String s1="Sachin";  
    String s2="Sachin";  
    String s3=new String("Sachin");  
@@ -189,7 +189,7 @@ Output:true
 ```
 ```.java
 class Teststringcomparison2{  
- public static void main(String args[]){  
+ public static void rotateDigit(String args[]){  
    String s1="Sachin";  
    String s2="SACHIN";  
   
@@ -209,7 +209,7 @@ The = = operator compares references not values.
 ```
 ```.java
 class Teststringcomparison3{  
- public static void main(String args[]){  
+ public static void rotateDigit(String args[]){  
    String s1="Sachin";  
    String s2="Sachin";  
    String s3=new String("Sachin");  
@@ -234,7 +234,7 @@ s1 < s2   :negative value
 
 ```.java
 class Teststringcomparison4{  
- public static void main(String args[]){  
+ public static void rotateDigit(String args[]){  
    String s1="Sachin";  
    String s2="Sachin";  
    String s3="Ratan";  
@@ -264,7 +264,7 @@ There are two ways to concat string in java:
 Java string concatenation operator (+) is used to add strings. For Example:
 
 class TestStringConcatenation1{  
- public static void main(String args[]){  
+ public static void rotateDigit(String args[]){  
    String s="Sachin"+" Tendulkar";  
    System.out.println(s);//Sachin Tendulkar  
  }  
@@ -284,7 +284,7 @@ For Example:
 ```
 ```.java
 class TestStringConcatenation2{  
- public static void main(String args[]){  
+ public static void rotateDigit(String args[]){  
    String s=50+30+"Sachin"+40+40;  
    System.out.println(s);//80Sachin4040  
  }  
@@ -305,7 +305,7 @@ Let's see the example of String concat() method.
 ```
 ```.java
 class TestStringConcatenation3{  
- public static void main(String args[]){  
+ public static void rotateDigit(String args[]){  
    String s1="Sachin ";  
    String s2="Tendulkar";  
    String s3=s1.concat(s2);  
@@ -349,7 +349,7 @@ In the above substring, 0 points to h but 2 points to e (because end index is ex
 ```.java
 Example of java substring
 public class TestSubstring{  
- public static void main(String args[]){  
+ public static void rotateDigit(String args[]){  
    String s="SachinTendulkar";  
    System.out.println(s.substring(6));//Tendulkar  
    System.out.println(s.substring(0,6));//Sachin  
@@ -408,7 +408,7 @@ package javastrings.Class.Stirng;
 
 public class _1_StringtoUpperCaseAndtoLowerCase {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		String s1 = "Mainul";
 		System.out.println(s1.toUpperCase());
 		System.out.println(s1.toLowerCase());
@@ -433,7 +433,7 @@ package javastrings.Class.Stirng;
 //The string trim() method eliminates white spaces before and after string.
 public class _2_StringTrim {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		
 		String s1="  hello string   "; 
 		
@@ -463,7 +463,7 @@ package javastrings.Class.Stirng;
 
 public class _3_StringStartsAndEndWith {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		String s1 = "Mainul";
 		System.out.println(s1.startsWith("a")); //false
 		System.out.println(s1.startsWith("m")); // case sensitive //false
@@ -499,7 +499,7 @@ package javastrings.Class.Stirng;
 
 public class StringCharAt {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		String s1 = "Mainul";
 		System.out.println(s1.charAt(0)); // M
 		System.out.println(s1.charAt(3)); // n
@@ -553,7 +553,7 @@ package javastrings.Class.Stirng;
 
 public class _5_StringLength {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		String s1 = "javapoint";
 		String s2 = "Python";
 		System.out.println("String length :"+s1.length());
@@ -589,7 +589,7 @@ package javastrings.Class.Stirng;
   
 public class _6_StringValueOf {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		int value = 30;
 		String s1 = String.valueOf(value);
 		System.out.println(s1+10);
@@ -650,7 +650,7 @@ A pool is managed by String class.
 // Java program to illustrate  
 // intern() method  
 class GFG {  
-    public static void main(String[] args)  
+    public static void rotateDigit(String[] args)  
     {  
         // S1 refers to Object in the Heap Area  
         String s1 = new String("GFG"); // Line-1  
@@ -710,7 +710,7 @@ then intern() method itself will create the corresponding SCP object.
 // Java program to illustrate  
 // intern() method  
 class GFG {  
-    public static void main(String[] args)  
+    public static void rotateDigit(String[] args)  
     {  
         // S1 refers to Object in the Heap Area  
         String s1 = new String("GFG"); // Line-1  
@@ -756,7 +756,7 @@ package javastrings.Class.Stirng;
 
 public class _8_StringReplace {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		String s1 = "Java is a programming language.Java is a iceland";
 		System.out.println(s1);
 		String replaceString = s1.replace("Java", "Kava");
@@ -778,7 +778,7 @@ public class _8_StringReplace {
 package javastrings.Class.Stirng;
 
 public class _9_StringCompateTo{  
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
 		String s1="hello";  
 		String s2="hello";  
 		String s3="meklo";  
@@ -796,7 +796,7 @@ public class _9_StringCompateTo{
 package javastrings.Class.Stirng;
 
 public class _10_StringConcat {  
-    public static void main(String[] args) {      
+    public static void rotateDigit(String[] args) {      
         String str1 = "Hello";  
         String str2 = "Javatpoint";  
         String str3 = "Reader";  
@@ -819,7 +819,7 @@ package javastrings.Class.Stirng;
 
 public class StringContains {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		String nameString = "What do you know about me";
 		System.out.println(nameString.contains("do you")); // true
 		System.out.println(nameString.contains("about")); // true
@@ -843,7 +843,7 @@ package javastrings.Class.Stirng;
 
 public class StringEqualsTo {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		String s1 = "Javapoint";
 		String s2 = "Javapoint";
 		String s3 = "JavaPoint";
@@ -879,7 +879,7 @@ import java.util.ArrayList;
 
 public class _13_StringEqualsIgnoreCase {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		String s1 = "Javapoint";
 		String s2 = "JAVAPOINT";
 		String s3 = "JavaTPoint";
@@ -949,7 +949,7 @@ Returns a formatted string using the given locale,specified format string and ar
 package javastrings.Class.Stirng;
 
 public class _14_StringFormat {  
-    public static void main(String[] args) {  
+    public static void rotateDigit(String[] args) {  
     	 
     	String str = "GeeksforGeeks."; 
     	  
@@ -999,7 +999,7 @@ package javastrings.Class.Stirng;
 
 public class _15_StringGetBytes {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		String s1 = "ABCDEFG";
 		byte[] barr = s1.getBytes();
 		for (int i = 0; i < barr.length; i++) {
@@ -1037,7 +1037,7 @@ package javastrings.Class.Stirng;
 //  given string into the destination character array.
 public class _16_StringGetChars {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		String string = new String("Hello javaworld");
 		char[] ch = new char[10];
 		try {
@@ -1063,7 +1063,7 @@ package javastrings.Class.Stirng;
 
 public class _17_StringIndexOf {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		String s1 = "I am from Bangladesh.";
 		System.out.println(s1.indexOf("from")); // 5
 		System.out.println(s1.indexOf('I')); //0
@@ -1095,7 +1095,7 @@ package javastrings.Class.Stirng;
 
 public class _18_StringIsEmpty {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		String s1 = "";
 		String s2 = "Javaworld";
 		System.out.println(s1.isEmpty()); // true
@@ -1133,7 +1133,7 @@ package javastrings.Class.Stirng;
 
 public class _19_StringJoin {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		String dateString = String.join("/", "12","12","2019");
 		System.out.println(dateString);
 		String timeString = String.join(":", "12","10","30");
@@ -1176,7 +1176,7 @@ package javastrings.Class.Stirng;
 // The java string lastIndexOf() method returns last index of the given character value or substring. 
 // If it is not found, it returns -1. The index counter starts from zero.
 public class _20_StringLastIndexOf {
-	public static void main(String args[]) {
+	public static void rotateDigit(String args[]) {
 		String s4 = "This is index of lastindex.";
 		System.out.println(s4.lastIndexOf('s')); //19
 		System.out.println(s4.lastIndexOf('s', 5)); // 3
@@ -1193,7 +1193,7 @@ package javastrings.Class.Stirng;
 
 public class StringReplaceAll {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		String s1="javatpoint is a very good website";  
 		String replaceString=s1.replaceAll("a","e");//replaces all occurrences of "a" to "e"  
 		System.out.println(replaceString);
@@ -1213,7 +1213,7 @@ package javastrings.Class.Stirng;
 // It also includes special characters.
 
 public class _22_StringSplit {
-	public static void main(String args[]) {
+	public static void rotateDigit(String args[]) {
 		String s1="java string split method by javatpoint";  
 		String[] wordStrings = s1.split("\\s");
 		String capitalizeString = "";
@@ -1286,7 +1286,7 @@ package javastrings.Class.Stirng;
 
 public class _23_StringSubdtring {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		
 		String s1 = "javatpoint";
 		System.out.println(s1.substring(2,4));
@@ -1307,7 +1307,7 @@ package javastrings.Class.Stirng;
 
 public class _24_StringToCharArray {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		String s1 = "hello";
 		
 		char[] ch = s1.toCharArray();
@@ -1376,7 +1376,7 @@ So it is safe and will result in an order
 # 7.1. StringBuffer append() method
 ```.java
 class StringBufferExample{  
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
 		StringBuffer sb=new StringBuffer("Hello ");  
 		sb.append("Java");//now original string is changed  
 		System.out.println(sb);//prints Hello Java  
@@ -1388,7 +1388,7 @@ class StringBufferExample{
 //The insert() method inserts the given string with this string at the given position.
 
 class StringBufferExample2{  
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
 		StringBuffer sb=new StringBuffer("Hello ");  
 		sb.insert(1,"Java");//now original string is changed  
 		System.out.println(sb);//prints HJavaello  
@@ -1401,7 +1401,7 @@ class StringBufferExample2{
 //The replace() method replaces the given string from the specified beginIndex and endIndex.
 
 class StringBufferExample3{  
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
 		StringBuffer sb=new StringBuffer("Hello");  
 		sb.replace(1,3,"Java");  
 		System.out.println(sb);//prints HJavalo  
@@ -1414,7 +1414,7 @@ class StringBufferExample3{
 The delete() method of StringBuffer class deletes the string from the specified beginIndex to endIndex.
 
 class StringBufferExample4{  
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
 		StringBuffer sb=new StringBuffer("Hello");  
 		sb.delete(1,3);  
 		System.out.println(sb);//prints Hlo  
@@ -1426,7 +1426,7 @@ class StringBufferExample4{
 // The reverse() method of StringBuilder class reverses the current string.
 
 class StringBufferExample5{  
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
 		StringBuffer sb=new StringBuffer("Hello");  
 		sb.reverse();  
 		System.out.println(sb);//prints olleH  
@@ -1442,7 +1442,7 @@ For example if your current capacity is 16, it will be (16*2)+2=34.
 ```
 ```.java
 class StringBufferExample6{  
-	public static void main(String args[]){  	
+	public static void rotateDigit(String args[]){  	
 	StringBuffer sb=new StringBuffer();  
 	System.out.println(sb.capacity());//default 16  
 	sb.append("Hello");  
@@ -1462,7 +1462,7 @@ For example if your current capacity is 16, it will be (16*2)+2=34.
 ```
 ```.java
 class _7_StringBufferEnsureCapacity{  
-	public static void main(String args[]){  
+	public static void rotateDigit(String args[]){  
 		StringBuffer sb=new StringBuffer();  
 		System.out.println(sb.capacity());//default 16  
 		sb.append("Hello");  
@@ -1487,7 +1487,7 @@ The Java StringBuilder class is same as StringBuffer class except that it is non
 package javastrings.Class.StringBuilder;
 
 public class _1_StringBuilderAppend{
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		StringBuilder sb = new StringBuilder("Hello");
         sb.append("Java");
 		System.out.println(sb);
@@ -1502,7 +1502,7 @@ package javastrings.Class.StringBuilder;
 
 public class _2_StringBuilderInert
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	
 	    StringBuilder sb = new StringBuilder("Hello");
 	    sb.insert(1,"Java");
@@ -1518,7 +1518,7 @@ package javastrings.Class.StringBuilder;
 
 public class _3_StringBuilderReplace
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	
 	    StringBuilder sb = new StringBuilder("Hello");
 	    sb.replace(1,3,"Java");
@@ -1535,7 +1535,7 @@ package javastrings.Class.StringBuilder;
 
 public class _4_StringBuilderDelete
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	
 	    StringBuilder sb = new StringBuilder("Hello");
 	    sb.delete(1,3);
@@ -1550,7 +1550,7 @@ package javastrings.Class.StringBuilder;
 //The reverse() method of StringBuilder class reverses the current string.
 public class _5_StringBuilderReverse
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	
 	    StringBuilder sb = new StringBuilder("Hello");
 	    sb.reverse();
@@ -1573,7 +1573,7 @@ package javastrings.Class.StringBuilder;
 
 public class _6_StringBuilderCapacity
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	
 	    StringBuilder sb = new StringBuilder("Hello");
 	   
@@ -1597,7 +1597,7 @@ package javastrings.Class.StringBuilder;
 
 public class _7_StringBuilderEnsureCapacity
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	
 	    StringBuilder sb = new StringBuilder("Hello");
 	   
@@ -1650,7 +1650,7 @@ public class StringAndStringBufferPerformanceTesr
     }
     
     
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		System.out.println("Hello World");
 	
 		long startTime =System.currentTimeMillis();  
@@ -1688,7 +1688,7 @@ package javastrings;
 
 //Java Program to demonstrate the performance of StringBuffer and StringBuilder classes.  
 public class StringBufferAndStringBuilder{ //StringBufferandStringBuilder 
-  public static void main(String[] args){  
+  public static void rotateDigit(String[] args){  
       long startTime = System.currentTimeMillis();  
       StringBuffer sb = new StringBuffer("Java");  
       for (int i=0; i<10000; i++){  

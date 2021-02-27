@@ -79,7 +79,7 @@ public class LevelOrderLineByLine {
 		}
 	}
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		LevelOrderLineByLine bt = new LevelOrderLineByLine();
 		bt.createBinaryTree();
 		bt.printlineByLine(bt.root);

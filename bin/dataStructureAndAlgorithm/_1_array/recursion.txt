@@ -32,7 +32,7 @@ Program 1: Print Array Normal Method.
 
 public class Main
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		int array[] = {2,5,9,8};
 		System.out.println("Original Array:");
 	    for(int i=0; i<array.length;i++){
@@ -53,7 +53,7 @@ Program 2: Print Array Recursion Method.
 
 public class Main
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	    reverse(0);
 	    
 	}
@@ -74,13 +74,13 @@ Original Array:
 2,5,9,8
 /******************************************************************************
 
-Program 3: Print Array Recursion Method.(array in the main method)
+Program 3: Print Array Recursion Method.(array in the rotateDigit method)
 
 *******************************************************************************/
 
 public class Main
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	    int array[] = {2,5,9,8,98,0,45,7};
 	    reverse(array,0);
 	    
@@ -102,7 +102,7 @@ Program 3: Reverse Array Normal Method.
 
 public class Main
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		int array[] = {2,5,9,8};
 		System.out.println("Original Array:");
 	    for(int i=0; i<array.length;i++){
@@ -122,7 +122,7 @@ Program 4: Reverse Array Recursion Method.
 
 public class Main
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	    reverse(3);
 	    
 	}
@@ -144,12 +144,12 @@ Index1 : 5
 Index0 : 2    
 
 /******************************************************************************
-Program 5: Reverse Array Recursion Method.(Array in the main method)
+Program 5: Reverse Array Recursion Method.(Array in the rotateDigit method)
 
 *******************************************************************************/
 public class Main
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	    int array[] = {2,5,9,8,98,0,45,7};
 	    int i = array.length;
 	    reverse(array,i-1);

@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.function.Consumer;
 // Using Collections
 public class ListCLass {
-    public static void main(String[] args) {
+    public static void rotateDigit(String[] args) {
         final List<String> friends = Arrays.asList(
                 "Fakhrul",
                 "Kamrul",
@@ -77,7 +77,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class UpperCaseLowerCase {
-    public static void main(String[] args) {
+    public static void rotateDigit(String[] args) {
         final List<String> friends = Arrays.asList(
                 "Fakhrul",
                 "Kamrul",
@@ -148,7 +148,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class StartSWithExample {
-    public static void main(String[] args) {
+    public static void rotateDigit(String[] args) {
         final List<String> friends = Arrays.asList(
                 "Fakhrul",
                 "Kamrul",
@@ -191,7 +191,7 @@ import java.util.List;
 import java.util.function.Predicate;
 
 public class _ReusingLambda {
-    public static void main(String[] args) {
+    public static void rotateDigit(String[] args) {
         final List<String> friends =
                 Arrays.asList("Brian", "Nate", "Neal", "Raju", "Sara", "Scott");
 
@@ -297,7 +297,7 @@ import java.util.function.Predicate;
 
 // Refactoring to Narrow the Scope
 public class RefactoringNarrowTheScope {
-    public static void main(String[] args) {
+    public static void rotateDigit(String[] args) {
         final List<String> friends =
                 Arrays.asList("Brian", "Nate", "Neal", "Raju", "Sara", "Scott");
 
@@ -362,7 +362,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class PickingAnElement {
-    public static void main(String[] args) {
+    public static void rotateDigit(String[] args) {
         final List<String> names = Arrays.asList("Brian", "Nate", "Neal", "Raju", "Sara", "Scott");
 
         pickName(names, "S");
@@ -407,7 +407,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class ReducingCollection {
-    public static void main(String[] args) {
+    public static void rotateDigit(String[] args) {
         final List<String> names = Arrays.asList("Brian", "Nate", "Neal", "Raju", "Sara", "Scott");
 
         System.out.println("Total numnber of character in all names");
@@ -434,7 +434,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class JoiningElements {
-    public static void main(String[] args) {
+    public static void rotateDigit(String[] args) {
         final List<String> names = Arrays.asList("Brian", "Nate", "Neal", "Raju", "Sara", "Scott");
 
         for (String name: names

@@ -10,7 +10,7 @@ import java.sql.Statement;
 
 public class HelloWorld {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		try {
 			System.out.println("Welcome to database connection .");
 			String url = "jdbc:mysql://localhost:3306/student?autoReconnect=true&useSSL=false";

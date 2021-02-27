@@ -25,7 +25,7 @@ class Bike9{
 
 public class FinalTest1 {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		// TODO Auto-generated method stub
 		Bike9 bike9 = new Bike9();
 		// bike9.run(); //it will not work
@@ -60,7 +60,7 @@ class Honda extends Bike{
 
 public class FinalMethod {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		// TODO Auto-generated method stub
 		Bike bike = new Bike();
 		bike.run();
@@ -92,7 +92,7 @@ class Honda extends Bike{
 
 public class FinalMethod {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		// TODO Auto-generated method stub
 		Bike bike = new Bike();
 		bike.run();

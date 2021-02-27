@@ -50,7 +50,7 @@ public class SpiralTree {
 
 	}
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		SpiralTree spiralTree = new SpiralTree();
 		spiralTree.createBinaryTree();
 		spiralTree.levelOrderSpiralTree(spiralTree.root);

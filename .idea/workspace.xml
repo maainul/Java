@@ -23,9 +23,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/strings/_CountWordInaString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/strings/ReplaceCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/strings/ReverseWordInAGivenString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/strings/RotateDigit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/strings/ReverseWordNotUsingStringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/strings/ReverseWordNotUsingStringBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractClass.md" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractClass.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccessModifiersJava.md" beforeDir="false" afterPath="$PROJECT_DIR$/AccessModifiersJava.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constructor.md" beforeDir="false" afterPath="$PROJECT_DIR$/Constructor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConstructorDetails.md" beforeDir="false" afterPath="$PROJECT_DIR$/ConstructorDetails.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscussionJavaStaticKeyword.md" beforeDir="false" afterPath="$PROJECT_DIR$/DiscussionJavaStaticKeyword.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeaturesOfJava.md" beforeDir="false" afterPath="$PROJECT_DIR$/FeaturesOfJava.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalKeyword.md" beforeDir="false" afterPath="$PROJECT_DIR$/FinalKeyword.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance.md" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfaceDiscussion.md" beforeDir="false" afterPath="$PROJECT_DIR$/InterfaceDiscussion.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaInterviewQuestions.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaInterviewQuestions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StaticAndDynamicBinding.md" beforeDir="false" afterPath="$PROJECT_DIR$/StaticAndDynamicBinding.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperKeyword.md" beforeDir="false" afterPath="$PROJECT_DIR$/SuperKeyword.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThisKeyword.md" beforeDir="false" afterPath="$PROJECT_DIR$/ThisKeyword.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WhatIsJava.md" beforeDir="false" afterPath="$PROJECT_DIR$/WhatIsJava.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/strings/_CountWordInaString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/strings/_CountWordInaString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc.md" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open-close.md" beforeDir="false" afterPath="$PROJECT_DIR$/open-close.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polymorphism.md" beforeDir="false" afterPath="$PROJECT_DIR$/polymorphism.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java8NewFeaturesdurgasoft/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/sort/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/sort/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constructor/06.Constructor Overloading.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/constructor/06.Constructor Overloading.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constructor/1.Need Of Constructor.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/constructor/1.Need Of Constructor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constructor/5.Difference Between Super and this.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/constructor/5.Difference Between Super and this.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constructor/Constructor.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/constructor/Constructor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Sorting/InsertionSort/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Sorting/InsertionSort/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_12_LevelOrderBinaryTreeTraversal/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_12_LevelOrderBinaryTreeTraversal/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_13_SpiralTreeTraversal/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_13_SpiralTreeTraversal/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_14_LevelOrderLineByLine/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_14_LevelOrderLineByLine/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_15_LevelOrderTraversalWithDirectionChangeAfterEveryTwoLevels/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_15_LevelOrderTraversalWithDirectionChangeAfterEveryTwoLevels/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_16_ReverseLevelOrderTraversal/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_16_ReverseLevelOrderTraversal/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_18_PerfectBinaryTreeSpecificLevelOrderTraversal/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_18_PerfectBinaryTreeSpecificLevelOrderTraversal/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/recursion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/_1_array/recursion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/graph/2_GraphRepresentation.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/graph/2_GraphRepresentation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functionalProgrammingBook/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalProgrammingBook/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javastrings/1README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/javastrings/1README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javastrings/Class/String/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/javastrings/Class/String/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javastrings/Class/StringBuilder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/javastrings/Class/StringBuilder/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javastrings/Class/Stringbuffer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/javastrings/Class/Stringbuffer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/AccessModifiersJava.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/AccessModifiersJava.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oopConcept/encapsulation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/oopConcept/encapsulation/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,9 +165,9 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application._CountWordInaString">
-    <configuration name="CheckAnagramOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQuestions.strings.CheckAnagramOrNot" />
+  <component name="RunManager" selected="Application.RotateDigit">
+    <configuration name="ReplaceCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions.strings.ReplaceCharacter" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +179,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindPalindromOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQuestions.strings.FindPalindromOrNot" />
+    <configuration name="ReverseWordInAGivenString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions.strings.ReverseWordInAGivenString" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -162,8 +205,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2_AnagramUsingFreq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQuestions.strings._2_AnagramUsingFreq" />
+    <configuration name="RotateDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions.strings.RotateDigit" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -190,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotateDigit" />
+        <item itemvalue="Application.ReverseWordInAGivenString" />
+        <item itemvalue="Application.ReplaceCharacter" />
         <item itemvalue="Application._CountWordInaString" />
         <item itemvalue="Application.ReverseWordNotUsingStringBuilder" />
-        <item itemvalue="Application.FindPalindromOrNot" />
-        <item itemvalue="Application._2_AnagramUsingFreq" />
-        <item itemvalue="Application.CheckAnagramOrNot" />
       </list>
     </recent_temporary>
   </component>

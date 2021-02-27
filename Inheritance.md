@@ -49,7 +49,7 @@ class Programmer extends Empolyee{
 
 public class Main
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	    //Empolyee e = new Empolyee();
 	    //e.salary();
 	   Programmer e = new Programmer();
@@ -86,7 +86,7 @@ class BabyDog extends Dog{
 
 public class Main
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	    BabyDog d = new BabyDog();
 	    d.eat();
 	    d.bark();
@@ -125,7 +125,7 @@ class Cat extends Animal{
 }
 public class Main
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	    Cat c = new Cat();
 	    c.meow();
 	    c.eat();
@@ -164,7 +164,7 @@ class C extends A,B { // suppose if it were
 }
 public class Main
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	    C obj = new C();
 	    obj.msg();
 		//System.out.println("Hello World");

@@ -28,7 +28,7 @@ class Vehicle{
 }
 
 public class Bike extends Vehicle {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	Bike bike = new Bike();
 	bike.run();
 	
@@ -49,7 +49,7 @@ public class Bike extends Vehicle {
 	void run() {
 		System.out.println("Bike is running safely..");
 	}
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	Bike bike = new Bike();
 	bike.run();
 	
@@ -92,7 +92,7 @@ class AXIS extends Baank{
 
 public class BankInterest {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		SBI sbi = new SBI();
 		ICICI icici = new ICICI();
 		AXIS axis = new AXIS();
@@ -144,7 +144,7 @@ class Dog extends Animal{
 
 public class TestSuper1 {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		
 		Dog dog = new Dog();
 		dog.printcolor();
@@ -183,7 +183,7 @@ class MrDog extends Anymal{
 
 public class TestSuper2 {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		MrDog dog = new MrDog();
 		dog.work();
 	}
@@ -224,7 +224,7 @@ class Dog extends Animal{
 
 public class TestSuper3 {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		Dog dog = new Dog();
 		
 	}
@@ -272,7 +272,7 @@ class Emp extends Person{
 
 public class TestSuper5 {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		// TODO Auto-generated method stub
 		Emp emp = new Emp(101, "Mainul Hasan", 35000);
 		emp.dispay();
@@ -310,7 +310,7 @@ class Bike9{
 
 public class FinalTest1 {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		// TODO Auto-generated method stub
 		Bike9 bike9 = new Bike9();
 		// bike9.run(); //it will not work
@@ -345,7 +345,7 @@ class Honda extends Bike{
 
 public class FinalMethod {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		// TODO Auto-generated method stub
 		Bike bike = new Bike();
 		bike.run();
@@ -377,7 +377,7 @@ class Honda extends Bike{
 
 public class FinalMethod {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		// TODO Auto-generated method stub
 		Bike bike = new Bike();
 		bike.run();
@@ -436,7 +436,7 @@ class Splendor extends Bike{
 
 public class Main
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 	
 		Bike bike = new Splendor();
 		bike.run();
@@ -484,7 +484,7 @@ class AXIS extends Bank{
 }
 public class Main
 {
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 /*		
         Method Overloading......................
         SBI sbi = new SBI();
@@ -510,7 +510,7 @@ public class Main
 
 ## FAQ
 ```
-1. Can we override java main method?
-	No, because the main is a static method.
+1. Can we override java rotateDigit method?
+	No, because the rotateDigit is a static method.
 
 ```

@@ -35,7 +35,7 @@ import java.util.List;
 
 public class _1_CollectionsSortList {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		
         List<String> fruits = new ArrayList<String>();
 			fruits.add("Apple");
@@ -97,7 +97,7 @@ class Fruits{
 
 public class _2_CollectionsSortListComparator {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		// create four object
 		Fruits object1=new Fruits(1, "Apple", "Sweet");
     	Fruits object2=new Fruits(2, "Orange", "Sour");
@@ -179,7 +179,7 @@ class Fruitts implements Comparable<Object>{
 
 public class _3_CollectionsSortListUsingComparator {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		Fruitts object1=new Fruitts(1, "Apple", "Sweet");
     	Fruitts object3=new Fruitts(4, "Banana", "Sweet");
     	Fruitts object2=new Fruitts(2, "Orange", "Sour");
@@ -300,7 +300,7 @@ class SortByName implements Comparator<Fruit> {
 
 public class _4_CollectionsListSortComparator {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		Fruit object1=new Fruit(1, "Apple", "Sweet");
 		Fruit object3=new Fruit(4, "Banana", "Sweet");
 		Fruit object2=new Fruit(2, "Orange", "Sour");
@@ -436,7 +436,7 @@ class SortByNamee implements Comparator<Frruit> {
 
 public class _5_CollectionsReverseOrder {
 
-	public static void main(String[] args) {
+	public static void rotateDigit(String[] args) {
 		Frruit object1=new Frruit(1, "Apple", "Sweet");
 		Frruit object3=new Frruit(4, "Banana", "Sweet");
 		Frruit object2=new Frruit(2, "Orange", "Sour");
