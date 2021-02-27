@@ -5,7 +5,7 @@
 
 2.We swap the current element with the next lowest number.
 
-![selection-sort](https://user-images.githubusercontent.com/37740006/109399412-ecba6700-796c-11eb-8154-8b982a734d64.png)
+<img width="540" alt="Selection-sort-0" src="https://user-images.githubusercontent.com/37740006/109399667-63a42f80-796e-11eb-92b5-eefcc104a0d1.png">
 
 ```java
 // https://www.javatpoint.com/selection-sort-in-java
