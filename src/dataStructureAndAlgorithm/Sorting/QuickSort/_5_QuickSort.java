@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class _5_QuickSort {
 
 	public static void main(String[] args) {
-		int array[] = { 9, 6, 7, 4, 1, 3, 2 };
+		int array[] = {9,7,4,10,21,5};
 		System.out.println("Before Sorted Array...");
 		System.out.println(Arrays.toString(array));
 		int high = array.length - 1;
@@ -21,8 +21,10 @@ public class _5_QuickSort {
 		}
 		int middle = low + (high - low) / 2;
 		int pivot = array[middle];
+		System.out.println("Pivot" + pivot);
 
 		int index = partition(array, low, high, pivot);
+		System.out.println("Index "+index);
 		quickSort(array, low, index - 1);
 		quickSort(array, index, high);
 
@@ -32,6 +34,7 @@ public class _5_QuickSort {
 		while (low <= high) {
 			while (array[low] < pivot) {
 				low++;
+				System.out.println("low : "+ array[low]);
 			}
 			while (array[high] > pivot) {
 				high--;

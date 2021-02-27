@@ -23,12 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/strings/PermutationOfString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/strings/ReplaceCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/strings/ReplaceCharacter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/strings/ReverseWordInAGivenString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/strings/ReverseWordInAGivenString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/strings/RotateDigit.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/strings/RotateDigit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/strings/_CountWordInaString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/strings/_CountWordInaString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Sorting/QuickSort/_5_QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Sorting/QuickSort/_5_QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +121,7 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.PermutationOfString">
+  <component name="RunManager" selected="Application._5_QuickSort">
     <configuration name="FindMostFrequentWordInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interviewQuestions.strings.FindMostFrequentWordInAString" />
       <module name="Java" />
@@ -141,19 +137,6 @@
     </configuration>
     <configuration name="PermutationOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interviewQuestions.strings.PermutationOfString" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interviewQuestions.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReplaceCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQuestions.strings.ReplaceCharacter" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -191,13 +174,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_5_QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Sorting.QuickSort._5_QuickSort" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructureAndAlgorithm.Sorting.QuickSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._5_QuickSort" />
         <item itemvalue="Application.PermutationOfString" />
         <item itemvalue="Application.FindMostFrequentWordInAString" />
         <item itemvalue="Application.RotateDigit" />
         <item itemvalue="Application.ReverseWordInAGivenString" />
-        <item itemvalue="Application.ReplaceCharacter" />
       </list>
     </recent_temporary>
   </component>
