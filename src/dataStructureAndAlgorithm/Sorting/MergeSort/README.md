@@ -1,4 +1,21 @@
 # Merge Sort
+
+1. Merge Sort is a Divide and Conquer algorithm. 
+
+2. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.
+
+## Merge Sort Complexity
+## Time Complexity
+
+**Best Case Complexity: O(n*log n)**
+
+**Worst Case Complexity: O(n*log n)**
+
+**Average Case Complexity: O(n*log n)**
+
+Space Complexity
+The space complexity of merge sort is O(n).
+
 ```
 MergeSort(arr[], l,  r)
 If r > l
