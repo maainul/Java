@@ -8,8 +8,11 @@
 2.Searching
   - Linear Search
   - Binary Search
-3.wer
-4.sdaf
+3.Stack
+  - LinkedList Implementation
+5.Queue
+  - LinkedList Implementation
+
 
 # Bubble Sort
 
