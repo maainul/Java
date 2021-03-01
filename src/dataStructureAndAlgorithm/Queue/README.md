@@ -22,7 +22,8 @@ Few more functions are required to make the above-mentioned queue operation effi
 
 **isempty() − Checks if the queue is empty**
 
-![0_TRbfsq86lqDoqW6b](https://user-images.githubusercontent.com/37740006/109572435-61c9a000-7b17-11eb-8a8e-a2dd2bc3bbe2.png)
+![Queue](https://user-images.githubusercontent.com/37740006/109572643-cedd3580-7b17-11eb-9548-88df0df5a1a8.png)
+
 
 # LinkedList Implementation
 ## Node.java
