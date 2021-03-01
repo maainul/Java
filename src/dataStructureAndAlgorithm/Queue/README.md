@@ -27,7 +27,7 @@ Few more functions are required to make the above-mentioned queue operation effi
 
 # LinkedList Implementation
 ## Node.java
-``java
+```java
 package dataStructureAndAlgorithm.Queue.LinkedListRepresentation;
 
 public class Node {
