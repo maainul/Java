@@ -8,8 +8,10 @@
 2.Searching
   - Linear Search
   - Binary Search
+  
 3.Stack
   - LinkedList Implementation
+
 5.Queue
   - LinkedList Implementation
 
