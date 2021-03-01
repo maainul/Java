@@ -1,9 +1,10 @@
+/*
 package nov25._2_insertionOfTwoLinkedList;
 
 import java.util.HashSet;
 
 public class LinkedList {
-	Node headNode;
+    Node headNode;
 	static Node head1;
 	static Node head2;
 	 private static Node insertionNode(Node headA, Node headB){
@@ -24,7 +25,7 @@ public class LinkedList {
 	public static void main(String[] args) {
 
         // list 1
-        Node n1 = new Node(1);
+        nov11.Node n1 = new Node(1);
         n1.next = new Node(2);
         n1.next.next = new Node(3);
         n1.next.next.next = new Node(4);
@@ -46,3 +47,4 @@ public class LinkedList {
 	}
 
 }
+*/
