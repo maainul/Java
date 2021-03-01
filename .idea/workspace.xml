@@ -23,13 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
-      <change afterPath="$PROJECT_DIR$/src/compiletimeAndRuntime/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/compiletimeAndRuntime/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/compiletimeAndRuntime/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/importantInterviewQuestionGeeks/RemoveDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/importantInterviewQuestionGeeks/_PariUsing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/importantInterviewQuestionGeeks/_2_SubArrayWithGivenSumV_2_Efficient.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/importantInterviewQuestionGeeks/_2_SubArrayWithGivenSumV_2_Efficient.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

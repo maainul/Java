@@ -1,4 +1,4 @@
-package dataStructureAndAlgorithm.LinkedList.basicTheory.Singly;
+package interviewQuestions.leetcode.LinkedList.SinglyLinkedList;
 
 public class SinglyLinkedList {
 	Node head; // instance variable of node....is head.
@@ -320,6 +320,20 @@ public class SinglyLinkedList {
 
 		return reverseList(revHedNodeCopy);
 
+	}
+
+	@SuppressWarnings("unused")
+	public static Node recursiveReverse(Node head) {
+		Node head1 = null;
+
+		if (head1 == null || head1.next == null)
+			return head1;
+
+		head1 = recursiveReverse(head1.next);
+		head1.next.next = head1;
+		head1.next = null;
+
+		return head1;
 	}
 
 	public Node reverseList(Node head) {
