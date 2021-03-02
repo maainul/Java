@@ -6,11 +6,11 @@ A graph data structure is a collection of nodes that have data and are connected
 ![1 introduction graph 1](https://user-images.githubusercontent.com/37740006/85916270-fc7b2c00-b870-11ea-9e4b-f04a732aeac8.jpg)
 ## Characteristics
 
-	1. A graph data structure ( non-linear data structure ).
+1. A graph data structure ( non-linear data structure ).
 	
-	2. Collection of nodes that have data.
+2. Collection of nodes that have data.
 	
-	3. Connected to other nodes.
+3. Connected to other nodes.
 	 
 More precisely, a graph is a data structure (V, E) that consists of
 
