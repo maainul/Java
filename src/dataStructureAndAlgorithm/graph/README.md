@@ -70,20 +70,21 @@ Space Complexity is O(n*n).
 ## Pros of adjacency matrix
 
 1. The basic operations like adding an edge, removing an edge and checking whether 
-2. 	
+
+
 there is an edge from vertex i to vertex j are extremely time efficient, constant time operations.
 
 2. If the graph is dense and the number of edges is large, 
 
-3. adjacency matrix should be the first choice. 
+adjacency matrix should be the first choice. 
 
-Even if the graph and the adjacency matrix is sparse,
+3. Even if the graph and the adjacency matrix is sparse,
 
 we can represent it using data structures for sparse matrices.
 
-3. The biggest advantage however, comes from the use of matrices.The recent advances
+4. The biggest advantage however, comes from the use of matrices.The recent advances
 
-4. in hardware enable us to perform even expensive matrix operations on the GPU.
+in hardware enable us to perform even expensive matrix operations on the GPU.
 
 5.By performing operations on the adjacent matrix,we can get important insights 
 
