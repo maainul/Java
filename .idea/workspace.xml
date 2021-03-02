@@ -23,40 +23,161 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/BubbleSortOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/BubbleSortOfString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/CC_45_CountofCharacterPairsAtSameDistanceAsinEnglishAlphabets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/CC_45_CountofCharacterPairsAtSameDistanceAsinEnglishAlphabets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/CC_9_FindKthCharacterOfDecryptedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/CC_9_FindKthCharacterOfDecryptedString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/CharacterCountingBasedProblems.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/CharacterCountingBasedProblems.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/FactorialOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/FactorialOfArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/FindDuplicateArrayOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/FindDuplicateArrayOfString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/PermuteString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/PermuteString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_10_CountCharactersAtSamePositionAsInEnglishAlphabets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_10_CountCharactersAtSamePositionAsInEnglishAlphabets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_11_CountNumberOfWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_11_CountNumberOfWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_12_CountWordInAGivenString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_12_CountWordInAGivenString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_12_CountWordsPresentInaString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_12_CountWordsPresentInaString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_14_ProgramtoFindSmallestAndLargestWordInaString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_14_ProgramtoFindSmallestAndLargestWordInaString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_15_CountSubstringsWithSameFirstAndLastCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_15_CountSubstringsWithSameFirstAndLastCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_17_1_FindTheDuplicateValuesofAnArrayofStringValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_17_1_FindTheDuplicateValuesofAnArrayofStringValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_17_CountDistinctSubstringOfAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_17_CountDistinctSubstringOfAString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_19_CountNumberOfStringUsingGivenCombination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_19_CountNumberOfStringUsingGivenCombination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_1_CountUppercaseLowercaseSpecialCharacterAndNumericValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1_CountUppercaseLowercaseSpecialCharacterAndNumericValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_24_PrintCommonCharactersOfTwoStringsinAlphabeticalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_24_PrintCommonCharactersOfTwoStringsinAlphabeticalOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_25_CommonCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_25_CommonCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_26_CountUncommonCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_26_CountUncommonCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_28_RemoveVowelFromAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_28_RemoveVowelFromAString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_30_CountVowelFromAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_30_CountVowelFromAString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_31_CountConsonentFromAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_31_CountConsonentFromAString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_43_RemoveCharactersFromTheFirstStringWhichArepresentInTheSecondString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_43_RemoveCharactersFromTheFirstStringWhichArepresentInTheSecondString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_4_CountNumberOfSubstringWithKDisinctCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_4_CountNumberOfSubstringWithKDisinctCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_6_StringWithkDistinctCharactersAndNoSameCharactersAdjacent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_6_StringWithkDistinctCharactersAndNoSameCharactersAdjacent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_7_NumberOfSubstringsOfaString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_7_NumberOfSubstringsOfaString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_CC_32_NumberofDistinctPermutationaStringCanhave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_CC_32_NumberofDistinctPermutationaStringCanhave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_CC_37_CheckBothHalfOfStringSameOfCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_CC_37_CheckBothHalfOfStringSameOfCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_CC_39_CheckIfFrequencyofAllCharactersCanBecomeSameByOneRemoval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_CC_39_CheckIfFrequencyofAllCharactersCanBecomeSameByOneRemoval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_CC_41_FindTheCharacterInFirstStringThatIsPresentAtMinimumIndexInSecondString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_CC_41_FindTheCharacterInFirstStringThatIsPresentAtMinimumIndexInSecondString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_CC_47_PrintWordVowelCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_CC_47_PrintWordVowelCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/_CC_6_StringWithKDistinctCharactersAndNoSameCharactersAdjacent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_CC_6_StringWithKDistinctCharactersAndNoSameCharactersAdjacent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/character_counting/screenshotkk.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/screenshotkk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/Sort_0_1_2_LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/StudentBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/StudentBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/StudentMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/StudentMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_8_io/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/_8_io/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_8_io/_6_ObjectStreamSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/_8_io/_6_ObjectStreamSample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_8_io/dsoftfileAndserialization/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/_8_io/dsoftfileAndserialization/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_8_io/dsoftfileAndserialization/Cow.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/_8_io/dsoftfileAndserialization/Cow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_8_io/dsoftfileAndserialization/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/_8_io/dsoftfileAndserialization/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_8_io/dsoftfileAndserialization/_1_SerializationDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/_8_io/dsoftfileAndserialization/_1_SerializationDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_8_io/dsoftfileAndserialization/_4_InheritanceInSerialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/_8_io/dsoftfileAndserialization/_4_InheritanceInSerialization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collections/ArrayList/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/collections/ArrayList/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collections/ArrayList/_8_ArrayListExampleBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/collections/ArrayList/_8_ArrayListExampleBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collections/HashMap/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/collections/HashMap/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collections/HashMap/_4_HashMapExampleBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/collections/HashMap/_4_HashMapExampleBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collections/HashSet/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/collections/HashSet/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collections/HashSet/_5_HashSetExampleBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/collections/HashSet/_5_HashSetExampleBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collections/LinkedList/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/collections/LinkedList/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collections/LinkedList/_4_LinkedListExampleBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/collections/LinkedList/_4_LinkedListExampleBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collections/List/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/collections/List/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/collections/List/_5_ListExampleBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/collections/List/_5_ListExampleBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/comparatorAndComparator/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/comparatorAndComparator/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/comparatorAndComparator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/comparatorAndComparator/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/comparatorAndComparator/MyComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/comparatorAndComparator/MyComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/constructor/ConstructorOverloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/constructor/ConstructorOverloading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/constructor/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/constructor/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/constructor/ocaBook/constructorOverloading/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/constructor/ocaBook/constructorOverloading/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/constructor/ocaBook/definingConstructor/Zebra.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/constructor/ocaBook/definingConstructor/Zebra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/GeekForGeeksAllExamples/_28_MergeTwoSortedLinkedListsSuchThatMergedlistIsInReverseOrder/_28_MergeReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/GeekForGeeksAllExamples/_28_MergeTwoSortedLinkedListsSuchThatMergedlistIsInReverseOrder/_28_MergeReverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/Test$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/Test$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/_46_SortLinkedList0s1s2s.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/_46_SortLinkedList0s1s2s.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Circular/CircularLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Circular/CircularLinkList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Circular/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Circular/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Doubly/DoublyLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Doubly/DoublyLinkList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Doubly/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Doubly/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Singly/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Singly/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Singly/SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/basicTheory/Singly/SinglyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Queue/LinkedListRepresentation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Queue/LinkedListRepresentation/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Queue/LinkedListRepresentation/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Queue/LinkedListRepresentation/Queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Sorting/MShort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Sorting/MShort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Sorting/MergeSort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Sorting/MergeSort/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/LinkedListImplementation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/LinkedListImplementation/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/LinkedListImplementation/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/LinkedListImplementation/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/StackException.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/StackException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/_5_CreateMergeAbleStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/_5_CreateMergeAbleStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/_0_StackImplWithSLL.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/_0_StackImplWithSLL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/stackIntroduction/LinkedListStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/stackIntroduction/LinkedListStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/stackIntroduction/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/stackIntroduction/MyStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/stackIntroduction/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/stackIntroduction/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_12_LevelOrderBinaryTreeTraversal/BreadthFirstSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_12_LevelOrderBinaryTreeTraversal/BreadthFirstSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_12_LevelOrderBinaryTreeTraversal/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_12_LevelOrderBinaryTreeTraversal/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_13_SpiralTreeTraversal/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_13_SpiralTreeTraversal/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_13_SpiralTreeTraversal/SpiralTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_13_SpiralTreeTraversal/SpiralTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_14_LevelOrderLineByLine/LevelOrderLineByLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_14_LevelOrderLineByLine/LevelOrderLineByLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_14_LevelOrderLineByLine/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_14_LevelOrderLineByLine/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_15_LevelOrderTraversalWithDirectionChangeAfterEveryTwoLevels/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_15_LevelOrderTraversalWithDirectionChangeAfterEveryTwoLevels/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_15_LevelOrderTraversalWithDirectionChangeAfterEveryTwoLevels/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_15_LevelOrderTraversalWithDirectionChangeAfterEveryTwoLevels/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_16_ReverseLevelOrderTraversal/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_16_ReverseLevelOrderTraversal/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_16_ReverseLevelOrderTraversal/ReverseOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_16_ReverseLevelOrderTraversal/ReverseOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_18_PerfectBinaryTreeSpecificLevelOrderTraversal/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_18_PerfectBinaryTreeSpecificLevelOrderTraversal/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_18_PerfectBinaryTreeSpecificLevelOrderTraversal/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_18_PerfectBinaryTreeSpecificLevelOrderTraversal/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_1_PreOrderWithRecursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_1_PreOrderWithRecursion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_2_PreOrderWithOutRecursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_2_PreOrderWithOutRecursion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_3_InOrderWithRecursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_3_InOrderWithRecursion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_4_InOrderInteration.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_4_InOrderInteration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_5_PostOrderWithRecursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_5_PostOrderWithRecursion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_6_PostOrderIteration.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_6_PostOrderIteration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/Sortbyroll.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/Sortbyroll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/introduction/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/introduction/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/introduction/_2_ArrayObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/introduction/_2_ArrayObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sortAnArrayAccordingToUserDefinedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sortAnArrayAccordingToUserDefinedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/geekforgeeks/_3_OrderStatistics/GFG$MaxHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/geekforgeeks/_3_OrderStatistics/GFG$MaxHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/geekforgeeks/_3_OrderStatistics/GFG.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/geekforgeeks/_3_OrderStatistics/GFG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/heap/GFG$MaxHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/heap/GFG$MaxHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/heap/GFG.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/heap/GFG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/functionalProgrammingBook/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/functionalProgrammingBook/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/functionalProgrammingBook/TestC.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/functionalProgrammingBook/TestC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Frequency_calculation/FC_2_CharactersAndTheirFrequenciesInOrderOfOccurrence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Frequency_calculation/FC_3_CharactersHavingEvenFrequenciesInOrderOfOccurrence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Frequency_calculation/FC_4_CharactersHavingOddFrequenciesInOrderOfOccurrence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Frequency_calculation/JavaProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/StringToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/StringToInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/BubbleSortOfString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/CC_45_CountofCharacterPairsAtSameDistanceAsinEnglishAlphabets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/CC_9_FindKthCharacterOfDecryptedString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/CharacterCountingBasedProblems.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/FactorialOfArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/FindDuplicateArrayOfString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/PermuteString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_10_CountCharactersAtSamePositionAsInEnglishAlphabets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_11_CountNumberOfWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_12_CountWordsPresentInaString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_14_ProgramtoFindSmallestAndLargestWordInaString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_15_CountSubstringsWithSameFirstAndLastCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_17_1_FindTheDuplicateValuesofAnArrayofStringValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_17_CountDistinctSubstringOfAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_1_CountUppercaseLowercaseSpecialCharacterAndNumericValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_24_PrintCommonCharactersOfTwoStringsinAlphabeticalOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_25_CommonCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_26_CountUncommonCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_28_RemoveVowelFromAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_30_CountVowelFromAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_31_CountConsonentFromAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_43_RemoveCharactersFromTheFirstStringWhichArepresentInTheSecondString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_4_CountNumberOfSubstringWithKDisinctCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_6_StringWithkDistinctCharactersAndNoSameCharactersAdjacent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_7_NumberOfSubstringsOfaString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_CC_32_NumberofDistinctPermutationaStringCanhave.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_CC_37_CheckBothHalfOfStringSameOfCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_CC_39_CheckIfFrequencyofAllCharactersCanBecomeSameByOneRemoval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_CC_41_FindTheCharacterInFirstStringThatIsPresentAtMinimumIndexInSecondString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_CC_47_PrintWordVowelCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/_CC_6_StringWithKDistinctCharactersAndNoSameCharactersAdjacent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/character_counting/screenshotkk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nov11/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nov11/_4_Problem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/oopConcept/encapsulation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/encapsulation/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/oopConcept/encapsulation/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/encapsulation/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/priotectedModifier/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/priotectedModifier/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/priotectedModifier/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/priotectedModifier/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/privateModifier/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/privateModifier/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/privateModifier/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/privateModifier/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/publicModifier/pack2/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/memberModifiers/publicModifier/pack2/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/Main$1Inner.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Main$1Inner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/nestedClass/Test$Auto.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/nestedClass/Test$Auto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/nestedClass/Test$Bus.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/nestedClass/Test$Bus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/nestedClass/Test$Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/nestedClass/Test$Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/nestedClass/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/nestedClass/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thread/extendsThread/MainThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/extendsThread/MainThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thread/extendsThread/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/extendsThread/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thread/extendsThread/withTime/MainThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/extendsThread/withTime/MainThreadDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thread/extendsThread/withTime/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/extendsThread/withTime/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thread/implementsRunnableInnerClass/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/implementsRunnableInnerClass/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thread/implementsRunnableInnerClass/MyThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/implementsRunnableInnerClass/MyThreadDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thread/interruptThread/usingFlag/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/interruptThread/usingFlag/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thread/interruptThread/usingInterrupt/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/interruptThread/usingInterrupt/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thread/joinT/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/joinT/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thread/joinT/MyThreadEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/joinT/MyThreadEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thread/learn/_1_WayOfDefningThread/ByUsingRunable/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/learn/_1_WayOfDefningThread/ByUsingRunable/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thread/learn/_2_gettingAndSettingAThreadName/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/learn/_2_gettingAndSettingAThreadName/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thread/priority/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/priority/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thread/priority/MyThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/priority/MyThreadDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/thread/yeilds/MyThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/yeilds/MyThreadDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,13 +277,26 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringToInteger">
+  <component name="RunManager" selected="Application.LinkedList">
     <configuration name="AbstractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="compiletimeAndRuntime.AbstractTest" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="compiletimeAndRuntime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions.LinkedList" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,26 +343,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="compiletimeAndRuntime.Test" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="compiletimeAndRuntime.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.StringToInteger" />
         <item itemvalue="Application.RemoveDuplicateFromAString" />
         <item itemvalue="Application.Student" />
         <item itemvalue="Application.AbstractTest" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -274,27 +395,5 @@
     <MESSAGE value="update" />
     <MESSAGE value="file Io programs" />
     <option name="LAST_COMMIT_MESSAGE" value="file Io programs" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.jdks/adopt-openj9-1.8.0_265/src.zip!/java/util/LinkedList.java</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="dataStructureAndAlgorithm.Stack.geekforgeekProgram._1_designandImplementation.StackOverFlowAndUnderFlowException" package="dataStructureAndAlgorithm.Stack.geekforgeekProgram._1_designandImplementation" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/interviewQuestions/_2_AnagramUsingFreq.java</url>
-          <line>46</line>
-          <properties class="interviewQuestions.strings._2_AnagramUsingFreq" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
