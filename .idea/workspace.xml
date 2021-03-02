@@ -23,10 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/NextGreaterElement_BruteForceSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/_NextGreaterElementStackAndSameOrderAsInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/_NextGreaterElement_UsingStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/_0_StackImplWithSLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/_0_StackImplWithSLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/_1_QueueUsing2Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/_1_QueueUsing2Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/_1_QueueUsing2StackGeeks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/_1_QueueUsing2StackGeeks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/_3_ImplementTwoStackUsingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/_3_ImplementTwoStackUsingArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/_4_StackUsingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/_4_StackUsingQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/geekforgeekProgram/_1_designandImplementation/_8_ImplementStackUsing1Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/_8_ImplementStackUsing1Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/geekforgeekProgram/stackOperations/ReverseStackWithoutSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/ReverseStackWithoutSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/geekforgeekProgram/stackOperations/SortArrayUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/SortArrayUsingStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/geekforgeekProgram/stackOperations/SortStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/SortStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/geekforgeekProgram/stackOperations/_1_ReverseStackUsingRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/_1_ReverseStackUsingRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/stackIntroduction/LinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/LinkedListStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/stackIntroduction/StackUsingArraty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Stack/StackUsingArraty.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,13 +135,13 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application._NextGreaterElementStackAndSameOrderAsInput">
-    <configuration name="DefaultImplementationOfInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="innerclass.DefaultImplementationOfInterface" />
+  <component name="RunManager" selected="Application.LinkedListStack">
+    <configuration name="LinkedListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.LinkedListStack" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="innerclass.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreaterElement_BruteForceSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQuestions.NextGreaterElement_BruteForceSolution" />
+    <configuration name="ReverseStackWithoutSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.ReverseStackWithoutSpace" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQuestions.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +162,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_18_InterfaceInsideInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="innerclass._18_InterfaceInsideInterface" />
+    <configuration name="StackUsingArraty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.StackUsingArraty" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="innerclass.*" />
+          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_0_StackImplWithSLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack._0_StackImplWithSLL" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,26 +201,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_NextGreaterElement_UsingStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQuestions._NextGreaterElement_UsingStack" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interviewQuestions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListStack" />
+        <item itemvalue="Application.ReverseStackWithoutSpace" />
+        <item itemvalue="Application._0_StackImplWithSLL" />
+        <item itemvalue="Application.StackUsingArraty" />
         <item itemvalue="Application._NextGreaterElementStackAndSameOrderAsInput" />
-        <item itemvalue="Application._NextGreaterElement_UsingStack" />
-        <item itemvalue="Application.NextGreaterElement_BruteForceSolution" />
-        <item itemvalue="Application.DefaultImplementationOfInterface" />
-        <item itemvalue="Application._18_InterfaceInsideInterface" />
       </list>
     </recent_temporary>
   </component>
