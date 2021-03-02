@@ -59,7 +59,7 @@ class LinkedList {
 				Put in the data*/
         Node new_node = new Node(new_data);
 
-interviewQuestions/Sort_0_1_2_LinkedList.java:63/home/onik/Code/Java/src/interviewQuestions/Sort_0_1_2_LinkedList.java        new_node.next = head;
+        new_node.next = head;
         /* 3. Make next of new Node as head */
 
         /* 4. Move the head to point to new Node */
