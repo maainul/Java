@@ -23,36 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
-      <change afterPath="$PROJECT_DIR$/src/innerclass/DefaultImplementationOfInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_10_AnomymousInnerClassImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_11_AnonymousInnerClassThatExtendsAnotherClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_12_AnonymousInnerClassThatImplementsRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_13_AnonymousInnerClassThatDefinesInsideMethodOrConstructorArguments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_14_StaticNestedCLass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_15_NestedStaticClassCanHaveMainMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_16_StaticNestedClassCannotAccessNonStaticMemberOfOuter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_17_InterfaceInsideAClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_18_InterfaceInsideInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_19_ClassInsideInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_1_WeCannotDeclareStaticMethodInsideInnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_2_AccessingInnerClassCodeFromOutterClassStaticMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_3_AccessingInnerClassFromFromInstanceAreaOfOutterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_4_AccessingInnerClassFromOutSideOfOuterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_5_NormalInnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_6_NestingOfInnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_7_MethodLocalInnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_8_MethodLocalInnerClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerclass/_9_AnonymusInnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/NextGreaterElement_BruteForceSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/_NextGreaterElementStackAndSameOrderAsInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/_NextGreaterElement_UsingStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LastTimePreparation.md" beforeDir="false" afterPath="$PROJECT_DIR$/bin/LastTimePreparation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/graph/1_IntroductionGraph.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/LinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/LinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/Outer$Inner$NestedInner.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Outer$Inner$NestedInner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/Outer$Inner.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Outer$Inner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/Outer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Outer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Sort_0_1_2_LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/Sort_0_1_2_LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +96,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -152,7 +126,7 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.DefaultImplementationOfInterface">
+  <component name="RunManager" selected="Application._NextGreaterElementStackAndSameOrderAsInput">
     <configuration name="DefaultImplementationOfInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="innerclass.DefaultImplementationOfInterface" />
       <module name="Java" />
@@ -166,38 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_14_StaticNestedCLass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="innerclass._14_StaticNestedCLass" />
+    <configuration name="NextGreaterElement_BruteForceSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions.NextGreaterElement_BruteForceSolution" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="innerclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_15_NestedStaticClassCanHaveMainMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="innerclass._15_NestedStaticClassCanHaveMainMethod" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="innerclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_16_StaticNestedClassCannotAccessNonStaticMemberOfOuter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="innerclass._16_StaticNestedClassCannotAccessNonStaticMemberOfOuter" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="innerclass.*" />
+          <option name="PATTERN" value="interviewQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,13 +166,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_NextGreaterElementStackAndSameOrderAsInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions._NextGreaterElementStackAndSameOrderAsInput" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_NextGreaterElement_UsingStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions._NextGreaterElement_UsingStack" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._NextGreaterElementStackAndSameOrderAsInput" />
+        <item itemvalue="Application._NextGreaterElement_UsingStack" />
+        <item itemvalue="Application.NextGreaterElement_BruteForceSolution" />
         <item itemvalue="Application.DefaultImplementationOfInterface" />
         <item itemvalue="Application._18_InterfaceInsideInterface" />
-        <item itemvalue="Application._16_StaticNestedClassCannotAccessNonStaticMemberOfOuter" />
-        <item itemvalue="Application._15_NestedStaticClassCanHaveMainMethod" />
-        <item itemvalue="Application._14_StaticNestedCLass" />
       </list>
     </recent_temporary>
   </component>
