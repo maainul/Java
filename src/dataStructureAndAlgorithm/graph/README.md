@@ -1,39 +1,45 @@
 # Graph
 
 ## Defination: 
-```
 A graph data structure is a collection of nodes that have data and are connected to other nodes.
-```
+
 ![1 introduction graph 1](https://user-images.githubusercontent.com/37740006/85916270-fc7b2c00-b870-11ea-9e4b-f04a732aeac8.jpg)
 ## Characteristics
-```
+
 	1. A graph data structure ( non-linear data structure ).
+	
 	2. Collection of nodes that have data.
+	
 	3. Connected to other nodes.
-```
-```
+	 
 More precisely, a graph is a data structure (V, E) that consists of
 
 A collection of vertices V
+
 A collection of edges E, represented as ordered pairs of vertices (u,v)
-```
+
 ![2 introduction graph 2](https://user-images.githubusercontent.com/37740006/85916278-0dc43880-b871-11ea-9bf4-bd4b149b2d4e.jpg)
-```
+
 V = {0,1,2,3,4} 
+
 E = {(0,1), (1,2), (2,3), (3,4), (0,4), (1,4), (1,3)}.
+
 G = {V, E}
 
 Order of Graph = Number of vertices of a Graph (5)
+
 Size of Graph = Number of Edge of a graph(7)
-```
 
 ## Uses Of GRAPH
-``` 
-	1. Represent networks. The networks may include paths in a city or telephone network or circuit network. 
-	2. Graphs are also used in social networks like linkedIn, Facebook. 
-	For example, in Facebook, each person is represented with a vertex(or node). 
-	Each node is a structure and contains information like person id, name, gender, locale etc.
-```
+
+1. Represent networks. The networks may include paths in a city or telephone network or circuit network. 
+	
+2. Graphs are also used in social networks like linkedIn, Facebook. 
+	
+For example, in Facebook, each person is represented with a vertex(or node). 
+	
+Each node is a structure and contains information like person id, name, gender, locale etc.
+	
 ## Some Defination that helps you:
 ![Screenshot from 2020-07-17 14-12-26](https://user-images.githubusercontent.com/37740006/87764261-e6410a00-c837-11ea-94d7-7095123f08f0.png)
 
@@ -46,43 +52,55 @@ Graphs are commonly represented in two ways:
 2. Adjacency List
 
 # 1.Adjacency Matrix
-```
+
 The size of the matrix is VxV where V is the number of vertices in the graph 
+
 and the value of an entry Aij is either 1 or 0 depending on 
+
 whether there is an edge from vertex i to vertex j.
-```
+
 ![3 GraphRepresentationAdjacentMatrix](https://user-images.githubusercontent.com/37740006/85916280-1c125480-b871-11ea-96e9-3357c401e5d6.jpg)
 ## Complexity
-```
+
 Time Complexity is O(1).
+
 Space Complexity is O(n*n).
-```
+
 
 ## Pros of adjacency matrix
-```
-1. The basic operations like adding an edge, removing an edge and checking whether 	
+
+1. The basic operations like adding an edge, removing an edge and checking whether 
+2. 	
 there is an edge from vertex i to vertex j are extremely time efficient, constant time operations.
 
 2. If the graph is dense and the number of edges is large, 
-adjacency matrix should be the first choice. 
-Even if the graph and the adjacency matrix is sparse, 
+
+3. adjacency matrix should be the first choice. 
+
+Even if the graph and the adjacency matrix is sparse,
+
 we can represent it using data structures for sparse matrices.
 
 3. The biggest advantage however, comes from the use of matrices.The recent advances
-in hardware enable us to perform even expensive matrix operations on the GPU.
 
-4.By performing operations on the adjacent matrix,we can get important insights 
+4. in hardware enable us to perform even expensive matrix operations on the GPU.
+
+5.By performing operations on the adjacent matrix,we can get important insights 
+
 into the nature of the graph and the relationship between its vertices.
-```
+
 ## Cons of adjacency matrix
-```
+
 1. The VxV space requirement of the adjacency matrix makes it a memory hog. 
+
 Graphs out in the wild usually don't have too many connections and 
+
 this is the major reason why adjacency lists are the better choice for most tasks.
 
 2. While basic operations are easy,operations like 
+3. 
 inEdges and outEdges are expensive when using the adjacency matrix representation.
-```
+
 ## Adjacency Matrix representation in Java
 ```.java
 package graph._1_AdjacencyMatrixOfUndirectedGraph;
@@ -152,12 +170,13 @@ Vertex 2 is connected to:1 3
 Vertex 3 is connected to:0 2 
 ```
 # 2. Adjacency List
-```
+
 An adjacency list represents a graph as an array of linked lists.
 
 The index of the array represents a vertex and each element in its linked list 
-represents the other vertices that form an edge with the vertex.
-```
+
+represents the other vertices that form an edge with the vertex
+
 ![4 GraphRepresentationAdjacentList](https://user-images.githubusercontent.com/37740006/85918003-c9d92f80-b880-11ea-9417-a937584ab639.jpg)
 
 ## Adjacency List Java
@@ -170,15 +189,17 @@ class Graph
     private LinkedList<integer> adjLists[];
 }
 ```
-```
+
 The type of LinkedList is determined by what data you want to store in it. 
+
 For a labeled graph, you could store a dictionary instead of an Integer
-```
+
 ## Complexity
-```
+
 Time Complexity is O(|v| + |E|).
+
 Space Complexity is O(|v| + |E|).).
-```
+
 
 
 ## Adjacency List representation in Java
