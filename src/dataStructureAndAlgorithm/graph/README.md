@@ -77,7 +77,7 @@ Space Complexity is O(n*n).
 
 4. The biggest advantage however, comes from the use of matrices.The recent advances in hardware enable us to perform even expensive matrix operations on the GPU.
 
-5.By performing operations on the adjacent matrix,we can get important insights into the nature of the graph and the relationship between its vertices.
+5. By performing operations on the adjacent matrix,we can get important insights into the nature of the graph and the relationship between its vertices.
 
 ## Cons of adjacency matrix
 
@@ -155,11 +155,7 @@ Vertex 3 is connected to:0 2
 ```
 # 2. Adjacency List
 
-An adjacency list represents a graph as an array of linked lists.
-
-The index of the array represents a vertex and each element in its linked list 
-
-represents the other vertices that form an edge with the vertex
+An adjacency list represents a graph as an array of linked lists.The index of the array represents a vertex and each element in its linked list represents the other vertices that form an edge with the vertex
 
 ![4 GraphRepresentationAdjacentList](https://user-images.githubusercontent.com/37740006/85918003-c9d92f80-b880-11ea-9417-a937584ab639.jpg)
 
@@ -174,9 +170,7 @@ class Graph
 }
 ```
 
-The type of LinkedList is determined by what data you want to store in it. 
-
-For a labeled graph, you could store a dictionary instead of an Integer
+The type of LinkedList is determined by what data you want to store in it. For a labeled graph, you could store a dictionary instead of an Integer
 
 ## Complexity
 
