@@ -2,6 +2,8 @@ package interviewQuestions;
 
 import java.util.Stack;
 
+// see leetcode documentation
+
 class MyQueue {
 
     private Stack<Integer> s1 = new Stack<>();

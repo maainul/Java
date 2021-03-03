@@ -23,8 +23,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/ImplementQueueUsingStackOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/ImplementStackUsing2Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/Stack_GetMinValueFromStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/MyQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/MyQueueDS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/QueueEmptyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/_1_QueueUsing2Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/_1_QueueUsing2StackGeeks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Stack/_4_StackUsingQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/ImplementQueueUsingStackOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/ImplementQueueUsingStackOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/MyQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/MyQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_20_ValidParenthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_20_ValidParenthesis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/ImplementQueueUsingStackOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/ImplementQueueUsingStackOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_20_ValidParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_20_ValidParenthesis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,9 +137,22 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ImplementQueueUsingStackOperation">
+  <component name="RunManager" selected="Application._20_ValidParenthesis">
     <configuration name="ImplementQueueUsingStackOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interviewQuestions.ImplementQueueUsingStackOperation" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImplementStackUsing2Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions.ImplementStackUsing2Queue" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -151,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseStackWithoutSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.ReverseStackWithoutSpace" />
+    <configuration name="Stack_GetMinValueFromStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions.Stack_GetMinValueFromStack" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.*" />
+          <option name="PATTERN" value="interviewQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,25 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackUsingArraty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack.StackUsingArraty" />
+    <configuration name="_20_ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions.leetcode._20_ValidParenthesis" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_0_StackImplWithSLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.Stack._0_StackImplWithSLL" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.Stack.*" />
+          <option name="PATTERN" value="interviewQuestions.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._20_ValidParenthesis" />
+        <item itemvalue="Application.Stack_GetMinValueFromStack" />
+        <item itemvalue="Application.ImplementStackUsing2Queue" />
         <item itemvalue="Application.ImplementQueueUsingStackOperation" />
         <item itemvalue="Application.LinkedListStack" />
-        <item itemvalue="Application.ReverseStackWithoutSpace" />
-        <item itemvalue="Application._0_StackImplWithSLL" />
-        <item itemvalue="Application.StackUsingArraty" />
       </list>
     </recent_temporary>
   </component>
