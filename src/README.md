@@ -15,6 +15,9 @@
 5.Queue
   - LinkedList Implementation
 
+6. Binary Search Tree :
+  - LinkedList Implementation https://www.baeldung.com/java-binary-tree 
+7. 
 
 # Bubble Sort
 
