@@ -38,7 +38,6 @@ public class _4_InOrderInteration {
         }
     }
 
-
     public static void main(String[] args) {
         _4_InOrderInteration bt = new _4_InOrderInteration();
         bt.createBinaryTree();
