@@ -24,11 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LastTimePreparation.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/binarySearchTree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/binarySearchTree/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/AllTraversalInOneFile/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/AllTraversalInOneFile/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_4_InOrderInteration.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_4_InOrderInteration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_4_InOrderInteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_4_InOrderInteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/AllTraversalInOneFile/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/AllTraversalInOneFile/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
