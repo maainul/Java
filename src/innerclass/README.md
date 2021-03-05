@@ -549,3 +549,14 @@ interface EmailService {
 public class _19_ClassInsideInterface {
 }
 ```
+
+# NOTE
+
+1. Every interface present inside interface is always **public static** whether we are declearing or not.Hence we can implement inner interface directly without implement class interface.
+
+2. Similarly whenever we are implementing outer interface we are not required to implement inner interface.That is we ca implement outer and inner interface independently.
+
+**OUTER AND INNER INTERFACE ARE INDEPENDENT BEACAUSE THEY ARE PUBLIC AND STATIC**.
+
+3. The class inside inteface is also **PUBLIC STATIC** whether we are declearing or not.Hence we can create class object directly without having outer  interface.
+
