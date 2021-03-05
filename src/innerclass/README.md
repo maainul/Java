@@ -30,9 +30,9 @@ public class _1_WeCannotDeclareStaticMethodInsideInnerClass {
 }
 ```
 We can access innerclass From -
-	1. Outer class Static method
-	2. Non-static Area of Outer class
-	3. Outside of Outer class
+1. Outer class Static method
+2. Non-static Area of Outer class
+3. Outside of Outer class
 ```java
 package innerclass;
 
