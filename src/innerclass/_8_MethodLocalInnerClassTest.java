@@ -1,7 +1,7 @@
 package innerclass;
 
 // Method local inner class -
-// If method is non-static then we can call instance variable but we can't call static variable
+// If method is non-static then we can call instance variable and static variable also.
 // If method is static then we can't call non static variable..
 public class _8_MethodLocalInnerClassTest {
     int i = 10;

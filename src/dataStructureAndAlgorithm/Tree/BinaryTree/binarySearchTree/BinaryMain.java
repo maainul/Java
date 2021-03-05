@@ -141,6 +141,8 @@ public class BinaryMain {
         bt.add(7);
         bt.add(9);
         bt.traverseInOrder(bt.root);
+        System.out.println();
+        System.out.println("root is = "+bt.root.value);
     }
 
 
