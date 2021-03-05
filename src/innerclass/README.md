@@ -235,7 +235,7 @@ public class _7_MethodLocalInnerClass {
 ```
 
 Method local inner class -
-1. If method is non-static then we can call instance variable but we can't call static variable
+1. If method is non-static then we can call instance variable and static variable also.
 2. If method is static then we can't call non static variable..
 
 ```java
