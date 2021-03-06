@@ -34,7 +34,7 @@
 6. Longest Common Subsequence 
 7. PairWise Swap https://leetcode.com/submissions/detail/451134399/
 8. Next Greater Element(Stack) https://github.com/maainul/Java/blob/master/src/interviewQuestions/_NextGreaterElementStackAndSameOrderAsInput.java
-9. Stack Using  2 queue https://github.com/maainul/Java/blob/master/src/interviewQuestions/ImplementStackUsing2Queue.java
+9. Stack Using  2 queue https://leetcode.com/problems/implement-stack-using-queues/
 10. Queue using 2 stack https://github.com/maainul/Java/blob/master/src/interviewQuestions/ImplementQueueUsingStackOperation.java
 11. Stack and queue Linked List Implementation
 12. Parenthesis check https://leetcode.com/problems/valid-parentheses/
