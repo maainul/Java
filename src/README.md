@@ -24,6 +24,27 @@
   - LinkedList Implementation https://www.baeldung.com/java-binary-tree 
 7. 
 
+1. Kadane's Algorithm : https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+2. Permutation of Given String :  https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string
+3. Int To Roman : https://leetcode.com/submissions/detail/420387969/
+4. Roman To Integer : https://leetcode.com/submissions/detail/420392801/
+5. Longest common Prefix  https://leetcode.com/submissions/detail/409570119/
+6. Longest Common Subsequence 
+7. PairWise Swap https://leetcode.com/submissions/detail/451134399/
+8. Next Greater Element(Stack) https://github.com/maainul/Java/blob/master/src/interviewQuestions/_NextGreaterElementStackAndSameOrderAsInput.java
+9. Stack Using  2 queue https://github.com/maainul/Java/blob/master/src/interviewQuestions/ImplementStackUsing2Queue.java
+10. Queue using 2 stack https://github.com/maainul/Java/blob/master/src/interviewQuestions/ImplementQueueUsingStackOperation.java
+11. Stack and queue Linked List Implementation
+12. Parenthesis check https://leetcode.com/problems/valid-parentheses/
+13. Maximum Depth of a Binary tree https://github.com/maainul/Java/blob/master/src/interviewQuestions/_BinaryTree_FindMaximumHeightOfABinaryTree.md
+14. DFS https://github.com/maainul/Java/blob/master/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/AllTraversalInOneFile/BinaryTree.java
+15. BFS https://github.com/maainul/Java/tree/master/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_12_LevelOrderBinaryTreeTraversal
+16. Spiral Order Traversal https://github.com/maainul/Java/tree/master/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_13_SpiralTreeTraversal
+17. Sort Stack https://github.com/maainul/Java/blob/master/src/interviewQuestions/Stack_SortStackUsingTwoStack.java
+18. Minimun value of Stack : https://github.com/maainul/Java/blob/master/src/interviewQuestions/Stack_GetMinValueFromStack.java
+
+
+
 # Bubble Sort
 
 Difficulty Level : Easy
