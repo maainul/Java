@@ -15,6 +15,11 @@
 5.Queue
   - LinkedList Implementation
 
+6. Binary Tree 
+  - LinkedList Implementaton
+  - Traversal (Recursive + Iterative)
+  - BFS
+
 6. Binary Search Tree :
   - LinkedList Implementation https://www.baeldung.com/java-binary-tree 
 7. 
@@ -464,6 +469,112 @@ public class MergeSort {
 	}
 }
 ```
+# Binary Search
+
+```
+We basically ignore half of the elements just after one comparison.
+
+Compare x with the middle element.
+
+If x matches with middle element, we return the mid index.
+
+Else If x is greater than the mid element, then x can only lie in right half subarray after the mid element. So we recur for right half.
+
+Else (x is smaller) recur for the left half.
+```
+```java
+
+package dataStructureAndAlgorithm.Search.Binary;
+
+//Java implementation of iterative Binary Search 
+public class BinarySearch {
+	// Java implementation of iterative Binary Search
+	// Returns index of x if it is present in arr[],
+	// else return -1
+	int binarySearch(int arr[], int x) {
+		int l = 0, r = arr.length - 1;
+		while (l <= r) {
+			int m = l + (r - l) / 2;
+
+			// Check if x is present at mid
+			if (arr[m] == x)
+				return m;
+
+			// If x greater, ignore left half
+			if (arr[m] < x)
+				l = m + 1;
+
+			// If x is smaller, ignore right half
+			else
+				r = m - 1;
+		}
+
+		// if we reach here, then element was
+		// not present
+		return -1;
+	}
+
+	// Driver method to test above
+	public static void main(String args[]) {
+		BinarySearch ob = new BinarySearch();
+		int arr[] = { 2, 3, 4, 10, 40 };
+		int n = arr.length;
+		int x = 10;
+		int result = ob.binarySearch(arr, x);
+		if (result == -1)
+			System.out.println("Element not present");
+		else
+			System.out.println("Element found at " + "index " + result);
+	}
+}
+```
+## Recursion
+```java
+package dataStructureAndAlgorithm.Search.Binary;
+
+//Java implementation of iterative Binary Search 
+public class BinarySearchRecursive {
+	// Java implementation of recursive Binary Search
+	// Returns index of x if it is present in arr[l..
+	// r], else return -1
+	int binarySearch(int arr[], int l, int r, int x) {
+		if (r >= l) {
+			int mid = l + (r - l) / 2;
+
+			// If the element is present at the
+			// middle itself
+			if (arr[mid] == x)
+				return mid;
+
+			// If element is smaller than mid, then
+			// it can only be present in left subarray
+			if (arr[mid] > x)
+				return binarySearch(arr, l, mid - 1, x);
+
+			// Else the element can only be present
+			// in right subarray
+			return binarySearch(arr, mid + 1, r, x);
+		}
+
+		// We reach here when element is not present
+		// in array
+		return -1;
+	}
+
+	// Driver method to test above
+	public static void main(String args[]) {
+		BinarySearchRecursive ob = new BinarySearchRecursive();
+		int arr[] = { 2, 3, 4, 10, 40 };
+		int n = arr.length;
+		int x = 10;
+		int result = ob.binarySearch(arr, 0, n - 1, x);
+		if (result == -1)
+			System.out.println("Element not present");
+		else
+			System.out.println("Element found at index " + result);
+	}
+}
+```
 # Stack Data Structure
 Stack is a linear data structure which follows a particular order in which the operations are performed. 
 
@@ -729,5 +840,248 @@ public class Main {
 // 10--->5--->9--->null
 // 5--->9--->null
 ```
+# Binary Tree
+Binary Tree: A tree whose elements have at most 2 children is called a binary tree. 
+Since each element in a binary tree can have only 2 children, we typically name them the left and right child. 
+
+**Full Binary Tree A Binary Tree is a full binary tree if every node has 0 or 2 children. The following are the examples of a full binary tree. We can also say a full binary tree is a binary tree in which all nodes except leaf nodes have two children.** 
+
+               18
+           /       \  
+         15         30  
+        /  \        /  \
+      40    50    100   40
+
+             18
+           /    \   
+         15     20    
+        /  \       
+      40    50   
+    /   \
+    30   50
+
+               18
+            /     \  
+          40       30  
+                   /  \
+                 100   40
+**Complete Binary Tree: A Binary Tree is a Complete Binary Tree if all the levels are completely filled except possibly the last level and the last level has all keys as left as possible**
+
+The following are examples of Complete Binary Trees 
 
 
+
+               18
+           /       \  
+         15         30  
+        /  \        /  \
+      40    50    100   40
+
+
+               18
+           /       \  
+         15         30  
+        /  \        /  \
+      40    50    100   40
+     /  \   /
+    8   7  9 
+
+Practical example of Complete Binary Tree is Binary Heap. 
+
+**Perfect Binary Tree A Binary tree is a Perfect Binary Tree in which all the internal nodes have two children and all leaf nodes are at the same level. 
+The following are the examples of Perfect Binary Trees.** 
+
+               18
+           /       \  
+         15         30  
+        /  \        /  \
+      40    50    100   40
+
+
+               18
+           /       \  
+         15         30  
+![1614116225893](https://user-images.githubusercontent.com/37740006/108914979-65ac7c80-7656-11eb-8243-0d5eceffcf98.jpg)
+# Binary Tree LinkedList Implementation
+
+```.java
+package dataStructureAndAlgorithm.Tree.BinaryTree.traversal.AllTraversalInOneFile;
+
+import java.util.Stack;
+
+class Node {
+    Node left;
+    Node right;
+    int data;
+
+    public Node(int data) {
+        this.data = data;
+        this.left = null;
+        this.right = null;
+    }
+}
+
+public class BinaryTree {
+    Node root;
+
+    private void createBinaryTree() {
+        Node first = new Node(9);
+        Node second = new Node(2);
+        Node third = new Node(3);
+        Node fourth = new Node(4);
+        Node fifth = new Node(5);
+
+        // join node
+        root = first;
+        first.left = second;
+        first.right = third;
+        second.left = fourth;
+        second.right = fifth;
+
+    }
+
+    public static void main(String[] args) {
+        BinaryTree binaryTree = new BinaryTree();
+        binaryTree.createBinaryTree();
+        System.out.println("PreOrder ");
+        binaryTree.preOrder(binaryTree.root);
+
+        System.out.println("\nPreOrder Iterator ");
+        binaryTree.preOrderItr(binaryTree.root);
+
+        System.out.println("\nIn Order");
+        binaryTree.inOrder(binaryTree.root);
+
+        System.out.println("\nIn Order");
+        binaryTree.inOrderItr(binaryTree.root);
+
+        System.out.println("\nPost Order");
+        binaryTree.postOrder(binaryTree.root);
+
+        System.out.println("\nPost Order");
+        binaryTree.postOrderItr(binaryTree.root);
+
+    }
+
+    private void preOrderItr(Node root) {
+
+        Stack<Node> stack = new Stack<>();
+        stack.push(root);
+
+        while (!stack.isEmpty()) {
+            Node tempNode = stack.pop();
+            System.out.print(tempNode.data + " ");
+
+            if (tempNode.right != null) {
+                stack.push(tempNode.right);
+            }
+            if (tempNode.left != null) {
+                stack.push(tempNode.left);
+            }
+        }
+    }
+
+    private void postOrder(Node root) {
+        // TODO Auto-generated method stub
+        if (root == null) {
+            return;
+        }
+        postOrder(root.left);
+        postOrder(root.right);
+        System.out.print(root.data + " ");
+    }
+
+    private void postOrderItr(Node root) {
+        if (root == null) {
+            return;
+        }
+
+        Stack<Node> stack = new Stack<>();
+        stack.push(root);
+
+        Stack<Node> out = new Stack<>();
+
+        while (!stack.isEmpty()) {
+            Node cuNode = stack.pop();
+            out.push(cuNode);
+            if (cuNode.left != null) {
+                stack.push(cuNode.left);
+            }
+            if (cuNode.right != null) {
+                stack.push(cuNode.right);
+            }
+        }
+
+        while (!out.isEmpty())
+            System.out.print(out.pop().data + " ");
+
+    }
+
+    private void inOrder(Node root) {
+        if (root == null) {
+            return;
+        }
+        inOrder(root.left);
+        System.out.print(root.data + " ");
+        inOrder(root.right);
+
+    }
+
+    private void inOrderItr(Node root) {
+        if (root == null) {
+            return;
+        }
+        Stack<Node> stack = new Stack<>();
+        Node current = root;
+
+        while (current != null || !stack.isEmpty()) {
+            if (current != null) {
+                stack.push(current);
+                current = current.left;
+            } else {
+                current = stack.pop();
+                System.out.print(current.data + "-->");
+                current = current.right;
+            }
+        }
+    }
+
+    private void preOrder(Node root) {
+        if (root == null) {
+            return;
+        }
+        System.out.print(root.data + " ");
+        preOrder(root.left);
+        preOrder(root.right);
+
+    }
+
+}
+```
+# BFS
+```java
+public void traverseLevelOrder() {
+    if (root == null) {
+        return;
+    }
+
+    Queue<Node> nodes = new LinkedList<>();
+    nodes.add(root);
+
+    while (!nodes.isEmpty()) {
+
+        Node node = nodes.remove();
+
+        System.out.print(" " + node.value);
+
+        if (node.left != null) {
+            nodes.add(node.left);
+        }
+
+        if (node.right != null) {
+            nodes.add(node.right);
+        }
+    }
+}
+
+```

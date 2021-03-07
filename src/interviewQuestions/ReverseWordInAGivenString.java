@@ -5,57 +5,44 @@ import java.util.*;
 
 class ReverseWordInAGivenString {
 
-    // Reverse the letters
-// of the word 
-    static void reverse(char str[],
-                        int start,
-                        int end) {
-// Temporary variable 
-// to store character 
-        char temp;
 
-        while (start <= end) {
-            // Swapping the first
-            // and last character
-            temp = str[start];
-            str[start] = str[end];
-            str[end] = temp;
-            start++;
-            end--;
+    public static String reverseWords(String s) {
+        if (s.length() == 0) {
+            return "";
         }
-    }
-
-    // Function to reverse words
-    static char[] reverseWords(char[] s) {
-// Reversing individual words as
-// explained in the first step
-
+        char[] ch = s.toCharArray();
         int start = 0;
-        for (int end = 0; end < s.length; end++) {
-            // If we see a space, we
-            // reverse the previous
-            // word (word between
-            // the indexes start and end-1
-            // i.e., s[start..end-1]
-            if (s[end] == ' ') {
-                reverse(s, start, end);
+        for (int end = 0; end < ch.length; end++) {
+            if (ch[end] == ' ') {
+                reverse(ch, start, end - 1);
                 start = end + 1;
             }
         }
+        reverse(ch, start, ch.length - 1);
+        reverse(ch, 0, ch.length - 1);
 
-// Reverse the last word
-        reverse(s, start, s.length - 1);
+        return new String(ch);
 
-// Reverse the entire String
-        reverse(s, 0, s.length - 1);
-        return s;
+
     }
 
-    // Driver Code
+
+    public static void reverse(char[] c, int l, int r) {
+
+        while (l < r) {
+            char t = c[l];
+            c[l] = c[r];
+            c[r] = t;
+            l++;
+            r--;
+        }
+
+    }
+
     public static void main(String[] args) {
-        String s = "i like this program very much ";
-        char[] p = reverseWords(s.toCharArray());
-        System.out.print(p);
+        String s = "I love bd";
+        System.out.print(reverseWords(s));
+
     }
 }
 

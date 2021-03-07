@@ -52,6 +52,7 @@ public class Stack_GetMinValueFromStack {
         obj.push(2);
         obj.push(25);
         obj.push(21);
+        obj.push(1);
         obj.push(12);
         obj.push(20);
         obj.push(45);
