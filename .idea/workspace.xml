@@ -23,55 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
-      <change afterPath="$PROJECT_DIR$/src/comparatorAndComparator/MainStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/Number_ArmstrongNumberOrNot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/Number_FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/Number_LargestFromThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/Number_NthFibonacciNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/Number_PowerOfTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/Number_PrimeOrNot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/Number_ReverseANumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/Number_SumOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/Number_SwappingAandBNotUsingTempVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/Number_isBinaryOrNot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_10_ReverseSentenceOfAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_11_StirngIsPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_12_RotationOfEachOther.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_13_MissingNumberOf1ToN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_14_RemoveDuplicateFromArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_15_FindLargestAndSmallestFromUsortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_16_FindPairOfIntegerOfGivenString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_1_FindDuplicateCharacterOfAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_21_ReverseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_2_CheckAnagramOrNot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_3_PrintNonRepeatingCharacterOfAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_4_ReverseAStringUsingRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_7_Count_VowelAndConsonent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_9_FindPermutationOfAStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_FindMinimumValueFromStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_22_FindMultipleMissinNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_22_MultipleMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_23_PerformBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_24_TransposeOfMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_25_26_MatrixAdditionAndSubtraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_29_FindSecondLargestElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/StudentBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/StudentBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/StudentMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DesignPatternByNavinReddy/_2_BuilderDesignPattern/StudentMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bin/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/Sortbyroll.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/Sortbyroll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/introduction/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/introduction/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/introduction/_2_ArrayObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/introduction/_2_ArrayObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sortAnArrayAccordingToUserDefinedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/_1_array/sortAnArrayAccordingToUserDefinedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/innerclass/_8_MethodLocalInnerClassTest$1Inner.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/innerclass/_8_MethodLocalInnerClassTest$1Inner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/innerclass/_8_MethodLocalInnerClassTest$2Inner.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/innerclass/_8_MethodLocalInnerClassTest$2Inner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/innerclass/_8_MethodLocalInnerClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/innerclass/_8_MethodLocalInnerClassTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/MinStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/MinStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/ReverseWordInAGivenString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/ReverseWordInAGivenString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Stack_GetMinValueFromStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/Stack_GetMinValueFromStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/StaticVariableDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/StaticVariableDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/oopConcept/encapsulation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/encapsulation/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/oopConcept/encapsulation/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/encapsulation/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thisKeyWord/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thisKeyWord/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thisKeyWord/_1_To_Refer_Current_Class_Instance_Variable.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thisKeyWord/_1_To_Refer_Current_Class_Instance_Variable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/ReverseWordInAGivenString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/ReverseWordInAGivenString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Stack_GetMinValueFromStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/Stack_GetMinValueFromStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_21_ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/new_100_Problems/_21_ReverseArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,22 +133,9 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application._FindMinimumValueFromStack">
-    <configuration name="Stack_GetMinValueFromStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQuestions.Stack_GetMinValueFromStack" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interviewQuestions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_14_RemoveDuplicateFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new_100_Problems._14_RemoveDuplicateFromArray" />
+  <component name="RunManager" selected="Application._29_FindSecondLargestElement">
+    <configuration name="_13_MissingNumberOf1ToN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new_100_Problems._13_MissingNumberOf1ToN" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -199,8 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_15_FindLargestAndSmallestFromUsortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new_100_Problems._15_FindLargestAndSmallestFromUsortedArray" />
+    <configuration name="_22_MultipleMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new_100_Problems._22_MultipleMissingNumber" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -212,8 +160,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_16_FindPairOfIntegerOfGivenString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new_100_Problems._16_FindPairOfIntegerOfGivenString" />
+    <configuration name="_24_TransposeOfMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new_100_Problems._24_TransposeOfMatrix" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -225,8 +173,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_FindMinimumValueFromStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new_100_Problems._FindMinimumValueFromStack" />
+    <configuration name="_25_26_MatrixAdditionAndSubtraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new_100_Problems._25_26_MatrixAdditionAndSubtraction" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="new_100_Problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_29_FindSecondLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new_100_Problems._29_FindSecondLargestElement" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -240,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._FindMinimumValueFromStack" />
-        <item itemvalue="Application.Stack_GetMinValueFromStack" />
-        <item itemvalue="Application._16_FindPairOfIntegerOfGivenString" />
-        <item itemvalue="Application._15_FindLargestAndSmallestFromUsortedArray" />
-        <item itemvalue="Application._14_RemoveDuplicateFromArray" />
+        <item itemvalue="Application._29_FindSecondLargestElement" />
+        <item itemvalue="Application._25_26_MatrixAdditionAndSubtraction" />
+        <item itemvalue="Application._22_MultipleMissingNumber" />
+        <item itemvalue="Application._24_TransposeOfMatrix" />
+        <item itemvalue="Application._13_MissingNumberOf1ToN" />
       </list>
     </recent_temporary>
   </component>
