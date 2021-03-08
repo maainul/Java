@@ -99,13 +99,15 @@ https://www.java67.com/2018/06/data-structure-and-algorithm-interview-questions-
 57. Question 39 : Longest Common Prefix in an array of Strings in java.
 58. Question 40 : Find all subsets of a set (power set) in java.
 # LINKEDLIST
-Find the middle element of a singly linked list in one pass? (solution)
-Find the 3rd node from the end in a singly linked list? (solution)
-Check if a given linked list contains a cycle? How to find the starting node of the cycle? (solution)
-Find the length of a singly linked list? (solution)
-Reverse a linked list? (solution)
-Reverse a singly linked list without recursion? (solution)
-Remove duplicate nodes in an unsorted linked list? (solution)
+59. Find the middle element of a singly linked list in one pass? (solution)
+60. Find the 3rd node from the end in a singly linked list? (solution)
+61. Check if a given linked list contains a cycle? Find the length of a singly linked list? (solution)
+62. Reverse a linked list? (solution)
+63. Remove duplicate nodes in an unsorted linked list? (solution)
+64. Palindrome linked list
+65. Find Intersection of Linked list
+66. Pairwise swap
+
 # BINARY TREE
 Find the Implement a binary search tree?  (solution)
 Pre-order traversal in a given binary tree? (solution)

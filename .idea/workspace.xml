@@ -23,16 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_22_FindMultipleMissinNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_22_MultipleMissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_23_PerformBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_24_TransposeOfMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_25_26_MatrixAdditionAndSubtraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_29_FindSecondLargestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new_100_Problems/_60_RemoveDuplicateFromUnsortedLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bin/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_21_ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/new_100_Problems/_21_ReverseArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/new_100_Problems/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,20 +126,7 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application._29_FindSecondLargestElement">
-    <configuration name="_13_MissingNumberOf1ToN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new_100_Problems._13_MissingNumberOf1ToN" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="new_100_Problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._60_RemoveDuplicateFromUnsortedLinkedList">
     <configuration name="_22_MultipleMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="new_100_Problems._22_MultipleMissingNumber" />
       <module name="Java" />
@@ -199,13 +179,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_60_RemoveDuplicateFromUnsortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new_100_Problems._60_RemoveDuplicateFromUnsortedLinkedList" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="new_100_Problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._60_RemoveDuplicateFromUnsortedLinkedList" />
         <item itemvalue="Application._29_FindSecondLargestElement" />
         <item itemvalue="Application._25_26_MatrixAdditionAndSubtraction" />
         <item itemvalue="Application._22_MultipleMissingNumber" />
         <item itemvalue="Application._24_TransposeOfMatrix" />
-        <item itemvalue="Application._13_MissingNumberOf1ToN" />
       </list>
     </recent_temporary>
   </component>
