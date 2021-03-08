@@ -135,7 +135,7 @@ https://www.java67.com/2018/06/data-structure-and-algorithm-interview-questions-
 68. BFS https://github.com/maainul/Java/tree/master/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_12_LevelOrderBinaryTreeTraversal
 69. Spiral Order Traversal https://github.com/maainul/Java/tree/master/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_13_SpiralTreeTraversal
 70. Maximum Depth of a Binary tree https://github.com/maainul/Java/blob/master/src/interviewQuestions/_BinaryTree_FindMaximumHeightOfABinaryTree.md
-71. Print all leaves of a binary search tree? (solution)
+71. Print all leaves of a binary search tree? (solution) https://www.geeksforgeeks.org/print-leaf-nodes-left-right-binary-tree/
 72. Count a number of leaf nodes in a given binary tree? (solution)
 73. Question 57 : Write an algorithm to do level order traversal of binary tree?(BFS)
 74. Question 63 : How to find maximum element in binary tree..
