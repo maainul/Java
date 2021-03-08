@@ -131,17 +131,14 @@ https://www.java67.com/2018/06/data-structure-and-algorithm-interview-questions-
 66. Pairwise swap
 
 # BINARY TREE
-67. Pre-order traversal in a given binary tree? (solution)
-68. Traverse a given binary tree in Pre-order without recursion (solution)
-69. Implement a Post-order traversal algorithm? (solution)
-70. Traverse a binary tree in Postorder traversal without recursion (solution)
-71. In order traversal in a given binary tree? (solution)
-72. Print all nodes of given binary tree using inorder traversal without recursion (solution)
-73. Print all leaves of a binary search tree? (solution)
-74. Count a number of leaf nodes in a given binary tree? (solution)
-75. Question 57 : Write an algorithm to do level order traversal of binary tree?(BFS)
-76. Question 58 :  Write an algorithm to do spiral order traversal of binary tree?
-77. Question 63 : How to find maximum element in binary tree..
+67. DFS https://github.com/maainul/Java/blob/master/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/AllTraversalInOneFile/BinaryTree.java
+68. BFS https://github.com/maainul/Java/tree/master/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_12_LevelOrderBinaryTreeTraversal
+69. Spiral Order Traversal https://github.com/maainul/Java/tree/master/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_13_SpiralTreeTraversal
+70. Maximum Depth of a Binary tree https://github.com/maainul/Java/blob/master/src/interviewQuestions/_BinaryTree_FindMaximumHeightOfABinaryTree.md
+71. Print all leaves of a binary search tree? (solution)
+72. Count a number of leaf nodes in a given binary tree? (solution)
+73. Question 57 : Write an algorithm to do level order traversal of binary tree?(BFS)
+74. Question 63 : How to find maximum element in binary tree..
 # BINARY SEARCH TREE
 78. Question 69 : Can you write an algorithm to insert a node in a binary search tree?
 79. Question 70 : Can you write an algorithm to delete a node in a binary search tree.
