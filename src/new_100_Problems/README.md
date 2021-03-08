@@ -109,27 +109,17 @@ https://www.java67.com/2018/06/data-structure-and-algorithm-interview-questions-
 66. Pairwise swap
 
 # BINARY TREE
-Find the Implement a binary search tree?  (solution)
 Pre-order traversal in a given binary tree? (solution)
 Traverse a given binary tree in Pre-order without recursion (solution)
 Implement a Post-order traversal algorithm? (solution)
 Traverse a binary tree in Postorder traversal without recursion (solution)
+In order traversal in a given binary tree? (solution)
+Print all nodes of given binary tree using inorder traversal without recursion (solution)
 Print all leaves of a binary search tree? (solution)
 Count a number of leaf nodes in a given binary tree? (solution)
-In order traversal in a given binary tree? (solution)
-Print all nodes of given binary tree using inorder traversal without recursion (solution
-Question 56 : How can you traverse a binary tree?
-Question 57 : Write an algorithm to do level order traversal of binary tree?
+Question 57 : Write an algorithm to do level order traversal of binary tree?(BFS)
 Question 58 :  Write an algorithm to do spiral order traversal of binary tree?
-Question 59 : How can you print leaf nodes of a binary tree?
-Question 60 : How to count leaf nodes of binary tree.
-Question 61 : How to print all paths from root to leaf in binary tree.
-Question 62 : How to find level of node in binary tree
-Question 63 : How to find maximum element in binary tree.
-Question 64 : How to find the lowest common ancestor(LCA) in a binary tree.
-Question 65 : How to do boundary traversal of binary tree.
-Question 66 : How to print vertical sum of binary tree?
-Question 67 : Count subtrees with Sum equal to target in binary tree?
+Question 63 : How to find maximum element in binary tree..
 # BINARY SEARCH TREE
 Question 69 : Can you write an algorithm to insert a node in a binary search tree?
 Question 70 : Can you write an algorithm to delete a node in a binary search tree.
