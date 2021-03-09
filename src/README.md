@@ -1,3 +1,28 @@
+# WrapperClass
+**1. valueOf() :** Primitive / String ------> OBJECT
+- Integer i = Integer.valueOf(10);
+- Integer i = Integer.valueOf("10");
+- Double d = Double.valueOf("10.5");
+- Boolean bol = Boolean.valueOf("Anik");
+
+**2. xxxValue() :** OBJECT -----> Primitive
+- Charactr ch = new Character('a');
+  - char c = ch.charValue();
+- Boolean bol = new Boolean("drama");
+    - boolean b = bol.booleanValue();
+
+**3. parseXXX() :** String -----> Primitive
+- int i = Integer.parseInt("11.2");
+- double d = Double.parseDouble(10.5);
+
+**4. toString() :** Object/Primitive ----- > String
+- String s = Integer.toString(10);
+- String s = Boolean.toString(true);
+- String s = Character.toString('a);
+
+![IMG_20210309_073851](https://user-images.githubusercontent.com/37740006/110405906-8be90800-80ab-11eb-9e95-91b2b3096a20.jpg)
+
+
 1.Sorting:
   - Bubble Sort
   - Insertion Sort
@@ -24,7 +49,6 @@
   - LinkedList Implementation https://www.baeldung.com/java-binary-tree 
 7. 
 ----------------------------------------------------------------------
-
 
 1. Kadane's Algorithm : https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
 2. Permutation of Given String :  https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string
