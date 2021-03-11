@@ -161,7 +161,8 @@ https://www.java67.com/2018/06/data-structure-and-algorithm-interview-questions-
 64. Palindrome linked list
 65. Find Intersection of Linked list
 66. Pairwise swap
-
+67. Find first and Last position of sorted array https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/discuss/1091107/Intuitive-binary-search-Java-solution-(beats-100)
+68. Find Element from sorted rotated Array
 # BINARY TREE
 67. DFS https://github.com/maainul/Java/blob/master/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/AllTraversalInOneFile/BinaryTree.java
 68. BFS https://github.com/maainul/Java/tree/master/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_12_LevelOrderBinaryTreeTraversal
