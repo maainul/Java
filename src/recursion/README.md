@@ -1,7 +1,6 @@
 # Recursion
 ## Problem 1:
-
-[Write a function that prints all the elements of an array of integers in order.](https://github.com/maainul/Java/blob/master/src/recursion/Problem1/PrintArray.java)<br />
+[Write a function that prints all the elements of an array of integers in order.](https://github.com/maainul/Java/blob/master/src/recursion/Problem1/PrintArray.java)
 
 Input: <br />
 69 87 45 21 47 <br />
@@ -10,7 +9,7 @@ Output: <br />
 
 ## Problem 2:
 
-[Write a recursive function that prints all the elements of an array of integers in order.](https://github.com/maainul/Java/blob/master/src/recursion/Problem2/PrintArrayRecursion.java)<br />
+[Write a recursive function that prints all the elements of an array of integers in order.](https://github.com/maainul/Java/blob/master/src/recursion/Problem2/PrintArrayRecursion.java)
 
 Input: <br />
 69 87 45 21 47 <br />
@@ -19,7 +18,7 @@ Output: <br />
 
 ## Problem 3:
 
-[Write a function that prints all the elements of an array of integers in reverse order.](https://github.com/maainul/Java/blob/master/src/recursion/Problem3/ReverseArray.java)<br />
+[Write a function that prints all the elements of an array of integers in reverse order.](https://github.com/maainul/Java/blob/master/src/recursion/Problem3/ReverseArray.java)
 
 Input: <br />
 69 87 45 21 47 <br />
@@ -28,7 +27,7 @@ Output: <br />
 
 ## Problem 4:
 
-[Write a recursive function that prints all the elements of an array of integers in reverse order.](https://github.com/maainul/Java/blob/master/src/recursion/Problem4/ReverseArrayUsingRecursion.java)<br />
+[Write a recursive function that prints all the elements of an array of integers in reverse order.](https://github.com/maainul/Java/blob/master/src/recursion/Problem4/ReverseArrayUsingRecursion.java)
 
 
 Input: <br />
@@ -38,7 +37,7 @@ Output: <br />
 
 ## Problem 5: <br />
 
-[Find the sum of the array. Use Iteration.](https://github.com/maainul/Java/blob/master/src/recursion/Problem5/SumOfNInterger.java)</br>
+[Find the sum of the array. Use Iteration.](https://github.com/maainul/Java/blob/master/src/recursion/Problem5/SumOfNInterger.java)
 
 Input:<br />
 5 7 9 11 3 <br />
@@ -47,7 +46,7 @@ Output:<br />
 
 ## Problem 6: <br />
 
-[Find the sum of the array. Use recursion.(RecursionPracticeQuestions-UG1, problem 4)](https://github.com/maainul/Java/blob/master/src/recursion/Problem6/SumOfArrayUsingRecursion.java)</br>
+[Find the sum of the array. Use recursion.(RecursionPracticeQuestions-UG1, problem 4)](https://github.com/maainul/Java/blob/master/src/recursion/Problem6/SumOfArrayUsingRecursion.java)
 
 Input:<br />
 5 7 9 11 3 <br />
@@ -56,7 +55,7 @@ Output:<br />
 
 ## Problem 7: <br />
 
-[Find the sum of the integers from 1 through n.](https://github.com/maainul/Java/blob/master/src/recursion/Problem7/SumOfOneToNthInteger.java)</br>
+[Find the sum of the integers from 1 through n.](https://github.com/maainul/Java/blob/master/src/recursion/Problem7/SumOfOneToNthInteger.java)
 
 Input:<br />
 4<br />
@@ -65,7 +64,7 @@ Output:<br />
 
 ## Problem 8: <br />
 
-[Find the sum of the integers from 1 through n. Use recursion.](https://github.com/maainul/Java/blob/master/src/recursion/Problem8/SumOfIntegerFromOneToNthUsingRecursion.java)</br>
+[Find the sum of the integers from 1 through n. Use recursion.](https://github.com/maainul/Java/blob/master/src/recursion/Problem8/SumOfIntegerFromOneToNthUsingRecursion.java)
 
 Input:<br />
 4 <br />
@@ -74,7 +73,7 @@ Output:<br />
 
 ## Problem 9: <br />
 
-[Find the reverse of the integers from 1 through n. Use recursion.](https://github.com/maainul/Java/blob/master/src/recursion/Problem9/ReverseOneToN.java)</br>
+[Find the reverse of the integers from 1 through n. Use recursion.](https://github.com/maainul/Java/blob/master/src/recursion/Problem9/ReverseOneToN.java)
 
 Input:<br />
 4 <br />
@@ -90,7 +89,8 @@ index :0<br />
 ## Problem 10:
 
 
-[Write a  program to print even integers from an array.](https://github.com/maainul/Java/blob/master/src/recursion/Problem10/PrintEvenInteger.java)<br/>
+[Write a  program to print even integers from an array.](https://github.com/maainul/Java/blob/master/src/recursion/Problem10/PrintEvenInteger.java)
+
 Input:<br/>
 2,4,5,8,10 <br />
 Output: <br />
@@ -98,7 +98,7 @@ Output: <br />
 
 ## Problem 11:
 
-[Write a  program to print even integers from an array.Usin Recursion](https://github.com/maainul/Java/blob/master/src/recursion/Problem11/PrintEvenIntegerUsingRecursion.java)<br/>
+[Write a  program to print even integers from an array.Usin Recursion](https://github.com/maainul/Java/blob/master/src/recursion/Problem11/PrintEvenIntegerUsingRecursion.java)
 
 Input:<br/>
 2,4,5,8,10 <br />
@@ -106,7 +106,7 @@ Output: <br />
 2 4 8 10 <br />
 
 ## Problem 12:
-[Write a  program to print FACTORIAL Number.](https://github.com/maainul/Java/blob/master/src/recursion/Problem12/FactorialUsingForLoop.java)<br />
+[Write a  program to print FACTORIAL Number.](https://github.com/maainul/Java/blob/master/src/recursion/Problem12/FactorialUsingForLoop.java)
 
 Input:  <br />
 5 <br />
@@ -114,7 +114,7 @@ Output: <br />
 120 <br />
 
 ## Problem 13:
-[Write a  program to print FACTORIAL Number using recursive method.](https://github.com/maainul/Java/blob/master/src/recursion/Problem13/RecursiveFactorial.java)<br />
+[Write a  program to print FACTORIAL Number using recursive method.](https://github.com/maainul/Java/blob/master/src/recursion/Problem13/RecursiveFactorial.java)
 
 Input:  <br />
 5 <br />
@@ -122,23 +122,26 @@ Output: <br />
 120 <br />
 
 ## Problem 14:
-[Write a program to print fibonacci series.](https://github.com/maainul/Java/blob/master/src/recursion/Problem14/Fibonacci.java)<br/>
-[1st and 2nd fibonacci numbers are 1, 1.](https://github.com/maainul/Java/blob/master/src/recursion/Problem14/Fibonacci.java)<br/>
+[Write a program to print fibonacci series.](https://github.com/maainul/Java/blob/master/src/recursion/Problem14/Fibonacci.java)
+
+[1st and 2nd fibonacci numbers are 1, 1.](https://github.com/maainul/Java/blob/master/src/recursion/Problem14/Fibonacci.java)
+
 Input:<br/>
 6<br/>
 Output:<br/>
 1 1 2 3 5 8<br/>
 
 ## Problem 15:
-[Write a recursive program to print fibonacci series.](https://github.com/maainul/Java/blob/master/src/recursion/Problem15/FibonacciRecursion.java)<br/>
-[1st and 2nd fibonacci numbers are 1, 1.](https://github.com/maainul/Java/blob/master/src/recursion/Problem15/FibonacciRecursion.java)<br/>
+[Write a recursive program to print fibonacci series.](https://github.com/maainul/Java/blob/master/src/recursion/Problem15/FibonacciRecursion.java)
+[1st and 2nd fibonacci numbers are 1, 1.](https://github.com/maainul/Java/blob/master/src/recursion/Problem15/FibonacciRecursion.java)
+
 Input:<br/>
 6<br/>
 Output:<br/>
 1 1 2 3 5 8<br/>
 
 ## Problem 16:
-[Write a recursive program to compute nth fibonacci number. 1st and 2nd fibonacci numbers are 1, 1.](https://github.com/maainul/Java/tree/master/src/recursion/Problem16)<br/>
+[Write a recursive program to compute nth fibonacci number. 1st and 2nd fibonacci numbers are 1, 1.](https://github.com/maainul/Java/tree/master/src/recursion/Problem16)
 
 Input:<br/>
 6<br/>
@@ -155,8 +158,7 @@ Output: <br />
 prime <br />
 
 ## Problem 18: 
-[Write a recursive program to determine whether a given integer is prime or not.](https://github.com/maainul/Java/blob/master/src/recursion/Problem18/PrimeNumber.java)</br>
-
+[Write a recursive program to determine whether a given integer is prime or not.](https://github.com/maainul/Java/blob/master/src/recursion/Problem18/PrimeNumber.java)
 Input: <br />
 19 <br />
 
@@ -165,7 +167,7 @@ prime <br />
 
 ## Problem 19:
 
-[Find GCD or HCF of two numbers.](https://github.com/maainul/Java/blob/master/src/recursion/Problem19/GCD.java)<br/>
+[Find GCD or HCF of two numbers.](https://github.com/maainul/Java/blob/master/src/recursion/Problem19/GCD.java)
 
 Input:<br/>
 68 51<br/>
@@ -174,7 +176,7 @@ Output:<br/>
 
 ## Problem 20:
 
-[Find GCD or HCF of two numbers using recursion](https://github.com/maainul/Java/blob/master/src/recursion/Problem20/GCDRecursion.java)<br/>
+[Find GCD or HCF of two numbers using recursion](https://github.com/maainul/Java/blob/master/src/recursion/Problem20/GCDRecursion.java)
 
 Input:<br/>
 68 51<br/>
@@ -183,8 +185,7 @@ Output:<br/>
 
 ## Problem 21:
 
-[Write a recursive solution to compute lcm of two integers. use this formula lcm(a,b) = (a x b) / gcd(a,b);](https://github.com/maainul/Java/blob/master/src/recursion/Problem21/LCM.java)</br>
-
+[Write a recursive solution to compute lcm of two integers. use this formula lcm(a,b) = (a x b) / gcd(a,b);](https://github.com/maainul/Java/blob/master/src/recursion/Problem21/LCM.java)
 
 Input: <br />
 23 488 <br />
@@ -193,8 +194,7 @@ Output: <br />
 
 ## Problem 22:
 
-[Write a recursive solution to compute lcm of two integers. use this formula lcm(a,b) = (a x b) / gcd(a,b);](https://github.com/maainul/Java/blob/master/src/recursion/Problem22/LCM.java)</br>
-
+[Write a recursive solution to compute lcm of two integers. use this formula lcm(a,b) = (a x b) / gcd(a,b);](https://github.com/maainul/Java/blob/master/src/recursion/Problem22/LCM.java)
 
 Input: <br />
 23 488 <br />
@@ -206,7 +206,6 @@ Output: <br />
 ## Problem 23:
 
 Write a recursive solution to find the second maximum number from a given set of integers.(panding)[CSC 349: Design and Analyis of Algorithms](http://users.csc.calpoly.edu/~dekhtyar/349-Spring2010/lectures/lec03.349.pdf)
-
 
 Input: <br />
 5<br />
@@ -285,7 +284,7 @@ Output: <br />
 ## Problem 30:
 
 Find the recursive solution of binomial coefficients [B(n,k)](http://www.math.tamu.edu/~berko/teaching/preREU2010/example_paper.pdf) defined by formula (1) satisfy (hackerrank)
- <br />
+
 B(n, k) = B(n − 1, k − 1) + B(n − 1, k), 1 ≤ k ≤ n − 1.
 
 

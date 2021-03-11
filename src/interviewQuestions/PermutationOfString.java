@@ -21,8 +21,6 @@ public class PermutationOfString {
                 str = swap(str, l, i);
             }
         }
-
-
     }
 
     private static String swap(String str, int l, int r) {

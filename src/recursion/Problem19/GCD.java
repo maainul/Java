@@ -16,3 +16,7 @@ public class GCD {
 
 	}
 }
+/*
+Find the GCD
+G.C.D of 68 and 51 is 17
+ */

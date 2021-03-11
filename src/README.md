@@ -22,6 +22,14 @@
 
 ![IMG_20210309_073851](https://user-images.githubusercontent.com/37740006/110405906-8be90800-80ab-11eb-9e95-91b2b3096a20.jpg)
 
+# Conversion Problem :
+Autoboxing followed by AutoWidenning allowed
+AutoWidenning followed by Autoboxing allowed
+
+int-----possible------> Integer----Not possible----> Long
+int ---possible----> long-----Not Possible---> Long
+
+
 
 1.Sorting:
   - Bubble Sort
@@ -153,6 +161,7 @@ https://www.java67.com/2018/06/data-structure-and-algorithm-interview-questions-
 64. Palindrome linked list
 65. Find Intersection of Linked list
 66. Pairwise swap
+67. Find first and Last position of sorted array https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/discuss/1091107/Intuitive-binary-search-Java-solution-(beats-100)
 
 # BINARY TREE
 67. DFS https://github.com/maainul/Java/blob/master/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/AllTraversalInOneFile/BinaryTree.java
