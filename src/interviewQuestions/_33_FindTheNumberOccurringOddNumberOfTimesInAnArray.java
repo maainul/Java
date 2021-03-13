@@ -1,23 +1,28 @@
 package interviewQuestions;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class _33_FindTheNumberOccurringOddNumberOfTimesInAnArray {
     public static void main(String[] args) {
-        int array[] = new int[]{20, 40, 50, 40, 50, 20, 30, 30, 50, 20, 40, 40, 20};
+        int[] array = new int[]{20, 40, 50, 40, 50, 20, 30, 30, 50, 20, 40, 40, 20};
         findOddOccur(array);
     }
 
-    private static int findOddOccur(int[] array) {
-        HashMap<Integer, Integer> elements = new HashMap<>();
-        for (int i = 0; i < array.length; i++){
-            int element = array[i];
-            if (elements.get(element) == null){
-                elements.put(element,1);
-            }else {
-                elements.put(element,elements.get(element)+1);
+    private static void findOddOccur(int[] array) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i : array) {
+            if (!map.containsKey(i)) {
+                map.put(i, map.get(i) + 1);
+            } else {
+                map.put(i, 1);
             }
         }
-        return 0;
+
+        for (Map.Entry<Integer,Integer> entry : map.entrySet()){
+            System.out.println(entry.getKey());
+        }
+
+
     }
 }

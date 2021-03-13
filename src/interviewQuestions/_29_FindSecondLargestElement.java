@@ -10,13 +10,12 @@ public class _29_FindSecondLargestElement {
     private static int secondLargest(int[] arr) {
         int first = Integer.MIN_VALUE;
         int second = Integer.MIN_VALUE;
-        for (int i = 0; i < arr.length; i++){
-            if (arr[i] > first){
+        for (int j : arr) {
+            if (j > first) {
                 second = first;
-                first = arr[i];
-            }
-            else if (arr[i] > second){
-                second = arr[i];
+                first = j;
+            } else if (j > second) {
+                second = j;
             }
         }
         return second;

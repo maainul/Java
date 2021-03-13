@@ -1,18 +1,18 @@
 
 package interviewQuestions;
 
-public class _31_CountConsonentFromAString {
+public class _31_CountConsonantFromAString {
 
 	public static void main(String[] args) {
 		String str = "abc de";
-		System.out.println(consonent(str));
+		System.out.println(consonant(str));
 	}
 
-	private static int consonent(String str) {
+	private static int consonant(String str) {
 		int count = 0;
 
 		for (int i = 0; i < str.length(); i++) {
-			if (isConsonent(str.charAt(i))) {
+			if (isConsonant(str.charAt(i))) {
 				++count;
 			}
 		}
@@ -20,7 +20,7 @@ public class _31_CountConsonentFromAString {
 
 	}
 
-	private static boolean isConsonent(char ch) {
+	private static boolean isConsonant(char ch) {
 		ch = Character.toUpperCase(ch);
 		return !(ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') && (ch >= 65 && ch <= 90);
 	}
