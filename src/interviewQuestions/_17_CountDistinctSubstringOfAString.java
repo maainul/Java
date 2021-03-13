@@ -34,8 +34,6 @@ public class _17_CountDistinctSubstringOfAString {
 
 		}
 		System.out.println(count);
-
-		// TODO Auto-generated method stub
 		return count;
 	}
 

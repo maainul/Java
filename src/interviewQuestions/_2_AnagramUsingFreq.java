@@ -8,9 +8,8 @@ public class _2_AnagramUsingFreq {
 
         /* function to check whether two strings
         are anagram of each other */
-        static boolean areAnagram(char str1[], char str2[])
+        static boolean areAnagram(char[] str1, char[] str2)
         {
-
 
             // If both strings are of different length.
             // Removing this condition will make the program
@@ -20,17 +19,16 @@ public class _2_AnagramUsingFreq {
 
             // Create 2 count arrays and initialize
             // all values as 0
-            int count1[] = new int[NO_OF_CHARS];
+            int[] count1 = new int[NO_OF_CHARS];
            // Arrays.fill(count1, 0);
-            int count2[] = new int[NO_OF_CHARS];
+            int[] count2 = new int[NO_OF_CHARS];
             //Arrays.fill(count2, 0);
             int i;
 
             // For each character in input strings,
             // increment count in the corresponding
             // count array
-            for (i = 0; i < str1.length && i < str2.length;
-                 i++) {
+            for (i = 0; i < str1.length && i < str2.length; i++) {
                 count1[str1[i]]++;
                 count2[str2[i]]++;
             }
@@ -46,8 +44,8 @@ public class _2_AnagramUsingFreq {
         /* Driver code*/
         public static void main(String args[])
         {
-            char str1[] = ("anikkkaaasss").toCharArray();
-            char str2[] = ("sssanaaakkik").toCharArray();
+            char[] str1 = ("anikkkaaasss").toCharArray();
+            char[] str2 = ("sssanaaakkik").toCharArray();
 
             // Function call
             if (areAnagram(str1, str2))
@@ -58,5 +56,3 @@ public class _2_AnagramUsingFreq {
                         + " anagram of each other");
         }
     }
-
-// This code is contributed by Nikita Tiwari.

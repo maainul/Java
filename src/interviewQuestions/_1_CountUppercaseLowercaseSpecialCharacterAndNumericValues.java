@@ -1,5 +1,4 @@
 package interviewQuestions;
-
 /*
  *  1. uppercase
  *  2. Lowercase
@@ -20,12 +19,12 @@ package interviewQuestions;
 	Lower Case Character:32
 	Numerical Value:5
 	Special Character :11
-
  *  
  */
 public class _1_CountUppercaseLowercaseSpecialCharacterAndNumericValues {
 
-	public static void main(String[] args) {// TODO Auto-generated method stub
+	public static void main(String[] args) {
+
 		int upperCase = 0, lowerCase = 0, specialCharacter = 0, numericalValue = 0;
 
 		// String s1 = "La Ilaha Illalahu Mohammadur Rasulullah!@11278(%sm%).";
@@ -51,5 +50,4 @@ public class _1_CountUppercaseLowercaseSpecialCharacterAndNumericValues {
 		System.out.println("Special Character :" + specialCharacter);
 
 	}
-
 }

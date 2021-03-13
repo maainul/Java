@@ -19,7 +19,7 @@ package interviewQuestions;
 public class _12_CountWordsPresentInaString {
 
 	public static void main(String[] args) {
-		String words[] = { "welcome", "to", "geeks", "portal" };
+		String[] words = { "welcome", "to", "geeks", "portal" };
 
 		String str = "geeksforgeeks is a computer science portal for geeks.";
 		int result = findString(words, str);
@@ -31,12 +31,11 @@ public class _12_CountWordsPresentInaString {
 
 		String replaceString = str.replace(".", "");
 		String[] words2 = replaceString.split(" ");
-		for (int i = 0; i < words.length; i++) {
-			for (int j = 0; j < words2.length; j++) {
-				if (words2[j].equals(words[i])) {
+		for (String word : words) {
+			for (String s : words2) {
+				if (s.equals(word)) {
 					count++;
 				}
-
 			}
 		}
 

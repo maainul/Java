@@ -1,11 +1,11 @@
 package interviewQuestions;
 
 
-class Node {
+class BNode {
     int data;
-    Node left, right;
+    BNode left, right;
 
-    Node(int data) {
+    BNode(int data) {
         this.data = data;
         this.left = null;
         this.right = null;
@@ -19,9 +19,9 @@ class Node {
 }
 
 class BinaryTree {
-    Node root;
+    BNode root;
 
-    int maxHeight(Node root) {
+    int maxHeight(BNode root) {
         if (root == null) {
             return 0;
         }
@@ -37,7 +37,7 @@ class BinaryTree {
     }
 
 
-    void printLeafNode(Node root){
+    void printLeafNode(BNode root){
         if (root == null){
             return;
         }
@@ -56,14 +56,14 @@ class BinaryTree {
 public class BinaryTree_FIndingMaximunDepthOfABinaryTree {
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
-        tree.root = new Node(1);
-        tree.root.left = new Node(2);
-        tree.root.right = new Node(3);
-        tree.root.left.left = new Node(4);
-        tree.root.right.left = new Node(5);
-        tree.root.right.right = new Node(6);
-        tree.root.right.right.left = new Node(8);
-        tree.root.right.left.right = new Node(7);
+        tree.root = new BNode(1);
+        tree.root.left = new BNode(2);
+        tree.root.right = new BNode(3);
+        tree.root.left.left = new BNode(4);
+        tree.root.right.left = new BNode(5);
+        tree.root.right.right = new BNode(6);
+        tree.root.right.right.left = new BNode(8);
+        tree.root.right.left.right = new BNode(7);
         System.out.println("Max depth: " + tree.maxHeight(tree.root));
         tree.printLeafNode(tree.root);
 

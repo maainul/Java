@@ -16,6 +16,3 @@ public class _3_SubstringJava {
 	}
 
 }
-/*
- * nul ainu asan
- */

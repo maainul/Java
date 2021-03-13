@@ -1,8 +1,5 @@
 package interviewQuestions;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class _1_FindDuplicateFromString {
     public static void main(String[] args) {
         String string = "google";

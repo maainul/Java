@@ -12,7 +12,6 @@ public class _17_1_FindTheDuplicateValuesofAnArrayofStringValues {
 					System.out.println("Duplicate Element is : " + my_array[j]);
 				}
 			}
-
 		}
 		System.out.println(count);
 	}

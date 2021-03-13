@@ -12,7 +12,7 @@ public class _4_CountNumberOfSubstringWithKDisinctCharacters {
 		int n = str.length();
 
 		// To store count of characters from 'a' to 'z'
-		int cnt[] = new int[26];
+		int[] cnt = new int[26];
 
 		// Consider all substrings beginning with
 		// str[i]

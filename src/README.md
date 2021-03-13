@@ -74,6 +74,19 @@ int ---possible----> long-----Not Possible---> Long
 
 "26. Write a program to remove duplicates from array in Java? (solution)",
 
+ 27. Find minimum element from roted sorted array
+
+28. Find minimum in rotated sorted array II
+
+29. validate binary tree
+
+30. mimimum depth of binary tree
+
+
+
+
+
+
 ---------------------------------
 1. Kadane's Algorithm : https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
 2. Permutation of Given String :  https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string

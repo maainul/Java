@@ -31,7 +31,7 @@ public class _11_CountNumberOfWords {
 			// If next character is not a word separator
 			// and state is OUT, then set the state as IN
 			// and increment word count
-			else if (flag == true) {
+			else if (flag) {
 				flag = false;
 				count++;
 			}

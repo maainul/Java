@@ -57,7 +57,37 @@ int ---possible----> long-----Not Possible---> Long
   - LinkedList Implementation https://www.baeldung.com/java-binary-tree 
 7. 
 ----------------------------------------------------------------------
+# New Problems (Have to be solved)
+"10. How to find kth smallest element in unsorted array?",
 
+"11. How to find kth largest element in unsorted array?",
+
+"19. How to remove a given element from array in Java?",
+
+"20. How to merge sorted array?",
+
+"22. Write a program to find length of longest consecutive sequence in array of integers?",
+
+"23. How to find minimum value in a rotated sorted array?",
+
+"24. How to reverse array in place in Java?",
+
+"26. Write a program to remove duplicates from array in Java? (solution)",
+
+ 27. Find minimum element from roted sorted array
+
+28. Find minimum in rotated sorted array II
+
+29. validate binary tree
+
+30. mimimum depth of binary tree
+
+
+
+
+
+
+---------------------------------
 1. Kadane's Algorithm : https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
 2. Permutation of Given String :  https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string
 3. Int To Roman : https://leetcode.com/submissions/detail/420387969/
@@ -163,6 +193,11 @@ https://www.java67.com/2018/06/data-structure-and-algorithm-interview-questions-
 66. Pairwise swap
 67. Find first and Last position of sorted array https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/discuss/1091107/Intuitive-binary-search-Java-solution-(beats-100)
 68. Find Element from sorted rotated Array
+69. Find intersection of two array
+70. Find common elements from 3 sorted array
+
+
+
 # BINARY TREE
 67. DFS https://github.com/maainul/Java/blob/master/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/AllTraversalInOneFile/BinaryTree.java
 68. BFS https://github.com/maainul/Java/tree/master/src/dataStructureAndAlgorithm/Tree/BinaryTree/traversal/_12_LevelOrderBinaryTreeTraversal

@@ -9,7 +9,7 @@ public class Method2 {
 		String str2 = "bct";
 		boolean result = anagram(str1, str2);
 
-		if (result == true) {
+		if (result) {
 			System.out.println("Anagram");
 		} else {
 			System.out.println("Not anagram");

@@ -36,7 +36,7 @@ static void printArraystring(String str[], int n)
 }
 
 // Driver function
-public static void main(String args[])
+public static void main(String[] args)
 {
 	String []arr = {"GeeksforGeeks", "I", "from", "am"};
 	int n = arr.length;

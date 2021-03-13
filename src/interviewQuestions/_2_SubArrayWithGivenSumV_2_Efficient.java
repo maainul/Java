@@ -1,7 +1,7 @@
 package interviewQuestions;
 
 public class _2_SubArrayWithGivenSumV_2_Efficient {
-    int subArraySum(int arr[], int n, int sum) {
+    int subArraySum(int[] arr, int n, int sum) {
         int curr_sum = arr[0], start = 0, i;
         // Pick a starting point
         for (i = 1; i <= n; i++) {

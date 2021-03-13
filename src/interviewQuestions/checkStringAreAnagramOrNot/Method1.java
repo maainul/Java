@@ -22,12 +22,12 @@ public class Method1 {
 						break;
 					}
 				}
-				if (found_flag == false) {
+				if (!found_flag) {
 					not_found = true;
 					break;
 				}
 			}
-			if (not_found == true) {
+			if (not_found) {
 				System.out.println("Not Anagram");
 			} else {
 				System.out.println("Found");

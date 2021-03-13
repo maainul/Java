@@ -32,7 +32,7 @@ public class _1_SubarrayWithGivenSum {
     public static void main(String[] args)
     {
         _1_SubarrayWithGivenSum arraysum = new _1_SubarrayWithGivenSum();
-        int arr[] = { 15, 2, 4, 8, 9, 5, 10, 23 };
+        int[] arr = { 15, 2, 4, 8, 9, 5, 10, 23 };
         int n = arr.length;
         int sum = 23;
         arraysum.subArraySum(arr, n, sum);

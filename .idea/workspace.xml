@@ -23,29 +23,610 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/Array_UnioAndIntersectionOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/Array_RotedSortedMinimumValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ABU Exam/quiz_2021_March/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ABU Exam/quiz_2021_March/_1_Program.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ABU Exam/quiz_2021_March/_2_PalindromLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ABU Exam/quiz_2021_March/_7_Program_Permutations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ABU Exam/quiz_2021_March/quiz_2021_March/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ABU Exam/quiz_2021_March/quiz_2021_March/_2_PalindromLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ABU Exam/quiz_2021_March/quiz_2021_March/_7_Program_Permutations.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bin/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/constructor/ConstructorOverloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/constructor/ConstructorOverloading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/constructor/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/constructor/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/Test$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/Test$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/LinkedList/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/binarySearchTree/BinaryMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/binarySearchTree/BinaryMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/binarySearchTree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/binarySearchTree/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/binarySearchTree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/Tree/BinaryTree/binarySearchTree/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/geekforgeeks/_3_OrderStatistics/GFG$MaxHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/geekforgeeks/_3_OrderStatistics/GFG$MaxHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/geekforgeeks/_3_OrderStatistics/GFG.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/geekforgeeks/_3_OrderStatistics/GFG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/heap/GFG$MaxHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/heap/GFG$MaxHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/heap/GFG.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/heap/GFG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/AbstractAndStatic.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/AbstractAndStatic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/BinaryTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/BinaryTree_FIndingMaximunDepthOfABinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/BinaryTree_FIndingMaximunDepthOfABinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/FindAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/FindAnagrams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_0_StringImmutable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_10_StringConcat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_11_StringContains.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_12_StringEqualsTo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_13_StringEqualsIgnoreCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_14_StringFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_15_StringGetBytes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_16_StringGetChars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_17_StringIndexOf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_18_StringIsEmpty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_19_StringJoin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_1_StringtoUpperCaseAndtoLowerCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_20_StringLastIndexOf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_21_StringReplaceAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_22_2_SplitMethodWithLimit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_22_SplitStringIntoArrayListExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_22_StringSplit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_23_StringSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_24_StringToCharArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_2_StringTrim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_3_StringStartsAndEndWith.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_4_StringCharAt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_5_StringLength.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_6_StringValueOf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_7_StringIntern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_8_StringReplace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/String/_9_StringCompateTo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/StringBuilder/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/StringBuilder/_1_StringBuilderAppend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/StringBuilder/_2_StringBuilderInert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/StringBuilder/_3_StringBuilderReplace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/StringBuilder/_4_StringBuilderDelete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/StringBuilder/_5_StringBuilderReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/StringBuilder/_6_StringBuilderCapacity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/StringBuilder/_7_StringBuilderEnsureCapacity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/Stringbuffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/Stringbuffer/_1_StringBufferAppend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/Stringbuffer/_2_StringBufferInsert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/Stringbuffer/_3_StringBufferReplace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/Stringbuffer/_4_StringBufferDelete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/Stringbuffer/_5_StringBufferReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/Stringbuffer/_6_StringBufferCapacity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Class/Stringbuffer/_7_StringBufferEnsureCapacity.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/PermutateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/new_100_Problems/PermutateArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_71_PrintAllLeafNodeOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/new_100_Problems/_71_PrintAllLeafNodeOfBinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_CountFrequencyOfArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/new_100_Problems/_CountFrequencyOfArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/quiz_2021_March/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/quiz_2021_March/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/_10_ReplaceStringWIthSpecial.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/_10_ReplaceStringWIthSpecial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/_11_CountNumberOfWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/_11_CountNumberOfWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/_12_CountWordsPresentInaString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/_12_CountWordsPresentInaString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/_14_ProgramtoFindSmallestAndLargestWordInaString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/_14_ProgramtoFindSmallestAndLargestWordInaString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/_1_CountUppercaseLowercaseSpecialCharacterAndNumericValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/_1_CountUppercaseLowercaseSpecialCharacterAndNumericValues.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/_1_FindDuplicateFromString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/_1_FindDuplicateFromString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/_1_SubarrayWithGivenSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/_1_SubarrayWithGivenSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/_2_AnagramUsingFreq.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/_2_AnagramUsingFreq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/_2_SubArrayWithGivenSumV_2_Efficient.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/_2_SubArrayWithGivenSumV_2_Efficient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/_3_SubstringJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/_3_SubstringJava.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/_4_CountNumberOfSubstringWithKDisinctCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/_4_CountNumberOfSubstringWithKDisinctCharacters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/_6_StringWithkDistinctCharactersAndNoSameCharactersAdjacent.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/_6_StringWithkDistinctCharactersAndNoSameCharactersAdjacent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/checkStringAreAnagramOrNot/Method1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/checkStringAreAnagramOrNot/Method1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/checkStringAreAnagramOrNot/Method2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/checkStringAreAnagramOrNot/Method2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/BinaryToDecimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/ConcatenateTwoArrayswithoutusingarraycopy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/Countingfrequenciesofarrayelements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/IntegerToRoman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/LengthOfLastWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/LinkedList/CircularLinkedList/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/LinkedList/DoublyLinkedList/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/LinkedList/Singly/geeksProblem/RemoveduplicatesfromAnUnsortedlinkedlist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/LinkedList/SinglyLinkedList/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/MyMaxFuntion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/RomanToInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/ThirdMaximumNumber/_1_Problem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/ThirdMaximumNumber/_2_Problem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1002_FindCommonCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1010_PairOfSongs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1010_PairsofSongsWithTotalDurationsDivisibleby60.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1013_PartitionIntoThreeParts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1018_BinaryPrefixDivisableBy5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1051_HeightChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1089_DuplicateZeros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1108_DefangingAnIpAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1122_RelativeSortArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1160_FindWordsThatCanBeFormedbyCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1184_DistanceBetweenBusStops.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1185_DayOfTheWeek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1200_MinimumAbsoluteDifference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_121_BestTimeToBuyAndSellStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_122_BuyAndSell_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1232_FindStraightLine$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1232_FindStraightLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_125_ValidPalindrom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1295_FindNumberswithEvenNumberofDigits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1299_ReplaceElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_12_IntegerToRoman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1300_SumofMutatedArrayClosesttoTarget.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1304_FindNUniqueIntegersSumuptoZero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1309_decrypt_string_from_alphabet_to_integer_mapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1313_DecompressRunLengthEncodedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1331_RankTransformOfAnArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1345_CheckIfNAndItsDoubleExist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_136_SingleNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1389_CreateTargetArrayInTheGivenOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1431_KidsWithTheGreatestNumberofCandies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1446_ConsecutiveCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1450_NumberofStudentsDoingHomeworkataGivenTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1460_MakeTwoArraysEqualbyReversingSubarrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1464_MaximumProductofTwoElementsinanArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_146_LRUCache/LRUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_146_LRUCache/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1470_SuffleSArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1475_FinalPricesWithaSpecialDiscountInaShop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_14_LongestCommonPrefix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_14_RomanToInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1502_CanMakeArithmeticProgressionFromSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1507_FormateDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1512_NumberofGoodPairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_151_ReverseWordOfString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_152_Maximum_Product_Subarray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1534_CountGoodTriplets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1539_KthMissingPositiveNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1550_ThreeConsecutiveOdds.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1572_MatrixDiagonalSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1576_ReplaceAllToAvoidConsecutiveRepeatingCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1588_SumOfAllOddLengthSubarrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_15_LongestCommonPrefix/_1_LongestCommonPrefixUsingWordbyWordMatching.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_15_LongestCommonPrefix/_2_LongestCommonPrefixUsingCharacterbyCharacterMatching.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_15_LongestCommonPrefix/_3_LongestCommonPrefixusingDivideAndConquerAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_15_LongestCommonPrefix/_4_LongestCommonPrefixusingBinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_160_insertionLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_163_SortArraybyIncreasingFrequencY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_167_TwoSumIIInputArrayIsSorted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_169_MajorityElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_189_RotateArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_1_TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_206_ReverseLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_20_ValidParenthesis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_217_ContainsDuplicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_219_ContainsDuplicateII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_268_MissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_268_MissingNumberExtendedVersion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_26_RemoveDuplicatesfromSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_27_RemoveDuplicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_283_MoveZeroes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_28_ImplementStr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_2_AddTwoLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_2_AddTwoLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_344_ReverseString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_345_ReverseVowelOfString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_34_FirstAndLastElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_35_SearchInsertPositon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_383_RansomNote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_387_FirstUniqueCharacterInAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_412_FizzBuzz/Method1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_412_FizzBuzz/Method2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_412_FizzBuzz/Method3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_412_FizzBuzz/Method4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_412_FizzBuzz/Method5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_414_ThirdMaximumNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_434_NumberofSegmentsinaString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_443_StringCompression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_448_FindAllNumbersDisappreadAnArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_459_RepeatedSubStringPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_485_MaxConsecutiveOnesEasy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_49_GroupOfAnagrams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_509_Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_532_KDiffElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_53_MaximumSubArrayWithBruteForceMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_53_MaximumSubArrayWithKadanesAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_541_ReverseString_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_551_StudentAttendanceRecordI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_561_ArrayPartition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_566_ReshapeTheMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_581_ShortestUnsortedContinuousSubarray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_605_CanPlaceFlower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_628_MaximuxProductOfThreeNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_643_MaximumAverageSubArrayI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_657_RobotReturnToOrigin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_665_Non_DecreasingArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_66_PlusOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_674_LongestContiguousIncreasingSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_67_AddBinary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_680_ValidPalindromeII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_709ToLowerCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_717_OneBitAndTwoBitCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_724_FindPivotIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_746_MinCostClimbingStairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_747_LargestNumberAtLeastTwiceOfOther.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_76_MinimumWindow/GFG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_7_ReverseInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_80_RemoveDuplicateII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_824_GoatLatin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_830_PositionsofLargeGroups.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_859_BuddyString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_888_Candy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_88_MergeTwoArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_896_MonotonicArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_905_SortedArrayByParity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_912_sortAnArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_925_LongPressedName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_937_ReorderDatainLogFiles$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_937_ReorderDatainLogFiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_941_ValidMountainArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_977_SquareOfSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_985_SumOfEvenNumbersAfterQueries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_989_AddTwoArrayFormOfInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/_9_PalindromeNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/countFrequencyOfArray/_1_Countingfrequenciesofarrayelements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/countFrequencyOfArray/_2_CountFreqUsingHash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/leetcode/countFrequencyOfArray/_3_CountFreqUsingHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_10_findtheRepeatedCharacterInAString/_1_program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_11_findtheFirstRepeatedWordInAString/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_12_findtheFirstRepeatedCharacterInAString/_1_findtheFirstRepeatedCharacterInAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_12_findtheFirstRepeatedCharacterInAString/_2_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_15_EfficientlyFindFirstRepeatedCharacter/_1_program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_17_ReturnMaximumOccurringCharacterInAnInputString/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_18_GenerateTwoOutputStringsDependingUponOccurrenceOfCharacter/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_19_PrintCharactersAndTheirFrequenciesInOrderOfOccurrence/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_1_FindFIrstNotRepeatedStrings/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_1_PrintCharactersAndTheirFrequenciesInOrderOfOccurrenceOccurrenceOfCharacter/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_1_PrintCharactersAndTheirFrequenciesInOrderOfOccurrenceOccurrenceOfCharacter/_2_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_20_CountOccurrenceOfAGivenCharacterInAString/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_21_CheckOccurrencesCharacterAppearTogether/_21_program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_22_GroupAllOccurrencesofCharactersAccordingToFirstAppearance/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_23_PrintTheStringByIgnoringAlternateOccurrencesofAnyCharacter/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_24_SpecifiedCharacterOccurs/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_26_ReplaceAllOccurrencesofStringABwithCwithoutUsingExtraSpace/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_28_RemoveRecurringDigitsInAGivenNumber/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_29_FindRepeatedDigit/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_6_DistributingAllBallsWithoutRepetation/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_7_MaximunConsecutiveRepeatedString/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_7_MaximunConsecutiveRepeatedString/_2_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/_9_KthNonRepeatingCharacter/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/f_13_FindtheSecondRepeatedWordInAString/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/f_13_indtheSecondRepeatedWordInAString/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/f_14_FindtheMostRepeatedWordInAString/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/maximumRepeatedString/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/occuranceBasedString/maximumRepeatedString/_2_Progra.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/sortingAndSerching/_10_Print_distinct_sorted_permutations_with_duplicates_allowed_in_input/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/sortingAndSerching/_1_SortAnArrayOfStringsAccordingToStringLengths/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/sortingAndSerching/_1_SortAnArrayOfStringsAccordingToStringLengths/_1_BubbleSortString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/sortingAndSerching/_1_SortAnArrayOfStringsAccordingToStringLengths/_2_InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/sortingAndSerching/_2_SortStringOfCharacter/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/sortingAndSerching/_2_SortStringOfCharacter/_2_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/sortingAndSerching/_4_AlternateLowerUpperStringSort/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/sortingAndSerching/_5_ProgramToSortStringInDescendingOrder/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/sortingAndSerching/_5_SortThe_given_string_using_character_searchortedOrderWithoutCopyingOneStringIntoAnother/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/sortingAndSerching/_6_PrintArrayOfStringInSortedOrderWithoutCopyingOneStringIntoAnother/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/sortingAndSerching/_8_Given_a_sorted_dictionary_of_an_alien_language_find_order_of_characters/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/sortingAndSerching/_9_Rearrange_a_string_in_orted_order_followed_by_the_integer_sum/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/spacing/_1_RemoveSpaceFromAGivenString/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/spacing/_2_MoveSpacesToFrontOfStringInSingleTraversal/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/spacing/_3_PutSpacesBetweenWordsStartingWithCapitalLetters/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/spacing/_5_RemoveExtraSpaceFromAString/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/spacing/_7_EveryFirstCharacterOfAString/_1_Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/PermutateArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_10_ReverseSentenceOfAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_11_StirngIsPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_12_RotationOfEachOther.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_13_MissingNumberOf1ToN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_14_RemoveDuplicateFromArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_15_FindLargestAndSmallestFromUsortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_16_FindPairOfIntegerOfGivenString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_1_FindDuplicateCharacterOfAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_21_ReverseArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_22_FindMultipleMissinNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_22_MultipleMissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_23_PerformBinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_24_TransposeOfMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_25_26_MatrixAdditionAndSubtraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_29_FindSecondLargestElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_2_CheckAnagramOrNot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_33_FindTheNumberOccurringOddNumberOfTimesInAnArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_3_PrintNonRepeatingCharacterOfAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_4_ReverseAStringUsingRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_60_RemoveDuplicateFromUnsortedLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_60_RemoveDuplicateFromUnsortedLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_71_PrintAllLeafNodeOfBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_72_CountLeaf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_7_Count_VowelAndConsonent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_9_FindPermutationOfAStrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_CountFrequencyOfArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/new_100_Problems/_FindMinimumValueFromStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/oopConcept/AutomaticPromotion/AutomaticPromotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/AutomaticPromotion/AutomaticPromotion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/oopConcept/AutomaticPromotion/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/AutomaticPromotion/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/oopConcept/abstractClass/abstractClassVsAbstractMethod/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/abstractClass/abstractClassVsAbstractMethod/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/oopConcept/abstractClass/abstractClassVsAbstractMethod/SubSubTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/abstractClass/abstractClassVsAbstractMethod/SubSubTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/oopConcept/abstractClass/abstractClassVsAbstractMethod/SubTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/abstractClass/abstractClassVsAbstractMethod/SubTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/oopConcept/abstractClass/abstractClassVsAbstractMethod/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oopConcept/abstractClass/abstractClassVsAbstractMethod/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/quiz_2021_March/_1_Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/quiz_2021_March/_1_Program.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/quiz_2021_March/_2_PalindromLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/quiz_2021_March/_2_PalindromLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/quiz_2021_March/_3_Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/quiz_2021_March/_3_Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/quiz_2021_March/_6_Program_1_N_PrimeArrangeMent.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/quiz_2021_March/_6_Program_1_N_PrimeArrangeMent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/nestedClass/Test$Auto.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/nestedClass/Test$Auto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/nestedClass/Test$Bus.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/nestedClass/Test$Bus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/nestedClass/Test$Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/nestedClass/Test$Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/nestedClass/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/nestedClass/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/BinaryTree_FIndingMaximunDepthOfABinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/BinaryTree_FIndingMaximunDepthOfABinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_0_StringImmutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_0_StringImmutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_10_StringConcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_10_StringConcat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_11_StringContains.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_11_StringContains.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_12_StringEqualsTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_12_StringEqualsTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_13_StringEqualsIgnoreCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_13_StringEqualsIgnoreCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_14_StringFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_14_StringFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_15_StringGetBytes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_15_StringGetBytes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_16_StringGetChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_16_StringGetChars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_17_StringIndexOf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_17_StringIndexOf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_18_StringIsEmpty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_18_StringIsEmpty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_19_StringJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_19_StringJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_1_StringtoUpperCaseAndtoLowerCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_1_StringtoUpperCaseAndtoLowerCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_20_StringLastIndexOf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_20_StringLastIndexOf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_21_StringReplaceAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_21_StringReplaceAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_22_2_SplitMethodWithLimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_22_2_SplitMethodWithLimit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_22_SplitStringIntoArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_22_SplitStringIntoArrayListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_22_StringSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_22_StringSplit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_23_StringSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_23_StringSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_24_StringToCharArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_24_StringToCharArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_2_StringTrim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_2_StringTrim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_3_StringStartsAndEndWith.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_3_StringStartsAndEndWith.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_4_StringCharAt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_4_StringCharAt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_5_StringLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_5_StringLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_6_StringValueOf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_6_StringValueOf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_7_StringIntern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_7_StringIntern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_8_StringReplace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_8_StringReplace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/String/_9_StringCompateTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/String/_9_StringCompateTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/StringBuilder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/StringBuilder/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/StringBuilder/_1_StringBuilderAppend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/StringBuilder/_1_StringBuilderAppend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/StringBuilder/_2_StringBuilderInert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/StringBuilder/_2_StringBuilderInert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/StringBuilder/_3_StringBuilderReplace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/StringBuilder/_3_StringBuilderReplace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/StringBuilder/_4_StringBuilderDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/StringBuilder/_4_StringBuilderDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/StringBuilder/_5_StringBuilderReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/StringBuilder/_5_StringBuilderReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/StringBuilder/_6_StringBuilderCapacity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/StringBuilder/_6_StringBuilderCapacity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/StringBuilder/_7_StringBuilderEnsureCapacity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/StringBuilder/_7_StringBuilderEnsureCapacity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/Stringbuffer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Stringbuffer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/Stringbuffer/_1_StringBufferAppend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Stringbuffer/_1_StringBufferAppend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/Stringbuffer/_2_StringBufferInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Stringbuffer/_2_StringBufferInsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/Stringbuffer/_3_StringBufferReplace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Stringbuffer/_3_StringBufferReplace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/Stringbuffer/_4_StringBufferDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Stringbuffer/_4_StringBufferDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/Stringbuffer/_5_StringBufferReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Stringbuffer/_5_StringBufferReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/Stringbuffer/_6_StringBufferCapacity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Stringbuffer/_6_StringBufferCapacity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/Class/Stringbuffer/_7_StringBufferEnsureCapacity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class/Stringbuffer/_7_StringBufferEnsureCapacity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/_10_ReplaceStringWIthSpecial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_10_ReplaceStringWIthSpecial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/_11_CountNumberOfWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_11_CountNumberOfWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/_12_CountWordsPresentInaString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_12_CountWordsPresentInaString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/_14_ProgramtoFindSmallestAndLargestWordInaString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_14_ProgramtoFindSmallestAndLargestWordInaString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/_17_1_FindTheDuplicateValuesofAnArrayofStringValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_17_1_FindTheDuplicateValuesofAnArrayofStringValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/_17_CountDistinctSubstringOfAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_17_CountDistinctSubstringOfAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/_19_CountNumberOfStringUsingGivenCombination.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/_1_CountUppercaseLowercaseSpecialCharacterAndNumericValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1_CountUppercaseLowercaseSpecialCharacterAndNumericValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/_1_FindDuplicateFromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1_FindDuplicateFromString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/_1_SubarrayWithGivenSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1_SubarrayWithGivenSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/_20_SortStringArrayAccordingToLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_20_SortStringArrayAccordingToLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/_21_RemoveCharacterFromFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_21_RemoveCharacterFromFirst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/_2_AnagramUsingFreq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_2_AnagramUsingFreq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/_2_SubArrayWithGivenSumV_2_Efficient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_2_SubArrayWithGivenSumV_2_Efficient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/_3_SubstringJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_3_SubstringJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/_4_CountNumberOfSubstringWithKDisinctCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_4_CountNumberOfSubstringWithKDisinctCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/_6_StringWithkDistinctCharactersAndNoSameCharactersAdjacent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_6_StringWithkDistinctCharactersAndNoSameCharactersAdjacent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/checkStringAreAnagramOrNot/Method1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/checkStringAreAnagramOrNot/Method1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/checkStringAreAnagramOrNot/Method2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/checkStringAreAnagramOrNot/Method2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/BinaryToDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/BinaryToDecimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/ConcatenateTwoArrayswithoutusingarraycopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/ConcatenateTwoArrayswithoutusingarraycopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/Countingfrequenciesofarrayelements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/Countingfrequenciesofarrayelements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/IntegerToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/IntegerToRoman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/LengthOfLastWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/LengthOfLastWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/LinkedList/CircularLinkedList/CircularLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/LinkedList/CircularLinkedList/CircularLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/LinkedList/CircularLinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/LinkedList/CircularLinkedList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/LinkedList/CircularLinkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/LinkedList/CircularLinkedList/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/LinkedList/DoublyLinkedList/DoublyLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/LinkedList/DoublyLinkedList/DoublyLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/LinkedList/DoublyLinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/LinkedList/DoublyLinkedList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/LinkedList/DoublyLinkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/LinkedList/DoublyLinkedList/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/LinkedList/Singly/geeksProblem/RemoveduplicatesfromAnUnsortedlinkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/LinkedList/Singly/geeksProblem/RemoveduplicatesfromAnUnsortedlinkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/LinkedList/SinglyLinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/LinkedList/SinglyLinkedList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/LinkedList/SinglyLinkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/LinkedList/SinglyLinkedList/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/LinkedList/SinglyLinkedList/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/LinkedList/LinkedList/SinglyLinkedList/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/MyMaxFuntion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/MyMaxFuntion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/RomanToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/ThirdMaximumNumber/_1_Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/ThirdMaximumNumber/_1_Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/ThirdMaximumNumber/_2_Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/ThirdMaximumNumber/_2_Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1002_FindCommonCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1002_FindCommonCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1010_PairOfSongs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1010_PairOfSongs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1010_PairsofSongsWithTotalDurationsDivisibleby60.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1010_PairsofSongsWithTotalDurationsDivisibleby60.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1013_PartitionIntoThreeParts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1013_PartitionIntoThreeParts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1018_BinaryPrefixDivisableBy5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1018_BinaryPrefixDivisableBy5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1051_HeightChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1051_HeightChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1089_DuplicateZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1089_DuplicateZeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1108_DefangingAnIpAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1108_DefangingAnIpAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1122_RelativeSortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1122_RelativeSortArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1160_FindWordsThatCanBeFormedbyCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1160_FindWordsThatCanBeFormedbyCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1184_DistanceBetweenBusStops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1184_DistanceBetweenBusStops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1185_DayOfTheWeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1185_DayOfTheWeek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1200_MinimumAbsoluteDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1200_MinimumAbsoluteDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_121_BestTimeToBuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_121_BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_122_BuyAndSell_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_122_BuyAndSell_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1232_FindStraightLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1232_FindStraightLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_125_ValidPalindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_125_ValidPalindrom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1295_FindNumberswithEvenNumberofDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1295_FindNumberswithEvenNumberofDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1299_ReplaceElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1299_ReplaceElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_12_IntegerToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_12_IntegerToRoman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1300_SumofMutatedArrayClosesttoTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1300_SumofMutatedArrayClosesttoTarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1304_FindNUniqueIntegersSumuptoZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1304_FindNUniqueIntegersSumuptoZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1309_decrypt_string_from_alphabet_to_integer_mapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1309_decrypt_string_from_alphabet_to_integer_mapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1313_DecompressRunLengthEncodedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1313_DecompressRunLengthEncodedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1331_RankTransformOfAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1331_RankTransformOfAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1345_CheckIfNAndItsDoubleExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1345_CheckIfNAndItsDoubleExist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_136_SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_136_SingleNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1389_CreateTargetArrayInTheGivenOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1389_CreateTargetArrayInTheGivenOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1431_KidsWithTheGreatestNumberofCandies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1431_KidsWithTheGreatestNumberofCandies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1446_ConsecutiveCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1446_ConsecutiveCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1450_NumberofStudentsDoingHomeworkataGivenTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1450_NumberofStudentsDoingHomeworkataGivenTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1460_MakeTwoArraysEqualbyReversingSubarrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1460_MakeTwoArraysEqualbyReversingSubarrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1464_MaximumProductofTwoElementsinanArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1464_MaximumProductofTwoElementsinanArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_146_LRUCache/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_146_LRUCache/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1470_SuffleSArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1470_SuffleSArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1475_FinalPricesWithaSpecialDiscountInaShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1475_FinalPricesWithaSpecialDiscountInaShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_14_LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_14_LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_14_RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_14_RomanToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1502_CanMakeArithmeticProgressionFromSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1502_CanMakeArithmeticProgressionFromSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1507_FormateDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1507_FormateDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1512_NumberofGoodPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1512_NumberofGoodPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_151_ReverseWordOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_151_ReverseWordOfString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_152_Maximum_Product_Subarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_152_Maximum_Product_Subarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1534_CountGoodTriplets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1534_CountGoodTriplets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1539_KthMissingPositiveNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1539_KthMissingPositiveNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1550_ThreeConsecutiveOdds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1550_ThreeConsecutiveOdds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1572_MatrixDiagonalSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1572_MatrixDiagonalSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1576_ReplaceAllToAvoidConsecutiveRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1576_ReplaceAllToAvoidConsecutiveRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1588_SumOfAllOddLengthSubarrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1588_SumOfAllOddLengthSubarrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_15_LongestCommonPrefix/_1_LongestCommonPrefixUsingWordbyWordMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_15_LongestCommonPrefix/_1_LongestCommonPrefixUsingWordbyWordMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_15_LongestCommonPrefix/_2_LongestCommonPrefixUsingCharacterbyCharacterMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_15_LongestCommonPrefix/_2_LongestCommonPrefixUsingCharacterbyCharacterMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_15_LongestCommonPrefix/_3_LongestCommonPrefixusingDivideAndConquerAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_15_LongestCommonPrefix/_3_LongestCommonPrefixusingDivideAndConquerAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_15_LongestCommonPrefix/_4_LongestCommonPrefixusingBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_15_LongestCommonPrefix/_4_LongestCommonPrefixusingBinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_160_insertionLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_160_insertionLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_163_SortArraybyIncreasingFrequencY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_163_SortArraybyIncreasingFrequencY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_167_TwoSumIIInputArrayIsSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_167_TwoSumIIInputArrayIsSorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_169_MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_169_MajorityElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_189_RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_189_RotateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_1_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1_TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_206_ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_206_ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_20_ValidParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_20_ValidParenthesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_217_ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_217_ContainsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_219_ContainsDuplicateII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_219_ContainsDuplicateII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_268_MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_268_MissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_268_MissingNumberExtendedVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_268_MissingNumberExtendedVersion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_26_RemoveDuplicatesfromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_26_RemoveDuplicatesfromSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_27_RemoveDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_27_RemoveDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_283_MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_283_MoveZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_28_ImplementStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_28_ImplementStr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_2_AddTwoLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_2_AddTwoLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_344_ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_344_ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_345_ReverseVowelOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_345_ReverseVowelOfString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_34_FirstAndLastElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_34_FirstAndLastElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_35_SearchInsertPositon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_35_SearchInsertPositon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_383_RansomNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_383_RansomNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_387_FirstUniqueCharacterInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_387_FirstUniqueCharacterInAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_412_FizzBuzz/Method1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_412_FizzBuzz/Method1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_412_FizzBuzz/Method2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_412_FizzBuzz/Method2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_412_FizzBuzz/Method3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_412_FizzBuzz/Method3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_412_FizzBuzz/Method4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_412_FizzBuzz/Method4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_412_FizzBuzz/Method5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_412_FizzBuzz/Method5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_414_ThirdMaximumNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_414_ThirdMaximumNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_434_NumberofSegmentsinaString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_434_NumberofSegmentsinaString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_443_StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_443_StringCompression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_448_FindAllNumbersDisappreadAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_448_FindAllNumbersDisappreadAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_459_RepeatedSubStringPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_459_RepeatedSubStringPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_485_MaxConsecutiveOnesEasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_485_MaxConsecutiveOnesEasy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_49_GroupOfAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_49_GroupOfAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_509_Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_509_Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_532_KDiffElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_532_KDiffElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_53_MaximumSubArrayWithBruteForceMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_53_MaximumSubArrayWithBruteForceMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_53_MaximumSubArrayWithKadanesAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_53_MaximumSubArrayWithKadanesAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_541_ReverseString_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_541_ReverseString_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_551_StudentAttendanceRecordI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_551_StudentAttendanceRecordI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_561_ArrayPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_561_ArrayPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_566_ReshapeTheMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_566_ReshapeTheMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_581_ShortestUnsortedContinuousSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_581_ShortestUnsortedContinuousSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_605_CanPlaceFlower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_605_CanPlaceFlower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_628_MaximuxProductOfThreeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_628_MaximuxProductOfThreeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_643_MaximumAverageSubArrayI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_643_MaximumAverageSubArrayI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_657_RobotReturnToOrigin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_657_RobotReturnToOrigin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_665_Non_DecreasingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_665_Non_DecreasingArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_66_PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_66_PlusOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_674_LongestContiguousIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_674_LongestContiguousIncreasingSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_67_AddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_67_AddBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_680_ValidPalindromeII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_680_ValidPalindromeII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_709ToLowerCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_709ToLowerCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_717_OneBitAndTwoBitCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_717_OneBitAndTwoBitCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_724_FindPivotIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_724_FindPivotIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_746_MinCostClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_746_MinCostClimbingStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_747_LargestNumberAtLeastTwiceOfOther.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_747_LargestNumberAtLeastTwiceOfOther.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_76_MinimumWindow/GFG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_76_MinimumWindow/GFG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_7_ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_7_ReverseInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_80_RemoveDuplicateII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_80_RemoveDuplicateII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_824_GoatLatin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_824_GoatLatin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_830_PositionsofLargeGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_830_PositionsofLargeGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_859_BuddyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_859_BuddyString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_888_Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_888_Candy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_88_MergeTwoArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_88_MergeTwoArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_896_MonotonicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_896_MonotonicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_905_SortedArrayByParity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_905_SortedArrayByParity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_912_sortAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_912_sortAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_925_LongPressedName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_925_LongPressedName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_937_ReorderDatainLogFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_937_ReorderDatainLogFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_941_ValidMountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_941_ValidMountainArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_977_SquareOfSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_977_SquareOfSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_985_SumOfEvenNumbersAfterQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_985_SumOfEvenNumbersAfterQueries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_989_AddTwoArrayFormOfInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_989_AddTwoArrayFormOfInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/_9_PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_9_PalindromeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/countFrequencyOfArray/_1_Countingfrequenciesofarrayelements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/countFrequencyOfArray/_1_Countingfrequenciesofarrayelements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/countFrequencyOfArray/_2_CountFreqUsingHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/countFrequencyOfArray/_2_CountFreqUsingHash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/leetcode/countFrequencyOfArray/_3_CountFreqUsingHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/countFrequencyOfArray/_3_CountFreqUsingHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_10_findtheRepeatedCharacterInAString/_1_program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_10_findtheRepeatedCharacterInAString/_1_program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_11_findtheFirstRepeatedWordInAString/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_11_findtheFirstRepeatedWordInAString/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_12_findtheFirstRepeatedCharacterInAString/_1_findtheFirstRepeatedCharacterInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_12_findtheFirstRepeatedCharacterInAString/_1_findtheFirstRepeatedCharacterInAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_12_findtheFirstRepeatedCharacterInAString/_2_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_12_findtheFirstRepeatedCharacterInAString/_2_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_15_EfficientlyFindFirstRepeatedCharacter/_1_program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_15_EfficientlyFindFirstRepeatedCharacter/_1_program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_17_ReturnMaximumOccurringCharacterInAnInputString/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_17_ReturnMaximumOccurringCharacterInAnInputString/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_18_GenerateTwoOutputStringsDependingUponOccurrenceOfCharacter/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_18_GenerateTwoOutputStringsDependingUponOccurrenceOfCharacter/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_19_PrintCharactersAndTheirFrequenciesInOrderOfOccurrence/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_19_PrintCharactersAndTheirFrequenciesInOrderOfOccurrence/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_1_FindFIrstNotRepeatedStrings/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1_FindFIrstNotRepeatedStrings/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_1_PrintCharactersAndTheirFrequenciesInOrderOfOccurrenceOccurrenceOfCharacter/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1_PrintCharactersAndTheirFrequenciesInOrderOfOccurrenceOccurrenceOfCharacter/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_1_PrintCharactersAndTheirFrequenciesInOrderOfOccurrenceOccurrenceOfCharacter/_2_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1_PrintCharactersAndTheirFrequenciesInOrderOfOccurrenceOccurrenceOfCharacter/_2_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_20_CountOccurrenceOfAGivenCharacterInAString/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_20_CountOccurrenceOfAGivenCharacterInAString/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_21_CheckOccurrencesCharacterAppearTogether/_21_program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_21_CheckOccurrencesCharacterAppearTogether/_21_program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_22_GroupAllOccurrencesofCharactersAccordingToFirstAppearance/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_22_GroupAllOccurrencesofCharactersAccordingToFirstAppearance/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_23_PrintTheStringByIgnoringAlternateOccurrencesofAnyCharacter/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_23_PrintTheStringByIgnoringAlternateOccurrencesofAnyCharacter/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_24_SpecifiedCharacterOccurs/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_24_SpecifiedCharacterOccurs/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_26_ReplaceAllOccurrencesofStringABwithCwithoutUsingExtraSpace/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_26_ReplaceAllOccurrencesofStringABwithCwithoutUsingExtraSpace/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_28_RemoveRecurringDigitsInAGivenNumber/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_28_RemoveRecurringDigitsInAGivenNumber/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_29_FindRepeatedDigit/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_29_FindRepeatedDigit/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_6_DistributingAllBallsWithoutRepetation/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_6_DistributingAllBallsWithoutRepetation/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_7_MaximunConsecutiveRepeatedString/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_7_MaximunConsecutiveRepeatedString/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_7_MaximunConsecutiveRepeatedString/_2_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_7_MaximunConsecutiveRepeatedString/_2_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/_9_KthNonRepeatingCharacter/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_9_KthNonRepeatingCharacter/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/f_13_FindtheSecondRepeatedWordInAString/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/f_13_FindtheSecondRepeatedWordInAString/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/f_13_indtheSecondRepeatedWordInAString/_1_Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/f_14_FindtheMostRepeatedWordInAString/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/f_14_FindtheMostRepeatedWordInAString/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/maximumRepeatedString/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/maximumRepeatedString/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/occuranceBasedString/maximumRepeatedString/_2_Progra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/maximumRepeatedString/_2_Progra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/sortingAndSerching/_10_Print_distinct_sorted_permutations_with_duplicates_allowed_in_input/_1_Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/sortingAndSerching/_1_SortAnArrayOfStringsAccordingToStringLengths/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1_SortAnArrayOfStringsAccordingToStringLengths/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/sortingAndSerching/_1_SortAnArrayOfStringsAccordingToStringLengths/_1_BubbleSortString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1_SortAnArrayOfStringsAccordingToStringLengths/_1_BubbleSortString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/sortingAndSerching/_1_SortAnArrayOfStringsAccordingToStringLengths/_2_InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1_SortAnArrayOfStringsAccordingToStringLengths/_2_InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/sortingAndSerching/_2_SortStringOfCharacter/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_2_SortStringOfCharacter/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/sortingAndSerching/_2_SortStringOfCharacter/_2_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_2_SortStringOfCharacter/_2_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/sortingAndSerching/_4_AlternateLowerUpperStringSort/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_4_AlternateLowerUpperStringSort/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/sortingAndSerching/_5_ProgramToSortStringInDescendingOrder/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_5_ProgramToSortStringInDescendingOrder/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/sortingAndSerching/_5_SortThe_given_string_using_character_searchortedOrderWithoutCopyingOneStringIntoAnother/_1_Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/sortingAndSerching/_6_PrintArrayOfStringInSortedOrderWithoutCopyingOneStringIntoAnother/_1_Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/sortingAndSerching/_8_Given_a_sorted_dictionary_of_an_alien_language_find_order_of_characters/_1_Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/sortingAndSerching/_9_Rearrange_a_string_in_orted_order_followed_by_the_integer_sum/_1_Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/spacing/_1_RemoveSpaceFromAGivenString/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1_RemoveSpaceFromAGivenString/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/spacing/_2_MoveSpacesToFrontOfStringInSingleTraversal/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_2_MoveSpacesToFrontOfStringInSingleTraversal/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/spacing/_3_PutSpacesBetweenWordsStartingWithCapitalLetters/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_3_PutSpacesBetweenWordsStartingWithCapitalLetters/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/spacing/_5_RemoveExtraSpaceFromAString/_1_Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/spacing/_7_EveryFirstCharacterOfAString/_1_Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_7_EveryFirstCharacterOfAString/_1_Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/PermutateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/PermutateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_10_ReverseSentenceOfAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_10_ReverseSentenceOfAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_11_StirngIsPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_11_StirngIsPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_12_RotationOfEachOther.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_12_RotationOfEachOther.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_13_MissingNumberOf1ToN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_13_MissingNumberOf1ToN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_14_RemoveDuplicateFromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_14_RemoveDuplicateFromArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_15_FindLargestAndSmallestFromUsortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_15_FindLargestAndSmallestFromUsortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_16_FindPairOfIntegerOfGivenString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_16_FindPairOfIntegerOfGivenString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_1_FindDuplicateCharacterOfAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_1_FindDuplicateCharacterOfAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_21_ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_21_ReverseArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_22_FindMultipleMissinNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_22_FindMultipleMissinNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_22_MultipleMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_22_MultipleMissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_23_PerformBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_23_PerformBinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_24_TransposeOfMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_24_TransposeOfMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_25_26_MatrixAdditionAndSubtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_25_26_MatrixAdditionAndSubtraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_29_FindSecondLargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_29_FindSecondLargestElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_2_CheckAnagramOrNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_2_CheckAnagramOrNot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_33_FindTheNumberOccurringOddNumberOfTimesInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_33_FindTheNumberOccurringOddNumberOfTimesInAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_3_PrintNonRepeatingCharacterOfAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_3_PrintNonRepeatingCharacterOfAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_4_ReverseAStringUsingRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_4_ReverseAStringUsingRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_60_RemoveDuplicateFromUnsortedLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_60_RemoveDuplicateFromUnsortedLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_71_PrintAllLeafNodeOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_71_PrintAllLeafNodeOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_72_CountLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_72_CountLeaf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_7_Count_VowelAndConsonent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_7_Count_VowelAndConsonant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_9_FindPermutationOfAStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_9_FindPermutationOfAStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_CountFrequencyOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_CountFrequencyOfArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new_100_Problems/_FindMinimumValueFromStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_FindMinimumValueFromStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +697,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -146,9 +727,9 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Array_UnioAndIntersectionOfArray">
-    <configuration name="Array_UnioAndIntersectionOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQuestions.Array_UnioAndIntersectionOfArray" />
+  <component name="RunManager" selected="Application._15_CountSubstringsWithSameFirstAndLastCharacters">
+    <configuration name="_13_RemoveDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions._13_RemoveDuplicate" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -160,8 +741,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQuestions.FindAnagrams" />
+    <configuration name="_14_LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions._14_LongestCommonPrefix" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -173,12 +754,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_34_FirstAndLastElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewQuestions.leetcode._34_FirstAndLastElement" />
+    <configuration name="_14_ProgramtoFindSmallestAndLargestWordInaString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions._14_ProgramtoFindSmallestAndLargestWordInaString" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewQuestions.leetcode.*" />
+          <option name="PATTERN" value="interviewQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,12 +767,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3_Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="quiz_2021_March._3_Program" />
+    <configuration name="_14_RemoveDuplicateFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions._14_RemoveDuplicateFromArray" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="quiz_2021_March.*" />
+          <option name="PATTERN" value="interviewQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,12 +780,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_6_Program_1_N_PrimeArrangeMent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="quiz_2021_March._6_Program_1_N_PrimeArrangeMent" />
+    <configuration name="_15_CountSubstringsWithSameFirstAndLastCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions._15_CountSubstringsWithSameFirstAndLastCharacters" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="quiz_2021_March.*" />
+          <option name="PATTERN" value="interviewQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,11 +795,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Array_UnioAndIntersectionOfArray" />
-        <item itemvalue="Application._34_FirstAndLastElement" />
-        <item itemvalue="Application.FindAnagrams" />
-        <item itemvalue="Application._3_Program" />
-        <item itemvalue="Application._6_Program_1_N_PrimeArrangeMent" />
+        <item itemvalue="Application._15_CountSubstringsWithSameFirstAndLastCharacters" />
+        <item itemvalue="Application._14_RemoveDuplicateFromArray" />
+        <item itemvalue="Application._14_ProgramtoFindSmallestAndLargestWordInaString" />
+        <item itemvalue="Application._14_LongestCommonPrefix" />
+        <item itemvalue="Application._13_RemoveDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -275,5 +856,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
