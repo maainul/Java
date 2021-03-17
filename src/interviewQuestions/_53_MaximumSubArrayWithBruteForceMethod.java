@@ -11,10 +11,10 @@ public class _53_MaximumSubArrayWithBruteForceMethod {
 	public static int maxSubArray(int[] nums) {
 		int msf = Integer.MIN_VALUE;
 		int meh = 0;
-		for (int i = 0; i < nums.length; i++) {
-			meh += nums[i];
-			if (meh < nums[i]) {
-				meh = nums[i];
+		for (int num : nums) {
+			meh += num;
+			if (meh < num) {
+				meh = num;
 			}
 			if (msf < meh) {
 				msf = meh;

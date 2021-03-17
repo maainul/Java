@@ -11,7 +11,7 @@ public class _43_RemoveCharactersFromTheFirstStringWhichArepresentInTheSecondStr
 	 * array
 	 */
 	static int[] getCharCountArray(String str) {
-		int count[] = new int[NO_OF_CHARS];
+		int[] count = new int[NO_OF_CHARS];
 		for (int i = 0; i < str.length(); i++)
 			count[str.charAt(i)]++;
 
@@ -24,10 +24,10 @@ public class _43_RemoveCharactersFromTheFirstStringWhichArepresentInTheSecondStr
 	 * which contain all dirty characters which need to be removed from first string
 	 */
 	static String removeDirtyChars(String str, String mask_str) {
-		int count[] = getCharCountArray(mask_str); // 0,0,0,......,1,0,0,0,0,1,1,1......
+		int[] count = getCharCountArray(mask_str); // 0,0,0,......,1,0,0,0,0,1,1,1......
 		int ip_ind = 0, res_ind = 0;
 
-		char arr[] = str.toCharArray(); // g,e,e,k,s,f,o,r,g,e,e,k,s
+		char[] arr = str.toCharArray(); // g,e,e,k,s,f,o,r,g,e,e,k,s
 
 		while (ip_ind != arr.length) {
 			char temp = arr[ip_ind]; // temp = g,e,e,k,s,f,o,r,g,e,e,k,x

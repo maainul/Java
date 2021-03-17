@@ -52,15 +52,15 @@ public class _67_Extra_Add_Binary {
 			}
 		}
 
-		for (int i = 0; i < arr.length; i++) {
-			System.out.print(arr[i]);
+		for (int j : arr) {
+			System.out.print(j);
 		}
 
 	}
 
 	public static void IntToBinary(int num1, int num2) {
 		int digit1, digit2, carry = 0, sum = 0;
-		int arr[] = new int[8];
+		int[] arr = new int[8];
 //---------------------------------------------------------	
 		for (int i = arr.length - 1; i >= 0; i--) {
 
@@ -90,8 +90,8 @@ public class _67_Extra_Add_Binary {
 		System.out.println("int array as String in Java : " + str);
 
 		// print result
-		for (int i = 0; i < arr.length; i++) {
-			System.out.print(arr[i]);
+		for (int j : arr) {
+			System.out.print(j);
 		}
 	}
 

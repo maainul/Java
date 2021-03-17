@@ -9,7 +9,7 @@ public class _49_GroupOfAnagrams {
 
 	public static void main(String[] args) {
 		// Driver program
-		String strs[] = { "may", "student", "students", "dog", "studentssess", "god", "cat", "act", "tab", "bat",
+		String[] strs = { "may", "student", "students", "dog", "studentssess", "god", "cat", "act", "tab", "bat",
 				"flow", "wolf", "lambs", "amy", "yam", "balms", "looped", "poodle" };
 		groudedAnagrams(strs);
 
@@ -18,7 +18,6 @@ public class _49_GroupOfAnagrams {
 	}
 
 	private static List<List<String>> groudedAnagrams(String[] strs) {
-		List<List<String>> groudedAnagrams = new ArrayList<>();
 
 		HashMap<String, List<String>> map = new HashMap<>();
 
@@ -36,8 +35,7 @@ public class _49_GroupOfAnagrams {
 			map.get(sortedString).add(current);
 
 		}
-		groudedAnagrams.addAll(map.values());
-		return groudedAnagrams;
+		return new ArrayList<>(map.values());
 
 	}
 

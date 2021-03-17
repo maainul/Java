@@ -34,10 +34,10 @@ public class _53_MaximumSubArrayWithKadanesAlgorithm {
 	public static int max_sum(int[] nums) {
 		int msf = Integer.MIN_VALUE; // msf = max so far
 		int meh = 0; // meh = maximum ending here
-		for (int i = 0; i < nums.length; i++) {
-			meh = meh + nums[i];
-			if (meh < nums[i])
-				meh = nums[i];
+		for (int num : nums) {
+			meh = meh + num;
+			if (meh < num)
+				meh = num;
 			if (msf < meh)
 				msf = meh;
 		}

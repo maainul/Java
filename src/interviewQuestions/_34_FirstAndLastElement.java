@@ -16,8 +16,8 @@ public class _34_FirstAndLastElement {
 
     private static int[] findFirstAndLastII(int[] arr, int target) {
         int[] targetRange = {-1, -1};
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == target) {
+        for (int k : arr) {
+            if (k == target) {
                 targetRange[0] = -1;
                 break;
             }
