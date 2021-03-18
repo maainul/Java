@@ -137,7 +137,7 @@ class Demo implements A{
 
 
 class Test{
-	public static void rotateDigit(String[] args) {
+	public static void main(String[] args) {
 		A a = new Test();
 		a.m1();
 	}
@@ -196,13 +196,14 @@ interface A{
 
 
 class Test{
-	public static void rotateDigit(String[] args) {
+	public static void main(String[] args) {
 		A a = ()-> System.out.println("Helo");
 		a.m1();
 	}
 }
 
 ```
+# No need to write implements
 
 ```java
 @FuncitonalInterface
@@ -211,7 +212,7 @@ interface A{
 }
 
 class TestC{
-	public static void rotateDigit(String[] args) {
+	public static void main(String[] args) {
 		A aa = (a,b)-> System.out.println(a + b);
 		aa.m1(10,20);
 	}
