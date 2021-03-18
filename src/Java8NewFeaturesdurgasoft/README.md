@@ -529,15 +529,15 @@ public class MyEmployeeSortedUsingLambda {
 
     @Override
     public String toString() {
-        return "MyEmployee{" +
+        return "MyEmployeeSortedUsingLambda{" +
                 "eno=" + eno +
                 ", name='" + name + '\'' +
                 '}';
     }
 
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         //MyEmployee myEmployee = new MyEmployee();
-        List<MyEmployee> employeeList = Arrays.asList(
+        List<MyEmployeeSortedUsingLambda> employeeList = Arrays.asList(
                 new MyEmployee(1122, "Bltu"),
                 new MyEmployee(6122, "Pintu"),
                 new MyEmployee(3122, "Nantu"),
@@ -572,7 +572,7 @@ public class MyEmployeeSortedUsingLambda {
 package durgasoftJava8NewFeatures;
 
 public class ImplementThreadAnnonymousInnerClass {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         Runnable runnable = new Runnable() {
             @Override
             public void run() {
@@ -598,7 +598,7 @@ public class ImplementThreadAnnonymousInnerClass {
 package durgasoftJava8NewFeatures;
 
 public class ReplaceWithLambda {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         Runnable r = () -> {
             for (int i = 0; i < 10; i++) {
                 System.out.println("Child Thread");
@@ -618,7 +618,7 @@ public class ReplaceWithLambda {
 package durgasoftJava8NewFeatures;
 
 public class ReplaceWithLambda {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
 
         Thread thread = new Thread(() -> {
             for (int i = 0; i < 10; i++) {
