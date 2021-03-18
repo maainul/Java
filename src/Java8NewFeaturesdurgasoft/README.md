@@ -413,27 +413,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-
-class MySortedEmployee implements Comparator<MyEmployee> {
-
-    @Override
-    public int compare(MyEmployee myEmployee1, MyEmployee myEmployee2) {
-        Integer i1 = myEmployee1.getEno();
-        Integer i2 = myEmployee2.getEno();
-        return i1.compareTo(i2);
-    }
-}
-
-class MyDescendingOrder implements Comparator<MyEmployee> {
-
-    @Override
-    public int compare(MyEmployee myEmployee1, MyEmployee myEmployee2) {
-        Integer i1 = myEmployee1.getEno();
-        Integer i2 = myEmployee2.getEno();
-        return -i1.compareTo(i2);
-    }
-}
-
 public class MyEmployee {
     int eno;
     String name;
@@ -492,6 +471,27 @@ public class MyEmployee {
 
     }
 }
+
+class MySortedEmployee implements Comparator<MyEmployee> {
+
+    @Override
+    public int compare(MyEmployee myEmployee1, MyEmployee myEmployee2) {
+        Integer i1 = myEmployee1.getEno();
+        Integer i2 = myEmployee2.getEno();
+        return i1.compareTo(i2);
+    }
+}
+
+class MyDescendingOrder implements Comparator<MyEmployee> {
+
+    @Override
+    public int compare(MyEmployee myEmployee1, MyEmployee myEmployee2) {
+        Integer i1 = myEmployee1.getEno();
+        Integer i2 = myEmployee2.getEno();
+        return -i1.compareTo(i2);
+    }
+}
+
 ```
 # Now Let's Try with Lambda Expression
 ```java
