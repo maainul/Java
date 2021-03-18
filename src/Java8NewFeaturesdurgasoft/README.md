@@ -727,7 +727,7 @@ package Java8NewFeaturesdurgasoft;
 import java.util.function.Predicate;
 
 public class PredicateExample {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         Predicate<Integer> p1 = i -> i %2 == 0;
         System.out.println(p1.test(10));
         System.out.println(p1.test(20));
@@ -740,7 +740,7 @@ public class PredicateExample {
 package Java8NewFeaturesdurgasoft;
 
 public class FIndNameLength {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         String[] names = {"mainul","Poltuu","Boltu","Moontu"};
 
         for (String name : names){
@@ -758,7 +758,7 @@ package Java8NewFeaturesdurgasoft;
 import java.util.function.Predicate;
 
 public class FIndNameLength {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         String[] names = {"mainul", "Poltuu", "Boltu", "Moontu"};
         Predicate<String> predicate = name -> name.length() > 5;
         for (String name : names) {
@@ -786,7 +786,7 @@ public class EmployeePredicateSalaryFinder {
         this.name = name;
     }
 
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
 
         List<EmployeePredicateSalaryFinder> employeeList = Arrays.asList(
                 new EmployeePredicateSalaryFinder(1122, "Bltu"),
@@ -821,7 +821,7 @@ public class EmployeePredicateSalaryFinder {
         this.name = name;
     }
 
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
 
         List<EmployeePredicateSalaryFinder> employeeList = Arrays.asList(
                 new EmployeePredicateSalaryFinder(1122, "Bltu"),
@@ -866,7 +866,7 @@ package Java8NewFeaturesdurgasoft;
 import java.util.function.Function;
 
 public class SquareUsingFunction {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         Function<Integer,Integer> function = i -> i * i ;
         System.out.println(function.apply(10));
         System.out.println(function.apply(5));
@@ -881,7 +881,7 @@ package Java8NewFeaturesdurgasoft;
 import java.util.function.Function;
 
 public class SquareUsingFunction {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         // sqr
         Function<Integer,Integer> function = i -> i * i ;
         System.out.println(function.apply(10));
@@ -921,7 +921,7 @@ class StudentInfo{
 }
 
 public class Student {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         Function<StudentInfo,String> function = s -> {
             int marks = s.marks;
             String grade="";
@@ -977,7 +977,7 @@ class StudentInfo{
 }
 
 public class Student {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         Function<StudentInfo,String> function = s -> {
             int marks = s.marks;
             String grade="";
@@ -1031,7 +1031,7 @@ interface Consumer<T>
 package Java8NewFeaturesdurgasoft;
 import java.util.function.Consumer;
 public class ConsumerTest {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         Consumer<String> consumer = s -> System.out.println(s);
         consumer.accept("Mainul Hasan");
         consumer.accept("Hello");
@@ -1066,7 +1066,7 @@ class StudentInfo {
     }
 }
 public class Student {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         Function<StudentInfo, String> function = s -> {
             int marks = s.marks;
             String grade = "";
@@ -1121,7 +1121,7 @@ package Java8NewFeaturesdurgasoft;
 import java.util.Date;
 import java.util.function.Supplier;
 public class SupplierDate {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         Supplier<Date> dateSupplier = () -> new Date();
         System.out.println(dateSupplier.get());
         
@@ -1163,20 +1163,20 @@ package Java8NewFeaturesdurgasoft;
 import java.util.function.BiPredicate;
 
 public class BiPredicateExample {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         BiPredicate<Integer, Integer> biPredicate = (a,b) -> (a + b) %2 == 0;
         System.out.println(biPredicate.test(10,21));
     }
 }
 ```
 # Primitive Predicate
-- IntPresicate
-- LongPredicate
-- DoublePredicate     
+  - IntPresicate
+  - LongPredicate
+  - DoublePredicate     
 # Predicate Function
-- IntFunction
-- DoubleFunction
-- LongFunction
+  - IntFunction
+  - DoubleFunction
+  - LongFunction
 # Supplier
 1. BooleanSupplier
     - boolean getAsBoolean
@@ -1250,7 +1250,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StreamExample {
-public static void rotateDigit(String[] args) {
+public static void main(String[] args) {
 // Stream.of()
 Stream<Integer> stream = Stream.of(1, 2, 3, 4, 5, 6, 7, 8, 9);
 stream.forEach(p -> System.out.println(p));
@@ -1401,7 +1401,7 @@ class Product {
 }
 
 public class JavaStreamExample {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         List<Product> productsList = new ArrayList<>();
         //Adding Products
         productsList.add(new Product(1, "HP Laptop", 25000f));
@@ -1444,7 +1444,7 @@ class Product {
 }
 
 public class JavaStreamExample {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         List<Product> productsList = new ArrayList<>();
         //Adding Products
         productsList.add(new Product(1, "HP Laptop", 25000f));
@@ -1476,19 +1476,3 @@ public class JavaStreamExample {
     }
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
