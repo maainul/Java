@@ -231,7 +231,7 @@ class MyRunnable implements Runnable{
 }
 
 class Test {
-	public static void rotateDigit(String[] args) {
+	public static void main(String[] args) {
 			MyRunnable r = new MyRunnable();
 			Thread t = new Thread(r);
 
@@ -246,7 +246,7 @@ class Test {
 # Multithreading with lambda
 ```java
 class TestAgain {
-	public static void rotateDigit(String[] args) {
+	public static void main(String[] args) {
 			Runnable r = ()->{
 				for (int i = 0;i < 10 ;i++ ) {
 					System.out.println("Child Thread");
