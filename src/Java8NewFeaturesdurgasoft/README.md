@@ -263,10 +263,6 @@ class TestAgain {
 	}
 }
 ```
-
-
-
-
 # Collection :
 
 ```java
@@ -674,10 +670,10 @@ class Test implements I{
 }
 
 ```
-# Is it possible to declear rotateDigit() in interface
+# Is it possible to declear main() in interface
 ```java
 interface I{
-	public static void rotateDigit(String[] args) {
+	public static void main(String[] args) {
 		sout("Inerface rotateDigit method");
 	}
 }
