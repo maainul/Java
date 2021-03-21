@@ -461,3 +461,38 @@ public class JoiningElements {
     }
 }
 ```
+# 3.Strings, Comparators, and Filters
+## Iterating a String
+1. The chars() method is a new one in the string class from the CharSequence interface
+2. Fluently iterating over the string
+3. The chars() method returns a stream over which we can iterate using forEach()
+```java
+final String str = "w001";
+str.chars()
+    .forEach(ch -> System.out.println(ch));
+```
+### Using Method Reference
+```java
+final String str = "w001";
+str.chars()
+    .forEach(System.out::println));
+```
+Result :<br/>
+    119<br/>
+    48<br/>
+    48<br/>
+    116<br/>
+4. The Chars() returns a stream of integers
+```java
+ // map stream to the object and convert into character
+        str.chars()
+                .mapToObj(ch -> (char) ch)
+                .forEach(System.out::println);
+```
+Result :<br/>
+w<br/>
+0<br/>
+0<br/>
+t<br/>
+
+## Implementing the Comparator Interface
