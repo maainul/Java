@@ -7,16 +7,6 @@ import java.util.stream.Collectors;
 import static java.util.Comparator.comparing;
 import static java.util.stream.Collectors.toList;
 
-class MyyComparator implements Comparator<Person> {
-
-    @Override
-    public int compare(Person p1, Person p2) {
-        Integer i1 = p1.getAge();
-        Integer i2 = p2.getAge();
-        return i1.compareTo(i2);
-    }
-}
-
 public class Compare {
     public static void main(String[] args) {
         final List<Person> people = Arrays.asList(
@@ -29,6 +19,7 @@ public class Compare {
         Collections.sort(people, new MyyComparator());
 
         System.out.println(people);
+
         // using Lambda expression
         Collections.sort(people, (people1, people2) -> {
             Integer i1 = people1.getAge();
@@ -40,13 +31,13 @@ public class Compare {
         // Using Stream
         // Since we have a List , the obvious choice is the sort() method on the List .
         // There are downsides to using this method, however. That’s a void method, which
-        //means the list will be mutated when we call it. To preserve the original list,
-        //we’d have to make a copy and then invoke the sort() method on the copy; that’s
-        //quite labor intensive. Instead we’ll seek the help of the Stream .
-        //We can get a Stream from the List and conveniently call the sorted() method on it.
+        // means the list will be mutated when we call it. To preserve the original list,
+        // we’d have to make a copy and then invoke the sort() method on the copy; that’s
+        // quite labor intensive. Instead we’ll seek the help of the Stream .
+        // We can get a Stream from the List and conveniently call the sorted() method on it.
         // Rather than messing with the given collection,
-        // it will return a sorted collec-
-        //tion.
+        // it will return a sorted collection.
+
         List<Person> ascendingAge = people.stream()
                 .sorted((person1, person2) -> person1.ageDifference(person2))
                 .collect(toList());
@@ -103,6 +94,7 @@ public class Compare {
 
         final Function<Person, Integer> byAge = person -> person.getAge();
         final Function<Person, String> byTheirName = person -> person.getName();
+
         printPeople("Sorted in ascending order by age and name: ",
                 people.stream()
                         .sorted(comparing(byAge).thenComparing(byTheirName))
@@ -110,6 +102,7 @@ public class Compare {
 
         // Using the collect Method and the Collectors Class
         List<Person> olderThan20 = new ArrayList<>();
+
         people.stream()
                 .filter(person -> person.getAge() > 20)
                 .forEach(person -> olderThan20.add(person));
@@ -120,5 +113,15 @@ public class Compare {
     public static void printPeople( final String message, final List<Person> people) {
         System.out.println(message);
         people.forEach(System.out::println);
+    }
+}
+
+class MyyComparator implements Comparator<Person> {
+
+    @Override
+    public int compare(Person p1, Person p2) {
+        Integer i1 = p1.getAge();
+        Integer i2 = p2.getAge();
+        return i1.compareTo(i2);
     }
 }

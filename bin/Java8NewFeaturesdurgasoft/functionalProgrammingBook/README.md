@@ -495,4 +495,234 @@ w<br/>
 0<br/>
 t<br/>
 
-## Implementing the Comparator Interface
+# Implementing the Comparator Interface
+```java
+public class Person {
+    private final String name;
+    private final int age;
+
+    public Person(final String theName, final int theAge) {
+        name = theName;
+        age = theAge;
+    }
+
+    public String getName() { return name; }
+
+    public int getAge() { return age; }
+
+    public int ageDifference(final Person other) {
+        return age - other.age;
+}
+    public String toString() {
+        return String.format("%s - %d", name, age);
+    }
+}
+```
+Compare.java
+```java
+final List<Person> people = Arrays.asList(
+    new Person("John", 20),
+    new Person("Sara", 21),
+    new Person("Jane", 21),
+    new Person("Greg", 35));
+```
+We could sort the people by their names or ages and in ascending or
+descending order.
+```java
+List<Person> ascendingAge =
+                    people.stream()
+                    .sorted((person1, person2) -> person1.ageDifference(person2))
+                    .collect(toList());
+    
+printPeople("Sorted in ascending order by age: ", ascendingAge);
+```
+Once we sort the instances we want to print the values, so we invoke a con-
+venience method printPeople()
+```java
+public static void printPeople(
+    final String message, final List<Person> people) {
+    System.out.println(message);
+    people.forEach(System.out::println);
+}
+```
+Sorted in ascending order by age:<br/>
+
+John - 20<br/>
+Sara - 21<br/>
+Jane - 21<br/>
+Greg -35<br/>
+
+sorting them in descending order is just as easy.
+```java
+printPeople("Sorted in descending order by age: ",
+    people.stream()
+    .sorted((person1, person2) -> person2.ageDifference(person1))
+    .collect(toList()));
+```
+Sorted in descending order by age:<br/>
+Greg -35<br/>
+Jane - 21<br/>
+Sara - 21<br/>
+John - 20<br/>
+
+```java
+printPeople("Sorted in ascending order by age: ",
+        people.stream()
+        .sorted(compareAscending)
+        .collect(toList())
+        );
+
+printPeople("Sorted in descending order by age: ",
+        people.stream()
+        .sorted(compareDescending)
+        .collect(toList())
+);
+```
+```java
+printPeople("Sorted in ascending order by name: ",
+            people.stream()
+            .sorted((person1, person2) ->
+                person1.getName().compareTo(person2.getName()))
+            .collect(toList()));
+```
+```java
+people.stream()
+        .min(Person::ageDifference)
+        .ifPresent(youngest -> System.out.println("Youngest: " + youngest));
+```
+```java
+people.stream()
+        .max(Person::ageDifference)
+        .ifPresent(eldest -> System.out.println("Eldest: " + eldest));
+```
+## Multiple and Fluent Comparisons
+To sort people by their name we used this:
+```java
+
+people.stream()
+    .sorted((person1, person2) ->
+    person1.getName().compareTo(person2.getName()));
+```
+But we can do better
+```java
+final Function<Person, String> byName = person -> person.getName();
+
+people.stream().sorted(comparing(byName));
+```
+Here is some cogent syntax to sort people in ascending order by both age and
+name:
+```java
+final Function<Person, Integer> byAge = person -> person.getAge();
+final Function<Person, String> byTheirName = person -> person.getName();
+
+printPeople("Sorted in ascending order by age and name: ",
+    people.stream()
+            .sorted(comparing(byAge).thenComparing(byTheirName))
+            .collect(toList()));
+```
+We first created two lambda expressions, one to return the age of a given
+person and the other to return that person’s name.
+
+Sorted in ascending order by age and name:<br/>
+John - 20<br/>
+Jane - 21<br/>
+Sara - 21<br/>
+Greg - 35<br/>
+
+## Using the collect Method and the Collectors Class
+```java
+List<Person> olderThan20 = new ArrayList<>();
+        people.stream()
+                .filter(person -> person.getAge() > 20)
+                .forEach(person -> olderThan20.add(person));
+        System.out.println("People older than 20: " + olderThan20);
+```
+People older than 20: [Sara - 21, Jane - 21, Greg - 35]
+### The collect() method takes a stream of elements and collects or gathers them into a result container.
+
+• How to make a result container (for example, using the ArrayList::new method)
+• How to add a single element to a result container (for example, using the
+ArrayList::add method)
+• How to merge one result
+```java
+List<Person> olderThan20 =
+    people.stream()
+            .filter(person -> person.getAge() > 20)
+            .collect(ArrayList::new, ArrayList::add, ArrayList::addAll);
+            System.out.println("People older than 20: " + olderThan20);
+```
+Let’s modify the previous version to use this version of collect .
+```java
+List<Person> olderThan20 =
+    people.stream()
+        .filter(person -> person.getAge() > 20)
+        .collect(Collectors.toList());
+    System.out.println("People older than 20: " + olderThan20);
+```
+## Let’s use groupingBy() to group people by their age.
+```java
+Map<Integer, List<Person>> peopleByAge =
+                            people.stream()
+                            .collect(Collectors.groupingBy(Person::getAge));
+
+        System.out.println("Grouped by age: " + peopleByAge);
+```
+Grouped by age: {35=[Greg - 35], 20=[John - 20], 21=[Sara - 21, Jane - 21]}
+### instead of creating a map of all Person objects by age, let’s get only people’s names, ordered by age.
+```java
+Map<Integer, List<String>> nameOfPeopleByAge =
+            people.stream()
+            .collect(
+                groupingBy(Person::getAge, mapping(Person::getName, toList())));
+System.out.println("People grouped by age: " + nameOfPeopleByAge);
+```
+People grouped by age: {35=[Greg], 20=[John], 21=[Sara, Jane]}
+
+Let’s look at one more combination: let’s group the names by their first
+character and then get the oldest person in each group.
+
+```java
+Comparator<Person> byAge = Comparator.comparing(Person::getAge);
+
+Map<Character, Optional<Person>> oldestPersonOfEachLetter =
+        people.stream()
+                .collect(groupingBy(person -> person.getName().charAt(0),
+            reducing(BinaryOperator.maxBy(byAge))));
+        System.out.println("Oldest person of each letter:");
+        System.out.println(oldestPersonOfEachLetter);
+```
+Oldest person of each letter:
+{S=Optional[Sara - 21], G=Optional[Greg - 35], J=Optional[Jane - 21]}
+## Listing All Files in a Directory
+```java
+Files.list(Paths.get("."))
+        .forEach(System.out::println);
+```
+## Print all Directory only
+```java
+Files.list(Paths.get("."))
+    .filter(Files::isDirectory)
+    .forEach(System.out::println);
+```
+## Listing Select Files in a Directory
+```java
+final String[] files =
+        new File("fpij").list(new java.io.FilenameFilter() {
+    
+            public boolean accept(final File dir, final String name) {
+                    return name.endsWith(".java");
+            }
+});
+
+System.out.println(files);
+```
+sort and Readable code
+```java
+Files.newDirectoryStream(
+            Paths.get("fpij"), path -> path.toString().endsWith(".java"))
+            .forEach(System.out::println);
+```
+fpij/Compare.java
+fpij/IterateString.java
+fpij/ListDirs.java
+

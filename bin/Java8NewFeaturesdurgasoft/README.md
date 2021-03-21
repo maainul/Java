@@ -137,7 +137,7 @@ class Demo implements A{
 
 
 class Test{
-	public static void rotateDigit(String[] args) {
+	public static void main(String[] args) {
 		A a = new Test();
 		a.m1();
 	}
@@ -196,13 +196,14 @@ interface A{
 
 
 class Test{
-	public static void rotateDigit(String[] args) {
+	public static void main(String[] args) {
 		A a = ()-> System.out.println("Helo");
 		a.m1();
 	}
 }
 
 ```
+# No need to write implements
 
 ```java
 @FuncitonalInterface
@@ -211,7 +212,7 @@ interface A{
 }
 
 class TestC{
-	public static void rotateDigit(String[] args) {
+	public static void main(String[] args) {
 		A aa = (a,b)-> System.out.println(a + b);
 		aa.m1(10,20);
 	}
@@ -230,7 +231,7 @@ class MyRunnable implements Runnable{
 }
 
 class Test {
-	public static void rotateDigit(String[] args) {
+	public static void main(String[] args) {
 			MyRunnable r = new MyRunnable();
 			Thread t = new Thread(r);
 
@@ -245,7 +246,7 @@ class Test {
 # Multithreading with lambda
 ```java
 class TestAgain {
-	public static void rotateDigit(String[] args) {
+	public static void main(String[] args) {
 			Runnable r = ()->{
 				for (int i = 0;i < 10 ;i++ ) {
 					System.out.println("Child Thread");
@@ -262,10 +263,6 @@ class TestAgain {
 	}
 }
 ```
-
-
-
-
 # Collection :
 
 ```java
@@ -412,27 +409,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-
-class MySortedEmployee implements Comparator<MyEmployee> {
-
-    @Override
-    public int compare(MyEmployee myEmployee1, MyEmployee myEmployee2) {
-        Integer i1 = myEmployee1.getEno();
-        Integer i2 = myEmployee2.getEno();
-        return i1.compareTo(i2);
-    }
-}
-
-class MyDescendingOrder implements Comparator<MyEmployee> {
-
-    @Override
-    public int compare(MyEmployee myEmployee1, MyEmployee myEmployee2) {
-        Integer i1 = myEmployee1.getEno();
-        Integer i2 = myEmployee2.getEno();
-        return -i1.compareTo(i2);
-    }
-}
-
 public class MyEmployee {
     int eno;
     String name;
@@ -491,6 +467,27 @@ public class MyEmployee {
 
     }
 }
+
+class MySortedEmployee implements Comparator<MyEmployee> {
+
+    @Override
+    public int compare(MyEmployee myEmployee1, MyEmployee myEmployee2) {
+        Integer i1 = myEmployee1.getEno();
+        Integer i2 = myEmployee2.getEno();
+        return i1.compareTo(i2);
+    }
+}
+
+class MyDescendingOrder implements Comparator<MyEmployee> {
+
+    @Override
+    public int compare(MyEmployee myEmployee1, MyEmployee myEmployee2) {
+        Integer i1 = myEmployee1.getEno();
+        Integer i2 = myEmployee2.getEno();
+        return -i1.compareTo(i2);
+    }
+}
+
 ```
 # Now Let's Try with Lambda Expression
 ```java
@@ -528,15 +525,15 @@ public class MyEmployeeSortedUsingLambda {
 
     @Override
     public String toString() {
-        return "MyEmployee{" +
+        return "MyEmployeeSortedUsingLambda{" +
                 "eno=" + eno +
                 ", name='" + name + '\'' +
                 '}';
     }
 
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         //MyEmployee myEmployee = new MyEmployee();
-        List<MyEmployee> employeeList = Arrays.asList(
+        List<MyEmployeeSortedUsingLambda> employeeList = Arrays.asList(
                 new MyEmployee(1122, "Bltu"),
                 new MyEmployee(6122, "Pintu"),
                 new MyEmployee(3122, "Nantu"),
@@ -571,7 +568,7 @@ public class MyEmployeeSortedUsingLambda {
 package durgasoftJava8NewFeatures;
 
 public class ImplementThreadAnnonymousInnerClass {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         Runnable runnable = new Runnable() {
             @Override
             public void run() {
@@ -597,7 +594,7 @@ public class ImplementThreadAnnonymousInnerClass {
 package durgasoftJava8NewFeatures;
 
 public class ReplaceWithLambda {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         Runnable r = () -> {
             for (int i = 0; i < 10; i++) {
                 System.out.println("Child Thread");
@@ -617,7 +614,7 @@ public class ReplaceWithLambda {
 package durgasoftJava8NewFeatures;
 
 public class ReplaceWithLambda {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
 
         Thread thread = new Thread(() -> {
             for (int i = 0; i < 10; i++) {
@@ -673,10 +670,10 @@ class Test implements I{
 }
 
 ```
-# Is it possible to declear rotateDigit() in interface
+# Is it possible to declear main() in interface
 ```java
 interface I{
-	public static void rotateDigit(String[] args) {
+	public static void main(String[] args) {
 		sout("Inerface rotateDigit method");
 	}
 }
@@ -730,7 +727,7 @@ package Java8NewFeaturesdurgasoft;
 import java.util.function.Predicate;
 
 public class PredicateExample {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         Predicate<Integer> p1 = i -> i %2 == 0;
         System.out.println(p1.test(10));
         System.out.println(p1.test(20));
@@ -743,7 +740,7 @@ public class PredicateExample {
 package Java8NewFeaturesdurgasoft;
 
 public class FIndNameLength {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         String[] names = {"mainul","Poltuu","Boltu","Moontu"};
 
         for (String name : names){
@@ -761,7 +758,7 @@ package Java8NewFeaturesdurgasoft;
 import java.util.function.Predicate;
 
 public class FIndNameLength {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         String[] names = {"mainul", "Poltuu", "Boltu", "Moontu"};
         Predicate<String> predicate = name -> name.length() > 5;
         for (String name : names) {
@@ -780,26 +777,26 @@ package Java8NewFeaturesdurgasoft;
 import java.util.Arrays;
 import java.util.List;
 
-public class EmployeePredicateSalaryFinder {
+public class Employee {
     double salary;
     String name;
 
-    public EmployeePredicateSalaryFinder(double salary, String name) {
+    public Employee(double salary, String name) {
         this.salary = salary;
         this.name = name;
     }
 
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
 
-        List<EmployeePredicateSalaryFinder> employeeList = Arrays.asList(
-                new EmployeePredicateSalaryFinder(1122, "Bltu"),
-                new EmployeePredicateSalaryFinder(6122, "Pintu"),
-                new EmployeePredicateSalaryFinder(3122, "Nantu"),
-                new EmployeePredicateSalaryFinder(8122, "Mnik"),
-                new EmployeePredicateSalaryFinder(4122, "Mnik")
+        List<Employee> employeeList = Arrays.asList(
+                new Employee(1122, "Bltu"),
+                new Employee(6122, "Pintu"),
+                new Employee(3122, "Nantu"),
+                new Employee(8122, "Mnik"),
+                new Employee(4122, "Mnik")
         );
         
-        for (EmployeePredicateSalaryFinder obj1 : employeeList) {
+        for (Employee obj1 : employeeList) {
             if (obj1.salary > 3000) {
                 System.out.println(obj1.name + "------" + obj1.salary);
             }
@@ -824,7 +821,7 @@ public class EmployeePredicateSalaryFinder {
         this.name = name;
     }
 
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
 
         List<EmployeePredicateSalaryFinder> employeeList = Arrays.asList(
                 new EmployeePredicateSalaryFinder(1122, "Bltu"),
@@ -869,7 +866,7 @@ package Java8NewFeaturesdurgasoft;
 import java.util.function.Function;
 
 public class SquareUsingFunction {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         Function<Integer,Integer> function = i -> i * i ;
         System.out.println(function.apply(10));
         System.out.println(function.apply(5));
@@ -884,7 +881,7 @@ package Java8NewFeaturesdurgasoft;
 import java.util.function.Function;
 
 public class SquareUsingFunction {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         // sqr
         Function<Integer,Integer> function = i -> i * i ;
         System.out.println(function.apply(10));
@@ -924,7 +921,7 @@ class StudentInfo{
 }
 
 public class Student {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         Function<StudentInfo,String> function = s -> {
             int marks = s.marks;
             String grade="";
@@ -980,7 +977,7 @@ class StudentInfo{
 }
 
 public class Student {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         Function<StudentInfo,String> function = s -> {
             int marks = s.marks;
             String grade="";
@@ -1034,7 +1031,7 @@ interface Consumer<T>
 package Java8NewFeaturesdurgasoft;
 import java.util.function.Consumer;
 public class ConsumerTest {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         Consumer<String> consumer = s -> System.out.println(s);
         consumer.accept("Mainul Hasan");
         consumer.accept("Hello");
@@ -1069,7 +1066,7 @@ class StudentInfo {
     }
 }
 public class Student {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         Function<StudentInfo, String> function = s -> {
             int marks = s.marks;
             String grade = "";
@@ -1124,7 +1121,7 @@ package Java8NewFeaturesdurgasoft;
 import java.util.Date;
 import java.util.function.Supplier;
 public class SupplierDate {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         Supplier<Date> dateSupplier = () -> new Date();
         System.out.println(dateSupplier.get());
         
@@ -1166,20 +1163,20 @@ package Java8NewFeaturesdurgasoft;
 import java.util.function.BiPredicate;
 
 public class BiPredicateExample {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         BiPredicate<Integer, Integer> biPredicate = (a,b) -> (a + b) %2 == 0;
         System.out.println(biPredicate.test(10,21));
     }
 }
 ```
 # Primitive Predicate
-- IntPresicate
-- LongPredicate
-- DoublePredicate     
+  - IntPresicate
+  - LongPredicate
+  - DoublePredicate     
 # Predicate Function
-- IntFunction
-- DoubleFunction
-- LongFunction
+  - IntFunction
+  - DoubleFunction
+  - LongFunction
 # Supplier
 1. BooleanSupplier
     - boolean getAsBoolean
@@ -1253,7 +1250,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StreamExample {
-public static void rotateDigit(String[] args) {
+public static void main(String[] args) {
 // Stream.of()
 Stream<Integer> stream = Stream.of(1, 2, 3, 4, 5, 6, 7, 8, 9);
 stream.forEach(p -> System.out.println(p));
@@ -1404,7 +1401,7 @@ class Product {
 }
 
 public class JavaStreamExample {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         List<Product> productsList = new ArrayList<>();
         //Adding Products
         productsList.add(new Product(1, "HP Laptop", 25000f));
@@ -1447,7 +1444,7 @@ class Product {
 }
 
 public class JavaStreamExample {
-    public static void rotateDigit(String[] args) {
+    public static void main(String[] args) {
         List<Product> productsList = new ArrayList<>();
         //Adding Products
         productsList.add(new Product(1, "HP Laptop", 25000f));
@@ -1479,19 +1476,3 @@ public class JavaStreamExample {
     }
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
