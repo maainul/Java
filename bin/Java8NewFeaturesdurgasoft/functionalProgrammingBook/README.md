@@ -638,11 +638,145 @@ List<Person> olderThan20 = new ArrayList<>();
         System.out.println("People older than 20: " + olderThan20);
 ```
 People older than 20: [Sara - 21, Jane - 21, Greg - 35]
+# Compare.java
+```java
+package Java8NewFeaturesdurgasoft.functionalProgrammingBook._3_String;
+
+import java.util.*;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+
+import static java.util.Comparator.comparing;
+import static java.util.stream.Collectors.toList;
+
+public class Compare {
+    public static void main(String[] args) {
+        final List<Person> people = Arrays.asList(
+                new Person("John", 20),
+                new Person("Sara", 21),
+                new Person("Jane", 21),
+                new Person("Greg", 35));
+
+        // Normal Comparator method
+        Collections.sort(people, new MyyComparator());
+
+        System.out.println(people);
+
+        // using Lambda expression
+        Collections.sort(people, (people1, people2) -> {
+            Integer i1 = people1.getAge();
+            Integer i2 = people2.getAge();
+            return i1.compareTo(i2);
+        });
+        System.out.println(people);
+
+        // Using Stream
+        // Since we have a List , the obvious choice is the sort() method on the List .
+        // There are downsides to using this method, however. That’s a void method, which
+        // means the list will be mutated when we call it. To preserve the original list,
+        // we’d have to make a copy and then invoke the sort() method on the copy; that’s
+        // quite labor intensive. Instead we’ll seek the help of the Stream .
+        // We can get a Stream from the List and conveniently call the sorted() method on it.
+        // Rather than messing with the given collection,
+        // it will return a sorted collection.
+
+        List<Person> ascendingAge = people.stream()
+                .sorted((person1, person2) -> person1.ageDifference(person2))
+                .collect(toList());
+        // Ascending Order
+        printPeople("Sorted in ascending order by age: ", ascendingAge);
+
+        // Descending Order
+        printPeople("Sorted in descending order by age: ",
+                people.stream()
+                        .sorted((person1, person2) -> person2.ageDifference(person1))
+                        .collect(toList()));
+
+        // Reusing a Comparator
+        // Make sure not repeat logic
+        Comparator<Person> compareAscending = (person1, person2) -> person1.ageDifference(person2);
+
+        Comparator<Person> compareDescending = compareAscending.reversed();
+
+        printPeople("Sorted in ascending order by age: ",
+        people.stream()
+                .sorted(compareAscending)
+                .collect(toList())
+        );
+
+        printPeople("Sorted in descending order by age: ",
+                people.stream()
+                        .sorted(compareDescending)
+                        .collect(toList())
+        );
+
+        printPeople("Sorted in ascending order by name: ",
+                people.stream()
+                        .sorted((person1, person2) ->
+                                person1.getName().compareTo(person2.getName()))
+                        .collect(toList()));
+        // Find min and max value
+        people.stream()
+                .min(Person::ageDifference)
+                .ifPresent(youngest -> System.out.println("Youngest: " + youngest));
+
+        people.stream()
+                .max(Person::ageDifference)
+                .ifPresent(eldest -> System.out.println("Eldest: " + eldest));
+
+        // Multiple and Fluent Comparisons
+
+        people.stream()
+                .sorted((person1, person2) ->
+                        person1.getName().compareTo(person2.getName()));
+
+        final Function<Person, String> byName = person -> person.getName();
+        people.stream()
+                .sorted(comparing(byName));
+
+        final Function<Person, Integer> byAge = person -> person.getAge();
+        final Function<Person, String> byTheirName = person -> person.getName();
+
+        printPeople("Sorted in ascending order by age and name: ",
+                people.stream()
+                        .sorted(comparing(byAge).thenComparing(byTheirName))
+                        .collect(toList()));
+
+        // Using the collect Method and the Collectors Class
+        List<Person> olderThan20 = new ArrayList<>();
+
+        people.stream()
+                .filter(person -> person.getAge() > 20)
+                .forEach(person -> olderThan20.add(person));
+        System.out.println("People older than 20: " + olderThan20);
+
+    }
+
+    public static void printPeople( final String message, final List<Person> people) {
+        System.out.println(message);
+        people.forEach(System.out::println);
+    }
+}
+
+class MyyComparator implements Comparator<Person> {
+
+    @Override
+    public int compare(Person p1, Person p2) {
+        Integer i1 = p1.getAge();
+        Integer i2 = p2.getAge();
+        return i1.compareTo(i2);
+    }
+}
+
+```
+
+
 ### The collect() method takes a stream of elements and collects or gathers them into a result container.
 
 • How to make a result container (for example, using the ArrayList::new method)
-• How to add a single element to a result container (for example, using the
-ArrayList::add method)
+
+• How to add a single element to a result container (for example, using the ArrayList::add method)
+
 • How to merge one result
 ```java
 List<Person> olderThan20 =
@@ -723,6 +857,96 @@ Files.newDirectoryStream(
             .forEach(System.out::println);
 ```
 fpij/Compare.java
+
 fpij/IterateString.java
+
 fpij/ListDirs.java
 
+## Assert.java
+
+```java
+package Java8NewFeaturesdurgasoft.functionalProgrammingBook;
+
+public class Asset {
+    public enum AssetType { BOND, STOCK };
+    private final AssetType type;
+    private final int value;
+    public Asset(final AssetType assetType, final int assetValue) {
+        type = assetType;
+        value = assetValue;
+    }
+    public AssetType getType() { return type; }
+    public int getValue() { return value; }
+}
+```
+## AssertUtils.java
+```java
+package Java8NewFeaturesdurgasoft.functionalProgrammingBook;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class AssetUtils {
+
+    public static int totalAssetValues(final List<Asset> assets) {
+        return assets.stream()
+                .mapToInt(Asset::getValue)
+                .sum();
+    }
+
+    public static void main(String[] args) {
+        final List<Asset> assets = Arrays.asList(
+                new Asset(Asset.AssetType.BOND, 1000),
+                new Asset(Asset.AssetType.BOND, 2000),
+                new Asset(Asset.AssetType.STOCK, 3000),
+                new Asset(Asset.AssetType.STOCK, 4000)
+        );
+
+        System.out.println("Total of all assets :"+ totalAssetValues(assets));
+
+
+    }
+}
+```
+
+It’s tangled with three concerns:
+
+
+1. How to iterate, 
+2. what to total, and 
+3. How to total. 
+
+This entangled logic will result in poor reuse
+
+## Imagine we’re asked to total only the bond assets
+
+Copy the code and reuse
+
+```java
+
+public static int totalBondValues(final List<Asset> assets) {
+    return assets.stream()
+        .mapToInt(asset ->
+                    asset.getType() == AssetType.BOND ? asset.getValue() : 0)
+        .sum();
+}
+```
+## we’re asked to total only stocks
+```java
+public static int totalStockValues(final List<Asset> assets) {
+    return assets.stream()
+            .mapToInt(asset ->
+                asset.getType() == AssetType.STOCK ? asset.getValue() : 0)
+            .sum();
+}
+
+```
+Hey, it works and we even used lambda expressions. Time to call it done and
+celebrate?
+
+# Refactoring to Separate a Key Concern
+
+# A Peek into the default method:
+Let’s examine their behavior
+
+## The Java compiler follows a few simple rules to resolve default methods:

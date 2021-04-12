@@ -862,4 +862,91 @@ fpij/IterateString.java
 
 fpij/ListDirs.java
 
+## Assert.java
 
+```java
+package Java8NewFeaturesdurgasoft.functionalProgrammingBook;
+
+public class Asset {
+    public enum AssetType { BOND, STOCK };
+    private final AssetType type;
+    private final int value;
+    public Asset(final AssetType assetType, final int assetValue) {
+        type = assetType;
+        value = assetValue;
+    }
+    public AssetType getType() { return type; }
+    public int getValue() { return value; }
+}
+```
+## AssertUtils.java
+```java
+package Java8NewFeaturesdurgasoft.functionalProgrammingBook;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class AssetUtils {
+
+    public static int totalAssetValues(final List<Asset> assets) {
+        return assets.stream()
+                .mapToInt(Asset::getValue)
+                .sum();
+    }
+
+    public static void main(String[] args) {
+        final List<Asset> assets = Arrays.asList(
+                new Asset(Asset.AssetType.BOND, 1000),
+                new Asset(Asset.AssetType.BOND, 2000),
+                new Asset(Asset.AssetType.STOCK, 3000),
+                new Asset(Asset.AssetType.STOCK, 4000)
+        );
+
+        System.out.println("Total of all assets :"+ totalAssetValues(assets));
+
+
+    }
+}
+```
+
+It’s tangled with three concerns:
+
+
+1. How to iterate, 
+2. what to total, and 
+3. How to total. 
+
+This entangled logic will result in poor reuse
+
+## Imagine we’re asked to total only the bond assets
+
+Copy the code and reuse
+
+```java
+
+public static int totalBondValues(final List<Asset> assets) {
+    return assets.stream()
+        .mapToInt(asset ->
+                    asset.getType() == AssetType.BOND ? asset.getValue() : 0)
+        .sum();
+}
+```
+## we’re asked to total only stocks
+```java
+public static int totalStockValues(final List<Asset> assets) {
+    return assets.stream()
+            .mapToInt(asset ->
+                asset.getType() == AssetType.STOCK ? asset.getValue() : 0)
+            .sum();
+}
+
+```
+Hey, it works and we even used lambda expressions. Time to call it done and
+celebrate?
+
+# Refactoring to Separate a Key Concern
+
+# A Peek into the default method:
+Let’s examine their behavior
+
+## The Java compiler follows a few simple rules to resolve default methods:
