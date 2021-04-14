@@ -16,8 +16,6 @@ public class _4_WriteIntoFiles {
 			Files.write(donePath, string.getBytes());
 			
 			
-			
-			
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
