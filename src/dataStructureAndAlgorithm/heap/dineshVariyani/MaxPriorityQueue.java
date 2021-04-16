@@ -1,5 +1,6 @@
 package dataStructureAndAlgorithm.heap.dineshVariyani;
-
+// https://www.journaldev.com/44248/max-heap-java
+// https://www.youtube.com/watch?v=KmtpWB8Y_DA&list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d&index=116&ab_channel=DineshVaryani
 public class MaxPriorityQueue {
     private int size; // size of max heap
     private Integer[] heap;
@@ -87,6 +88,9 @@ public class MaxPriorityQueue {
         }
     }
 
+
+
+
     private void swap(int parent, int rightChild) {
         int temp = heap[parent];
         heap[parent] = heap[rightChild];
@@ -113,7 +117,9 @@ public class MaxPriorityQueue {
         pq.printMaxHeap();
         System.out.println("\nMax Value is = " + pq.extractMax());
         pq.printMaxHeap();
+
     }
+
 
 
 }
