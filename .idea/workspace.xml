@@ -23,6 +23,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11001458-f75a-41cd-9a2d-e1951954f62b" name="Default Changelist" comment="file Io programs">
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/FindUnion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/_10_FindUnionAndIntersectionFromSortedDuplicateElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/_10_FindUnionAndIntersectionOfSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/_1_EverySegmentInSizeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/_2_FindMaximumAndMinimumElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/_3_ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/_4_InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/_4_SortTheGivenArray_BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/_6_FindOccurrenceOfAGivenNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/_7_Sorted_0_1_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/_8_RangeAndCoefficientOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/_9_MoveNegativeInFront.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/_FIndUnionAndIntersectionOfUnsortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/level2/AlternatePositiveAndNegativeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/level2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/level2/_10_RearrangeArrayNegativeAndPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/level2/_1CyclicallyRotateAnArrayByOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/level2/_2_FIndMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/level2/_3_CountPairWithGivenSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/level2/_4_FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/level2/_6_FindCommonElementsInThreeSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/level2/_7_FirstRepeatingElementInAnArrayOfIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/level2/_8_FirstNonRepeatingElementInAnArrayOfIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array_important_50_geeksforgeeks/level2/_9_FindLargestThreeElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackingTheCoadingInterview/arraysAndString/_1_UniqueCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Class/String/_0_StringImmutable.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Class/String/_0_StringImmutable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Class/String/_10_StringConcat.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Class/String/_10_StringConcat.class" afterDir="false" />
@@ -768,7 +793,6 @@
       <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/heap/MaxHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/heap/MaxHeap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/heap/MyHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/heap/MyHeap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/heap/dineshVariyani/HeapSortAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/heap/dineshVariyani/HeapSortAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/heap/dineshVariyani/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/heap/dineshVariyani/MaxPriorityQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dataStructureAndAlgorithm/heap/dineshVariyani/MaxPriorityQueue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/dateTime/_1_GetCurrentDateAndTimeInDefaultFormat.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dateTime/_1_GetCurrentDateAndTimeInDefaultFormat.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/dateTime/_2_GetCurrentDateAndTimeWithPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dateTime/_2_GetCurrentDateAndTimeWithPattern.class" afterDir="false" />
@@ -1182,7 +1206,22 @@
       <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/maximumRepeatedString/_2_Progra.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/maximumRepeatedString/_2_Progra.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/reverseAndRotation/GFG.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/reverseAndRotation/GFG.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/interviewQuestions/stringSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interviewQuestions/stringSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/june10_2020/Problem1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/june10_2020/Problem1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/june10_2020/Problem10.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/june10_2020/Problem10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/june10_2020/Problem11.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/june10_2020/Problem11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/june10_2020/Problem2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/june10_2020/Problem2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/june10_2020/Problem3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/june10_2020/Problem3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/june10_2020/Problem4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/june10_2020/Problem4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/june10_2020/Problem6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/june10_2020/Problem6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/june10_2020/Problem7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/june10_2020/Problem7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/june10_2020/Problem8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/june10_2020/Problem8.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/listOfList/CreateListOfList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/listOfList/CreateListOfList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nov11/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/nov11/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nov11/_4_Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/nov11/_4_Problem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nov18/_1_Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/nov18/_1_Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nov18/_3_Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/nov18/_3_Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nov18/_4_StringSort/_4_Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/nov18/_4_StringSort/_4_Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nov25/_1_MergeReverseOfTwoLinkedList/MergeSortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/nov25/_1_MergeReverseOfTwoLinkedList/MergeSortedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/oca/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oca/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/oca/ArrayDecleration.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oca/ArrayDecleration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/oca/ArrayListExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/oca/ArrayListExample.class" afterDir="false" />
@@ -1408,7 +1447,8 @@
       <change beforePath="$PROJECT_DIR$/bin/thread/synchronizedBlock/SyncBlockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/synchronizedBlock/SyncBlockDemo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/thread/yeilds/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/yeilds/MyThread.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/thread/yeilds/MyThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thread/yeilds/MyThreadDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/heap/dineshVariyani/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructureAndAlgorithm/heap/dineshVariyani/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortedArray_0_1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortedArray_0_1_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/_Sorted_0_1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/_Sorted_0_1_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1476,12 +1516,12 @@
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../coronavirus-tracker-application" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -1511,26 +1551,13 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.heap.dineshVariyani.HeapSort" />
+  <component name="RunManager" selected="Gradle./home/onik/Code/Java">
+    <configuration name="AlternatePositiveAndNegativeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_important_50_geeksforgeeks.level2.AlternatePositiveAndNegativeNumbers" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.heap.dineshVariyani.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeapSortAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.heap.dineshVariyani.HeapSortAlgorithm" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.heap.dineshVariyani.*" />
+          <option name="PATTERN" value="array_important_50_geeksforgeeks.level2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1539,11 +1566,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.heap.dineshVariyani.Main" />
+      <option name="MAIN_CLASS_NAME" value="array_important_50_geeksforgeeks.level2.Main" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.heap.dineshVariyani.*" />
+          <option name="PATTERN" value="array_important_50_geeksforgeeks.level2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1551,12 +1578,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.heap.MaxHeap" />
+    <configuration name="_10_RearrangeArrayNegativeAndPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_important_50_geeksforgeeks.level2._10_RearrangeArrayNegativeAndPositive" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.heap.*" />
+          <option name="PATTERN" value="array_important_50_geeksforgeeks.level2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1564,26 +1591,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxPriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructureAndAlgorithm.heap.dineshVariyani.MaxPriorityQueue" />
+    <configuration name="_9_FindLargestThreeElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_important_50_geeksforgeeks.level2._9_FindLargestThreeElement" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructureAndAlgorithm.heap.dineshVariyani.*" />
+          <option name="PATTERN" value="array_important_50_geeksforgeeks.level2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="/home/onik/Code/Java" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.HeapSortAlgorithm" />
-        <item itemvalue="Application.MaxPriorityQueue" />
+        <item itemvalue="Application._10_RearrangeArrayNegativeAndPositive" />
+        <item itemvalue="Application.AlternatePositiveAndNegativeNumbers" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MaxHeap" />
+        <item itemvalue="Gradle./home/onik/Code/Java" />
+        <item itemvalue="Application._9_FindLargestThreeElement" />
       </list>
     </recent_temporary>
   </component>
