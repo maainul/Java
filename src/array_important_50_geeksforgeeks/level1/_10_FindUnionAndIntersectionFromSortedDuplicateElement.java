@@ -1,4 +1,4 @@
-package array_important_50_geeksforgeeks;
+package array_important_50_geeksforgeeks.level1;
 
 import java.util.Arrays;
 

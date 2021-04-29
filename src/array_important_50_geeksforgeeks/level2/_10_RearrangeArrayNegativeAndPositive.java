@@ -1,5 +1,5 @@
 package array_important_50_geeksforgeeks.level2;
-
+// https://www.techiedelight.com/rearrange-array-positive-negative-numbers-alternate-positions/
 import java.util.Arrays;
 
 public class _10_RearrangeArrayNegativeAndPositive {

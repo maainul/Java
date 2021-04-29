@@ -1,4 +1,4 @@
-package array_important_50_geeksforgeeks;
+package array_important_50_geeksforgeeks.level1;
 
 public class _7_Sorted_0_1_2 {
     public static void main(String[] args) {

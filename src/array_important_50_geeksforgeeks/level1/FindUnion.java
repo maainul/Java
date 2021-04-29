@@ -1,4 +1,4 @@
-package array_important_50_geeksforgeeks;
+package array_important_50_geeksforgeeks.level1;
 
 // Java program to find union of two
 // sorted arrays (Handling Duplicates)

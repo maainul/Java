@@ -1,8 +1,10 @@
 package array_important_50_geeksforgeeks.level2;
 
+// https://www.techiedelight.com/rearrange-array-positive-negative-numbers-alternate-positions/
+
 import java.util.Arrays;
 
-public class Main {
+public class _10_RearrangePosAndNegUsingQuickSort {
     // Partitioning routine of Quicksort
     public static int partition(int[] A) {
         int j = 0;
@@ -20,7 +22,6 @@ public class Main {
                 j++;
             }
         }
-
         // holds the index of the first positive element
         return j;
     }
@@ -38,7 +39,7 @@ public class Main {
         // element till the end of the array is reached, or all negative or
         // positive elements are exhausted.
 
-        for (int n = 0; (p < A.length && n < p); p++, n += 2) {
+        for (int n = 1; (p < A.length && n < p); p++, n += 2) {
             // swap `A[n]` with `A[p]`
             int temp = A[n];
             A[n] = A[p];
@@ -54,4 +55,5 @@ public class Main {
         // print the rearranged array
         System.out.println(Arrays.toString(A));
     }
+
 }

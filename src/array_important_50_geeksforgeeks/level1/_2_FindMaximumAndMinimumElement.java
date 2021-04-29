@@ -1,4 +1,4 @@
-package array_important_50_geeksforgeeks;
+package array_important_50_geeksforgeeks.level1;
 
 public class _2_FindMaximumAndMinimumElement {
     public static void main(String[] args) {
